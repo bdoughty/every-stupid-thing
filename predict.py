@@ -53,9 +53,16 @@ def load_shows_and_plays():
 
 
 def build_rows(shows, played):
-    """One row per (show, previously-debuted song), features as of that night."""
+    """One row per (show, previously-debuted song), features as of that night.
+
+    Also returns a `snapshot` frame: the same features computed for a
+    hypothetical *next* show continuing the last observed tour — this is
+    exactly the pre-show state the loop would compute for show t=len(shows),
+    so it's reused as-is for "predict the next show" (webapp, report).
+    """
     songs = sorted({k for s in played.values() for k in s})
     idx = {k: i for i, k in enumerate(songs)}
+    songs_arr = np.array(songs, object)
     n = len(songs)
 
     alphas = {h: 0.5 ** (1.0 / h) for h in HALF_LIVES}
@@ -72,6 +79,26 @@ def build_rows(shows, played):
     tour_show_count = 0
     chunks = []
 
+    def feature_block(cand, t, date, is_special_show):
+        feats = {
+            "song_key": songs_arr[cand],
+            "shows_since_last": t - last_t[cand],
+            "played_last_show": (last_t[cand] == t - 1).astype(float),
+            "career_rate": n_plays[cand] / np.maximum(t - first_t[cand], 1),
+            "song_age_years": ((np.datetime64(date) - first_date[cand]) / np.timedelta64(1, "D")) / 365.25,
+            "tour_rate": tour_plays[cand] / max(tour_show_count, 1),
+            "in_tour_pool": (tour_plays[cand] > 0).astype(float),
+            "is_special_show": float(is_special_show),
+        }
+        for h in HALF_LIVES:
+            with np.errstate(invalid="ignore"):
+                feats[f"ewma_{h}"] = np.where(
+                    ewma_norm[h][cand] > 0, ewma_count[h][cand] / ewma_norm[h][cand], 0.0
+                )
+        df = pd.DataFrame(feats)
+        df["new_material"] = (df.song_age_years < NEW_MATERIAL_YEARS).astype(float)
+        return df
+
     for t, show in enumerate(shows.itertuples()):
         tonight = played.get(show.show_id, set())
         y_idx = np.array([idx[k] for k in tonight], int)
@@ -85,30 +112,11 @@ def build_rows(shows, played):
 
         cand = np.flatnonzero(debuted)
         if cand.size:
+            df = feature_block(cand, t, show.date, isinstance(show.show_type, str))
+            df["show_id"], df["date"], df["t"] = show.show_id, show.date, t
             y = np.zeros(cand.size, bool)
             y[np.isin(cand, y_idx)] = True
-            feats = {
-                "show_id": show.show_id,
-                "date": show.date,
-                "t": t,
-                "song_key": np.array(songs, object)[cand],
-                "played": y,
-                "shows_since_last": t - last_t[cand],
-                "played_last_show": (last_t[cand] == t - 1).astype(float),
-                "career_rate": n_plays[cand] / np.maximum(t - first_t[cand], 1),
-                "song_age_years": ((np.datetime64(show.date) - first_date[cand]) / np.timedelta64(1, "D")) / 365.25,
-                "new_material": None,  # filled below
-                "tour_rate": tour_plays[cand] / max(tour_show_count, 1),
-                "in_tour_pool": (tour_plays[cand] > 0).astype(float),
-                "is_special_show": float(isinstance(show.show_type, str)),
-            }
-            for h in HALF_LIVES:
-                with np.errstate(invalid="ignore"):
-                    feats[f"ewma_{h}"] = np.where(
-                        ewma_norm[h][cand] > 0, ewma_count[h][cand] / ewma_norm[h][cand], 0.0
-                    )
-            df = pd.DataFrame(feats)
-            df["new_material"] = (df.song_age_years < NEW_MATERIAL_YEARS).astype(float)
+            df["played"] = y
             chunks.append(df)
 
         # --- update state with tonight's setlist (after features) ---
@@ -132,7 +140,12 @@ def build_rows(shows, played):
             tour_plays[y_idx] += 1
         tour_show_count += 1
 
-    return pd.concat(chunks, ignore_index=True)
+    rows = pd.concat(chunks, ignore_index=True)
+
+    last_date = shows.date.iloc[-1]
+    snapshot = feature_block(np.flatnonzero(debuted), len(shows), last_date, is_special_show=False)
+    snapshot["as_of_date"], snapshot["tour"] = last_date, current_tour
+    return rows, snapshot
 
 
 def topn_overlap(df, prob_col):
@@ -156,10 +169,16 @@ def evaluate(df, prob_col):
     }
 
 
+def score(model, scaler, feat_cols, df):
+    Xf = df[feat_cols].copy()
+    Xf["shows_since_last"] = np.log1p(Xf["shows_since_last"])
+    return model.predict_proba(scaler.transform(Xf))[:, 1]
+
+
 def main():
     shows, played = load_shows_and_plays()
     print(f"{len(shows)} shows with dated setlists")
-    rows = build_rows(shows, played)
+    rows, snapshot = build_rows(shows, played)
     print(f"{len(rows):,} (show, song) rows, {rows.played.mean():.1%} positive")
 
     test_mask = rows.date >= TEST_START
@@ -178,13 +197,14 @@ def main():
         f"ewma_{best_h}", "shows_since_last", "played_last_show", "career_rate",
         "song_age_years", "new_material", "tour_rate", "in_tour_pool", "is_special_show",
     ]
-    Xf = rows[feat_cols].copy()
-    Xf["shows_since_last"] = np.log1p(Xf["shows_since_last"])
-    scaler = StandardScaler().fit(Xf[~test_mask])
+    Xf_train = rows.loc[~test_mask, feat_cols].copy()
+    Xf_train["shows_since_last"] = np.log1p(Xf_train["shows_since_last"])
+    scaler = StandardScaler().fit(Xf_train)
     model = LogisticRegression(max_iter=2000)
-    model.fit(scaler.transform(Xf[~test_mask]), rows.played[~test_mask])
-    rows["p_model"] = model.predict_proba(scaler.transform(Xf))[:, 1]
+    model.fit(scaler.transform(Xf_train), rows.played[~test_mask])
+    rows["p_model"] = score(model, scaler, feat_cols, rows)
     rows["p_baseline"] = rows[f"ewma_{best_h}"]
+    snapshot["p_model"] = score(model, scaler, feat_cols, snapshot)
 
     print("\n=== Test-era performance (shows from %s) ===" % TEST_START)
     test = rows[test_mask]
@@ -197,6 +217,31 @@ def main():
     print("\n=== Coefficients (standardized) ===")
     coefs = pd.Series(model.coef_[0], index=feat_cols).sort_values(key=abs, ascending=False)
     print(coefs.round(3).to_string())
+    coef_df = pd.DataFrame({
+        "feature": feat_cols,
+        "coef_standardized": model.coef_[0],
+        "scaler_mean": scaler.mean_,
+        "scaler_scale": scaler.scale_,
+    })
+    coef_df.loc[len(coef_df)] = ["intercept", model.intercept_[0], 0.0, 1.0]
+    coef_df.to_csv(OUT / "model_coefficients.csv", index=False)
+
+    # --- most surprising actual plays in the test era: model gave them low ---
+    # probability, they happened anyway (excludes debut plays, which have no
+    # prior history to be "surprising" against).
+    surprising = (
+        test[test.played]
+        .assign(surprisal=lambda d: -np.log(d.p_model.clip(EPS, 1 - EPS)))
+        .sort_values("surprisal", ascending=False)
+    )
+    surprising[["show_id", "date", "song_key", "p_model", "surprisal"]].to_csv(
+        OUT / "surprising_plays.csv", index=False
+    )
+    print(f"\n=== Most surprising plays (test era; model didn't see it coming) ===")
+    print(
+        surprising.head(10)[["show_id", "song_key", "p_model"]]
+        .to_string(index=False, formatters={"p_model": "{:.3f}".format})
+    )
 
     # --- example: most recent show ---
     last_id = test.sort_values("date").show_id.iloc[-1]
@@ -210,8 +255,19 @@ def main():
 
     keep = ["show_id", "date", "song_key", "played", "p_baseline", "p_model"]
     rows.loc[test_mask, keep].to_csv(OUT / "model_test_predictions.csv", index=False)
-    print(f"\nWrote analysis/model_test_predictions.csv "
-          f"({int(test_mask.sum()):,} test rows)")
+
+    # --- "predict the next show" snapshot, for the report and webapp ---
+    snap_out = snapshot.sort_values("p_model", ascending=False)
+    snap_out.to_csv(OUT / "next_show_snapshot.csv", index=False)
+    print(f"\n=== If the next show continues '{snapshot.tour.iloc[0]}' "
+          f"(as of {pd.Timestamp(snapshot.as_of_date.iloc[0]):%Y-%m-%d}) ===")
+    print(
+        snap_out.head(15)[["song_key", "p_model"]]
+        .to_string(index=False, formatters={"p_model": "{:.2f}".format})
+    )
+
+    print(f"\nWrote analysis/model_test_predictions.csv ({int(test_mask.sum()):,} test rows), "
+          f"model_coefficients.csv, surprising_plays.csv, next_show_snapshot.csv")
 
 
 if __name__ == "__main__":

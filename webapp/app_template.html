@@ -1,0 +1,601 @@
+<title>The Mountain Goats — Live Archive</title>
+<style>
+  :root {
+    --paper: #f2eee1;
+    --paper-raised: #fbf9f2;
+    --paper-sunken: #e9e3d1;
+    --ink: #211c15;
+    --ink-soft: #5b5445;
+    --ink-faint: #8a8270;
+    --rule: #d8d0ba;
+    --accent: #b8412a;
+    --accent-strong: #8f3020;
+    --accent-soft: #e7c9bc;
+    --good: #3f6e4c;
+    --bar-track: #e4ddc8;
+    --focus: #2a5fb8;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      --paper: #17140f;
+      --paper-raised: #201b13;
+      --paper-sunken: #120f0a;
+      --ink: #f3ede0;
+      --ink-soft: #b9ae95;
+      --ink-faint: #7e7663;
+      --rule: #3a3324;
+      --accent: #e0693f;
+      --accent-strong: #f08355;
+      --accent-soft: #4a2c20;
+      --good: #6fae7f;
+      --bar-track: #332c1e;
+      --focus: #6ea0f2;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #17140f;
+    --paper-raised: #201b13;
+    --paper-sunken: #120f0a;
+    --ink: #f3ede0;
+    --ink-soft: #b9ae95;
+    --ink-faint: #7e7663;
+    --rule: #3a3324;
+    --accent: #e0693f;
+    --accent-strong: #f08355;
+    --accent-soft: #4a2c20;
+    --good: #6fae7f;
+    --bar-track: #332c1e;
+    --focus: #6ea0f2;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .mono {
+    font-family: ui-monospace, "SF Mono", "Menlo", "Consolas", "Liberation Mono", monospace;
+  }
+  ::selection { background: var(--accent-soft); }
+  a { color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  button, input { font-family: inherit; font-size: inherit; color: inherit; }
+
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 20px 64px; }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    padding: 40px 20px 22px;
+    border-bottom: 1px dashed var(--rule);
+    margin-bottom: 28px;
+  }
+  .masthead-inner { max-width: 900px; margin: 0 auto; }
+  .eyebrow {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+  h1.headline {
+    font-family: ui-monospace, "SF Mono", "Menlo", monospace;
+    font-weight: 700;
+    font-size: clamp(28px, 5.2vw, 42px);
+    letter-spacing: -0.01em;
+    margin: 0 0 10px;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+  .tagline {
+    color: var(--ink-soft);
+    font-size: 15.5px;
+    max-width: 62ch;
+    margin: 0 0 22px;
+  }
+  .stat-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px 34px;
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-strip .stat { display: flex; flex-direction: column; gap: 2px; }
+  .stat .n { font-size: 20px; font-weight: 700; color: var(--ink); }
+  .stat .label {
+    font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint);
+  }
+
+  /* ---------- tabs ---------- */
+  .tabs {
+    display: flex; gap: 4px; overflow-x: auto;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 24px;
+  }
+  .tab-btn {
+    background: none; border: none; cursor: pointer;
+    padding: 10px 16px 12px;
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint);
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+    transition: color .15s ease, border-color .15s ease;
+  }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-btn[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+  @media (prefers-reduced-motion: reduce) { .tab-btn { transition: none; } }
+
+  .panel { display: none; }
+  .panel[data-active="true"] { display: block; animation: fade .25s ease; }
+  @keyframes fade { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .panel[data-active="true"] { animation: none; } }
+
+  /* ---------- shared components ---------- */
+  .card {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 20px;
+  }
+  .field-label {
+    display: block; font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink-faint); margin-bottom: 6px;
+  }
+  input[type="text"] {
+    width: 100%; background: var(--paper-sunken); border: 1px solid var(--rule);
+    border-radius: 2px; padding: 9px 11px; color: var(--ink);
+  }
+  input[type="text"]::placeholder { color: var(--ink-faint); }
+  .search-row { margin-bottom: 18px; }
+  .hint { color: var(--ink-faint); font-size: 12.5px; margin-top: 6px; }
+
+  .empty-state {
+    color: var(--ink-faint); font-size: 14px; padding: 30px 10px; text-align: center;
+    border: 1px dashed var(--rule); border-radius: 3px;
+  }
+
+  .pill {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-family: ui-monospace, "SF Mono", monospace; font-size: 10.5px;
+    letter-spacing: 0.04em; text-transform: uppercase;
+    padding: 2px 8px; border-radius: 20px;
+    border: 1px solid var(--rule); color: var(--ink-soft);
+  }
+  .pill.accent { border-color: var(--accent); color: var(--accent); }
+  .pill.good { border-color: var(--good); color: var(--good); }
+
+  .result-list { display: flex; flex-direction: column; gap: 1px; margin-top: 10px; max-height: 340px; overflow-y: auto; border: 1px solid var(--rule); border-radius: 3px; }
+  .result-row {
+    background: var(--paper-raised); border: none; text-align: left; cursor: pointer;
+    padding: 9px 12px; display: flex; justify-content: space-between; gap: 10px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .result-row:last-child { border-bottom: none; }
+  .result-row:hover, .result-row:focus-visible { background: var(--paper-sunken); }
+  .result-row .t { color: var(--ink); }
+  .result-row .m { color: var(--ink-faint); font-size: 12.5px; font-family: ui-monospace, monospace; white-space: nowrap; }
+
+  /* ---------- song explorer ---------- */
+  .song-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px 20px; margin-bottom: 4px; }
+  .song-head h2 { margin: 0; font-size: 22px; font-weight: 700; }
+  .song-stats { display: flex; flex-wrap: wrap; gap: 16px 26px; margin: 14px 0 22px; font-family: ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+  .song-stats .stat .n { font-size: 16px; }
+
+  .chart-wrap { margin: 20px 0 26px; }
+  .chart-caption { color: var(--ink-faint); font-size: 12px; margin-top: 6px; }
+  svg.traj text { font-family: ui-monospace, monospace; font-size: 10.5px; fill: var(--ink-faint); }
+  svg.traj .grid { stroke: var(--rule); stroke-width: 1; }
+  svg.traj .axis { stroke: var(--rule); stroke-width: 1; }
+  svg.traj .line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  svg.traj .dot { fill: var(--accent); }
+
+  .video-list { display: flex; flex-direction: column; gap: 1px; margin-top: 8px; }
+  .video-row {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    padding: 9px 4px; border-bottom: 1px solid var(--rule); font-size: 13.5px;
+  }
+  .video-row:last-child { border-bottom: none; }
+  .video-row .where { color: var(--ink-soft); }
+  .video-row .links a { margin-left: 10px; font-family: ui-monospace, monospace; font-size: 12px; text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+  .video-row .links a:hover { border-bottom-color: var(--accent); }
+  .quickpicks { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .quickpick {
+    background: var(--paper-sunken); border: 1px solid var(--rule); border-radius: 20px;
+    padding: 5px 12px; font-size: 12.5px; cursor: pointer; color: var(--ink-soft);
+  }
+  .quickpick:hover { color: var(--ink); border-color: var(--accent); }
+
+  /* ---------- show browser ---------- */
+  .show-header { margin-bottom: 18px; }
+  .show-header .venue { font-size: 21px; font-weight: 700; margin: 4px 0 6px; }
+  .show-header .meta-line { color: var(--ink-soft); font-size: 14px; }
+  .badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+
+  .setlist-group { margin-top: 20px; }
+  .setlist-group h3 {
+    font-family: ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--ink-faint); margin: 0 0 8px;
+    border-bottom: 1px solid var(--rule); padding-bottom: 6px;
+  }
+  .setlist-row { display: flex; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--rule); align-items: baseline; }
+  .setlist-row:last-child { border-bottom: none; }
+  .setlist-row .num { font-family: ui-monospace, monospace; color: var(--ink-faint); font-size: 12.5px; width: 22px; flex-shrink: 0; text-align: right; }
+  .setlist-row .song-link { background: none; border: none; padding: 0; color: var(--ink); font-size: 14.5px; cursor: pointer; text-align: left; }
+  .setlist-row .song-link:hover { color: var(--accent); }
+  .setlist-row .album { color: var(--ink-faint); font-size: 12.5px; font-style: italic; }
+  .setlist-row .note { color: var(--ink-soft); font-size: 12.5px; }
+  .setlist-row .vlink { margin-left: auto; font-size: 11.5px; font-family: ui-monospace, monospace; flex-shrink: 0; }
+
+  .notes-block { margin-top: 22px; padding-top: 16px; border-top: 1px dashed var(--rule); }
+  .notes-block h3 { font-family: ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); margin: 0 0 10px; }
+  .notes-block ul { margin: 0; padding-left: 18px; color: var(--ink-soft); font-size: 13.5px; line-height: 1.6; }
+
+  /* ---------- predictor ---------- */
+  .predictor-meta { color: var(--ink-soft); font-size: 14px; margin-bottom: 20px; }
+  .predictor-meta b { color: var(--ink); }
+  .bar-row { display: grid; grid-template-columns: 1fr 88px 46px; align-items: center; gap: 10px; padding: 6px 0; }
+  .bar-row .name { font-size: 13.5px; display: flex; align-items: center; gap: 8px; }
+  .bar-track { background: var(--bar-track); border-radius: 3px; height: 9px; overflow: hidden; }
+  .bar-fill { background: var(--accent); height: 100%; border-radius: 3px 0 0 3px; }
+  .bar-pct { font-family: ui-monospace, monospace; font-size: 12px; color: var(--ink-soft); text-align: right; font-variant-numeric: tabular-nums; }
+
+  .local-fav-row { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid var(--rule); font-size: 13.5px; }
+  .local-fav-row:last-child { border-bottom: none; }
+  .local-fav-row .n { font-family: ui-monospace, monospace; color: var(--ink-faint); font-size: 12px; }
+
+  .section-gap { margin-top: 28px; }
+  .disclaimer { color: var(--ink-faint); font-size: 12px; margin-top: 22px; line-height: 1.6; }
+
+  footer { text-align: center; color: var(--ink-faint); font-size: 12px; margin-top: 50px; font-family: ui-monospace, monospace; }
+
+  @media (max-width: 560px) {
+    .masthead { padding: 28px 16px 18px; }
+    .bar-row { grid-template-columns: 1fr 70px 40px; }
+  }
+</style>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <p class="eyebrow">Unofficial fan archive · not affiliated with the band</p>
+    <h1 class="headline">The Mountain Goats, Every Night</h1>
+    <p class="tagline">Every documented live setlist, scraped from the fan-run wiki, searchable by song or by show — plus a model that guesses what's coming next.</p>
+    <div class="stat-strip" id="stat-strip"></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="tabs" role="tablist">
+    <button class="tab-btn" role="tab" data-tab="song" aria-selected="true">Song Explorer</button>
+    <button class="tab-btn" role="tab" data-tab="show" aria-selected="false">Show Browser</button>
+    <button class="tab-btn" role="tab" data-tab="predict" aria-selected="false">Next-Show Predictor</button>
+  </div>
+
+  <!-- SONG EXPLORER -->
+  <section class="panel" id="panel-song" data-active="true">
+    <div class="search-row">
+      <label class="field-label" for="song-input">Find a song</label>
+      <input type="text" id="song-input" list="song-datalist" placeholder="Start typing a title…" autocomplete="off">
+      <datalist id="song-datalist"></datalist>
+      <div class="quickpicks" id="song-quickpicks"></div>
+    </div>
+    <div id="song-detail"></div>
+  </section>
+
+  <!-- SHOW BROWSER -->
+  <section class="panel" id="panel-show">
+    <div class="search-row">
+      <label class="field-label" for="show-input">Find a show</label>
+      <input type="text" id="show-input" placeholder="Date, venue, city, or tour…" autocomplete="off">
+      <p class="hint">Showing most recent matches first.</p>
+      <div class="result-list" id="show-results"></div>
+    </div>
+    <div id="show-detail"></div>
+  </section>
+
+  <!-- PREDICTOR -->
+  <section class="panel" id="panel-predict">
+    <div id="predict-meta" class="predictor-meta"></div>
+    <div class="card">
+      <div id="predict-list"></div>
+    </div>
+
+    <div class="section-gap">
+      <label class="field-label" for="city-input">Know where you're going? Look up local favorites</label>
+      <input type="text" id="city-input" list="city-datalist" placeholder="City name…" autocomplete="off">
+      <datalist id="city-datalist"></datalist>
+      <div id="city-detail"></div>
+    </div>
+
+    <p class="disclaimer">This is a statistical estimate from a logistic-regression model trained on show history (recency, tour rotation, song age) — not an announced setlist. It assumes the next show continues the current tour as-is. Full methodology in the project write-up (report.md / report.pdf).</p>
+  </section>
+
+  <footer>built from themountaingoats.fandom.com/wiki/Category:Live_Shows</footer>
+</div>
+
+<script id="tmg-data" type="application/json">__APP_DATA__</script>
+<script>
+(function () {
+  "use strict";
+  const DATA = JSON.parse(document.getElementById("tmg-data").textContent);
+  const songByKey = new Map(DATA.songs.map(s => [s.key, s]));
+  const showIds = Object.keys(DATA.shows);
+
+  const esc = s => (s ?? "").toString().replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmtDate = iso => {
+    if (!iso) return "undated";
+    const d = new Date(iso + "T00:00:00Z");
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+  };
+  const fmtDateShort = iso => {
+    if (!iso) return "?";
+    const d = new Date(iso + "T00:00:00Z");
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+  };
+  const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
+
+  // ---------------- masthead stats ----------------
+  document.getElementById("stat-strip").innerHTML = [
+    [DATA.meta.n_shows.toLocaleString(), "shows"],
+    [DATA.meta.n_setlisted.toLocaleString(), "with setlists"],
+    [DATA.meta.n_performances.toLocaleString(), "performances"],
+    [DATA.meta.n_songs.toLocaleString(), "songs"],
+    [`${DATA.meta.date_min.slice(0,4)}–${DATA.meta.date_max.slice(0,4)}`, "span"],
+  ].map(([n, label]) => `<div class="stat"><div class="n">${n}</div><div class="label">${label}</div></div>`).join("");
+
+  // ---------------- tabs ----------------
+  document.querySelectorAll(".tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => activateTab(btn.dataset.tab));
+  });
+  function activateTab(name) {
+    document.querySelectorAll(".tab-btn").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === name)));
+    document.querySelectorAll(".panel").forEach(p => p.removeAttribute("data-active"));
+    document.getElementById(`panel-${name}`).setAttribute("data-active", "true");
+  }
+  function goToSong(key) { activateTab("song"); selectSong(key); document.getElementById("song-input").value = songByKey.get(key)?.title || ""; window.scrollTo({ top: 0, behavior: "smooth" }); }
+  function goToShow(id) { activateTab("show"); selectShow(id); window.scrollTo({ top: 0, behavior: "smooth" }); }
+  // Delegated click handling: cross-links are rendered as data-go-song /
+  // data-go-show attributes (not inline onclick) because show/song ids can
+  // contain apostrophes ("Munchie's", "Grendel's Mother") that would break
+  // out of a single-quoted JS string embedded in an HTML attribute.
+  document.addEventListener("click", e => {
+    const songBtn = e.target.closest("[data-go-song]");
+    if (songBtn) { goToSong(songBtn.dataset.goSong); return; }
+    const showBtn = e.target.closest("[data-go-show]");
+    if (showBtn) { goToShow(showBtn.dataset.goShow); return; }
+  });
+
+  // ================= SONG EXPLORER =================
+  const songInput = document.getElementById("song-input");
+  const songDatalist = document.getElementById("song-datalist");
+  const songDetail = document.getElementById("song-detail");
+
+  const songsAlpha = [...DATA.songs].sort((a, b) => a.title.localeCompare(b.title));
+  songDatalist.innerHTML = songsAlpha.map(s => `<option value="${esc(s.title)}">`).join("");
+
+  const topSongs = [...DATA.songs].sort((a, b) => b.plays - a.plays).slice(0, 8);
+  document.getElementById("song-quickpicks").innerHTML = topSongs
+    .map(s => `<button class="quickpick" data-key="${esc(s.key)}">${esc(s.title)}</button>`).join("");
+  document.querySelectorAll(".quickpick").forEach(b => b.addEventListener("click", () => {
+    songInput.value = songByKey.get(b.dataset.key).title;
+    selectSong(b.dataset.key);
+  }));
+
+  function resolveSong(text) {
+    const q = text.trim().toLowerCase();
+    if (!q) return null;
+    let hit = DATA.songs.find(s => s.title.toLowerCase() === q);
+    if (hit) return hit.key;
+    const starts = DATA.songs.filter(s => s.title.toLowerCase().startsWith(q));
+    if (starts.length) return starts.sort((a, b) => b.plays - a.plays)[0].key;
+    const inc = DATA.songs.filter(s => s.title.toLowerCase().includes(q));
+    if (inc.length) return inc.sort((a, b) => b.plays - a.plays)[0].key;
+    return null;
+  }
+  songInput.addEventListener("input", debounce(() => {
+    const key = resolveSong(songInput.value);
+    if (key) selectSong(key);
+    else if (!songInput.value.trim()) songDetail.innerHTML = "";
+    else songDetail.innerHTML = `<div class="empty-state">No song matches &ldquo;${esc(songInput.value)}&rdquo;.</div>`;
+  }, 160));
+
+  function buildTrajectorySVG(key) {
+    const rates = DATA.trajectories[key];
+    if (!rates) return null;
+    const quarters = DATA.trajectory_quarters;
+    const W = 640, H = 210, ML = 34, MR = 10, MT = 10, MB = 24;
+    const pw = W - ML - MR, ph = H - MT - MB;
+    const x = i => ML + (i / (quarters.length - 1)) * pw;
+    const y = r => MT + (1 - r) * ph;
+
+    let segs = [], cur = [];
+    rates.forEach((r, i) => {
+      if (r === null) { if (cur.length > 1) segs.push(cur); cur = []; return; }
+      cur.push([x(i), y(r)]);
+    });
+    if (cur.length > 1) segs.push(cur);
+    if (!segs.length) return null;
+
+    const toPath = pts => "M" + pts.map(p => p.join(",")).join("L");
+    const lines = segs.map(s => `<path class="line" d="${toPath(s)}"/>`).join("");
+    const lastSeg = segs[segs.length - 1];
+    const [lx, ly] = lastSeg[lastSeg.length - 1];
+    const dot = `<circle class="dot" cx="${lx}" cy="${ly}" r="3.5"/>`;
+
+    const gridY = [0, 0.25, 0.5, 0.75, 1].map(v => {
+      const gy = y(v);
+      return `<line class="grid" x1="${ML}" x2="${W-MR}" y1="${gy}" y2="${gy}"/><text x="${ML-6}" y="${gy+3}" text-anchor="end">${Math.round(v*100)}%</text>`;
+    }).join("");
+
+    const years = [...new Set(quarters.map(q => q.slice(0, 4)))];
+    const step = Math.max(1, Math.ceil(years.length / 7));
+    const ticks = [];
+    for (let i = 0; i < quarters.length; i++) {
+      if (quarters[i].slice(5, 7) === "01" && Number(quarters[i].slice(0, 4)) % step === 0) {
+        ticks.push([x(i), quarters[i].slice(0, 4)]);
+      }
+    }
+    const xAxis = `<line class="axis" x1="${ML}" x2="${W-MR}" y1="${H-MB}" y2="${H-MB}"/>` +
+      ticks.map(([tx, yr]) => `<text x="${tx}" y="${H-6}" text-anchor="middle">${yr}</text>`).join("");
+
+    return `<svg class="traj" viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="xMidYMid meet">${gridY}${xAxis}${lines}${dot}</svg>`;
+  }
+
+  function selectSong(key) {
+    const song = songByKey.get(key);
+    if (!song) return;
+    const svg = buildTrajectorySVG(key);
+    const vids = DATA.videos[key] || [];
+
+    let html = `<div class="song-head"><h2>${esc(song.title)}</h2>`;
+    if (song.album) html += `<span class="pill">${esc(song.album)}</span>`;
+    html += `</div>`;
+    html += `<div class="song-stats">
+      <div class="stat"><div class="n mono">${song.plays}</div><div class="label">performances</div></div>
+      <div class="stat"><div class="n mono">${song.shows}</div><div class="label">shows</div></div>
+      <div class="stat"><div class="n mono">${fmtDateShort(song.first)}</div><div class="label">first played</div></div>
+      <div class="stat"><div class="n mono">${fmtDateShort(song.last)}</div><div class="label">last played</div></div>
+      <div class="stat"><div class="n mono">${song.videos}</div><div class="label">videos linked</div></div>
+    </div>`;
+
+    if (svg) {
+      html += `<div class="chart-wrap card">${svg}<p class="chart-caption">p(played), trailing 2-year window, sampled quarterly.</p></div>`;
+    }
+
+    html += `<h3 class="mono" style="font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);margin:22px 0 4px;">Video performances</h3>`;
+    if (!vids.length) {
+      html += `<div class="empty-state">No videos linked on the wiki for this song yet.</div>`;
+    } else {
+      html += `<div class="video-list">` + vids.slice().reverse().map(v => `
+        <div class="video-row">
+          <span class="where"><button class="song-link mono" data-go-show="${esc(v.show_id)}" style="background:none;border:none;cursor:pointer;color:var(--ink);padding:0;font:inherit;">${esc(v.date)}</button> — ${esc(v.venue || "")}${v.city ? ", " + esc(v.city) : ""}</span>
+          <span class="links">${v.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">watch${v.urls.length > 1 ? " " + (i+1) : ""}</a>`).join("")}</span>
+        </div>`).join("") + `</div>`;
+    }
+    songDetail.innerHTML = html;
+  }
+
+  // ================= SHOW BROWSER =================
+  const showInput = document.getElementById("show-input");
+  const showResults = document.getElementById("show-results");
+  const showDetail = document.getElementById("show-detail");
+
+  function showLabel(id) {
+    const m = DATA.shows[id];
+    return `${m.date} — ${m.venue || "?"} — ${m.city || ""}${m.region ? ", " + m.region : ""}`;
+  }
+  function renderShowResults(query) {
+    const q = query.trim().toLowerCase();
+    let ids = showIds;
+    if (q) {
+      ids = showIds.filter(id => {
+        const m = DATA.shows[id];
+        return [m.date, m.venue, m.city, m.region, m.tour].some(f => f && f.toLowerCase().includes(q));
+      });
+    }
+    ids = ids.slice().sort().reverse().slice(0, 40);
+    showResults.innerHTML = ids.map(id =>
+      `<button class="result-row" data-id="${esc(id)}"><span class="t">${esc(DATA.shows[id].venue || id)}</span><span class="m">${esc(DATA.shows[id].date)}</span></button>`
+    ).join("") || `<div class="empty-state">No shows match.</div>`;
+    showResults.querySelectorAll(".result-row").forEach(b => b.addEventListener("click", () => selectShow(b.dataset.id)));
+  }
+  showInput.addEventListener("input", debounce(() => renderShowResults(showInput.value), 140));
+
+  function selectShow(id) {
+    const m = DATA.shows[id];
+    const setlist = DATA.setlists[id];
+    const notes = DATA.notes[id];
+
+    let html = `<div class="show-header card">`;
+    html += `<div class="meta-line mono">${esc(m.date)}</div>`;
+    html += `<div class="venue">${esc(m.venue || "Unknown venue")}</div>`;
+    html += `<div class="meta-line">${esc(m.city || "")}${m.region ? ", " + esc(m.region) : ""}</div>`;
+    html += `<div class="badge-row">`;
+    if (m.tour) html += `<span class="pill accent">${esc(m.tour)}</span>`;
+    if (m.type) html += `<span class="pill">${esc(m.type)}</span>`;
+    if (m.act && m.act !== "The Mountain Goats") html += `<span class="pill">${esc(m.act)}</span>`;
+    if (m.video) html += `<span class="pill good">has video</span>`;
+    html += `</div></div>`;
+
+    if (!setlist) {
+      html += `<div class="empty-state" style="margin-top:18px;">No setlist documented for this show yet.</div>`;
+    } else {
+      const groups = new Map();
+      setlist.forEach(row => { if (!groups.has(row.e)) groups.set(row.e, []); groups.get(row.e).push(row); });
+      [...groups.keys()].sort((a, b) => a - b).forEach(e => {
+        const label = e === 0 ? "Main Set" : `Encore ${e}`;
+        html += `<div class="setlist-group"><h3>${label}</h3>`;
+        groups.get(e).forEach(row => {
+          const song = DATA.songs[row.t];
+          const album = row.a !== null && row.a !== undefined ? DATA.albums[row.a] : null;
+          html += `<div class="setlist-row">
+            <span class="num">${row.s}.</span>
+            <button class="song-link" data-go-song="${esc(song.key)}">${esc(song.title)}</button>
+            ${album ? `<span class="album">${esc(album)}</span>` : ""}
+            ${row.n ? `<span class="note">(${esc(row.n)})</span>` : ""}
+            ${row.v ? `<span class="vlink"><a href="${esc(row.v[0])}" target="_blank" rel="noopener">watch</a></span>` : ""}
+          </div>`;
+        });
+        html += `</div>`;
+      });
+    }
+
+    if (notes && notes.length) {
+      html += `<div class="notes-block"><h3>Notes</h3><ul>${notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul></div>`;
+    }
+    showDetail.innerHTML = html;
+  }
+  renderShowResults("");
+
+  // ================= PREDICTOR =================
+  const pred = DATA.predictor;
+  document.getElementById("predict-meta").innerHTML =
+    `If the next show continues <b>${esc(pred.tour)}</b> — based on everything through <b>${fmtDate(pred.as_of)}</b>, here's what the model thinks is most likely to be played:`;
+
+  const topPredicted = pred.songs.slice(0, 30);
+  const topPredictedKeys = new Set(pred.songs.slice(0, 30).map(s => s.key));
+  document.getElementById("predict-list").innerHTML = topPredicted.map(s => {
+    const song = songByKey.get(s.key);
+    const pct = Math.round(s.p * 100);
+    return `<div class="bar-row">
+      <span class="name"><button class="song-link" data-go-song="${esc(s.key)}">${esc(song ? song.title : s.key)}</button></span>
+      <span class="bar-track"><span class="bar-fill" style="width:${pct}%"></span></span>
+      <span class="bar-pct">${pct}%</span>
+    </div>`;
+  }).join("");
+
+  const cityInput = document.getElementById("city-input");
+  const cityDatalist = document.getElementById("city-datalist");
+  const cityDetail = document.getElementById("city-detail");
+  const cityKeys = Object.keys(DATA.city_favorites).sort();
+  cityDatalist.innerHTML = cityKeys.map(c => `<option value="${esc(c)}">`).join("");
+
+  cityInput.addEventListener("input", debounce(() => {
+    const q = cityInput.value.trim();
+    const match = DATA.city_favorites[q] || DATA.city_favorites[cityKeys.find(c => c.toLowerCase() === q.toLowerCase())];
+    if (!match) { cityDetail.innerHTML = q ? `<div class="empty-state">No history yet for &ldquo;${esc(q)}&rdquo;.</div>` : ""; return; }
+    cityDetail.innerHTML = `<div class="card section-gap">
+      <p class="hint" style="margin:0 0 10px;">Top songs across ${match.n_shows} shows in ${esc(q)}${match.region ? ", " + esc(match.region) : ""}:</p>
+      ${match.songs.map(s => {
+        const song = songByKey.get(s.key);
+        const likely = topPredictedKeys.has(s.key) ? `<span class="pill good">likely this tour</span>` : "";
+        return `<div class="local-fav-row"><span><button class="song-link" data-go-song="${esc(s.key)}">${esc(song ? song.title : s.key)}</button> ${likely}</span><span class="n">${s.n}×</span></div>`;
+      }).join("")}
+    </div>`;
+  }, 160));
+
+  // initial state — a deliberate default, not the top song
+  const DEFAULT_SONG = songByKey.has("Going to Georgia") ? "Going to Georgia" : topSongs[0].key;
+  songInput.value = songByKey.get(DEFAULT_SONG).title;
+  selectSong(DEFAULT_SONG);
+})();
+</script>

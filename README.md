@@ -9,9 +9,15 @@ performance, built from the fan-maintained wiki at
 ```bash
 PY=/Users/bdoughty/opt/miniconda3/envs/tmg-scrape/bin/python
 
-$PY scrape.py fetch    # download/refresh the raw page cache (resumable, ~15 min cold)
-$PY scrape.py build    # parse cache -> data/*.csv (seconds, offline)
-$PY analyze.py         # starter analyses -> analysis/*.csv + printed report
+$PY scrape.py fetch      # download/refresh the raw page cache (resumable, ~15 min cold)
+$PY scrape.py build      # parse cache -> data/*.csv (seconds, offline)
+$PY analyze.py           # starter analyses -> analysis/*.csv + printed report
+$PY predict.py           # setlist-prediction model -> analysis/*.csv
+$PY timeseries.py        # song popularity-over-time -> analysis/song_timeseries*.csv
+$PY plot_report.py       # report figures -> analysis/plots/*.png
+$PY build_pdf.py         # report.pdf (mirrors report.md)
+$PY export_webapp.py     # bundle webapp/data.json from data/ + analysis/
+$PY build_webapp.py      # splice data.json into webapp/index.html
 ```
 
 Re-running `fetch` later only downloads new or edited pages (it compares
@@ -85,6 +91,33 @@ Per-show test predictions land in `analysis/model_test_predictions.csv`.
 - per-song opportunity-adjusted play rates with empirical-Bayes shrinkage and
   a deep-cut flag (`analysis/song_stats.csv`) — methodology in
   [docs/deep_cut_notes.md](docs/deep_cut_notes.md)
+
+## Song popularity over time (`timeseries.py`)
+
+Trailing 2-year play-rate curves per song, sampled monthly — a Google-Ngram
+analogue for setlists. Auto-picks illustrative trajectories (steady
+classics, rise-and-plateau, decline, fall-and-revival) into
+`analysis/timeseries_examples.json`; full series in
+`analysis/song_timeseries.csv` (monthly) and `_compact.csv` (quarterly,
+rounded, used by the webapp).
+
+## Report (`report.md` / `report.pdf`)
+
+A written summary of the whole project — the scraping gotchas, the deep-cut
+and trajectory analyses, and the prediction model's results — with the
+figures from `plot_report.py` embedded. `build_pdf.py` renders the PDF
+directly via reportlab (no pandoc/LaTeX dependency); keep it in sync with
+`report.md` by hand if you edit either.
+
+## Webapp (`webapp/`)
+
+A self-contained static page (data embedded inline, no server) with three
+tools: search a song for its video links and popularity trajectory, browse
+a show's setlist by encore with its wiki notes, and see the prediction
+model's guess at the next show plus city-level "local favorites." Rebuild
+with `export_webapp.py` then `build_webapp.py` after refreshing the data;
+`webapp/app_template.html` is the hand-edited source, `webapp/index.html`
+is the generated, publishable output.
 
 ## Caveats
 
