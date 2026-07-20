@@ -23,7 +23,7 @@ MIN_OPPORTUNITIES = 20  # eligibility filter for deep-cut flagging
 DEEP_CUT_QUANTILE = 0.25
 
 ENCORE_SHRINKAGE_K = 8  # pseudo-plays, empirical-Bayes toward the global encore rate
-MIN_PLAYS_FOR_ENCORE_RANK = 5  # eligibility filter for encore-rate ranking
+MIN_PLAYS_FOR_ENCORE_RANK = 10  # eligibility filter for encore-rate ranking
 
 
 def load():
@@ -113,6 +113,39 @@ def encore_stats(perfs):
     return stats.sort_values("n_tracked_plays", ascending=False), len(tracked_shows), global_rate
 
 
+POSITION_SHRINKAGE_K = 8  # pseudo-plays, empirical-Bayes toward the global mean position
+MIN_PLAYS_FOR_POSITION_RANK = 5
+
+
+def set_position_stats(shows, perfs):
+    """Per-song average position in the running order, 0 = opener, 1 =
+    closer, shrunk toward the global mean. Position is (seq-1)/(n_songs-1)
+    within that show's *full* running order (encores included -- seq counts
+    straight through them, same as encore_stats() above relies on). Shows
+    with only one song are excluded, since position is undefined there.
+    """
+    eligible_shows = shows.loc[shows.n_songs > 1, ["show_id", "n_songs"]]
+    p = perfs.merge(eligible_shows, on="show_id", how="inner")
+    p = p.assign(position=(p["seq"] - 1) / (p["n_songs"] - 1))
+
+    g = p.groupby("song_key")
+    stats = pd.DataFrame(
+        {
+            "song_title": g["song_canonical"].first(),
+            "n_plays": g["position"].count(),
+            "mean_position": g["position"].mean(),
+        }
+    ).reset_index()
+
+    global_mean = p["position"].mean()
+    k = POSITION_SHRINKAGE_K
+    stats["shrunk_position"] = (
+        stats["n_plays"] * stats["mean_position"] + k * global_mean
+    ) / (stats["n_plays"] + k)
+    stats["eligible"] = stats["n_plays"] >= MIN_PLAYS_FOR_POSITION_RANK
+    return stats.sort_values("n_plays", ascending=False), global_mean
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     shows, perfs = load()
@@ -183,9 +216,25 @@ def main():
         .to_string(index=False, formatters={"encore_rate_shrunk": "{:.1%}".format})
     )
 
+    position, global_position = set_position_stats(shows, perfs)
+    position.to_csv(OUT / "set_position.csv", index=False)
+    pos_elig = position[position.eligible]
+    print(f"\n=== Where in the set (0=opener, 1=closer; global mean {global_position:.2f}) ===")
+    print("--- Earliest-leaning songs ---")
+    print(
+        pos_elig.sort_values("shrunk_position").head(10)[["song_title", "n_plays", "shrunk_position"]]
+        .to_string(index=False, formatters={"shrunk_position": "{:.2f}".format})
+    )
+    print("--- Latest-leaning songs ---")
+    print(
+        pos_elig.sort_values("shrunk_position", ascending=False).head(10)
+        [["song_title", "n_plays", "shrunk_position"]]
+        .to_string(index=False, formatters={"shrunk_position": "{:.2f}".format})
+    )
+
     print(
         "\nWrote analysis/shows_per_year.csv, analysis/tours.csv, analysis/song_stats.csv, "
-        "analysis/encore_stats.csv"
+        "analysis/encore_stats.csv, analysis/set_position.csv"
     )
 
 

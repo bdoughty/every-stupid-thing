@@ -1,0 +1,47 @@
+name: Refresh live-show data
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"  # Mondays, 09:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run the pipeline
+        run: |
+          python scrape.py fetch
+          python scrape.py build
+          python analyze.py
+          python predict.py
+          python timeseries.py
+          python geocode_cities.py
+          python geography.py
+          python plot_report.py
+          python plot_map.py
+          python build_pdf.py
+          python export_webapp.py
+          python build_webapp.py
+
+      - name: Commit and push if the data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && echo "No changes." || (
+            git commit -m "Automated data refresh $(date -u +%Y-%m-%d)"
+            git push
+          )

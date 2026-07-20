@@ -193,6 +193,13 @@
 
   .chart-wrap { margin: 20px 0 26px; }
   .chart-caption { color: var(--ink-faint); font-size: 12px; margin-top: 6px; }
+  .position-card { margin: -6px 0 26px; }
+  .position-track { position: relative; height: 6px; border-radius: 3px; background: var(--rule); margin: 4px 2px; }
+  .position-marker {
+    position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%;
+    background: var(--accent); border: 2px solid var(--paper-raised); transform: translate(-50%, -50%);
+  }
+  .position-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--ink-faint); font-family: ui-monospace, monospace; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 4px; }
   svg.traj text { font-family: ui-monospace, monospace; font-size: 10.5px; fill: var(--ink-faint); }
   svg.traj .grid { stroke: var(--rule); stroke-width: 1; }
   svg.traj .axis { stroke: var(--rule); stroke-width: 1; }
@@ -318,11 +325,13 @@
       <label class="field-label" for="show-input">Find a show</label>
       <input type="text" id="show-input" placeholder="Date, venue, city, or tour…" autocomplete="off">
       <p class="hint">Showing most recent matches first.</p>
+    </div>
+    <div id="show-detail"></div>
+    <div class="search-row">
       <div class="result-list" id="show-results"></div>
       <p class="field-label" style="margin-top:16px;">Or jump to a surprising concert</p>
       <div class="quickpicks" id="surprising-quickpicks"></div>
     </div>
-    <div id="show-detail"></div>
   </section>
 
   <!-- PREDICTOR -->
@@ -363,10 +372,6 @@
       </div>
     </div>
 
-    <h3 class="section-h">Most surprising individual songs</h3>
-    <p class="hint" style="margin-top:-4px;">Specific (show, song) moments the model gave almost no chance to — and got played anyway. 2023+ only (the model's held-out test era).</p>
-    <div class="card" id="plays-surprising"></div>
-
     <h3 class="section-h">Most surprising full concerts</h3>
     <p class="hint" style="margin-top:-4px;">Whole setlists that defied the rotation top to bottom (10+ songs, so a single guest cameo can't dominate).</p>
     <div class="card" id="concerts-surprising"></div>
@@ -375,7 +380,7 @@
     <p class="hint" style="margin-top:-4px;" id="encore-tracked-note"></p>
     <div class="two-col section-gap">
       <div>
-        <h3 class="section-h">Main-set staples</h3>
+        <h3 class="section-h">Rarely an encore</h3>
         <div class="card" id="main-set-staples"></div>
       </div>
       <div>
@@ -383,6 +388,10 @@
         <div class="card" id="encore-leaders"></div>
       </div>
     </div>
+
+    <h3 class="section-h">Most surprising individual songs</h3>
+    <p class="hint" style="margin-top:-4px;">Specific (show, song) moments the model gave almost no chance to — and got played anyway. 2023+ only (the model's held-out test era).</p>
+    <div class="card" id="plays-surprising"></div>
   </section>
 
   <footer>
@@ -539,10 +548,22 @@
       <div class="stat"><div class="n mono">${fmtDateShort(song.first)}</div><div class="label">first played</div></div>
       <div class="stat"><div class="n mono">${fmtDateShort(song.last)}</div><div class="label">last played</div></div>
       <div class="stat"><div class="n mono">${song.videos}</div><div class="label">videos linked</div></div>
+      ${song.encore_rate !== undefined ? `<div class="stat" title="Empirical-Bayes shrunk, from the ${song.n_main + song.n_encore} times this song was played in a show with a known encore breakout"><div class="n mono">${(song.encore_rate * 100).toFixed(0)}%</div><div class="label">encore rate</div></div>` : ""}
     </div>`;
 
     if (svg) {
       html += `<div class="chart-wrap card">${svg}<p class="chart-caption">p(played), trailing 2-year window, sampled quarterly.</p></div>`;
+    }
+
+    if (song.set_position !== undefined) {
+      const pct = song.set_position * 100;
+      html += `<div class="card position-card">
+        <p class="chart-caption" style="margin:0 0 10px;">Typical spot in the running order, empirical-Bayes shrunk (from ${song.set_position_n} plays where the show's full length is known; encores count toward the end, same as the rest of the set).</p>
+        <div class="position-track">
+          <div class="position-marker" style="left:${pct.toFixed(1)}%;" title="${pct.toFixed(0)}% of the way through the show"></div>
+        </div>
+        <div class="position-labels"><span>Opener</span><span>Closer</span></div>
+      </div>`;
     }
 
     html += `<h3 class="mono" style="font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);margin:22px 0 4px;">Video performances</h3>`;
@@ -635,7 +656,7 @@
   }
   renderShowResults("");
 
-  document.getElementById("surprising-quickpicks").innerHTML = DATA.surprising_concerts.map(c => {
+  document.getElementById("surprising-quickpicks").innerHTML = DATA.surprising_concerts.slice(0, 6).map(c => {
     const m = DATA.shows[c.show_id];
     return `<button class="quickpick" data-go-show="${esc(c.show_id)}">${esc(m.venue || c.show_id)} — ${esc(m.date)} (${c.bits} bits)</button>`;
   }).join("");
@@ -716,7 +737,7 @@
   document.getElementById("main-set-staples").innerHTML = DATA.main_set_staples.map(s => `
     <div class="rank-row">
       <span><button class="song-link" data-go-song="${esc(s.key)}">${esc(s.title)}</button></span>
-      <span class="metric">${s.n_main} main-set${s.n_encore ? `, ${s.n_encore} encore` : ""}</span>
+      <span class="metric">${(s.rate * 100).toFixed(0)}% encore (${s.n_encore}/${s.n_main + s.n_encore})</span>
     </div>`).join("");
   document.getElementById("encore-leaders").innerHTML = DATA.encore_leaders.map(s => `
     <div class="rank-row">

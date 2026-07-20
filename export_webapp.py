@@ -67,6 +67,8 @@ def main():
     # --- songs index (search / autocomplete / video & trajectory lookup) ---
     # Built before setlists so setlist rows can reference songs/albums by
     # integer index instead of repeating title strings ~22.7k times.
+    encore = pd.read_csv(A / "encore_stats.csv").set_index("song_key")
+    position = pd.read_csv(A / "set_position.csv").set_index("song_key")
     songs_out = [
         {
             "key": r.song_key,
@@ -78,6 +80,23 @@ def main():
             "last": nn(r.last_played),
             "album": nn(r.album),
             "cover": bool(r.is_cover),
+            **(
+                {
+                    "n_main": int(encore.loc[r.song_key, "n_main"]),
+                    "n_encore": int(encore.loc[r.song_key, "n_encore"]),
+                    "encore_rate": round(float(encore.loc[r.song_key, "encore_rate_shrunk"]), 3),
+                }
+                if r.song_key in encore.index and bool(encore.loc[r.song_key, "eligible"])
+                else {}
+            ),
+            **(
+                {
+                    "set_position": round(float(position.loc[r.song_key, "shrunk_position"]), 3),
+                    "set_position_n": int(position.loc[r.song_key, "n_plays"]),
+                }
+                if r.song_key in position.index and bool(position.loc[r.song_key, "eligible"])
+                else {}
+            ),
         }
         for r in songs.itertuples()
     ]
@@ -148,12 +167,20 @@ def main():
     ]
 
     # --- main set vs. encore (analyze.py), restricted there to shows with a
-    # known encore breakout -- see encore_stats() docstring for why.
-    encore = pd.read_csv(A / "encore_stats.csv")
-    encore_elig = encore[encore.eligible]
+    # known encore breakout -- see encore_stats() docstring for why. (Same
+    # `encore` table loaded above for the per-song Song Explorer stat.)
+    # Both lists sort by the same shrunk encore_rate, from opposite ends --
+    # NOT by raw n_main count, which just re-ranks "most played overall"
+    # (a song can be enormously popular and still mostly an encore closer)
+    # and would let the same song show up "staple" in both directions.
+    encore_elig = encore.reset_index()
+    encore_elig = encore_elig[encore_elig.eligible]
     main_set_staples = [
-        {"key": r.song_key, "title": r.song_title, "n_main": int(r.n_main), "n_encore": int(r.n_encore)}
-        for r in encore_elig.sort_values("n_main", ascending=False).head(15).itertuples()
+        {
+            "key": r.song_key, "title": r.song_title, "n_main": int(r.n_main), "n_encore": int(r.n_encore),
+            "rate": round(float(r.encore_rate_shrunk), 3),
+        }
+        for r in encore_elig.sort_values("encore_rate_shrunk", ascending=True).head(15).itertuples()
     ]
     encore_leaders = [
         {
