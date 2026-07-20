@@ -12,6 +12,11 @@ available before that night:
   - tour_rate / in_tour_pool: how often the song has appeared on the
                  current tour so far (captures per-tour rotations)
   - show_type:   radio session / festival / tv (much shorter sets)
+  - is_solo:     whole-show John Darnielle solo set (conservative flag --
+                 see scrape.py's SOLO_NOTE_RE)
+  - city_song_rate: shrunk "does this song run hot in this city" rate --
+                 (city plays + k*global rate) / (city shows + k), k=8, so
+                 cities with little history collapse to the global rate
 
 Model: logistic regression on those features; compared against the EWMA
 baseline on a strict temporal split (test = shows from TEST_START on).
@@ -37,6 +42,8 @@ HALF_LIVES = [10, 25, 50, 100, 200]  # in shows; tuned on validation
 TEST_START = "2023-01-01"
 VAL_FRACTION = 0.2  # tail of the training era used to pick the half-life
 NEW_MATERIAL_YEARS = 1.5
+CITY_SHRINKAGE = 8  # equivalent shows of prior strength for city_song_rate
+MIN_SETLIST_FOR_SURPRISE = 10  # songs, for the "surprising concerts" ranking
 EPS = 1e-4
 
 
@@ -73,6 +80,10 @@ def build_rows(shows, played):
     songs_arr = np.array(songs, object)
     n = len(songs)
 
+    cities = sorted(shows.city.dropna().unique())
+    city_idx = {c: i for i, c in enumerate(cities)}
+    n_city = len(cities)
+
     alphas = {h: 0.5 ** (1.0 / h) for h in HALF_LIVES}
     ewma_count = {h: np.zeros(n) for h in HALF_LIVES}
     ewma_norm = {h: np.zeros(n) for h in HALF_LIVES}
@@ -82,12 +93,19 @@ def build_rows(shows, played):
     last_t = np.zeros(n, int)
     n_plays = np.zeros(n, int)
     tour_plays = np.zeros(n, int)
+    # City-level play counts (song x city) and per-city show counts, for a
+    # shrunk "does this song run hot in this city" feature. Raw counts only
+    # here -- shrinkage needs the chosen EWMA half-life, picked later in
+    # main(), so it's applied as a post-processing step on these columns.
+    city_song_plays = np.zeros((n, n_city), int)
+    city_shows = np.zeros(n_city, int)
 
     current_tour = object()
     tour_show_count = 0
     chunks = []
 
-    def feature_block(cand, t, date, is_special_show):
+    def feature_block(cand, t, date, is_special_show, is_solo, city):
+        ci = city_idx.get(city)
         feats = {
             "song_key": songs_arr[cand],
             "shows_since_last": t - last_t[cand],
@@ -97,6 +115,9 @@ def build_rows(shows, played):
             "tour_rate": tour_plays[cand] / max(tour_show_count, 1),
             "in_tour_pool": (tour_plays[cand] > 0).astype(float),
             "is_special_show": float(is_special_show),
+            "is_solo": float(is_solo),
+            "city_plays": city_song_plays[cand, ci] if ci is not None else np.zeros(cand.size, int),
+            "city_shows_count": np.full(cand.size, city_shows[ci] if ci is not None else 0),
         }
         for h in HALF_LIVES:
             with np.errstate(invalid="ignore"):
@@ -110,6 +131,7 @@ def build_rows(shows, played):
     for t, show in enumerate(shows.itertuples()):
         tonight = played.get(show.show_id, set())
         y_idx = np.array([idx[k] for k in tonight], int)
+        ci = city_idx.get(show.city)
 
         # NaN tour = untoured one-off; treat as its own tour (reset rotation).
         tour = show.tour if isinstance(show.tour, str) else f"__oneoff_{t}"
@@ -120,7 +142,9 @@ def build_rows(shows, played):
 
         cand = np.flatnonzero(debuted)
         if cand.size:
-            df = feature_block(cand, t, show.date, isinstance(show.show_type, str))
+            df = feature_block(
+                cand, t, show.date, isinstance(show.show_type, str), bool(show.is_solo), show.city
+            )
             df["show_id"], df["date"], df["t"] = show.show_id, show.date, t
             y = np.zeros(cand.size, bool)
             y[np.isin(cand, y_idx)] = True
@@ -146,12 +170,21 @@ def build_rows(shows, played):
             last_t[y_idx] = t
             n_plays[y_idx] += 1
             tour_plays[y_idx] += 1
+            if ci is not None:
+                city_song_plays[y_idx, ci] += 1
+        if ci is not None:
+            city_shows[ci] += 1
         tour_show_count += 1
 
     rows = pd.concat(chunks, ignore_index=True)
 
-    last_date = shows.date.iloc[-1]
-    snapshot = feature_block(np.flatnonzero(debuted), len(shows), last_date, is_special_show=False)
+    last_date, last_city = shows.date.iloc[-1], shows.city.iloc[-1]
+    # The next show's actual city is unknown (tours move city to city), so
+    # don't pretend to know it -- city=None falls back cleanly to the
+    # global rate via the shrinkage formula applied in main().
+    snapshot = feature_block(
+        np.flatnonzero(debuted), len(shows), last_date, is_special_show=False, is_solo=False, city=None
+    )
     snapshot["as_of_date"], snapshot["tour"] = last_date, current_tour
     return rows, snapshot
 
@@ -230,10 +263,21 @@ def main():
     best_h = min(HALF_LIVES, key=lambda h: evaluate(val, f"ewma_{h}")["log_loss"])
     print(f"baseline: EWMA play rate, half-life {best_h} shows (tuned on validation)")
 
+    # --- shrunk city-level play rate: (city plays + k*global rate) / (city
+    # shows + k). Empirical-Bayes toward the song's OWN recent rate (not one
+    # fixed constant -- a hit and a rarity should shrink toward different
+    # baselines), so a city with few shows collapses to "no city effect" and
+    # only cities with real history pull away from it.
+    for df in (rows, snapshot):
+        df["city_song_rate"] = (df.city_plays + CITY_SHRINKAGE * df[f"ewma_{best_h}"]) / (
+            df.city_shows_count + CITY_SHRINKAGE
+        )
+
     # --- logistic model ---
     feat_cols = [
         f"ewma_{best_h}", "shows_since_last", "played_last_show", "career_rate",
         "song_age_years", "new_material", "tour_rate", "in_tour_pool", "is_special_show",
+        "is_solo", "city_song_rate",
     ]
     Xf_train = rows.loc[~test_mask, feat_cols].copy()
     Xf_train["shows_since_last"] = np.log1p(Xf_train["shows_since_last"])
@@ -335,11 +379,19 @@ def main():
     ranked = surprisal.dropna(subset=["mean_surprisal_played_bits"]).sort_values(
         "mean_surprisal_played_bits", ascending=False
     )
-    print(f"\n=== Most surprising SETLISTS overall (mean bits/song played) ===")
-    print(ranked.head(8)[["show_id", "tour", "n_played", "mean_surprisal_played_bits"]]
-          .to_string(index=False, formatters={"mean_surprisal_played_bits": "{:.2f}".format}))
     print(f"\n=== Most predictable SETLISTS overall ===")
     print(ranked.tail(8)[["show_id", "tour", "n_played", "mean_surprisal_played_bits"]]
+          .to_string(index=False, formatters={"mean_surprisal_played_bits": "{:.2f}".format}))
+
+    # --- "most surprising CONCERTS" -- a real setlist, not a single guest
+    # cameo. A 1-song guest spot scores maximally surprising trivially (no
+    # averaging-out across a full set), which answers a different question
+    # than "which whole nights defied the rotation" -- so this view filters
+    # to real-length sets.
+    concerts = ranked[ranked.n_played >= MIN_SETLIST_FOR_SURPRISE]
+    concerts.to_csv(OUT / "most_surprising_concerts.csv", index=False)
+    print(f"\n=== Most surprising CONCERTS (full setlists, >={MIN_SETLIST_FOR_SURPRISE} songs) ===")
+    print(concerts.head(10)[["show_id", "tour", "n_played", "mean_surprisal_played_bits"]]
           .to_string(index=False, formatters={"mean_surprisal_played_bits": "{:.2f}".format}))
 
     # --- per-tour rollup: average surprise across a whole tour's shows ---
@@ -374,7 +426,8 @@ def main():
 
     print(f"\nWrote analysis/model_test_predictions.csv ({int(test_mask.sum()):,} test rows), "
           f"model_coefficients.csv, surprising_plays.csv, next_show_snapshot.csv, "
-          f"historical_tour_example.csv, show_surprisal.csv, tour_surprisal.csv")
+          f"historical_tour_example.csv, show_surprisal.csv, tour_surprisal.csv, "
+          f"most_surprising_concerts.csv")
 
 
 if __name__ == "__main__":

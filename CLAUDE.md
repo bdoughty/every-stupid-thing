@@ -22,14 +22,22 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
     `Category:Covers` membership — the source of the `is_cover` flag.
 - `analyze.py` — starter analyses; writes `analysis/*.csv` and prints a report.
 - `predict.py` — the setlist-prediction model (logistic regression vs. an
-  EWMA baseline). Also exports: `model_coefficients.csv`,
-  `surprising_plays.csv` (biggest individual misses), `next_show_snapshot.csv`
-  ("if the next show continues the current tour" — feeds the webapp
-  predictor), `historical_tour_example.csv` (a data-driven non-album-cycle
-  example, for sanity-checking the model isn't just riding album hype),
-  `show_surprisal.csv` / `tour_surprisal.csv` (per-show and per-tour
-  "how surprising was this setlist" in bits, from each song's pre-show
-  probability).
+  EWMA baseline), including `is_solo` and a shrunk `city_song_rate` feature.
+  Also exports: `model_coefficients.csv`, `surprising_plays.csv` (biggest
+  individual misses), `next_show_snapshot.csv` ("if the next show continues
+  the current tour" — feeds the webapp predictor), `historical_tour_example.csv`
+  (a data-driven non-album-cycle example, for sanity-checking the model
+  isn't just riding album hype), `show_surprisal.csv` / `tour_surprisal.csv`
+  (per-show and per-tour "how surprising was this setlist" in bits, from
+  each song's pre-show probability), `most_surprising_concerts.csv` (same,
+  filtered to real setlists so a 1-song guest cameo can't top the list).
+- `geocode_cities.py` — offline city geocoding (geonamescache; no network,
+  no fabricated coordinates) → `analysis/city_coordinates.csv`.
+- `geography.py` — empirical-Bayes-shrunk surprisal per city/region (does
+  geography predict how surprising a setlist is — the SF/NC finding) →
+  `analysis/city_surprisal.csv` / `region_surprisal.csv`.
+- `plot_map.py` — world + US surprise maps via plotly's built-in basemap
+  (no tile server/API key; static PNG export needs `kaleido`).
 - `timeseries.py` — rolling 2yr play-rate per song (Ngram-style), monthly +
   quarterly-compact versions, plus auto-picked illustrative trajectories.
 - `plot_report.py` / `build_pdf.py` — report figures and the PDF build
@@ -39,6 +47,8 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   `webapp/data.json`, then splice it into `webapp/app_template.html` (the
   hand-edited source) to produce the publishable `webapp/index.html`.
 - `data/shows.csv` — one row per show. Key: `show_id` (wiki page slug).
+  `is_solo` is sourced from a strict "solo show" note pattern or a
+  tour name containing "Solo" — conservative, not exhaustive (see Gotchas).
 - `data/performances.csv` — one row per song per show, join on `show_id`.
   Use `song_canonical` (or `song_key`) for grouping; `song_title` is the raw
   display text of that performance. `is_cover` is sourced from the wiki's
@@ -76,6 +86,13 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   to `video_urls`, the rest of the parenthetical to `note`; `raw_text`
   preserves everything). If the quoted text and the wiki link disagree
   entirely, the link is a performer/album, not the song — trust the quotes.
+  **A song's link `title=` attribute can be disambiguated** (e.g. link text
+  "Get Lonely", `title="Get Lonely (Song)"`, because a same-named album page
+  exists) — 20 songs do this. `clean_song_cell()`'s note-construction must
+  strip what's actually in the raw cell text (the quoted string / the
+  anchor's own visible text), never the resolved `title`, or the original
+  link text gets stranded as a bogus note (a real bug, caught and fixed —
+  it had been happening on every performance of all 20 songs).
 - Song identity: `song_key` = link slug with underscores→spaces (else display
   text), case-unified across wiki redirect variants. Always group on
   `song_key`, never raw `song_title`.
@@ -97,3 +114,14 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   Unlinked songs fall back to display text and may still have variants.
 - The wiki is incomplete and community-maintained: it lists most but not all
   shows, and setlist coverage is much better after ~2005.
+- `is_solo` (`SOLO_NOTE_RE`) only matches an explicit "solo show" note or a
+  tour named "...Solo...". It deliberately does NOT match "John's solo SET
+  was songs 7-9" (a segment of an otherwise full-band show) — that's a
+  different, much more common note pattern (480 shows) meaning something
+  else. Treat `is_solo` as "known-solo," not exhaustive — pre-2002 shows in
+  particular are likely under-flagged, since a solo show wasn't noteworthy
+  before a full-time backing band was the norm.
+- City/region matching for geocoding and `city_song_rate` is exact-string on
+  `shows.city` — "New York" and "New York City" are different keys unless
+  normalized upstream; check `analysis/city_coordinates.csv`'s unmatched
+  rows after any change to city/venue parsing.

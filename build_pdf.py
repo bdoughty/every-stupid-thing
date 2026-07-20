@@ -59,7 +59,7 @@ def metrics_table():
     data = [
         ["model", "log-loss", "Brier score", "top-n setlist recovery"],
         ["Baseline (decayed play rate)", "0.0822", "0.0195", "51.1%"],
-        ["Logistic regression", "0.0673", "0.0166", "59.4%"],
+        ["Logistic regression", "0.0673", "0.0167", "59.4%"],
     ]
     t = Table(data, colWidths=[2.3 * inch, 1.2 * inch, 1.2 * inch, 1.7 * inch])
     t.setStyle(TableStyle([
@@ -124,6 +124,13 @@ def build():
         "actually maintains its own Category:Covers, which tags 156 of the songs played "
         "live here. Every song carries an is_cover flag from that category, and the "
         "prediction model excludes covers from its candidate universe entirely.",
+        f"{B('A disambiguated title quietly duplicated as its own note.')} 20 songs have "
+        "their own wiki page distinct from a same-named album (Tallahassee the song vs. "
+        "Tallahassee the album); the setlist link's visible text is just the song title, "
+        "but its title attribute is the disambiguated form. The note-cleanup step was "
+        "stripping the resolved title from the raw cell text instead of what was actually "
+        "there, leaving the plain link text stranded as a bogus note on hundreds of "
+        "performances. Fixed by stripping what's actually in the raw text.",
     ]))
     P("The pipeline is two-stage: <b>fetch</b> downloads and locally caches every wiki page "
       "via the MediaWiki API (resumable, incremental on later runs), and <b>build</b> parses "
@@ -184,7 +191,10 @@ def build():
       "far, this tour) picking up an independent signal on top of recency confirms. Two "
       "smaller, genuinely interesting effects: conditional on recency, brand-new material "
       "is actually less sticky than catalog average, and radio/festival/TV appearances "
-      "reliably favor hits over deep cuts.", "caption")
+      "reliably favor hits over deep cuts. Two more recent additions, both real but modest: "
+      "a whole-show solo set slightly raises a song's odds, and a shrunk city-level play "
+      "rate (see Does geography matter? below) picks up a small independent "
+      "&ldquo;local favorite&rdquo; effect.", "caption")
 
     P("Is this just tracking album hype?", "h3")
     P("The 2026 example above is a new-album tour, and new_material is a real feature in the "
@@ -209,18 +219,54 @@ def build():
       "songs that came back from years of dormancy for a single night, often at a show with "
       "some specific occasion.", "caption")
 
+    P("Most surprising concerts", "h3")
+    P("Individual surprising plays are one thing; whole surprising concerts are a different, "
+      "more interesting question. Averaging each song's pre-show surprisal across a whole "
+      "setlist answers this directly, filtered to real setlists (10+ songs) so a 1-song guest "
+      "cameo can't trivially top the list:")
+    S.append(img("surprising_concerts.png"))
+    P("These cluster hard around benefit shows, festivals, and untoured one-offs &mdash; a "
+      "Hurricane Jamaica relief show, a &ldquo;Rock for Roe&rdquo; benefit, Merge Records' "
+      "35th-anniversary show, farm-sanctuary benefit gigs. Special-occasion shows pull deep "
+      "cuts the regular tour rotation wouldn't produce, which is exactly what this metric "
+      "should catch.", "caption")
+
     P("How surprising was each setlist as a whole?", "h3")
-    P("Zooming out from individual songs: the same pre-show probabilities give a surprise "
-      "score for an entire night &mdash; the average bits of information across the songs "
-      "actually played. Aggregated per tour (touring is bursty, so a fixed show-count window "
-      "saws at tour boundaries):")
+    P("Zooming out further: the same pre-show probabilities give a surprise score for an "
+      "entire night &mdash; the average bits of information across the songs actually "
+      "played. Aggregated per tour (touring is bursty, so a fixed show-count window saws at "
+      "tour boundaries):")
     S.append(img("surprisal_over_time.png"))
     P("The tours with the highest average surprise are almost all solo, stripped-down tours "
       "&mdash; Winter Solo Tour 2024, the Ghost Cave Incubation Chamber solo non-tour, All "
-      "Roads Lead to Lincoln Solo Mini-Tour &mdash; which makes sense: a solo acoustic set "
-      "draws from a different pool than a full-band show, and the model has no explicit "
-      "&ldquo;solo show&rdquo; feature to account for it. A concrete lead for the next "
-      "modeling iteration.", "caption")
+      "Roads Lead to Lincoln Solo Mini-Tour &mdash; which is what motivated adding is_solo to "
+      "the model above. Its coefficient came back small, though, meaning a whole show's "
+      "unpredictability isn't fully explained by &ldquo;solo&rdquo; alone.", "caption")
+
+    P("Does geography matter?", "h3")
+    P("A live-music instinct worth checking against data: some cities feel like they get "
+      "better, weirder, more surprising shows. San Francisco, in particular &mdash; is that "
+      "real, or availability bias? The same per-show surprisal, grouped by city and "
+      "empirical-Bayes shrunk toward the global mean (city-level data is thin: 312 cities, "
+      "median 2 shows each), answers it:")
+    S.append(img("surprise_map_world.png", width=6.5 * inch))
+    S.append(Spacer(1, 6))
+    S.append(img("surprise_map_us.png", width=6.5 * inch))
+    P("San Francisco checks out: 3.20 shrunk bits against a 2.64 global average, rank 4 of "
+      "310 cities &mdash; and with 57 shows in the sample, shrinkage barely moves it off its "
+      "raw average (3.28), so this isn't a small-sample fluke. But it's not even the "
+      "strongest pattern: North Carolina dominates the top of the list &mdash; Durham (#1, "
+      "31 shows, 3.78 bits), Pittsboro (#3), Raleigh (#6) &mdash; and NC is the single most "
+      "surprising region in the country. That's John Darnielle's home turf (he lives in "
+      "Durham), and it tracks: hometown shows disproportionately include benefit gigs, "
+      "record-release shows, and extended sets &mdash; the same kind of occasion that "
+      "dominates the most-surprising-concerts list above. This motivated adding "
+      "city_song_rate (a shrunk, causally-computed &ldquo;does this song run hot in this "
+      "city&rdquo; rate) to the prediction model itself, not just this descriptive analysis "
+      "&mdash; its coefficient is real but small, meaning local-favorite effects exist but "
+      "are a minor correction on tour rotation, not a dominant force. Cities were geocoded "
+      "against an offline database, not fabricated or hand-typed, matching 98.9% of "
+      "setlisted shows.", "caption")
 
     P("Caveats", "h2")
     S.append(bullets([
@@ -231,9 +277,12 @@ def build():
         "and song_age are proxies for that.",
         "Song identity is deduplicated via wiki link slugs where available; a handful of "
         "never-linked rarities may still have unmerged spelling variants.",
-        "The model has no &ldquo;solo show&rdquo; feature, which the surprise analysis "
-        "suggests it should &mdash; solo/stripped-down tours are consistently hardest to "
-        "predict.",
+        "is_solo is deliberately conservative, not exhaustive: it only fires on an explicit "
+        "&ldquo;solo show&rdquo; note or a tour branded &ldquo;Solo,&rdquo; so it likely "
+        "under-flags true solo shows the wiki didn't call out as exceptional &mdash; "
+        "especially pre-2002, before a full-time backing band was the norm.",
+        "City-level analyses only cover geocoded shows (98.9%) and are inherently thin for "
+        "most cities (median 2 shows) &mdash; that's exactly what the shrinkage is for.",
     ]))
 
     P("Reproducing this", "h2")
@@ -241,9 +290,12 @@ def build():
         "PY=/Users/bdoughty/opt/miniconda3/envs/tmg-scrape/bin/python<br/>"
         "$PY scrape.py fetch &amp;&amp; $PY scrape.py build &nbsp;# refresh the raw data<br/>"
         "$PY analyze.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# deep cuts, tour summaries<br/>"
-        "$PY predict.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# the setlist model<br/>"
+        "$PY predict.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# the setlist model + surprisal<br/>"
+        "$PY geocode_cities.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# offline city geocoding<br/>"
+        "$PY geography.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# city/region surprisal, shrunk<br/>"
         "$PY timeseries.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# popularity-over-time series<br/>"
-        "$PY plot_report.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# this report's figures",
+        "$PY plot_report.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# this report's figures<br/>"
+        "$PY plot_map.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# the surprise maps",
         styles["code"],
     ))
     P("Full data dictionary in README.md; wiki-scraping gotchas and repo layout in CLAUDE.md.",

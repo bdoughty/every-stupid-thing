@@ -1,0 +1,341 @@
+city,region,n_shows,lat,lon,matched_name,match_method
+AOL Session,,1,,,,unrecognized_region
+Accord,NY,1,40.71427,-74.00597,New York City,us_state
+Adelaide,AU,1,-34.92866,138.59863,Adelaide,country
+Adelaide,Australia,5,-34.92866,138.59863,Adelaide,country
+Akron,OH,1,41.08144,-81.51901,Akron,us_state
+Albany,NY,2,42.65258,-73.75623,Albany,us_state
+Albuquerque,NM,1,35.08449,-106.65114,Albuquerque,us_state
+Alexandria,VA,3,38.80484,-77.04692,Alexandria,us_state
+Allentown,PA,1,40.60843,-75.49018,Allentown,us_state
+Ames,IA,6,42.03471,-93.61994,Ames,us_state
+Amsterdam,Netherlands,7,52.37403,4.88969,Amsterdam,country
+Amsterdam,The Netherlands,3,52.37403,4.88969,Amsterdam,country
+Amsterdam,The Netherlands (Extra Glenns set),1,52.37403,4.88969,Amsterdam,country
+Amsterdam,The Netherlands (Mountain Goats set),1,52.37403,4.88969,Amsterdam,country
+Anaheim,CA,1,33.83529,-117.9145,Anaheim,us_state
+Anchorage,AK,1,61.21806,-149.90028,Anchorage,us_state
+Ann Arbor,MI,1,42.27756,-83.74088,Ann Arbor,us_state
+Antwerp,Belgium,1,50.85045,4.34878,Brussels,country
+Arcata,CA,1,40.86652,-124.08284,Arcata,us_state
+Ardmore,PA,3,39.95238,-75.16362,Philadelphia,us_state
+Asbury Park,NJ,2,40.22039,-74.01208,Asbury Park,us_state
+Asheville,NC,12,35.60095,-82.55402,Asheville,us_state
+Aspen,CO,1,39.73915,-104.9847,Denver,us_state
+Athens,GA,7,33.96095,-83.37794,Athens,us_state
+Athens,OH,1,39.32924,-82.10126,Athens,us_state
+Atlanta,GA,13,33.749,-84.38798,Atlanta,us_state
+Atlantic City,NJ,1,39.36415,-74.42306,Atlantic City,us_state
+Atlantic Ocean Comedy and Music Festival,,1,,,,unrecognized_region
+Auckland,NZ,1,-36.84853,174.76349,Auckland,country
+Auckland,New Zealand,2,-36.84853,174.76349,Auckland,country
+Austin,TX,20,30.26715,-97.74306,Austin,us_state
+Baldwinsville,NY,1,40.71427,-74.00597,New York City,us_state
+Baltimore,MD,10,39.29038,-76.61219,Baltimore,us_state
+Bar Harbor,ME,1,43.65737,-70.2589,Portland,us_state
+Barcelona,Spain,3,41.38879,2.15899,Barcelona,country
+"Barrowland, Glasgow",Scotland,1,51.50853,-0.12574,London,country
+Baton Rouge,LA,3,30.44332,-91.18747,Baton Rouge,us_state
+Bend,OR,1,44.05817,-121.31531,Bend,us_state
+Berlin,Germany,3,52.52437,13.41053,Berlin,country
+Bethlehem,PA,1,40.62593,-75.37046,Bethlehem,us_state
+Białystok,Poland,1,53.13333,23.16433,Białystok,country
+Billings,MT,1,45.78329,-108.50069,Billings,us_state
+Birmingham,AL,6,33.52066,-86.80249,Birmingham,us_state
+Black Mountain,NC,1,35.22709,-80.84313,Charlotte,us_state
+Bloomington,IL,2,40.4842,-88.99369,Bloomington,us_state
+Bloomington,IN,8,39.16533,-86.52639,Bloomington,us_state
+Bochum,Germany,1,51.48165,7.21648,Bochum,country
+Boise,ID,4,43.6135,-116.20345,Boise,us_state
+Boone,NC,1,36.21679,-81.67455,Boone,us_state
+Boston,MA,14,42.35843,-71.05977,Boston,us_state
+Boulder,CO,4,40.01499,-105.27055,Boulder,us_state
+Bozeman,MT,1,45.67965,-111.03856,Bozeman,us_state
+Bremen,Germany,1,53.07582,8.80717,Bremen,country
+Brighton,England,5,50.82838,-0.13947,Brighton,country
+Brisbane,AU,1,-27.46794,153.02809,Brisbane,country
+Brisbane,Australia,4,-27.46794,153.02809,Brisbane,country
+Bristol,England,4,51.45523,-2.59665,Bristol,country
+Brooklyn,NY,15,40.6501,-73.94958,Brooklyn,us_state
+"Brooklyn, New York",NY,1,40.71427,-74.00597,New York City,us_state
+Brussels,Belgium,2,50.85045,4.34878,Brussels,country
+Buffalo,NY,5,42.88645,-78.87837,Buffalo,us_state
+Byron Bay,Australia,1,-33.86785,151.20732,Sydney,country
+Calgary,Alberta,1,51.05011,-114.08529,Calgary,canada
+Cambridge,MA,6,42.3751,-71.10561,Cambridge,us_state
+Carrboro,NC,22,35.91014,-79.07529,Carrboro,us_state
+Cary,NC,1,35.79154,-78.78112,Cary,us_state
+Champaign,IL,2,40.11642,-88.24338,Champaign,us_state
+Chapel Hill,NC,2,35.9132,-79.05584,Chapel Hill,us_state
+Charleston,SC,2,32.77632,-79.93275,Charleston,us_state
+Charleston,WV,1,38.34982,-81.63262,Charleston,us_state
+Charlotte,NC,5,35.22709,-80.84313,Charlotte,us_state
+Charlottesville,VA,6,38.02931,-78.47668,Charlottesville,us_state
+Chattanooga,TN,2,35.04563,-85.30968,Chattanooga,us_state
+Chautauqua,NY,1,40.71427,-74.00597,New York City,us_state
+Cherry Hill,NJ,1,39.93484,-75.03073,Cherry Hill,us_state
+Chicago,IL,53,41.85003,-87.65005,Chicago,us_state
+Cincinnati,OH,8,39.12711,-84.51439,Cincinnati,us_state
+Claremont,CA,5,34.09668,-117.71978,Claremont,us_state
+Cleveland,OH,6,41.4995,-81.69541,Cleveland,us_state
+Clifton Park,NY,1,42.86563,-73.77095,Clifton Park,us_state
+Cologne,Germany,2,52.52437,13.41053,Berlin,country
+Colorado Springs,CO,1,38.83388,-104.82136,Colorado Springs,us_state
+Columbia,MD,1,39.24038,-76.83942,Columbia,us_state
+Columbia,MO,4,38.95171,-92.33407,Columbia,us_state
+Columbia,SC,2,34.00071,-81.03481,Columbia,us_state
+Columbus,OH,9,39.96118,-82.99879,Columbus,us_state
+Copenhagen,Denmark,2,55.67594,12.56553,Copenhagen,country
+Costa Mesa,CA,1,33.64113,-117.91867,Costa Mesa,us_state
+Covington,KY,1,39.08367,-84.50855,Covington,us_state
+Dallas,TX,8,32.78306,-96.80667,Dallas,us_state
+Denton,TX,5,33.21484,-97.13307,Denton,us_state
+Denver,CO,10,39.73915,-104.9847,Denver,us_state
+Des Moines,IA,3,41.60054,-93.60911,Des Moines,us_state
+Detroit,MI,8,42.33143,-83.04575,Detroit,us_state
+Dordrecht,Netherlands,1,51.81,4.67361,Dordrecht,country
+Dorset,England,1,51.50853,-0.12574,London,country
+Dublin,Ireland,10,53.33306,-6.24889,Dublin,country
+Durham,NC,31,35.99403,-78.89862,Durham,us_state
+Durham,NH,1,42.99564,-71.45479,Manchester,us_state
+Eau Claire,WI,1,44.81135,-91.49849,Eau Claire,us_state
+Edmonton,Alberta,1,53.55014,-113.46871,Edmonton,canada
+El Paso,TX,1,31.75872,-106.48693,El Paso,us_state
+Englewood,CO,3,39.64777,-104.98776,Englewood,us_state
+Essen,Belgium,1,50.85045,4.34878,Brussels,country
+Eugene,OR,3,44.05207,-123.08675,Eugene,us_state
+Evanston,IL,7,42.04114,-87.69006,Evanston,us_state
+Evansville,IN,1,37.97476,-87.55585,Evansville,us_state
+Fairbanks,AK,1,64.83778,-147.71639,Fairbanks,us_state
+Falls Church,VA,1,36.85293,-75.97799,Virginia Beach,us_state
+Fayetteville,AR,2,36.06258,-94.15743,Fayetteville,us_state
+First Avenue,,1,,,,unrecognized_region
+Flagstaff,AZ,1,35.19807,-111.65127,Flagstaff,us_state
+Fort Collins,CO,4,40.58526,-105.08442,Fort Collins,us_state
+Fort Worth,TX,1,32.72541,-97.32085,Fort Worth,us_state
+Frankfurt,Germany,1,52.52437,13.41053,Berlin,country
+Fremantle,AU,1,-33.86785,151.20732,Sydney,country
+Ft. Lauderdale,FL,2,30.33218,-81.65565,Jacksonville,us_state
+Gainesville,FL,3,29.65163,-82.32483,Gainesville,us_state
+Galesburg,IL,1,40.94782,-90.37124,Galesburg,us_state
+Gambier,OH,1,39.96118,-82.99879,Columbus,us_state
+George,WA,1,47.60621,-122.33207,Seattle,us_state
+Ghent,Belgium,1,50.85045,4.34878,Brussels,country
+Gilford,NH,1,42.99564,-71.45479,Manchester,us_state
+Glasgow,Scotland,6,55.86515,-4.25763,Glasgow,country
+Gothenberg,Sweden,1,59.32938,18.06871,Stockholm,country
+Gothenburg,Sweden,3,59.32938,18.06871,Stockholm,country
+Graham,NC,4,35.22709,-80.84313,Charlotte,us_state
+Grand Rapids,MI,4,42.96336,-85.66809,Grand Rapids,us_state
+Green Bay,WI,1,44.51916,-88.01983,Green Bay,us_state
+Greensboro,NC,5,36.07264,-79.79198,Greensboro,us_state
+Greenville,SC,2,34.85262,-82.39401,Greenville,us_state
+Grinnell,IA,2,41.60054,-93.60911,Des Moines,us_state
+Groningen,The Netherlands,1,53.21917,6.56667,Groningen,country
+Hamilton,NY,1,40.71427,-74.00597,New York City,us_state
+Hammondsport,NY,1,40.71427,-74.00597,New York City,us_state
+Hampton Bays,NY,1,40.71427,-74.00597,New York City,us_state
+Hanover,NH,1,42.99564,-71.45479,Manchester,us_state
+Harrisburg,PA,1,40.2737,-76.88442,Harrisburg,us_state
+Harrisonburg,VA,1,38.44957,-78.86892,Harrisonburg,us_state
+Hartford,CT,2,41.76371,-72.68509,Hartford,us_state
+Haverford,PA,1,39.95238,-75.16362,Philadelphia,us_state
+Hickory,NC,1,35.73319,-81.3412,Hickory,us_state
+Hobart,Australia,1,-42.87936,147.32941,Hobart,country
+Hoboken,NJ,1,40.74399,-74.03236,Hoboken,us_state
+Holyoke,MA,1,42.20426,-72.6162,Holyoke,us_state
+Homer,NY,1,40.71427,-74.00597,New York City,us_state
+Honolulu,HI,2,21.30694,-157.85833,Honolulu,us_state
+Houston,TX,6,29.76328,-95.36327,Houston,us_state
+Huber Heights,OH,1,39.84395,-84.12466,Huber Heights,us_state
+Hudson,NY,1,40.71427,-74.00597,New York City,us_state
+Huntington,WV,3,38.41925,-82.44515,Huntington,us_state
+Huntsville,AL,1,34.7304,-86.58594,Huntsville,us_state
+Indianapolis,IN,7,39.76838,-86.15804,Indianapolis,us_state
+Iowa City,IA,8,41.66113,-91.53017,Iowa City,us_state
+Irvine,CA,2,33.66946,-117.82311,Irvine,us_state
+Isle of Palms,SC,1,34.00071,-81.03481,Columbia,us_state
+Ithaca,NY,4,42.44063,-76.49661,Ithaca,us_state
+Jackson,WY,1,41.13998,-104.82025,Cheyenne,us_state
+Jacksonville,FL,2,30.33218,-81.65565,Jacksonville,us_state
+Jersey City,NJ,4,40.72816,-74.07764,Jersey City,us_state
+Kalamazoo,MI,4,42.29171,-85.58723,Kalamazoo,us_state
+Kansas City,MO,3,39.09973,-94.57857,Kansas City,us_state
+Katoomba,Australia,1,-33.86785,151.20732,Sydney,country
+Katowice,Poland,1,50.25841,19.02754,Katowice,country
+Knoxville,TN,5,35.96064,-83.92074,Knoxville,us_state
+Kontich,Belgium,1,51.13213,4.44706,Kontich,country
+Lancaster,PA,1,40.03788,-76.30551,Lancaster,us_state
+Las Cruces,NM,1,32.31232,-106.77834,Las Cruces,us_state
+Las Vegas,NV,2,36.17497,-115.13722,Las Vegas,us_state
+Lawrence,KS,7,38.97167,-95.23525,Lawrence,us_state
+Leeds,England,9,53.79648,-1.54785,Leeds,country
+Lewiston,NY,1,40.71427,-74.00597,New York City,us_state
+Lexington,KY,2,37.98869,-84.47772,Lexington,us_state
+Lincoln,NE,1,40.8,-96.66696,Lincoln,us_state
+Linköping,Sweden,1,58.41086,15.62157,Linköping,country
+Lisbon,Portugal,1,38.72509,-9.1498,Lisbon,country
+Lititz,PA,1,39.95238,-75.16362,Philadelphia,us_state
+Little Rock,AR,2,34.74648,-92.28959,Little Rock,us_state
+Livermore,CA,2,37.68187,-121.76801,Livermore,us_state
+London,England,25,51.50853,-0.12574,London,country
+Lorne,Australia,1,-33.86785,151.20732,Sydney,country
+Los Angeles,CA,23,34.05223,-118.24368,Los Angeles,us_state
+Louisville,KY,6,38.25424,-85.75941,Louisville,us_state
+Lubbock,TX,1,33.57786,-101.85517,Lubbock,us_state
+Lyons,CO,1,39.73915,-104.9847,Denver,us_state
+Madison,WI,7,43.07305,-89.40123,Madison,us_state
+Madrid,Spain,2,40.4165,-3.70256,Madrid,country
+Manchester,England,8,53.48095,-2.23743,Manchester,country
+Maquoketa,IA,2,41.60054,-93.60911,Des Moines,us_state
+Marquee Live at Home,,1,,,,unrecognized_region
+Melbourne,AU,1,-37.814,144.96332,Melbourne,country
+Melbourne,Australia,8,-37.814,144.96332,Melbourne,country
+Memphis,TN,2,35.14953,-90.04898,Memphis,us_state
+Meredith,Australia,1,-33.86785,151.20732,Sydney,country
+Millersville,PA,1,39.95238,-75.16362,Philadelphia,us_state
+Millvale,PA,6,39.95238,-75.16362,Philadelphia,us_state
+Milton,DE,1,39.74595,-75.54659,Wilmington,us_state
+Milwaukee,WI,7,43.0389,-87.90647,Milwaukee,us_state
+Minneapolis,MN,9,44.97997,-93.26384,Minneapolis,us_state
+Missoula,MT,3,46.87215,-113.994,Missoula,us_state
+Mobile,AL,2,30.69436,-88.04305,Mobile,us_state
+Montreal,QC,1,43.70643,-79.39864,Toronto,canada
+Montreal,Quebec,4,43.70643,-79.39864,Toronto,canada
+Mt. Pleasant,SC,1,34.00071,-81.03481,Columbia,us_state
+"Munchie's, Pomona",CA,1,34.05223,-118.24368,Los Angeles,us_state
+Munhall,PA,1,39.95238,-75.16362,Philadelphia,us_state
+Munich,Germany,1,48.13743,11.57549,Munich,country
+NPR Tiny Desk Concert,,1,,,,unrecognized_region
+Nashville,TN,10,36.16589,-86.78444,Nashville,us_state
+New Haven,CT,6,41.30815,-72.92816,New Haven,us_state
+New Orleans,LA,5,29.95465,-90.07507,New Orleans,us_state
+New York,NY,88,40.71427,-74.00597,New York City,us_state
+New York City,NY,4,40.71427,-74.00597,New York City,us_state
+Newcastle,Australia,1,-32.92953,151.7801,Newcastle,country
+Newcastle,England,1,51.50853,-0.12574,London,country
+Newport,RI,1,41.4901,-71.31283,Newport,us_state
+Nijmegen,The Netherlands,1,51.8425,5.85278,Nijmegen,country
+Norfolk,VA,1,36.84681,-76.28522,Norfolk,us_state
+Norman,OK,2,35.22257,-97.43948,Norman,us_state
+North Adams,MA,1,42.35843,-71.05977,Boston,us_state
+Northampton,MA,8,42.32509,-72.6412,Northampton,us_state
+Norwalk,CT,1,41.1176,-73.4079,Norwalk,us_state
+Oakland,CA,1,37.80437,-122.2708,Oakland,us_state
+Oberlin,OH,1,39.96118,-82.99879,Columbus,us_state
+Oklahoma City,OK,4,35.46756,-97.51643,Oklahoma City,us_state
+Old Ideas with New Friends Session,,1,,,,unrecognized_region
+Olympia,WA,3,47.04491,-122.90169,Olympia,us_state
+Omaha,NE,6,41.25626,-95.94043,Omaha,us_state
+Orange,CA,1,33.78779,-117.85311,Orange,us_state
+Orlando,FL,8,28.53834,-81.37924,Orlando,us_state
+Oslo,Norway,3,59.91273,10.74609,Oslo,country
+Ottawa,ON,1,45.41117,-75.69812,Ottawa,canada
+Ourense,Spain,1,42.33669,-7.86407,Ourense,country
+Oxford,MS,2,34.3665,-89.51925,Oxford,us_state
+Papillion,NE,1,41.15444,-96.04224,Papillion,us_state
+Paris,France,6,48.85341,2.3488,Paris,country
+Pawtucket,RI,1,41.87871,-71.38256,Pawtucket,us_state
+Pelham,TN,1,36.16589,-86.78444,Nashville,us_state
+Penascola,FL,1,30.33218,-81.65565,Jacksonville,us_state
+Peoria,IL,1,40.69365,-89.58899,Peoria,us_state
+Perth,Australia,6,-31.95224,115.8614,Perth,country
+Philadelphia,PA,20,39.95238,-75.16362,Philadelphia,us_state
+Phoenix,AZ,4,33.44838,-112.07404,Phoenix,us_state
+Pioneertown,CA,1,34.05223,-118.24368,Los Angeles,us_state
+Pittsboro,NC,5,35.22709,-80.84313,Charlotte,us_state
+Pittsburgh,PA,8,40.44062,-79.99589,Pittsburgh,us_state
+Pomona,CA,7,34.05529,-117.75228,Pomona,us_state
+Ponte Vedra Beach,FL,1,30.23969,-81.38564,Ponte Vedra Beach,us_state
+Portland,ME,5,43.65737,-70.2589,Portland,us_state
+Portland,OR,30,45.52345,-122.67621,Portland,us_state
+Princeton,NJ,1,40.34872,-74.65905,Princeton,us_state
+Providence,RI,4,41.82399,-71.41283,Providence,us_state
+Queens,NY,1,40.68149,-73.83652,Queens,us_state
+Raleigh,NC,5,35.7721,-78.63861,Raleigh,us_state
+Richmond,IN,1,39.82894,-84.89024,Richmond,us_state
+Richmond,VA,7,37.55376,-77.46026,Richmond,us_state
+Rochester,NY,3,43.15478,-77.61556,Rochester,us_state
+Rock Island,IL,1,41.50948,-90.57875,Rock Island,us_state
+Rocky Mount,VA,1,36.85293,-75.97799,Virginia Beach,us_state
+Roswell,NM,1,33.39437,-104.52491,Roswell,us_state
+Royal Oak,MI,1,42.48948,-83.14465,Royal Oak,us_state
+Sacramento,CA,1,38.58157,-121.4944,Sacramento,us_state
+Saint Louis,MO,1,39.09973,-94.57857,Kansas City,us_state
+Saint Paul,MN,1,44.94441,-93.09327,Saint Paul,us_state
+Salina,KS,1,38.84028,-97.61142,Salina,us_state
+Salisbury,England,1,51.06931,-1.79569,Salisbury,country
+Salt Lake City,UT,7,40.76078,-111.89105,Salt Lake City,us_state
+San Antonio,TX,4,29.42412,-98.49363,San Antonio,us_state
+San Diego,CA,3,32.71571,-117.16472,San Diego,us_state
+San Francisco,CA,58,37.77493,-122.41942,San Francisco,us_state
+San Luis Obispo,CA,2,35.28275,-120.65962,San Luis Obispo,us_state
+San Sebastian,Spain,1,40.4165,-3.70256,Madrid,country
+Sanibel,FL,1,30.33218,-81.65565,Jacksonville,us_state
+Santa Ana,CA,1,33.74557,-117.86783,Santa Ana,us_state
+Santa Barbara,CA,1,34.42083,-119.69819,Santa Barbara,us_state
+Santa Fe,NM,3,35.68698,-105.9378,Santa Fe,us_state
+Santa Monica,CA,2,34.01949,-118.49138,Santa Monica,us_state
+Sarasota,FL,1,27.33643,-82.53065,Sarasota,us_state
+Savannah,GA,2,32.08354,-81.09983,Savannah,us_state
+Saxapahaw,NC,3,35.22709,-80.84313,Charlotte,us_state
+Seaside,FL,1,30.33218,-81.65565,Jacksonville,us_state
+Seattle,WA,35,47.60621,-122.33207,Seattle,us_state
+Shelburne,VT,1,44.47588,-73.21207,Burlington,us_state
+Ships and Dip V,,2,,,,unrecognized_region
+Silver Spring,MD,2,38.99067,-77.02609,Silver Spring,us_state
+Sioux Falls,SD,2,43.54997,-96.70033,Sioux Falls,us_state
+Sligo,Ireland,1,54.26969,-8.46943,Sligo,country
+Solana Beach,CA,2,34.05223,-118.24368,Los Angeles,us_state
+Somerville,MA,2,42.3876,-71.0995,Somerville,us_state
+South Burlington,VT,3,44.46699,-73.17096,South Burlington,us_state
+Spokane,WA,3,47.65966,-117.42908,Spokane,us_state
+Springfield,IL,1,39.80172,-89.64371,Springfield,us_state
+Springfield,MO,2,37.21533,-93.29824,Springfield,us_state
+St. Augustine,FL,7,30.33218,-81.65565,Jacksonville,us_state
+St. Louis,MO,11,38.62727,-90.19789,St. Louis,us_state
+St. Paul,MN,4,44.97997,-93.26384,Minneapolis,us_state
+St. Petersburg,FL,3,27.77086,-82.67927,St. Petersburg,us_state
+Stockholm,Sweden,4,59.32938,18.06871,Stockholm,country
+Swarthmore,PA,2,39.95238,-75.16362,Philadelphia,us_state
+Sweden,,1,,,,unrecognized_region
+Sydney,AU,1,-33.86785,151.20732,Sydney,country
+Sydney,Australia,9,-33.86785,151.20732,Sydney,country
+Tallahassee,FL,8,30.43826,-84.28073,Tallahassee,us_state
+Tampa,FL,3,27.94752,-82.45843,Tampa,us_state
+Tokyo,Japan,4,35.6895,139.69171,Tokyo,country
+Toronto,ON,2,43.70643,-79.39864,Toronto,canada
+Toronto,Ontario,6,43.70643,-79.39864,Toronto,canada
+Toulouse,France,1,43.60426,1.44367,Toulouse,country
+Triple J Session,,1,,,,unrecognized_region
+Tucson,AZ,4,32.22174,-110.92648,Tucson,us_state
+Tulsa,OK,3,36.15398,-95.99277,Tulsa,us_state
+Umea,Sweden,1,59.32938,18.06871,Stockholm,country
+Urbana,IL,3,40.11059,-88.20727,Urbana,us_state
+Utrecht,Netherlands,1,52.09083,5.12222,Utrecht,country
+Utrecht,The Netherlands,2,52.09083,5.12222,Utrecht,country
+Vancouver,BC,1,49.24966,-123.11934,Vancouver,canada
+Vancouver,British Columbia,5,49.24966,-123.11934,Vancouver,canada
+Ventura,CA,1,34.27834,-119.29317,Ventura,us_state
+Vienna,Austria,1,48.20849,16.37208,Vienna,country
+Vienna,VA,1,38.90122,-77.26526,Vienna,us_state
+Virginia Beach,VA,2,36.85293,-75.97799,Virginia Beach,us_state
+Virtual,,3,,,,unrecognized_region
+WTF with Marc Maron Podcast,,1,,,,unrecognized_region
+Washington,D.C.,16,38.89511,-77.03637,Washington,us_state
+Washington,PA,1,39.95238,-75.16362,Philadelphia,us_state
+Watkins Glen,NY,4,40.71427,-74.00597,New York City,us_state
+Wellington,NZ,1,-41.28664,174.77557,Wellington,country
+Wellington,New Zealand,3,-41.28664,174.77557,Wellington,country
+West Columbia,SC,1,33.99349,-81.07398,West Columbia,us_state
+West Hollywood,CA,3,34.09001,-118.36174,West Hollywood,us_state
+Westerly,RI,1,41.3776,-71.82729,Westerly,us_state
+Wichita,KS,1,37.69224,-97.33754,Wichita,us_state
+Wilmington,DE,2,39.74595,-75.54659,Wilmington,us_state
+Wilmington,NC,2,34.23556,-77.94604,Wilmington,us_state
+Winnipeg,Manitoba,1,49.8844,-97.14704,Winnipeg,canada
+Winston-Salem,NC,2,36.09986,-80.24422,Winston-Salem,us_state
+Woodstock,NY,4,40.71427,-74.00597,New York City,us_state
+Worcester,MA,1,42.26259,-71.80229,Worcester,us_state
+York,PA,3,39.9626,-76.72774,York,us_state
+,,1,,,,no city

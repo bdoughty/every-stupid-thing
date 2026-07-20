@@ -116,6 +116,13 @@ def main():
             for r in g.sort_values("date_raw").itertuples()
         ]
 
+    # --- surprising concerts quick-picks, for the Show Browser tab ---
+    concerts = pd.read_csv(A / "most_surprising_concerts.csv")
+    surprising_concerts = [
+        {"show_id": r.show_id, "bits": round(float(r.mean_surprisal_played_bits), 2), "n": int(r.n_played)}
+        for r in concerts.head(10).itertuples()
+    ]
+
     # --- "if the next show happens" predictor snapshot ---
     predictor = {
         "as_of": snapshot.as_of_date.iloc[0],
@@ -168,6 +175,7 @@ def main():
         "albums": albums,
         "predictor": predictor,
         "city_favorites": city_favorites,
+        "surprising_concerts": surprising_concerts,
         "trajectory_quarters": quarters,
         "trajectories": trajectories,
     }

@@ -263,11 +263,13 @@ def clean_song_cell(cell):
 
     slug = None
     link_title = None
+    link_text = None
     for a in cell.find_all("a", href=True):
         href = a["href"]
         if href.startswith("/wiki/") and ":" not in unquote(href[len("/wiki/"):]):
             slug = unquote(href[len("/wiki/"):]).split("#")[0]
-            link_title = a.get("title") or a.get_text(" ", strip=True)
+            link_text = a.get_text(" ", strip=True)
+            link_title = a.get("title") or link_text
             break
 
     raw = re.sub(r"\s+", " ", cell.get_text(" ", strip=True)).strip()
@@ -282,10 +284,17 @@ def clean_song_cell(cell):
             link_title = slug = None
     title = link_title or quoted or raw.strip('"').strip()
 
-    # Whatever remains outside the quoted/linked title (guests, "cover", ...)
+    # Whatever remains outside the quoted/linked title (guests, "cover", ...).
+    # Strip what actually appears in `raw` (the quoted text, or else the
+    # link's own visible text) -- NOT `title`, which may have been swapped
+    # for the wiki link's `title=` attribute on a disambiguated page (link
+    # text "Get Lonely", title "Get Lonely (Song)" because a same-named
+    # album page exists). Stripping `title` there wouldn't match anything
+    # in `raw`, leaving the original link text stranded as a bogus note.
     note = raw
-    if title:
-        note = note.replace(title, "")
+    strip_text = quoted or link_text or title
+    if strip_text:
+        note = note.replace(strip_text, "")
     note = re.sub(r"[\"“”]", "", note)
     note = re.sub(r"\(\s*\)", "", note)
     note = re.sub(r"\s+", " ", note).strip(" ,;-").strip()
@@ -303,6 +312,11 @@ def parse_album_cell(cell):
 
 
 ENCORE_RE = re.compile(r"\bencore\b", re.IGNORECASE)
+
+# "This was a John Darnielle solo show." -- distinct from "John's solo SET
+# was songs 7 through 9," which describes a segment of an otherwise
+# full-band show, not the whole night.
+SOLO_NOTE_RE = re.compile(r"\bsolo show\b", re.IGNORECASE)
 
 ORDINALS = {"first": 1, "second": 2, "third": 3, "fourth": 4}
 
@@ -496,6 +510,17 @@ def build():
         note_rows.extend(
             {"show_id": slug, "note_seq": i + 1, "note": n} for i, n in enumerate(notes)
         )
+        # Whole-show solo flag: "solo show" in notes (distinct from a
+        # partial "solo set" within an otherwise full-band show), or a tour
+        # explicitly branded as solo. Conservative/high-precision by
+        # design -- likely under-flags true solo shows the wiki didn't
+        # bother to call out (especially pre-2002, before a full-time
+        # backing band was the norm), so treat this as "known-solo," not
+        # an exhaustive classifier.
+        is_solo = any(SOLO_NOTE_RE.search(n) for n in notes) or any(
+            "solo" in t.lower() for t in tours
+        )
+
         # Encores live in Notes prose ("The encore was songs 19 through 23"),
         # keyed to the wiki's printed order numbers.
         enc = encore_map(notes)
@@ -521,6 +546,7 @@ def build():
             "has_audio": "has_audio" in flags,
             "incomplete_setlist": "incomplete_setlist" in flags,
             "incomplete_article": "incomplete_article" in flags,
+            "is_solo": is_solo,
             "n_songs": len(setlist),
             "revid": page["revid"],
         }

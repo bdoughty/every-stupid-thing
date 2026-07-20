@@ -35,6 +35,16 @@ Getting from "a wiki category page" to those numbers took a few real fixes:
   prediction model excludes covers from its candidate universe entirely —
   a Thin Lizzy cover played once isn't a "deep cut" in the same sense a
   rarely-played original is.
+- **A disambiguated title quietly duplicated as its own "note."** 20 songs
+  have their own wiki page distinct from a same-named album (`Tallahassee
+  (Song)` vs. the album `Tallahassee`); the setlist link's visible text is
+  just `Tallahassee`, but its `title=` attribute is the disambiguated
+  `Tallahassee (Song)`. The note-cleanup step was stripping the *resolved*
+  title from the raw cell text instead of what was actually there, so the
+  plain link text was left stranded as a bogus note on every performance of
+  all 20 songs (hundreds of rows read as `note: "Tallahassee"` for no
+  reason). Fixed by stripping what's actually in the raw text, not the
+  resolved title.
 
 The pipeline is two-stage: `fetch` downloads and locally caches every wiki
 page via the MediaWiki API (resumable, and incremental on later runs — it
@@ -98,7 +108,7 @@ onward, so nothing in the test set could leak backward into training):
 | model | log-loss | Brier score | top-*n* setlist recovery |
 |---|---|---|---|
 | Baseline (decayed play rate) | 0.0822 | 0.0195 | 51.1% |
-| Logistic regression | **0.0673** | **0.0166** | **59.4%** |
+| Logistic regression | **0.0673** | **0.0167** | **59.4%** |
 
 *Top-*n* setlist recovery*: for each show, take the model's *n* highest-probability
 songs, where *n* is the actual number of songs played that night, and measure
@@ -122,7 +132,11 @@ interesting effects: conditional on recency, brand-new material is actually
 *less* sticky than catalog average (album-cycle songs burn hot then get
 rotated out faster than an old favorite would), and radio/festival/TV
 appearances reliably favor hits over deep cuts, as you'd expect from a
-shorter set.
+shorter set. Two more recent additions, both real but modest: a whole-show
+solo set (`is_solo`, conservatively flagged — see caveats) slightly raises
+a song's odds, and a shrunk city-level play rate (`city_song_rate` — see
+[Does geography matter?](#does-geography-matter) below) picks up a small
+independent "local favorite" effect on top of everything else.
 
 ### Is this just tracking album hype?
 
@@ -161,6 +175,26 @@ a request). [analysis/surprising_plays.csv](analysis/surprising_plays.csv)
 has the full ranked list if you want to go looking for what made those
 nights special.
 
+### Most surprising *concerts*
+
+Individual surprising plays are one thing; whole surprising *concerts* are
+a different question, and a more interesting one — which nights, top to
+bottom, most defied the rotation? Averaging each song's pre-show surprisal
+across a whole setlist answers this directly, though a 1-song guest cameo
+would trivially top the list (no averaging-out across a full set), so this
+is filtered to real setlists (10+ songs):
+
+<img src="analysis/plots/surprising_concerts.png" width="100%">
+
+These aren't random — they cluster hard around **benefit shows, festivals,
+and untoured one-offs**: a Hurricane Jamaica relief show, a "Rock for Roe"
+benefit, Merge Records' 35th-anniversary show, farm-sanctuary benefit gigs,
+European festival slots. Special-occasion shows pull deep cuts and
+one-time pairings that the regular tour rotation wouldn't produce — which
+is exactly the kind of thing this metric should catch, and does. Full
+ranked list in
+[analysis/most_surprising_concerts.csv](analysis/most_surprising_concerts.csv).
+
 ### How surprising was each *setlist* as a whole?
 
 The plays above are the most surprising individual songs; zooming out, the
@@ -176,16 +210,62 @@ aggregated per tour (the natural unit) rather than smoothed over a fixed
 show-count window, which would saw up and down at tour boundaries. The
 tours with the highest average surprise are almost all **solo, stripped-down
 tours** — Winter Solo Tour 2024, the Ghost Cave Incubation Chamber solo
-non-tour, All Roads Lead to Lincoln Solo Mini-Tour — which make sense: a
+non-tour, All Roads Lead to Lincoln Solo Mini-Tour — which makes sense: a
 solo acoustic set draws from a noticeably different, more idiosyncratic pool
-than a full-band show, and the model has no explicit "solo show" feature to
-account for it (only the coarser `is_special_show` flag for radio/
-festival/TV). That's a concrete, data-backed suggestion for the next
-modeling iteration. Full per-show numbers in
+than a full-band show. This is what motivated adding `is_solo` to the
+model (see above) — but its coefficient came back small, meaning a whole
+show's worth of unpredictability isn't fully explained by "solo" alone;
+something about *which* songs a solo set draws on is still outside what
+the model sees. Full per-show numbers in
 [analysis/show_surprisal.csv](analysis/show_surprisal.csv), per-tour
 rollups in [analysis/tour_surprisal.csv](analysis/tour_surprisal.csv), and
 every show's surprise score is browsable live in the
 [webapp](webapp/index.html)'s Show Browser tab.
+
+### Does geography matter?
+
+A live-music instinct worth checking against data: some cities feel like
+they get *better*, weirder, more surprising shows. San Francisco, in
+particular — is that real, or availability bias from having been to more
+shows there?
+
+The same per-show surprisal, grouped by city, answers it — but city-level
+data is thin (312 distinct cities, median 2 shows each), so a raw average
+would be dominated by noise for anywhere without a real sample. Each
+city's mean is shrunk toward the global average, weighted by how much
+history it actually has (empirical Bayes, same idea as the deep-cuts
+methodology: `shrunk = (n·city_mean + k·global_mean) / (n + k)`, k = 8
+equivalent shows):
+
+<img src="analysis/plots/surprise_map_world.png" width="100%">
+<img src="analysis/plots/surprise_map_us.png" width="100%">
+
+**San Francisco checks out**: 3.20 shrunk bits against a 2.64 global
+average, rank 4 of 310 cities — and with 57 shows in the sample, the
+shrinkage barely moves it off its raw average (3.28), so this isn't a
+small-sample fluke. But it's not even the strongest pattern in the data:
+**North Carolina dominates the top of the list** — Durham (#1, 31 shows,
+3.78 bits), Pittsboro (#3), Raleigh (#6) — and NC is the single most
+surprising *region* in the country. That's John Darnielle's home turf
+(he lives in Durham), and it tracks: hometown shows disproportionately
+include benefit gigs, record-release shows, and extended sets, the same
+kind of occasion that dominates the [most-surprising-concerts
+list](#most-surprising-concerts) above. Full rankings in
+[analysis/city_surprisal.csv](analysis/city_surprisal.csv) and
+[analysis/region_surprisal.csv](analysis/region_surprisal.csv).
+
+Given that finding, `city_song_rate` earns its place in the prediction
+model above — a shrunk, causally-computed "does this song run hot in this
+city" rate feeds directly into the per-song predictions, not just this
+descriptive analysis. Its coefficient is real but small (+0.02 standardized,
+vs. −1.30 for recency), meaning local-favorite effects exist but are a
+minor correction on top of tour rotation, not a dominant force. Cities
+were geocoded against an offline database (not fabricated or hand-typed —
+see [geocode_cities.py](geocode_cities.py)), matching 328 of 340 distinct
+(city, region) pairs, covering 1,302 of 1,317 setlisted shows (98.9%); the
+12 unmatched are mostly virtual/streaming "shows" whose venue name was
+parsed as a city (`AOL Session`, `NPR Tiny Desk Concert`), correctly left
+off the map rather than guessed.
 
 ## Caveats
 
@@ -199,9 +279,16 @@ every show's surprise score is browsable live in the
 - Song identity is deduplicated via wiki link slugs where available; a
   handful of never-linked rarities may still have unmerged spelling
   variants.
-- The model has no "solo show" feature, which the surprise-over-time
-  analysis suggests it should — solo/stripped-down tours are consistently
-  the hardest to predict.
+- `is_solo` is deliberately conservative/high-precision, not exhaustive: it
+  only fires on an explicit "solo show" note or a tour branded "Solo," so
+  it likely under-flags true solo shows the wiki didn't call out as
+  exceptional — especially pre-2002, before a full-time backing band was
+  the norm and "solo" wasn't a noteworthy deviation.
+- City-level analyses (`city_song_rate`, the surprise map) only cover
+  geocoded shows (98.9%) and are inherently thin for most cities (median
+  2 shows) — that's exactly what the shrinkage is for, but a city with
+  only 1–2 shows still contributes almost nothing beyond the global
+  average, by design.
 
 ## Reproducing this
 
@@ -209,9 +296,12 @@ every show's surprise score is browsable live in the
 PY=/Users/bdoughty/opt/miniconda3/envs/tmg-scrape/bin/python
 $PY scrape.py fetch && $PY scrape.py build   # refresh the raw data
 $PY analyze.py                                # deep cuts, tour summaries
-$PY predict.py                                # the setlist model
+$PY predict.py                                # the setlist model + surprisal
+$PY geocode_cities.py                         # offline city geocoding
+$PY geography.py                              # city/region surprisal, shrunk
 $PY timeseries.py                             # popularity-over-time series
 $PY plot_report.py                            # this report's figures
+$PY plot_map.py                               # the surprise maps
 ```
 
 Full data dictionary in [README.md](README.md); wiki-scraping gotchas and

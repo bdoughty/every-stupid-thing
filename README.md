@@ -14,7 +14,10 @@ $PY scrape.py build      # parse cache -> data/*.csv (seconds, offline)
 $PY analyze.py           # starter analyses -> analysis/*.csv + printed report
 $PY predict.py           # setlist-prediction model -> analysis/*.csv
 $PY timeseries.py        # song popularity-over-time -> analysis/song_timeseries*.csv
+$PY geocode_cities.py    # offline city geocoding -> analysis/city_coordinates.csv
+$PY geography.py         # shrunk city/region surprisal -> analysis/{city,region}_surprisal.csv
 $PY plot_report.py       # report figures -> analysis/plots/*.png
+$PY plot_map.py          # surprise maps -> analysis/plots/surprise_map_*.png
 $PY build_pdf.py         # report.pdf (mirrors report.md)
 $PY export_webapp.py     # bundle webapp/data.json from data/ + analysis/
 $PY build_webapp.py      # splice data.json into webapp/index.html
@@ -46,6 +49,7 @@ df = perfs.merge(shows, on="show_id", suffixes=("", "_show"))
 | `act` | "The Mountain Goats" or a side project ("The Extra Glenns") |
 | `region_category` | the wiki's `<State> live shows` category |
 | `has_video`, `has_audio`, `incomplete_setlist`, `incomplete_article` | wiki flags |
+| `is_solo` | whole-show John Darnielle solo set; conservative/high-precision, not exhaustive — see CLAUDE.md |
 | `n_songs` | setlist length as scraped (0 = no setlist recorded) |
 | `pageid`, `revid`, `url`, `title` | wiki bookkeeping |
 
@@ -80,11 +84,15 @@ from these ("The encore was songs 19 through 23").
 Predicts P(song is played) for every (show, song) pair, walking history
 chronologically so features only use pre-show information: decayed play
 rate, recency, career rate, song age/new-material, current-tour rotation,
-and special-show type. Covers are excluded from the candidate universe
-entirely (predictions are scoped to the canonical catalog). Logistic
-regression vs. an EWMA-play-rate baseline, evaluated on a strict temporal
-split (test = 2023+): the model recovers ~59% of each setlist in its top-n
-predictions vs ~51% for the baseline. Per-show test predictions land in
+special-show type, whole-show solo set (`is_solo`), and a shrunk city-level
+play rate (`city_song_rate` — empirical-Bayes toward the song's own recent
+rate, so cities with little history collapse to "no city effect"; see
+`geography.py` below for the descriptive version of this same question).
+Covers are excluded from the candidate universe entirely (predictions are
+scoped to the canonical catalog). Logistic regression vs. an EWMA-play-rate
+baseline, evaluated on a strict temporal split (test = 2023+): the model
+recovers ~59% of each setlist in its top-n predictions vs ~51% for the
+baseline. Per-show test predictions land in
 `analysis/model_test_predictions.csv`.
 
 Also exports: `model_coefficients.csv`; `surprising_plays.csv` (individual
@@ -94,7 +102,21 @@ songs the model least expected); `next_show_snapshot.csv` (prediction for
 example, picked automatically from 2014 tours, for checking the model
 isn't just riding album hype); `show_surprisal.csv` / `tour_surprisal.csv`
 (per-show and per-tour "how surprising was this setlist," in bits, from
-each song's pre-show probability).
+each song's pre-show probability); `most_surprising_concerts.csv` (same,
+filtered to real setlists of 10+ songs, so a 1-song guest cameo can't
+trivially top the list).
+
+## Geography (`geocode_cities.py`, `geography.py`, `plot_map.py`)
+
+Does where a show happens predict how surprising the setlist is? Cities are
+geocoded against an offline database ([geonamescache](https://pypi.org/project/geonamescache/),
+disambiguated by state/country — not fabricated or hand-typed), covering
+98.9% of setlisted shows. `geography.py` computes empirical-Bayes-shrunk
+mean surprisal per city and per region (`analysis/city_surprisal.csv` /
+`region_surprisal.csv`) — most city-level samples are thin (median 2 shows),
+so shrinkage matters a lot here. `plot_map.py` renders the result as a
+world map and a US inset (`analysis/plots/surprise_map_*.png`), using
+plotly's built-in basemap (no tile server, no API key).
 
 ## Analyses (`analyze.py`)
 
@@ -124,18 +146,28 @@ directly via reportlab (no pandoc/LaTeX dependency); keep it in sync with
 ## Webapp (`webapp/`)
 
 A self-contained static page (data embedded inline, no server) with three
-tools: search a song for its video links and popularity trajectory, browse
-a show's setlist by encore with its wiki notes, and see the prediction
-model's guess at the next show plus city-level "local favorites." Rebuild
-with `export_webapp.py` then `build_webapp.py` after refreshing the data;
-`webapp/app_template.html` is the hand-edited source, `webapp/index.html`
-is the generated, publishable output.
+tools: search a song for its video links, cover flag, and popularity
+trajectory; browse a show's setlist by encore with its wiki notes and
+per-show surprise score, or jump straight to one of the most surprising
+concerts; and see the prediction model's guess at the next show plus
+city-level "local favorites." Rebuild with `export_webapp.py` then
+`build_webapp.py` after refreshing the data; `webapp/app_template.html` is
+the hand-edited source, `webapp/index.html` is the generated, publishable
+output. (Not yet in the webapp: the geography map — it's a report figure
+for now, not an embedded interactive one.)
 
 ## Caveats
 
 - The wiki lists most but not all shows; early-90s coverage is spotty and
   many pages have no setlist. Use shows-with-setlists as the denominator.
 - Song titles are canonicalized via wiki link targets, but unlinked entries
-  (mostly covers and rarities) may still have spelling variants.
+  (mostly rarities) may still have spelling variants.
+- `is_solo` is conservative/high-precision, not exhaustive — it likely
+  under-flags true solo shows the wiki didn't call out as exceptional,
+  especially pre-2002.
+- City-level analyses cover 98.9% of setlisted shows and are inherently
+  thin per city (median 2 shows) — that's what the empirical-Bayes
+  shrinkage in `geography.py` and the `city_song_rate` model feature are
+  for.
 - `legacy/` holds two earlier scraper attempts and their outputs, superseded
   by this pipeline.

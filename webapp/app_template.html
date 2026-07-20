@@ -298,6 +298,8 @@
       <input type="text" id="show-input" placeholder="Date, venue, city, or tour…" autocomplete="off">
       <p class="hint">Showing most recent matches first.</p>
       <div class="result-list" id="show-results"></div>
+      <p class="field-label" style="margin-top:16px;">Or jump to a surprising concert</p>
+      <div class="quickpicks" id="surprising-quickpicks"></div>
     </div>
     <div id="show-detail"></div>
   </section>
@@ -562,6 +564,11 @@
     showDetail.innerHTML = html;
   }
   renderShowResults("");
+
+  document.getElementById("surprising-quickpicks").innerHTML = DATA.surprising_concerts.map(c => {
+    const m = DATA.shows[c.show_id];
+    return `<button class="quickpick" data-go-show="${esc(c.show_id)}">${esc(m.venue || c.show_id)} — ${esc(m.date)} (${c.bits} bits)</button>`;
+  }).join("");
 
   // ================= PREDICTOR =================
   const pred = DATA.predictor;

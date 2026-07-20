@@ -115,6 +115,8 @@ def fig_model_weights():
         "tour_rate": "play rate so far, this tour",
         "in_tour_pool": "played at least once, this tour",
         "is_special_show": "radio/festival/TV appearance",
+        "is_solo": "whole-show solo set",
+        "city_song_rate": "shrunk play rate, this city",
     }
     c["label"] = c.feature.map(label_map).fillna(c.feature)
     c = c.reindex(c.coef_standardized.abs().sort_values().index)
@@ -184,6 +186,22 @@ def fig_surprising():
     ax.set_title("Most surprising plays (test era, 2023+)", loc="left", fontsize=12.5, color=INK, pad=12)
     fig.tight_layout()
     fig.savefig(PLOTS / "surprising_plays.png", dpi=170)
+    plt.close(fig)
+
+
+def fig_surprising_concerts():
+    s = pd.read_csv(A / "most_surprising_concerts.csv")
+    top = s.head(12).iloc[::-1]
+    label = top.show_id.str.replace("_", " ", regex=False)
+    label = label + top.n_played.map(lambda n: f"  ({int(n)} songs)")
+
+    fig, ax = plt.subplots(figsize=(12.5, 6))
+    hbar(ax, label, top.mean_surprisal_played_bits, ORANGE, "{:.2f}")
+    clean_axes(ax)
+    ax.set_xlabel("mean bits of surprise per song played")
+    ax.set_title("Most surprising full concerts (10+ songs)", loc="left", fontsize=12.5, color=INK, pad=12)
+    fig.tight_layout()
+    fig.savefig(PLOTS / "surprising_concerts.png", dpi=170)
     plt.close(fig)
 
 
@@ -283,9 +301,10 @@ def main():
     fig_example_prediction()
     fig_example_comparison()
     fig_surprising()
+    fig_surprising_concerts()
     fig_surprisal_over_time()
     fig_trajectories()
-    print(f"Wrote 7 figures to {PLOTS}")
+    print(f"Wrote 8 figures to {PLOTS}")
 
 
 if __name__ == "__main__":
