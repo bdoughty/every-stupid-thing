@@ -48,6 +48,14 @@ def load_shows_and_plays():
         .sort_values(["date", "show_id"])
         .reset_index(drop=True)
     )
+    # Predictions are scoped to the canonical catalog: a one-off cover isn't
+    # a "song JD might play" in the same sense a rarely-played original is,
+    # so covers never enter the candidate universe at all (not just hidden
+    # post-hoc) -- see data/songs.csv's is_cover, sourced from the wiki's
+    # own Category:Covers.
+    n_cover_perfs = int(perfs.is_cover.sum())
+    perfs = perfs[~perfs.is_cover]
+    print(f"excluded {n_cover_perfs} cover performances from the prediction universe")
     played = perfs.groupby("show_id")["song_key"].agg(set).to_dict()
     return shows, played
 
@@ -175,10 +183,40 @@ def score(model, scaler, feat_cols, df):
     return model.predict_proba(scaler.transform(Xf))[:, 1]
 
 
+def show_surprisal(rows):
+    """Per-show surprise, in bits, from each song's pre-show p_model.
+
+    Two variants: mean_surprisal_played_bits looks only at what actually
+    happened (-log2 p of the songs played -- "how novel was this
+    setlist"); cross_entropy_bits scores every candidate song, including
+    ones the model expected that got skipped ("how much did the whole
+    night deviate from expectation"). Songs debuting that night aren't in
+    the candidate set at all (no prior history to score), so a
+    debut-heavy show's true novelty is understated here.
+    """
+    def one(g):
+        p = g.p_model.to_numpy().clip(EPS, 1 - EPS)
+        played = g.played.to_numpy()
+        played_p = p[played]
+        cross_entropy = -(played * np.log2(p) + (~played) * np.log2(1 - p)).mean()
+        return pd.Series({
+            "n_candidates": len(g),
+            "n_played": int(played.sum()),
+            "mean_surprisal_played_bits": -np.log2(played_p).mean() if played_p.size else np.nan,
+            "cross_entropy_bits": cross_entropy,
+        })
+
+    out = rows.groupby(["show_id", "date", "tour"], sort=False, dropna=False).apply(
+        one, include_groups=False
+    ).reset_index()
+    return out.sort_values("date")
+
+
 def main():
     shows, played = load_shows_and_plays()
     print(f"{len(shows)} shows with dated setlists")
     rows, snapshot = build_rows(shows, played)
+    rows = rows.merge(shows[["show_id", "tour"]], on="show_id", how="left")
     print(f"{len(rows):,} (show, song) rows, {rows.played.mean():.1%} positive")
 
     test_mask = rows.date >= TEST_START
@@ -256,6 +294,74 @@ def main():
     keep = ["show_id", "date", "song_key", "played", "p_baseline", "p_model"]
     rows.loc[test_mask, keep].to_csv(OUT / "model_test_predictions.csv", index=False)
 
+    # --- a non-album-cycle example, picked data-driven rather than by hand:
+    # among tours starting in 2014 with >=8 shows, the one whose played
+    # songs have the LOWEST share of "new material" (debuted <1.5y ago) --
+    # i.e. as far from an album-plugging tour as 2014 offers. This tests
+    # whether the model's behavior (and its new_material coefficient) is
+    # actually doing something beyond "always push whatever's newest."
+    tour_2014 = (
+        rows[rows.date.dt.year == 2014]
+        .groupby("tour")
+        .filter(lambda g: g.show_id.nunique() >= 8)
+    )
+    if len(tour_2014):
+        new_share = tour_2014[tour_2014.played].groupby("tour").new_material.mean()
+        between_tour = new_share.idxmin()
+        bt = rows[rows.tour == between_tour]
+        bt_shows = bt.sort_values("date").show_id.unique()
+        example_show = bt_shows[len(bt_shows) // 2]  # median show, not cherry-picked
+        eg = bt[bt.show_id == example_show]
+        k2 = int(eg.played.sum())
+        top2 = eg.nlargest(k2, "p_model")[["song_key", "p_model", "played"]].copy()
+        top2["show_id"], top2["tour"] = example_show, between_tour
+        top2.to_csv(OUT / "historical_tour_example.csv", index=False)
+        bt_metrics = evaluate(bt, "p_model")
+        print(f"\n=== Non-album-cycle example: '{between_tour}' "
+              f"({new_share[between_tour]:.0%} new-material share among plays, "
+              f"{len(bt_shows)} shows) ===")
+        print(f"tour-wide: log_loss={bt_metrics['log_loss']:.4f}  "
+              f"top_n_overlap={bt_metrics['top_n_overlap']:.1%}  "
+              f"(test-era overall was {evaluate(test, 'p_model')['log_loss']:.4f} / "
+              f"{evaluate(test, 'p_model')['top_n_overlap']:.1%} -- NOTE: 2014 is in-sample/"
+              f"training data, not held out, so this is optimistic and not directly comparable)")
+        print(f"example show {example_show} (setlist of {k2}):")
+        print(top2.to_string(index=False, formatters={"p_model": "{:.2f}".format}))
+        print(f"top-{k2} recovered {int(top2.played.sum())}/{k2}")
+
+    # --- per-show surprise (bits), for the whole history, not just test ---
+    surprisal = show_surprisal(rows)
+    surprisal.to_csv(OUT / "show_surprisal.csv", index=False)
+    ranked = surprisal.dropna(subset=["mean_surprisal_played_bits"]).sort_values(
+        "mean_surprisal_played_bits", ascending=False
+    )
+    print(f"\n=== Most surprising SETLISTS overall (mean bits/song played) ===")
+    print(ranked.head(8)[["show_id", "tour", "n_played", "mean_surprisal_played_bits"]]
+          .to_string(index=False, formatters={"mean_surprisal_played_bits": "{:.2f}".format}))
+    print(f"\n=== Most predictable SETLISTS overall ===")
+    print(ranked.tail(8)[["show_id", "tour", "n_played", "mean_surprisal_played_bits"]]
+          .to_string(index=False, formatters={"mean_surprisal_played_bits": "{:.2f}".format}))
+
+    # --- per-tour rollup: average surprise across a whole tour's shows ---
+    tour_surprisal = (
+        surprisal.dropna(subset=["tour", "mean_surprisal_played_bits"])
+        .groupby("tour")
+        .agg(
+            n_shows=("show_id", "nunique"),
+            first_date=("date", "min"),
+            last_date=("date", "max"),
+            mean_surprisal_bits=("mean_surprisal_played_bits", "mean"),
+        )
+        .sort_values("mean_surprisal_bits", ascending=False)
+        .reset_index()
+    )
+    tour_surprisal.to_csv(OUT / "tour_surprisal.csv", index=False)
+    eligible_tours = tour_surprisal[tour_surprisal.n_shows >= 4]
+    print(f"\n=== Most/least surprising TOURS overall (avg bits/song, >=4 shows) ===")
+    print(pd.concat([eligible_tours.head(5), eligible_tours.tail(5)])
+          [["tour", "n_shows", "mean_surprisal_bits"]]
+          .to_string(index=False, formatters={"mean_surprisal_bits": "{:.2f}".format}))
+
     # --- "predict the next show" snapshot, for the report and webapp ---
     snap_out = snapshot.sort_values("p_model", ascending=False)
     snap_out.to_csv(OUT / "next_show_snapshot.csv", index=False)
@@ -267,7 +373,8 @@ def main():
     )
 
     print(f"\nWrote analysis/model_test_predictions.csv ({int(test_mask.sum()):,} test rows), "
-          f"model_coefficients.csv, surprising_plays.csv, next_show_snapshot.csv")
+          f"model_coefficients.csv, surprising_plays.csv, next_show_snapshot.csv, "
+          f"historical_tour_example.csv, show_surprisal.csv, tour_surprisal.csv")
 
 
 if __name__ == "__main__":

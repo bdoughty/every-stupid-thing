@@ -34,6 +34,8 @@ def main():
     songs = pd.read_csv(D / "songs.csv")
     snapshot = pd.read_csv(A / "next_show_snapshot.csv")
     ts = pd.read_csv(A / "song_timeseries_compact.csv")
+    surprisal = pd.read_csv(A / "show_surprisal.csv")
+    surprisal_by_show = dict(zip(surprisal.show_id, surprisal.mean_surprisal_played_bits))
 
     # --- shows index (for the show/encore/solo-set browser) ---
     shows_out = {}
@@ -49,6 +51,11 @@ def main():
             "act": r.act,
             "video": bool(r.has_video),
             "n": int(r.n_songs),
+            "surprise": (
+                round(surprisal_by_show[r.show_id], 2)
+                if r.show_id in surprisal_by_show and not pd.isna(surprisal_by_show[r.show_id])
+                else None
+            ),
         }
 
     # --- songs index (search / autocomplete / video & trajectory lookup) ---
@@ -64,6 +71,7 @@ def main():
             "first": nn(r.first_played),
             "last": nn(r.last_played),
             "album": nn(r.album),
+            "cover": bool(r.is_cover),
         }
         for r in songs.itertuples()
     ]
@@ -112,6 +120,7 @@ def main():
     predictor = {
         "as_of": snapshot.as_of_date.iloc[0],
         "tour": snapshot.tour.iloc[0],
+        "covers_excluded": int(perfs.is_cover.sum()),
         "songs": [
             {"key": r.song_key, "p": round(float(r.p_model), 4)}
             for r in snapshot.sort_values("p_model", ascending=False).itertuples()

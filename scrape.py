@@ -31,6 +31,7 @@ from bs4 import BeautifulSoup, Tag
 BASE_URL = "https://themountaingoats.fandom.com"
 API_URL = f"{BASE_URL}/api.php"
 CATEGORY = "Category:Live_Shows"
+COVERS_CATEGORY = "Category:Covers"
 USER_AGENT = "TMG-Live-Show-Scraper/2.0 (+benjamin.doughty@gmail.com)"
 
 ROOT = Path(__file__).resolve().parent
@@ -80,13 +81,13 @@ def api_get(session, params, delay):
     return resp.json()
 
 
-def list_category_members(session, delay):
+def list_category_members(session, delay, category=CATEGORY):
     members, cont = [], None
     while True:
         params = {
             "action": "query",
             "list": "categorymembers",
-            "cmtitle": CATEGORY,
+            "cmtitle": category,
             "cmnamespace": 0,
             "cmlimit": "max",
         }
@@ -108,6 +109,12 @@ def fetch(limit=None, delay=0.4, force=False):
     members = list_category_members(session, delay)
     print(f"{len(members)} pages in {CATEGORY}", flush=True)
     (RAW_DIR / "_members.json").write_text(json.dumps(members, indent=1))
+
+    # Song pages tagged as covers on the wiki -- titles are the song's own
+    # page title, which matches song_key's space-joined form directly.
+    covers = list_category_members(session, delay, category=COVERS_CATEGORY)
+    print(f"{len(covers)} pages in {COVERS_CATEGORY}", flush=True)
+    (RAW_DIR / "_covers.json").write_text(json.dumps(covers, indent=1))
 
     # Grab current revids in bulk (50 titles/request) so unchanged cached
     # pages can be skipped without a per-page parse call.
@@ -541,12 +548,25 @@ def build():
         .agg(lambda s: s.mode().iat[0])
     )
     perfs_df["song_canonical"] = perfs_df["song_key"].map(canonical).fillna(perfs_df["song_title"])
+
+    # Cover flag, from the wiki's own Category:Covers (authoritative — far
+    # more complete than sniffing "(cover)" out of setlist notes, which only
+    # catches ~12 of the ~156 wiki-tagged covers we've actually played live).
+    covers_path = RAW_DIR / "_covers.json"
+    if covers_path.exists():
+        cover_titles = {m["title"] for m in json.loads(covers_path.read_text())}
+        perfs_df["is_cover"] = perfs_df["song_key"].isin(cover_titles)
+    else:
+        print("warning: data/raw/_covers.json missing (run `fetch` to refresh) — is_cover left False", flush=True)
+        perfs_df["is_cover"] = False
+
     perfs_df = perfs_df.sort_values(["date", "show_id", "seq"]).reset_index(drop=True)
 
     songs_df = (
         perfs_df.groupby("song_key")
         .agg(
             song_title=("song_canonical", "first"),
+            is_cover=("is_cover", "any"),
             n_plays=("show_id", "size"),
             n_shows=("show_id", "nunique"),
             first_played=("date", lambda s: s.dropna().min()),

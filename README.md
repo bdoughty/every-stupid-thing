@@ -62,11 +62,12 @@ df = perfs.merge(shows, on="show_id", suffixes=("", "_show"))
 | `album` | album column from the setlist table ("Unreleased" is meaningful) |
 | `note` | leftover annotations: guests, cover attribution, alternate titles |
 | `video_urls` | pipe-separated YouTube/Vimeo links for this performance |
+| `is_cover` | from the wiki's own `Category:Covers` — see below |
 | `raw_text` | untouched cell text, for auditing |
 
 ### `data/songs.csv` — one row per song
 
-Play counts, first/last played dates, modal album, video counts.
+Play counts, first/last played dates, modal album, video counts, `is_cover`.
 
 ### `data/show_notes.csv` — one row per Notes bullet per show
 
@@ -79,10 +80,21 @@ from these ("The encore was songs 19 through 23").
 Predicts P(song is played) for every (show, song) pair, walking history
 chronologically so features only use pre-show information: decayed play
 rate, recency, career rate, song age/new-material, current-tour rotation,
-and special-show type. Logistic regression vs. an EWMA-play-rate baseline,
-evaluated on a strict temporal split (test = 2023+): the model recovers
-~59% of each setlist in its top-n predictions vs ~51% for the baseline.
-Per-show test predictions land in `analysis/model_test_predictions.csv`.
+and special-show type. Covers are excluded from the candidate universe
+entirely (predictions are scoped to the canonical catalog). Logistic
+regression vs. an EWMA-play-rate baseline, evaluated on a strict temporal
+split (test = 2023+): the model recovers ~59% of each setlist in its top-n
+predictions vs ~51% for the baseline. Per-show test predictions land in
+`analysis/model_test_predictions.csv`.
+
+Also exports: `model_coefficients.csv`; `surprising_plays.csv` (individual
+songs the model least expected); `next_show_snapshot.csv` (prediction for
+"the next show, continuing the current tour" — feeds the webapp);
+`historical_tour_example.csv` (a data-driven, non-album-cycle prediction
+example, picked automatically from 2014 tours, for checking the model
+isn't just riding album hype); `show_surprisal.csv` / `tour_surprisal.csv`
+(per-show and per-tour "how surprising was this setlist," in bits, from
+each song's pre-show probability).
 
 ## Analyses (`analyze.py`)
 

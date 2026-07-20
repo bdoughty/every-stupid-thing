@@ -458,7 +458,11 @@
 
     let html = `<div class="song-head"><h2>${esc(song.title)}</h2>`;
     if (song.album) html += `<span class="pill">${esc(song.album)}</span>`;
+    if (song.cover) html += `<span class="pill accent">cover</span>`;
     html += `</div>`;
+    if (song.cover) {
+      html += `<p class="hint" style="margin:-2px 0 14px;">Tagged as a cover on the wiki — excluded from the Next-Show Predictor's canonical-catalog candidate list.</p>`;
+    }
     html += `<div class="song-stats">
       <div class="stat"><div class="n mono">${song.plays}</div><div class="label">performances</div></div>
       <div class="stat"><div class="n mono">${song.shows}</div><div class="label">shows</div></div>
@@ -524,6 +528,9 @@
     if (m.type) html += `<span class="pill">${esc(m.type)}</span>`;
     if (m.act && m.act !== "The Mountain Goats") html += `<span class="pill">${esc(m.act)}</span>`;
     if (m.video) html += `<span class="pill good">has video</span>`;
+    if (m.surprise !== null && m.surprise !== undefined) {
+      html += `<span class="pill" title="Average bits of surprise per song played, from the prediction model's pre-show odds. Higher = more unexpected setlist.">surprise: ${m.surprise.toFixed(1)} bits</span>`;
+    }
     html += `</div></div>`;
 
     if (!setlist) {
@@ -559,7 +566,7 @@
   // ================= PREDICTOR =================
   const pred = DATA.predictor;
   document.getElementById("predict-meta").innerHTML =
-    `If the next show continues <b>${esc(pred.tour)}</b> — based on everything through <b>${fmtDate(pred.as_of)}</b>, here's what the model thinks is most likely to be played:`;
+    `If the next show continues <b>${esc(pred.tour)}</b> — based on everything through <b>${fmtDate(pred.as_of)}</b>, here's what the model thinks is most likely to be played. Limited to the canonical catalog: ${pred.covers_excluded.toLocaleString()} cover performances are excluded from consideration.`;
 
   const topPredicted = pred.songs.slice(0, 30);
   const topPredictedKeys = new Set(pred.songs.slice(0, 30).map(s => s.key));

@@ -187,6 +187,68 @@ def fig_surprising():
     plt.close(fig)
 
 
+def fig_example_comparison():
+    import textwrap
+
+    pred = pd.read_csv(A / "model_test_predictions.csv", parse_dates=["date"])
+    last_id = pred.sort_values("date").show_id.iloc[-1]
+    g1 = pred[pred.show_id == last_id]
+    k1 = int(g1.played.sum())
+    top1 = g1.nlargest(k1, "p_model").sort_values("p_model")
+
+    top2 = pd.read_csv(A / "historical_tour_example.csv").sort_values("p_model")
+    k2 = len(top2)
+    hist_tour, hist_date = top2.tour.iloc[0], top2.show_id.iloc[0][:10]
+
+    title1 = f"Album-cycle tour — {last_id[:10]}\ntop-{k1}: {int(top1.played.sum())}/{k1} correct"
+    title2 = (
+        "Between albums — " + "\n".join(textwrap.wrap(f"{hist_tour}, {hist_date}", 34))
+        + f"\ntop-{k2}: {int(top2.played.sum())}/{k2} correct"
+    )
+
+    fig, axes = plt.subplots(1, 2, figsize=(13, 7.6))
+    for ax, top, title in [(axes[0], top1, title1), (axes[1], top2, title2)]:
+        colors = [BLUE if p else MUTED_FILL for p in top.played]
+        y = np.arange(len(top))
+        ax.barh(y, top.p_model, color=colors, height=0.62, zorder=3)
+        ax.set_yticks(y)
+        ax.set_yticklabels(top.song_key, fontsize=8.5, color=INK)
+        clean_axes(ax)
+        ax.set_xlim(0, 1)
+        ax.set_title(title, loc="left", fontsize=11, color=INK, pad=10)
+    axes[0].set_xlabel("model probability of being played")
+    axes[1].set_xlabel("model probability of being played")
+    fig.suptitle("Same model, an album-cycle tour vs. a between-albums tour", fontsize=13.5, x=0.02, ha="left", color=INK)
+    fig.tight_layout(rect=[0, 0, 1, 0.94])
+    fig.savefig(PLOTS / "example_comparison.png", dpi=170)
+    plt.close(fig)
+
+
+def fig_surprisal_over_time():
+    s = pd.read_csv(A / "show_surprisal.csv", parse_dates=["date"]).dropna(subset=["mean_surprisal_played_bits"])
+    s = s.sort_values("date")
+    tours = pd.read_csv(A / "tour_surprisal.csv", parse_dates=["first_date", "last_date"])
+    tours = tours[tours.n_shows >= 4].sort_values("first_date")
+
+    fig, ax = plt.subplots(figsize=(11, 5))
+    ax.scatter(s.date, s.mean_surprisal_played_bits, s=7, color=MUTED_FILL, zorder=2, linewidths=0)
+    # Per-tour mean, drawn as a horizontal segment over each tour's date
+    # span -- touring is bursty (weeks on, months off), so a trailing
+    # show-count rolling average saws up and down at tour boundaries; the
+    # tour is the natural unit of aggregation here, not a fixed window.
+    for r in tours.itertuples():
+        ax.plot([r.first_date, r.last_date], [r.mean_surprisal_bits] * 2,
+                color=BLUE, linewidth=2.5, solid_capstyle="round", zorder=3)
+    clean_axes(ax, x_grid=False, y_grid=True)
+    ax.set_ylabel("bits of surprise / song played")
+    ax.set_title("How surprising was each setlist? (blue = per-tour average)", loc="left", fontsize=12.5, color=INK, pad=12)
+    ax.text(0.01, 0.03, "each grey dot = one show; blue segment = one tour's average, spanning its dates",
+            transform=ax.transAxes, fontsize=9, color=INK_MUTED)
+    fig.tight_layout()
+    fig.savefig(PLOTS / "surprisal_over_time.png", dpi=170)
+    plt.close(fig)
+
+
 def fig_trajectories():
     ts = pd.read_csv(A / "song_timeseries.csv", parse_dates=["date"])
     picks = json.loads((A / "timeseries_examples.json").read_text())
@@ -219,9 +281,11 @@ def main():
     fig_song_frequency()
     fig_model_weights()
     fig_example_prediction()
+    fig_example_comparison()
     fig_surprising()
+    fig_surprisal_over_time()
     fig_trajectories()
-    print(f"Wrote 5 figures to {PLOTS}")
+    print(f"Wrote 7 figures to {PLOTS}")
 
 
 if __name__ == "__main__":

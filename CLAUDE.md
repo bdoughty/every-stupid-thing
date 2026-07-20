@@ -18,14 +18,36 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
     pick up new shows is cheap. Polite by default (0.4 s delay).
   - `scrape.py build` parses the cached JSON into `data/*.csv`. Never needs
     the network — iterate on parsing freely.
+  - `fetch` also caches `data/raw/_covers.json`, the wiki's
+    `Category:Covers` membership — the source of the `is_cover` flag.
 - `analyze.py` — starter analyses; writes `analysis/*.csv` and prints a report.
+- `predict.py` — the setlist-prediction model (logistic regression vs. an
+  EWMA baseline). Also exports: `model_coefficients.csv`,
+  `surprising_plays.csv` (biggest individual misses), `next_show_snapshot.csv`
+  ("if the next show continues the current tour" — feeds the webapp
+  predictor), `historical_tour_example.csv` (a data-driven non-album-cycle
+  example, for sanity-checking the model isn't just riding album hype),
+  `show_surprisal.csv` / `tour_surprisal.csv` (per-show and per-tour
+  "how surprising was this setlist" in bits, from each song's pre-show
+  probability).
+- `timeseries.py` — rolling 2yr play-rate per song (Ngram-style), monthly +
+  quarterly-compact versions, plus auto-picked illustrative trajectories.
+- `plot_report.py` / `build_pdf.py` — report figures and the PDF build
+  (reportlab, no pandoc/LaTeX dependency). `report.md` is hand-written and
+  must be kept in sync with `build_pdf.py` by hand if either changes.
+- `export_webapp.py` / `build_webapp.py` — bundle `data/` + `analysis/` into
+  `webapp/data.json`, then splice it into `webapp/app_template.html` (the
+  hand-edited source) to produce the publishable `webapp/index.html`.
 - `data/shows.csv` — one row per show. Key: `show_id` (wiki page slug).
 - `data/performances.csv` — one row per song per show, join on `show_id`.
   Use `song_canonical` (or `song_key`) for grouping; `song_title` is the raw
-  display text of that performance.
-- `data/songs.csv` — per-song aggregates.
+  display text of that performance. `is_cover` is sourced from the wiki's
+  own `Category:Covers` (see below), not text-sniffed from notes.
+- `data/songs.csv` — per-song aggregates, including `is_cover`.
 - `docs/deep_cut_notes.md` — methodology notes on defining "deep cuts"
   (opportunity-adjusted shrunk play rates); `analyze.py` implements this.
+  Deep-cut eligibility excludes covers (a cover played once isn't a
+  "passed-over" original).
 - `legacy/` — earlier scraper attempts and their outputs. Superseded; kept
   for reference only. Don't extend these.
 
@@ -57,6 +79,11 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
 - Song identity: `song_key` = link slug with underscores→spaces (else display
   text), case-unified across wiki redirect variants. Always group on
   `song_key`, never raw `song_title`.
+- The wiki has a standalone `Category:Covers` (174 song pages, 156 of which
+  match a song we've actually seen played live) — far more complete than
+  sniffing "(cover)" out of setlist notes (~12 hits). This is the source of
+  `is_cover`; `predict.py` filters covers out of the prediction candidate
+  universe entirely, not just post-hoc.
 
 ## Gotchas
 

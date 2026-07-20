@@ -58,8 +58,8 @@ def img(name, width=6.6 * inch):
 def metrics_table():
     data = [
         ["model", "log-loss", "Brier score", "top-n setlist recovery"],
-        ["Baseline (decayed play rate)", "0.0689", "0.0162", "51.0%"],
-        ["Logistic regression", "0.0563", "0.0138", "59.0%"],
+        ["Baseline (decayed play rate)", "0.0822", "0.0195", "51.1%"],
+        ["Logistic regression", "0.0673", "0.0166", "59.4%"],
     ]
     t = Table(data, colWidths=[2.3 * inch, 1.2 * inch, 1.2 * inch, 1.7 * inch])
     t.setStyle(TableStyle([
@@ -119,6 +119,11 @@ def build():
         "song&rsquo;s play count across rows &mdash; a real bug caught mid-project, where "
         '&ldquo;Southwood Plantation Road&rdquo; initially showed 1 play instead of its '
         "real count, 165.",
+        f"{B('Covers needed their own source of truth.')} Sniffing setlist notes for the "
+        "word &ldquo;cover&rdquo; only catches about a dozen of them &mdash; the wiki "
+        "actually maintains its own Category:Covers, which tags 156 of the songs played "
+        "live here. Every song carries an is_cover flag from that category, and the "
+        "prediction model excludes covers from its candidate universe entirely.",
     ]))
     P("The pipeline is two-stage: <b>fetch</b> downloads and locally caches every wiki page "
       "via the MediaWiki API (resumable, incremental on later runs), and <b>build</b> parses "
@@ -181,6 +186,21 @@ def build():
       "is actually less sticky than catalog average, and radio/festival/TV appearances "
       "reliably favor hits over deep cuts.", "caption")
 
+    P("Is this just tracking album hype?", "h3")
+    P("The 2026 example above is a new-album tour, and new_material is a real feature in the "
+      "model &mdash; worth checking whether the strong recovery number is mostly &ldquo;predict "
+      "whatever's newest&rdquo; in disguise. Among all 2014 tours with at least 8 shows, the "
+      "one whose actually-played songs had the lowest share of new material &mdash; picked "
+      "automatically, not by hand &mdash; is the Twin Inhuman Highway Fiends Tour 2014, "
+      "squarely between Transcendental Youth (2012) and Beat the Champ (2015):")
+    S.append(img("example_comparison.png"))
+    P("The between-albums tour is visibly harder to predict &mdash; 55.1% top-n recovery "
+      "tour-wide, versus 59.4% for the full 2023+ test era &mdash; despite 2014 being "
+      "in-sample (which should make it look artificially easier, not harder). Without a "
+      "record to promote, the setlist draws more evenly across a wider pool of similarly-loved "
+      "catalog songs, so there's genuinely more entropy to predict. The model isn't just "
+      "riding hype; if anything, album cycles are the easy case.", "caption")
+
     P("When the model gets surprised", "h3")
     P("The flip side of a good model is a good list of its misses &mdash; nights the model "
       "gave a song almost no chance, and it got played anyway:")
@@ -188,6 +208,19 @@ def build():
     P("These are basically a machine-generated &ldquo;rarities and one-offs&rdquo; list: "
       "songs that came back from years of dormancy for a single night, often at a show with "
       "some specific occasion.", "caption")
+
+    P("How surprising was each setlist as a whole?", "h3")
+    P("Zooming out from individual songs: the same pre-show probabilities give a surprise "
+      "score for an entire night &mdash; the average bits of information across the songs "
+      "actually played. Aggregated per tour (touring is bursty, so a fixed show-count window "
+      "saws at tour boundaries):")
+    S.append(img("surprisal_over_time.png"))
+    P("The tours with the highest average surprise are almost all solo, stripped-down tours "
+      "&mdash; Winter Solo Tour 2024, the Ghost Cave Incubation Chamber solo non-tour, All "
+      "Roads Lead to Lincoln Solo Mini-Tour &mdash; which makes sense: a solo acoustic set "
+      "draws from a different pool than a full-band show, and the model has no explicit "
+      "&ldquo;solo show&rdquo; feature to account for it. A concrete lead for the next "
+      "modeling iteration.", "caption")
 
     P("Caveats", "h2")
     S.append(bullets([
@@ -197,7 +230,10 @@ def build():
         "album themes, no explicit &ldquo;songs currently being toured.&rdquo; tour_rate "
         "and song_age are proxies for that.",
         "Song identity is deduplicated via wiki link slugs where available; a handful of "
-        "never-linked covers or rarities may still have unmerged spelling variants.",
+        "never-linked rarities may still have unmerged spelling variants.",
+        "The model has no &ldquo;solo show&rdquo; feature, which the surprise analysis "
+        "suggests it should &mdash; solo/stripped-down tours are consistently hardest to "
+        "predict.",
     ]))
 
     P("Reproducing this", "h2")

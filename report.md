@@ -27,6 +27,14 @@ Getting from "a wiki category page" to those numbers took a few real fixes:
   Begin With`). Left unmerged, this silently splits a song's play count
   across multiple rows — a real bug caught mid-project, where "Southwood
   Plantation Road" initially showed 1 play instead of its real count, 165.
+- **Covers needed their own source of truth.** Sniffing setlist notes for
+  the word "cover" only catches about a dozen of them — the wiki actually
+  maintains its own `Category:Covers`, which tags 156 of the songs played
+  live here (Thin Lizzy, Bowie, Fall Out Boy, and 153 others). Every song
+  and performance carries an `is_cover` flag from that category, and the
+  prediction model excludes covers from its candidate universe entirely —
+  a Thin Lizzy cover played once isn't a "deep cut" in the same sense a
+  rarely-played original is.
 
 The pipeline is two-stage: `fetch` downloads and locally caches every wiki
 page via the MediaWiki API (resumable, and incremental on later runs — it
@@ -89,8 +97,8 @@ onward, so nothing in the test set could leak backward into training):
 
 | model | log-loss | Brier score | top-*n* setlist recovery |
 |---|---|---|---|
-| Baseline (decayed play rate) | 0.0689 | 0.0162 | 51.0% |
-| Logistic regression | **0.0563** | **0.0138** | **59.0%** |
+| Baseline (decayed play rate) | 0.0822 | 0.0195 | 51.1% |
+| Logistic regression | **0.0673** | **0.0166** | **59.4%** |
 
 *Top-*n* setlist recovery*: for each show, take the model's *n* highest-probability
 songs, where *n* is the actual number of songs played that night, and measure
@@ -116,6 +124,29 @@ rotated out faster than an old favorite would), and radio/festival/TV
 appearances reliably favor hits over deep cuts, as you'd expect from a
 shorter set.
 
+### Is this just tracking album hype?
+
+The 2026 example above is a new-album tour, and `new_material` is a real
+feature in the model — worth checking whether the strong recovery number is
+mostly "predict whatever's newest" in disguise. To test that, I picked a
+tour the model never got to see labeled as an album cycle: among all 2014
+tours with at least 8 shows, the one whose *actually-played* songs had the
+lowest share of new material — automatically, not by hand — is the **Twin
+Inhuman Highway Fiends Tour 2014**, squarely in the two-and-a-half-year gap
+between *Transcendental Youth* (2012) and *Beat the Champ* (2015):
+
+<img src="analysis/plots/example_comparison.png" width="100%">
+
+The between-albums tour is visibly *harder* to predict — 55.1% top-*n*
+recovery tour-wide, versus 59.4% for the full 2023+ test era — despite 2014
+being in-sample (the model trained on it directly, which should make it
+look artificially *easier*, not harder). That's a reasonable answer: without
+a record to promote, the setlist draws more evenly across a wider pool of
+similarly-loved catalog songs, so there's genuinely more entropy to predict,
+not less. The model isn't just riding hype; if anything, album cycles are
+the *easy* case, because they concentrate probability mass onto a
+predictable set of newly-written songs.
+
 ### When the model gets surprised
 
 The flip side of a good model is a good list of its misses — nights the
@@ -130,6 +161,32 @@ a request). [analysis/surprising_plays.csv](analysis/surprising_plays.csv)
 has the full ranked list if you want to go looking for what made those
 nights special.
 
+### How surprising was each *setlist* as a whole?
+
+The plays above are the most surprising individual songs; zooming out, the
+same pre-show probabilities give a surprise score for an entire night's
+setlist — the average bits of information (−log₂ *p*) across the songs
+actually played, using only what the model knew walking in. Low = a
+thoroughly expected set; high = a night that defied the rotation:
+
+<img src="analysis/plots/surprisal_over_time.png" width="100%">
+
+Touring is bursty — weeks of shows, then months of silence — so this is
+aggregated per tour (the natural unit) rather than smoothed over a fixed
+show-count window, which would saw up and down at tour boundaries. The
+tours with the highest average surprise are almost all **solo, stripped-down
+tours** — Winter Solo Tour 2024, the Ghost Cave Incubation Chamber solo
+non-tour, All Roads Lead to Lincoln Solo Mini-Tour — which make sense: a
+solo acoustic set draws from a noticeably different, more idiosyncratic pool
+than a full-band show, and the model has no explicit "solo show" feature to
+account for it (only the coarser `is_special_show` flag for radio/
+festival/TV). That's a concrete, data-backed suggestion for the next
+modeling iteration. Full per-show numbers in
+[analysis/show_surprisal.csv](analysis/show_surprisal.csv), per-tour
+rollups in [analysis/tour_surprisal.csv](analysis/tour_surprisal.csv), and
+every show's surprise score is browsable live in the
+[webapp](webapp/index.html)'s Show Browser tab.
+
 ## Caveats
 
 - The wiki is fan-maintained and lists *most*, not all, shows — coverage is
@@ -140,8 +197,11 @@ nights special.
   `tour_rate` and `song_age` are proxies for that; a real album↔tour mapping
   would likely improve on new-material handling.
 - Song identity is deduplicated via wiki link slugs where available; a
-  handful of never-linked covers or rarities may still have unmerged
-  spelling variants.
+  handful of never-linked rarities may still have unmerged spelling
+  variants.
+- The model has no "solo show" feature, which the surprise-over-time
+  analysis suggests it should — solo/stripped-down tours are consistently
+  the hardest to predict.
 
 ## Reproducing this
 

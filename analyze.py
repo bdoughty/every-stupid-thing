@@ -52,6 +52,7 @@ def song_stats(shows, perfs):
             "first_played": g["date"].min(),
             "last_played": g["date"].max(),
             "album": g["album"].agg(lambda s: s.dropna().mode().iat[0] if s.dropna().size else None),
+            "is_cover": g["is_cover"].any(),
         }
     ).reset_index()
     stats["opportunities"] = total - stats["first_t"] + 1
@@ -62,7 +63,10 @@ def song_stats(shows, perfs):
     stats["play_rate"] = stats["n_plays"] / stats["opportunities"]
     stats["play_rate_shrunk"] = (stats["n_plays"] + alpha) / (stats["opportunities"] + alpha + beta)
 
-    eligible = stats["opportunities"] >= MIN_OPPORTUNITIES
+    # Covers are excluded from deep-cut eligibility: a Thin Lizzy cover
+    # played once isn't a "passed-over" original the way a rarely-played
+    # canonical song is — it was never really in the rotation to begin with.
+    eligible = (stats["opportunities"] >= MIN_OPPORTUNITIES) & ~stats["is_cover"]
     threshold = stats.loc[eligible, "play_rate_shrunk"].quantile(DEEP_CUT_QUANTILE)
     stats["deep_cut"] = eligible & (stats["play_rate_shrunk"] <= threshold)
     stats["surprisal"] = -np.log(stats["play_rate_shrunk"].clip(lower=1e-6))
