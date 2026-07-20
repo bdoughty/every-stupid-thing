@@ -31,11 +31,21 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   (per-show and per-tour "how surprising was this setlist" in bits, from
   each song's pre-show probability), `most_surprising_concerts.csv` (same,
   filtered to real setlists so a 1-song guest cameo can't top the list).
-- `geocode_cities.py` — offline city geocoding (geonamescache; no network,
-  no fabricated coordinates) → `analysis/city_coordinates.csv`.
-- `geography.py` — empirical-Bayes-shrunk surprisal per city/region (does
-  geography predict how surprising a setlist is — the SF/NC finding) →
-  `analysis/city_surprisal.csv` / `region_surprisal.csv`.
+- `geocode_cities.py` — offline city geocoding (geonamescache; no network).
+  Matches by exact name only (after normalizing case/diacritics/
+  abbreviations) — deliberately no fuzzy/population fallback, since an
+  earlier version of that produced silently wrong coordinates (see
+  Gotchas) → `analysis/city_coordinates.csv`.
+- `geography.py` — empirical-Bayes-shrunk surprisal per city, pooled by
+  real geographic proximity (DBSCAN + haversine distance on the geocoded
+  coordinates, 25km radius), not administrative state/country lines — a
+  city with no real neighbor in the tour history shrinks straight to the
+  global mean instead of a fake "region of one." Also computes
+  region_surprisal.csv (state/country) as its own separate, unrelated
+  table (not used as anyone's prior). → `analysis/city_surprisal.csv`
+  (`shrunk_mean_bits` = metro-cascaded, `shrunk_flat_bits` = flat
+  shrink-to-global, for comparison), `analysis/region_surprisal.csv`,
+  `analysis/metro_surprisal.csv` (the clusters themselves, with members).
 - `plot_map.py` — world + US surprise maps via plotly's built-in basemap
   (no tile server/API key; static PNG export needs `kaleido`).
 - `timeseries.py` — rolling 2yr play-rate per song (Ngram-style), monthly +
@@ -49,6 +59,13 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
 - `data/shows.csv` — one row per show. Key: `show_id` (wiki page slug).
   `is_solo` is sourced from a strict "solo show" note pattern or a
   tour name containing "Solo" — conservative, not exhaustive (see Gotchas).
+  `city` is normalized through `CITY_ALIASES` (parse_title() in scrape.py)
+  for known same-place variants ("New York City" → "New York") — add new
+  entries there if `geography.py`'s output shows an obvious near-duplicate
+  city splitting one place's history (verify against actual show counts
+  first, like the existing entries' comments do; not every look-alike is
+  a duplicate — "Columbia"/"West Columbia", SC are genuinely different
+  towns, checked and correctly NOT aliased).
 - `data/performances.csv` — one row per song per show, join on `show_id`.
   Use `song_canonical` (or `song_key`) for grouping; `song_title` is the raw
   display text of that performance. `is_cover` is sourced from the wiki's
@@ -122,6 +139,22 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   particular are likely under-flagged, since a solo show wasn't noteworthy
   before a full-time backing band was the norm.
 - City/region matching for geocoding and `city_song_rate` is exact-string on
-  `shows.city` — "New York" and "New York City" are different keys unless
-  normalized upstream; check `analysis/city_coordinates.csv`'s unmatched
-  rows after any change to city/venue parsing.
+  `shows.city` (post-`CITY_ALIASES` normalization) — check
+  `analysis/city_coordinates.csv`'s unmatched rows after any change to
+  city/venue parsing, and scan for new same-region near-duplicate city
+  names (see geography.py's docstring for the detection query used to
+  find the ones already fixed).
+- `geocode_cities.py`'s matcher used to fall back to "the biggest city in
+  the state/country" when there was no exact name match — silently wrong
+  coordinates for 74 towns (Pittsboro NC → Charlotte; Montreal → Toronto;
+  population-based, completely ignoring actual distance). Fixed to
+  exact-match-only; a town too small for geonamescache is now correctly
+  left uncoded rather than mislocated. Don't reintroduce a fuzzy fallback
+  without a real distance check.
+- `encore` is real per-song data (parsed from Notes prose, see above), but
+  a WITHIN-show "solo segment" is not — "John's solo set was songs 7
+  through 9" (480 shows have this note pattern) describes part of an
+  otherwise full-band show and isn't parsed into any column. Only
+  whole-show `is_solo` exists. Neither `encore` nor solo-segment position
+  is currently a feature in predict.py's model — it predicts "is this
+  song played," not "where in the show."

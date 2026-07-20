@@ -9,7 +9,9 @@ Usage:
     /Users/bdoughty/opt/miniconda3/envs/tmg-scrape/bin/python export_webapp.py
 """
 
+import base64
 import json
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -20,6 +22,9 @@ A = ROOT / "analysis"
 D = ROOT / "data"
 OUT = ROOT / "webapp"
 OUT.mkdir(exist_ok=True)
+
+sys.path.insert(0, str(ROOT))
+from geocode_cities import US_STATES  # noqa: E402 - shared source of truth for "is this a US region"
 
 
 def nn(x):
@@ -116,12 +121,51 @@ def main():
             for r in g.sort_values("date_raw").itertuples()
         ]
 
-    # --- surprising concerts quick-picks, for the Show Browser tab ---
+    # --- surprising concerts / plays, for the Show Browser quick-picks and
+    # the Surprise tab's fuller lists ---
     concerts = pd.read_csv(A / "most_surprising_concerts.csv")
     surprising_concerts = [
         {"show_id": r.show_id, "bits": round(float(r.mean_surprisal_played_bits), 2), "n": int(r.n_played)}
-        for r in concerts.head(10).itertuples()
+        for r in concerts.head(25).itertuples()
     ]
+
+    plays = pd.read_csv(A / "surprising_plays.csv").merge(
+        shows[["show_id", "date_raw", "venue", "city", "region"]], on="show_id", how="left"
+    )
+    surprising_plays = [
+        {
+            "show_id": r.show_id,
+            "song": r.song_key,
+            "date": r.date_raw,
+            "venue": nn(r.venue),
+            "city": nn(r.city),
+            "region": nn(r.region),
+            "p": round(float(r.p_model), 4),
+        }
+        for r in plays.head(30).itertuples()
+    ]
+
+    # --- US city surprisal (empirical-Bayes shrunk), for the Surprise tab's
+    # ranked list. (city, region) grain -- city name alone collides across
+    # states (Portland OR vs ME, Durham NC vs NH, ...). NOT filtered to
+    # geocoded rows: some of the most surprising *specific* places (Watkins
+    # Glen, Pittsboro) have no map pin (too small for the geocoding
+    # database) but are still real, ranked entries -- only the map itself
+    # needs coordinates, the list doesn't.
+    city_surp = pd.read_csv(A / "city_surprisal.csv")
+    city_surp_us = city_surp[
+        city_surp.region.isin(US_STATES) & (city_surp.n_shows >= 3)
+    ].sort_values("shrunk_mean_bits", ascending=False)
+    us_city_surprisal = [
+        {
+            "city": r.city, "region": r.region, "n": int(r.n_shows),
+            "raw": round(float(r.raw_mean_bits), 2), "shrunk": round(float(r.shrunk_mean_bits), 2),
+            "lat": float(r.lat) if pd.notna(r.lat) else None,
+            "lon": float(r.lon) if pd.notna(r.lon) else None,
+        }
+        for r in city_surp_us.itertuples()
+    ]
+    us_map_b64 = base64.b64encode((A / "plots" / "surprise_map_us.png").read_bytes()).decode("ascii")
 
     # --- "if the next show happens" predictor snapshot ---
     predictor = {
@@ -176,6 +220,9 @@ def main():
         "predictor": predictor,
         "city_favorites": city_favorites,
         "surprising_concerts": surprising_concerts,
+        "surprising_plays": surprising_plays,
+        "us_city_surprisal": us_city_surprisal,
+        "us_map_png": us_map_b64,
         "trajectory_quarters": quarters,
         "trajectories": trajectories,
     }

@@ -244,29 +244,44 @@ def build():
       "unpredictability isn't fully explained by &ldquo;solo&rdquo; alone.", "caption")
 
     P("Does geography matter?", "h3")
-    P("A live-music instinct worth checking against data: some cities feel like they get "
-      "better, weirder, more surprising shows. San Francisco, in particular &mdash; is that "
-      "real, or availability bias? The same per-show surprisal, grouped by city and "
-      "empirical-Bayes shrunk toward the global mean (city-level data is thin: 312 cities, "
-      "median 2 shows each), answers it:")
+    P("Two different questions hide inside &ldquo;does geography matter&rdquo;: where JD "
+      "plays what (city_song_rate, already a feature inside the prediction model &mdash; "
+      "genuinely predictable local patterns like a song that runs hot in one city) versus "
+      "how surprising a place is even after the model's best effort (the residual left over "
+      "once prediction has already used everything it knows, including geography). That "
+      "residual is computed once per show and never revisited &mdash; what can legitimately "
+      "be adjusted is how individual shows get aggregated into a per-city summary, since a "
+      "two-show average is mostly noise. San Francisco, in particular, prompted the check: is "
+      "its reputation real, or availability bias?")
+    P("City-level data is thin (312 distinct cities, median 2 shows each), so each city's mean "
+      "is empirical-Bayes shrunk toward a prior, weighted by its own sample size. The prior "
+      "matters: administrative boundaries are a poor proxy for &ldquo;shared local scene&rdquo; "
+      "&mdash; pooling every North Carolina city together would let a random small town 150 "
+      "miles from Durham borrow Durham's specialness just because of a shared state line. The "
+      "right unit is actual geographic proximity: cities within 25km of each other (real "
+      "coordinates, DBSCAN + haversine distance) pool as one scene; anywhere with no real "
+      "neighbor in the tour history stays fully on its own, shrinking straight to the global "
+      "mean and weighted only by its own sample size &mdash; deliberately conservative, "
+      "favoring under-grouping over erasing a genuinely distinct local signal.")
     S.append(img("surprise_map_world.png", width=6.5 * inch))
     S.append(Spacer(1, 6))
     S.append(img("surprise_map_us.png", width=6.5 * inch))
-    P("San Francisco checks out: 3.20 shrunk bits against a 2.64 global average, rank 4 of "
-      "310 cities &mdash; and with 57 shows in the sample, shrinkage barely moves it off its "
-      "raw average (3.28), so this isn't a small-sample fluke. But it's not even the "
-      "strongest pattern: North Carolina dominates the top of the list &mdash; Durham (#1, "
-      "31 shows, 3.78 bits), Pittsboro (#3), Raleigh (#6) &mdash; and NC is the single most "
-      "surprising region in the country. That's John Darnielle's home turf (he lives in "
-      "Durham), and it tracks: hometown shows disproportionately include benefit gigs, "
-      "record-release shows, and extended sets &mdash; the same kind of occasion that "
-      "dominates the most-surprising-concerts list above. This motivated adding "
-      "city_song_rate (a shrunk, causally-computed &ldquo;does this song run hot in this "
-      "city&rdquo; rate) to the prediction model itself, not just this descriptive analysis "
-      "&mdash; its coefficient is real but small, meaning local-favorite effects exist but "
-      "are a minor correction on tour rotation, not a dominant force. Cities were geocoded "
-      "against an offline database, not fabricated or hand-typed, matching 98.9% of "
-      "setlisted shows.", "caption")
+    P("San Francisco checks out: clustered with Oakland into a Bay Area scene, SF's own "
+      "57-show, 3.28-raw average barely moves (3.27 shrunk) &mdash; its own sample dominates "
+      "&mdash; ranking 5th of 125 places with a real sample. But it's not the strongest signal: "
+      "Durham, NC is #1 (clustered with Chapel Hill/Carrboro/Cary/Raleigh, 3.95 shrunk bits) "
+      "&mdash; John Darnielle's home turf, tracking with hometown shows disproportionately "
+      "including benefit gigs and extended sets, the same occasion that dominates the "
+      "most-surprising-concerts list above. Notably, Pittsboro NC ranks #4 on its own (too far "
+      "from Durham to share a cluster) and Watkins Glen NY is #2 entirely alone &mdash; all 4 "
+      "of its shows are the &ldquo;Zoop&rdquo; Farm Sanctuary benefit concerts, a genuinely "
+      "different kind of show that pooling with distant NY cities would have erased. This "
+      "motivated adding city_song_rate to the prediction model itself, not just this "
+      "descriptive analysis &mdash; its coefficient is real but small. Cities were geocoded "
+      "against an offline database, not fabricated or hand-typed &mdash; an earlier fallback "
+      "silently produced wrong coordinates for 74 towns (Pittsboro &rarr; Charlotte; Montreal "
+      "&rarr; Toronto) by guessing &ldquo;the biggest city in the state&rdquo;; fixed to "
+      "exact-match-only, honest coverage 91.6% of setlisted shows.", "caption")
 
     P("Caveats", "h2")
     S.append(bullets([
@@ -281,8 +296,10 @@ def build():
         "&ldquo;solo show&rdquo; note or a tour branded &ldquo;Solo,&rdquo; so it likely "
         "under-flags true solo shows the wiki didn't call out as exceptional &mdash; "
         "especially pre-2002, before a full-time backing band was the norm.",
-        "City-level analyses only cover geocoded shows (98.9%) and are inherently thin for "
+        "City-level analyses only cover geocoded shows (91.6%) and are inherently thin for "
         "most cities (median 2 shows) &mdash; that's exactly what the shrinkage is for.",
+        "The 25km metro-clustering radius is a judgment call, not a principled optimum "
+        "&mdash; chosen deliberately conservative rather than tuned against ground truth.",
     ]))
 
     P("Reproducing this", "h2")

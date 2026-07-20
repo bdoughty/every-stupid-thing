@@ -51,6 +51,19 @@ FLAG_CATEGORIES = {
 # One-off region category variants, lowercased -> region name.
 REGION_ALIASES = {"north_carolina_shows": "North Carolina"}
 
+# City-name variants that are the same real place, so city-level analyses
+# (city_song_rate, geography.py's surprisal, the webapp's local favorites)
+# don't silently split one place's history across two buckets. Each entry
+# verified against the actual show counts before adding -- e.g. "Columbia"
+# vs "West Columbia" (SC) looks similar but is NOT here: those are two
+# real, separate, adjacent municipalities, not a naming variant.
+CITY_ALIASES = {
+    ("New York City", "NY"): "New York",
+    ("Brooklyn, New York", "NY"): "Brooklyn",  # title had no venue segment, so
+    ("Munchie's, Pomona", "CA"): "Pomona",      # the venue leaked into `location`
+    ("Barrowland, Glasgow", "Scotland"): "Glasgow",  # and then into `city`
+}
+
 # Categories describing what kind of show it was, lowercased.
 SHOW_TYPE_CATEGORIES = {
     "radio_sessions": "radio session",
@@ -210,6 +223,8 @@ def parse_title(title):
         city, region = [p.strip() for p in location.rsplit(",", 1)]
     elif location:
         city = location
+    if city and region and (city, region) in CITY_ALIASES:
+        city = CITY_ALIASES[(city, region)]
     return {
         "date_raw": date_raw,
         "date": date,

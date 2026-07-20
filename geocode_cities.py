@@ -15,6 +15,7 @@ Usage:
 """
 
 import re
+import unicodedata
 from pathlib import Path
 
 import geonamescache
@@ -54,12 +55,40 @@ def load_cities():
     return by_country
 
 
+# A handful of unambiguous English exonyms for major cities geonamescache
+# only lists under their local name. High-confidence, verified against the
+# database directly (not guessed) -- deliberately NOT a general fuzzy-match
+# mechanism, just spelling variants of the same well-known place.
+EXONYM_ALIASES = {"gothenburg": "goteborg", "gothenberg": "goteborg", "cologne": "koln"}
+
+
+def normalize(name):
+    """Case/diacritic/abbreviation-insensitive comparison key -- NOT a
+    similarity heuristic. "Montréal" must equal "Montreal"; "Millvale"
+    must never equal "Philadelphia"."""
+    name = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
+    name = name.lower().strip()
+    name = re.sub(r"^st\.?\s+", "saint ", name)
+    name = re.sub(r"^ft\.?\s+", "fort ", name)
+    return EXONYM_ALIASES.get(name, name)
+
+
 def best_match(candidates, name):
-    exact = [c for c in candidates if c["name"].lower() == name.lower()]
-    pool = exact or candidates
-    if not pool:
+    """Exact match only (after normalizing case/diacritics/abbreviations),
+    or the same name with "city" appended ("New York" -> "New York City").
+    Deliberately does NOT fall back to "biggest city in the region" for a
+    non-match -- that produced silently wrong coordinates (Pittsboro NC
+    matched to Charlotte, Montreal to Toronto, Millvale PA to Philadelphia)
+    for any town smaller than geonamescache's population cutoff. Unmatched
+    stays unmatched; see the caller's reporting of that.
+    """
+    target = normalize(name)
+    hits = [c for c in candidates if normalize(c["name"]) == target]
+    if not hits:
+        hits = [c for c in candidates if normalize(c["name"]) == target + " city"]
+    if not hits:
         return None
-    return max(pool, key=lambda c: c.get("population", 0))
+    return max(hits, key=lambda c: c.get("population", 0))
 
 
 def geocode(city, region, by_country):

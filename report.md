@@ -224,48 +224,94 @@ every show's surprise score is browsable live in the
 
 ### Does geography matter?
 
-A live-music instinct worth checking against data: some cities feel like
-they get *better*, weirder, more surprising shows. San Francisco, in
-particular — is that real, or availability bias from having been to more
-shows there?
+Two different questions hide inside "does geography matter," and they get
+different treatments. **Where does JD play what** — is `city_song_rate`, a
+feature that's already inside the prediction model above, learning
+genuinely predictable local patterns (a song that runs hot in one city
+specifically). **How surprising is a place, even after the model's best
+effort** is a different question — the residual left over once prediction
+has already used everything it knows, including geography. That residual
+is computed once per show and never revisited (`show_surprisal.csv`,
+described earlier, is final — nothing below touches it). What *can*
+legitimately be adjusted is how individual shows get **aggregated into a
+per-city summary**, since a two-show average is mostly noise. That's an
+estimation problem, and it's where the rest of this section lives.
 
-The same per-show surprisal, grouped by city, answers it — but city-level
-data is thin (312 distinct cities, median 2 shows each), so a raw average
-would be dominated by noise for anywhere without a real sample. Each
-city's mean is shrunk toward the global average, weighted by how much
-history it actually has (empirical Bayes, same idea as the deep-cuts
-methodology: `shrunk = (n·city_mean + k·global_mean) / (n + k)`, k = 8
-equivalent shows):
+A live-music instinct worth checking: some cities feel like they get
+*better*, weirder, more surprising shows — San Francisco, in particular.
+City-level data is thin (312 distinct cities, median 2 shows each), so a
+raw average is dominated by noise almost everywhere. Each city's mean is
+empirical-Bayes shrunk toward a prior, weighted by how much history it
+actually has (`shrunk = (n·raw_mean + k·prior) / (n + k)`, k = 8
+equivalent shows). The *ranking* below is restricted to places with at
+least 3 shows — without that filter, a single wildly-surprising night in
+a 1-show town can technically out-rank a robust 57-show estimate, since a
+thin sample leans almost entirely on its prior; that's comparing against
+noise, not a meaningful result (an earlier, unfiltered version of this
+analysis made exactly that mistake).
+
+The prior each city shrinks toward matters. Administrative boundaries are
+a poor proxy for "shared local scene": pooling every city in North
+Carolina together, say, would let a random small town 150 miles from
+Durham "borrow" Durham's specialness just because it shares a state line,
+while genuinely-adjacent cities on opposite sides of a state border
+(Kansas City, KS/MO) would share nothing. The right unit is actual
+geographic proximity — cities within **25 km** of each other (measured
+directly from real coordinates via DBSCAN + haversine distance) are
+pooled as one metro scene; anywhere with no real neighbor in the tour
+history stays fully on its own, shrinking straight to the global mean and
+weighted only by its own sample size. That deliberately conservative
+radius favors *under*-grouping: Boston/Cambridge/Somerville and
+Durham/Chapel Hill/Carrboro/Cary/Raleigh cluster (they're a few miles
+apart), but a satellite town 20-40 miles out keeps its own signal rather
+than getting smeared into a regional average built mostly from other
+places.
 
 <img src="analysis/plots/surprise_map_world.png" width="100%">
 <img src="analysis/plots/surprise_map_us.png" width="100%">
 
-**San Francisco checks out**: 3.20 shrunk bits against a 2.64 global
-average, rank 4 of 310 cities — and with 57 shows in the sample, the
-shrinkage barely moves it off its raw average (3.28), so this isn't a
-small-sample fluke. But it's not even the strongest pattern in the data:
-**North Carolina dominates the top of the list** — Durham (#1, 31 shows,
-3.78 bits), Pittsboro (#3), Raleigh (#6) — and NC is the single most
-surprising *region* in the country. That's John Darnielle's home turf
-(he lives in Durham), and it tracks: hometown shows disproportionately
+**San Francisco checks out**: clustered with Oakland into a Bay Area
+scene (58 shows, 3.18 prior), SF's own 57-show, 3.28-raw average shrinks
+to 3.27 — barely moved, its own sample is strong enough to dominate —
+ranking **5th of 125** places with a real sample. But it's not even the
+strongest signal in the data: **Durham, NC is #1** (clustered with Chapel
+Hill/Carrboro/Cary/Raleigh, 30 shows, 3.95 shrunk bits) — that's John
+Darnielle's home turf, and it tracks: hometown shows disproportionately
 include benefit gigs, record-release shows, and extended sets, the same
 kind of occasion that dominates the [most-surprising-concerts
-list](#most-surprising-concerts) above. Full rankings in
-[analysis/city_surprisal.csv](analysis/city_surprisal.csv) and
-[analysis/region_surprisal.csv](analysis/region_surprisal.csv).
+list](#most-surprising-concerts) above. Notably, **Pittsboro, NC ranks
+#4 on its own** (5 shows, 3.39 bits) — close to Durham but far enough
+(>25km) to have no real neighbor in the tour history, so it correctly
+keeps its own distinct signal rather than inheriting Durham's. Same
+story for **#2, Watkins Glen, NY** (4 shows, 3.65 bits): all four are the
+"Zoop"/"Zoop II" Farm Sanctuary benefit concerts, a genuinely different
+kind of show from anything else in upstate New York, and pooling it with
+distant NY cities would have erased exactly what makes it a real outlier.
+Full rankings in [analysis/city_surprisal.csv](analysis/city_surprisal.csv)
+(city-level, `shrunk_mean_bits`) and
+[analysis/metro_surprisal.csv](analysis/metro_surprisal.csv) (the metro
+clusters themselves, with member lists).
 
 Given that finding, `city_song_rate` earns its place in the prediction
 model above — a shrunk, causally-computed "does this song run hot in this
 city" rate feeds directly into the per-song predictions, not just this
 descriptive analysis. Its coefficient is real but small (+0.02 standardized,
 vs. −1.30 for recency), meaning local-favorite effects exist but are a
-minor correction on top of tour rotation, not a dominant force. Cities
-were geocoded against an offline database (not fabricated or hand-typed —
-see [geocode_cities.py](geocode_cities.py)), matching 328 of 340 distinct
-(city, region) pairs, covering 1,302 of 1,317 setlisted shows (98.9%); the
-12 unmatched are mostly virtual/streaming "shows" whose venue name was
-parsed as a city (`AOL Session`, `NPR Tiny Desk Concert`), correctly left
-off the map rather than guessed.
+minor correction on top of tour rotation, not a dominant force.
+
+Cities are geocoded against an offline database
+([geocode_cities.py](geocode_cities.py)), matched by exact name (after
+normalizing case/diacritics/abbreviations) — deliberately **not** a fuzzy
+or nearest-match: an earlier version fell back to "the biggest city in the
+state" for anything without an exact hit, which silently produced *wrong*
+coordinates (Pittsboro, NC → Charlotte; Millvale, PA → Philadelphia;
+Montreal → Toronto) for 74 towns. Caught and fixed before this map was
+built. The honest coverage is lower as a result — 264 of 340 distinct
+(city, region) pairs, 1,206 of 1,317 setlisted shows (91.6%) — but every
+plotted point is actually where it claims to be; a few of the most
+surprising *small* towns (Watkins Glen NY, Pittsboro NC) fall outside the
+geocoding database's coverage and are correctly absent from the map (they
+still appear in the ranked CSVs, just without a pin).
 
 ## Caveats
 
@@ -285,10 +331,14 @@ off the map rather than guessed.
   exceptional — especially pre-2002, before a full-time backing band was
   the norm and "solo" wasn't a noteworthy deviation.
 - City-level analyses (`city_song_rate`, the surprise map) only cover
-  geocoded shows (98.9%) and are inherently thin for most cities (median
-  2 shows) — that's exactly what the shrinkage is for, but a city with
-  only 1–2 shows still contributes almost nothing beyond the global
-  average, by design.
+  geocoded shows (91.6% — see the geocoding note above) and are inherently
+  thin for most cities (median 2 shows) — that's exactly what the
+  shrinkage is for, but a city with only 1–2 shows still contributes
+  almost nothing beyond its metro/global prior, by design.
+- The 25km metro-clustering radius is a judgment call, not a principled
+  optimum — chosen deliberately conservative (favoring real, tight scenes
+  like Boston/Cambridge over aggressive regional pooling) rather than
+  tuned against any ground truth of what counts as "the same scene."
 
 ## Reproducing this
 

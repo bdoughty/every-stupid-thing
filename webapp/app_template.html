@@ -256,6 +256,19 @@
   .section-gap { margin-top: 28px; }
   .disclaimer { color: var(--ink-faint); font-size: 12px; margin-top: 22px; line-height: 1.6; }
 
+  /* ---------- surprise tab ---------- */
+  .section-h {
+    font-family: ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--ink-faint); margin: 26px 0 8px;
+  }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+  .rank-row { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--rule); font-size: 13.5px; }
+  .rank-row:last-child { border-bottom: none; }
+  .rank-row .primary { color: var(--ink); }
+  .rank-row .secondary { color: var(--ink-faint); font-size: 12px; }
+  .rank-row .metric { font-family: ui-monospace, monospace; font-size: 12.5px; color: var(--ink-soft); white-space: nowrap; flex-shrink: 0; }
+
   footer { text-align: center; color: var(--ink-faint); font-size: 12px; margin-top: 50px; font-family: ui-monospace, monospace; }
 
   @media (max-width: 560px) {
@@ -278,6 +291,7 @@
     <button class="tab-btn" role="tab" data-tab="song" aria-selected="true">Song Explorer</button>
     <button class="tab-btn" role="tab" data-tab="show" aria-selected="false">Show Browser</button>
     <button class="tab-btn" role="tab" data-tab="predict" aria-selected="false">Next-Show Predictor</button>
+    <button class="tab-btn" role="tab" data-tab="surprise" aria-selected="false">Most Surprising</button>
   </div>
 
   <!-- SONG EXPLORER -->
@@ -319,6 +333,36 @@
     </div>
 
     <p class="disclaimer">This is a statistical estimate from a logistic-regression model trained on show history (recency, tour rotation, song age) — not an announced setlist. It assumes the next show continues the current tour as-is. Full methodology in the project write-up (report.md / report.pdf).</p>
+  </section>
+
+  <!-- SURPRISE -->
+  <section class="panel" id="panel-surprise">
+    <p class="tagline" style="margin:0 0 20px;font-size:14px;">Every night's setlist gets a "surprise" score — bits of information in the songs actually played, from a model that only knew what a typical show up to that point looked like. High = defied the rotation; low = thoroughly expected.</p>
+
+    <h3 class="section-h">Where the surprising shows happen</h3>
+    <div class="card">
+      <img id="us-map-img" alt="Map of the continental US, colored by shrunk average surprise per city" style="width:100%;height:auto;display:block;border-radius:2px;">
+      <p class="chart-caption" style="margin-top:10px;">Circle size = shows played there; color = surprise, empirical-Bayes shrunk (blue = predictable, red = surprising). Cities within 25km of each other (real distance, not state lines) pool as one scene — Boston/Cambridge/Somerville, Durham/Chapel Hill/Raleigh — so a thin sample benefits from genuine nearby history. Anywhere with no real neighbor (Watkins Glen, Pittsboro) keeps its own distinct signal rather than borrowing a same-state city's reputation. <span id="map-coverage-note"></span></p>
+    </div>
+
+    <div class="two-col section-gap">
+      <div>
+        <h3 class="section-h">Most surprising cities</h3>
+        <div class="card" id="cities-surprising"></div>
+      </div>
+      <div>
+        <h3 class="section-h">Most predictable cities</h3>
+        <div class="card" id="cities-predictable"></div>
+      </div>
+    </div>
+
+    <h3 class="section-h">Most surprising individual songs</h3>
+    <p class="hint" style="margin-top:-4px;">Specific (show, song) moments the model gave almost no chance to — and got played anyway. 2023+ only (the model's held-out test era).</p>
+    <div class="card" id="plays-surprising"></div>
+
+    <h3 class="section-h">Most surprising full concerts</h3>
+    <p class="hint" style="margin-top:-4px;">Whole setlists that defied the rotation top to bottom (10+ songs, so a single guest cameo can't dominate).</p>
+    <div class="card" id="concerts-surprising"></div>
   </section>
 
   <footer>built from themountaingoats.fandom.com/wiki/Category:Live_Shows</footer>
@@ -606,6 +650,40 @@
       }).join("")}
     </div>`;
   }, 160));
+
+  // ================= SURPRISE =================
+  document.getElementById("us-map-img").src = "data:image/png;base64," + DATA.us_map_png;
+  const usCities = DATA.us_city_surprisal;
+  const geocoded = usCities.length;
+  document.getElementById("map-coverage-note").textContent =
+    `${geocoded} US cities/towns shown — a few high-surprise small towns (Watkins Glen NY, Pittsboro NC) aren't in the geocoding database and are listed below but not mappable.`;
+
+  const cityRow = (c) => `<div class="rank-row">
+    <span class="primary">${esc(c.city)}, ${esc(c.region)}</span>
+    <span class="metric">${c.shrunk.toFixed(2)} bits (${c.n} shows)</span>
+  </div>`;
+  document.getElementById("cities-surprising").innerHTML =
+    usCities.slice(0, 10).map(cityRow).join("");
+  document.getElementById("cities-predictable").innerHTML =
+    usCities.slice(-8).reverse().map(cityRow).join("");
+
+  document.getElementById("plays-surprising").innerHTML = DATA.surprising_plays.map(p => `
+    <div class="rank-row">
+      <span>
+        <button class="song-link" data-go-song="${esc(p.song)}">${esc(songByKey.get(p.song)?.title || p.song)}</button>
+        <span class="secondary">— <button class="song-link secondary" data-go-show="${esc(p.show_id)}" style="font-size:12px;">${esc(p.date)}, ${esc(p.venue || "")}${p.city ? ", " + esc(p.city) : ""}</button></span>
+      </span>
+      <span class="metric">${(p.p * 100).toFixed(2)}% expected</span>
+    </div>`).join("");
+
+  document.getElementById("concerts-surprising").innerHTML = DATA.surprising_concerts.map(c => {
+    const m = DATA.shows[c.show_id];
+    return `<div class="rank-row">
+      <span><button class="song-link" data-go-show="${esc(c.show_id)}">${esc(m.venue || c.show_id)}</button>
+        <span class="secondary">— ${esc(m.date)}, ${esc(m.city || "")}${m.region ? ", " + esc(m.region) : ""}</span></span>
+      <span class="metric">${c.bits} bits (${c.n} songs)</span>
+    </div>`;
+  }).join("");
 
   // initial state — a deliberate default, not the top song
   const DEFAULT_SONG = songByKey.has("Going to Georgia") ? "Going to Georgia" : topSongs[0].key;

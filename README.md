@@ -110,12 +110,20 @@ trivially top the list).
 
 Does where a show happens predict how surprising the setlist is? Cities are
 geocoded against an offline database ([geonamescache](https://pypi.org/project/geonamescache/),
-disambiguated by state/country — not fabricated or hand-typed), covering
-98.9% of setlisted shows. `geography.py` computes empirical-Bayes-shrunk
-mean surprisal per city and per region (`analysis/city_surprisal.csv` /
-`region_surprisal.csv`) — most city-level samples are thin (median 2 shows),
-so shrinkage matters a lot here. `plot_map.py` renders the result as a
-world map and a US inset (`analysis/plots/surprise_map_*.png`), using
+matched by exact name only — not fabricated, not fuzzy-matched to "the
+nearest big city"), covering 91.6% of setlisted shows. `geography.py`
+computes empirical-Bayes-shrunk mean surprisal per city, pooled by real
+geographic proximity (DBSCAN + haversine distance, 25km radius) rather
+than state/country lines — Boston/Cambridge/Somerville and Durham/Chapel
+Hill/Carrboro pool as genuine metro scenes, while a place with no real
+neighbor in the tour history (Watkins Glen, NY; Pittsboro, NC) keeps its
+own distinct signal instead of borrowing a same-state city's reputation.
+Most city-level samples are thin (median 2 shows), so shrinkage matters a
+lot. Outputs: `analysis/city_surprisal.csv` (city-level, both the
+metro-cascaded and flat-to-global values), `analysis/metro_surprisal.csv`
+(the clusters themselves), `analysis/region_surprisal.csv` (state/country,
+a separate descriptive table). `plot_map.py` renders the city-level result
+as a world map and a US inset (`analysis/plots/surprise_map_*.png`), using
 plotly's built-in basemap (no tile server, no API key).
 
 ## Analyses (`analyze.py`)
@@ -165,9 +173,15 @@ for now, not an embedded interactive one.)
 - `is_solo` is conservative/high-precision, not exhaustive — it likely
   under-flags true solo shows the wiki didn't call out as exceptional,
   especially pre-2002.
-- City-level analyses cover 98.9% of setlisted shows and are inherently
+- City-level analyses cover 91.6% of setlisted shows and are inherently
   thin per city (median 2 shows) — that's what the empirical-Bayes
   shrinkage in `geography.py` and the `city_song_rate` model feature are
-  for.
+  for. `city` is normalized for known same-place naming variants
+  (`CITY_ALIASES` in scrape.py — "New York City" → "New York"); a new
+  variant slipping through would silently split that place's history.
+- `encore` (main set / which encore) is real per-song data; a within-show
+  "solo segment" of an otherwise full-band show is not parsed into any
+  column (only whole-show `is_solo` exists), and neither encore position
+  nor solo-segment position is a feature in the prediction model.
 - `legacy/` holds two earlier scraper attempts and their outputs, superseded
   by this pipeline.
