@@ -55,6 +55,7 @@ def main():
             "type": nn(r.show_type),
             "act": r.act,
             "video": bool(r.has_video),
+            "solo": bool(r.is_solo),
             "n": int(r.n_songs),
             "surprise": (
                 round(surprisal_by_show[r.show_id], 2)
@@ -91,6 +92,7 @@ def main():
             {
                 "s": int(r.seq),
                 "e": int(r.encore),
+                "solo": bool(r.solo_segment),
                 "t": song_idx.get(r.song_key),
                 "a": album_idx.get(r.album) if pd.notna(r.album) else None,
                 "n": nn(r.note),
@@ -143,6 +145,22 @@ def main():
             "p": round(float(r.p_model), 4),
         }
         for r in plays.head(30).itertuples()
+    ]
+
+    # --- main set vs. encore (analyze.py), restricted there to shows with a
+    # known encore breakout -- see encore_stats() docstring for why.
+    encore = pd.read_csv(A / "encore_stats.csv")
+    encore_elig = encore[encore.eligible]
+    main_set_staples = [
+        {"key": r.song_key, "title": r.song_title, "n_main": int(r.n_main), "n_encore": int(r.n_encore)}
+        for r in encore_elig.sort_values("n_main", ascending=False).head(15).itertuples()
+    ]
+    encore_leaders = [
+        {
+            "key": r.song_key, "title": r.song_title, "n_main": int(r.n_main), "n_encore": int(r.n_encore),
+            "rate": round(float(r.encore_rate_shrunk), 3),
+        }
+        for r in encore_elig.sort_values("encore_rate_shrunk", ascending=False).head(15).itertuples()
     ]
 
     # --- US city surprisal (empirical-Bayes shrunk), for the Surprise tab's
@@ -223,6 +241,9 @@ def main():
         "surprising_plays": surprising_plays,
         "us_city_surprisal": us_city_surprisal,
         "us_map_png": us_map_b64,
+        "main_set_staples": main_set_staples,
+        "encore_leaders": encore_leaders,
+        "n_encore_tracked_shows": int((perfs.groupby("show_id").encore.max() >= 1).sum()),
         "trajectory_quarters": quarters,
         "trajectories": trajectories,
     }

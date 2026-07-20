@@ -262,6 +262,27 @@ def classify_categories(categories):
 
 VIDEO_HOST_RE = re.compile(r"https?://(?:www\.|m\.)?(?:youtube\.com|youtu\.be|vimeo\.com)/", re.IGNORECASE)
 
+# Unifies "#N" / "No. N" / "Number One" spellings of the same song title
+# ("Sax Rohmer #1" == "Sax Rohmer Number 1" == the wiki-redirect spelling
+# "Sax Rohmer Number One") -- both for the link/quote disagreement check in
+# clean_song_cell() and for collapsing redirect-slug variants in build().
+_NUM_WORDS = {
+    "one": "1", "two": "2", "three": "3", "four": "4", "five": "5",
+    "six": "6", "seven": "7", "eight": "8", "nine": "9", "ten": "10",
+}
+
+
+def numeral_normalize(s):
+    s = re.sub(r"#\s*(\d+)", r"number \1", s, flags=re.IGNORECASE)
+    s = re.sub(r"\bno\.?\s*(\d+)", r"number \1", s, flags=re.IGNORECASE)
+    s = re.sub(
+        r"\bnumber\s+(\w+)",
+        lambda m: "number " + _NUM_WORDS.get(m.group(1).lower(), m.group(1)),
+        s,
+        flags=re.IGNORECASE,
+    )
+    return s
+
 
 def clean_song_cell(cell):
     """Extract song title/slug/note/videos from a setlist-table song cell."""
@@ -291,10 +312,14 @@ def clean_song_cell(cell):
     # Prefer the wiki-link title (canonical spelling), else quoted text, else
     # the cleaned raw text. But if quoted text and link disagree entirely, the
     # link is something else (a performer, an album) — trust the quotes.
+    # Compare after unifying "#N"/"No. N" with "Number N" (same title, just a
+    # different numbering convention -- e.g. "Sax Rohmer #1" linked as "Sax
+    # Rohmer Number 1"), so that convention alone doesn't look like a real
+    # disagreement and strand the song without its canonical slug.
     qm = re.search(r"[\"“]([^\"”]+)[\"”]", raw)
     quoted = qm.group(1).strip() if qm else None
     if quoted and link_title:
-        a, b = quoted.lower(), link_title.lower()
+        a, b = numeral_normalize(quoted.lower()), numeral_normalize(link_title.lower())
         if a not in b and b not in a:
             link_title = slug = None
     title = link_title or quoted or raw.strip('"').strip()
@@ -342,6 +367,41 @@ ENCORE_NOTE_RE = re.compile(
     r"(\d+)(?:\s*(through|to|and|[-–—])\s*(\d+))?",
     re.IGNORECASE,
 )
+
+# Within-show solo segments in an otherwise full-band show: "John's solo set
+# was songs 7 through 9" / "Songs 7-9 were played by John Darnielle solo" --
+# distinct from the whole-show SOLO_NOTE_RE and from ENCORE_NOTE_RE above. A
+# single note often packs a solo range together with a second, non-solo range
+# in the same sentence ("...solo, and songs 10-14 were played by Kaki King" /
+# "John played songs 1-5 solo. Peter Hughes joined him for songs 6-11.") so
+# matching is done per-clause, split on sentence/semicolon boundaries and
+# ", and " -- a clause counts as a solo segment only if "solo" appears in
+# that same clause, so the second, guest-only range is correctly left out.
+SOLO_SEGMENT_RANGE_RE = re.compile(
+    r"\bsongs?\s+(\d+)(?:\s*(through|to|and|[-–—])\s*(\d+))?", re.IGNORECASE
+)
+_CLAUSE_SPLIT_RE = re.compile(r"[.;]\s+|,\s*and\s+", re.IGNORECASE)
+
+
+def solo_segment_map(notes):
+    """Map setlist position -> True for songs played during a solo segment."""
+    mapping = {}
+    for note in notes:
+        for clause in _CLAUSE_SPLIT_RE.split(note):
+            if not re.search(r"\bsolo\b", clause, re.IGNORECASE):
+                continue
+            for m in SOLO_SEGMENT_RANGE_RE.finditer(clause):
+                start, conn, end = m.groups()
+                start = int(start)
+                if end is None:
+                    mapping[start] = True
+                elif conn and conn.lower() == "and" and int(end) > start + 1:
+                    mapping[start] = True
+                    mapping[int(end)] = True
+                else:
+                    for pos in range(start, int(end) + 1):
+                        mapping[pos] = True
+    return mapping
 
 
 def parse_notes(soup):
@@ -543,6 +603,13 @@ def build():
             for s in setlist:
                 pos = s["order_raw"] if s["order_raw"] is not None else s["seq"]
                 s["encore"] = enc.get(pos, 0)
+
+        # Solo-segment flag: every song in a whole-show solo (is_solo) is
+        # trivially solo; in a full-band show, only the note-parsed range is.
+        solo_seg = solo_segment_map(notes)
+        for s in setlist:
+            pos = s["order_raw"] if s["order_raw"] is not None else s["seq"]
+            s["solo_segment"] = is_solo or (pos in solo_seg)
         for t in tours:
             unclassified_tours[t] = unclassified_tours.get(t, 0) + 1
 
@@ -583,6 +650,13 @@ def build():
     key_lower = perfs_df["song_key"].str.lower()
     majority_case = perfs_df.groupby(key_lower)["song_key"].agg(lambda s: s.mode().iat[0])
     perfs_df["song_key"] = key_lower.map(majority_case)
+    # Numeral-spelling wiki redirects to the same page ("Sax Rohmer Number 1"
+    # vs. the mw-redirect page "Sax Rohmer Number One") have genuinely
+    # different slugs, so the case-only pass above doesn't catch them —
+    # collapse those too, again keeping the majority spelling.
+    key_numeral = perfs_df["song_key"].str.lower().map(numeral_normalize)
+    majority_numeral = perfs_df.groupby(key_numeral)["song_key"].agg(lambda s: s.mode().iat[0])
+    perfs_df["song_key"] = key_numeral.map(majority_numeral)
     canonical = (
         perfs_df.dropna(subset=["song_slug"])
         .groupby("song_key")["song_title"]

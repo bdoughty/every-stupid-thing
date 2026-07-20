@@ -22,6 +22,9 @@ PRIOR_WEIGHT = 20  # pseudo-opportunities for shrinkage
 MIN_OPPORTUNITIES = 20  # eligibility filter for deep-cut flagging
 DEEP_CUT_QUANTILE = 0.25
 
+ENCORE_SHRINKAGE_K = 8  # pseudo-plays, empirical-Bayes toward the global encore rate
+MIN_PLAYS_FOR_ENCORE_RANK = 5  # eligibility filter for encore-rate ranking
+
 
 def load():
     shows = pd.read_csv(ROOT / "data" / "shows.csv", parse_dates=["date"])
@@ -73,6 +76,43 @@ def song_stats(shows, perfs):
     return stats.sort_values("n_plays", ascending=False), total
 
 
+def encore_stats(perfs):
+    """Per-song main-set vs. encore play counts, restricted to shows where
+    the encore breakout is actually known.
+
+    `encore` defaults to 0 for every performance, including in the 888 of
+    1317 setlisted shows whose Notes never called out an encore at all — so
+    a song's raw main-set/encore split would just be diluted noise unless
+    we first filter down to the shows that DO carry a real encore/main-set
+    label (encore_map() found at least one "the encore was songs ..." note).
+    """
+    tracked_shows = perfs.groupby("show_id")["encore"].max()
+    tracked_shows = tracked_shows[tracked_shows >= 1].index
+    p = perfs[perfs.show_id.isin(tracked_shows)].copy()
+    p["is_encore"] = p["encore"] >= 1
+
+    g = p.groupby("song_key")
+    stats = pd.DataFrame(
+        {
+            "song_title": g["song_canonical"].first(),
+            "n_main": g["is_encore"].agg(lambda s: (~s).sum()),
+            "n_encore": g["is_encore"].sum(),
+            "is_cover": g["is_cover"].any(),
+        }
+    ).reset_index()
+    stats["n_tracked_plays"] = stats["n_main"] + stats["n_encore"]
+
+    global_rate = stats["n_encore"].sum() / stats["n_tracked_plays"].sum()
+    alpha = global_rate * ENCORE_SHRINKAGE_K
+    beta = (1 - global_rate) * ENCORE_SHRINKAGE_K
+    stats["encore_rate"] = stats["n_encore"] / stats["n_tracked_plays"]
+    stats["encore_rate_shrunk"] = (
+        (stats["n_encore"] + alpha) / (stats["n_tracked_plays"] + alpha + beta)
+    )
+    stats["eligible"] = stats["n_tracked_plays"] >= MIN_PLAYS_FOR_ENCORE_RANK
+    return stats.sort_values("n_tracked_plays", ascending=False), len(tracked_shows), global_rate
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     shows, perfs = load()
@@ -119,7 +159,34 @@ def main():
     print(f"\n=== Biggest tours ===")
     print(tours.sort_values("shows", ascending=False).head(10).to_string(index=False))
 
-    print("\nWrote analysis/shows_per_year.csv, analysis/tours.csv, analysis/song_stats.csv")
+    encore, n_tracked, global_encore_rate = encore_stats(perfs)
+    encore.to_csv(OUT / "encore_stats.csv", index=False)
+    print(
+        f"\n=== Main set vs. encore ({n_tracked} shows with a known encore breakout, "
+        f"global encore rate {global_encore_rate:.1%}) ==="
+    )
+    elig = encore[encore.eligible]
+    print("--- Most-played non-encore (main set) songs ---")
+    print(
+        elig.sort_values("n_main", ascending=False).head(10)[["song_title", "n_main", "n_encore"]]
+        .to_string(index=False)
+    )
+    print("--- Most-played encore songs ---")
+    print(
+        elig.sort_values("n_encore", ascending=False).head(10)[["song_title", "n_main", "n_encore"]]
+        .to_string(index=False)
+    )
+    print(f"--- Biggest encore-leaners (shrunk encore rate, >={MIN_PLAYS_FOR_ENCORE_RANK} tracked plays) ---")
+    print(
+        elig.sort_values("encore_rate_shrunk", ascending=False).head(10)
+        [["song_title", "n_main", "n_encore", "encore_rate_shrunk"]]
+        .to_string(index=False, formatters={"encore_rate_shrunk": "{:.1%}".format})
+    )
+
+    print(
+        "\nWrote analysis/shows_per_year.csv, analysis/tours.csv, analysis/song_stats.csv, "
+        "analysis/encore_stats.csv"
+    )
 
 
 if __name__ == "__main__":

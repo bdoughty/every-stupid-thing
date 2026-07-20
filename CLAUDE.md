@@ -21,6 +21,11 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   - `fetch` also caches `data/raw/_covers.json`, the wiki's
     `Category:Covers` membership — the source of the `is_cover` flag.
 - `analyze.py` — starter analyses; writes `analysis/*.csv` and prints a report.
+  Includes `encore_stats.csv`: per-song main-set vs. encore play counts and an
+  empirical-Bayes-shrunk `encore_rate`, restricted to the 429 shows whose
+  Notes actually specify an encore breakout (see Gotchas) — an unrestricted
+  version would dilute every song's rate with shows where the split just
+  isn't known.
 - `predict.py` — the setlist-prediction model (logistic regression vs. an
   EWMA baseline), including `is_solo` and a shrunk `city_song_rate` feature.
   Also exports: `model_coefficients.csv`, `surprising_plays.csv` (biggest
@@ -70,6 +75,10 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   Use `song_canonical` (or `song_key`) for grouping; `song_title` is the raw
   display text of that performance. `is_cover` is sourced from the wiki's
   own `Category:Covers` (see below), not text-sniffed from notes.
+  `solo_segment` (bool) is True for a whole-show `is_solo`, or for a song
+  inside a full-band show's within-show solo break, parsed from Notes prose
+  by `solo_segment_map()` — see Wiki page structure below. It's for display
+  only; not a model feature (see Gotchas).
 - `data/songs.csv` — per-song aggregates, including `is_cover`.
 - `docs/deep_cut_notes.md` — methodology notes on defining "deep cuts"
   (opportunity-adjusted shrunk play rates); `analyze.py` implements this.
@@ -98,11 +107,27 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   Notes section ("The encore was songs 19 through 23"), keyed to the printed
   order numbers; `encore_map()` parses this into the `encore` column. Notes
   bullets are also exported to `data/show_notes.csv`.
+- **Within-show solo segments are also prose-only**, in a full-band show's
+  Notes ("Songs 7 through 9 were played by John Darnielle solo", "John's
+  solo set was songs 7-9") — `solo_segment_map()` parses these into the
+  `solo_segment` column, same position-keying as `encore_map()`. A single
+  note frequently packs a solo range together with a second, non-solo range
+  in the same sentence ("...solo, and songs 10-14 were played by Kaki King"
+  / "John played songs 1-5 solo. Peter Hughes joined him for songs 6-11.")
+  so matching is done per-clause (split on sentence/semicolon boundaries and
+  ", and ") — a clause counts as solo only if "solo" appears in that same
+  clause, so the guest-only range doesn't get swept in too.
 - Song cells: title is quoted with a wiki link; parentheticals hold guest
   info, cover attribution, and external video links (YouTube/Vimeo links go
   to `video_urls`, the rest of the parenthetical to `note`; `raw_text`
   preserves everything). If the quoted text and the wiki link disagree
   entirely, the link is a performer/album, not the song — trust the quotes.
+  The disagreement check normalizes "#N" / "No. N" / spelled-out numerals
+  ("Number One") to a common "number N" form first (`numeral_normalize()`),
+  so a numbering-convention difference alone doesn't look like a real
+  disagreement and strand the song without its wiki slug (a real bug, caught
+  and fixed — "Sax Rohmer #1" and the wiki's own redirect-page spelling
+  "Sax Rohmer Number One" were splitting into two separate songs).
   **A song's link `title=` attribute can be disambiguated** (e.g. link text
   "Get Lonely", `title="Get Lonely (Song)"`, because a same-named album page
   exists) — 20 songs do this. `clean_song_cell()`'s note-construction must
@@ -111,8 +136,12 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   link text gets stranded as a bogus note (a real bug, caught and fixed —
   it had been happening on every performance of all 20 songs).
 - Song identity: `song_key` = link slug with underscores→spaces (else display
-  text), case-unified across wiki redirect variants. Always group on
-  `song_key`, never raw `song_title`.
+  text), case-unified across wiki redirect variants, *and* numeral-spelling
+  variants (`numeral_normalize()` again, in `build()` this time — catches
+  same-song wiki redirects the per-cell check above doesn't, like "Sax
+  Rohmer Number 1" vs. the redirect page "Sax Rohmer Number One", which have
+  genuinely different slugs). Always group on `song_key`, never raw
+  `song_title`.
 - The wiki has a standalone `Category:Covers` (174 song pages, 156 of which
   match a song we've actually seen played live) — far more complete than
   sniffing "(cover)" out of setlist notes (~12 hits). This is the source of
@@ -151,10 +180,13 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   exact-match-only; a town too small for geonamescache is now correctly
   left uncoded rather than mislocated. Don't reintroduce a fuzzy fallback
   without a real distance check.
-- `encore` is real per-song data (parsed from Notes prose, see above), but
-  a WITHIN-show "solo segment" is not — "John's solo set was songs 7
-  through 9" (480 shows have this note pattern) describes part of an
-  otherwise full-band show and isn't parsed into any column. Only
-  whole-show `is_solo` exists. Neither `encore` nor solo-segment position
-  is currently a feature in predict.py's model — it predicts "is this
-  song played," not "where in the show."
+- Both `encore` and `solo_segment` are real per-song data (parsed from Notes
+  prose, see above), but neither is currently a feature in predict.py's
+  model — it predicts "is this song played," not "where in the show," and
+  encore/solo-segment status isn't known before the show happens anyway (it's
+  an outcome, not a pre-show predictor) — so it's descriptive/display-only,
+  same as `city_surprisal.csv` vs. the predictive `city_song_rate`.
+  `encore_stats.csv` (analyze.py) is restricted to the 429 (of 1317
+  setlisted) shows with a known encore breakout — most shows' Notes never
+  call out an encore at all, so an unrestricted rate would just be diluted
+  by shows where the split is unknown, not shows with no encore.

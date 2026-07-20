@@ -1,8 +1,12 @@
-# The Mountain Goats live-show database
+# every-stupid-thing
 
 A scraped, tidy dataset of (nearly) every documented Mountain Goats live
 performance, built from the fan-maintained wiki at
 [themountaingoats.fandom.com](https://themountaingoats.fandom.com/wiki/Category:Live_Shows).
+
+**[Live site](https://bdoughty.github.io/every-stupid-thing/)** (setlist/song
+search, the "next show" predictor, and the surprise/geography analysis) ·
+**[Full report (PDF)](https://bdoughty.github.io/every-stupid-thing/report.pdf)**
 
 ## Quickstart
 
@@ -67,6 +71,7 @@ df = perfs.merge(shows, on="show_id", suffixes=("", "_show"))
 | `note` | leftover annotations: guests, cover attribution, alternate titles |
 | `video_urls` | pipe-separated YouTube/Vimeo links for this performance |
 | `is_cover` | from the wiki's own `Category:Covers` — see below |
+| `solo_segment` | John solo for this song — whole-show `is_solo`, or a full-band show's parsed within-show solo break; display-only, not a model feature |
 | `raw_text` | untouched cell text, for auditing |
 
 ### `data/songs.csv` — one row per song
@@ -133,6 +138,10 @@ plotly's built-in basemap (no tile server, no API key).
 - per-song opportunity-adjusted play rates with empirical-Bayes shrinkage and
   a deep-cut flag (`analysis/song_stats.csv`) — methodology in
   [docs/deep_cut_notes.md](docs/deep_cut_notes.md)
+- main-set vs. encore play counts per song, with a shrunk `encore_rate`
+  (`analysis/encore_stats.csv`) — restricted to the 429 shows whose Notes
+  actually spell out the encore breakout, so it's not diluted by shows where
+  the split just isn't recorded
 
 ## Song popularity over time (`timeseries.py`)
 
@@ -179,9 +188,9 @@ for now, not an embedded interactive one.)
   for. `city` is normalized for known same-place naming variants
   (`CITY_ALIASES` in scrape.py — "New York City" → "New York"); a new
   variant slipping through would silently split that place's history.
-- `encore` (main set / which encore) is real per-song data; a within-show
-  "solo segment" of an otherwise full-band show is not parsed into any
-  column (only whole-show `is_solo` exists), and neither encore position
-  nor solo-segment position is a feature in the prediction model.
+- `encore` (main set / which encore) and `solo_segment` (whole-show or
+  within-show) are both real per-song data, parsed from Notes prose — but
+  neither is a feature in the prediction model, since encore/solo status
+  isn't known before a show happens (it's an outcome, not a predictor).
 - `legacy/` holds two earlier scraper attempts and their outputs, superseded
   by this pipeline.

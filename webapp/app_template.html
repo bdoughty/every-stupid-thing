@@ -234,6 +234,11 @@
   .setlist-row .song-link:hover { color: var(--accent); }
   .setlist-row .album { color: var(--ink-faint); font-size: 12.5px; font-style: italic; }
   .setlist-row .note { color: var(--ink-soft); font-size: 12.5px; }
+  .setlist-row .tag-solo {
+    font-family: ui-monospace, monospace; font-size: 10.5px; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--ink-faint); border: 1px solid var(--rule);
+    border-radius: 3px; padding: 1px 5px;
+  }
   .setlist-row .vlink { margin-left: auto; font-size: 11.5px; font-family: ui-monospace, monospace; flex-shrink: 0; }
 
   .notes-block { margin-top: 22px; padding-top: 16px; border-top: 1px dashed var(--rule); }
@@ -270,6 +275,8 @@
   .rank-row .metric { font-family: ui-monospace, monospace; font-size: 12.5px; color: var(--ink-soft); white-space: nowrap; flex-shrink: 0; }
 
   footer { text-align: center; color: var(--ink-faint); font-size: 12px; margin-top: 50px; font-family: ui-monospace, monospace; }
+  footer a { color: var(--ink-faint); text-decoration: underline; }
+  footer a:hover { color: var(--accent); }
 
   @media (max-width: 560px) {
     .masthead { padding: 28px 16px 18px; }
@@ -363,9 +370,26 @@
     <h3 class="section-h">Most surprising full concerts</h3>
     <p class="hint" style="margin-top:-4px;">Whole setlists that defied the rotation top to bottom (10+ songs, so a single guest cameo can't dominate).</p>
     <div class="card" id="concerts-surprising"></div>
+
+    <h3 class="section-h">Main set vs. encore</h3>
+    <p class="hint" style="margin-top:-4px;" id="encore-tracked-note"></p>
+    <div class="two-col section-gap">
+      <div>
+        <h3 class="section-h">Main-set staples</h3>
+        <div class="card" id="main-set-staples"></div>
+      </div>
+      <div>
+        <h3 class="section-h">Encore leaders</h3>
+        <div class="card" id="encore-leaders"></div>
+      </div>
+    </div>
   </section>
 
-  <footer>built from themountaingoats.fandom.com/wiki/Category:Live_Shows</footer>
+  <footer>
+    built from themountaingoats.fandom.com/wiki/Category:Live_Shows
+    &middot; <a href="https://github.com/bdoughty/every-stupid-thing" target="_blank" rel="noopener">source on GitHub</a>
+    &middot; <a href="report.pdf" target="_blank" rel="noopener">full report (PDF)</a>
+  </footer>
 </div>
 
 <script id="tmg-data" type="application/json">__APP_DATA__</script>
@@ -573,6 +597,7 @@
     if (m.tour) html += `<span class="pill accent">${esc(m.tour)}</span>`;
     if (m.type) html += `<span class="pill">${esc(m.type)}</span>`;
     if (m.act && m.act !== "The Mountain Goats") html += `<span class="pill">${esc(m.act)}</span>`;
+    if (m.solo) html += `<span class="pill">solo show</span>`;
     if (m.video) html += `<span class="pill good">has video</span>`;
     if (m.surprise !== null && m.surprise !== undefined) {
       html += `<span class="pill" title="Average bits of surprise per song played, from the prediction model's pre-show odds. Higher = more unexpected setlist.">surprise: ${m.surprise.toFixed(1)} bits</span>`;
@@ -594,6 +619,7 @@
             <span class="num">${row.s}.</span>
             <button class="song-link" data-go-song="${esc(song.key)}">${esc(song.title)}</button>
             ${album ? `<span class="album">${esc(album)}</span>` : ""}
+            ${row.solo && !m.solo ? `<span class="tag-solo" title="Part of a within-show solo segment">solo</span>` : ""}
             ${row.n ? `<span class="note">(${esc(row.n)})</span>` : ""}
             ${row.v ? `<span class="vlink"><a href="${esc(row.v[0])}" target="_blank" rel="noopener">watch</a></span>` : ""}
           </div>`;
@@ -684,6 +710,19 @@
       <span class="metric">${c.bits} bits (${c.n} songs)</span>
     </div>`;
   }).join("");
+
+  document.getElementById("encore-tracked-note").textContent =
+    `Based on the ${DATA.n_encore_tracked_shows} shows whose notes spell out exactly which songs were the encore — most shows' notes don't say, so this is a subset, not "every show."`;
+  document.getElementById("main-set-staples").innerHTML = DATA.main_set_staples.map(s => `
+    <div class="rank-row">
+      <span><button class="song-link" data-go-song="${esc(s.key)}">${esc(s.title)}</button></span>
+      <span class="metric">${s.n_main} main-set${s.n_encore ? `, ${s.n_encore} encore` : ""}</span>
+    </div>`).join("");
+  document.getElementById("encore-leaders").innerHTML = DATA.encore_leaders.map(s => `
+    <div class="rank-row">
+      <span><button class="song-link" data-go-song="${esc(s.key)}">${esc(s.title)}</button></span>
+      <span class="metric">${(s.rate * 100).toFixed(0)}% encore (${s.n_encore}/${s.n_main + s.n_encore})</span>
+    </div>`).join("");
 
   // initial state — a deliberate default, not the top song
   const DEFAULT_SONG = songByKey.has("Going to Georgia") ? "Going to Georgia" : topSongs[0].key;
