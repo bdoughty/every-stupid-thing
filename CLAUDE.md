@@ -40,7 +40,12 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   Matches by exact name only (after normalizing case/diacritics/
   abbreviations) — deliberately no fuzzy/population fallback, since an
   earlier version of that produced silently wrong coordinates (see
-  Gotchas) → `analysis/city_coordinates.csv`.
+  Gotchas) → `analysis/city_coordinates.csv`. `data/city_overrides.csv`
+  (city,region,lat,lon) is hand-maintained ground truth for places too
+  small for geonamescache — always wins over the automatic match, since a
+  human-supplied coordinate isn't the same risk as an algorithmic guess.
+  Pre-populated with every currently-unmatched (city,region) pair and
+  blank lat/lon; fill in whichever you care about, leave the rest blank.
 - `geography.py` — empirical-Bayes-shrunk surprisal per city, pooled by
   real geographic proximity (DBSCAN + haversine distance on the geocoded
   coordinates, 25km radius), not administrative state/country lines — a

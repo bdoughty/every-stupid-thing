@@ -116,7 +116,10 @@ trivially top the list).
 Does where a show happens predict how surprising the setlist is? Cities are
 geocoded against an offline database ([geonamescache](https://pypi.org/project/geonamescache/),
 matched by exact name only — not fabricated, not fuzzy-matched to "the
-nearest big city"), covering 91.6% of setlisted shows. `geography.py`
+nearest big city"), covering 91.6% of setlisted shows. Places too small for
+that database can be filled in by hand in `data/city_overrides.csv`
+(city, region, lat, lon) — human-verified coordinates always win over the
+automatic match. `geography.py`
 computes empirical-Bayes-shrunk mean surprisal per city, pooled by real
 geographic proximity (DBSCAN + haversine distance, 25km radius) rather
 than state/country lines — Boston/Cambridge/Somerville and Durham/Chapel

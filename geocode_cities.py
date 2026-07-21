@@ -8,7 +8,9 @@ string (a country name, sometimes with noise like "The Netherlands (Extra
 Glenns set)") to an ISO country code; Canadian shows match on
 countrycode='CA' regardless of province (city names rarely collide).
 Anything that doesn't match cleanly is left uncoded and reported, rather
-than guessed.
+than guessed -- unless a human has supplied real coordinates for it in
+data/city_overrides.csv (city,region,lat,lon), which always wins over the
+automatic match. See load_overrides() below.
 
 Usage:
     /Users/bdoughty/opt/miniconda3/envs/tmg-scrape/bin/python geocode_cities.py
@@ -117,6 +119,21 @@ def geocode(city, region, by_country):
     return None, "unrecognized_region"
 
 
+OVERRIDES_PATH = ROOT / "data" / "city_overrides.csv"
+
+
+def load_overrides():
+    """Hand-maintained (city, region, lat, lon) rows -- for places too small
+    for geonamescache, filled in with real, human-verified coordinates
+    rather than left uncoded or (worse) guessed algorithmically. Not the
+    same risk as the fuzzy-match bug this file explicitly avoids elsewhere:
+    a person looking up a specific address is ground truth, not a heuristic.
+    """
+    if not OVERRIDES_PATH.exists():
+        return pd.DataFrame(columns=["city", "region", "lat", "lon"])
+    return pd.read_csv(OVERRIDES_PATH)
+
+
 def main():
     shows = pd.read_csv(ROOT / "data" / "shows.csv")
     sh = shows[shows.n_songs > 0]
@@ -136,6 +153,27 @@ def main():
             "match_method": method,
         })
     out = pd.DataFrame(rows)
+
+    overrides = load_overrides()
+    if len(overrides):
+        out = out.merge(
+            overrides[["city", "region", "lat", "lon"]],
+            on=["city", "region"], how="left", suffixes=("", "_override"),
+        )
+        has_override = out["lat_override"].notna()
+        out.loc[has_override, "lat"] = out.loc[has_override, "lat_override"]
+        out.loc[has_override, "lon"] = out.loc[has_override, "lon_override"]
+        out.loc[has_override, "matched_name"] = out.loc[has_override, "city"]
+        out.loc[has_override, "match_method"] = "manual_override"
+        out = out.drop(columns=["lat_override", "lon_override"])
+        unused = overrides.merge(out, on=["city", "region"], how="left", indicator=True)
+        unused = unused[unused._merge == "left_only"]
+        if len(unused):
+            print(f"Note: {len(unused)} row(s) in city_overrides.csv didn't match any "
+                  f"(city, region) in shows.csv -- typo? {unused[['city', 'region']].values.tolist()}")
+        print(f"Applied {int(has_override.sum())} manual coordinate override(s) from "
+              f"data/city_overrides.csv")
+
     out.to_csv(OUT / "city_coordinates.csv", index=False)
 
     matched = out.lat.notna()
