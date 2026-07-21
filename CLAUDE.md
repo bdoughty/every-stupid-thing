@@ -185,6 +185,26 @@ Use the `tmg-scrape` conda env (python 3.11, requests/bs4/pandas):
   exact-match-only; a town too small for geonamescache is now correctly
   left uncoded rather than mislocated. Don't reintroduce a fuzzy fallback
   without a real distance check.
+- **Known limitation, deliberately left as-is for now**: `geography.py`'s
+  DBSCAN metro-clustering has no cluster-diameter bound — it only checks
+  that *adjacent* hops are ≤25km, not how far apart a chain's endpoints
+  end up (a standard single-linkage/density-chaining property, not a bug).
+  After adding manual coordinate overrides, this became real: Durham's
+  cluster now reaches Pittsboro (39.5km away, direct) and Graham (45.9km)
+  through Carrboro and Saxapahaw as stepping-stones. Graham's own raw rate
+  (3.12 bits, near the global mean) inherits Durham's much higher cluster
+  prior and now outranks San Francisco's robust 57-show estimate on a
+  4-show sample — exactly the "random unsurprising town borrows a bigger
+  city's reputation" failure mode flagged when this design was chosen (see
+  the geography.py docstring). Currently concentrated around Durham
+  specifically (JD's home turf, so genuinely denser local coverage than
+  the rest of the tour history) rather than a global problem, but it will
+  keep happening as more small towns get geocoded there. The principled
+  fix, if/when this gets revisited: switch to a **cluster-diameter cap**
+  (every pair inside a cluster ≤25km, i.e. complete-linkage) instead of
+  DBSCAN's adjacent-hop-only criterion — Boston/Cambridge/Somerville-style
+  tight scenes still merge fine under an all-pairs test, but Graham could
+  never join Durham's cluster no matter how many stepping-stones exist.
 - Both `encore` and `solo_segment` are real per-song data (parsed from Notes
   prose, see above), but neither is currently a feature in predict.py's
   model — it predicts "is this song played," not "where in the show," and
