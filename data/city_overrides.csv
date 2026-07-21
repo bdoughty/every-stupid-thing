@@ -1,62 +1,62 @@
 city,region,lat,lon
-St. Augustine,FL,,
-Millvale,PA,,
-Pittsboro,NC,,
-Graham,NC,,
-Watkins Glen,NY,,
-Woodstock,NY,,
-Ardmore,PA,,
-Saxapahaw,NC,,
-Grinnell,IA,,
-Maquoketa,IA,,
-Solana Beach,CA,,
-Swarthmore,PA,,
-Accord,NY,,
-Antwerp,Belgium,,
-Aspen,CO,,
-Baldwinsville,NY,,
-Bar Harbor,ME,,
-Black Mountain,NC,,
-Byron Bay,Australia,,
-Chautauqua,NY,,
-Dorset,England,,
-Durham,NH,,
-Essen,Belgium,,
-Falls Church,VA,,
-Frankfurt,Germany,,
-Fremantle,AU,,
-Gambier,OH,,
-George,WA,,
-Ghent,Belgium,,
-Gilford,NH,,
-Hamilton,NY,,
-Hammondsport,NY,,
-Hampton Bays,NY,,
-Hanover,NH,,
-Haverford,PA,,
-Homer,NY,,
-Hudson,NY,,
-Isle of Palms,SC,,
-Jackson,WY,,
-Katoomba,Australia,,
-Lewiston,NY,,
-Lititz,PA,,
-Lorne,Australia,,
-Lyons,CO,,
-Meredith,Australia,,
-Millersville,PA,,
-Milton,DE,,
-Mt. Pleasant,SC,,
-Munhall,PA,,
-Newcastle,England,,
-North Adams,MA,,
-Oberlin,OH,,
-Pelham,TN,,
-Penascola,FL,,
-Pioneertown,CA,,
-Rocky Mount,VA,,
-San Sebastian,Spain,,
-Sanibel,FL,,
-Seaside,FL,,
-Shelburne,VT,,
-Washington,PA,,
+St. Augustine,FL,29.8922,-81.3139
+Millvale,PA,40.4801,-79.9784
+Pittsboro,NC,35.7201,-79.1772
+Graham,NC,36.068,-79.4004
+Watkins Glen,NY,42.3806,-76.8733
+Woodstock,NY,42.0409,-74.1182
+Ardmore,PA,40.0068,-75.2855
+Saxapahaw,NC,35.9474,-79.322
+Grinnell,IA,41.7434,-92.7232
+Maquoketa,IA,42.0689,-90.6657
+Solana Beach,CA,32.9912,-117.2711
+Swarthmore,PA,39.9021,-75.3499
+Accord,NY,41.7856,-74.229
+Antwerp,Belgium,51.2199,4.415
+Aspen,CO,39.1911,-106.8175
+Baldwinsville,NY,43.1587,-76.3327
+Bar Harbor,ME,44.3876,-68.2043
+Black Mountain,NC,35.6179,-82.3212
+Byron Bay,Australia,-28.6422,153.6108
+Chautauqua,NY,42.2098,-79.4668
+Dorset,England,50.7391,-2.3382
+Durham,NH,43.134,-70.9264
+Essen,Belgium,51.4634,4.4619
+Falls Church,VA,38.8823,-77.1711
+Frankfurt,Germany,50.1109,8.6821
+Fremantle,AU,-32.0518,115.7551
+Gambier,OH,40.3759,-82.3972
+George,WA,47.079,-119.8559
+Ghent,Belgium,51.05,3.7304
+Gilford,NH,43.5775,-71.4006
+Hamilton,NY,42.827,-75.5446
+Hammondsport,NY,42.408,-77.2238
+Hampton Bays,NY,40.869,-72.5176
+Hanover,NH,43.7022,-72.2896
+Haverford,PA,40.009,-75.3048
+Homer,NY,42.6603,-76.1552
+Hudson,NY,42.2529,-73.791
+Isle of Palms,SC,32.7987,-79.7584
+Jackson,WY,43.4799,-110.7624
+Katoomba,Australia,-33.7124,150.3118
+Lewiston,NY,43.1726,-79.0359
+Lititz,PA,40.1573,-76.3069
+Lorne,Australia,-38.5369,143.9738
+Lyons,CO,40.2247,-105.2714
+Meredith,Australia,-37.8456,144.0768
+Millersville,PA,39.9979,-76.3541
+Milton,DE,38.7776,-75.3099
+Mt. Pleasant,SC,32.7906,-79.878
+Munhall,PA,40.3923,-79.9
+Newcastle,England,54.9783,-1.6178
+North Adams,MA,42.7009,-73.1087
+Oberlin,OH,41.2939,-82.2174
+Pelham,TN,35.3101,-85.8811
+Penascola,FL,30.4077,-87.219
+Pioneertown,CA,34.1564,-116.4986
+Rocky Mount,VA,36.9976,-79.892
+San Sebastian,Spain,43.3182,-1.9817
+Sanibel,FL,26.449,-82.0223
+Seaside,FL,30.3217,-86.1429
+Shelburne,VT,44.3807,-73.2276
+Washington,PA,40.174,-80.2462

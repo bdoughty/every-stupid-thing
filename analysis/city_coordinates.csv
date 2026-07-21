@@ -1,6 +1,6 @@
 city,region,n_shows,lat,lon,matched_name,match_method
 AOL Session,,1,,,,unrecognized_region
-Accord,NY,1,,,,us_state_no_match
+Accord,NY,1,41.7856,-74.229,Accord,manual_override
 Adelaide,AU,1,-34.92866,138.59863,Adelaide,country
 Adelaide,Australia,5,-34.92866,138.59863,Adelaide,country
 Akron,OH,1,41.08144,-81.51901,Akron,us_state
@@ -16,12 +16,12 @@ Amsterdam,The Netherlands (Mountain Goats set),1,52.37403,4.88969,Amsterdam,coun
 Anaheim,CA,1,33.83529,-117.9145,Anaheim,us_state
 Anchorage,AK,1,61.21806,-149.90028,Anchorage,us_state
 Ann Arbor,MI,1,42.27756,-83.74088,Ann Arbor,us_state
-Antwerp,Belgium,1,,,,country_no_match
+Antwerp,Belgium,1,51.2199,4.415,Antwerp,manual_override
 Arcata,CA,1,40.86652,-124.08284,Arcata,us_state
-Ardmore,PA,3,,,,us_state_no_match
+Ardmore,PA,3,40.0068,-75.2855,Ardmore,manual_override
 Asbury Park,NJ,2,40.22039,-74.01208,Asbury Park,us_state
 Asheville,NC,12,35.60095,-82.55402,Asheville,us_state
-Aspen,CO,1,,,,us_state_no_match
+Aspen,CO,1,39.1911,-106.8175,Aspen,manual_override
 Athens,GA,7,33.96095,-83.37794,Athens,us_state
 Athens,OH,1,39.32924,-82.10126,Athens,us_state
 Atlanta,GA,13,33.749,-84.38798,Atlanta,us_state
@@ -30,9 +30,9 @@ Atlantic Ocean Comedy and Music Festival,,1,,,,unrecognized_region
 Auckland,NZ,1,-36.84853,174.76349,Auckland,country
 Auckland,New Zealand,2,-36.84853,174.76349,Auckland,country
 Austin,TX,20,30.26715,-97.74306,Austin,us_state
-Baldwinsville,NY,1,,,,us_state_no_match
+Baldwinsville,NY,1,43.1587,-76.3327,Baldwinsville,manual_override
 Baltimore,MD,10,39.29038,-76.61219,Baltimore,us_state
-Bar Harbor,ME,1,,,,us_state_no_match
+Bar Harbor,ME,1,44.3876,-68.2043,Bar Harbor,manual_override
 Barcelona,Spain,3,41.38879,2.15899,Barcelona,country
 Baton Rouge,LA,3,30.44332,-91.18747,Baton Rouge,us_state
 Bend,OR,1,44.05817,-121.31531,Bend,us_state
@@ -41,7 +41,7 @@ Bethlehem,PA,1,40.62593,-75.37046,Bethlehem,us_state
 Białystok,Poland,1,53.13333,23.16433,Białystok,country
 Billings,MT,1,45.78329,-108.50069,Billings,us_state
 Birmingham,AL,6,33.52066,-86.80249,Birmingham,us_state
-Black Mountain,NC,1,,,,us_state_no_match
+Black Mountain,NC,1,35.6179,-82.3212,Black Mountain,manual_override
 Bloomington,IL,2,40.4842,-88.99369,Bloomington,us_state
 Bloomington,IN,8,39.16533,-86.52639,Bloomington,us_state
 Bochum,Germany,1,51.48165,7.21648,Bochum,country
@@ -58,7 +58,7 @@ Bristol,England,4,51.45523,-2.59665,Bristol,country
 Brooklyn,NY,16,40.6501,-73.94958,Brooklyn,us_state
 Brussels,Belgium,2,50.85045,4.34878,Brussels,country
 Buffalo,NY,5,42.88645,-78.87837,Buffalo,us_state
-Byron Bay,Australia,1,,,,country_no_match
+Byron Bay,Australia,1,-28.6422,153.6108,Byron Bay,manual_override
 Calgary,Alberta,1,51.05011,-114.08529,Calgary,canada
 Cambridge,MA,6,42.3751,-71.10561,Cambridge,us_state
 Carrboro,NC,22,35.91014,-79.07529,Carrboro,us_state
@@ -70,7 +70,7 @@ Charleston,WV,1,38.34982,-81.63262,Charleston,us_state
 Charlotte,NC,5,35.22709,-80.84313,Charlotte,us_state
 Charlottesville,VA,6,38.02931,-78.47668,Charlottesville,us_state
 Chattanooga,TN,2,35.04563,-85.30968,Chattanooga,us_state
-Chautauqua,NY,1,,,,us_state_no_match
+Chautauqua,NY,1,42.2098,-79.4668,Chautauqua,manual_override
 Cherry Hill,NJ,1,39.93484,-75.03073,Cherry Hill,us_state
 Chicago,IL,53,41.85003,-87.65005,Chicago,us_state
 Cincinnati,OH,8,39.12711,-84.51439,Cincinnati,us_state
@@ -92,74 +92,74 @@ Denver,CO,10,39.73915,-104.9847,Denver,us_state
 Des Moines,IA,3,41.60054,-93.60911,Des Moines,us_state
 Detroit,MI,8,42.33143,-83.04575,Detroit,us_state
 Dordrecht,Netherlands,1,51.81,4.67361,Dordrecht,country
-Dorset,England,1,,,,country_no_match
+Dorset,England,1,50.7391,-2.3382,Dorset,manual_override
 Dublin,Ireland,10,53.33306,-6.24889,Dublin,country
 Durham,NC,31,35.99403,-78.89862,Durham,us_state
-Durham,NH,1,,,,us_state_no_match
+Durham,NH,1,43.134,-70.9264,Durham,manual_override
 Eau Claire,WI,1,44.81135,-91.49849,Eau Claire,us_state
 Edmonton,Alberta,1,53.55014,-113.46871,Edmonton,canada
 El Paso,TX,1,31.75872,-106.48693,El Paso,us_state
 Englewood,CO,3,39.64777,-104.98776,Englewood,us_state
-Essen,Belgium,1,,,,country_no_match
+Essen,Belgium,1,51.4634,4.4619,Essen,manual_override
 Eugene,OR,3,44.05207,-123.08675,Eugene,us_state
 Evanston,IL,7,42.04114,-87.69006,Evanston,us_state
 Evansville,IN,1,37.97476,-87.55585,Evansville,us_state
 Fairbanks,AK,1,64.83778,-147.71639,Fairbanks,us_state
-Falls Church,VA,1,,,,us_state_no_match
+Falls Church,VA,1,38.8823,-77.1711,Falls Church,manual_override
 Fayetteville,AR,2,36.06258,-94.15743,Fayetteville,us_state
 First Avenue,,1,,,,unrecognized_region
 Flagstaff,AZ,1,35.19807,-111.65127,Flagstaff,us_state
 Fort Collins,CO,4,40.58526,-105.08442,Fort Collins,us_state
 Fort Worth,TX,1,32.72541,-97.32085,Fort Worth,us_state
-Frankfurt,Germany,1,,,,country_no_match
-Fremantle,AU,1,,,,country_no_match
+Frankfurt,Germany,1,50.1109,8.6821,Frankfurt,manual_override
+Fremantle,AU,1,-32.0518,115.7551,Fremantle,manual_override
 Ft. Lauderdale,FL,2,26.12231,-80.14338,Fort Lauderdale,us_state
 Gainesville,FL,3,29.65163,-82.32483,Gainesville,us_state
 Galesburg,IL,1,40.94782,-90.37124,Galesburg,us_state
-Gambier,OH,1,,,,us_state_no_match
-George,WA,1,,,,us_state_no_match
-Ghent,Belgium,1,,,,country_no_match
-Gilford,NH,1,,,,us_state_no_match
+Gambier,OH,1,40.3759,-82.3972,Gambier,manual_override
+George,WA,1,47.079,-119.8559,George,manual_override
+Ghent,Belgium,1,51.05,3.7304,Ghent,manual_override
+Gilford,NH,1,43.5775,-71.4006,Gilford,manual_override
 Glasgow,Scotland,7,55.86515,-4.25763,Glasgow,country
 Gothenberg,Sweden,1,57.70716,11.96679,Göteborg,country
 Gothenburg,Sweden,3,57.70716,11.96679,Göteborg,country
-Graham,NC,4,,,,us_state_no_match
+Graham,NC,4,36.068,-79.4004,Graham,manual_override
 Grand Rapids,MI,4,42.96336,-85.66809,Grand Rapids,us_state
 Green Bay,WI,1,44.51916,-88.01983,Green Bay,us_state
 Greensboro,NC,5,36.07264,-79.79198,Greensboro,us_state
 Greenville,SC,2,34.85262,-82.39401,Greenville,us_state
-Grinnell,IA,2,,,,us_state_no_match
+Grinnell,IA,2,41.7434,-92.7232,Grinnell,manual_override
 Groningen,The Netherlands,1,53.21917,6.56667,Groningen,country
-Hamilton,NY,1,,,,us_state_no_match
-Hammondsport,NY,1,,,,us_state_no_match
-Hampton Bays,NY,1,,,,us_state_no_match
-Hanover,NH,1,,,,us_state_no_match
+Hamilton,NY,1,42.827,-75.5446,Hamilton,manual_override
+Hammondsport,NY,1,42.408,-77.2238,Hammondsport,manual_override
+Hampton Bays,NY,1,40.869,-72.5176,Hampton Bays,manual_override
+Hanover,NH,1,43.7022,-72.2896,Hanover,manual_override
 Harrisburg,PA,1,40.2737,-76.88442,Harrisburg,us_state
 Harrisonburg,VA,1,38.44957,-78.86892,Harrisonburg,us_state
 Hartford,CT,2,41.76371,-72.68509,Hartford,us_state
-Haverford,PA,1,,,,us_state_no_match
+Haverford,PA,1,40.009,-75.3048,Haverford,manual_override
 Hickory,NC,1,35.73319,-81.3412,Hickory,us_state
 Hobart,Australia,1,-42.87936,147.32941,Hobart,country
 Hoboken,NJ,1,40.74399,-74.03236,Hoboken,us_state
 Holyoke,MA,1,42.20426,-72.6162,Holyoke,us_state
-Homer,NY,1,,,,us_state_no_match
+Homer,NY,1,42.6603,-76.1552,Homer,manual_override
 Honolulu,HI,2,21.30694,-157.85833,Honolulu,us_state
 Houston,TX,6,29.76328,-95.36327,Houston,us_state
 Huber Heights,OH,1,39.84395,-84.12466,Huber Heights,us_state
-Hudson,NY,1,,,,us_state_no_match
+Hudson,NY,1,42.2529,-73.791,Hudson,manual_override
 Huntington,WV,3,38.41925,-82.44515,Huntington,us_state
 Huntsville,AL,1,34.7304,-86.58594,Huntsville,us_state
 Indianapolis,IN,7,39.76838,-86.15804,Indianapolis,us_state
 Iowa City,IA,8,41.66113,-91.53017,Iowa City,us_state
 Irvine,CA,2,33.66946,-117.82311,Irvine,us_state
-Isle of Palms,SC,1,,,,us_state_no_match
+Isle of Palms,SC,1,32.7987,-79.7584,Isle of Palms,manual_override
 Ithaca,NY,4,42.44063,-76.49661,Ithaca,us_state
-Jackson,WY,1,,,,us_state_no_match
+Jackson,WY,1,43.4799,-110.7624,Jackson,manual_override
 Jacksonville,FL,2,30.33218,-81.65565,Jacksonville,us_state
 Jersey City,NJ,4,40.72816,-74.07764,Jersey City,us_state
 Kalamazoo,MI,4,42.29171,-85.58723,Kalamazoo,us_state
 Kansas City,MO,3,39.09973,-94.57857,Kansas City,us_state
-Katoomba,Australia,1,,,,country_no_match
+Katoomba,Australia,1,-33.7124,150.3118,Katoomba,manual_override
 Katowice,Poland,1,50.25841,19.02754,Katowice,country
 Knoxville,TN,5,35.96064,-83.92074,Knoxville,us_state
 Kontich,Belgium,1,51.13213,4.44706,Kontich,country
@@ -168,40 +168,40 @@ Las Cruces,NM,1,32.31232,-106.77834,Las Cruces,us_state
 Las Vegas,NV,2,36.17497,-115.13722,Las Vegas,us_state
 Lawrence,KS,7,38.97167,-95.23525,Lawrence,us_state
 Leeds,England,9,53.79648,-1.54785,Leeds,country
-Lewiston,NY,1,,,,us_state_no_match
+Lewiston,NY,1,43.1726,-79.0359,Lewiston,manual_override
 Lexington,KY,2,37.98869,-84.47772,Lexington,us_state
 Lincoln,NE,1,40.8,-96.66696,Lincoln,us_state
 Linköping,Sweden,1,58.41086,15.62157,Linköping,country
 Lisbon,Portugal,1,38.72509,-9.1498,Lisbon,country
-Lititz,PA,1,,,,us_state_no_match
+Lititz,PA,1,40.1573,-76.3069,Lititz,manual_override
 Little Rock,AR,2,34.74648,-92.28959,Little Rock,us_state
 Livermore,CA,2,37.68187,-121.76801,Livermore,us_state
 London,England,25,51.50853,-0.12574,London,country
-Lorne,Australia,1,,,,country_no_match
+Lorne,Australia,1,-38.5369,143.9738,Lorne,manual_override
 Los Angeles,CA,23,34.05223,-118.24368,Los Angeles,us_state
 Louisville,KY,6,38.25424,-85.75941,Louisville,us_state
 Lubbock,TX,1,33.57786,-101.85517,Lubbock,us_state
-Lyons,CO,1,,,,us_state_no_match
+Lyons,CO,1,40.2247,-105.2714,Lyons,manual_override
 Madison,WI,7,43.07305,-89.40123,Madison,us_state
 Madrid,Spain,2,40.4165,-3.70256,Madrid,country
 Manchester,England,8,53.48095,-2.23743,Manchester,country
-Maquoketa,IA,2,,,,us_state_no_match
+Maquoketa,IA,2,42.0689,-90.6657,Maquoketa,manual_override
 Marquee Live at Home,,1,,,,unrecognized_region
 Melbourne,AU,1,-37.814,144.96332,Melbourne,country
 Melbourne,Australia,8,-37.814,144.96332,Melbourne,country
 Memphis,TN,2,35.14953,-90.04898,Memphis,us_state
-Meredith,Australia,1,,,,country_no_match
-Millersville,PA,1,,,,us_state_no_match
-Millvale,PA,6,,,,us_state_no_match
-Milton,DE,1,,,,us_state_no_match
+Meredith,Australia,1,-37.8456,144.0768,Meredith,manual_override
+Millersville,PA,1,39.9979,-76.3541,Millersville,manual_override
+Millvale,PA,6,40.4801,-79.9784,Millvale,manual_override
+Milton,DE,1,38.7776,-75.3099,Milton,manual_override
 Milwaukee,WI,7,43.0389,-87.90647,Milwaukee,us_state
 Minneapolis,MN,9,44.97997,-93.26384,Minneapolis,us_state
 Missoula,MT,3,46.87215,-113.994,Missoula,us_state
 Mobile,AL,2,30.69436,-88.04305,Mobile,us_state
 Montreal,QC,1,45.50884,-73.58781,Montréal,canada
 Montreal,Quebec,4,45.50884,-73.58781,Montréal,canada
-Mt. Pleasant,SC,1,,,,us_state_no_match
-Munhall,PA,1,,,,us_state_no_match
+Mt. Pleasant,SC,1,32.7906,-79.878,Mt. Pleasant,manual_override
+Munhall,PA,1,40.3923,-79.9,Munhall,manual_override
 Munich,Germany,1,48.13743,11.57549,Munich,country
 NPR Tiny Desk Concert,,1,,,,unrecognized_region
 Nashville,TN,10,36.16589,-86.78444,Nashville,us_state
@@ -209,16 +209,16 @@ New Haven,CT,6,41.30815,-72.92816,New Haven,us_state
 New Orleans,LA,5,29.95465,-90.07507,New Orleans,us_state
 New York,NY,92,40.71427,-74.00597,New York City,us_state
 Newcastle,Australia,1,-32.92953,151.7801,Newcastle,country
-Newcastle,England,1,,,,country_no_match
+Newcastle,England,1,54.9783,-1.6178,Newcastle,manual_override
 Newport,RI,1,41.4901,-71.31283,Newport,us_state
 Nijmegen,The Netherlands,1,51.8425,5.85278,Nijmegen,country
 Norfolk,VA,1,36.84681,-76.28522,Norfolk,us_state
 Norman,OK,2,35.22257,-97.43948,Norman,us_state
-North Adams,MA,1,,,,us_state_no_match
+North Adams,MA,1,42.7009,-73.1087,North Adams,manual_override
 Northampton,MA,8,42.32509,-72.6412,Northampton,us_state
 Norwalk,CT,1,41.1176,-73.4079,Norwalk,us_state
 Oakland,CA,1,37.80437,-122.2708,Oakland,us_state
-Oberlin,OH,1,,,,us_state_no_match
+Oberlin,OH,1,41.2939,-82.2174,Oberlin,manual_override
 Oklahoma City,OK,4,35.46756,-97.51643,Oklahoma City,us_state
 Old Ideas with New Friends Session,,1,,,,unrecognized_region
 Olympia,WA,3,47.04491,-122.90169,Olympia,us_state
@@ -232,14 +232,14 @@ Oxford,MS,2,34.3665,-89.51925,Oxford,us_state
 Papillion,NE,1,41.15444,-96.04224,Papillion,us_state
 Paris,France,6,48.85341,2.3488,Paris,country
 Pawtucket,RI,1,41.87871,-71.38256,Pawtucket,us_state
-Pelham,TN,1,,,,us_state_no_match
-Penascola,FL,1,,,,us_state_no_match
+Pelham,TN,1,35.3101,-85.8811,Pelham,manual_override
+Penascola,FL,1,30.4077,-87.219,Penascola,manual_override
 Peoria,IL,1,40.69365,-89.58899,Peoria,us_state
 Perth,Australia,6,-31.95224,115.8614,Perth,country
 Philadelphia,PA,20,39.95238,-75.16362,Philadelphia,us_state
 Phoenix,AZ,4,33.44838,-112.07404,Phoenix,us_state
-Pioneertown,CA,1,,,,us_state_no_match
-Pittsboro,NC,5,,,,us_state_no_match
+Pioneertown,CA,1,34.1564,-116.4986,Pioneertown,manual_override
+Pittsboro,NC,5,35.7201,-79.1772,Pittsboro,manual_override
 Pittsburgh,PA,8,40.44062,-79.99589,Pittsburgh,us_state
 Pomona,CA,8,34.05529,-117.75228,Pomona,us_state
 Ponte Vedra Beach,FL,1,30.23969,-81.38564,Ponte Vedra Beach,us_state
@@ -253,7 +253,7 @@ Richmond,IN,1,39.82894,-84.89024,Richmond,us_state
 Richmond,VA,7,37.55376,-77.46026,Richmond,us_state
 Rochester,NY,3,43.15478,-77.61556,Rochester,us_state
 Rock Island,IL,1,41.50948,-90.57875,Rock Island,us_state
-Rocky Mount,VA,1,,,,us_state_no_match
+Rocky Mount,VA,1,36.9976,-79.892,Rocky Mount,manual_override
 Roswell,NM,1,33.39437,-104.52491,Roswell,us_state
 Royal Oak,MI,1,42.48948,-83.14465,Royal Oak,us_state
 Sacramento,CA,1,38.58157,-121.4944,Sacramento,us_state
@@ -266,34 +266,34 @@ San Antonio,TX,4,29.42412,-98.49363,San Antonio,us_state
 San Diego,CA,3,32.71571,-117.16472,San Diego,us_state
 San Francisco,CA,58,37.77493,-122.41942,San Francisco,us_state
 San Luis Obispo,CA,2,35.28275,-120.65962,San Luis Obispo,us_state
-San Sebastian,Spain,1,,,,country_no_match
-Sanibel,FL,1,,,,us_state_no_match
+San Sebastian,Spain,1,43.3182,-1.9817,San Sebastian,manual_override
+Sanibel,FL,1,26.449,-82.0223,Sanibel,manual_override
 Santa Ana,CA,1,33.74557,-117.86783,Santa Ana,us_state
 Santa Barbara,CA,1,34.42083,-119.69819,Santa Barbara,us_state
 Santa Fe,NM,3,35.68698,-105.9378,Santa Fe,us_state
 Santa Monica,CA,2,34.01949,-118.49138,Santa Monica,us_state
 Sarasota,FL,1,27.33643,-82.53065,Sarasota,us_state
 Savannah,GA,2,32.08354,-81.09983,Savannah,us_state
-Saxapahaw,NC,3,,,,us_state_no_match
-Seaside,FL,1,,,,us_state_no_match
+Saxapahaw,NC,3,35.9474,-79.322,Saxapahaw,manual_override
+Seaside,FL,1,30.3217,-86.1429,Seaside,manual_override
 Seattle,WA,35,47.60621,-122.33207,Seattle,us_state
-Shelburne,VT,1,,,,us_state_no_match
+Shelburne,VT,1,44.3807,-73.2276,Shelburne,manual_override
 Ships and Dip V,,2,,,,unrecognized_region
 Silver Spring,MD,2,38.99067,-77.02609,Silver Spring,us_state
 Sioux Falls,SD,2,43.54997,-96.70033,Sioux Falls,us_state
 Sligo,Ireland,1,54.26969,-8.46943,Sligo,country
-Solana Beach,CA,2,,,,us_state_no_match
+Solana Beach,CA,2,32.9912,-117.2711,Solana Beach,manual_override
 Somerville,MA,2,42.3876,-71.0995,Somerville,us_state
 South Burlington,VT,3,44.46699,-73.17096,South Burlington,us_state
 Spokane,WA,3,47.65966,-117.42908,Spokane,us_state
 Springfield,IL,1,39.80172,-89.64371,Springfield,us_state
 Springfield,MO,2,37.21533,-93.29824,Springfield,us_state
-St. Augustine,FL,7,,,,us_state_no_match
+St. Augustine,FL,7,29.8922,-81.3139,St. Augustine,manual_override
 St. Louis,MO,11,38.62727,-90.19789,St. Louis,us_state
 St. Paul,MN,4,44.94441,-93.09327,Saint Paul,us_state
 St. Petersburg,FL,3,27.77086,-82.67927,St. Petersburg,us_state
 Stockholm,Sweden,4,59.32938,18.06871,Stockholm,country
-Swarthmore,PA,2,,,,us_state_no_match
+Swarthmore,PA,2,39.9021,-75.3499,Swarthmore,manual_override
 Sweden,,1,,,,unrecognized_region
 Sydney,AU,1,-33.86785,151.20732,Sydney,country
 Sydney,Australia,9,-33.86785,151.20732,Sydney,country
@@ -319,8 +319,8 @@ Virginia Beach,VA,2,36.85293,-75.97799,Virginia Beach,us_state
 Virtual,,3,,,,unrecognized_region
 WTF with Marc Maron Podcast,,1,,,,unrecognized_region
 Washington,D.C.,16,38.89511,-77.03637,Washington,us_state
-Washington,PA,1,,,,us_state_no_match
-Watkins Glen,NY,4,,,,us_state_no_match
+Washington,PA,1,40.174,-80.2462,Washington,manual_override
+Watkins Glen,NY,4,42.3806,-76.8733,Watkins Glen,manual_override
 Wellington,NZ,1,-41.28664,174.77557,Wellington,country
 Wellington,New Zealand,3,-41.28664,174.77557,Wellington,country
 West Columbia,SC,1,33.99349,-81.07398,West Columbia,us_state
@@ -331,7 +331,7 @@ Wilmington,DE,2,39.74595,-75.54659,Wilmington,us_state
 Wilmington,NC,2,34.23556,-77.94604,Wilmington,us_state
 Winnipeg,Manitoba,1,49.8844,-97.14704,Winnipeg,canada
 Winston-Salem,NC,2,36.09986,-80.24422,Winston-Salem,us_state
-Woodstock,NY,4,,,,us_state_no_match
+Woodstock,NY,4,42.0409,-74.1182,Woodstock,manual_override
 Worcester,MA,1,42.26259,-71.80229,Worcester,us_state
 York,PA,3,39.9626,-76.72774,York,us_state
 ,,1,,,,no city
