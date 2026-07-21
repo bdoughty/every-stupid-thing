@@ -1,6 +1,6 @@
 song_key,song_title,is_cover,n_plays,n_shows,first_played,last_played,album,n_videos
 This Year,This Year,False,809,809,2004-10-04,2026-05-26,The Sunset Tree,130
-No Children,No Children,False,769,769,2002-10-23,2026-05-26,Tallahassee,144
+No Children,No Children,False,769,769,2002-10-23,2026-05-26,Tallahassee,143
 Up the Wolves,Up the Wolves,False,544,544,2005-03-23,2026-05-26,The Sunset Tree,68
 Dance Music,Dance Music,False,321,321,2004-04-08,2026-05-03,The Sunset Tree,50
 You or Your Memory,You or Your Memory,False,314,314,2005-04-28,2026-05-03,The Sunset Tree,19
@@ -24,16 +24,16 @@ Broom People,Broom People,False,158,158,2004-04-08,2026-05-26,The Sunset Tree,17
 You Were Cool,You Were Cool,False,155,155,2010-07-31,2026-05-24,Unreleased,33
 Wear Black,Wear Black,False,151,151,2017-05-19,2024-08-09,Goths,11
 Amy AKA Spent Gladiator 1,Amy AKA Spent Gladiator 1,False,151,151,2012-10-09,2026-05-26,Transcendental Youth,15
-Wild Sage,Wild Sage,False,147,147,2006-06-13,2026-04-06,Get Lonely,17
 Heel Turn 2,Heel Turn 2,False,147,147,2015-04-18,2026-04-06,Beat the Champ,13
+Wild Sage,Wild Sage,False,147,147,2006-06-13,2026-04-06,Get Lonely,17
 Going to Georgia,Going to Georgia,False,147,147,1994-08-18,2024-10-13,Zopilote Machine,14
 In Memory of Satan,In Memory of Satan,False,144,144,2012-01-19,2026-04-19,Transcendental Youth,10
 Lion's Teeth,Lion's Teeth,False,136,136,2004-08-20,2025-10-03,The Sunset Tree,11
 San Bernardino,San Bernardino,False,135,135,2008-02-23,2023-12-08,Heretic Pride,19
-Sax Rohmer Number 1,Sax Rohmer Number 1,False,133,133,2008-02-23,2026-05-22,Heretic Pride,6
 Liza Forever Minnelli,Liza Forever Minnelli,False,133,133,2010-05-16,2024-08-07,All Eternals Deck,7
-International Small Arms Traffic Blues,International Small Arms Traffic Blues,False,131,131,2002-11-03,2025-12-14,Tallahassee,7
+Sax Rohmer Number 1,Sax Rohmer Number 1,False,133,133,2008-02-23,2026-05-22,Heretic Pride,6
 Song for Dennis Brown,Song for Dennis Brown,False,131,131,2005-03-23,2026-05-21,The Sunset Tree,6
+International Small Arms Traffic Blues,International Small Arms Traffic Blues,False,131,131,2002-11-03,2025-12-14,Tallahassee,7
 Younger,Younger,False,130,130,2018-02-26,2026-05-26,In League with Dragons,2
 Ezekiel 7 and the Permanent Efficacy of Grace,Ezekiel 7 and the Permanent Efficacy of Grace,False,128,128,2009-10-09,2018-09-01,The Life of the World to Come,9
 Tallahassee (Song),Tallahassee (Song),False,127,127,2002-10-04,2026-05-22,Tallahassee,7
@@ -42,8 +42,8 @@ Have to Explode,Have to Explode,False,125,125,2008-03-15,2026-04-16,Tallahassee,
 Color in Your Cheeks,Color in Your Cheeks,False,123,123,2002-03-07,2026-05-21,All Hail West Texas,12
 Foreign Object,Foreign Object,False,122,122,2015-04-02,2024-10-15,Beat the Champ,9
 Southwestern Territory,Southwestern Territory,False,122,122,2014-06-11,2026-04-21,Beat the Champ,7
-Lakeside View Apartments Suite,Lakeside View Apartments Suite,False,120,120,2012-03-24,2026-05-24,Transcendental Youth,3
 Harlem Roulette,Harlem Roulette,False,120,120,2011-10-28,2026-05-26,Transcendental Youth,4
+Lakeside View Apartments Suite,Lakeside View Apartments Suite,False,120,120,2012-03-24,2026-05-24,Transcendental Youth,3
 Maybe Sprout Wings,Maybe Sprout Wings,False,119,119,2006-08-21,2026-04-16,Get Lonely,10
 The Young Thousands,The Young Thousands,False,118,118,2003-09-26,2026-05-03,We Shall All Be Healed,5
 Minnesota,Minnesota,False,117,117,1996-08-10,2024-12-13,Full Force Galesburg,8
@@ -51,41 +51,41 @@ Waylon Jennings Live!,Waylon Jennings Live!,False,111,111,2018-05-27,2026-04-21,
 Your Belgian Things,Your Belgian Things,False,110,110,2003-02-14,2026-04-19,We Shall All Be Healed,10
 Houseguest,Houseguest,True,109,109,1996-10-29,2012-10-15,Unreleased,19
 Get Lonely (Song),Get Lonely (Song),False,108,107,2006-06-13,2019-11-17,Get Lonely,5
-Andrew Eldritch Is Moving Back to Leeds,Andrew Eldritch Is Moving Back to Leeds,False,100,100,2017-02-22,2026-05-26,Goths,4
 1 Samuel 15:23,1 Samuel 15:23,False,100,100,2009-09-18,2025-11-22,The Life of the World to Come,3
+Andrew Eldritch Is Moving Back to Leeds,Andrew Eldritch Is Moving Back to Leeds,False,100,100,2017-02-22,2026-05-26,Goths,4
 Grendel's Mother,Grendel's Mother,False,99,99,1994-08-18,2026-05-23,Zopilote Machine,5
-Old College Try,Old College Try,False,96,96,2002-10-09,2023-09-19,Tallahassee,15
-Shadow Song,Shadow Song,False,96,96,2000-02-06,2026-04-05,The Coroner's Gambit,5
 Rain in Soho,Rain in Soho,False,96,96,2017-05-22,2023-08-04,Goths,7
+Shadow Song,Shadow Song,False,96,96,2000-02-06,2026-04-05,The Coroner's Gambit,5
+Old College Try,Old College Try,False,96,96,2002-10-09,2023-09-19,Tallahassee,15
 Corsican Mastiff Stride,Corsican Mastiff Stride,False,95,95,2020-12-04,2026-05-03,Getting Into Knives,0
 Transcendental Youth (Song),Transcendental Youth (Song),False,95,95,2012-01-19,2025-11-22,Transcendental Youth,3
-Animal Mask,Animal Mask,False,94,94,2013-07-26,2026-04-13,Beat the Champ,3
 Psalms 40:2,Psalms 40:2,False,94,94,2009-02-24,2026-04-17,The Life of the World to Come,14
+Animal Mask,Animal Mask,False,94,94,2013-07-26,2026-04-13,Beat the Champ,3
 Stabbed to Death Outside San Juan,Stabbed to Death Outside San Juan,False,91,91,2015-03-30,2024-07-27,Beat the Champ,5
 Linda Blair Was Born Innocent,Linda Blair Was Born Innocent,False,90,90,2003-01-29,2024-08-04,We Shall All Be Healed,3
 Never Quite Free,Never Quite Free,False,89,89,2011-03-25,2021-08-23,All Eternals Deck,4
-Let Me Bathe in Demonic Light,Let Me Bathe in Demonic Light,False,88,88,2021-10-27,2026-05-24,Dark in Here,3
 Until I Am Whole,Until I Am Whole,False,88,88,2012-03-24,2026-05-24,Transcendental Youth,5
+Let Me Bathe in Demonic Light,Let Me Bathe in Demonic Light,False,88,88,2021-10-27,2026-05-24,Dark in Here,3
 Steal Smoked Fish,Steal Smoked Fish,False,86,86,2009-11-11,2025-12-06,Steal Smoked Fish EP,3
 The Slow Parts on Death Metal Albums,The Slow Parts on Death Metal Albums,False,85,85,2021-08-07,2024-05-24,Dark in Here,2
-The Recognition Scene,The Recognition Scene,False,83,83,1995-01-15,2026-04-21,Sweden,4
 New Zion,New Zion,False,83,83,2008-02-23,2026-05-24,Heretic Pride,1
+The Recognition Scene,The Recognition Scene,False,83,83,1995-01-15,2026-04-21,Sweden,4
 It Froze Me,It Froze Me,False,83,83,1996-11-11,2026-04-14,Nothing for Juice,5
-First Blood,First Blood,False,80,80,2022-08-19,2026-05-26,Bleed Out,1
 Incandescent Ruins,Incandescent Ruins,False,80,80,2021-09-16,2026-05-03,Bleed Out,2
+First Blood,First Blood,False,80,80,2022-08-19,2026-05-26,Bleed Out,1
 Baboon,Baboon,False,79,78,1997-03-01,2024-12-10,The Coroner's Gambit,8
 Tidal Wave,Tidal Wave,False,78,78,2020-12-04,2024-04-21,Getting Into Knives,0
-Sicilian Crest,Sicilian Crest,False,77,77,2019-04-26,2026-04-17,In League with Dragons,3
 First Few Desperate Hours,First Few Desperate Hours,False,77,77,2002-10-08,2022-11-11,Tallahassee,5
-Jeff Davis County Blues,Jeff Davis County Blues,False,76,76,2006-08-10,2024-04-15,All Hail West Texas,5
-Before I Got There,Before I Got There,False,76,76,2021-09-17,2026-05-15,Dark in Here,0
+Sicilian Crest,Sicilian Crest,False,77,77,2019-04-26,2026-04-17,In League with Dragons,3
 Shelved,Shelved,False,76,76,2017-04-01,2024-05-22,Goths,1
+Before I Got There,Before I Got There,False,76,76,2021-09-17,2026-05-15,Dark in Here,0
+Jeff Davis County Blues,Jeff Davis County Blues,False,76,76,2006-08-10,2024-04-15,All Hail West Texas,5
 Oceanographer's Choice,Oceanographer's Choice,False,74,74,2001-10-19,2024-01-23,Tallahassee,5
 Clemency for the Wizard King,Clemency for the Wizard King,False,73,73,2019-04-26,2024-08-09,In League with Dragons,2
-Lovecraft in Brooklyn,Lovecraft in Brooklyn,False,72,72,2007-05-11,2026-04-06,Heretic Pride,11
 The Mess Inside,The Mess Inside,False,72,72,2000-09-17,2026-04-17,All Hail West Texas,8
 There Will Be No Divorce,There Will Be No Divorce,False,72,72,1997-12-06,2025-09-20,The Coroner's Gambit,5
 Deuteronomy 2:10,Deuteronomy 2:10,False,72,72,2009-09-18,2025-11-11,The Life of the World to Come,4
+Lovecraft in Brooklyn,Lovecraft in Brooklyn,False,72,72,2007-05-11,2026-04-06,Heretic Pride,11
 Elijah,Elijah,False,70,70,2000-02-06,2026-04-05,The Coroner's Gambit,7
 Nine Black Poppies (Song),Nine Black Poppies (Song),False,70,70,1996-01-15,2016-09-28,Nine Black Poppies EP,5
 White Cedar,White Cedar,False,69,69,2011-12-16,2025-12-04,Transcendental Youth,3
@@ -95,50 +95,50 @@ Dinu Lipatti's Bones,Dinu Lipatti's Bones,False,67,67,2005-06-18,2021-10-26,The 
 Dark in Here (song),Dark in Here (song),False,67,67,2021-04-18,2024-08-10,Dark in Here,3
 Birth of Serpents,Birth of Serpents,False,66,66,2011-02-23,2024-01-19,All Eternals Deck,8
 Water Tower,Water Tower,False,66,66,2024-04-16,2026-04-21,Jenny from Thebes,1
-Black Pear Tree,Black Pear Tree,False,64,64,2008-10-14,2025-08-08,Black Pear Tree EP,7
 California Song,California Song,False,64,64,1996-03-16,2024-02-29,Sweden,12
-Alpha Rats Nest,Alpha Rats Nest,False,63,63,2003-02-01,2026-05-22,Tallahassee,9
+Black Pear Tree,Black Pear Tree,False,64,64,2008-10-14,2025-08-08,Black Pear Tree EP,7
 Prowl Great Cain,Prowl Great Cain,False,63,63,2011-03-24,2024-07-24,All Eternals Deck,6
+Alpha Rats Nest,Alpha Rats Nest,False,63,63,2003-02-01,2026-05-22,Tallahassee,9
 Isaiah 45:23,Isaiah 45:23,False,63,63,2009-10-13,2023-02-09,The Life of the World to Come,8
-Getting Into Knives (song),Getting Into Knives (song),False,62,62,2020-10-22,2026-04-13,Getting Into Knives,0
 Abandoned Flesh,Abandoned Flesh,False,62,62,2017-05-19,2024-08-10,Goths,3
-Possum By Night,Possum By Night,False,61,61,2019-04-26,2026-05-23,In League with Dragons,2
+Getting Into Knives (song),Getting Into Knives (song),False,62,62,2020-10-22,2026-04-13,Getting Into Knives,0
 Quito,Quito,False,61,61,2003-09-26,2014-06-07,We Shall All Be Healed,3
 In League with Dragons (song),In League with Dragons (song),False,61,61,2019-04-26,2025-12-13,In League with Dragons,3
+Possum By Night,Possum By Night,False,61,61,2019-04-26,2026-05-23,In League with Dragons,2
 Night Light,Night Light,False,60,60,2012-01-19,2024-04-20,Transcendental Youth,4
 Cheshire County,Cheshire County,False,60,60,1996-03-14,2024-08-02,Nine Black Poppies EP,1
-Thank You Mario But Our Princess Is in Another Castle,Thank You Mario But Our Princess Is in Another Castle,False,59,59,2008-11-03,2024-10-13,Black Pear Tree EP,11
-Source Decay,Source Decay,False,59,59,2001-04-21,2026-05-23,All Hail West Texas,4
 Genesis 30:3,Genesis 30:3,False,59,59,2009-09-18,2024-01-24,The Life of the World to Come,6
-From TG&Y,From TG&Y,False,59,59,2006-09-29,2025-10-03,Unreleased,12
+Thank You Mario But Our Princess Is in Another Castle,Thank You Mario But Our Princess Is in Another Castle,False,59,59,2008-11-03,2024-10-13,Black Pear Tree EP,11
 Romans 10:9,Romans 10:9,False,59,59,2009-08-21,2026-05-23,The Life of the World to Come,3
+Source Decay,Source Decay,False,59,59,2001-04-21,2026-05-23,All Hail West Texas,4
+From TG&Y,From TG&Y,False,59,59,2006-09-29,2025-10-03,Unreleased,12
 Hebrews 11:40,Hebrews 11:40,False,59,59,2009-10-10,2025-12-06,The Life of the World to Come,4
-Against Pollution,Against Pollution,False,58,58,2005-05-03,2026-05-26,We Shall All Be Healed,3
 Michael Myers Resplendent,Michael Myers Resplendent,False,58,58,2007-05-05,2026-04-17,Heretic Pride,7
+Against Pollution,Against Pollution,False,58,58,2005-05-03,2026-05-26,We Shall All Be Healed,3
 "Pigs That Ran Straightaway into the Water, Triumph Of","Pigs That Ran Straightaway into the Water, Triumph Of",False,57,57,2004-02-11,2023-04-23,We Shall All Be Healed,5
 Cobscook Bay,Cobscook Bay,False,56,56,2007-06-17,2022-08-29,Isopanisad Radio Hour,5
-Alpha Omega,Alpha Omega,False,55,55,1996-01-15,2026-05-03,Our Salvation Is in Hand,3
 Twin Human Highway Flares,Twin Human Highway Flares,False,55,55,1997-03-01,2026-04-05,Full Force Galesburg,5
-Tollund Man,Tollund Man,False,54,54,1996-02-25,2021-08-24,Sweden,0
+Alpha Omega,Alpha Omega,False,55,55,1996-01-15,2026-05-03,Our Salvation Is in Hand,3
 Cadaver Sniffing Dog,Cadaver Sniffing Dog,False,54,54,2019-03-14,2023-08-09,In League with Dragons,6
 New Monster Avenue,New Monster Avenue,False,54,54,2005-11-04,2023-12-10,Get Lonely,7
+Tollund Man,Tollund Man,False,54,54,1996-02-25,2021-08-24,Sweden,0
 Unicorn Tolerance,Unicorn Tolerance,False,53,53,2017-05-23,2018-11-15,Goths,4
-Luna,Luna,False,53,53,2015-01-25,2025-10-04,Beat the Champ,1
 Alpha Incipiens,Alpha Incipiens,False,53,53,1998-04-04,2026-05-03,Zopilote Machine,4
 Soft Targets,Soft Targets,False,53,53,2003-02-05,2024-10-15,Bedside Recordings Vol. 1.2,5
 The Alphonse Mambo,The Alphonse Mambo,False,53,53,1999-07-09,2024-12-05,The Coroner's Gambit,5
-For Charles Bronson,For Charles Bronson,False,52,52,2010-10-04,2013-07-06,All Eternals Deck,5
-So Desperate,So Desperate,False,52,52,2008-02-27,2024-05-22,Heretic Pride,6
-Make You Suffer,Make You Suffer,False,52,52,2022-08-19,2024-07-27,Bleed Out,3
+Luna,Luna,False,53,53,2015-01-25,2025-10-04,Beat the Champ,1
 Sept. 15 1983,Sept. 15 1983,False,52,52,2007-09-22,2013-10-16,Heretic Pride,4
+Make You Suffer,Make You Suffer,False,52,52,2022-08-19,2024-07-27,Bleed Out,3
+So Desperate,So Desperate,False,52,52,2008-02-27,2024-05-22,Heretic Pride,6
+For Charles Bronson,For Charles Bronson,False,52,52,2010-10-04,2013-07-06,All Eternals Deck,5
+Fall of the Star High School Running Back,Fall of the Star High School Running Back,False,51,51,2000-10-19,2024-10-15,All Hail West Texas,8
 The Day the Aliens Came (Hawaiian Feeling),The Day the Aliens Came (Hawaiian Feeling),False,51,51,2004-12-04,2024-12-05,"Come, Come to the Sunset Tree",7
 High Hawk Season,High Hawk Season,False,51,51,2011-03-28,2019-11-17,All Eternals Deck,3
-Fall of the Star High School Running Back,Fall of the Star High School Running Back,False,51,51,2000-10-19,2024-10-15,All Hail West Texas,8
-Enoch 18:14,Enoch 18:14,False,50,50,2009-10-09,2023-10-07,The Life of the World to Come,4
-Dilaudid,Dilaudid,False,50,50,2004-10-04,2024-12-02,The Sunset Tree,8
 Prana Ferox,Prana Ferox,False,50,50,1994-08-22,2025-10-01,Sweden,1
+Enoch 18:14,Enoch 18:14,False,50,50,2009-10-09,2023-10-07,The Life of the World to Come,4
 The Grey King and the Silver Flame Attunement,The Grey King and the Silver Flame Attunement,False,50,50,2017-05-23,2025-08-05,Goths,1
 The Sign,The Sign,True,50,50,1994-08-22,2019-11-11,Songs for Peter Hughes,8
+Dilaudid,Dilaudid,False,50,50,2004-10-04,2024-12-02,The Sunset Tree,8
 Broken To Begin With,Broken To Begin With,False,49,49,2025-07-25,2026-05-17,Through This Fire Across From Peter Balkan,0
 We Do It Different on the West Coast,We Do It Different on the West Coast,False,49,49,2016-02-27,2022-08-25,Goths,2
 Bones Don't Rust,Bones Don't Rust,False,49,49,2022-08-30,2025-11-11,Bleed Out,0
@@ -146,698 +146,698 @@ Letter from Belgium,Letter from Belgium,False,49,49,2003-08-23,2024-10-11,We Sha
 Cubs in Five,Cubs in Five,False,48,48,1996-01-15,2016-07-23,Nine Black Poppies EP,7
 Autoclave,Autoclave,False,47,47,2007-10-02,2024-03-03,Heretic Pride,10
 Raja Vocative,Raja Vocative,False,46,46,1994-08-18,2025-12-03,"Orange Raja, Blood Royal",5
-Dutch Orchestra Blues,Dutch Orchestra Blues,False,45,45,2002-07-24,2026-04-10,Isopanisad Radio Hour,1
-Sept 19th Triple X Love! Love!,Sept 19th Triple X Love! Love!,False,45,44,1995-01-15,2025-11-06,Sweden,1
-Jenny III,Jenny III,False,45,45,2023-10-02,2024-04-22,Jenny from Thebes,1
 Jaipur,Jaipur,False,45,45,2001-07-19,2024-10-08,The Coroner's Gambit,2
+Sept 19th Triple X Love! Love!,Sept 19th Triple X Love! Love!,False,45,44,1995-01-15,2025-11-06,Sweden,1
+Dutch Orchestra Blues,Dutch Orchestra Blues,False,45,45,2002-07-24,2026-04-10,Isopanisad Radio Hour,1
 Lizard Suit,Lizard Suit,False,45,45,2021-08-06,2024-08-09,Dark in Here,1
+Jenny III,Jenny III,False,45,45,2023-10-02,2024-04-22,Jenny from Thebes,1
 Snow Crush Killing Song,Snow Crush Killing Song,False,44,44,1996-01-15,2023-08-05,Sweden,2
+Blood Capsules,Blood Capsules,False,44,44,2015-04-03,2026-05-03,Blood Capsules (EP),2
 Absolute Lithops Effect,Absolute Lithops Effect,False,44,44,2004-08-20,2022-05-17,All Hail West Texas,6
 Song for an Old Friend,Song for an Old Friend,False,44,44,1997-06-20,2026-05-15,The Wheel Method,3
-Blood Capsules,Blood Capsules,False,44,44,2015-04-03,2026-05-03,Blood Capsules (EP),2
 Estate Sale Sign,Estate Sale Sign,False,42,42,2011-03-24,2023-02-08,All Eternals Deck,2
-Magpie,Magpie,False,41,41,2004-04-08,2023-09-19,The Sunset Tree,2
 Pez Dorado,Pez Dorado,False,41,41,2021-04-18,2022-11-17,Getting Into Knives,0
 How to Embrace a Swamp Creature,How to Embrace a Swamp Creature,False,41,41,2007-09-24,2025-08-12,Heretic Pride,6
+Magpie,Magpie,False,41,41,2004-04-08,2023-09-19,The Sunset Tree,2
 Werewolf Gimmick,Werewolf Gimmick,False,40,40,2015-04-02,2025-11-22,Beat the Champ,0
 Some Swedish Trees,Some Swedish Trees,False,40,40,1995-01-15,2023-02-12,Sweden,2
 Surrounded,Surrounded,False,40,40,2008-03-04,2025-09-20,Moon Colony Bloodbath,8
 New Star Song,New Star Song,False,39,39,1995-04-12,2023-04-12,Beautiful Rat Sunset,2
-I've Got the Sex,I've Got the Sex,False,39,39,1995-04-15,2024-07-31,Unreleased,2
 Love Cuts the Strings,Love Cuts the Strings,False,39,39,1994-08-22,2025-11-11,Philyra,2
-The Monkey Song,The Monkey Song,False,38,38,1996-02-25,2024-07-24,Philyra,3
-"Passaic, 1975","Passaic, 1975",False,38,38,2015-05-29,2025-12-10,In League with Dragons,3
+I've Got the Sex,I've Got the Sex,False,39,39,1995-04-15,2024-07-31,Unreleased,2
 Orange Ball of Hate,Orange Ball of Hate,False,38,38,1996-02-25,2019-07-17,Zopilote Machine,3
+"Passaic, 1975","Passaic, 1975",False,38,38,2015-05-29,2025-12-10,In League with Dragons,3
 In the Hidden Places,In the Hidden Places,False,38,38,2006-06-09,2025-09-22,Get Lonely,1
+The Monkey Song,The Monkey Song,False,38,38,1996-02-25,2024-07-24,Philyra,3
+Matthew 25:21,Matthew 25:21,False,37,37,2009-10-10,2022-05-11,The Life of the World to Come,2
+Supergenesis,Supergenesis,False,37,37,2008-10-13,2016-12-05,Black Pear Tree EP,1
+The Ballad of Bull Ramos,The Ballad of Bull Ramos,False,37,37,2014-02-26,2021-08-12,Beat the Champ,3
 Aulon Raid,Aulon Raid,False,37,37,2020-10-22,2023-02-08,Songs for Pierre Chuvin,1
 Island Garden Song,Island Garden Song,False,37,37,2001-04-21,2025-08-05,The Coroner's Gambit,4
-Matthew 25:21,Matthew 25:21,False,37,37,2009-10-10,2022-05-11,The Life of the World to Come,2
-The Ballad of Bull Ramos,The Ballad of Bull Ramos,False,37,37,2014-02-26,2021-08-12,Beat the Champ,3
-Supergenesis,Supergenesis,False,37,37,2008-10-13,2016-12-05,Black Pear Tree EP,1
-Mole,Mole,False,36,36,2004-02-20,2024-03-01,We Shall All Be Healed,3
 Carmen Cicero,Carmen Cicero,False,36,36,1999-07-09,2026-05-03,Unreleased,1
+Mole,Mole,False,36,36,2004-02-20,2024-03-01,We Shall All Be Healed,3
 Going to Bogotá,Going to Bogotá,False,36,36,1996-08-10,2026-04-05,Nothing for Juice,0
 Commandante,Commandante,False,35,35,1999-01-23,2024-12-09,Devil in the Shortwave,5
-New Britain,New Britain,False,34,34,2008-11-09,2025-10-04,Full Force Galesburg,0
-Alpha Double Negative: Going to Catalina,Alpha Double Negative: Going to Catalina,False,34,34,1992-12-06,2006-09-24,Songs for Petronius,0
 Murder at the 18th St. Garage,Murder at the 18th St. Garage,False,34,34,2023-10-02,2024-08-01,Jenny from Thebes,0
 Whole Wide World,Whole Wide World,False,34,34,1996-03-20,2026-04-05,Sweden,0
+New Britain,New Britain,False,34,34,2008-11-09,2025-10-04,Full Force Galesburg,0
+Alpha Double Negative: Going to Catalina,Alpha Double Negative: Going to Catalina,False,34,34,1992-12-06,2006-09-24,Songs for Petronius,0
 Waving at You,Waving at You,False,34,34,1996-01-15,2025-09-19,Nothing for Juice,3
 Pure Gold,Pure Gold,False,33,33,1994-08-18,2014-04-17,Songs About Fire,1
 Hostages,Hostages,False,33,33,2022-08-30,2023-08-08,Bleed Out,1
-Orange Ball of Love,Orange Ball of Love,False,33,33,1995-04-15,2025-08-01,Zopilote Machine,1
 Song for Lonely Giants,Song for Lonely Giants,False,33,33,2006-08-21,2025-11-11,Get Lonely,3
-Maize Stalk Drinking Blood,Maize Stalk Drinking Blood,False,32,32,1997-04-04,2019-11-18,Full Force Galesburg,6
+Orange Ball of Love,Orange Ball of Love,False,33,33,1995-04-15,2025-08-01,Zopilote Machine,1
+Guys on Every Corner,Guys on Every Corner,False,32,32,2022-08-20,2024-08-04,Bleed Out,1
+Seeing Daylight,Seeing Daylight,False,32,32,1995-04-20,2017-09-08,Beautiful Rat Sunset,2
 "No, I Can't","No, I Can't",False,32,32,1992-12-27,2024-05-22,Transmissions to Horace,0
+Maize Stalk Drinking Blood,Maize Stalk Drinking Blood,False,32,32,1997-04-04,2019-11-18,Full Force Galesburg,6
 Going to Port Washington,Going to Port Washington,False,32,32,1996-03-21,2026-05-16,The Wedding Record,3
 Transjordanian Blues,Transjordanian Blues,False,32,32,2001-07-19,2025-10-02,On Juhu Beach,2
 Going to Queens,Going to Queens,False,32,32,1997-06-17,2025-09-17,Sweden,3
-Seeing Daylight,Seeing Daylight,False,32,32,1995-04-20,2017-09-08,Beautiful Rat Sunset,2
-Guys on Every Corner,Guys on Every Corner,False,32,32,2022-08-20,2024-08-04,Bleed Out,1
-Alpha Gelida,Alpha Gelida,False,31,31,1994-08-22,2025-11-06,Taking the Dative,1
-Going Invisible 2,Going Invisible 2,False,31,31,2019-05-01,2025-11-30,In League with Dragons,2
 Going to Kansas,Going to Kansas,False,31,31,1992-07-22,2024-01-23,The Hound Chronicles,3
-The Legend of Chavo Guerrero,The Legend of Chavo Guerrero,False,30,29,2015-04-02,2024-08-09,Beat the Champ,3
-Extraction Point,Extraction Point,False,30,30,2022-08-25,2024-08-04,Bleed Out,0
+Going Invisible 2,Going Invisible 2,False,31,31,2019-05-01,2025-11-30,In League with Dragons,2
+Alpha Gelida,Alpha Gelida,False,31,31,1994-08-22,2025-11-06,Taking the Dative,1
 Going to Jamaica,Going to Jamaica,False,30,30,1994-08-22,2025-11-06,Taking the Dative,1
-Great Pirates,Great Pirates,False,29,29,2025-09-17,2026-04-17,Jenny from Thebes,0
+Extraction Point,Extraction Point,False,30,30,2022-08-25,2024-08-04,Bleed Out,0
+The Legend of Chavo Guerrero,The Legend of Chavo Guerrero,False,30,29,2015-04-02,2024-08-09,Beat the Champ,3
 Wolf Count,Wolf Count,False,29,29,2021-04-19,2024-01-24,Getting Into Knives,2
-Training Montage,Training Montage,False,29,29,2022-08-19,2023-10-07,Bleed Out,2
-Neon Orange Glimmer Song,Neon Orange Glimmer Song,False,29,29,1995-04-12,2022-09-20,Sweden,0
 Rotten Stinking Mouthpiece,Rotten Stinking Mouthpiece,False,29,29,2011-04-08,2025-12-14,All Survivors Pack,6
-See America Right (Song),See America Right (Song),False,28,28,2002-10-23,2012-01-31,Tallahassee,1
-Going to Palestine,Going to Palestine,False,28,28,1994-08-22,2026-05-15,Unreleased,2
-Black Molly,Black Molly,False,28,28,1996-09-02,2023-04-18,In Release City,1
+Neon Orange Glimmer Song,Neon Orange Glimmer Song,False,29,29,1995-04-12,2022-09-20,Sweden,0
+Training Montage,Training Montage,False,29,29,2022-08-19,2023-10-07,Bleed Out,2
+Great Pirates,Great Pirates,False,29,29,2025-09-17,2026-04-17,Jenny from Thebes,0
 Horseradish Road,Horseradish Road,False,28,28,1998-04-12,2026-05-22,The Coroner's Gambit,2
+Going to Palestine,Going to Palestine,False,28,28,1994-08-22,2026-05-15,Unreleased,2
 Doc Gooden,Doc Gooden,False,28,28,2019-11-10,2025-08-11,In League with Dragons,1
+See America Right (Song),See America Right (Song),False,28,28,2002-10-23,2012-01-31,Tallahassee,1
+Black Molly,Black Molly,False,28,28,1996-09-02,2023-04-18,In Release City,1
 West Country Dream,West Country Dream,False,27,27,1997-06-14,2014-05-02,Full Force Galesburg,1
 Song for My Stepfather,Song for My Stepfather,False,27,27,2004-05-26,2026-04-19,Unreleased,2
+Attention All Pickpockets,Attention All Pickpockets,False,26,26,2007-06-17,2025-09-17,Letter from Belgium EP,1
 Steal Smoked Fish (Song),Steal Smoked Fish (Song),False,26,26,2012-10-09,2016-09-26,Steal Smoked Fish EP,3
 Hair Match,Hair Match,False,26,26,2021-04-19,2025-11-11,Beat the Champ,1
-Attention All Pickpockets,Attention All Pickpockets,False,26,26,2007-06-17,2025-09-17,Letter from Belgium EP,1
 Onions,Onions,False,25,25,2000-02-17,2025-12-12,The Coroner's Gambit,0
-Masher,Masher,False,25,25,1996-11-22,2022-07-15,Full Force Galesburg,1
 Idylls of the King,Idylls of the King,False,25,25,2007-04-03,2025-07-26,Tallahassee,0
-Fire Editorial,Fire Editorial,False,25,25,2015-05-26,2024-08-03,Beat the Champ,0
-Chanson du Bon Chose,Chanson du Bon Chose,False,25,25,1997-06-22,2025-09-29,Nine Black Poppies EP,1
-Choked Out,Choked Out,False,25,25,2014-07-25,2022-11-14,Beat the Champ,1
 Dark as a Dungeon,Dark as a Dungeon,True,25,25,2012-09-01,2024-10-07,Unreleased,4
+Masher,Masher,False,25,25,1996-11-22,2022-07-15,Full Force Galesburg,1
+Choked Out,Choked Out,False,25,25,2014-07-25,2022-11-14,Beat the Champ,1
+Chanson du Bon Chose,Chanson du Bon Chose,False,25,25,1997-06-22,2025-09-29,Nine Black Poppies EP,1
 The House That Dripped Blood,The House That Dripped Blood,False,25,25,2003-02-01,2024-01-28,Tallahassee,1
-Genesis 3:23,Genesis 3:23,False,24,24,2009-08-21,2026-05-26,The Life of the World to Come,2
-Ripple,Ripple,True,24,24,2012-11-30,2025-08-10,Unreleased,3
-Ox Baker Triumphant,Ox Baker Triumphant,False,24,24,2008-12-18,2026-04-06,Babylon Springs EP,2
+Fire Editorial,Fire Editorial,False,25,25,2015-05-26,2024-08-03,Beat the Champ,0
 Bell Swamp Connection,Bell Swamp Connection,False,24,24,2021-04-18,2024-08-09,Getting Into Knives,0
-Clean Slate,Clean Slate,False,23,23,2023-08-04,2024-07-26,Jenny from Thebes,2
-Only One Way,Only One Way,False,23,23,2023-10-03,2024-05-26,Jenny from Thebes,2
-Weekend in Western Illinois,Weekend in Western Illinois,False,23,23,1997-03-02,2025-09-29,Full Force Galesburg,3
+Genesis 3:23,Genesis 3:23,False,24,24,2009-08-21,2026-05-26,The Life of the World to Come,2
+Ox Baker Triumphant,Ox Baker Triumphant,False,24,24,2008-12-18,2026-04-06,Babylon Springs EP,2
+Ripple,Ripple,True,24,24,2012-11-30,2025-08-10,Unreleased,3
 Jam Eater Blues (Song),Jam Eater Blues (Song),False,23,23,1999-10-09,2025-12-05,Jam Eater Blues EP,2
+Sign of the Crow 2,Sign of the Crow 2,False,23,23,2008-03-14,2026-05-23,Unreleased,2
 Going to Scotland,Going to Scotland,False,23,23,1995-04-20,2026-04-16,Nothing for Juice,0
 Half Dead,Half Dead,False,23,23,2006-06-09,2009-02-05,Get Lonely,4
 Downtown Seoul,Downtown Seoul,False,23,23,1994-08-18,2023-02-09,Sweden,2
-Sign of the Crow 2,Sign of the Crow 2,False,23,23,2008-03-14,2026-05-23,Unreleased,2
-Song for Black Sabbath's Second North American Tour,Song for Black Sabbath's Second North American Tour,False,22,22,2014-01-19,2026-04-11,Unreleased,1
-Poltergeist,Poltergeist,False,22,22,1998-04-04,2022-11-11,Unreleased,2
-Going to Bolivia,Going to Bolivia,False,22,22,1995-01-15,2022-12-05,Sweden,2
-Ontario,Ontario,False,22,22,1996-08-30,2026-04-19,Full Force Galesburg,1
-Fishing Boat,Fishing Boat,False,22,22,2025-11-29,2026-05-26,Through This Fire Across From Peter Balkan,0
-Palmcorder Yajna (Song),Palmcorder Yajna (Song),False,22,22,2002-11-01,2012-12-16,We Shall All Be Healed,1
+Only One Way,Only One Way,False,23,23,2023-10-03,2024-05-26,Jenny from Thebes,2
+Clean Slate,Clean Slate,False,23,23,2023-08-04,2024-07-26,Jenny from Thebes,2
+Weekend in Western Illinois,Weekend in Western Illinois,False,23,23,1997-03-02,2025-09-29,Full Force Galesburg,3
 The River Song,The River Song,False,22,22,1992-10-01,2023-07-07,Martial Arts Weekend,1
+Going to Bolivia,Going to Bolivia,False,22,22,1995-01-15,2022-12-05,Sweden,2
 The Coroner's Gambit (Song),The Coroner's Gambit (Song),False,22,22,2007-09-30,2026-05-24,The Coroner's Gambit,2
-Rocks in My Pockets,Rocks in My Pockets,False,22,22,2025-10-03,2026-04-21,Through This Fire Across From Peter Balkan,0
+Poltergeist,Poltergeist,False,22,22,1998-04-04,2022-11-11,Unreleased,2
+Ontario,Ontario,False,22,22,1996-08-30,2026-04-19,Full Force Galesburg,1
+Palmcorder Yajna (Song),Palmcorder Yajna (Song),False,22,22,2002-11-01,2012-12-16,We Shall All Be Healed,1
 Peru,Peru,False,22,22,2025-11-22,2026-05-26,Through This Fire Across From Peter Balkan,0
-Tulsa Imperative,Tulsa Imperative,False,21,20,1995-04-20,2024-08-09,Unreleased,0
-Itzcuintli-Totzli Days,Itzcuintli-Totzli Days,False,21,21,1997-07-16,2024-08-04,Beautiful Rat Sunset,0
-Your Bandage,Your Bandage,False,21,21,2025-11-29,2026-05-26,Through This Fire Across From Peter Balkan,0
+Song for Black Sabbath's Second North American Tour,Song for Black Sabbath's Second North American Tour,False,22,22,2014-01-19,2026-04-11,Unreleased,1
+Rocks in My Pockets,Rocks in My Pockets,False,22,22,2025-10-03,2026-04-21,Through This Fire Across From Peter Balkan,0
+Fishing Boat,Fishing Boat,False,22,22,2025-11-29,2026-05-26,Through This Fire Across From Peter Balkan,0
 We Were Patriots,We Were Patriots,False,21,21,1998-02-06,2026-04-10,The Coroner's Gambit,0
-One Fine Day,One Fine Day,True,21,21,1994-08-18,2020-02-22,Unreleased,5
 My Favorite Things,My Favorite Things,False,21,21,1996-02-26,2024-12-09,Unreleased,0
-Narakaloka,Narakaloka,False,21,21,1997-12-06,2025-08-10,New Asian Cinema,2
-Alpha in Tauris,Alpha in Tauris,False,21,21,1997-06-21,2022-09-02,Zopilote Machine,1
+Your Bandage,Your Bandage,False,21,21,2025-11-29,2026-05-26,Through This Fire Across From Peter Balkan,0
 Going to Alaska,Going to Alaska,False,21,21,1998-02-07,2025-09-27,Taboo VI: The Homecoming,2
+Itzcuintli-Totzli Days,Itzcuintli-Totzli Days,False,21,21,1997-07-16,2024-08-04,Beautiful Rat Sunset,0
+Tulsa Imperative,Tulsa Imperative,False,21,20,1995-04-20,2024-08-09,Unreleased,0
+One Fine Day,One Fine Day,True,21,21,1994-08-18,2020-02-22,Unreleased,5
+Narakaloka,Narakaloka,False,21,21,1997-12-06,2025-08-10,New Asian Cinema,2
+Blueberry Frost,Blueberry Frost,False,21,21,1996-11-07,2024-03-01,Nothing for Juice,0
 Pure Milk,Pure Milk,False,21,21,1999-10-09,2025-09-17,Hot Garden Stomp,4
-Blueberry Frost,Blueberry Frost,False,21,21,1996-11-07,2024-03-01,Nothing for Juice,1
+Alpha in Tauris,Alpha in Tauris,False,21,21,1997-06-21,2022-09-02,Zopilote Machine,1
 Beautiful Gas Mask,Beautiful Gas Mask,False,20,20,2011-03-24,2022-08-19,All Eternals Deck,2
-Riches and Wonders,Riches and Wonders,False,20,20,2002-10-23,2026-05-17,All Hail West Texas,2
-Quetzalcoatl Eats Plums,Quetzalcoatl Eats Plums,False,20,20,1996-11-09,2023-12-13,Zopilote Machine,0
-Outer Scorpion Squadron,Outer Scorpion Squadron,False,20,20,2011-03-25,2025-08-02,All Eternals Deck,0
 An Antidote for Strychnine,An Antidote for Strychnine,False,20,20,2019-08-30,2023-07-13,In League with Dragons,0
-Terror Song,Terror Song,True,20,20,1998-04-23,2019-09-17,Unreleased,2
-Mosquito Repellent,Mosquito Repellent,False,20,20,2008-10-13,2008-11-09,Black Pear Tree EP,1
-Stench of the Unburied,Stench of the Unburied,False,20,20,2017-05-19,2018-04-23,Goths,1
-California Jam,California Jam,False,20,20,2016-09-18,2018-09-13,Unreleased,2
 Wage Wars Get Rich Die Handsome,Wage Wars Get Rich Die Handsome,False,20,20,2022-08-19,2023-07-14,Bleed Out,2
+Mosquito Repellent,Mosquito Repellent,False,20,20,2008-10-13,2008-11-09,Black Pear Tree EP,1
+Terror Song,Terror Song,True,20,20,1998-04-23,2019-09-17,Unreleased,2
+California Jam,California Jam,False,20,20,2016-09-18,2018-09-13,Unreleased,2
 Sinaloan Milk Snake Song,Sinaloan Milk Snake Song,False,20,20,1992-12-13,2025-11-06,Zopilote Machine,2
-Armies of the Lord,Armies of the Lord,False,19,19,2025-11-30,2026-05-26,Through This Fire Across From Peter Balkan,0
-Cleaning Crew,Cleaning Crew,False,19,19,2023-10-02,2024-08-03,Jenny from Thebes,1
-Alphabetizing,Alphabetizing,False,19,19,1997-06-26,2024-02-29,Chile de Árbol,3
-Golden Boy,Golden Boy,False,19,19,2006-08-10,2024-08-07,Object Lessons: Songs About Products,6
+Outer Scorpion Squadron,Outer Scorpion Squadron,False,20,20,2011-03-25,2025-08-02,All Eternals Deck,0
+Quetzalcoatl Eats Plums,Quetzalcoatl Eats Plums,False,20,20,1996-11-09,2023-12-13,Zopilote Machine,0
+Riches and Wonders,Riches and Wonders,False,20,20,2002-10-23,2026-05-17,All Hail West Texas,2
+Stench of the Unburied,Stench of the Unburied,False,20,20,2017-05-19,2018-04-23,Goths,1
 Azo Tle Nelli in Tlalticpac?,Azo Tle Nelli in Tlalticpac?,False,19,19,1996-03-16,2024-04-22,Zopilote Machine,0
-Song for the Julian Calendar,Song for the Julian Calendar,False,18,18,1997-06-17,2022-09-18,Full Force Galesburg,0
-Going to Bristol,Going to Bristol,False,18,18,1995-01-15,2023-12-08,Zopilote Machine,7
+Golden Boy,Golden Boy,False,19,19,2006-08-10,2024-08-07,Object Lessons: Songs About Products,6
+Armies of the Lord,Armies of the Lord,False,19,19,2025-11-30,2026-05-26,Through This Fire Across From Peter Balkan,0
+Alphabetizing,Alphabetizing,False,19,19,1997-06-26,2024-02-29,Chile de Árbol,3
+Cleaning Crew,Cleaning Crew,False,19,19,2023-10-02,2024-08-03,Jenny from Thebes,1
 Paid in Cocaine,Paid in Cocaine,False,18,18,2017-04-12,2017-11-18,Goths,1
-1 John 4:16,1 John 4:16,False,18,18,2008-10-20,2026-04-21,The Life of the World to Come,3
+Picture of My Dress,Picture of My Dress,False,18,18,2019-09-28,2026-05-26,Getting Into Knives,0
+Song for the Julian Calendar,Song for the Julian Calendar,False,18,18,1997-06-17,2022-09-18,Full Force Galesburg,0
+Dawn of Revelation,Dawn of Revelation,False,18,18,2025-11-29,2026-05-26,Through This Fire Across From Peter Balkan,0
 Ghosts,Ghosts,False,18,18,1996-03-23,2025-10-03,"Hail and Farewell, Gothenburg",4
 Suedehead,Suedehead,True,18,18,2008-10-14,2008-11-09,Unreleased,4
-Dawn of Revelation,Dawn of Revelation,False,18,18,2025-11-29,2026-05-26,Through This Fire Across From Peter Balkan,0
-Age of Kings,Age of Kings,False,18,18,2011-03-29,2011-06-24,All Eternals Deck,1
-Collapsing Stars,Collapsing Stars,False,18,18,2005-01-26,2023-12-12,Dilaudid EP,3
 The Hot Garden Stomp,The Hot Garden Stomp,False,18,18,1992-12-06,2022-09-04,Hot Garden Stomp,0
-Picture of My Dress,Picture of My Dress,False,18,18,2019-09-28,2026-05-26,Getting Into Knives,0
-I Corinthians 13: 8-10,I Corinthians 13: 8-10,False,17,17,1996-01-15,2008-03-01,Nothing for Juice,1
-No More Tears,No More Tears,False,17,17,2018-05-27,2019-11-24,Marsh Witch Visions,1
-Family Happiness,Family Happiness,False,17,17,1998-02-06,2024-07-24,The Coroner's Gambit,3
+Going to Bristol,Going to Bristol,False,18,18,1995-01-15,2023-12-08,Zopilote Machine,7
+Collapsing Stars,Collapsing Stars,False,18,18,2005-01-26,2023-12-12,Dilaudid EP,3
+1 John 4:16,1 John 4:16,False,18,18,2008-10-20,2026-04-21,The Life of the World to Come,3
+Age of Kings,Age of Kings,False,18,18,2011-03-29,2011-06-24,All Eternals Deck,1
 Infidelity (Song),Infidelity (Song),False,17,17,1995-09-21,2010-10-23,Infidelity,0
-Cutter,Cutter,False,17,17,1997-04-04,2026-05-23,Unreleased,1
 The Boys Are Back in Town,The Boys Are Back in Town,True,17,17,2004-03-27,2018-04-15,Unreleased,4
-Torch Song,Torch Song,False,16,16,1994-08-23,2023-09-19,The Hound Chronicles,0
+I Corinthians 13: 8-10,I Corinthians 13: 8-10,False,17,17,1996-01-15,2008-03-01,Nothing for Juice,1
+Cutter,Cutter,False,17,17,1997-04-04,2026-05-23,Unreleased,1
+Family Happiness,Family Happiness,False,17,17,1998-02-06,2024-07-24,The Coroner's Gambit,3
+No More Tears,No More Tears,False,17,17,2018-05-27,2019-11-24,Marsh Witch Visions,1
 Yoga,Yoga,False,16,16,1998-04-12,2024-10-16,Devil in the Shortwave,0
-You're in Maya,You're in Maya,False,16,16,1999-01-27,2020-02-20,Unreleased,4
 Mark On You,Mark On You,False,16,16,2022-08-19,2023-02-18,Bleed Out,1
 Solidarity Forever,Solidarity Forever,True,16,16,2016-12-16,2025-11-22,Unreleased,5
-Marduk T-Shirt Men's Room Incident,Marduk T-Shirt Men's Room Incident,False,16,16,2008-02-26,2014-04-15,Heretic Pride,2
+Torch Song,Torch Song,False,16,16,1994-08-23,2023-09-19,The Hound Chronicles,0
+You're in Maya,You're in Maya,False,16,16,1999-01-27,2020-02-20,Unreleased,4
 02-75,02-75,False,16,16,1996-09-03,2010-06-07,Unreleased,0
 Done Bleeding,Done Bleeding,False,16,16,2019-04-26,2019-09-13,In League with Dragons,1
 Going to Cleveland,Going to Cleveland,False,16,16,1992-12-27,2025-11-06,Transmissions to Horace,0
+Marduk T-Shirt Men's Room Incident,Marduk T-Shirt Men's Room Incident,False,16,16,2008-02-26,2014-04-15,Heretic Pride,2
 As Many Candles As Possible,As Many Candles As Possible,False,16,16,2021-08-06,2021-12-15,Getting Into Knives,0
-Mobile,Mobile,False,15,15,2021-09-09,2024-12-09,Dark in Here,2
-Shower,Shower,False,15,15,1997-11-14,2017-11-16,Unreleased,3
 Stars Fell on Alabama,Stars Fell on Alabama,False,15,15,1996-02-25,2024-01-19,Nine Black Poppies EP,0
+Shower,Shower,False,15,15,1997-11-14,2017-11-16,Unreleased,3
+Running Away with What Freud Said,Running Away with What Freud Said,False,15,15,2002-03-08,2025-10-04,Taboo VI: The Homecoming,2
 Going to Marrakesh,Going to Marrakesh,False,15,15,2001-04-21,2024-05-24,Martial Arts Weekend,1
 Billy the Kid's Dream of the Magic Shoes,Billy the Kid's Dream of the Magic Shoes,False,15,15,1996-09-03,2026-04-16,Chile de Árbol,0
 Design Your Own Container Garden,Design Your Own Container Garden,False,15,15,2006-06-09,2025-12-13,See America Right EP,0
+Mobile,Mobile,False,15,15,2021-09-09,2024-12-09,Dark in Here,2
 Cold at Night,Cold at Night,False,15,15,2025-11-29,2026-05-15,Through This Fire Across From Peter Balkan,1
-Running Away with What Freud Said,Running Away with What Freud Said,False,15,15,2002-03-08,2025-10-04,Taboo VI: The Homecoming,2
-Only Takes a Few,Only Takes a Few,True,14,14,2024-04-06,2024-04-22,"Tick, tick... BOOM! (Soundtrack from the Netflix Film)",0
-Furniture Store,Furniture Store,True,14,14,1995-09-21,2019-09-16,Unreleased,1
 Peacocks,Peacocks,False,14,14,2003-10-04,2016-02-28,Tallahassee,2
+Only Takes a Few,Only Takes a Few,True,14,14,2024-04-06,2024-04-22,"Tick, tick... BOOM! (Soundtrack from the Netflix Film)",0
 Pseudothyrum Song,Pseudothyrum Song,False,14,14,1999-07-23,2025-08-12,Isopanisad Radio Hour,0
 Pure Heat,Pure Heat,False,14,14,1995-01-15,2024-04-13,Why You All So Thief?,3
+Furniture Store,Furniture Store,True,14,14,1995-09-21,2019-09-16,Unreleased,1
 Adultery,Adultery,False,14,14,1995-09-21,2025-09-18,Undercard,1
+Alpha Chum Gatherer,Alpha Chum Gatherer,False,13,13,2013-06-03,2013-06-28,Unreleased,2
+Alpha Desperation March,Alpha Desperation March,False,13,13,1992-12-27,2023-09-19,Transmissions to Horace,0
+Young Caesar 2000,Young Caesar 2000,False,13,13,1997-06-14,2025-11-06,Zopilote Machine,1
+The Plague,The Plague,False,13,13,2001-07-19,2022-05-11,Unreleased,1
+Short Song About the 10 Freeway,Short Song About the 10 Freeway,False,13,13,1994-08-22,2021-03-31,Songs for Peter Hughes,1
+Store,Store,False,13,13,2002-07-24,2024-10-08,Jam Eater Blues EP,0
+From the Nebraska Plant,From the Nebraska Plant,False,13,13,2024-04-05,2024-07-31,Jenny from Thebes,0
 Counterfeit Florida Plates,Counterfeit Florida Plates,False,13,13,2012-01-21,2017-06-21,Transcendental Youth,2
 Bring Our Curses Home,Bring Our Curses Home,False,13,13,2008-10-17,2008-11-09,Black Pear Tree EP,3
-From the Nebraska Plant,From the Nebraska Plant,False,13,13,2024-04-05,2024-07-31,Jenny from Thebes,0
-Short Song About the 10 Freeway,Short Song About the 10 Freeway,False,13,13,1994-08-22,2021-03-31,Songs for Peter Hughes,1
-Alpha Desperation March,Alpha Desperation March,False,13,13,1992-12-27,2023-09-19,Transmissions to Horace,0
-Alpha Chum Gatherer,Alpha Chum Gatherer,False,13,13,2013-06-03,2013-06-28,Unreleased,2
-Store,Store,False,13,13,2002-07-24,2024-10-08,Jam Eater Blues EP,0
-The Plague,The Plague,False,13,13,2001-07-19,2022-05-11,Unreleased,1
-Young Caesar 2000,Young Caesar 2000,False,13,13,1997-06-14,2025-11-06,Zopilote Machine,1
-Handball,Handball,False,12,12,1998-04-04,2009-12-02,Our Salvation Is in Hand,0
-Orange Ball of Pain,Orange Ball of Pain,False,12,12,1996-01-15,2024-12-02,Nothing for Juice,0
-Spilling Toward Alpha,Spilling Toward Alpha,False,12,12,1992-07-22,2025-11-06,The Hound Chronicles,1
-Alibi,Alibi,False,12,12,2006-06-14,2017-10-05,Babylon Springs EP,1
+The Water Song,The Water Song,False,12,12,1994-08-18,2024-12-10,The Hound Chronicles,1
 The Lady from Shanghai,The Lady from Shanghai,False,12,12,2006-06-13,2025-12-06,Songs for Petronius,1
+Fresh Berries for You,Fresh Berries for You,False,12,12,1996-03-20,2022-12-05,Chile de Árbol,0
+The Pig Song,The Pig Song,False,12,12,2014-04-16,2025-08-11,Unreleased,2
+Handball,Handball,False,12,12,1998-04-04,2009-12-02,Our Salvation Is in Hand,0
+Shirtless in Hamburg,Shirtless in Hamburg,False,12,12,2024-01-18,2024-02-01,Marsh Witch Visions,0
+Stars Around Her,Stars Around Her,False,12,12,1995-04-20,2024-04-09,Songs About Fire,0
+Spilling Toward Alpha,Spilling Toward Alpha,False,12,12,1992-07-22,2025-11-06,The Hound Chronicles,1
 Memories,Memories,True,12,12,2000-03-05,2024-04-16,Martial Arts Weekend,2
+Orange Ball of Pain,Orange Ball of Pain,False,12,12,1996-01-15,2024-12-02,Nothing for Juice,0
+Baltimore,Baltimore,False,12,12,2000-03-05,2010-10-23,Martial Arts Weekend,1
+Alibi,Alibi,False,12,12,2006-06-14,2017-10-05,Babylon Springs EP,1
 Waco,Waco,False,12,12,2001-02-10,2023-04-17,All Hail West Texas (2013 Reissue),1
 New Chevrolet in Flames,New Chevrolet in Flames,False,12,12,2017-10-08,2018-05-29,See America Right EP,1
-Stars Around Her,Stars Around Her,False,12,12,1995-04-20,2024-04-09,Songs About Fire,0
-Fresh Berries for You,Fresh Berries for You,False,12,12,1996-03-20,2022-12-05,Chile de Árbol,0
-Baltimore,Baltimore,False,12,12,2000-03-05,2010-10-23,Martial Arts Weekend,1
-The Pig Song,The Pig Song,False,12,12,2014-04-16,2025-08-11,Unreleased,2
-Shirtless in Hamburg,Shirtless in Hamburg,False,12,12,2024-01-18,2024-02-01,Marsh Witch Visions,0
-The Water Song,The Water Song,False,12,12,1994-08-18,2024-12-10,The Hound Chronicles,1
-The Bad Doctor,The Bad Doctor,False,11,11,1992-12-06,2015-10-03,Songs for Petronius,0
+We Shall All Be Healed (Song),We Shall All Be Healed (Song),False,11,11,2010-06-15,2019-11-15,Unreleased,0
+Song for Dana Plato,Song for Dana Plato,False,11,11,2009-11-21,2014-04-15,Songs for Peter Hughes,1
+Song for Mark and Joel,Song for Mark and Joel,False,11,11,2013-06-03,2013-10-16,Beautiful Rat Sunset,2
 The Destruction of the Kola Superdeep Borehole Tower,The Destruction of the Kola Superdeep Borehole Tower,False,11,11,2021-08-06,2021-10-20,Dark in Here,0
+The Bad Doctor,The Bad Doctor,False,11,11,1992-12-06,2015-10-03,Songs for Petronius,0
+Columns Pillars Steps,Columns Pillars Steps,False,11,11,2009-03-18,2009-04-06,Moon Colony Bloodbath,2
+If You See Light,If You See Light,False,11,11,2006-08-21,2023-02-15,Get Lonely,0
 Going to Michigan,Going to Michigan,False,11,11,2000-03-05,2026-05-22,Martial Arts Weekend,0
+Pet Politics,Pet Politics,True,11,11,2005-06-23,2019-08-08,The Believer 2005 CD,2
 Going to Maine,Going to Maine,False,11,11,1996-01-18,2023-07-10,Hardcore Acoustic,2
 Going to Lebanon,Going to Lebanon,False,11,11,1992-12-06,2022-04-28,Zopilote Machine,1
+Alpha Negative,Alpha Negative,False,11,11,1994-08-23,2025-11-06,The Hound Chronicles,0
+Nine Black Poppies,Nine Black Poppies,False,11,11,1997-11-14,2025-08-11,Nine Black Poppies EP,1
+Un Rêve Plus Long Que la Nuit,Un Rêve Plus Long Que la Nuit,False,11,11,1995-01-15,2025-09-29,Gold Kiss Gala: I'll Wed You,4
+Alpha Sun Hat,Alpha Sun Hat,False,11,11,1994-08-18,2023-02-10,Zopilote Machine,0
+Standard Bitter Love Song Number 4,Standard Bitter Love Song Number 4,False,11,11,1992-07-22,2006-08-22,The Hound Chronicles,0
 Distant Stations,Distant Stations,False,11,11,2007-06-17,2026-05-17,All Hail West Texas,0
-We Shall All Be Healed (Song),We Shall All Be Healed (Song),False,11,11,2010-06-15,2019-11-15,Unreleased,0
-Song for Mark and Joel,Song for Mark and Joel,False,11,11,2013-06-03,2013-10-16,Beautiful Rat Sunset,2
-Song for Dana Plato,Song for Dana Plato,False,11,11,2009-11-21,2014-04-15,Songs for Peter Hughes,1
+Shallow Grave,Shallow Grave,False,11,11,2026-04-13,2026-05-26,Days,0
 Fault Lines,Fault Lines,False,11,11,2001-07-19,2026-05-17,All Hail West Texas,0
 Seed Song,Seed Song,False,11,11,1999-07-23,2025-09-19,"Yam, the King of Crops",2
-Alpha Negative,Alpha Negative,False,11,11,1994-08-23,2025-11-06,The Hound Chronicles,0
-Pet Politics,Pet Politics,True,11,11,2005-06-23,2019-08-08,The Believer 2005 CD,2
-Shallow Grave,Shallow Grave,False,11,11,2026-04-13,2026-05-26,Days,0
-Un Rêve Plus Long Que la Nuit,Un Rêve Plus Long Que la Nuit,False,11,11,1995-01-15,2025-09-29,Gold Kiss Gala: I'll Wed You,4
-Nine Black Poppies,Nine Black Poppies,False,11,11,1997-11-14,2025-08-11,Nine Black Poppies EP,1
-Columns Pillars Steps,Columns Pillars Steps,False,11,11,2009-03-18,2009-04-06,Moon Colony Bloodbath,2
-Standard Bitter Love Song Number 4,Standard Bitter Love Song Number 4,False,11,11,1992-07-22,2006-08-22,The Hound Chronicles,0
-Alpha Sun Hat,Alpha Sun Hat,False,11,11,1994-08-18,2023-02-10,Zopilote Machine,0
-If You See Light,If You See Light,False,11,11,2006-08-21,2023-02-15,Get Lonely,0
-Going to Mexico,Going to Mexico,False,10,10,1992-07-18,2009-03-21,The Hound Chronicles,0
-How I Left the Ministry,How I Left the Ministry,False,10,10,2002-07-24,2010-10-23,Undercard,0
-Doctor Wu,Doctor Wu,True,10,10,1996-03-14,2011-06-16,Unreleased,1
-Tianchi Lake,Tianchi Lake,False,10,10,2013-06-03,2019-11-24,Heretic Pride,2
-Genesis 19:1-2,Genesis 19:1-2,False,10,10,2004-07-17,2025-09-19,Devil in the Shortwave,0
-Song for Sasha Banks,Song for Sasha Banks,False,10,10,2018-08-30,2018-09-13,Song for Sasha Banks,1
-Raid on Entebbe,Raid on Entebbe,False,10,10,1997-07-16,2025-12-06,Jack and Faye,0
-Insurance Fraud Number 2,Insurance Fraud Number 2,False,10,10,2007-06-17,2019-05-15,The Coroner's Gambit,0
-Night of the Mules,Night of the Mules,False,10,10,1996-03-23,2024-05-25,Chile de Árbol,1
-Here I Am,Here I Am,True,10,10,2008-10-24,2025-12-03,Unreleased,0
-For the Krishnacore Bands,For the Krishnacore Bands,False,10,10,2017-07-03,2025-12-14,Unreleased,4
 The Irony Engine,The Irony Engine,True,10,10,1996-03-16,2007-05-11,Unreleased,0
+Tianchi Lake,Tianchi Lake,False,10,10,2013-06-03,2019-11-24,Heretic Pride,2
+Here I Am,Here I Am,True,10,10,2008-10-24,2025-12-03,Unreleased,0
+Song for Sasha Banks,Song for Sasha Banks,False,10,10,2018-08-30,2018-09-13,Song for Sasha Banks,1
+How I Left the Ministry,How I Left the Ministry,False,10,10,2002-07-24,2010-10-23,Undercard,0
+Insurance Fraud Number 2,Insurance Fraud Number 2,False,10,10,2007-06-17,2019-05-15,The Coroner's Gambit,0
+Genesis 19:1-2,Genesis 19:1-2,False,10,10,2004-07-17,2025-09-19,Devil in the Shortwave,0
+For the Krishnacore Bands,For the Krishnacore Bands,False,10,10,2017-07-03,2025-12-14,Unreleased,4
+Raid on Entebbe,Raid on Entebbe,False,10,10,1997-07-16,2025-12-06,Jack and Faye,0
+Going to Mexico,Going to Mexico,False,10,10,1992-07-18,2009-03-21,The Hound Chronicles,0
+Doctor Wu,Doctor Wu,True,10,10,1996-03-14,2011-06-16,Unreleased,1
+Night of the Mules,Night of the Mules,False,10,10,1996-03-23,2024-05-25,Chile de Árbol,1
 Alabama Nova,Alabama Nova,False,9,9,1995-01-15,2004-10-18,Nothing for Juice,0
-Third Snow Song,Third Snow Song,False,9,9,1996-01-18,2025-11-29,Philyra,3
-Charlie Sheen Reaches Out to the Feds,Charlie Sheen Reaches Out to the Feds,False,9,9,2026-05-15,2026-05-26,Days,0
-Quetzalcoatl is Born,Quetzalcoatl is Born,False,9,9,1996-03-14,2019-11-20,Zopilote Machine,0
-Going to Chino,Going to Chino,False,9,9,1992-07-18,2020-02-22,The Hound Chronicles,0
 Same as Cash,Same as Cash,False,9,9,2023-09-19,2024-08-04,Jenny from Thebes,0
-The New Hydra Collection,The New Hydra Collection,False,9,9,2021-08-07,2022-09-11,Dark in Here,0
-In the Shadow of the Western Hills,In the Shadow of the Western Hills,False,9,9,2012-03-24,2012-10-11,Steal Smoked Fish (EP),0
-Solomon Revisited,Solomon Revisited,False,9,9,1992-07-22,2022-09-22,Taboo VI: The Homecoming,0
-Feed This End,Feed This End,False,9,9,1992-12-06,2022-08-31,Hot Garden Stomp,0
+Going to Chino,Going to Chino,False,9,9,1992-07-18,2020-02-22,The Hound Chronicles,0
 Going to Utrecht,Going to Utrecht,False,9,9,2001-08-03,2024-08-03,Nine Black Poppies EP,0
+The New Hydra Collection,The New Hydra Collection,False,9,9,2021-08-07,2022-09-11,Dark in Here,0
 Heel Turn 1,Heel Turn 1,False,9,9,2014-01-19,2024-10-08,Unreleased,2
-Evening in Stalingrad,Evening in Stalingrad,False,8,8,1998-10-10,2009-11-18,Full Force Galesburg,0
-Pale Green Things,Pale Green Things,False,8,8,2005-05-08,2021-10-23,The Sunset Tree,1
-Duke Ellington,Duke Ellington,False,8,8,1994-08-22,2025-09-22,The Long Secret,0
+Third Snow Song,Third Snow Song,False,9,9,1996-01-18,2025-11-29,Philyra,3
+In the Shadow of the Western Hills,In the Shadow of the Western Hills,False,9,9,2012-03-24,2012-10-11,Steal Smoked Fish (EP),0
+Quetzalcoatl is Born,Quetzalcoatl is Born,False,9,9,1996-03-14,2019-11-20,Zopilote Machine,0
+Charlie Sheen Reaches Out to the Feds,Charlie Sheen Reaches Out to the Feds,False,9,9,2026-05-15,2026-05-26,Days,0
+Feed This End,Feed This End,False,9,9,1992-12-06,2022-08-31,Hot Garden Stomp,0
+Solomon Revisited,Solomon Revisited,False,9,9,1992-07-22,2022-09-22,Taboo VI: The Homecoming,0
+Balance,Balance,False,8,8,2002-03-08,2021-09-26,All Hail West Texas,0
 Need More Bandages,Need More Bandages,False,8,8,2026-05-15,2026-05-26,Bleed Out,0
+Wizard Buys a Hat,Wizard Buys a Hat,False,8,8,2008-05-16,2023-08-09,Satanic Messiah EP,0
+Duke Ellington,Duke Ellington,False,8,8,1994-08-22,2025-09-22,The Long Secret,0
+Evening in Stalingrad,Evening in Stalingrad,False,8,8,1998-10-10,2009-11-18,Full Force Galesburg,0
+The Black Ice Cream Song,The Black Ice Cream Song,False,8,8,1994-08-18,2002-03-10,Zopilote Machine,0
 The Anglo-Saxons,The Anglo-Saxons,False,8,8,1996-03-20,2022-05-21,The Basement Tapes: Live Recordings at KSPC 1989-1995,1
 I Wonder Where Our Love Has Gone,I Wonder Where Our Love Has Gone,True,8,8,1997-04-04,2005-06-18,Sweden,0
 For the Portuguese Goth Metal Bands,For the Portuguese Goth Metal Bands,False,8,8,2026-05-15,2026-05-26,Goths,0
-The Black Ice Cream Song,The Black Ice Cream Song,False,8,8,1994-08-18,2002-03-10,Zopilote Machine,0
-Balance,Balance,False,8,8,2002-03-08,2021-09-26,All Hail West Texas,0
-"Hello, Old Rabbit","Hello, Old Rabbit",False,8,8,1996-03-16,2012-10-09,"Hail and Farewell, Gothenburg",1
-Bleed Out (song),Bleed Out (song),False,8,8,2022-08-25,2026-04-11,Bleed Out,0
-Wizard Buys a Hat,Wizard Buys a Hat,False,8,8,2008-05-16,2023-08-09,Satanic Messiah EP,0
 Going to Monaco,Going to Monaco,False,8,8,2001-04-21,2014-06-14,Transmissions to Horace,3
+Pale Green Things,Pale Green Things,False,8,8,2005-05-08,2021-10-23,The Sunset Tree,1
+Bleed Out (song),Bleed Out (song),False,8,8,2022-08-25,2026-04-11,Bleed Out,0
+"Hello, Old Rabbit","Hello, Old Rabbit",False,8,8,1996-03-16,2012-10-09,"Hail and Farewell, Gothenburg",1
 Keeping House,Keeping House,False,8,8,2007-06-16,2024-01-31,Get Lonely,0
 Tyler Lambert's Grave,Tyler Lambert's Grave,False,7,7,2011-06-14,2011-06-24,Unreleased,3
+Home Again Garden Grove,Home Again Garden Grove,False,7,7,2011-03-29,2011-06-21,We Shall All Be Healed,3
 The Last Limit of Bhakti,The Last Limit of Bhakti,False,7,7,2009-03-27,2026-05-21,Isopanisad Radio Hour,0
 The Lady from Shanghai 2,The Lady from Shanghai 2,False,7,7,2025-12-06,2025-12-14,Through This Fire Across From Peter Balkan,0
-Standard Bitter Love Song Number 1,Standard Bitter Love Song Number 1,False,7,7,1993-03-07,2024-12-01,Unreleased,0
+The Window Song,The Window Song,False,7,7,1996-03-16,2022-09-22,Pawnshop Reverb,0
 Friend of the Devil,Friend of the Devil,True,7,7,2013-05-01,2026-05-16,Unreleased,1
 Plain,Plain,True,7,7,2011-03-24,2011-04-12,Unreleased,2
-The Window Song,The Window Song,False,7,7,1996-03-16,2022-09-22,Pawnshop Reverb,0
-Home Again Garden Grove,Home Again Garden Grove,False,7,7,2011-03-29,2011-06-21,We Shall All Be Healed,3
+Orange Ball of Peace,Orange Ball of Peace,False,7,7,1995-01-15,2014-06-13,Taking the Dative,1
 Programmed Cell Death,Programmed Cell Death,False,7,7,2007-05-11,2024-11-30,Undercard,0
 Willin',Willin',True,7,7,2014-01-19,2015-10-10,Unreleased,1
-Orange Ball of Peace,Orange Ball of Peace,False,7,7,1995-01-15,2014-06-13,Taking the Dative,1
-Somebody Else's Parking Lot in Sebastopol,Somebody Else's Parking Lot in Sebastopol,False,6,6,2000-02-06,2003-08-23,Martial Arts Weekend,0
-Birthday Song: This Time Has Gone,Birthday Song: This Time Has Gone,False,6,6,1996-01-15,2024-07-26,Unreleased,0
-Deianara Crush,Deianara Crush,False,6,6,1994-08-22,2021-09-24,Sweden,0
-Bride,Bride,False,6,6,2012-03-24,2014-04-19,Unreleased,2
+Standard Bitter Love Song Number 1,Standard Bitter Love Song Number 1,False,7,7,1993-03-07,2024-12-01,Unreleased,0
+US Mill,US Mill,False,6,6,1997-06-22,2023-10-13,Full Force Galesburg,0
+Abide with Me,Abide with Me,True,6,6,2007-09-27,2025-10-02,Isopanisad Radio Hour,1
+Beach House,Beach House,False,6,6,1997-04-04,2009-04-01,Hot Garden Stomp,1
 Used to Haunt,Used to Haunt,False,6,5,2012-06-23,2019-11-20,All Eternals Deck,1
+We Have Seen the Enemy,We Have Seen the Enemy,False,6,6,2000-10-16,2024-03-02,Zopilote Machine,0
+Orange,Orange,True,6,6,2004-02-01,2005-05-08,Unreleased,1
+Rockin' Rockin' Twilight of the Gods,Rockin' Rockin' Twilight of the Gods,False,6,6,1992-12-06,2010-10-21,Undercard,0
+Cut Off Their Thumbs Number 1,Cut Off Their Thumbs Number 1,False,6,6,2004-04-20,2018-08-31,Unreleased,0
+Lido Shuffle,Lido Shuffle,True,6,6,2025-07-26,2025-08-04,Unreleased,1
 Star Dusting,Star Dusting,False,6,6,1992-12-27,2022-09-02,Transmissions to Horace,2
+That Hippolytine Feeling,That Hippolytine Feeling,False,6,6,1992-10-01,2021-08-08,Unreleased,0
 Happy Birthday,Happy Birthday,True,6,6,2008-10-25,2023-04-18,Unreleased,1
 It's All Here in Brownsville,It's All Here in Brownsville,False,6,6,2002-03-08,2023-09-19,Full Force Galesburg,1
-Orange,Orange,True,6,6,2004-02-01,2005-05-08,Unreleased,1
-Abide with Me,Abide with Me,True,6,6,2007-09-27,2025-10-02,Isopanisad Radio Hour,1
-That Hippolytine Feeling,That Hippolytine Feeling,False,6,6,1992-10-01,2021-08-08,Unreleased,0
-We Have Seen the Enemy,We Have Seen the Enemy,False,6,6,2000-10-16,2024-03-02,Zopilote Machine,0
-Rockin' Rockin' Twilight of the Gods,Rockin' Rockin' Twilight of the Gods,False,6,6,1992-12-06,2010-10-21,Undercard,0
-Lido Shuffle,Lido Shuffle,True,6,6,2025-07-26,2025-08-04,Unreleased,1
-Beach House,Beach House,False,6,6,1997-04-04,2009-04-01,Hot Garden Stomp,1
 Blood Royal,Blood Royal,False,6,6,1996-09-03,2025-09-22,"Orange Raja, Blood Royal",0
-Going to Dade County,Going to Dade County,False,6,6,1994-08-18,2013-06-24,Unreleased,1
-US Mill,US Mill,False,6,6,1997-06-22,2023-10-13,Full Force Galesburg,1
-Home on the Range,Home on the Range,True,6,6,2015-06-04,2016-05-12,Unreleased,0
-Gravedigger,Gravedigger,False,6,6,1995-09-21,2010-10-23,Extra Walt,1
-Cut Off Their Thumbs Number 1,Cut Off Their Thumbs Number 1,False,6,6,2004-04-20,2018-08-31,Unreleased,0
-Going to Kirby Sigston,Going to Kirby Sigston,False,6,6,1996-11-07,2021-08-08,Hey Dan K.,0
 The Only Thing I Know,The Only Thing I Know,False,6,6,1996-09-11,2024-10-20,"Orange Raja, Blood Royal",0
-Butter Teeth,Butter Teeth,False,5,5,2003-04-04,2004-07-17,Palmcorder Yajna (EP),0
-FM,FM,True,5,5,1998-07-31,2010-12-14,Sweden,0
-Boxcar,Boxcar,True,5,5,2011-06-07,2011-06-24,Unreleased,1
-Sun Song,Sun Song,False,5,5,1997-06-20,2017-11-07,Hot Garden Stomp,0
-Standing in Need of Prayer,Standing in Need of Prayer,True,5,5,2013-01-20,2024-10-07,Unreleased,0
-Sail On,Sail On,True,5,5,1992-12-27,2014-06-14,Transmissions to Horace,0
-I Hear the Planets,I Hear the Planets,False,5,5,1995-09-21,2010-10-21,Fantasy Band,0
-Lonesome Surprise,Lonesome Surprise,True,5,5,1995-04-19,2013-10-14,Nine Black Poppies EP,0
-Dogs of Clinic 17,Dogs of Clinic 17,False,5,5,2010-10-19,2010-10-23,Undercard,0
-Then the Letting Go,Then the Letting Go,False,5,5,1995-04-15,1997-04-04,Nothing for Juice,0
-"If England Were What England Seems, Then We Would Only Have Our Dreams","If England Were What England Seems, Then We Would Only Have Our Dreams",False,5,5,1996-01-18,2002-03-10,Unreleased,0
-Going to Morocco,Going to Morocco,False,5,5,1992-12-06,2010-10-23,Martial Arts Weekend,0
-The Last Day of Jimi Hendrix's Life,The Last Day of Jimi Hendrix's Life,False,5,5,2008-05-16,2024-12-01,Cool Beans! Number 4,0
-Crows,Crows,False,5,5,2007-01-03,2025-09-20,Devil in the Shortwave,0
-Song for Cleomenes,Song for Cleomenes,False,5,5,1994-08-22,2001-06-23,Beautiful Rat Sunset,0
+Bride,Bride,False,6,6,2012-03-24,2014-04-19,Unreleased,2
+Home on the Range,Home on the Range,True,6,6,2015-06-04,2016-05-12,Unreleased,0
+Birthday Song: This Time Has Gone,Birthday Song: This Time Has Gone,False,6,6,1996-01-15,2024-07-26,Unreleased,0
+Going to Dade County,Going to Dade County,False,6,6,1994-08-18,2013-06-24,Unreleased,1
+Somebody Else's Parking Lot in Sebastopol,Somebody Else's Parking Lot in Sebastopol,False,6,6,2000-02-06,2003-08-23,Martial Arts Weekend,0
+Gravedigger,Gravedigger,False,6,6,1995-09-21,2010-10-23,Extra Walt,1
+Deianara Crush,Deianara Crush,False,6,6,1994-08-22,2021-09-24,Sweden,0
+Going to Kirby Sigston,Going to Kirby Sigston,False,6,6,1996-11-07,2021-08-08,Hey Dan K.,0
 Emerging,Emerging,False,5,5,2009-03-19,2009-03-30,Moon Colony Bloodbath,0
 New World Emerging Blues,New World Emerging Blues,False,5,5,2004-03-27,2005-03-04,Unreleased,0
-Born Ready,Born Ready,False,4,4,1999-01-27,2024-11-30,Isopanisad Radio Hour,0
-Trash,Trash,True,4,4,1996-11-07,1998-06-14,Unreleased,0
-Rockin' Rockin' Pet Store,Rockin' Rockin' Pet Store,False,4,4,1992-12-06,2004-10-04,Unreleased,0
-Only Existing Footage,Only Existing Footage,False,4,4,2010-10-19,2010-10-23,Undercard,0
-I Will Survive,I Will Survive,True,4,4,2004-10-08,2016-10-26,Unreleased,1
-Shot in the Dark,Shot in the Dark,True,4,4,2012-09-07,2015-04-12,Or Thousands of Prizes,1
-Quetzalcoatl Comes Through,Quetzalcoatl Comes Through,False,4,4,1996-11-11,2023-02-19,"Yam, the King of Crops",1
-I Will Grab You by the Ears,I Will Grab You by the Ears,False,4,4,2022-08-28,2024-04-17,Nothing for Juice,0
-Heartland Feeling,Heartland Feeling,True,4,4,2007-01-07,2007-05-05,Unreleased,0
-Counting Song for Bitter Children,Counting Song for Bitter Children,False,4,4,2016-11-21,2024-03-01,Unreleased,0
-Shave My Eyebrows,Shave My Eyebrows,False,4,4,2022-12-05,2025-11-29,Unreleased,0
-Send Me an Angel,Send Me an Angel,False,4,4,1996-09-11,2010-12-14,Sweden,0
-Cruiserweights,Cruiserweights,False,4,4,2010-10-19,2010-10-23,Undercard,0
-Ethiopians,Ethiopians,False,4,4,2007-06-13,2020-02-22,Unreleased,0
-Pink and Blue,Pink and Blue,False,4,4,2014-01-19,2022-12-05,All Hail West Texas,0
-Hello Sarah,Hello Sarah,False,4,4,2009-03-21,2026-05-26,Unreleased,0
-There Is Power in a Union,There Is Power in a Union,True,4,4,1998-05-15,2024-10-15,Unreleased,1
-Edvard Munch,Edvard Munch,False,4,4,1996-11-22,2001-04-21,Unreleased,0
-Badger Song,Badger Song,False,4,4,1998-04-23,2010-10-20,High Fly Graveyard,0
-Rainbow in the Dark,Rainbow in the Dark,True,4,4,2010-05-16,2016-04-19,Unreleased,0
-Sarcofago Live,Sarcofago Live,False,4,4,2008-09-15,2009-10-15,Satanic Messiah EP,1
-Down Here,Down Here,False,4,4,1997-06-14,2017-09-08,Full Force Galesburg,0
-This Magic Moment,This Magic Moment,True,4,4,2009-04-02,2016-02-24,Taboo VI: The Homecoming,2
-Bluejays and Cardinals,Bluejays and Cardinals,False,4,4,2005-05-04,2020-02-21,The Coroner's Gambit,1
-In Corolla,In Corolla,False,4,4,2006-09-20,2012-04-19,Get Lonely,0
-Sometimes I Still Feel the Bruise,Sometimes I Still Feel the Bruise,True,4,4,2016-04-01,2016-04-04,Babylon Springs EP,0
-Letter from a Motel,Letter from a Motel,False,4,4,1999-01-27,2019-09-04,Unreleased,0
-Going to Bridlington,Going to Bridlington,False,4,4,1996-11-07,2009-03-20,Unreleased,0
-Civilian,Civilian,True,4,4,2012-10-09,2012-10-15,Unreleased,2
-In the Cane Fields,In the Cane Fields,False,4,4,1992-07-18,2019-09-05,Unreleased,1
+Sail On,Sail On,True,5,5,1992-12-27,2014-06-14,Transmissions to Horace,0
+Crows,Crows,False,5,5,2007-01-03,2025-09-20,Devil in the Shortwave,0
+Dogs of Clinic 17,Dogs of Clinic 17,False,5,5,2010-10-19,2010-10-23,Undercard,0
+Lonesome Surprise,Lonesome Surprise,True,5,5,1995-04-19,2013-10-14,Nine Black Poppies EP,0
+FM,FM,True,5,5,1998-07-31,2010-12-14,Sweden,0
+Going to Morocco,Going to Morocco,False,5,5,1992-12-06,2010-10-23,Martial Arts Weekend,0
+Song for Cleomenes,Song for Cleomenes,False,5,5,1994-08-22,2001-06-23,Beautiful Rat Sunset,0
+Sun Song,Sun Song,False,5,5,1997-06-20,2017-11-07,Hot Garden Stomp,0
+Standing in Need of Prayer,Standing in Need of Prayer,True,5,5,2013-01-20,2024-10-07,Unreleased,0
+Boxcar,Boxcar,True,5,5,2011-06-07,2011-06-24,Unreleased,1
+The Last Day of Jimi Hendrix's Life,The Last Day of Jimi Hendrix's Life,False,5,5,2008-05-16,2024-12-01,Cool Beans! Number 4,0
+Butter Teeth,Butter Teeth,False,5,5,2003-04-04,2004-07-17,Palmcorder Yajna (EP),0
+Then the Letting Go,Then the Letting Go,False,5,5,1995-04-15,1997-04-04,Nothing for Juice,0
+I Hear the Planets,I Hear the Planets,False,5,5,1995-09-21,2010-10-21,Fantasy Band,0
+"If England Were What England Seems, Then We Would Only Have Our Dreams","If England Were What England Seems, Then We Would Only Have Our Dreams",False,5,5,1996-01-18,2002-03-10,Unreleased,0
+Abandoning My Father Talking Blues,Abandoning My Father Talking Blues,False,4,4,2009-06-13,2022-05-06,unreleased,0
 When I Get Home,When I Get Home,True,4,4,2002-12-06,2003-02-01,Unreleased,0
-When a Powerful Animal Comes,When a Powerful Animal Comes,False,4,4,2021-10-14,2021-10-20,Dark in Here,0
-Full Flower,Full Flower,False,4,4,1996-11-09,2022-04-28,Nothing for Juice,0
+There Is Power in a Union,There Is Power in a Union,True,4,4,1998-05-15,2024-10-15,Unreleased,1
+Hello Sarah,Hello Sarah,False,4,4,2009-03-21,2026-05-26,Unreleased,0
+This Magic Moment,This Magic Moment,True,4,4,2009-04-02,2016-02-24,Taboo VI: The Homecoming,2
+Calling Out Your Name,Calling Out Your Name,True,4,4,2021-09-18,2026-05-26,Unreleased,0
+Born Ready,Born Ready,False,4,4,1999-01-27,2024-11-30,Isopanisad Radio Hour,0
+Heartland Feeling,Heartland Feeling,True,4,4,2007-01-07,2007-05-05,Unreleased,0
+Ultraviolet,Ultraviolet,False,4,4,2000-10-19,2003-03-14,Martial Arts Weekend,0
+Trash,Trash,True,4,4,1996-11-07,1998-06-14,Unreleased,0
+Tell Me on a Sunday,Tell Me on a Sunday,True,4,4,1996-11-10,2009-04-01,Hot Garden Stomp,0
 Last Gasp at Calama,Last Gasp at Calama,False,4,4,2020-06-15,2021-10-25,Songs for Pierre Chuvin,0
 "Ice Cream, Cobra Man","Ice Cream, Cobra Man",False,4,4,2009-04-02,2025-09-26,Taboo VI: The Homecoming,0
-Tell Me on a Sunday,Tell Me on a Sunday,True,4,4,1996-11-10,2009-04-01,Hot Garden Stomp,0
-Calling Out Your Name,Calling Out Your Name,True,4,4,2021-09-18,2026-05-26,Unreleased,0
+In Corolla,In Corolla,False,4,4,2006-09-20,2012-04-19,Get Lonely,0
+I Will Grab You by the Ears,I Will Grab You by the Ears,False,4,4,2022-08-28,2024-04-17,Nothing for Juice,0
+In the Cane Fields,In the Cane Fields,False,4,4,1992-07-18,2019-09-05,Unreleased,1
+I Will Survive,I Will Survive,True,4,4,2004-10-08,2016-10-26,Unreleased,1
+Bluejays and Cardinals,Bluejays and Cardinals,False,4,4,2005-05-04,2020-02-21,The Coroner's Gambit,1
+Cruiserweights,Cruiserweights,False,4,4,2010-10-19,2010-10-23,Undercard,0
+Sometimes I Still Feel the Bruise,Sometimes I Still Feel the Bruise,True,4,4,2016-04-01,2016-04-04,Babylon Springs EP,0
 Green Olives,Green Olives,False,4,4,1996-11-09,2023-02-11,Unreleased,0
-Ultraviolet,Ultraviolet,False,4,4,2000-10-19,2003-03-14,Martial Arts Weekend,0
-All Devils Here Now,All Devils Here Now,False,4,4,2003-02-01,2023-09-19,Unreleased,0
+Civilian,Civilian,True,4,4,2012-10-09,2012-10-15,Unreleased,2
 Song for Roger Maris,Song for Roger Maris,False,4,4,1998-07-31,2024-10-13,Unreleased,1
-Abandoning My Father Talking Blues,Abandoning My Father Talking Blues,False,4,4,2009-06-13,2022-05-06,unreleased,0
-Earth Air Water Trees,Earth Air Water Trees,False,3,3,2009-04-04,2023-12-10,Tropical Depression EP,0
-Love Hymn to Aphrodite,Love Hymn to Aphrodite,False,3,3,1998-07-31,2025-11-06,Hot Garden Stomp,0
-Duane Allman Slept Here,Duane Allman Slept Here,False,3,3,2018-09-13,2019-11-11,unreleased,0
-Process of Elimination,Process of Elimination,False,3,3,1992-12-06,1998-10-10,The Long Secret,0
-Tampa,Tampa,False,3,3,1998-04-04,1999-01-30,Unreleased,0
-All Frosting,All Frosting,False,3,3,2002-02-27,2003-03-14,Unreleased,0
-Scavenger Babies,Scavenger Babies,False,3,3,2003-06-27,2022-07-11,Unreleased,1
-Proverbs 6:27,Proverbs 6:27,False,3,3,2009-03-21,2018-05-28,The Life of the World to Come,1
-Going to Malibu,Going to Malibu,False,3,3,2016-02-28,2022-09-20,Chile de Árbol,0
+Counting Song for Bitter Children,Counting Song for Bitter Children,False,4,4,2016-11-21,2024-03-01,Unreleased,0
+Down Here,Down Here,False,4,4,1997-06-14,2017-09-08,Full Force Galesburg,0
+Letter from a Motel,Letter from a Motel,False,4,4,1999-01-27,2019-09-04,Unreleased,0
+Rainbow in the Dark,Rainbow in the Dark,True,4,4,2010-05-16,2016-04-19,Unreleased,0
+Sarcofago Live,Sarcofago Live,False,4,4,2008-09-15,2009-10-15,Satanic Messiah EP,1
+Send Me an Angel,Send Me an Angel,False,4,4,1996-09-11,2010-12-14,Sweden,0
+Rockin' Rockin' Pet Store,Rockin' Rockin' Pet Store,False,4,4,1992-12-06,2004-10-04,Unreleased,0
+Shot in the Dark,Shot in the Dark,True,4,4,2012-09-07,2015-04-12,Or Thousands of Prizes,1
+Shave My Eyebrows,Shave My Eyebrows,False,4,4,2022-12-05,2025-11-29,Unreleased,0
+Going to Bridlington,Going to Bridlington,False,4,4,1996-11-07,2009-03-20,Unreleased,0
+Edvard Munch,Edvard Munch,False,4,4,1996-11-22,2001-04-21,Unreleased,0
+Full Flower,Full Flower,False,4,4,1996-11-09,2022-04-28,Nothing for Juice,0
+Pink and Blue,Pink and Blue,False,4,4,2014-01-19,2022-12-05,All Hail West Texas,0
+Quetzalcoatl Comes Through,Quetzalcoatl Comes Through,False,4,4,1996-11-11,2023-02-19,"Yam, the King of Crops",1
+Ethiopians,Ethiopians,False,4,4,2007-06-13,2020-02-22,Unreleased,0
+Only Existing Footage,Only Existing Footage,False,4,4,2010-10-19,2010-10-23,Undercard,0
+Badger Song,Badger Song,False,4,4,1998-04-23,2010-10-20,High Fly Graveyard,0
+When a Powerful Animal Comes,When a Powerful Animal Comes,False,4,4,2021-10-14,2021-10-20,Dark in Here,0
+All Devils Here Now,All Devils Here Now,False,4,4,2003-02-01,2023-09-19,Unreleased,0
 Beat the Devil,Beat the Devil,False,3,3,2022-05-19,2025-09-18,Comes with a Smile 11: Hope Isn't a Word,0
-Song for Tura Satana,Song for Tura Satana,False,3,3,2005-11-04,2016-02-28,Zopilote Machine,1
-Song from the Shoreline,Song from the Shoreline,False,3,3,1994-08-23,1995-04-12,Unreleased,0
-Letter from Belgium (Song),Letter from Belgium (Song),False,3,3,2004-04-02,2010-04-11,We Shall All Be Healed,0
-Pure Money,Pure Money,False,3,3,1997-06-20,2007-09-21,Nine Black Poppies EP,0
-Pure Sun,Pure Sun,False,3,3,1994-08-23,2017-06-28,Unreleased,0
-Sweet Jane,Sweet Jane,True,3,3,2025-09-29,2025-12-14,Unreleased,0
-Hellhound on My Trail,Hellhound on My Trail,True,3,3,1996-11-10,1996-11-13,Nothing for Juice,0
-Good Morning to All Vultures,Good Morning to All Vultures,False,3,3,2014-02-28,2018-05-29,Unreleased,0
-Rat Queen,Rat Queen,False,3,3,2021-04-18,2021-08-18,Getting Into Knives,1
-Real Good Girlfriend,Real Good Girlfriend,False,3,3,1996-02-26,1996-11-09,Unreleased,0
-Rescue Breathing,Rescue Breathing,False,3,3,2020-02-20,2025-12-14,unreleased,0
-The Car Song,The Car Song,False,3,3,1992-12-13,1997-06-21,Unreleased,0
-Keep It on Your Mind,Keep It on Your Mind,True,3,3,2006-08-10,2019-11-24,The Hound Chronicles,0
-Going to Reykjavik,Going to Reykjavik,False,3,3,1997-06-17,2009-11-21,Nothing for Juice,1
-Against Agamemnon,Against Agamemnon,False,3,3,2008-03-19,2024-04-12,Bitter Melon Farm,1
-Going to Maryland,Going to Maryland,False,3,3,1995-04-15,2022-11-11,Beautiful Rat Sunset,0
-The Cow Song,The Cow Song,False,3,3,1992-12-06,2006-09-21,The Hound Chronicles,1
-Xolo,Xolo,False,3,3,2007-10-02,2017-06-02,The Seneca Twins (Tape),1
-Babylon Burning,Babylon Burning,True,3,3,2007-06-13,2008-03-20,Unreleased,0
-O Bless the Lord,O Bless the Lord,True,3,3,2015-09-12,2016-03-25,Unreleased,0
-Twelve Hands High,Twelve Hands High,False,3,3,2010-10-19,2010-10-23,Martial Arts Weekend,0
-Fortune Came Today,Fortune Came Today,True,3,3,1996-11-09,2017-05-31,Unreleased,2
-I'm So Lonesome I Could Cry,I'm So Lonesome I Could Cry,True,3,3,2001-02-10,2003-09-27,Taboo VI: The Homecoming,0
 Tribe of the Horned Heart,Tribe of the Horned Heart,False,3,3,2012-03-24,2015-05-30,Unreleased,1
 Ambivalent Seascape Y,Ambivalent Seascape Y,False,3,3,1995-09-21,2000-10-16,Martial Arts Weekend,0
+Twelve Hands High,Twelve Hands High,False,3,3,2010-10-19,2010-10-23,Martial Arts Weekend,0
 Unmasked!,Unmasked!,False,3,3,2015-04-02,2015-06-03,Beat the Champ,0
+Going to Reykjavik,Going to Reykjavik,False,3,3,1997-06-17,2009-11-21,Nothing for Juice,1
+Fortune Came Today,Fortune Came Today,True,3,3,1996-11-09,2017-05-31,Unreleased,2
+O Bless the Lord,O Bless the Lord,True,3,3,2015-09-12,2016-03-25,Unreleased,0
+Rat Queen,Rat Queen,False,3,3,2021-04-18,2021-08-18,Getting Into Knives,1
+Scavenger Babies,Scavenger Babies,False,3,3,2003-06-27,2022-07-11,Unreleased,1
+Rescue Breathing,Rescue Breathing,False,3,3,2020-02-20,2025-12-14,unreleased,0
+Real Good Girlfriend,Real Good Girlfriend,False,3,3,1996-02-26,1996-11-09,Unreleased,0
+The Cow Song,The Cow Song,False,3,3,1992-12-06,2006-09-21,The Hound Chronicles,1
+The Coast of High Barbary,The Coast of High Barbary,True,3,3,2014-04-20,2015-11-20,Unreleased,1
+Idylls of the Kings,Idylls of the Kings,False,3,3,2002-10-09,2013-06-08,Tallahassee,0
+I'm So Lonesome I Could Cry,I'm So Lonesome I Could Cry,True,3,3,2001-02-10,2003-09-27,Taboo VI: The Homecoming,0
+Pure Money,Pure Money,False,3,3,1997-06-20,2007-09-21,Nine Black Poppies EP,0
+Proverbs 6:27,Proverbs 6:27,False,3,3,2009-03-21,2018-05-28,The Life of the World to Come,1
+Keep It on Your Mind,Keep It on Your Mind,True,3,3,2006-08-10,2019-11-24,The Hound Chronicles,0
+The Car Song,The Car Song,False,3,3,1992-12-13,1997-06-21,Unreleased,0
+Get Famous,Get Famous,False,3,3,2021-01-08,2021-10-26,Getting Into Knives,1
+Parisian Enclave,Parisian Enclave,False,3,3,2021-10-14,2021-10-18,Dark in Here,0
+Process of Elimination,Process of Elimination,False,3,3,1992-12-06,1998-10-10,The Long Secret,0
+Pure Sun,Pure Sun,False,3,3,1994-08-23,2017-06-28,Unreleased,0
+Good Morning to All Vultures,Good Morning to All Vultures,False,3,3,2014-02-28,2018-05-29,Unreleased,0
+Tampa,Tampa,False,3,3,1998-04-04,1999-01-30,Unreleased,0
+Tall Tall Trees,Tall Tall Trees,True,3,3,2013-01-20,2023-04-22,Unreleased,0
+Hand of Death,Hand of Death,False,3,3,2018-08-10,2020-02-20,Cardinals At The Window,0
+Song from the Shoreline,Song from the Shoreline,False,3,3,1994-08-23,1995-04-12,Unreleased,0
+Song for Tura Satana,Song for Tura Satana,False,3,3,2005-11-04,2016-02-28,Zopilote Machine,1
+Sweet Jane,Sweet Jane,True,3,3,2025-09-29,2025-12-14,Unreleased,0
+Letter from Belgium (Song),Letter from Belgium (Song),False,3,3,2004-04-02,2010-04-11,We Shall All Be Healed,0
+Earth Air Water Trees,Earth Air Water Trees,False,3,3,2009-04-04,2023-12-10,Tropical Depression EP,0
+Some Other Way,Some Other Way,False,3,3,2010-10-19,2010-10-23,Undercard,0
+Snow Owl,Snow Owl,False,3,3,2017-12-04,2021-08-24,Full Force Galesburg,0
+Duane Allman Slept Here,Duane Allman Slept Here,False,3,3,2018-09-13,2019-11-11,unreleased,0
+Going to Maryland,Going to Maryland,False,3,3,1995-04-15,2022-11-11,Beautiful Rat Sunset,0
+Going to Malibu,Going to Malibu,False,3,3,2016-02-28,2022-09-20,Chile de Árbol,0
+Milk Song,Milk Song,False,3,3,2010-12-14,2020-02-22,"Hail and Farewell, Gothenburg",1
+My Dinner Plate Has a Cat On It,My Dinner Plate Has a Cat On It,False,3,3,2016-02-24,2016-09-01,Unreleased,0
+All Frosting,All Frosting,False,3,3,2002-02-27,2003-03-14,Unreleased,0
 Blues in Dallas,Blues in Dallas,False,3,3,2000-10-19,2015-06-08,All Hail West Texas,0
 The Moon Song,The Moon Song,False,3,3,1992-07-18,1995-04-15,Unreleased,0
-My Dinner Plate Has a Cat On It,My Dinner Plate Has a Cat On It,False,3,3,2016-02-24,2016-09-01,Unreleased,0
-Tall Tall Trees,Tall Tall Trees,True,3,3,2013-01-20,2023-04-22,Unreleased,0
-Some Other Way,Some Other Way,False,3,3,2010-10-19,2010-10-23,Undercard,0
-The Coast of High Barbary,The Coast of High Barbary,True,3,3,2014-04-20,2015-11-20,Unreleased,1
-Snow Owl,Snow Owl,False,3,3,2017-12-04,2021-08-24,Full Force Galesburg,0
-Idylls of the Kings,Idylls of the Kings,False,3,3,2002-10-09,2013-06-08,Tallahassee,0
-Get Famous,Get Famous,False,3,3,2021-01-08,2021-10-26,Getting Into Knives,1
-Alpha Aquae,Alpha Aquae,False,3,3,1992-12-06,2000-03-05,Unreleased,1
-Milk Song,Milk Song,False,3,3,2010-12-14,2020-02-22,"Hail and Farewell, Gothenburg",1
 "You, Sailor","You, Sailor",True,3,3,2014-04-15,2014-04-17,Unreleased,1
-Hand of Death,Hand of Death,False,3,3,2018-08-10,2020-02-20,Cardinals At The Window,0
-Parisian Enclave,Parisian Enclave,False,3,3,2021-10-14,2021-10-18,Dark in Here,0
-Sally MacLennane,Sally MacLennane,True,2,2,2024-03-19,2024-03-20,Unreleased,1
-Danny Says,Danny Says,True,2,1,2014-02-26,2014-02-26,Unreleased,1
-Sixty Percent Wolf,Sixty Percent Wolf,False,2,2,2016-12-04,2021-08-16,Unreleased,0
-Calcutta,Calcutta,False,2,2,1996-11-09,1996-11-09,Unreleased,0
-Sudden Oak Death,Sudden Oak Death,False,2,2,2009-03-18,2009-04-06,Moon Colony Bloodbath,0
-Standard Bitter Love Song Number 8,Standard Bitter Love Song Number 8,False,2,2,2014-06-13,2014-06-13,Taking the Dative,0
-Stack Em Up,Stack Em Up,False,2,2,2021-08-06,2021-08-11,unreleased,0
-Chinese House Flowers,Chinese House Flowers,False,2,2,1996-09-11,2017-11-13,Full Force Galesburg,0
-Sixteen Tons,Sixteen Tons,True,2,2,2013-01-20,2018-05-27,Unreleased,0
-"Sure Do Love You Baby, But I Can't Do 60 No More","Sure Do Love You Baby, But I Can't Do 60 No More",False,2,2,2000-02-06,2019-07-18,Unreleased,1
-Brisbane Hotel Sutra,Brisbane Hotel Sutra,False,2,2,2014-02-28,2014-04-19,All Eternals Deck,1
-Beyond the Mysterious Beyond,Beyond the Mysterious Beyond,True,2,2,2015-04-02,2015-04-11,Unreleased,1
-Superheroes,Superheroes,True,2,2,2011-10-29,2014-06-20,Unreleased,2
-St. Stephen,St. Stephen,True,2,2,2015-04-12,2017-06-01,Unreleased,2
-The Coroner’s Gambit,The Coroner’s Gambit,False,2,2,2019-08-08,2019-08-10,The Coroner's Gambit,1
-Cold Milk Bottle,Cold Milk Bottle,False,2,2,1997-06-17,2007-05-11,Sweden,0
-The Moon,The Moon,False,2,2,1995-09-21,1998-10-10,Unreleased,0
-Chino Love Song 1979,Chino Love Song 1979,False,2,2,2012-09-07,2014-06-13,Taking the Dative,0
-Saigon Shrunken Panorama,Saigon Shrunken Panorama,False,2,2,1997-06-22,2021-09-16,Acuarela Songs,0
-The Garden Song,The Garden Song,False,2,2,2006-12-02,2024-08-07,The Hound Chronicles,1
-Casetino's Nursery,Casetino's Nursery,False,2,2,1995-01-15,2009-11-14,Unreleased,2
-The Pieman,The Pieman,False,2,2,1992-12-27,2016-04-16,A Munchies Kinda Xmas,0
-Terminal Grain,Terminal Grain,False,2,2,1995-09-21,2000-03-05,Martial Arts Weekend,0
-Somebody Else's Parking Lot in Santa Cruz,Somebody Else's Parking Lot in Santa Cruz,False,2,2,1999-10-09,2000-03-05,Martial Arts Weekend,0
-Big Yellow Taxi,Big Yellow Taxi,True,2,2,2014-06-27,2016-02-25,Unreleased,0
-Cobra Tattoo,Cobra Tattoo,False,2,2,2006-09-19,2006-09-29,Get Lonely,0
-The Doll Song,The Doll Song,False,2,2,1992-12-13,1998-10-10,Unreleased,0
-Heights,Heights,False,2,2,2012-06-23,2015-06-02,Nothing for Juice,0
-We Bite,We Bite,True,2,1,2007-11-15,2007-11-15,Unreleased,0
-Going the Ways,Going the Ways,False,2,2,2016-07-22,2018-05-27,Unreleased,0
-Two-Headed Boy,Two-Headed Boy,True,2,2,1999-10-09,2001-10-19,Unreleased,0
-Just a Closer Walk with Thee,Just a Closer Walk with Thee,True,2,2,2017-07-13,2017-09-09,Unreleased,0
-From the Lake Trials,From the Lake Trials,False,2,2,2017-09-10,2020-02-21,From the Lake Trials EP,0
-I Shall Not Be Moved,I Shall Not Be Moved,True,2,2,2014-02-28,2014-04-15,Unreleased,1
-Furry's Blues,Furry's Blues,True,2,2,2003-06-06,2004-08-20,Unreleased,0
-Ambivalent Landscape Z,Ambivalent Landscape Z,False,2,2,2010-10-19,2010-10-21,Undercard,0
-My Little Panda,My Little Panda,False,2,2,2020-02-22,2020-10-29,Unreleased,0
-Until Olympius Returns,Until Olympius Returns,False,2,2,2021-04-19,2021-10-15,Songs for Pierre Chuvin,0
-I Think I'll Just Stay Here and Drink,I Think I'll Just Stay Here and Drink,True,2,2,1999-01-27,2016-10-03,Unreleased,0
-Mountain Goats Busking Song,Mountain Goats Busking Song,False,2,2,2014-04-16,2016-12-02,Unreleased,1
-Moon and Sand,Moon and Sand,True,2,2,1995-04-19,2002-10-04,Nothing for Juice,0
-Warm Lonely Planet,Warm Lonely Planet,False,2,2,2019-07-22,2020-02-21,unreleased,0
-If I Should Fall From Grace With God,If I Should Fall From Grace With God,True,2,2,2023-12-01,2024-05-26,Unreleased,0
-Milkcrate,Milkcrate,True,2,2,1995-09-21,1996-01-18,Unreleased,0
-Merry Christmas from the Family,Merry Christmas from the Family,True,2,2,2006-12-18,2010-12-17,Unreleased,1
-Any Available Surface,Any Available Surface,False,2,2,2009-02-25,2009-03-18,Unreleased,0
-Going to Bogota,Going to Bogota,False,2,2,2025-09-17,2025-09-18,Nothing for Juice,0
-Going to Brazil,Going to Brazil,False,2,2,1996-11-09,2010-05-30,Unreleased,0
-Matthew 11:14-19,Matthew 11:14-19,False,2,2,2021-09-07,2024-03-02,The Life of the World in Flux,0
-Going to Wisconsin,Going to Wisconsin,False,2,2,1992-07-18,2024-10-16,The Hound Chronicles,0
-Malevolent Seascape Y,Malevolent Seascape Y,False,2,2,2002-12-07,2008-06-06,Martial Arts Weekend,0
-Going to Spain,Going to Spain,False,2,2,1992-12-12,1996-03-16,The Hound Chronicles,0
-Lucretia My Reflection,Lucretia My Reflection,True,2,2,2017-11-12,2017-11-17,Unreleased,0
-With a Little Help from My Friends,With a Little Help from My Friends,True,2,2,2016-02-27,2016-12-16,Unreleased,0
-With Their Flesh He Will Create,With Their Flesh He Will Create,True,2,2,2012-09-07,2020-02-21,unreleased,0
-Going to San Diego,Going to San Diego,False,2,2,1992-12-13,1993-03-07,Unreleased,0
+Babylon Burning,Babylon Burning,True,3,3,2007-06-13,2008-03-20,Unreleased,0
+Xolo,Xolo,False,3,3,2007-10-02,2017-06-02,The Seneca Twins (Tape),1
+Love Hymn to Aphrodite,Love Hymn to Aphrodite,False,3,3,1998-07-31,2025-11-06,Hot Garden Stomp,0
+Alpha Aquae,Alpha Aquae,False,3,3,1992-12-06,2000-03-05,Unreleased,1
+Against Agamemnon,Against Agamemnon,False,3,3,2008-03-19,2024-04-12,Bitter Melon Farm,1
+Hellhound on My Trail,Hellhound on My Trail,True,3,3,1996-11-10,1996-11-13,Nothing for Juice,0
 When Dinosaurs Roamed,When Dinosaurs Roamed,False,2,2,2016-02-27,2016-04-13,Unreleased,0
-Wishing the House Would Crash,Wishing the House Would Crash,False,2,2,1995-04-20,2019-09-04,Unreleased,1
-Last Man on Earth,Last Man on Earth,False,2,2,2007-09-20,2009-03-18,Heretic Pride,1
-Jay Gould's Daughter,Jay Gould's Daughter,True,2,2,2014-04-17,2015-10-04,Unreleased,0
-Noctifer Birmingham,Noctifer Birmingham,False,2,2,1996-01-15,2012-06-30,Fast Forward 2,0
-Wild Palm City,Wild Palm City,False,2,2,2021-09-21,2024-10-11,"Back to the Egg, Asshole",0
-I Miss the War,I Miss the War,True,2,2,2004-10-15,2004-10-18,Unreleased,0
-Exit Portland Oregon,Exit Portland Oregon,False,2,2,2008-02-25,2008-02-26,Unreleased,0
-The World's Greatest,The World's Greatest,False,2,2,2008-03-18,2010-05-16,Unreleased,0
-Dragon Squeeze,Dragon Squeeze,False,2,2,2016-04-07,2018-08-10,Unreleased,0
-Pure Honey,Pure Honey,False,2,2,2016-10-27,2016-11-21,Philyra,0
-Holidays in the Sun,Holidays in the Sun,True,2,2,2012-12-03,2018-09-05,Unreleased,0
-Philippians 3:20-21,Philippians 3:20-21,False,2,2,2009-09-18,2009-12-19,The Life of the World to Come,0
-I Might Compare,I Might Compare,False,2,2,1996-02-26,2010-12-14,Unreleased,0
-Pure Love,Pure Love,False,2,2,1995-04-12,2016-10-26,Songs for Petronius,0
-Bad Company,Bad Company,True,2,2,2015-01-25,2016-04-16,Unreleased,0
-The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,False,2,2,2017-12-14,2020-02-21,Unreleased,0
-Historiography,Historiography,False,2,2,2014-06-08,2014-06-14,Transmissions to Horace,0
-Exegetic Chains,Exegetic Chains,False,2,2,2020-06-15,2021-04-19,Songs for Pierre Chuvin,0
-Early Spring,Early Spring,False,2,2,2014-06-05,2014-06-14,Transmissions to Horace,1
-Positive Jam,Positive Jam,True,2,2,2009-06-13,2009-11-07,Unreleased,1
-Hypnotized,Hypnotized,True,2,2,2016-04-06,2016-04-12,Unreleased,0
-I Ain't Livin' Long Like This,I Ain't Livin' Long Like This,True,2,2,2008-03-14,2008-03-19,Unreleased,0
-I Don't Want to Get Adjusted,I Don't Want to Get Adjusted,True,2,2,2014-02-26,2014-06-05,Unreleased,1
-Oslo 1888,Oslo 1888,False,2,2,1996-03-16,1999-01-29,Unreleased,0
-Fit Alpha Vi,Fit Alpha Vi,False,2,2,2000-03-05,2000-10-16,Martial Arts Weekend,0
-I Know You've Come to Take My Toys Away,I Know You've Come to Take My Toys Away,False,2,2,1996-03-16,2018-04-13,Nine Black Poppies EP,1
-Are Friends Electric?,Are Friends Electric?,False,2,1,1996-02-26,1996-02-26,Unreleased,0
 Treetop Song,Treetop Song,False,2,2,2009-04-06,2021-09-18,New Asian Cinema,1
+Ambivalent Landscape Z,Ambivalent Landscape Z,False,2,2,2010-10-19,2010-10-21,Undercard,0
+Two-Headed Boy,Two-Headed Boy,True,2,2,1999-10-09,2001-10-19,Unreleased,0
+I Think I'll Just Stay Here and Drink,I Think I'll Just Stay Here and Drink,True,2,2,1999-01-27,2016-10-03,Unreleased,0
+I Miss the War,I Miss the War,True,2,2,2004-10-15,2004-10-18,Unreleased,0
+Pure Love,Pure Love,False,2,2,1995-04-12,2016-10-26,Songs for Petronius,0
+Pure Honey,Pure Honey,False,2,2,2016-10-27,2016-11-21,Philyra,0
+The Doll Song,The Doll Song,False,2,2,1992-12-13,1998-10-10,Unreleased,0
+The Garden Song,The Garden Song,False,2,2,2006-12-02,2024-08-07,The Hound Chronicles,1
+The Coroner’s Gambit,The Coroner’s Gambit,False,2,2,2019-08-08,2019-08-10,The Coroner's Gambit,1
+I Know You've Come to Take My Toys Away,I Know You've Come to Take My Toys Away,False,2,2,1996-03-16,2018-04-13,Nine Black Poppies EP,1
+I Might Compare,I Might Compare,False,2,2,1996-02-26,2010-12-14,Unreleased,0
+Going to San Diego,Going to San Diego,False,2,2,1992-12-13,1993-03-07,Unreleased,0
+I Shall Not Be Moved,I Shall Not Be Moved,True,2,2,2014-02-28,2014-04-15,Unreleased,1
+Going to Spain,Going to Spain,False,2,2,1992-12-12,1996-03-16,The Hound Chronicles,0
+Noctifer Birmingham,Noctifer Birmingham,False,2,2,1996-01-15,2012-06-30,Fast Forward 2,0
+I Don't Want to Get Adjusted,I Don't Want to Get Adjusted,True,2,2,2014-02-26,2014-06-05,Unreleased,1
+I Ain't Livin' Long Like This,I Ain't Livin' Long Like This,True,2,2,2008-03-14,2008-03-19,Unreleased,0
+Hypnotized,Hypnotized,True,2,2,2016-04-06,2016-04-12,Unreleased,0
+Calcutta,Calcutta,False,2,2,1996-11-09,1996-11-09,Unreleased,0
+The World's Greatest,The World's Greatest,False,2,2,2008-03-18,2010-05-16,Unreleased,0
+Sudden Oak Death,Sudden Oak Death,False,2,2,2009-03-18,2009-04-06,Moon Colony Bloodbath,0
+Superheroes,Superheroes,True,2,2,2011-10-29,2014-06-20,Unreleased,2
+"Sure Do Love You Baby, But I Can't Do 60 No More","Sure Do Love You Baby, But I Can't Do 60 No More",False,2,2,2000-02-06,2019-07-18,Unreleased,1
+Standard Bitter Love Song Number 8,Standard Bitter Love Song Number 8,False,2,2,2014-06-13,2014-06-13,Taking the Dative,0
+Going to Wisconsin,Going to Wisconsin,False,2,2,1992-07-18,2024-10-16,The Hound Chronicles,0
+Casetino's Nursery,Casetino's Nursery,False,2,2,1995-01-15,2009-11-14,Unreleased,2
+Chinese House Flowers,Chinese House Flowers,False,2,2,1996-09-11,2017-11-13,Full Force Galesburg,0
+Chino Love Song 1979,Chino Love Song 1979,False,2,2,2012-09-07,2014-06-13,Taking the Dative,0
+Jay Gould's Daughter,Jay Gould's Daughter,True,2,2,2014-04-17,2015-10-04,Unreleased,0
+Cobra Tattoo,Cobra Tattoo,False,2,2,2006-09-19,2006-09-29,Get Lonely,0
+Philippians 3:20-21,Philippians 3:20-21,False,2,2,2009-09-18,2009-12-19,The Life of the World to Come,0
+Oslo 1888,Oslo 1888,False,2,2,1996-03-16,1999-01-29,Unreleased,0
+Terminal Grain,Terminal Grain,False,2,2,1995-09-21,2000-03-05,Martial Arts Weekend,0
+Cold Milk Bottle,Cold Milk Bottle,False,2,2,1997-06-17,2007-05-11,Sweden,0
+Just a Closer Walk with Thee,Just a Closer Walk with Thee,True,2,2,2017-07-13,2017-09-09,Unreleased,0
+Last Man on Earth,Last Man on Earth,False,2,2,2007-09-20,2009-03-18,Heretic Pride,1
+Positive Jam,Positive Jam,True,2,2,2009-06-13,2009-11-07,Unreleased,1
+Furry's Blues,Furry's Blues,True,2,2,2003-06-06,2004-08-20,Unreleased,0
+From the Lake Trials,From the Lake Trials,False,2,2,2017-09-10,2020-02-21,From the Lake Trials EP,0
+Warm Lonely Planet,Warm Lonely Planet,False,2,2,2019-07-22,2020-02-21,unreleased,0
+We Bite,We Bite,True,2,1,2007-11-15,2007-11-15,Unreleased,0
+Until Olympius Returns,Until Olympius Returns,False,2,2,2021-04-19,2021-10-15,Songs for Pierre Chuvin,0
+If I Should Fall From Grace With God,If I Should Fall From Grace With God,True,2,2,2023-12-01,2024-05-26,Unreleased,0
+Merry Christmas from the Family,Merry Christmas from the Family,True,2,2,2006-12-18,2010-12-17,Unreleased,1
+Early Spring,Early Spring,False,2,2,2014-06-05,2014-06-14,Transmissions to Horace,1
+Dragon Squeeze,Dragon Squeeze,False,2,2,2016-04-07,2018-08-10,Unreleased,0
+Fit Alpha Vi,Fit Alpha Vi,False,2,2,2000-03-05,2000-10-16,Martial Arts Weekend,0
+Milkcrate,Milkcrate,True,2,2,1995-09-21,1996-01-18,Unreleased,0
+Moon and Sand,Moon and Sand,True,2,2,1995-04-19,2002-10-04,Nothing for Juice,0
+My Little Panda,My Little Panda,False,2,2,2020-02-22,2020-10-29,Unreleased,0
+Stack Em Up,Stack Em Up,False,2,2,2021-08-06,2021-08-11,unreleased,0
+St. Stephen,St. Stephen,True,2,2,2015-04-12,2017-06-01,Unreleased,2
+Malevolent Seascape Y,Malevolent Seascape Y,False,2,2,2002-12-07,2008-06-06,Martial Arts Weekend,0
+Matthew 11:14-19,Matthew 11:14-19,False,2,2,2021-09-07,2024-03-02,The Life of the World in Flux,0
+Going to Brazil,Going to Brazil,False,2,2,1996-11-09,2010-05-30,Unreleased,0
+Lucretia My Reflection,Lucretia My Reflection,True,2,2,2017-11-12,2017-11-17,Unreleased,0
+Going to Bogota,Going to Bogota,False,2,2,2025-09-17,2025-09-18,Nothing for Juice,0
+Going the Ways,Going the Ways,False,2,2,2016-07-22,2018-05-27,Unreleased,0
+Sixteen Tons,Sixteen Tons,True,2,2,2013-01-20,2018-05-27,Unreleased,0
+Sixty Percent Wolf,Sixty Percent Wolf,False,2,2,2016-12-04,2021-08-16,Unreleased,0
+Exegetic Chains,Exegetic Chains,False,2,2,2020-06-15,2021-04-19,Songs for Pierre Chuvin,0
+Somebody Else's Parking Lot in Santa Cruz,Somebody Else's Parking Lot in Santa Cruz,False,2,2,1999-10-09,2000-03-05,Martial Arts Weekend,0
+Danny Says,Danny Says,True,2,1,2014-02-26,2014-02-26,Unreleased,1
+Exit Portland Oregon,Exit Portland Oregon,False,2,2,2008-02-25,2008-02-26,Unreleased,0
+Mountain Goats Busking Song,Mountain Goats Busking Song,False,2,2,2014-04-16,2016-12-02,Unreleased,1
+Saigon Shrunken Panorama,Saigon Shrunken Panorama,False,2,2,1997-06-22,2021-09-16,Acuarela Songs,0
 Red River Valley,Red River Valley,True,2,2,2007-06-13,2007-06-17,Unreleased,0
-Wish You Were Here,Wish You Were Here,True,1,1,2016-02-27,2016-02-27,Unreleased,1
-The Day the Aliens Came,The Day the Aliens Came,False,1,1,2023-12-13,2023-12-13,"Come, Come to the Sunset Tree",0
-Wind Beneath My Wings,Wind Beneath My Wings,False,1,1,2017-04-12,2017-04-12,Unreleased,0
-Wizard Level,Wizard Level,False,1,1,2016-04-02,2016-04-02,Unreleased,1
-Wild World,Wild World,True,1,1,1999-01-29,1999-01-29,Unreleased,0
-15-2,15-2,False,1,1,1992-10-01,1992-10-01,Unreleased,0
-25,25,False,1,1,1993-03-07,1993-03-07,Unreleased,0
-2/3 Jim's Head,2/3 Jim's Head,True,1,1,2003-09-27,2003-09-27,Unreleased,0
-Word on a Wing,Word on a Wing,True,1,1,2016-03-31,2016-03-31,Unreleased,0
-The Damned,The Damned,True,1,1,2014-06-27,2014-06-27,Unreleased,0
-Wrong!,Wrong!,False,1,1,2014-06-13,2014-06-13,Taking the Dative,0
-Young and Endangered,Young and Endangered,False,1,1,2019-05-09,2019-05-09,unreleased,2
-You've Got to Have a Mouse in Your Life,You've Got to Have a Mouse in Your Life,False,1,1,2025-09-22,2025-09-22,Unreleased,0
-40 Hours,40 Hours,True,1,1,2012-04-19,2012-04-19,Unreleased,0
-You're So Vain,You're So Vain,True,1,1,2024-03-03,2024-03-03,"Hail and Farewell, Gothenburg",0
-Yellow Coat,Yellow Coat,False,1,1,2007-06-16,2007-06-16,Unreleased,0
-Black Diamond,Black Diamond,False,1,1,2019-07-17,2019-07-17,Unreleased,0
-Accentuate the Positive,Accentuate the Positive,True,1,1,2006-10-01,2006-10-01,Unreleased,1
-You Take the High Road,You Take the High Road,False,1,1,1999-01-23,1999-01-23,Unreleased,0
-The Cat Came Back,The Cat Came Back,True,1,1,2013-01-20,2013-01-20,Unreleased,0
-Yellow Precious Letter,Yellow Precious Letter,False,1,1,2009-04-03,2009-04-03,Unreleased,0
-Barracuda,Barracuda,True,1,1,2019-09-10,2019-09-10,unreleased,0
-Agemo's Hoops,Agemo's Hoops,False,1,1,1995-04-15,1995-04-15,Unreleased,0
+Sally MacLennane,Sally MacLennane,True,2,2,2024-03-19,2024-03-20,Unreleased,1
+Wishing the House Would Crash,Wishing the House Would Crash,False,2,2,1995-04-20,2019-09-04,Unreleased,1
+Wild Palm City,Wild Palm City,False,2,2,2021-09-21,2024-10-11,"Back to the Egg, Asshole",0
+Are Friends Electric?,Are Friends Electric?,False,2,1,1996-02-26,1996-02-26,Unreleased,0
+Any Available Surface,Any Available Surface,False,2,2,2009-02-25,2009-03-18,Unreleased,0
+Bad Company,Bad Company,True,2,2,2015-01-25,2016-04-16,Unreleased,0
+Brisbane Hotel Sutra,Brisbane Hotel Sutra,False,2,2,2014-02-28,2014-04-19,All Eternals Deck,1
+With Their Flesh He Will Create,With Their Flesh He Will Create,True,2,2,2012-09-07,2020-02-21,unreleased,0
+With a Little Help from My Friends,With a Little Help from My Friends,True,2,2,2016-02-27,2016-12-16,Unreleased,0
+Holidays in the Sun,Holidays in the Sun,True,2,2,2012-12-03,2018-09-05,Unreleased,0
+Historiography,Historiography,False,2,2,2014-06-08,2014-06-14,Transmissions to Horace,0
+Heights,Heights,False,2,2,2012-06-23,2015-06-02,Nothing for Juice,0
+The Pieman,The Pieman,False,2,2,1992-12-27,2016-04-16,A Munchies Kinda Xmas,0
+The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,False,2,2,2017-12-14,2020-02-21,Unreleased,0
+Beyond the Mysterious Beyond,Beyond the Mysterious Beyond,True,2,2,2015-04-02,2015-04-11,Unreleased,1
+Big Yellow Taxi,Big Yellow Taxi,True,2,2,2014-06-27,2016-02-25,Unreleased,0
+The Moon,The Moon,False,2,2,1995-09-21,1998-10-10,Unreleased,0
+Horse and Master,Horse and Master,False,1,1,2010-12-14,2010-12-14,Unreleased,0
 The Mad Clarinet,The Mad Clarinet,True,1,1,1997-04-04,1997-04-04,Unreleased,0
-Anchorless,Anchorless,True,1,1,1996-11-09,1996-11-09,Unreleased,0
-Tug on the Line,Tug on the Line,False,1,1,2010-10-23,2010-10-23,Undercard,0
 The Monolith,The Monolith,True,1,1,2012-09-07,2012-09-07,,1
-Trying to Remember the Video with Lita Ford,Trying to Remember the Video with Lita Ford,False,1,1,2014-01-19,2014-01-19,Unreleased,0
-Are You Cleaning Off the Stone?,Are You Cleaning Off the Stone?,False,1,1,1996-03-23,1996-03-23,Hot Garden Stomp,0
-Tomb of the Assassin,Tomb of the Assassin,False,1,1,2023-04-01,2023-04-01,Unreleased,0
 The Muffin Man,The Muffin Man,True,1,1,2014-04-15,2014-04-15,Unreleased,0
-Back for Good,Back for Good,False,1,1,2022-12-05,2022-12-05,Unreleased,0
 The Mummy's Hand,The Mummy's Hand,False,1,1,2005-06-16,2005-06-16,Unreleased,0
-Those Treasures Will Never Befall You,Those Treasures Will Never Befall You,True,1,1,2012-09-07,2012-09-07,,0
 The New Potatoes,The New Potatoes,False,1,1,1997-04-04,1997-04-04,Unreleased,0
-This Is My Father's World,This Is My Father's World,True,1,1,2015-09-12,2015-09-12,Unreleased,0
-This Is Heaven,This Is Heaven,True,1,1,2023-02-18,2023-02-18,Unreleased,0
-These Days,These Days,True,1,1,2014-06-27,2014-06-27,Unreleased,0
-Bad Priestess,Bad Priestess,False,1,1,2011-04-08,2011-04-08,Zopilote Machine,0
-The Tower,The Tower,True,1,1,2012-04-19,2012-04-19,Unreleased,0
 The Smokey Life,The Smokey Life,True,1,1,2012-01-17,2012-01-17,Unreleased,1
-Uncle John's Band,Uncle John's Band,True,1,1,2014-01-19,2014-01-19,Unreleased,0
-Unknown cover song,Unknown cover song,False,1,1,2008-02-19,2008-02-19,Unreleased,0
-Whon,Whon,False,1,1,2009-06-13,2009-06-13,Unreleased,0
-The Last Place I Saw You Alive,The Last Place I Saw You Alive,False,1,1,2021-04-18,2021-04-18,Getting Into Knives,0
-Ain't Misbehavin',Ain't Misbehavin',True,1,1,2018-04-22,2018-04-22,unreleased,0
-Birthday Song (This Time Has Gone),Birthday Song (This Time Has Gone),False,1,1,1996-02-26,1996-02-26,Unreleased,0
-Who You Are,Who You Are,True,1,1,2014-07-25,2014-07-25,Who You Are,2
-Aisles,Aisles,False,1,1,2001-04-21,2001-04-21,Jam Eater Blues (EP),0
-The Great Gold Sheep,The Great Gold Sheep,False,1,1,2020-06-15,2020-06-15,Getting Into Knives,1
-The Great and Terrible George Jones Car Accident of 1999,The Great and Terrible George Jones Car Accident of 1999,False,1,1,2005-03-23,2005-03-23,Unreleased,0
+The Tower,The Tower,True,1,1,2012-04-19,2012-04-19,Unreleased,0
 Bird on the Wire,Bird on the Wire,True,1,1,2017-12-03,2017-12-03,Unreleased,0
-What Have You Done to the Magician?,What Have You Done to the Magician?,False,1,1,2021-09-09,2021-09-09,Unreleased,0
-Werewolves of London,Werewolves of London,False,1,1,2015-10-09,2015-10-09,Unreleased,0
+Birthday Song (This Time Has Gone),Birthday Song (This Time Has Gone),False,1,1,1996-02-26,1996-02-26,Unreleased,0
+Black Diamond,Black Diamond,False,1,1,2019-07-17,2019-07-17,Unreleased,0
+Yellow Coat,Yellow Coat,False,1,1,2007-06-16,2007-06-16,Unreleased,0
+Yellow Precious Letter,Yellow Precious Letter,False,1,1,2009-04-03,2009-04-03,Unreleased,0
+You Take the High Road,You Take the High Road,False,1,1,1999-01-23,1999-01-23,Unreleased,0
+You're So Vain,You're So Vain,True,1,1,2024-03-03,2024-03-03,"Hail and Farewell, Gothenburg",0
+You've Got to Have a Mouse in Your Life,You've Got to Have a Mouse in Your Life,False,1,1,2025-09-22,2025-09-22,Unreleased,0
+"Here I Am, Lord","Here I Am, Lord",True,1,1,2024-03-01,2024-03-01,Unreleased,0
+History of the Church (Part 1),History of the Church (Part 1),False,1,1,1992-12-06,1992-12-06,Unreleased,0
+Hommel West (Onward to Tasmania),Hommel West (Onward to Tasmania),False,1,1,2015-09-08,2015-09-08,Unreleased,0
+Hopeful Assassins of Zeno,Hopeful Assassins of Zeno,False,1,1,2022-08-19,2022-08-19,Songs for Pierre Chuvin,0
+Agemo's Hoops,Agemo's Hoops,False,1,1,1995-04-15,1995-04-15,Unreleased,0
+Ain't Misbehavin',Ain't Misbehavin',True,1,1,2018-04-22,2018-04-22,unreleased,0
+Aisles,Aisles,False,1,1,2001-04-21,2001-04-21,Jam Eater Blues (EP),0
 All for the Best,All for the Best,False,1,1,2023-10-07,2023-10-07,Unreleased,0
-We Don't Need the Men,We Don't Need the Men,True,1,1,2016-12-16,2016-12-16,Unreleased,0
 All of You,All of You,False,1,1,2020-02-20,2020-02-20,unreleased,0
-Bare Grace Misery,Bare Grace Misery,True,1,1,2012-09-07,2012-09-07,,1
-The Jungle,The Jungle,False,1,1,2009-10-11,2009-10-11,Unreleased,0
-Water Song II,Water Song II,False,1,1,2016-04-17,2016-04-17,Hot Garden Stomp,0
-Wait for You,Wait for You,False,1,1,2017-04-07,2017-04-07,Babylon Springs EP,0
-Venus,Venus,False,1,1,2011-07-13,2011-07-13,Unreleased,0
+Who You Are,Who You Are,True,1,1,2014-07-25,2014-07-25,Who You Are,2
+Wild World,Wild World,True,1,1,1999-01-29,1999-01-29,Unreleased,0
+Wind Beneath My Wings,Wind Beneath My Wings,False,1,1,2017-04-12,2017-04-12,Unreleased,0
+Wish You Were Here,Wish You Were Here,True,1,1,2016-02-27,2016-02-27,Unreleased,1
+Wizard Level,Wizard Level,False,1,1,2016-04-02,2016-04-02,Unreleased,1
+Word on a Wing,Word on a Wing,True,1,1,2016-03-31,2016-03-31,Unreleased,0
+Wrong!,Wrong!,False,1,1,2014-06-13,2014-06-13,Taking the Dative,0
+Anchorless,Anchorless,True,1,1,1996-11-09,1996-11-09,Unreleased,0
+Are You Cleaning Off the Stone?,Are You Cleaning Off the Stone?,False,1,1,1996-03-23,1996-03-23,Hot Garden Stomp,0
 Babe,Babe,True,1,1,2011-08-05,2011-08-05,Unreleased,0
+Back for Good,Back for Good,False,1,1,2022-12-05,2022-12-05,Unreleased,0
+Bad Priestess,Bad Priestess,False,1,1,2011-04-08,2011-04-08,Zopilote Machine,0
+Bare Grace Misery,Bare Grace Misery,True,1,1,2012-09-07,2012-09-07,,1
+Barracuda,Barracuda,True,1,1,2019-09-10,2019-09-10,unreleased,0
+Five O'Clock,Five O'Clock,True,1,1,2007-12-09,2007-12-09,Unreleased,1
+Flashing Lights,Flashing Lights,False,1,1,2016-04-13,2016-04-13,Sweden,0
+Reel Around the Fountain,Reel Around the Fountain,True,1,1,1997-12-06,1997-12-06,Unreleased,0
+Ribdate,Ribdate,False,1,1,1992-05-31,1992-05-31,Biographer's Ruse,0
+Rivers of Babylon,Rivers of Babylon,False,1,1,2005-10-14,2005-10-14,Babylon Springs EP,0
+Rock and Roll All Night,Rock and Roll All Night,False,1,1,2017-09-06,2017-09-06,Unreleased,0
+Run Run Rudolph,Run Run Rudolph,True,1,1,2006-12-18,2006-12-18,Unreleased,1
 Sacrifice,Sacrifice,False,1,1,2002-10-23,2002-10-23,We Shall All Be Healed,0
-The Autopsy Garland,The Autopsy Garland,False,1,1,2021-10-15,2021-10-15,All Eternals Deck,0
+Satanic Messiah (Song),Satanic Messiah (Song),False,1,1,2018-05-27,2018-05-27,Satanic Messiah EP,0
+Let Me Go,Let Me Go,False,1,1,2010-12-14,2010-12-14,Unreleased,0
+Let the Dogs Come Out,Let the Dogs Come Out,False,1,1,1992-12-13,1992-12-13,Unreleased,0
+"Lie Down, Keep Still, Play Dead","Lie Down, Keep Still, Play Dead",False,1,1,2024-02-29,2024-02-29,Unreleased,0
+Light of the World,Light of the World,False,1,1,2024-01-19,2024-01-19,Unreleased,0
+Loch Lomond,Loch Lomond,False,1,1,1999-01-29,1999-01-29,unreleased,0
+Long Lost to Where No Pathway Goes,Long Lost to Where No Pathway Goes,True,1,1,2012-09-07,2012-09-07,,0
+Love and Marriage,Love and Marriage,True,1,1,2018-09-07,2018-09-07,Unreleased,0
+Malevolent Cityscape X,Malevolent Cityscape X,False,1,1,1995-09-21,1995-09-21,Infidelity,0
+Malted Milk,Malted Milk,False,1,1,1992-07-22,1992-07-22,Unreleased,0
 Mamas Don't Let Your Babies Grow Up to Be Cowboys,Mamas Don't Let Your Babies Grow Up to Be Cowboys,True,1,1,2015-06-08,2015-06-08,Unreleased,0
-Goblin Wizard in the Crawlspace of My Heart,Goblin Wizard in the Crawlspace of My Heart,False,1,1,2019-11-15,2019-11-15,unreleased,0
-Going Through Pomona,Going Through Pomona,False,1,1,2004-02-01,2004-02-01,Unreleased,0
-Minor Joan Crawford Vehicle,Minor Joan Crawford Vehicle,False,1,1,2009-02-04,2009-02-04,Unreleased,1
 Going Underground,Going Underground,False,1,1,2019-11-16,2019-11-16,unreleased,0
-Migrations,Migrations,True,1,1,2014-06-27,2014-06-27,Unreleased,0
 Going to Buffalo,Going to Buffalo,False,1,1,1995-09-21,1995-09-21,Unreleased,0
 Going to California,Going to California,False,1,1,1992-12-06,1992-12-06,Unreleased,0
-Malted Milk,Malted Milk,False,1,1,1992-07-22,1992-07-22,Unreleased,0
-"Lie Down, Keep Still, Play Dead","Lie Down, Keep Still, Play Dead",False,1,1,2024-02-29,2024-02-29,Unreleased,0
-Malevolent Cityscape X,Malevolent Cityscape X,False,1,1,1995-09-21,1995-09-21,Infidelity,0
 Going to Federal Prison,Going to Federal Prison,False,1,1,2017-11-06,2017-11-06,Unreleased,0
 Going to France,Going to France,False,1,1,1992-07-22,1992-07-22,Unreleased,0
-Love and Marriage,Love and Marriage,True,1,1,2018-09-07,2018-09-07,Unreleased,0
+Shield My Eyes Against the Glare,Shield My Eyes Against the Glare,False,1,1,2010-12-14,2010-12-14,Unreleased,0
+Short Song for Justin Bieber and His Paparazzi,Short Song for Justin Bieber and His Paparazzi,False,1,1,2016-04-13,2016-04-13,Unreleased,0
+"Shot, Repeatedly, At Close Range, In the Chest, By Your Love","Shot, Repeatedly, At Close Range, In the Chest, By Your Love",False,1,1,2021-09-09,2021-09-09,Unreleased,0
+Skeleton's Tooth,Skeleton's Tooth,False,1,1,2018-10-24,2018-10-24,unreleased,0
+Slip Away from Me,Slip Away from Me,False,1,1,2010-12-14,2010-12-14,Unreleased,0
+Smothered/Register/Political Man,Smothered/Register/Political Man,False,1,1,1992-05-31,1992-05-31,Biographer's Ruse,0
+Snake Dance Song,Snake Dance Song,False,1,1,2017-10-12,2017-10-12,Unreleased,0
+Crane,Crane,False,1,1,2010-12-14,2010-12-14,"Hail and Farewell, Gothenburg",0
+Crazy On You,Crazy On You,True,1,1,2017-05-31,2017-05-31,Unreleased,1
+Crazy Train,Crazy Train,True,1,1,2011-11-18,2011-11-18,Unreleased,1
+Cut Your Hair,Cut Your Hair,True,1,1,1995-01-15,1995-01-15,Unreleased,0
+Dirty Old Town,Dirty Old Town,True,1,1,2024-03-20,2024-03-20,Devil in the Shortwave,0
+Don't Take the Dogs Away,Don't Take the Dogs Away,False,1,1,2014-06-15,2014-06-15,Taboo VI: The Homecoming,0
+Down to the Ark,Down to the Ark,False,1,1,2008-02-02,2008-02-02,Unreleased,0
+Something Inside Me Has Died,Something Inside Me Has Died,False,1,1,2008-03-05,2008-03-05,Unreleased,0
+Sometimes We Mosh,Sometimes We Mosh,False,1,1,2015-04-07,2015-04-07,Unreleased,0
+Song for Greg Valentine,Song for Greg Valentine,False,1,1,2012-06-27,2012-06-27,Unreleased,1
+Song for My Sons,Song for My Sons,True,1,1,2017-06-02,2017-06-02,Unreleased,0
+Song for Prince Edward III,Song for Prince Edward III,False,1,1,1996-11-07,1996-11-07,Martial Arts Weekend,0
+Radical Evil Song,Radical Evil Song,False,1,1,2022-05-08,2022-05-08,unreleased,1
+Etruscans,Etruscans,False,1,1,2021-09-18,2021-09-18,Our First 100 Days,0
+Everyday People,Everyday People,True,1,1,2012-04-19,2012-04-19,Unreleased,0
 Going to Japan,Going to Japan,False,1,1,2023-09-19,2023-09-19,Hot Garden Stomp,0
-Long Lost to Where No Pathway Goes,Long Lost to Where No Pathway Goes,True,1,1,2012-09-07,2012-09-07,,0
-Loch Lomond,Loch Lomond,False,1,1,1999-01-29,1999-01-29,unreleased,0
+Going to Niles,Going to Niles,False,1,1,2017-11-17,2017-11-17,Unreleased,0
+Going to Norwalk,Going to Norwalk,False,1,1,2015-05-27,2015-05-27,Hot Garden Stomp,0
+Migrations,Migrations,True,1,1,2014-06-27,2014-06-27,Unreleased,0
+Minor Joan Crawford Vehicle,Minor Joan Crawford Vehicle,False,1,1,2009-02-04,2009-02-04,Unreleased,1
 Moth and Worm,Moth and Worm,False,1,1,2016-12-16,2016-12-16,Unreleased,0
 Mountain Goats Shirt Song,Mountain Goats Shirt Song,False,1,1,2005-06-23,2005-06-23,Unreleased,0
 Mourn Not the Dead,Mourn Not the Dead,True,1,1,2022-05-20,2022-05-20,unreleased,1
 Move (Chicago 196X),Move (Chicago 196X),False,1,1,2014-06-15,2014-06-15,Taboo VI: The Homecoming,0
-"Oats, Peas, Beans and Barley Grow","Oats, Peas, Beans and Barley Grow",True,1,1,2015-09-08,2015-09-08,Unreleased,0
-Noche del Guajolote,Noche del Guajolote,False,1,1,2015-04-13,2015-04-13,I Like Walt,0
-For the Snakes,For the Snakes,False,1,1,2021-09-08,2021-09-08,Songs for Pierre Chuvin,0
-No Surprises,No Surprises,True,1,1,2000-10-19,2000-10-19,Unreleased,0
-François Mitterrand,François Mitterrand,True,1,1,1996-03-21,1996-03-21,Gatherings,0
-Free Fallin',Free Fallin',True,1,1,2009-04-02,2009-04-02,Unreleased,0
-Nikki Oh Nikki,Nikki Oh Nikki,False,1,1,1999-07-23,1999-07-23,Unreleased,0
-Freebird,Freebird,False,1,1,2009-10-11,2009-10-11,Unreleased,0
-New Matha,New Matha,False,1,1,1998-10-10,1998-10-10,Unreleased,0
-New London,New London,False,1,1,2023-12-06,2023-12-06,Unreleased,0
-Never Say Never,Never Say Never,False,1,1,2022-08-25,2022-08-25,Unreleased,0
-My Mask,My Mask,False,1,1,2025-10-04,2025-10-04,Unreleased,0
-Garbage Eaters,Garbage Eaters,False,1,1,2004-07-17,2004-07-17,Unreleased,0
-My Best Friend's Girl,My Best Friend's Girl,True,1,1,2016-12-16,2016-12-16,Unreleased,0
 Mutiny in Heaven,Mutiny in Heaven,True,1,1,2004-05-27,2004-05-27,Unreleased,0
-Light of the World,Light of the World,False,1,1,2024-01-19,2024-01-19,Unreleased,0
-Let the Dogs Come Out,Let the Dogs Come Out,False,1,1,1992-12-13,1992-12-13,Unreleased,0
-Teenage World,Teenage World,False,1,1,2014-06-14,2014-06-14,Transmissions to Horace,0
-Hatha Hill,Hatha Hill,False,1,1,2025-09-26,2025-09-26,"Orange Raja, Blood Royal",0
-Improv Song,Improv Song,False,1,1,2009-12-16,2009-12-16,Unreleased,0
+My Best Friend's Girl,My Best Friend's Girl,True,1,1,2016-12-16,2016-12-16,Unreleased,0
+My Mask,My Mask,False,1,1,2025-10-04,2025-10-04,Unreleased,0
+Extreme South Number 1,Extreme South Number 1,False,1,1,2025-09-28,2025-09-28,Unreleased,0
+Song for Ted Sallis,Song for Ted Sallis,False,1,1,2020-02-21,2020-02-21,Hex of Infinite Binding EP,0
+Spellbound,Spellbound,True,1,1,2014-06-27,2014-06-27,Unreleased,1
+Stable Boy Song,Stable Boy Song,False,1,1,2024-12-13,2024-12-13,Unreleased,0
+Standard Bitter Love Song Number 5,Standard Bitter Love Song Number 5,False,1,1,1992-07-22,1992-07-22,Unreleased,0
+Standard Bitter Love Song Number 6,Standard Bitter Love Song Number 6,False,1,1,1992-12-06,1992-12-06,Unreleased,0
+Straight Six,Straight Six,False,1,1,2015-06-01,2015-06-01,Jam Eater Blues (EP),0
+Stuck in Time,Stuck in Time,False,1,1,2010-12-14,2010-12-14,Unreleased,0
+Suffragette City,Suffragette City,True,1,1,2012-04-19,2012-04-19,Unreleased,0
+"Sugar, We're Going Down","Sugar, We're Going Down",True,1,1,2018-04-20,2018-04-20,unreleased,2
+Superman,Superman,True,1,1,2016-04-19,2016-04-19,Unreleased,0
+Take A Letter Maria,Take A Letter Maria,True,1,1,1997-11-14,1997-11-14,Unreleased,0
+Tallahasee,Tallahasee,False,1,1,2021-08-10,2021-08-10,Tallahassee,0
+Cao Dai Blowout,Cao Dai Blowout,False,1,1,2007-06-17,2007-06-17,New Asian Cinema,0
+Cars Song in C,Cars Song in C,False,1,1,2016-05-12,2016-05-12,Unreleased,0
+Cathedral Song,Cathedral Song,True,1,1,1996-03-16,1996-03-16,Unreleased,0
+Catherine Antrim’s Kid,Catherine Antrim’s Kid,False,1,1,2013-01-25,2013-01-25,All Survivors Pack,0
+Charlie Brown,Charlie Brown,True,1,1,2019-03-14,2019-03-14,Unreleased,1
+Chason du Bon Chose,Chason du Bon Chose,False,1,1,2025-10-03,2025-10-03,Nine Black Poppies EP,0
+Chilean Fire Barrel,Chilean Fire Barrel,False,1,1,1992-12-13,1992-12-13,Unreleased,0
+Christmas in Prison,Christmas in Prison,True,1,1,2006-12-18,2006-12-18,Unreleased,1
+Going to Tennessee,Going to Tennessee,False,1,1,2008-10-15,2008-10-15,Why You All So Thief?,0
 Hail St. Sebastian,Hail St. Sebastian,False,1,1,2012-03-24,2012-03-24,Unreleased,0
-I Rule the Ruins,I Rule the Ruins,True,1,1,2014-06-27,2014-06-27,Unreleased,0
-I Put a Spell on You,I Put a Spell on You,True,1,1,2004-10-15,2004-10-15,Unreleased,0
-"I Love You, Let's Light Ourselves on Fire","I Love You, Let's Light Ourselves on Fire",False,1,1,2009-03-25,2009-03-25,"Hail and Farewell, Gothenburg",0
-I Hope You Dance,I Hope You Dance,True,1,1,2015-09-10,2015-09-10,Unreleased,0
-I Am Morris Townsend,I Am Morris Townsend,True,1,1,2006-08-10,2006-08-10,Redux,0
+Hatha Hill,Hatha Hill,False,1,1,2025-09-26,2025-09-26,"Orange Raja, Blood Royal",0
 Have Yourself a Merry Little Christmas,Have Yourself a Merry Little Christmas,True,1,1,2011-12-21,2011-12-21,Unreleased,1
-Let Me Go,Let Me Go,False,1,1,2010-12-14,2010-12-14,Unreleased,0
-Hospital Reaction Shot,Hospital Reaction Shot,False,1,1,2021-09-07,2021-09-07,Hex of Infinite Binding EP,0
 He Will Arise,He Will Arise,False,1,1,2013-09-14,2013-09-14,Unreleased,0
-Horse and Master,Horse and Master,False,1,1,2010-12-14,2010-12-14,Unreleased,0
-Hopeful Assassins of Zeno,Hopeful Assassins of Zeno,False,1,1,2022-08-19,2022-08-19,Songs for Pierre Chuvin,0
-Hommel West (Onward to Tasmania),Hommel West (Onward to Tasmania),False,1,1,2015-09-08,2015-09-08,Unreleased,0
-History of the Church (Part 1),History of the Church (Part 1),False,1,1,1992-12-06,1992-12-06,Unreleased,0
-"Here I Am, Lord","Here I Am, Lord",True,1,1,2024-03-01,2024-03-01,Unreleased,0
+It's Raining Men,It's Raining Men,True,1,1,2011-04-01,2011-04-01,Unreleased,1
+Italian Guns,Italian Guns,False,1,1,2014-02-28,2014-02-28,Unreleased,0
+Jailbreak,Jailbreak,False,1,1,2011-04-01,2011-04-01,Unreleased,0
+Jam Eater Blues,Jam Eater Blues,False,1,1,2014-04-15,2014-04-15,Jam Eater Blues EP,0
+John 4:35,John 4:35,False,1,1,1993-03-07,1993-03-07,Unreleased,0
+Kittens in Mittens,Kittens in Mittens,False,1,1,1992-12-06,1992-12-06,Unreleased,0
+Know the Way,Know the Way,False,1,1,2001-04-21,2001-04-21,Isopanisad Radio Hour,0
+Korean Bird Paintings,Korean Bird Paintings,False,1,1,2021-04-18,2021-04-18,New Asian Cinema,0
+La Tracionera,La Tracionera,False,1,1,1996-01-18,1996-01-18,Unreleased,0
+Labrador,Labrador,True,1,1,2012-10-20,2012-10-20,Unreleased,0
+Leaving Home,Leaving Home,False,1,1,2007-06-17,2007-06-17,Cyanide Guilt Trip,0
+Con Todo Y Mi Tristeza,Con Todo Y Mi Tristeza,False,1,1,2016-09-01,2016-09-01,Unreleased,0
+Teenage World,Teenage World,False,1,1,2014-06-14,2014-06-14,Transmissions to Horace,0
+The Autopsy Garland,The Autopsy Garland,False,1,1,2021-10-15,2021-10-15,All Eternals Deck,0
+Garbage Eaters,Garbage Eaters,False,1,1,2004-07-17,2004-07-17,Unreleased,0
+Goblin Wizard in the Crawlspace of My Heart,Goblin Wizard in the Crawlspace of My Heart,False,1,1,2019-11-15,2019-11-15,unreleased,0
+Going Through Pomona,Going Through Pomona,False,1,1,2004-02-01,2004-02-01,Unreleased,0
+Original Air-Blue Gown,Original Air-Blue Gown,False,1,1,2021-08-25,2021-08-25,Full Force Galesburg,1
+Paint It Black,Paint It Black,True,1,1,2012-03-13,2012-03-13,Unreleased,0
+Palisades Park,Palisades Park,True,1,1,2019-09-05,2019-09-05,Unreleased,0
+Parting Friends,Parting Friends,True,1,1,2012-04-02,2012-04-02,Unreleased,1
+Passaic 1975,Passaic 1975,False,1,1,2024-04-20,2024-04-20,In League with Dragons,0
+Pennsylvania Dutch Treat,Pennsylvania Dutch Treat,False,1,1,1998-04-04,1998-04-04,Unreleased,0
+Personality Crisis,Personality Crisis,True,1,1,2007-11-05,2007-11-05,Unreleased,0
+Pinklon,Pinklon,False,1,1,2007-06-13,2007-06-13,Unreleased,0
+Pirates (So Long Lonely Avenue),Pirates (So Long Lonely Avenue),True,1,1,1996-11-02,1996-11-02,Unreleased,0
+Please Come Home to Hamngatan,Please Come Home to Hamngatan,False,1,1,1998-07-31,1998-07-31,We'll Sail Out Far... Maybe a Little Too Far...,0
+Poker Face,Poker Face,False,1,1,2010-04-14,2010-04-14,Unreleased,0
+Pretty In Pink,Pretty In Pink,False,1,1,2002-03-08,2002-03-08,Unreleased,0
+Prominent Metaphysicians of South Pomona,Prominent Metaphysicians of South Pomona,False,1,1,2017-11-06,2017-11-06,Unreleased,0
+Puffin',Puffin',True,1,1,2017-11-08,2017-11-08,Unreleased,0
+Purple Rain,Purple Rain,True,1,1,2008-08-02,2008-08-02,Unreleased,0
+Quién Como Tú,Quién Como Tú,True,1,1,2008-03-22,2008-03-22,Unreleased,0
+The Cat Came Back,The Cat Came Back,True,1,1,2013-01-20,2013-01-20,Unreleased,0
+The Damned,The Damned,True,1,1,2014-06-27,2014-06-27,Unreleased,0
+The Day the Aliens Came,The Day the Aliens Came,False,1,1,2023-12-13,2023-12-13,"Come, Come to the Sunset Tree",0
+The Great Gold Sheep,The Great Gold Sheep,False,1,1,2020-06-15,2020-06-15,Getting Into Knives,1
+The Great and Terrible George Jones Car Accident of 1999,The Great and Terrible George Jones Car Accident of 1999,False,1,1,2005-03-23,2005-03-23,Unreleased,0
+The Jungle,The Jungle,False,1,1,2009-10-11,2009-10-11,Unreleased,0
+I Hope You Dance,I Hope You Dance,True,1,1,2015-09-10,2015-09-10,Unreleased,0
+"I Love You, Let's Light Ourselves on Fire","I Love You, Let's Light Ourselves on Fire",False,1,1,2009-03-25,2009-03-25,"Hail and Farewell, Gothenburg",0
+I Put a Spell on You,I Put a Spell on You,True,1,1,2004-10-15,2004-10-15,Unreleased,0
+I Rule the Ruins,I Rule the Ruins,True,1,1,2014-06-27,2014-06-27,Unreleased,0
+Improv Song,Improv Song,False,1,1,2009-12-16,2009-12-16,Unreleased,0
 In League With Dragons,In League With Dragons,False,1,1,2019-07-22,2019-07-22,In League with Dragons,0
 In the Craters of the Moon,In the Craters of the Moon,False,1,1,2014-02-26,2014-02-26,Heretic Pride,0
-Going to Tennessee,Going to Tennessee,False,1,1,2008-10-15,2008-10-15,Why You All So Thief?,0
-Going to Spirit Lake,Going to Spirit Lake,False,1,1,1996-03-16,1996-03-16,Unreleased,0
-Leaving Home,Leaving Home,False,1,1,2007-06-17,2007-06-17,Cyanide Guilt Trip,0
-Labrador,Labrador,True,1,1,2012-10-20,2012-10-20,Unreleased,0
-La Tracionera,La Tracionera,False,1,1,1996-01-18,1996-01-18,Unreleased,0
-Korean Bird Paintings,Korean Bird Paintings,False,1,1,2021-04-18,2021-04-18,New Asian Cinema,0
-Know the Way,Know the Way,False,1,1,2001-04-21,2001-04-21,Isopanisad Radio Hour,0
-Kittens in Mittens,Kittens in Mittens,False,1,1,1992-12-06,1992-12-06,Unreleased,0
-John 4:35,John 4:35,False,1,1,1993-03-07,1993-03-07,Unreleased,0
-Going to Niles,Going to Niles,False,1,1,2017-11-17,2017-11-17,Unreleased,0
-Going to Norwalk,Going to Norwalk,False,1,1,2015-05-27,2015-05-27,Hot Garden Stomp,0
-Jam Eater Blues,Jam Eater Blues,False,1,1,2014-04-15,2014-04-15,Jam Eater Blues EP,0
-Jailbreak,Jailbreak,False,1,1,2011-04-01,2011-04-01,Unreleased,0
-Italian Guns,Italian Guns,False,1,1,2014-02-28,2014-02-28,Unreleased,0
-It's Raining Men,It's Raining Men,True,1,1,2011-04-01,2011-04-01,Unreleased,1
 Going to Santiago,Going to Santiago,False,1,1,2014-06-14,2014-06-14,Transmissions to Horace,0
 Going to Some Damned English City,Going to Some Damned English City,False,1,1,1996-01-18,1996-01-18,Unreleased,0
+Going to Spirit Lake,Going to Spirit Lake,False,1,1,1996-03-16,1996-03-16,Unreleased,0
+Your Daddy Loves You,Your Daddy Loves You,False,1,1,2020-02-20,2020-02-20,unreleased,0
+Unknown cover song,Unknown cover song,False,1,1,2008-02-19,2008-02-19,Unreleased,0
+Venus,Venus,False,1,1,2011-07-13,2011-07-13,Unreleased,0
+Wait for You,Wait for You,False,1,1,2017-04-07,2017-04-07,Babylon Springs EP,0
+Water Song II,Water Song II,False,1,1,2016-04-17,2016-04-17,Hot Garden Stomp,0
+We Don't Need the Men,We Don't Need the Men,True,1,1,2016-12-16,2016-12-16,Unreleased,0
+Accentuate the Positive,Accentuate the Positive,True,1,1,2006-10-01,2006-10-01,Unreleased,1
+Never Say Never,Never Say Never,False,1,1,2022-08-25,2022-08-25,Unreleased,0
+New London,New London,False,1,1,2023-12-06,2023-12-06,Unreleased,0
+New Matha,New Matha,False,1,1,1998-10-10,1998-10-10,Unreleased,0
+Nikki Oh Nikki,Nikki Oh Nikki,False,1,1,1999-07-23,1999-07-23,Unreleased,0
+No Surprises,No Surprises,True,1,1,2000-10-19,2000-10-19,Unreleased,0
+Noche del Guajolote,Noche del Guajolote,False,1,1,2015-04-13,2015-04-13,I Like Walt,0
+"Oats, Peas, Beans and Barley Grow","Oats, Peas, Beans and Barley Grow",True,1,1,2015-09-08,2015-09-08,Unreleased,0
 Okie from Muskogee,Okie from Muskogee,True,1,1,2016-05-12,2016-05-12,Unreleased,0
 Omega Blaster,Omega Blaster,False,1,1,2003-04-06,2003-04-06,"Yam, the King of Crops",0
 On a Wall,On a Wall,False,1,1,1992-05-31,1992-05-31,Biographer's Ruse,0
-Christmas in Prison,Christmas in Prison,True,1,1,2006-12-18,2006-12-18,Unreleased,1
-Song for Prince Edward III,Song for Prince Edward III,False,1,1,1996-11-07,1996-11-07,Martial Arts Weekend,0
-Song for My Sons,Song for My Sons,True,1,1,2017-06-02,2017-06-02,Unreleased,0
-Chason du Bon Chose,Chason du Bon Chose,False,1,1,2025-10-03,2025-10-03,Nine Black Poppies EP,0
-Song for Greg Valentine,Song for Greg Valentine,False,1,1,2012-06-27,2012-06-27,Unreleased,1
-Chilean Fire Barrel,Chilean Fire Barrel,False,1,1,1992-12-13,1992-12-13,Unreleased,0
-Sometimes We Mosh,Sometimes We Mosh,False,1,1,2015-04-07,2015-04-07,Unreleased,0
-Something Inside Me Has Died,Something Inside Me Has Died,False,1,1,2008-03-05,2008-03-05,Unreleased,0
-Snake Dance Song,Snake Dance Song,False,1,1,2017-10-12,2017-10-12,Unreleased,0
-For He's a Jolly Good Fellow,For He's a Jolly Good Fellow,True,1,1,2015-10-03,2015-10-03,Unreleased,0
-Smothered/Register/Political Man,Smothered/Register/Political Man,False,1,1,1992-05-31,1992-05-31,Biographer's Ruse,0
-Slip Away from Me,Slip Away from Me,False,1,1,2010-12-14,2010-12-14,Unreleased,0
-Skeleton's Tooth,Skeleton's Tooth,False,1,1,2018-10-24,2018-10-24,unreleased,0
-Con Todo Y Mi Tristeza,Con Todo Y Mi Tristeza,False,1,1,2016-09-01,2016-09-01,Unreleased,0
-"Shot, Repeatedly, At Close Range, In the Chest, By Your Love","Shot, Repeatedly, At Close Range, In the Chest, By Your Love",False,1,1,2021-09-09,2021-09-09,Unreleased,0
-Short Song for Justin Bieber and His Paparazzi,Short Song for Justin Bieber and His Paparazzi,False,1,1,2016-04-13,2016-04-13,Unreleased,0
-Shield My Eyes Against the Glare,Shield My Eyes Against the Glare,False,1,1,2010-12-14,2010-12-14,Unreleased,0
-Song for Ted Sallis,Song for Ted Sallis,False,1,1,2020-02-21,2020-02-21,Hex of Infinite Binding EP,0
-Charlie Brown,Charlie Brown,True,1,1,2019-03-14,2019-03-14,Unreleased,1
-Catherine Antrim’s Kid,Catherine Antrim’s Kid,False,1,1,2013-01-25,2013-01-25,All Survivors Pack,0
-Cathedral Song,Cathedral Song,True,1,1,1996-03-16,1996-03-16,Unreleased,0
-Brave,Brave,True,1,1,1995-04-19,1995-04-19,Stroke - Songs for Chris Knox,0
-Tallahasee,Tallahasee,False,1,1,2021-08-10,2021-08-10,Tallahassee,0
-Take A Letter Maria,Take A Letter Maria,True,1,1,1997-11-14,1997-11-14,Unreleased,0
-Superman,Superman,True,1,1,2016-04-19,2016-04-19,Unreleased,0
-Brilliant Disguise,Brilliant Disguise,True,1,1,1995-09-21,1995-09-21,Unreleased,0
-"Sugar, We're Going Down","Sugar, We're Going Down",True,1,1,2018-04-20,2018-04-20,unreleased,2
-Suffragette City,Suffragette City,True,1,1,2012-04-19,2012-04-19,Unreleased,0
-Stuck in Time,Stuck in Time,False,1,1,2010-12-14,2010-12-14,Unreleased,0
-Straight Six,Straight Six,False,1,1,2015-06-01,2015-06-01,Jam Eater Blues (EP),0
-Standard Bitter Love Song Number 6,Standard Bitter Love Song Number 6,False,1,1,1992-12-06,1992-12-06,Unreleased,0
-Standard Bitter Love Song Number 5,Standard Bitter Love Song Number 5,False,1,1,1992-07-22,1992-07-22,Unreleased,0
-Stable Boy Song,Stable Boy Song,False,1,1,2024-12-13,2024-12-13,Unreleased,0
-Cao Dai Blowout,Cao Dai Blowout,False,1,1,2007-06-17,2007-06-17,New Asian Cinema,0
-Spellbound,Spellbound,True,1,1,2014-06-27,2014-06-27,Unreleased,1
-Cars Song in C,Cars Song in C,False,1,1,2016-05-12,2016-05-12,Unreleased,0
-Crane,Crane,False,1,1,2010-12-14,2010-12-14,"Hail and Farewell, Gothenburg",0
-Crazy On You,Crazy On You,True,1,1,2017-05-31,2017-05-31,Unreleased,1
-Crazy Train,Crazy Train,True,1,1,2011-11-18,2011-11-18,Unreleased,1
-Pirates (So Long Lonely Avenue),Pirates (So Long Lonely Avenue),True,1,1,1996-11-02,1996-11-02,Unreleased,0
-Etruscans,Etruscans,False,1,1,2021-09-18,2021-09-18,Our First 100 Days,0
-Personality Crisis,Personality Crisis,True,1,1,2007-11-05,2007-11-05,Unreleased,0
-Pennsylvania Dutch Treat,Pennsylvania Dutch Treat,False,1,1,1998-04-04,1998-04-04,Unreleased,0
-Everyday People,Everyday People,True,1,1,2012-04-19,2012-04-19,Unreleased,0
-Passaic 1975,Passaic 1975,False,1,1,2024-04-20,2024-04-20,In League with Dragons,0
-Parting Friends,Parting Friends,True,1,1,2012-04-02,2012-04-02,Unreleased,1
-Palisades Park,Palisades Park,True,1,1,2019-09-05,2019-09-05,Unreleased,0
-Paint It Black,Paint It Black,True,1,1,2012-03-13,2012-03-13,Unreleased,0
-Extreme South Number 1,Extreme South Number 1,False,1,1,2025-09-28,2025-09-28,Unreleased,0
-Original Air-Blue Gown,Original Air-Blue Gown,False,1,1,2021-08-25,2021-08-25,Full Force Galesburg,1
-Five O'Clock,Five O'Clock,True,1,1,2007-12-09,2007-12-09,Unreleased,1
-Flashing Lights,Flashing Lights,False,1,1,2016-04-13,2016-04-13,Sweden,0
-Folsom Prison Blues,Folsom Prison Blues,False,1,1,2008-12-13,2008-12-13,Unreleased,0
-One Winter at Point Alpha Privative,One Winter at Point Alpha Privative,False,1,1,2014-06-15,2014-06-15,Taboo VI: The Homecoming,0
 One Morning in Northern Italy,One Morning in Northern Italy,False,1,1,1992-12-12,1992-12-12,Unreleased,0
-Pinklon,Pinklon,False,1,1,2007-06-13,2007-06-13,Unreleased,0
-Please Come Home to Hamngatan,Please Come Home to Hamngatan,False,1,1,1998-07-31,1998-07-31,We'll Sail Out Far... Maybe a Little Too Far...,0
-Cut Your Hair,Cut Your Hair,True,1,1,1995-01-15,1995-01-15,Unreleased,0
-Poker Face,Poker Face,False,1,1,2010-04-14,2010-04-14,Unreleased,0
-Satanic Messiah (Song),Satanic Messiah (Song),False,1,1,2018-05-27,2018-05-27,Satanic Messiah EP,0
-Run Run Rudolph,Run Run Rudolph,True,1,1,2006-12-18,2006-12-18,Unreleased,1
-Dirty Old Town,Dirty Old Town,True,1,1,2024-03-20,2024-03-20,Devil in the Shortwave,0
-Rock and Roll All Night,Rock and Roll All Night,False,1,1,2017-09-06,2017-09-06,Unreleased,0
-Rivers of Babylon,Rivers of Babylon,False,1,1,2005-10-14,2005-10-14,Babylon Springs EP,0
-Ribdate,Ribdate,False,1,1,1992-05-31,1992-05-31,Biographer's Ruse,0
-Reel Around the Fountain,Reel Around the Fountain,True,1,1,1997-12-06,1997-12-06,Unreleased,0
-Don't Take the Dogs Away,Don't Take the Dogs Away,False,1,1,2014-06-15,2014-06-15,Taboo VI: The Homecoming,0
-Radical Evil Song,Radical Evil Song,False,1,1,2022-05-08,2022-05-08,unreleased,1
-Quién Como Tú,Quién Como Tú,True,1,1,2008-03-22,2008-03-22,Unreleased,0
-Purple Rain,Purple Rain,True,1,1,2008-08-02,2008-08-02,Unreleased,0
-Down to the Ark,Down to the Ark,False,1,1,2008-02-02,2008-02-02,Unreleased,0
-Puffin',Puffin',True,1,1,2017-11-08,2017-11-08,Unreleased,0
-Prominent Metaphysicians of South Pomona,Prominent Metaphysicians of South Pomona,False,1,1,2017-11-06,2017-11-06,Unreleased,0
-Pretty In Pink,Pretty In Pink,False,1,1,2002-03-08,2002-03-08,Unreleased,0
-Your Daddy Loves You,Your Daddy Loves You,False,1,1,2020-02-20,2020-02-20,unreleased,0
+One Winter at Point Alpha Privative,One Winter at Point Alpha Privative,False,1,1,2014-06-15,2014-06-15,Taboo VI: The Homecoming,0
+Folsom Prison Blues,Folsom Prison Blues,False,1,1,2008-12-13,2008-12-13,Unreleased,0
+For He's a Jolly Good Fellow,For He's a Jolly Good Fellow,True,1,1,2015-10-03,2015-10-03,Unreleased,0
+For the Snakes,For the Snakes,False,1,1,2021-09-08,2021-09-08,Songs for Pierre Chuvin,0
+François Mitterrand,François Mitterrand,True,1,1,1996-03-21,1996-03-21,Gatherings,0
+Free Fallin',Free Fallin',True,1,1,2009-04-02,2009-04-02,Unreleased,0
+Freebird,Freebird,False,1,1,2009-10-11,2009-10-11,Unreleased,0
+The Last Place I Saw You Alive,The Last Place I Saw You Alive,False,1,1,2021-04-18,2021-04-18,Getting Into Knives,0
+Hospital Reaction Shot,Hospital Reaction Shot,False,1,1,2021-09-07,2021-09-07,Hex of Infinite Binding EP,0
+I Am Morris Townsend,I Am Morris Townsend,True,1,1,2006-08-10,2006-08-10,Redux,0
+Brave,Brave,True,1,1,1995-04-19,1995-04-19,Stroke - Songs for Chris Knox,0
+Brilliant Disguise,Brilliant Disguise,True,1,1,1995-09-21,1995-09-21,Unreleased,0
+Whon,Whon,False,1,1,2009-06-13,2009-06-13,Unreleased,0
+These Days,These Days,True,1,1,2014-06-27,2014-06-27,Unreleased,0
+This Is Heaven,This Is Heaven,True,1,1,2023-02-18,2023-02-18,Unreleased,0
+This Is My Father's World,This Is My Father's World,True,1,1,2015-09-12,2015-09-12,Unreleased,0
+Those Treasures Will Never Befall You,Those Treasures Will Never Befall You,True,1,1,2012-09-07,2012-09-07,,0
+Tomb of the Assassin,Tomb of the Assassin,False,1,1,2023-04-01,2023-04-01,Unreleased,0
+Trying to Remember the Video with Lita Ford,Trying to Remember the Video with Lita Ford,False,1,1,2014-01-19,2014-01-19,Unreleased,0
+Tug on the Line,Tug on the Line,False,1,1,2010-10-23,2010-10-23,Undercard,0
+Werewolves of London,Werewolves of London,False,1,1,2015-10-09,2015-10-09,Unreleased,0
+What Have You Done to the Magician?,What Have You Done to the Magician?,False,1,1,2021-09-09,2021-09-09,Unreleased,0
+40 Hours,40 Hours,True,1,1,2012-04-19,2012-04-19,Unreleased,0
+Young and Endangered,Young and Endangered,False,1,1,2019-05-09,2019-05-09,unreleased,2
+2/3 Jim's Head,2/3 Jim's Head,True,1,1,2003-09-27,2003-09-27,Unreleased,0
+15-2,15-2,False,1,1,1992-10-01,1992-10-01,Unreleased,0
+25,25,False,1,1,1993-03-07,1993-03-07,Unreleased,0
+Uncle John's Band,Uncle John's Band,True,1,1,2014-01-19,2014-01-19,Unreleased,0
