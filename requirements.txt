@@ -2,6 +2,7 @@ requests>=2.32
 beautifulsoup4>=4.14
 pandas>=2.3
 numpy>=1.26
+scipy>=1.17
 scikit-learn>=1.9
 plotly>=6.9
 kaleido>=1.3

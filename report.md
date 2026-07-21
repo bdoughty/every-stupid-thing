@@ -313,6 +313,65 @@ surprising *small* towns (Watkins Glen NY, Pittsboro NC) fall outside the
 geocoding database's coverage and are correctly absent from the map (they
 still appear in the ranked CSVs, just without a pin).
 
+### Where in the set does a song land?
+
+Two related but distinct questions, both descriptive (neither feeds the
+prediction model — encore/position status isn't known before a show
+happens, it's an outcome, not a pre-show predictor): how often is a song
+saved for the encore, and how far into the whole night does it typically
+land. Both draw on `seq`, each performance's position in the *full*
+running order — it counts straight through encores rather than resetting
+at 1 — but they're not the same measurement, and they're computed over
+different subsets of the data.
+
+**Encore rate** is restricted to the 429 (of 1,317) shows whose Notes
+prose actually spells out the encore breakout ("the encore was songs 19
+through 23") — most shows' notes don't say, so an unrestricted average
+would be diluted by shows where the split is simply unknown, not shows
+without an encore. Within that subset, each song's rate
+(`n_encore / (n_main + n_encore)`) is empirical-Bayes shrunk toward the
+global rate — 21.6% of tracked plays are encore songs — the same
+`shrunk = (n·raw + k·prior) / (n + k)`, k = 8 pattern used everywhere else
+in this project, and restricted to songs with at least 10 tracked plays
+(fewer than that, a 0-for-6 run is just as likely to be noise as a real
+pattern). **Spent Gladiator 2** tops the list (89% — main-set exactly
+once in 60 tracked plays), followed by **No Children** (81%, the classic
+closer) and **This Year** (63%). At the other extreme, **Moon Over
+Goldsboro**, **Clemency for the Wizard King**, and **Andrew Eldritch Is
+Moving Back to Leeds** have never once been recorded as an encore in
+50+ tracked plays each, landing around 2% shrunk (not 0% — a handful of
+prior pseudo-plays keeps every estimate honest about how little "zero
+encores so far" really proves).
+
+**Set position** is broader: defined for *any* performance where the
+show's full length is known (`n_songs > 1`), not just the encore-tracked
+subset, as `(seq − 1) / (n_songs − 1)` — 0 = opener, 1 = closer, with
+encores naturally landing near 1 since they're the last songs played.
+Same shrinkage, toward a 0.50 global mean. It lines up with encore rate
+where you'd expect (No Children averages 0.89; This Year, 0.86) but
+isn't redundant with it — a song can lean very late in the set without
+technically ever being *the* encore (Spent Gladiator 2 averages later
+still, at 0.90; **The Best Ever Death Metal Band in Denton**, **Houseguest**,
+and **California Song** all land in the top 10 latest-leaning songs
+without cracking the encore-rate list at all). At the other end,
+**Younger** — 3% encore rate, 0.21 average position — is about as
+reliable an opener as this catalog has. The two rankings disagree at the
+margins mostly because they're built from different subsets at different
+sample sizes: position draws on every show with a known length (Younger's
+estimate uses 130 plays), encore rate only the smaller, stricter
+encore-tracked subset (115 main-set + 2 encore = 117).
+
+Because a bare average can hide a song that's genuinely bimodal — say, a
+song that's sometimes the opener and sometimes a late surprise, never
+really "mid-set" — the webapp's Song Explorer also shows a KDE density
+curve (Gaussian KDE, boundary-corrected by reflecting the data across 0
+and 1 before fitting, since a plain KDE badly underestimates density
+right at the edges — exactly where openers and closers pile up) above
+the position marker, for any song with at least 20 position-eligible
+plays. Full numbers in
+[analysis/encore_stats.csv](analysis/encore_stats.csv) and
+[analysis/set_position.csv](analysis/set_position.csv).
+
 ## Caveats
 
 - The wiki is fan-maintained and lists *most*, not all, shows — coverage is
@@ -339,6 +398,11 @@ still appear in the ranked CSVs, just without a pin).
   optimum — chosen deliberately conservative (favoring real, tight scenes
   like Boston/Cambridge over aggressive regional pooling) rather than
   tuned against any ground truth of what counts as "the same scene."
+- Encore rate only "sees" the 429 shows whose Notes explicitly spell out
+  the breakout — a song that's *always* played in an encore, but only at
+  shows where nobody bothered to note that, would be invisible to this
+  measure entirely (it'd just have zero tracked plays and stay ineligible,
+  not get scored as 0%).
 
 ## Reproducing this
 

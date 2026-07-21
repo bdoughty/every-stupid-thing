@@ -194,6 +194,8 @@
   .chart-wrap { margin: 20px 0 26px; }
   .chart-caption { color: var(--ink-faint); font-size: 12px; margin-top: 6px; }
   .position-card { margin: -6px 0 26px; }
+  svg.pos-density { display: block; margin: 0 2px -2px; }
+  svg.pos-density path { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.5; stroke-linejoin: round; }
   .position-track { position: relative; height: 6px; border-radius: 3px; background: var(--rule); margin: 4px 2px; }
   .position-marker {
     position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%;
@@ -529,6 +531,17 @@
     return `<svg class="traj" viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="xMidYMid meet">${gridY}${xAxis}${lines}${dot}</svg>`;
   }
 
+  function buildPositionDensitySVG(density) {
+    if (!density || density.length < 2) return null;
+    const maxD = Math.max(...density);
+    if (!(maxD > 0)) return null;
+    const W = 300, H = 34;
+    const pts = density.map((d, i) => [(i / (density.length - 1)) * W, H - (d / maxD) * H]);
+    const top = pts.map(p => p.join(",")).join(" L");
+    const path = `M${pts[0].join(",")} L${top} L${W},${H} L0,${H} Z`;
+    return `<svg class="pos-density" viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="none"><path d="${path}"/></svg>`;
+  }
+
   function selectSong(key) {
     const song = songByKey.get(key);
     if (!song) return;
@@ -557,8 +570,10 @@
 
     if (song.set_position !== undefined) {
       const pct = song.set_position * 100;
+      const densitySvg = buildPositionDensitySVG(song.set_position_density);
       html += `<div class="card position-card">
         <p class="chart-caption" style="margin:0 0 10px;">Typical spot in the running order, empirical-Bayes shrunk (from ${song.set_position_n} plays where the show's full length is known; encores count toward the end, same as the rest of the set).</p>
+        ${densitySvg || ""}
         <div class="position-track">
           <div class="position-marker" style="left:${pct.toFixed(1)}%;" title="${pct.toFixed(0)}% of the way through the show"></div>
         </div>

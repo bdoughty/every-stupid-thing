@@ -14,6 +14,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from scipy.stats import gaussian_kde
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "analysis"
@@ -115,6 +116,20 @@ def encore_stats(perfs):
 
 POSITION_SHRINKAGE_K = 8  # pseudo-plays, empirical-Bayes toward the global mean position
 MIN_PLAYS_FOR_POSITION_RANK = 5
+POSITION_DENSITY_MIN_PLAYS = 20  # need real sample size before a KDE means anything
+POSITION_DENSITY_POINTS = 41  # grid resolution for the exported density curve
+
+
+def _position_density(positions, grid):
+    """Gaussian KDE of a song's position samples, boundary-corrected by
+    reflecting the data across 0 and 1 before fitting (plain KDE badly
+    underestimates density right at the edges -- exactly where openers and
+    closers pile up) and renormalized so it integrates to 1 over [0, 1].
+    """
+    positions = np.asarray(positions, dtype=float)
+    reflected = np.concatenate([positions, -positions, 2 - positions])
+    density = gaussian_kde(reflected)(grid)
+    return density / np.trapz(density, grid)
 
 
 def set_position_stats(shows, perfs):
@@ -123,6 +138,11 @@ def set_position_stats(shows, perfs):
     within that show's *full* running order (encores included -- seq counts
     straight through them, same as encore_stats() above relies on). Shows
     with only one song are excluded, since position is undefined there.
+
+    Also attaches a KDE `density` (pipe-separated floats, POSITION_DENSITY_POINTS
+    points evenly spaced over [0, 1]) for songs with enough samples -- a mean
+    alone hides whether a song is consistently mid-set or bimodal (say, a
+    frequent opener that's also sometimes the encore).
     """
     eligible_shows = shows.loc[shows.n_songs > 1, ["show_id", "n_songs"]]
     p = perfs.merge(eligible_shows, on="show_id", how="inner")
@@ -143,6 +163,16 @@ def set_position_stats(shows, perfs):
         stats["n_plays"] * stats["mean_position"] + k * global_mean
     ) / (stats["n_plays"] + k)
     stats["eligible"] = stats["n_plays"] >= MIN_PLAYS_FOR_POSITION_RANK
+
+    grid = np.linspace(0, 1, POSITION_DENSITY_POINTS)
+    density_by_key = {
+        key: _position_density(sub.values, grid)
+        for key, sub in p.groupby("song_key")["position"]
+        if len(sub) >= POSITION_DENSITY_MIN_PLAYS
+    }
+    stats["density"] = stats["song_key"].map(
+        lambda k: "|".join(f"{v:.3f}" for v in density_by_key[k]) if k in density_by_key else None
+    )
     return stats.sort_values("n_plays", ascending=False), global_mean
 
 

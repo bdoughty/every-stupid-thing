@@ -93,6 +93,16 @@ def main():
                 {
                     "set_position": round(float(position.loc[r.song_key, "shrunk_position"]), 3),
                     "set_position_n": int(position.loc[r.song_key, "n_plays"]),
+                    **(
+                        {
+                            "set_position_density": [
+                                round(float(v), 3)
+                                for v in position.loc[r.song_key, "density"].split("|")
+                            ]
+                        }
+                        if pd.notna(position.loc[r.song_key, "density"])
+                        else {}
+                    ),
                 }
                 if r.song_key in position.index and bool(position.loc[r.song_key, "eligible"])
                 else {}

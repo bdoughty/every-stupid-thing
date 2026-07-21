@@ -283,6 +283,37 @@ def build():
       "&rarr; Toronto) by guessing &ldquo;the biggest city in the state&rdquo;; fixed to "
       "exact-match-only, honest coverage 91.6% of setlisted shows.", "caption")
 
+    P("Where in the set does a song land?", "h3")
+    P("Two related but distinct questions, both descriptive &mdash; neither feeds the "
+      "prediction model, since encore/position status isn't known before a show happens. "
+      "Encore rate is restricted to the 429 (of 1,317) shows whose Notes prose actually "
+      "spells out the encore breakout &mdash; most don't say, so an unrestricted average "
+      "would be diluted by shows where the split is simply unknown, not shows without an "
+      "encore. Within that subset, each song's rate is empirical-Bayes shrunk toward the "
+      "global rate (21.6% of tracked plays are encore songs), restricted to songs with at "
+      "least 10 tracked plays. Spent Gladiator 2 tops the list (89% &mdash; main-set exactly "
+      "once in 60 tracked plays), followed by No Children (81%, the classic closer) and This "
+      "Year (63%). At the other extreme, Moon Over Goldsboro, Clemency for the Wizard King, "
+      "and Andrew Eldritch Is Moving Back to Leeds have never once been recorded as an "
+      "encore in 50+ tracked plays each, landing around 2% shrunk rather than 0% &mdash; a "
+      "handful of prior pseudo-plays keeps every estimate honest about how little &ldquo;zero "
+      "encores so far&rdquo; really proves.")
+    P("Set position is broader: defined for any performance where the show's full length is "
+      "known, not just the encore-tracked subset, as (seq&minus;1)/(n_songs&minus;1) &mdash; "
+      "0 = opener, 1 = closer, with encores naturally landing near 1. Same shrinkage, toward "
+      "a 0.50 global mean. It lines up with encore rate where you'd expect (No Children "
+      "averages 0.89; This Year, 0.86) but isn't redundant with it &mdash; a song can lean "
+      "very late in the set without technically ever being the encore (The Best Ever Death "
+      "Metal Band in Denton and Houseguest both land in the top 10 latest-leaning songs "
+      "without cracking the encore-rate list at all). At the other end, Younger &mdash; 3% "
+      "encore rate, 0.21 average position &mdash; is about as reliable an opener as this "
+      "catalog has. The webapp's Song Explorer also shows a KDE density curve (boundary-"
+      "corrected by reflecting the data across 0 and 1 before fitting, since a plain KDE "
+      "badly underestimates density right at the edges) above the position marker, for any "
+      "song with at least 20 position-eligible plays &mdash; useful for catching a song "
+      "that's genuinely bimodal (sometimes an opener, sometimes a late surprise) rather than "
+      "reliably mid-set.", "caption")
+
     P("Caveats", "h2")
     S.append(bullets([
         "The wiki is fan-maintained and lists most, not all, shows &mdash; coverage is "
@@ -300,6 +331,9 @@ def build():
         "most cities (median 2 shows) &mdash; that's exactly what the shrinkage is for.",
         "The 25km metro-clustering radius is a judgment call, not a principled optimum "
         "&mdash; chosen deliberately conservative rather than tuned against ground truth.",
+        "Encore rate only &ldquo;sees&rdquo; the 429 shows whose Notes explicitly spell out "
+        "the breakout &mdash; a song that's always encored, but only at shows where nobody "
+        "noted that, would be invisible to this measure entirely, not scored as 0%.",
     ]))
 
     P("Reproducing this", "h2")
