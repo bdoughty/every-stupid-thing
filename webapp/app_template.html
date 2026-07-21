@@ -561,7 +561,7 @@
       <div class="stat"><div class="n mono">${fmtDateShort(song.first)}</div><div class="label">first played</div></div>
       <div class="stat"><div class="n mono">${fmtDateShort(song.last)}</div><div class="label">last played</div></div>
       <div class="stat"><div class="n mono">${song.videos}</div><div class="label">videos linked</div></div>
-      ${song.encore_rate !== undefined ? `<div class="stat" title="Empirical-Bayes shrunk, from the ${song.n_main + song.n_encore} times this song was played in a show with a known encore breakout"><div class="n mono">${(song.encore_rate * 100).toFixed(0)}%</div><div class="label">encore rate</div></div>` : ""}
+      ${song.encore_rate !== undefined ? `<div class="stat" title="${song.n_encore} of ${song.n_main + song.n_encore} times this song was played in a show with a known encore breakout"><div class="n mono">${(song.encore_rate * 100).toFixed(0)}%</div><div class="label">encore rate</div></div>` : ""}
     </div>`;
 
     if (svg) {

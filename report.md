@@ -339,9 +339,11 @@ once in 60 tracked plays), followed by **No Children** (81%, the classic
 closer) and **This Year** (63%). At the other extreme, **Moon Over
 Goldsboro**, **Clemency for the Wizard King**, and **Andrew Eldritch Is
 Moving Back to Leeds** have never once been recorded as an encore in
-50+ tracked plays each, landing around 2% shrunk (not 0% — a handful of
-prior pseudo-plays keeps every estimate honest about how little "zero
-encores so far" really proves).
+50+ tracked plays each — genuinely 0%, and that's what the webapp shows;
+the shrunk estimate (landing around 2%, not quite 0) exists only to
+*order* the ranking sensibly (so a song with a real 50+-play track record
+of never encoring outranks one that's merely 0-for-6), not to relabel a
+real, clean 0% as something else.
 
 **Set position** is broader: defined for *any* performance where the
 show's full length is known (`n_songs > 1`), not just the encore-tracked

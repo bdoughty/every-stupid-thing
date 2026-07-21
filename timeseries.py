@@ -54,6 +54,20 @@ def rolling_rates(show_dates, song_dates_by_key, grid, window_days, min_opportun
     return out, denom
 
 
+def _with_asof_point(grid, asof):
+    """Append the most recent show date to a quarter/month grid, if it's
+    later than the grid's own last point -- otherwise a brand-new song's
+    trailing rate is stuck at 0% until the *next* calendar quarter/month
+    boundary rolls around, even though "as of the last show" it's already
+    nonzero (e.g. a song that debuted two weeks ago, played several times
+    since: genuinely 0% as of the last quarter-start, which predates it,
+    but that's a stale snapshot, not today's actual rate).
+    """
+    if grid[-1] < asof:
+        return np.append(grid, asof)
+    return grid
+
+
 def main():
     shows, perfs = load()
     show_dates = shows.date.values.astype("datetime64[D]")
@@ -66,7 +80,9 @@ def main():
     }
     print(f"{len(song_dates_by_key)} songs with >={MIN_TOTAL_PLAYS} plays (of {perfs.song_key.nunique()} total)")
 
+    asof = show_dates.max()
     monthly_grid = pd.date_range(shows.date.min(), shows.date.max(), freq="MS").values.astype("datetime64[D]")
+    monthly_grid = _with_asof_point(monthly_grid, asof)
     rates, denom = rolling_rates(show_dates, song_dates_by_key, monthly_grid, WINDOW_DAYS, MIN_OPPORTUNITIES)
 
     long_rows = []
@@ -80,6 +96,7 @@ def main():
 
     # --- compact quarterly version for the webapp (smaller payload) ---
     quarterly_grid = pd.date_range(shows.date.min(), shows.date.max(), freq="QS").values.astype("datetime64[D]")
+    quarterly_grid = _with_asof_point(quarterly_grid, asof)
     rates_q, _ = rolling_rates(show_dates, song_dates_by_key, quarterly_grid, WINDOW_DAYS, MIN_OPPORTUNITIES)
     compact_rows = []
     for key, rate in rates_q.items():

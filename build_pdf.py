@@ -295,9 +295,9 @@ def build():
       "once in 60 tracked plays), followed by No Children (81%, the classic closer) and This "
       "Year (63%). At the other extreme, Moon Over Goldsboro, Clemency for the Wizard King, "
       "and Andrew Eldritch Is Moving Back to Leeds have never once been recorded as an "
-      "encore in 50+ tracked plays each, landing around 2% shrunk rather than 0% &mdash; a "
-      "handful of prior pseudo-plays keeps every estimate honest about how little &ldquo;zero "
-      "encores so far&rdquo; really proves.")
+      "encore in 50+ tracked plays each &mdash; genuinely 0%, and that's what the webapp "
+      "shows; the shrunk estimate (around 2%, not quite 0) exists only to order the ranking "
+      "sensibly, not to relabel a real, clean 0% as something else.")
     P("Set position is broader: defined for any performance where the show's full length is "
       "known, not just the encore-tracked subset, as (seq&minus;1)/(n_songs&minus;1) &mdash; "
       "0 = opener, 1 = closer, with encores naturally landing near 1. Same shrinkage, toward "

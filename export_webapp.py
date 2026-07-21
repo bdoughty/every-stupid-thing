@@ -84,7 +84,7 @@ def main():
                 {
                     "n_main": int(encore.loc[r.song_key, "n_main"]),
                     "n_encore": int(encore.loc[r.song_key, "n_encore"]),
-                    "encore_rate": round(float(encore.loc[r.song_key, "encore_rate_shrunk"]), 3),
+                    "encore_rate": round(float(encore.loc[r.song_key, "encore_rate"]), 3),
                 }
                 if r.song_key in encore.index and bool(encore.loc[r.song_key, "eligible"])
                 else {}
@@ -182,20 +182,24 @@ def main():
     # Both lists sort by the same shrunk encore_rate, from opposite ends --
     # NOT by raw n_main count, which just re-ranks "most played overall"
     # (a song can be enormously popular and still mostly an encore closer)
-    # and would let the same song show up "staple" in both directions.
+    # and would let the same song show up "staple" in both directions. The
+    # DISPLAYED rate, though, is the raw (unshrunk) one -- with the min-10
+    # eligibility filter already screening out the worst small-sample noise,
+    # showing e.g. "2%" next to a literal 0/100 record (from the pseudocount
+    # pulling it slightly toward the global mean) just reads as wrong.
     encore_elig = encore.reset_index()
     encore_elig = encore_elig[encore_elig.eligible]
     main_set_staples = [
         {
             "key": r.song_key, "title": r.song_title, "n_main": int(r.n_main), "n_encore": int(r.n_encore),
-            "rate": round(float(r.encore_rate_shrunk), 3),
+            "rate": round(float(r.encore_rate), 3),
         }
         for r in encore_elig.sort_values("encore_rate_shrunk", ascending=True).head(15).itertuples()
     ]
     encore_leaders = [
         {
             "key": r.song_key, "title": r.song_title, "n_main": int(r.n_main), "n_encore": int(r.n_encore),
-            "rate": round(float(r.encore_rate_shrunk), 3),
+            "rate": round(float(r.encore_rate), 3),
         }
         for r in encore_elig.sort_values("encore_rate_shrunk", ascending=False).head(15).itertuples()
     ]
