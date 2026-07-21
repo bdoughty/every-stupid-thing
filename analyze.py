@@ -120,6 +120,9 @@ POSITION_DENSITY_MIN_PLAYS = 20  # need real sample size before a KDE means anyt
 POSITION_DENSITY_POINTS = 41  # grid resolution for the exported density curve
 
 
+_trapz = getattr(np, "trapezoid", None) or np.trapz  # trapz->trapezoid renamed in numpy 2.0
+
+
 def _position_density(positions, grid):
     """Gaussian KDE of a song's position samples, boundary-corrected by
     reflecting the data across 0 and 1 before fitting (plain KDE badly
@@ -129,7 +132,7 @@ def _position_density(positions, grid):
     positions = np.asarray(positions, dtype=float)
     reflected = np.concatenate([positions, -positions, 2 - positions])
     density = gaussian_kde(reflected)(grid)
-    return density / np.trapz(density, grid)
+    return density / _trapz(density, grid)
 
 
 def set_position_stats(shows, perfs):
