@@ -22,7 +22,7 @@ Ardmore,PA,3,40.0068,-75.2855,Ardmore,manual_override
 Asbury Park,NJ,2,40.22039,-74.01208,Asbury Park,us_state
 Asheville,NC,12,35.60095,-82.55402,Asheville,us_state
 Aspen,CO,1,39.1911,-106.8175,Aspen,manual_override
-Athens,GA,7,33.96095,-83.37794,Athens,us_state
+Athens,GA,8,33.96095,-83.37794,Athens,us_state
 Athens,OH,1,39.32924,-82.10126,Athens,us_state
 Atlanta,GA,13,33.749,-84.38798,Atlanta,us_state
 Atlantic City,NJ,1,39.36415,-74.42306,Atlantic City,us_state
@@ -67,7 +67,7 @@ Champaign,IL,2,40.11642,-88.24338,Champaign,us_state
 Chapel Hill,NC,2,35.9132,-79.05584,Chapel Hill,us_state
 Charleston,SC,2,32.77632,-79.93275,Charleston,us_state
 Charleston,WV,1,38.34982,-81.63262,Charleston,us_state
-Charlotte,NC,5,35.22709,-80.84313,Charlotte,us_state
+Charlotte,NC,6,35.22709,-80.84313,Charlotte,us_state
 Charlottesville,VA,6,38.02931,-78.47668,Charlottesville,us_state
 Chattanooga,TN,2,35.04563,-85.30968,Chattanooga,us_state
 Chautauqua,NY,1,42.2098,-79.4668,Chautauqua,manual_override
@@ -169,7 +169,7 @@ Las Vegas,NV,2,36.17497,-115.13722,Las Vegas,us_state
 Lawrence,KS,7,38.97167,-95.23525,Lawrence,us_state
 Leeds,England,9,53.79648,-1.54785,Leeds,country
 Lewiston,NY,1,43.1726,-79.0359,Lewiston,manual_override
-Lexington,KY,2,37.98869,-84.47772,Lexington,us_state
+Lexington,KY,3,37.98869,-84.47772,Lexington,us_state
 Lincoln,NE,1,40.8,-96.66696,Lincoln,us_state
 Linköping,Sweden,1,58.41086,15.62157,Linköping,country
 Lisbon,Portugal,1,38.72509,-9.1498,Lisbon,country
