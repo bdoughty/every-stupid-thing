@@ -37,6 +37,7 @@ Barcelona,Spain,3,41.38879,2.15899,Barcelona,country
 Baton Rouge,LA,3,30.44332,-91.18747,Baton Rouge,us_state
 Bend,OR,1,44.05817,-121.31531,Bend,us_state
 Berlin,Germany,3,52.52437,13.41053,Berlin,country
+Berwyn,IL,1,41.85059,-87.79367,Berwyn,us_state
 Bethlehem,PA,1,40.62593,-75.37046,Bethlehem,us_state
 Białystok,Poland,1,53.13333,23.16433,Białystok,country
 Billings,MT,1,45.78329,-108.50069,Billings,us_state
@@ -65,7 +66,7 @@ Carrboro,NC,22,35.91014,-79.07529,Carrboro,us_state
 Cary,NC,1,35.79154,-78.78112,Cary,us_state
 Champaign,IL,2,40.11642,-88.24338,Champaign,us_state
 Chapel Hill,NC,2,35.9132,-79.05584,Chapel Hill,us_state
-Charleston,SC,2,32.77632,-79.93275,Charleston,us_state
+Charleston,SC,3,32.77632,-79.93275,Charleston,us_state
 Charleston,WV,1,38.34982,-81.63262,Charleston,us_state
 Charlotte,NC,6,35.22709,-80.84313,Charlotte,us_state
 Charlottesville,VA,6,38.02931,-78.47668,Charlottesville,us_state
@@ -121,8 +122,8 @@ George,WA,1,47.079,-119.8559,George,manual_override
 Ghent,Belgium,1,51.05,3.7304,Ghent,manual_override
 Gilford,NH,1,43.5775,-71.4006,Gilford,manual_override
 Glasgow,Scotland,7,55.86515,-4.25763,Glasgow,country
-Gothenberg,Sweden,1,57.70716,11.96679,Göteborg,country
-Gothenburg,Sweden,3,57.70716,11.96679,Göteborg,country
+Gothenberg,Sweden,1,57.70716,11.96679,Gothenburg,country
+Gothenburg,Sweden,3,57.70716,11.96679,Gothenburg,country
 Graham,NC,4,36.068,-79.4004,Graham,manual_override
 Grand Rapids,MI,4,42.96336,-85.66809,Grand Rapids,us_state
 Green Bay,WI,1,44.51916,-88.01983,Green Bay,us_state
@@ -160,7 +161,7 @@ Jersey City,NJ,4,40.72816,-74.07764,Jersey City,us_state
 Kalamazoo,MI,4,42.29171,-85.58723,Kalamazoo,us_state
 Kansas City,MO,3,39.09973,-94.57857,Kansas City,us_state
 Katoomba,Australia,1,-33.7124,150.3118,Katoomba,manual_override
-Katowice,Poland,1,50.25841,19.02754,Katowice,country
+Katowice,Poland,1,50.2597,19.02173,Katowice,country
 Knoxville,TN,5,35.96064,-83.92074,Knoxville,us_state
 Kontich,Belgium,1,51.13213,4.44706,Kontich,country
 Lancaster,PA,1,40.03788,-76.30551,Lancaster,us_state
@@ -194,12 +195,13 @@ Meredith,Australia,1,-37.8456,144.0768,Meredith,manual_override
 Millersville,PA,1,39.9979,-76.3541,Millersville,manual_override
 Millvale,PA,6,40.4801,-79.9784,Millvale,manual_override
 Milton,DE,1,38.7776,-75.3099,Milton,manual_override
-Milwaukee,WI,7,43.0389,-87.90647,Milwaukee,us_state
+Milwaukee,WI,9,43.0389,-87.90647,Milwaukee,us_state
 Minneapolis,MN,9,44.97997,-93.26384,Minneapolis,us_state
 Missoula,MT,3,46.87215,-113.994,Missoula,us_state
 Mobile,AL,2,30.69436,-88.04305,Mobile,us_state
 Montreal,QC,1,45.50884,-73.58781,Montréal,canada
 Montreal,Quebec,4,45.50884,-73.58781,Montréal,canada
+Morrison,CO,1,,,,us_state_no_match
 Mt. Pleasant,SC,1,32.7906,-79.878,Mt. Pleasant,manual_override
 Munhall,PA,1,40.3923,-79.9,Munhall,manual_override
 Munich,Germany,1,48.13743,11.57549,Munich,country
@@ -280,7 +282,7 @@ Seattle,WA,35,47.60621,-122.33207,Seattle,us_state
 Shelburne,VT,1,44.3807,-73.2276,Shelburne,manual_override
 Ships and Dip V,,2,,,,unrecognized_region
 Silver Spring,MD,2,38.99067,-77.02609,Silver Spring,us_state
-Sioux Falls,SD,2,43.54997,-96.70033,Sioux Falls,us_state
+Sioux Falls,SD,2,43.54369,-96.72796,Sioux Falls,us_state
 Sligo,Ireland,1,54.26969,-8.46943,Sligo,country
 Solana Beach,CA,2,32.9912,-117.2711,Solana Beach,manual_override
 Somerville,MA,2,42.3876,-71.0995,Somerville,us_state

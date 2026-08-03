@@ -469,10 +469,10 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2011-03-25_-_9:30_Club_-_Washington,_D.C.",2011-03-25,Full Fish Moon Tour 2011,447.0,21.0,2.2637701942213577,0.14404468577955676
 "2011-03-26_-_Strand-Capitol_Performing_Arts_Center_-_York,_PA",2011-03-26,Full Fish Moon Tour 2011,449.0,19.0,1.943222733431023,0.13507687261554388
 "2011-03-28_-_Bowery_Ballroom_-_New_York,_NY",2011-03-28,Full Fish Moon Tour 2011,449.0,22.0,2.160773729830628,0.14526807687373153
-"2011-03-29_-_KEXP_Session_-_Seattle,_WA",2011-03-29,,452.0,4.0,3.9205799409280964,0.060650088254320354
 "2011-03-29_-_Bowery_Ballroom_-_New_York,_NY",2011-03-29,Full Fish Moon Tour 2011,450.0,20.0,2.0011551326252275,0.13679409259395517
-"2011-03-30_-_Bowery_Ballroom_-_New_York,_NY",2011-03-30,Full Fish Moon Tour 2011,452.0,20.0,2.5997097599662924,0.14373483262263687
+"2011-03-29_-_KEXP_Session_-_Seattle,_WA",2011-03-29,,452.0,4.0,3.9205799409280964,0.060650088254320354
 "2011-03-30_-_Soundcheck_-_WNYC_Session_-_New_York,_NY",2011-03-30,,452.0,3.0,2.6646832126962736,0.037195978731193284
+"2011-03-30_-_Bowery_Ballroom_-_New_York,_NY",2011-03-30,Full Fish Moon Tour 2011,452.0,20.0,2.5997097599662924,0.14373483262263687
 "2011-04-01_-_Paradise_Rock_Club_-_Boston,_MA",2011-04-01,Full Fish Moon Tour 2011,452.0,21.0,2.986524823541794,0.16299287906003362
 "2011-04-02_-_Castaways_-_Ithaca,_NY",2011-04-02,Full Fish Moon Tour 2011,453.0,10.0,1.4176452811868647,0.10597202064909951
 "2011-04-03_-_The_Opera_House_-_Toronto,_Ontario",2011-04-03,Full Fish Moon Tour 2011,453.0,25.0,2.0612338700388393,0.1439718074573511
@@ -480,8 +480,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2011-04-05_-_The_Vic_Theatre_-_Chicago,_IL",2011-04-05,Full Fish Moon Tour 2011,453.0,19.0,2.732014799026514,0.13930463329275766
 "2011-04-06_-_Mercy_Lounge_-_Nashville,_TN",2011-04-06,Full Fish Moon Tour 2011,453.0,20.0,1.6027002814070817,0.10426934923283847
 "2011-04-07_-_Variety_Playhouse_-_Atlanta,_GA",2011-04-07,Full Fish Moon Tour 2011,453.0,21.0,1.71749722545489,0.11559120332311301
-"2011-04-08_-_WUNC_Session_-_Chapel_Hill,_NC",2011-04-08,,455.0,3.0,5.202934084885595,0.058737058470935785
 "2011-04-08_-_Cat's_Cradle_-_Carrboro,_NC",2011-04-08,Full Fish Moon Tour 2011,453.0,21.0,1.5032088697946537,0.09879527539361208
+"2011-04-08_-_WUNC_Session_-_Chapel_Hill,_NC",2011-04-08,,455.0,3.0,5.202934084885595,0.058737058470935785
 "2011-04-10_-_The_Grey_Eagle_-_Asheville,_NC",2011-04-10,Full Fish Moon Tour 2011,455.0,22.0,2.38041192012062,0.13669622538866058
 "2011-04-11_-_Wexner_Center_-_Columbus,_OH",2011-04-11,Full Fish Moon Tour 2011,455.0,19.0,1.6771867511319627,0.11424905893881913
 "2011-04-12_-_Mr._Smalls_-_Millvale,_PA",2011-04-12,Full Fish Moon Tour 2011,455.0,17.0,1.8688722233001251,0.11746632161478175
@@ -561,8 +561,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2012-07-01_-_McCabe's_Guitar_Shop_-_Santa_Monica,_CA",2012-07-01,Survivors Choice West Coast Tour 2012,474.0,23.0,3.181990436541807,0.203245630189694
 "2012-07-03_-_Folk_Music_Center_-_Claremont,_CA",2012-07-03,Survivors Choice West Coast Tour 2012,474.0,21.0,2.5017511302426874,0.15392648967729483
 "2012-07-28_-_Antiwarpt_Festival_-_St._Petersburg,_FL",2012-07-28,,474.0,17.0,4.073726701533182,0.16400127186784877
-"2012-09-01_-_Front_Porch_Session_-_Wente_Vineyards_-_Livermore,_CA",2012-09-01,,475.0,0.0,,0.0445823908297653
 "2012-09-01_-_Front_Porch_Music_Festival_-_Livermore,_CA",2012-09-01,,475.0,20.0,5.011639864914235,0.2311855263590318
+"2012-09-01_-_Front_Porch_Session_-_Wente_Vineyards_-_Livermore,_CA",2012-09-01,,475.0,0.0,,0.0445823908297653
 "2012-09-07_-_Hopscotch_Festival_-_Fletcher_Opera_Theater_-_Raleigh,_NC",2012-09-07,,475.0,14.0,5.563855782629081,0.18264808597612378
 "2012-09-11_-_WFUV_Session_-_New_York,_NY",2012-09-11,,476.0,4.0,5.803197004046536,0.06854840774164905
 "2012-09-18_-_Pitchfork_Session_-_New_York,_NY",2012-09-18,,476.0,1.0,6.881146740270274,0.04992248522401308
@@ -632,8 +632,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2013-07-26_-_Newport_Folk_Festival_-_Newport,_RI",2013-07-26,,482.0,13.0,5.211322267091106,0.15964811476639273
 "2013-07-28_-_Bele_Chere_Festival_-_Asheville,_NC",2013-07-28,,483.0,3.0,2.600401455843318,0.03619196596753718
 2013-09-14_-_Atlantic_Ocean_Comedy_and_Music_Festival,2013-09-14,,483.0,7.0,4.166706293083998,0.09559035689244064
-"2013-10-07_-_St._Georges_-_Bristol,_England",2013-10-07,Tuttlingen Warriors Tour 2013 (European Leg),484.0,18.0,3.0211788842330267,0.13548800208262188
 "2013-10-07_-_BBC_Radio_Bristol_Session_-_Bristol,_England",2013-10-07,Tuttlingen Warriors Tour 2013 (European Leg),484.0,1.0,5.663936695779926,0.048261100802172066
+"2013-10-07_-_St._Georges_-_Bristol,_England",2013-10-07,Tuttlingen Warriors Tour 2013 (European Leg),484.0,18.0,3.0211788842330267,0.13548800208262188
 "2013-10-08_-_Union_Chapel_-_London,_England",2013-10-08,Tuttlingen Warriors Tour 2013 (European Leg),484.0,19.0,2.599653632579386,0.12999548424205765
 "2013-10-09_-_Royal_Northern_College_of_Music_-_Manchester,_England",2013-10-09,Tuttlingen Warriors Tour 2013 (European Leg),484.0,21.0,2.172298019393648,0.12143378681405863
 "2013-10-10_-_Arches_-_Glasgow,_Scotland",2013-10-10,Tuttlingen Warriors Tour 2013 (European Leg),484.0,18.0,1.877723281471602,0.10450318351865878
@@ -651,8 +651,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2014-04-15_-_Pearl_Street_Ballroom_-_Northampton,_MA",2014-04-15,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,493.0,19.0,4.483078870317521,0.2168766577697733
 "2014-04-16_-_Somerville_Theatre_-_Somerville,_MA",2014-04-16,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,494.0,19.0,2.7447838431553166,0.17819893291902358
 "2014-04-17_-_Club_Helsinki_-_Hudson,_NY",2014-04-17,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,496.0,18.0,2.0171119989970956,0.13666407987752577
-"2014-04-19_-_Old_Town_School_of_Folk_Music_-_Chicago,_IL",2014-04-19,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,496.0,21.0,3.5112153547406835,0.19780579226167125
 "2014-04-19_-_Laurie's_Planet_of_Sound_-_Chicago,_IL",2014-04-19,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,496.0,8.0,4.914927860566537,0.15841630293442788
+"2014-04-19_-_Old_Town_School_of_Folk_Music_-_Chicago,_IL",2014-04-19,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,496.0,21.0,3.5112153547406835,0.19780579226167125
 "2014-04-20_-_Old_Town_School_of_Folk_Music_-_Chicago,_IL",2014-04-20,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,496.0,21.0,3.0504630604879295,0.1775028141074826
 "2014-04-21_-_Scope_Productions_Presents_First_United_Methodist_Church_-_Iowa_City,_IA",2014-04-21,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,496.0,20.0,2.6156354606707124,0.1536307847741126
 "2014-05-02_-_Kresge_Recital_Hall_-_Knox_College_-_Galesburg,_IL",2014-05-02,,496.0,18.0,4.423511547369634,0.1930710545367518
@@ -673,8 +673,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2014-06-27_-_Boys_Rock_for_Girls_Rock_-_Haw_River_Ballroom_-_Saxapahaw,_NC",2014-06-27,,506.0,12.0,3.299047547650226,0.11062044422050024
 "2014-07-25_-_Merge_25_-_Cat's_Cradle_-_Carrboro,_NC",2014-07-25,,506.0,7.0,4.483721081566977,0.07985976633741093
 "2014-11-19_-_NPR's_Ask_Me_Another_-_Carolina_Theatre_-_Durham,_NC",2014-11-19,,507.0,1.0,2.7484016148433175,0.0425295723994596
-"2015-01-24_-_Invite_Them_Up_Second_Set_-_SF_Sketchfest_-_San_Francisco,_CA",2015-01-24,,507.0,3.0,3.979791230180909,0.0513091436195831
 "2015-01-24_-_Invite_Them_Up_First_Set_-_SF_Sketchfest_-_San_Francisco,_CA",2015-01-24,,507.0,3.0,4.677254936741522,0.05940216720988387
+"2015-01-24_-_Invite_Them_Up_Second_Set_-_SF_Sketchfest_-_San_Francisco,_CA",2015-01-24,,507.0,3.0,3.979791230180909,0.0513091436195831
 "2015-01-25_-_Tribute_to_Wurster_and_Scharpling_-_SF_Sketchfest_-_San_Francisco,_CA",2015-01-25,,507.0,1.0,2.5130930194089878,0.030390932755852505
 "2015-03-18_-_Welcome_to_Night_Vale_Selected_Shorts_-_Symphony_Space_-_New_York,_NY",2015-03-18,,508.0,3.0,3.4441405786586876,0.04346643695865995
 "2015-03-30_-_A.V._Club_One_Track_Mind_Session_-_Sam's_Quik_Shop_-_Durham,_NC",2015-03-30,,508.0,0.0,,0.024287557548615075
@@ -830,8 +830,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-07-03_-_WGN_TV_Session_-_Chicago,_IL",2017-07-03,,552.0,1.0,1.259164596096785,0.03358495204266138
 "2017-07-05_-_Sumtur_Ampitheatre_-_Papillion,_NE",2017-07-05,Summer Tour 2017,552.0,12.0,1.6958147827573908,0.055989769506593394
 "2017-07-06_-_Wooly's_-_Des_Moines,_IA",2017-07-06,Summer Tour 2017,552.0,21.0,2.4701894974782683,0.11350693981073852
-"2017-07-07_-_The_Current_-_Minnesota_Public_Radio_Session_-_St._Paul,_MN",2017-07-07,,552.0,3.0,4.341643610709828,0.03880595950797372
 "2017-07-07_-_The_Palace_Theatre_-_St._Paul,_MN",2017-07-07,Summer Tour 2017,552.0,12.0,1.6508786424907382,0.053045081643853687
+"2017-07-07_-_The_Current_-_Minnesota_Public_Radio_Session_-_St._Paul,_MN",2017-07-07,,552.0,3.0,4.341643610709828,0.03880595950797372
 "2017-07-08_-_Majestic_Theatre_-_Madison,_WI",2017-07-08,Summer Tour 2017,552.0,21.0,2.875252263283922,0.13308126627719258
 "2017-07-09_-_The_Castle_-_Bloomington,_IL",2017-07-09,Summer Tour 2017,552.0,22.0,2.5763320524137288,0.13072782408481837
 "2017-07-11_-_The_Washington_Pavilion_-_Sioux_Falls,_SD",2017-07-11,Summer Tour 2017,552.0,12.0,0.6961815918738384,0.04650703883202332
@@ -851,8 +851,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-09-15_-_The_Waiting_Room_-_Omaha,_NE",2017-09-15,U.S. Fall Tour 2017,554.0,21.0,1.9221450231206598,0.09835718944919648
 "2017-09-16_-_Gothic_Theatre_-_Englewood,_CO",2017-09-16,U.S. Fall Tour 2017,554.0,20.0,1.7106579513908353,0.08799365594422949
 "2017-10-05_-_Brudenell_Social_Club_-_Leeds,_England",2017-10-05,European Tour 2017,554.0,21.0,4.061187442837162,0.17521632990595087
-"2017-10-06_-_Brudenell_Social_Club_-_Leeds,_England",2017-10-06,European Tour 2017,554.0,21.0,1.7340479450990467,0.10752370458783066
 "2017-10-06_-_Jumbo_Records_-_Leeds,_England",2017-10-06,European Tour 2017,554.0,6.0,3.120875828271304,0.1023955487784904
+"2017-10-06_-_Brudenell_Social_Club_-_Leeds,_England",2017-10-06,European Tour 2017,554.0,21.0,1.7340479450990467,0.10752370458783066
 "2017-10-08_-_Button_Factory_-_Dublin,_Ireland",2017-10-08,European Tour 2017,554.0,21.0,2.4507293786095494,0.12278590301140925
 "2017-10-09_-_Glasgow_Art_School_-_Glasgow,_Scotland",2017-10-09,European Tour 2017,555.0,21.0,2.02578827662152,0.10264722285047562
 "2017-10-11_-_O2_Shepherd's_Bush_Empire_-_London,_England",2017-10-11,European Tour 2017,555.0,24.0,1.6297279118098222,0.0917780844308703
@@ -1015,8 +1015,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2021-08-27_-_The_Athenaeum_Theatre_-_Columbus,_OH",2021-08-27,Cave Angel Ascendancy Tour 2021,616.0,26.0,1.9626465507052069,0.10917753007205139
 "2021-09-07_-_City_Winery_-_New_York,_NY",2021-09-07,Snake Nebula Tour 2021,616.0,20.0,3.9723324047418607,0.16328242404849158
 "2021-09-08_-_City_Winery_-_New_York,_NY",2021-09-08,Snake Nebula Tour 2021,618.0,21.0,4.646908517959076,0.23118422509596526
-"2021-09-09_-_City_Winery_-_New_York,_NY",2021-09-09,Snake Nebula Tour 2021,619.0,25.0,3.6478656239344707,0.20126588338543777
 2021-09-09_-_Judge_John_Hodgman_-_London_Podcast_Festival_-_Virtual,2021-09-09,,620.0,0.0,,0.03804594143461406
+"2021-09-09_-_City_Winery_-_New_York,_NY",2021-09-09,Snake Nebula Tour 2021,619.0,25.0,3.6478656239344707,0.20126588338543777
 "2021-09-16_-_Kessler_Theater_-_Dallas,_TX",2021-09-16,Snake Nebula Tour 2021,622.0,20.0,3.709350328960089,0.15512086107010536
 "2021-09-17_-_Tower_Theatre_-_Oklahoma_City,_OK",2021-09-17,Snake Nebula Tour 2021,623.0,21.0,2.930369766143908,0.15162057123565703
 "2021-09-18_-_Liberty_Hall_-_Lawrence,_KS",2021-09-18,Snake Nebula Tour 2021,624.0,20.0,3.2105318668221883,0.15624872425172973
@@ -1191,8 +1191,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2024-04-12_-_Palace_Theatre_-_Saint_Paul,_MN",2024-04-12,Spring Tour 2024,663.0,22.0,1.946638437549416,0.08690982068230878
 "2024-04-13_-_The_City_Center_-_Champaign,_IL",2024-04-13,Spring Tour 2024,663.0,21.0,1.746527090606089,0.07699081313952737
 "2024-04-15_-_Washington's_-_Fort_Collins,_CO",2024-04-15,Spring Tour 2024,663.0,23.0,1.6561929775740338,0.07736454698516007
-"2024-04-16_-_Gothic_Theatre_-_Denver,_CO",2024-04-16,Spring Tour 2024,663.0,20.0,1.7885846550949676,0.07771926553102972
 "2024-04-16_Gothic_Theatre_-_Englewood,_CO",2024-04-16,,664.0,21.0,2.113764879598984,0.08324194878951797
+"2024-04-16_-_Gothic_Theatre_-_Denver,_CO",2024-04-16,Spring Tour 2024,663.0,20.0,1.7885846550949676,0.07771926553102972
 "2024-04-17_-_Gothic_Theatre_-_Denver,_CO",2024-04-17,Spring Tour 2024,664.0,22.0,3.2675919738786763,0.12739444602944935
 "2024-04-19_-_The_Stiefel_Theatre_-_Salina,_KS",2024-04-19,Spring Tour 2024,664.0,22.0,1.6159989431185344,0.08404392723603897
 "2024-04-20_-_Delmar_Hall_-_Saint_Louis,_MO",2024-04-20,Spring Tour 2024,664.0,21.0,1.3578185676880934,0.0734542888288045
@@ -1311,3 +1311,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2026-05-28_-_Manchester_Music_Hall_-_Lexington,_KY",2026-05-28,Hypnotic Waves Tour 2026,686.0,25.0,2.3128182428936754,0.10718659079930401
 "2026-05-29_-_Neighborhood_Theatre_-_Charlotte,_NC",2026-05-29,Hypnotic Waves Tour 2026,687.0,24.0,1.9327678071471996,0.09236572324482709
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,Hypnotic Waves Tour 2026,687.0,25.0,1.9859381384593768,0.09656485611021413
+"2026-05-31_-_Spoleto_Festival_-_Charleston,_SC",2026-05-31,Hypnotic Waves Tour 2026,687.0,16.0,3.1332968066901876,0.12536814660520004
+"2026-06-25_-_Radio_Milwaukee_Session_-_Milwaukee,_WI",2026-06-25,,687.0,3.0,2.1247028514771062,0.024798492899317317
+"2026-06-25_-_Summerfest_-_Milwaukee,_WI",2026-06-25,,687.0,21.0,2.832941477172127,0.10421355229528048
+"2026-06-26_-_FitzGerald's_-_Berwyn,_IL",2026-06-26,,687.0,22.0,2.9890574309974167,0.11296263969981367
+"2026-07-10_-_Red_Rocks_Amphitheatre_-_Morrison,_CO",2026-07-10,,687.0,11.0,3.6588013396401324,0.08456940868167065

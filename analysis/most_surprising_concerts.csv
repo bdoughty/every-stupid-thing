@@ -152,6 +152,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "1997-03-01_-_Replay_Lounge_-_Lawrence,_KS",1997-03-01,,165.0,17.0,3.68773864125944,0.4615243518502712
 "2015-09-09_-_Lawrence_Arts_Center_-_Lawrence,_KS",2015-09-09,All Roads Lead to Lincoln Solo Mini-Tour 2015,522.0,20.0,3.66181442774013,0.20612580290753
 2009-02-05_-_Thursday_Concert_-_Ships_and_Dip_V,2009-02-05,,392.0,14.0,3.658808436974778,0.16377367361541126
+"2026-07-10_-_Red_Rocks_Amphitheatre_-_Morrison,_CO",2026-07-10,,687.0,11.0,3.6588013396401324,0.08456940868167065
 "2021-09-09_-_City_Winery_-_New_York,_NY",2021-09-09,Snake Nebula Tour 2021,619.0,25.0,3.6478656239344707,0.20126588338543777
 "2026-04-05_-_Blue_Note_Tokyo,_Early_Show_-_Tokyo,_Japan",2026-04-05,Heralds of Triton Tour 2026,682.0,16.0,3.6273928724846516,0.11286959918402248
 "2007-10-30_-_Pabst_Theater_-_Milwaukee,_WI",2007-10-30,Midwest Tour 2007,363.0,18.0,3.6224770776516717,0.22111090597891792
@@ -232,6 +233,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "1996-08-10_-_Gabe's_-_Iowa_City,_IA",1996-08-10,,142.0,14.0,3.1533276145275275,0.4147330431983095
 "2005-04-28_-_Will's_Pub_-_Orlando,_FL",2005-04-28,Eastern North America Tour 2005,312.0,14.0,3.145473209556523,0.18789588622314077
 "2009-03-29_-_Kenyon_College_-_Gambier,_OH",2009-03-29,Gone Primitive Tour,401.0,16.0,3.1384356682791106,0.186498142072256
+"2026-05-31_-_Spoleto_Festival_-_Charleston,_SC",2026-05-31,Hypnotic Waves Tour 2026,687.0,16.0,3.1332968066901876,0.12536814660520004
 "2006-09-21_-_The_Union_-_Athens,_OH",2006-09-21,First Fall Tour 2006,339.0,10.0,3.1308766988559324,0.14585663108734995
 "2010-08-28_-_Music_for_Fences_-_Durham_Central_Park_-_Durham,_NC",2010-08-28,,427.0,18.0,3.1301700791365423,0.15997371835371507
 "2001-12-07_-_Good_Records_-_Dallas,_TX",2001-12-07,,251.0,13.0,3.1273765968860827,0.24202660120221314
@@ -264,6 +266,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "1997-11-14_-_University_of_Wisconsin_Student_Union_-_Madison,_WI",1997-11-14,,189.0,17.0,3.0059422581106925,0.35679995545379406
 "2023-02-15_-_Mickey's_Black_Box_-_Lititz,_PA",2023-02-15,Bufonite Smugglers Tour 2023,647.0,22.0,3.0033753662753813,0.13409668007356582
 "2024-12-10_-_Antone's_Nightclub_-_Austin,_TX",2024-12-10,Arval Brethren Revival Tour 2024,665.0,20.0,2.9981639406035336,0.11865824975910047
+"2026-06-26_-_FitzGerald's_-_Berwyn,_IL",2026-06-26,,687.0,22.0,2.9890574309974167,0.11296263969981367
 "2023-06-29_-_Mercury_Ballroom_-_Louisville,_KY",2023-06-29,Spectral Tide Tour 2023,648.0,21.0,2.987033088585478,0.1308677459195863
 "2017-09-11_-_Sheldon_Concert_Hall_-_St._Louis,_MO",2017-09-11,U.S. Fall Tour 2017,554.0,18.0,2.986705916362002,0.11839425244072288
 "2011-04-01_-_Paradise_Rock_Club_-_Boston,_MA",2011-04-01,Full Fish Moon Tour 2011,452.0,21.0,2.986524823541794,0.16299287906003362
@@ -312,6 +315,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2021-12-18_-_Cat's_Cradle_-_Carrboro,_NC",2021-12-18,Robotic Mosquito Dream Tour 2021,630.0,23.0,2.8502038236463956,0.14514210859828935
 "2008-03-01_-_The_Independent_-_San_Francisco,_CA",2008-03-01,First Spring Tour 2008,372.0,18.0,2.849517000014679,0.17862799553566158
 "2023-04-02_-_Soul_Kitchen_-_Mobile,_AL",2023-04-02,Spectral Tide Tour 2023,648.0,19.0,2.846813255887886,0.12018901345510932
+"2026-06-25_-_Summerfest_-_Milwaukee,_WI",2026-06-25,,687.0,21.0,2.832941477172127,0.10421355229528048
 "1996-09-03_-_Fletcher's_-_Baltimore,_MD",1996-09-03,Summer Tour 1996,146.0,11.0,2.829203221403525,0.410292441232565
 "2002-11-01_-_The_Empty_Bottle_-_Chicago,_IL",2002-11-01,United States Tour 2002,270.0,14.0,2.8277623501902163,0.21066934168703752
 "1999-01-29_-_Mercury_Paw_-_Louisville,_KY",1999-01-29,Eastern United States Tour 1999,214.0,14.0,2.825923071691758,0.3334750000677464
