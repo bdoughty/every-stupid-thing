@@ -804,7 +804,7 @@ song_key,date,play_rate
 1 John 4:16,2026-06-01,0.018518518518518517
 1 John 4:16,2026-07-01,0.018018018018018018
 1 John 4:16,2026-08-01,0.01904761904761905
-1 John 4:16,2026-08-09,0.019801980198019802
+1 John 4:16,2026-08-09,0.0196078431372549
 1 Samuel 15:23,1993-01-01,0.0
 1 Samuel 15:23,1993-02-01,0.0
 1 Samuel 15:23,1993-03-01,0.0
@@ -1207,7 +1207,7 @@ song_key,date,play_rate
 1 Samuel 15:23,2026-06-01,0.009259259259259259
 1 Samuel 15:23,2026-07-01,0.009009009009009009
 1 Samuel 15:23,2026-08-01,0.009523809523809525
-1 Samuel 15:23,2026-08-09,0.009900990099009901
+1 Samuel 15:23,2026-08-09,0.00980392156862745
 Abandoned Flesh,1993-01-01,0.0
 Abandoned Flesh,1993-02-01,0.0
 Abandoned Flesh,1993-03-01,0.0
@@ -1610,7 +1610,7 @@ Abandoned Flesh,2026-05-01,0.14
 Abandoned Flesh,2026-06-01,0.08333333333333333
 Abandoned Flesh,2026-07-01,0.08108108108108109
 Abandoned Flesh,2026-08-01,0.02857142857142857
-Abandoned Flesh,2026-08-09,0.009900990099009901
+Abandoned Flesh,2026-08-09,0.00980392156862745
 Abandoning My Father Talking Blues,1993-01-01,0.0
 Abandoning My Father Talking Blues,1993-02-01,0.0
 Abandoning My Father Talking Blues,1993-03-01,0.0
@@ -2416,7 +2416,7 @@ Abide with Me,2026-05-01,0.01
 Abide with Me,2026-06-01,0.009259259259259259
 Abide with Me,2026-07-01,0.009009009009009009
 Abide with Me,2026-08-01,0.009523809523809525
-Abide with Me,2026-08-09,0.009900990099009901
+Abide with Me,2026-08-09,0.00980392156862745
 Absolute Lithops Effect,1993-01-01,0.0
 Absolute Lithops Effect,1993-02-01,0.0
 Absolute Lithops Effect,1993-03-01,0.0
@@ -3222,7 +3222,7 @@ Adultery,2026-05-01,0.01
 Adultery,2026-06-01,0.009259259259259259
 Adultery,2026-07-01,0.009009009009009009
 Adultery,2026-08-01,0.009523809523809525
-Adultery,2026-08-09,0.009900990099009901
+Adultery,2026-08-09,0.00980392156862745
 Against Agamemnon,1993-01-01,0.0
 Against Agamemnon,1993-02-01,0.0
 Against Agamemnon,1993-03-01,0.0
@@ -4028,7 +4028,7 @@ Against Pollution,2026-05-01,0.08
 Against Pollution,2026-06-01,0.1574074074074074
 Against Pollution,2026-07-01,0.15315315315315314
 Against Pollution,2026-08-01,0.13333333333333333
-Against Pollution,2026-08-09,0.13861386138613863
+Against Pollution,2026-08-09,0.13725490196078433
 Age of Kings,1993-01-01,0.0
 Age of Kings,1993-02-01,0.0
 Age of Kings,1993-03-01,0.0
@@ -8058,7 +8058,7 @@ Alpha Gelida,2026-05-01,0.04
 Alpha Gelida,2026-06-01,0.037037037037037035
 Alpha Gelida,2026-07-01,0.036036036036036036
 Alpha Gelida,2026-08-01,0.02857142857142857
-Alpha Gelida,2026-08-09,0.019801980198019802
+Alpha Gelida,2026-08-09,0.0196078431372549
 Alpha Incipiens,1993-01-01,0.0
 Alpha Incipiens,1993-02-01,0.0
 Alpha Incipiens,1993-03-01,0.0
@@ -8461,7 +8461,7 @@ Alpha Incipiens,2026-05-01,0.01
 Alpha Incipiens,2026-06-01,0.018518518518518517
 Alpha Incipiens,2026-07-01,0.018018018018018018
 Alpha Incipiens,2026-08-01,0.009523809523809525
-Alpha Incipiens,2026-08-09,0.009900990099009901
+Alpha Incipiens,2026-08-09,0.00980392156862745
 Alpha Negative,1993-01-01,0.0
 Alpha Negative,1993-02-01,0.0
 Alpha Negative,1993-03-01,0.0
@@ -8864,7 +8864,7 @@ Alpha Negative,2026-05-01,0.01
 Alpha Negative,2026-06-01,0.009259259259259259
 Alpha Negative,2026-07-01,0.009009009009009009
 Alpha Negative,2026-08-01,0.009523809523809525
-Alpha Negative,2026-08-09,0.009900990099009901
+Alpha Negative,2026-08-09,0.00980392156862745
 Alpha Omega,1993-01-01,0.0
 Alpha Omega,1993-02-01,0.0
 Alpha Omega,1993-03-01,0.0
@@ -9267,7 +9267,7 @@ Alpha Omega,2026-05-01,0.03
 Alpha Omega,2026-06-01,0.027777777777777776
 Alpha Omega,2026-07-01,0.036036036036036036
 Alpha Omega,2026-08-01,0.0380952380952381
-Alpha Omega,2026-08-09,0.039603960396039604
+Alpha Omega,2026-08-09,0.0392156862745098
 Alpha Rats Nest,1993-01-01,0.0
 Alpha Rats Nest,1993-02-01,0.0
 Alpha Rats Nest,1993-03-01,0.0
@@ -9670,7 +9670,7 @@ Alpha Rats Nest,2026-05-01,0.02
 Alpha Rats Nest,2026-06-01,0.018518518518518517
 Alpha Rats Nest,2026-07-01,0.018018018018018018
 Alpha Rats Nest,2026-08-01,0.009523809523809525
-Alpha Rats Nest,2026-08-09,0.009900990099009901
+Alpha Rats Nest,2026-08-09,0.00980392156862745
 Alpha Sun Hat,1993-01-01,0.0
 Alpha Sun Hat,1993-02-01,0.0
 Alpha Sun Hat,1993-03-01,0.0
@@ -11685,7 +11685,7 @@ Amy AKA Spent Gladiator 1,2026-05-01,0.15
 Amy AKA Spent Gladiator 1,2026-06-01,0.17592592592592593
 Amy AKA Spent Gladiator 1,2026-07-01,0.1891891891891892
 Amy AKA Spent Gladiator 1,2026-08-01,0.18095238095238095
-Amy AKA Spent Gladiator 1,2026-08-09,0.18811881188118812
+Amy AKA Spent Gladiator 1,2026-08-09,0.18627450980392157
 An Antidote for Strychnine,1993-01-01,0.0
 An Antidote for Strychnine,1993-02-01,0.0
 An Antidote for Strychnine,1993-03-01,0.0
@@ -12491,7 +12491,7 @@ Andrew Eldritch Is Moving Back to Leeds,2026-05-01,0.05
 Andrew Eldritch Is Moving Back to Leeds,2026-06-01,0.1111111111111111
 Andrew Eldritch Is Moving Back to Leeds,2026-07-01,0.11711711711711711
 Andrew Eldritch Is Moving Back to Leeds,2026-08-01,0.11428571428571428
-Andrew Eldritch Is Moving Back to Leeds,2026-08-09,0.12871287128712872
+Andrew Eldritch Is Moving Back to Leeds,2026-08-09,0.13725490196078433
 Animal Mask,1993-01-01,0.0
 Animal Mask,1993-02-01,0.0
 Animal Mask,1993-03-01,0.0
@@ -12894,7 +12894,7 @@ Animal Mask,2026-05-01,0.02
 Animal Mask,2026-06-01,0.018518518518518517
 Animal Mask,2026-07-01,0.018018018018018018
 Animal Mask,2026-08-01,0.009523809523809525
-Animal Mask,2026-08-09,0.009900990099009901
+Animal Mask,2026-08-09,0.00980392156862745
 Armies of the Lord,1993-01-01,0.0
 Armies of the Lord,1993-02-01,0.0
 Armies of the Lord,1993-03-01,0.0
@@ -13297,7 +13297,7 @@ Armies of the Lord,2026-05-01,0.1
 Armies of the Lord,2026-06-01,0.2037037037037037
 Armies of the Lord,2026-07-01,0.21621621621621623
 Armies of the Lord,2026-08-01,0.22857142857142856
-Armies of the Lord,2026-08-09,0.2376237623762376
+Armies of the Lord,2026-08-09,0.23529411764705882
 As Many Candles As Possible,1993-01-01,0.0
 As Many Candles As Possible,1993-02-01,0.0
 As Many Candles As Possible,1993-03-01,0.0
@@ -14103,7 +14103,7 @@ Attention All Pickpockets,2026-05-01,0.02
 Attention All Pickpockets,2026-06-01,0.018518518518518517
 Attention All Pickpockets,2026-07-01,0.018018018018018018
 Attention All Pickpockets,2026-08-01,0.01904761904761905
-Attention All Pickpockets,2026-08-09,0.019801980198019802
+Attention All Pickpockets,2026-08-09,0.0196078431372549
 Aulon Raid,1993-01-01,0.0
 Aulon Raid,1993-02-01,0.0
 Aulon Raid,1993-03-01,0.0
@@ -15715,7 +15715,7 @@ Baboon,2026-05-01,0.09
 Baboon,2026-06-01,0.08333333333333333
 Baboon,2026-07-01,0.08108108108108109
 Baboon,2026-08-01,0.08571428571428572
-Baboon,2026-08-09,0.0891089108910891
+Baboon,2026-08-09,0.08823529411764706
 Babylon Burning,1993-01-01,0.0
 Babylon Burning,1993-02-01,0.0
 Babylon Burning,1993-03-01,0.0
@@ -18133,7 +18133,7 @@ Beat the Devil,2026-05-01,0.01
 Beat the Devil,2026-06-01,0.009259259259259259
 Beat the Devil,2026-07-01,0.009009009009009009
 Beat the Devil,2026-08-01,0.009523809523809525
-Beat the Devil,2026-08-09,0.009900990099009901
+Beat the Devil,2026-08-09,0.00980392156862745
 Beautiful Gas Mask,1993-01-01,0.0
 Beautiful Gas Mask,1993-02-01,0.0
 Beautiful Gas Mask,1993-03-01,0.0
@@ -18939,7 +18939,7 @@ Before I Got There,2026-05-01,0.44
 Before I Got There,2026-06-01,0.42592592592592593
 Before I Got There,2026-07-01,0.4144144144144144
 Before I Got There,2026-08-01,0.42857142857142855
-Before I Got There,2026-08-09,0.44554455445544555
+Before I Got There,2026-08-09,0.4411764705882353
 Bell Swamp Connection,1993-01-01,0.0
 Bell Swamp Connection,1993-02-01,0.0
 Bell Swamp Connection,1993-03-01,0.0
@@ -19745,7 +19745,7 @@ Billy the Kid's Dream of the Magic Shoes,2026-05-01,0.03
 Billy the Kid's Dream of the Magic Shoes,2026-06-01,0.027777777777777776
 Billy the Kid's Dream of the Magic Shoes,2026-07-01,0.02702702702702703
 Billy the Kid's Dream of the Magic Shoes,2026-08-01,0.01904761904761905
-Billy the Kid's Dream of the Magic Shoes,2026-08-09,0.019801980198019802
+Billy the Kid's Dream of the Magic Shoes,2026-08-09,0.0196078431372549
 Birth of Serpents,1993-01-01,0.0
 Birth of Serpents,1993-02-01,0.0
 Birth of Serpents,1993-03-01,0.0
@@ -21357,7 +21357,7 @@ Black Pear Tree,2026-05-01,0.02
 Black Pear Tree,2026-06-01,0.018518518518518517
 Black Pear Tree,2026-07-01,0.02702702702702703
 Black Pear Tree,2026-08-01,0.02857142857142857
-Black Pear Tree,2026-08-09,0.0297029702970297
+Black Pear Tree,2026-08-09,0.029411764705882353
 Bleed Out (song),1993-01-01,0.0
 Bleed Out (song),1993-02-01,0.0
 Bleed Out (song),1993-03-01,0.0
@@ -21760,7 +21760,7 @@ Bleed Out (song),2026-05-01,0.02
 Bleed Out (song),2026-06-01,0.018518518518518517
 Bleed Out (song),2026-07-01,0.018018018018018018
 Bleed Out (song),2026-08-01,0.01904761904761905
-Bleed Out (song),2026-08-09,0.019801980198019802
+Bleed Out (song),2026-08-09,0.0196078431372549
 Blood Capsules,1993-01-01,0.0
 Blood Capsules,1993-02-01,0.0
 Blood Capsules,1993-03-01,0.0
@@ -22163,7 +22163,7 @@ Blood Capsules,2026-05-01,0.0
 Blood Capsules,2026-06-01,0.009259259259259259
 Blood Capsules,2026-07-01,0.009009009009009009
 Blood Capsules,2026-08-01,0.009523809523809525
-Blood Capsules,2026-08-09,0.009900990099009901
+Blood Capsules,2026-08-09,0.00980392156862745
 Blood Royal,1993-01-01,0.0
 Blood Royal,1993-02-01,0.0
 Blood Royal,1993-03-01,0.0
@@ -22566,7 +22566,7 @@ Blood Royal,2026-05-01,0.01
 Blood Royal,2026-06-01,0.009259259259259259
 Blood Royal,2026-07-01,0.009009009009009009
 Blood Royal,2026-08-01,0.009523809523809525
-Blood Royal,2026-08-09,0.009900990099009901
+Blood Royal,2026-08-09,0.00980392156862745
 Blueberry Frost,1993-01-01,0.0
 Blueberry Frost,1993-02-01,0.0
 Blueberry Frost,1993-03-01,0.0
@@ -24178,7 +24178,7 @@ Bones Don't Rust,2026-05-01,0.27
 Bones Don't Rust,2026-06-01,0.25
 Bones Don't Rust,2026-07-01,0.24324324324324326
 Bones Don't Rust,2026-08-01,0.2571428571428571
-Bones Don't Rust,2026-08-09,0.26732673267326734
+Bones Don't Rust,2026-08-09,0.2647058823529412
 Born Ready,1993-01-01,0.0
 Born Ready,1993-02-01,0.0
 Born Ready,1993-03-01,0.0
@@ -24581,7 +24581,7 @@ Born Ready,2026-05-01,0.01
 Born Ready,2026-06-01,0.009259259259259259
 Born Ready,2026-07-01,0.009009009009009009
 Born Ready,2026-08-01,0.009523809523809525
-Born Ready,2026-08-09,0.009900990099009901
+Born Ready,2026-08-09,0.00980392156862745
 Boxcar,1993-01-01,0.0
 Boxcar,1993-02-01,0.0
 Boxcar,1993-03-01,0.0
@@ -25387,7 +25387,7 @@ Bride,2026-05-01,0.0
 Bride,2026-06-01,0.009259259259259259
 Bride,2026-07-01,0.009009009009009009
 Bride,2026-08-01,0.009523809523809525
-Bride,2026-08-09,0.009900990099009901
+Bride,2026-08-09,0.00980392156862745
 Bring Our Curses Home,1993-01-01,0.0
 Bring Our Curses Home,1993-02-01,0.0
 Bring Our Curses Home,1993-03-01,0.0
@@ -26193,7 +26193,7 @@ Broken To Begin With,2026-05-01,0.47
 Broken To Begin With,2026-06-01,0.4537037037037037
 Broken To Begin With,2026-07-01,0.44144144144144143
 Broken To Begin With,2026-08-01,0.47619047619047616
-Broken To Begin With,2026-08-09,0.49504950495049505
+Broken To Begin With,2026-08-09,0.49019607843137253
 Broom People,1993-01-01,0.0
 Broom People,1993-02-01,0.0
 Broom People,1993-03-01,0.0
@@ -26596,7 +26596,7 @@ Broom People,2026-05-01,0.08
 Broom People,2026-06-01,0.12962962962962962
 Broom People,2026-07-01,0.13513513513513514
 Broom People,2026-08-01,0.14285714285714285
-Broom People,2026-08-09,0.1485148514851485
+Broom People,2026-08-09,0.14705882352941177
 Butter Teeth,1993-01-01,0.0
 Butter Teeth,1993-02-01,0.0
 Butter Teeth,1993-03-01,0.0
@@ -27402,7 +27402,7 @@ Cadaver Sniffing Dog,2026-05-01,0.0
 Cadaver Sniffing Dog,2026-06-01,0.0
 Cadaver Sniffing Dog,2026-07-01,0.0
 Cadaver Sniffing Dog,2026-08-01,0.0
-Cadaver Sniffing Dog,2026-08-09,0.019801980198019802
+Cadaver Sniffing Dog,2026-08-09,0.029411764705882353
 California Jam,1993-01-01,0.0
 California Jam,1993-02-01,0.0
 California Jam,1993-03-01,0.0
@@ -28611,7 +28611,7 @@ Calling Out Your Name,2026-05-01,0.0
 Calling Out Your Name,2026-06-01,0.009259259259259259
 Calling Out Your Name,2026-07-01,0.009009009009009009
 Calling Out Your Name,2026-08-01,0.009523809523809525
-Calling Out Your Name,2026-08-09,0.009900990099009901
+Calling Out Your Name,2026-08-09,0.00980392156862745
 Carmen Cicero,1993-01-01,0.0
 Carmen Cicero,1993-02-01,0.0
 Carmen Cicero,1993-03-01,0.0
@@ -29014,7 +29014,7 @@ Carmen Cicero,2026-05-01,0.02
 Carmen Cicero,2026-06-01,0.027777777777777776
 Carmen Cicero,2026-07-01,0.02702702702702703
 Carmen Cicero,2026-08-01,0.02857142857142857
-Carmen Cicero,2026-08-09,0.0297029702970297
+Carmen Cicero,2026-08-09,0.029411764705882353
 Chanson du Bon Chose,1993-01-01,0.0
 Chanson du Bon Chose,1993-02-01,0.0
 Chanson du Bon Chose,1993-03-01,0.0
@@ -29417,7 +29417,7 @@ Chanson du Bon Chose,2026-05-01,0.03
 Chanson du Bon Chose,2026-06-01,0.027777777777777776
 Chanson du Bon Chose,2026-07-01,0.02702702702702703
 Chanson du Bon Chose,2026-08-01,0.01904761904761905
-Chanson du Bon Chose,2026-08-09,0.019801980198019802
+Chanson du Bon Chose,2026-08-09,0.0196078431372549
 Charlie Sheen Reaches Out to the Feds,1993-01-01,0.0
 Charlie Sheen Reaches Out to the Feds,1993-02-01,0.0
 Charlie Sheen Reaches Out to the Feds,1993-03-01,0.0
@@ -29820,7 +29820,7 @@ Charlie Sheen Reaches Out to the Feds,2026-05-01,0.0
 Charlie Sheen Reaches Out to the Feds,2026-06-01,0.12037037037037036
 Charlie Sheen Reaches Out to the Feds,2026-07-01,0.14414414414414414
 Charlie Sheen Reaches Out to the Feds,2026-08-01,0.1523809523809524
-Charlie Sheen Reaches Out to the Feds,2026-08-09,0.1782178217821782
+Charlie Sheen Reaches Out to the Feds,2026-08-09,0.18627450980392157
 Cheshire County,1993-01-01,0.0
 Cheshire County,1993-02-01,0.0
 Cheshire County,1993-03-01,0.0
@@ -32238,7 +32238,7 @@ Clemency for the Wizard King,2026-05-01,0.03
 Clemency for the Wizard King,2026-06-01,0.06481481481481481
 Clemency for the Wizard King,2026-07-01,0.08108108108108109
 Clemency for the Wizard King,2026-08-01,0.08571428571428572
-Clemency for the Wizard King,2026-08-09,0.0594059405940594
+Clemency for the Wizard King,2026-08-09,0.06862745098039216
 Cobscook Bay,1993-01-01,0.0
 Cobscook Bay,1993-02-01,0.0
 Cobscook Bay,1993-03-01,0.0
@@ -33044,7 +33044,7 @@ Cold at Night,2026-05-01,0.14
 Cold at Night,2026-06-01,0.1388888888888889
 Cold at Night,2026-07-01,0.13513513513513514
 Cold at Night,2026-08-01,0.14285714285714285
-Cold at Night,2026-08-09,0.1485148514851485
+Cold at Night,2026-08-09,0.14705882352941177
 Collapsing Stars,1993-01-01,0.0
 Collapsing Stars,1993-02-01,0.0
 Collapsing Stars,1993-03-01,0.0
@@ -33447,7 +33447,7 @@ Collapsing Stars,2026-05-01,0.0
 Collapsing Stars,2026-06-01,0.009259259259259259
 Collapsing Stars,2026-07-01,0.009009009009009009
 Collapsing Stars,2026-08-01,0.009523809523809525
-Collapsing Stars,2026-08-09,0.009900990099009901
+Collapsing Stars,2026-08-09,0.00980392156862745
 Color in Your Cheeks,1993-01-01,0.0
 Color in Your Cheeks,1993-02-01,0.0
 Color in Your Cheeks,1993-03-01,0.0
@@ -33850,7 +33850,7 @@ Color in Your Cheeks,2026-05-01,0.08
 Color in Your Cheeks,2026-06-01,0.08333333333333333
 Color in Your Cheeks,2026-07-01,0.08108108108108109
 Color in Your Cheeks,2026-08-01,0.0761904761904762
-Color in Your Cheeks,2026-08-09,0.07920792079207921
+Color in Your Cheeks,2026-08-09,0.0784313725490196
 Columns Pillars Steps,1993-01-01,0.0
 Columns Pillars Steps,1993-02-01,0.0
 Columns Pillars Steps,1993-03-01,0.0
@@ -34656,7 +34656,7 @@ Commandante,2026-05-01,0.02
 Commandante,2026-06-01,0.018518518518518517
 Commandante,2026-07-01,0.018018018018018018
 Commandante,2026-08-01,0.009523809523809525
-Commandante,2026-08-09,0.009900990099009901
+Commandante,2026-08-09,0.00980392156862745
 Corsican Mastiff Stride,1993-01-01,0.0
 Corsican Mastiff Stride,1993-02-01,0.0
 Corsican Mastiff Stride,1993-03-01,0.0
@@ -35059,7 +35059,7 @@ Corsican Mastiff Stride,2026-05-01,0.24
 Corsican Mastiff Stride,2026-06-01,0.2222222222222222
 Corsican Mastiff Stride,2026-07-01,0.21621621621621623
 Corsican Mastiff Stride,2026-08-01,0.22857142857142856
-Corsican Mastiff Stride,2026-08-09,0.2376237623762376
+Corsican Mastiff Stride,2026-08-09,0.23529411764705882
 Cotton,1993-01-01,0.0
 Cotton,1993-02-01,0.0
 Cotton,1993-03-01,0.0
@@ -35462,7 +35462,7 @@ Cotton,2026-05-01,0.13
 Cotton,2026-06-01,0.10185185185185185
 Cotton,2026-07-01,0.0990990990990991
 Cotton,2026-08-01,0.08571428571428572
-Cotton,2026-08-09,0.0891089108910891
+Cotton,2026-08-09,0.08823529411764706
 Counterfeit Florida Plates,1993-01-01,0.0
 Counterfeit Florida Plates,1993-02-01,0.0
 Counterfeit Florida Plates,1993-03-01,0.0
@@ -36671,7 +36671,7 @@ Crows,2026-05-01,0.01
 Crows,2026-06-01,0.009259259259259259
 Crows,2026-07-01,0.009009009009009009
 Crows,2026-08-01,0.009523809523809525
-Crows,2026-08-09,0.009900990099009901
+Crows,2026-08-09,0.00980392156862745
 Cruiserweights,1993-01-01,0.0
 Cruiserweights,1993-02-01,0.0
 Cruiserweights,1993-03-01,0.0
@@ -37477,7 +37477,410 @@ Cry for Judas,2026-05-01,0.19
 Cry for Judas,2026-06-01,0.21296296296296297
 Cry for Judas,2026-07-01,0.22522522522522523
 Cry for Judas,2026-08-01,0.20952380952380953
-Cry for Judas,2026-08-09,0.2376237623762376
+Cry for Judas,2026-08-09,0.23529411764705882
+Crying on Eddie Nash's Grave,1993-01-01,0.0
+Crying on Eddie Nash's Grave,1993-02-01,0.0
+Crying on Eddie Nash's Grave,1993-03-01,0.0
+Crying on Eddie Nash's Grave,1993-04-01,0.0
+Crying on Eddie Nash's Grave,1993-05-01,0.0
+Crying on Eddie Nash's Grave,1993-06-01,0.0
+Crying on Eddie Nash's Grave,1993-07-01,0.0
+Crying on Eddie Nash's Grave,1993-08-01,0.0
+Crying on Eddie Nash's Grave,1993-09-01,0.0
+Crying on Eddie Nash's Grave,1993-10-01,0.0
+Crying on Eddie Nash's Grave,1993-11-01,0.0
+Crying on Eddie Nash's Grave,1993-12-01,0.0
+Crying on Eddie Nash's Grave,1994-01-01,0.0
+Crying on Eddie Nash's Grave,1994-02-01,0.0
+Crying on Eddie Nash's Grave,1994-03-01,0.0
+Crying on Eddie Nash's Grave,1994-04-01,0.0
+Crying on Eddie Nash's Grave,1994-05-01,0.0
+Crying on Eddie Nash's Grave,1994-06-01,0.0
+Crying on Eddie Nash's Grave,1994-07-01,0.0
+Crying on Eddie Nash's Grave,1994-08-01,0.0
+Crying on Eddie Nash's Grave,1994-09-01,0.0
+Crying on Eddie Nash's Grave,1994-10-01,0.0
+Crying on Eddie Nash's Grave,1994-11-01,0.0
+Crying on Eddie Nash's Grave,1994-12-01,0.0
+Crying on Eddie Nash's Grave,1995-02-01,0.0
+Crying on Eddie Nash's Grave,1995-03-01,0.0
+Crying on Eddie Nash's Grave,1995-05-01,0.0
+Crying on Eddie Nash's Grave,1995-06-01,0.0
+Crying on Eddie Nash's Grave,1995-07-01,0.0
+Crying on Eddie Nash's Grave,1995-08-01,0.0
+Crying on Eddie Nash's Grave,1995-09-01,0.0
+Crying on Eddie Nash's Grave,1995-10-01,0.0
+Crying on Eddie Nash's Grave,1995-11-01,0.0
+Crying on Eddie Nash's Grave,1995-12-01,0.0
+Crying on Eddie Nash's Grave,1996-01-01,0.0
+Crying on Eddie Nash's Grave,1996-02-01,0.0
+Crying on Eddie Nash's Grave,1996-03-01,0.0
+Crying on Eddie Nash's Grave,1996-04-01,0.0
+Crying on Eddie Nash's Grave,1996-05-01,0.0
+Crying on Eddie Nash's Grave,1996-06-01,0.0
+Crying on Eddie Nash's Grave,1996-07-01,0.0
+Crying on Eddie Nash's Grave,1996-08-01,0.0
+Crying on Eddie Nash's Grave,1996-09-01,0.0
+Crying on Eddie Nash's Grave,1996-10-01,0.0
+Crying on Eddie Nash's Grave,1996-11-01,0.0
+Crying on Eddie Nash's Grave,1996-12-01,0.0
+Crying on Eddie Nash's Grave,1997-01-01,0.0
+Crying on Eddie Nash's Grave,1997-02-01,0.0
+Crying on Eddie Nash's Grave,1997-03-01,0.0
+Crying on Eddie Nash's Grave,1997-04-01,0.0
+Crying on Eddie Nash's Grave,1997-05-01,0.0
+Crying on Eddie Nash's Grave,1997-06-01,0.0
+Crying on Eddie Nash's Grave,1997-07-01,0.0
+Crying on Eddie Nash's Grave,1997-08-01,0.0
+Crying on Eddie Nash's Grave,1997-09-01,0.0
+Crying on Eddie Nash's Grave,1997-10-01,0.0
+Crying on Eddie Nash's Grave,1997-11-01,0.0
+Crying on Eddie Nash's Grave,1997-12-01,0.0
+Crying on Eddie Nash's Grave,1998-01-01,0.0
+Crying on Eddie Nash's Grave,1998-02-01,0.0
+Crying on Eddie Nash's Grave,1998-03-01,0.0
+Crying on Eddie Nash's Grave,1998-04-01,0.0
+Crying on Eddie Nash's Grave,1998-05-01,0.0
+Crying on Eddie Nash's Grave,1998-06-01,0.0
+Crying on Eddie Nash's Grave,1998-07-01,0.0
+Crying on Eddie Nash's Grave,1998-08-01,0.0
+Crying on Eddie Nash's Grave,1998-09-01,0.0
+Crying on Eddie Nash's Grave,1998-10-01,0.0
+Crying on Eddie Nash's Grave,1998-11-01,0.0
+Crying on Eddie Nash's Grave,1998-12-01,0.0
+Crying on Eddie Nash's Grave,1999-01-01,0.0
+Crying on Eddie Nash's Grave,1999-02-01,0.0
+Crying on Eddie Nash's Grave,1999-03-01,0.0
+Crying on Eddie Nash's Grave,1999-04-01,0.0
+Crying on Eddie Nash's Grave,1999-05-01,0.0
+Crying on Eddie Nash's Grave,1999-06-01,0.0
+Crying on Eddie Nash's Grave,1999-07-01,0.0
+Crying on Eddie Nash's Grave,1999-08-01,0.0
+Crying on Eddie Nash's Grave,1999-09-01,0.0
+Crying on Eddie Nash's Grave,1999-10-01,0.0
+Crying on Eddie Nash's Grave,1999-11-01,0.0
+Crying on Eddie Nash's Grave,1999-12-01,0.0
+Crying on Eddie Nash's Grave,2000-01-01,0.0
+Crying on Eddie Nash's Grave,2000-02-01,0.0
+Crying on Eddie Nash's Grave,2000-03-01,0.0
+Crying on Eddie Nash's Grave,2000-04-01,0.0
+Crying on Eddie Nash's Grave,2000-05-01,0.0
+Crying on Eddie Nash's Grave,2000-06-01,0.0
+Crying on Eddie Nash's Grave,2000-07-01,0.0
+Crying on Eddie Nash's Grave,2000-08-01,0.0
+Crying on Eddie Nash's Grave,2000-09-01,0.0
+Crying on Eddie Nash's Grave,2000-10-01,0.0
+Crying on Eddie Nash's Grave,2000-11-01,0.0
+Crying on Eddie Nash's Grave,2000-12-01,0.0
+Crying on Eddie Nash's Grave,2001-01-01,0.0
+Crying on Eddie Nash's Grave,2001-02-01,0.0
+Crying on Eddie Nash's Grave,2001-03-01,0.0
+Crying on Eddie Nash's Grave,2001-04-01,0.0
+Crying on Eddie Nash's Grave,2001-05-01,0.0
+Crying on Eddie Nash's Grave,2001-06-01,0.0
+Crying on Eddie Nash's Grave,2001-07-01,0.0
+Crying on Eddie Nash's Grave,2001-08-01,0.0
+Crying on Eddie Nash's Grave,2001-09-01,0.0
+Crying on Eddie Nash's Grave,2001-10-01,0.0
+Crying on Eddie Nash's Grave,2001-11-01,0.0
+Crying on Eddie Nash's Grave,2001-12-01,0.0
+Crying on Eddie Nash's Grave,2002-01-01,0.0
+Crying on Eddie Nash's Grave,2002-02-01,0.0
+Crying on Eddie Nash's Grave,2002-03-01,0.0
+Crying on Eddie Nash's Grave,2002-04-01,0.0
+Crying on Eddie Nash's Grave,2002-05-01,0.0
+Crying on Eddie Nash's Grave,2002-06-01,0.0
+Crying on Eddie Nash's Grave,2002-07-01,0.0
+Crying on Eddie Nash's Grave,2002-08-01,0.0
+Crying on Eddie Nash's Grave,2002-09-01,0.0
+Crying on Eddie Nash's Grave,2002-10-01,0.0
+Crying on Eddie Nash's Grave,2002-11-01,0.0
+Crying on Eddie Nash's Grave,2002-12-01,0.0
+Crying on Eddie Nash's Grave,2003-01-01,0.0
+Crying on Eddie Nash's Grave,2003-02-01,0.0
+Crying on Eddie Nash's Grave,2003-03-01,0.0
+Crying on Eddie Nash's Grave,2003-04-01,0.0
+Crying on Eddie Nash's Grave,2003-05-01,0.0
+Crying on Eddie Nash's Grave,2003-06-01,0.0
+Crying on Eddie Nash's Grave,2003-07-01,0.0
+Crying on Eddie Nash's Grave,2003-08-01,0.0
+Crying on Eddie Nash's Grave,2003-09-01,0.0
+Crying on Eddie Nash's Grave,2003-10-01,0.0
+Crying on Eddie Nash's Grave,2003-11-01,0.0
+Crying on Eddie Nash's Grave,2003-12-01,0.0
+Crying on Eddie Nash's Grave,2004-01-01,0.0
+Crying on Eddie Nash's Grave,2004-02-01,0.0
+Crying on Eddie Nash's Grave,2004-03-01,0.0
+Crying on Eddie Nash's Grave,2004-04-01,0.0
+Crying on Eddie Nash's Grave,2004-05-01,0.0
+Crying on Eddie Nash's Grave,2004-06-01,0.0
+Crying on Eddie Nash's Grave,2004-07-01,0.0
+Crying on Eddie Nash's Grave,2004-08-01,0.0
+Crying on Eddie Nash's Grave,2004-09-01,0.0
+Crying on Eddie Nash's Grave,2004-10-01,0.0
+Crying on Eddie Nash's Grave,2004-11-01,0.0
+Crying on Eddie Nash's Grave,2004-12-01,0.0
+Crying on Eddie Nash's Grave,2005-01-01,0.0
+Crying on Eddie Nash's Grave,2005-02-01,0.0
+Crying on Eddie Nash's Grave,2005-03-01,0.0
+Crying on Eddie Nash's Grave,2005-04-01,0.0
+Crying on Eddie Nash's Grave,2005-05-01,0.0
+Crying on Eddie Nash's Grave,2005-06-01,0.0
+Crying on Eddie Nash's Grave,2005-07-01,0.0
+Crying on Eddie Nash's Grave,2005-08-01,0.0
+Crying on Eddie Nash's Grave,2005-09-01,0.0
+Crying on Eddie Nash's Grave,2005-10-01,0.0
+Crying on Eddie Nash's Grave,2005-11-01,0.0
+Crying on Eddie Nash's Grave,2005-12-01,0.0
+Crying on Eddie Nash's Grave,2006-01-01,0.0
+Crying on Eddie Nash's Grave,2006-02-01,0.0
+Crying on Eddie Nash's Grave,2006-03-01,0.0
+Crying on Eddie Nash's Grave,2006-04-01,0.0
+Crying on Eddie Nash's Grave,2006-05-01,0.0
+Crying on Eddie Nash's Grave,2006-06-01,0.0
+Crying on Eddie Nash's Grave,2006-07-01,0.0
+Crying on Eddie Nash's Grave,2006-08-01,0.0
+Crying on Eddie Nash's Grave,2006-09-01,0.0
+Crying on Eddie Nash's Grave,2006-10-01,0.0
+Crying on Eddie Nash's Grave,2006-11-01,0.0
+Crying on Eddie Nash's Grave,2006-12-01,0.0
+Crying on Eddie Nash's Grave,2007-01-01,0.0
+Crying on Eddie Nash's Grave,2007-02-01,0.0
+Crying on Eddie Nash's Grave,2007-03-01,0.0
+Crying on Eddie Nash's Grave,2007-04-01,0.0
+Crying on Eddie Nash's Grave,2007-05-01,0.0
+Crying on Eddie Nash's Grave,2007-06-01,0.0
+Crying on Eddie Nash's Grave,2007-07-01,0.0
+Crying on Eddie Nash's Grave,2007-08-01,0.0
+Crying on Eddie Nash's Grave,2007-09-01,0.0
+Crying on Eddie Nash's Grave,2007-10-01,0.0
+Crying on Eddie Nash's Grave,2007-11-01,0.0
+Crying on Eddie Nash's Grave,2007-12-01,0.0
+Crying on Eddie Nash's Grave,2008-01-01,0.0
+Crying on Eddie Nash's Grave,2008-02-01,0.0
+Crying on Eddie Nash's Grave,2008-03-01,0.0
+Crying on Eddie Nash's Grave,2008-04-01,0.0
+Crying on Eddie Nash's Grave,2008-05-01,0.0
+Crying on Eddie Nash's Grave,2008-06-01,0.0
+Crying on Eddie Nash's Grave,2008-07-01,0.0
+Crying on Eddie Nash's Grave,2008-08-01,0.0
+Crying on Eddie Nash's Grave,2008-09-01,0.0
+Crying on Eddie Nash's Grave,2008-10-01,0.0
+Crying on Eddie Nash's Grave,2008-11-01,0.0
+Crying on Eddie Nash's Grave,2008-12-01,0.0
+Crying on Eddie Nash's Grave,2009-01-01,0.0
+Crying on Eddie Nash's Grave,2009-02-01,0.0
+Crying on Eddie Nash's Grave,2009-03-01,0.0
+Crying on Eddie Nash's Grave,2009-04-01,0.0
+Crying on Eddie Nash's Grave,2009-05-01,0.0
+Crying on Eddie Nash's Grave,2009-06-01,0.0
+Crying on Eddie Nash's Grave,2009-07-01,0.0
+Crying on Eddie Nash's Grave,2009-08-01,0.0
+Crying on Eddie Nash's Grave,2009-09-01,0.0
+Crying on Eddie Nash's Grave,2009-10-01,0.0
+Crying on Eddie Nash's Grave,2009-11-01,0.0
+Crying on Eddie Nash's Grave,2009-12-01,0.0
+Crying on Eddie Nash's Grave,2010-01-01,0.0
+Crying on Eddie Nash's Grave,2010-02-01,0.0
+Crying on Eddie Nash's Grave,2010-03-01,0.0
+Crying on Eddie Nash's Grave,2010-04-01,0.0
+Crying on Eddie Nash's Grave,2010-05-01,0.0
+Crying on Eddie Nash's Grave,2010-06-01,0.0
+Crying on Eddie Nash's Grave,2010-07-01,0.0
+Crying on Eddie Nash's Grave,2010-08-01,0.0
+Crying on Eddie Nash's Grave,2010-09-01,0.0
+Crying on Eddie Nash's Grave,2010-10-01,0.0
+Crying on Eddie Nash's Grave,2010-11-01,0.0
+Crying on Eddie Nash's Grave,2010-12-01,0.0
+Crying on Eddie Nash's Grave,2011-01-01,0.0
+Crying on Eddie Nash's Grave,2011-02-01,0.0
+Crying on Eddie Nash's Grave,2011-03-01,0.0
+Crying on Eddie Nash's Grave,2011-04-01,0.0
+Crying on Eddie Nash's Grave,2011-05-01,0.0
+Crying on Eddie Nash's Grave,2011-06-01,0.0
+Crying on Eddie Nash's Grave,2011-07-01,0.0
+Crying on Eddie Nash's Grave,2011-08-01,0.0
+Crying on Eddie Nash's Grave,2011-09-01,0.0
+Crying on Eddie Nash's Grave,2011-10-01,0.0
+Crying on Eddie Nash's Grave,2011-11-01,0.0
+Crying on Eddie Nash's Grave,2011-12-01,0.0
+Crying on Eddie Nash's Grave,2012-01-01,0.0
+Crying on Eddie Nash's Grave,2012-02-01,0.0
+Crying on Eddie Nash's Grave,2012-03-01,0.0
+Crying on Eddie Nash's Grave,2012-04-01,0.0
+Crying on Eddie Nash's Grave,2012-05-01,0.0
+Crying on Eddie Nash's Grave,2012-06-01,0.0
+Crying on Eddie Nash's Grave,2012-07-01,0.0
+Crying on Eddie Nash's Grave,2012-08-01,0.0
+Crying on Eddie Nash's Grave,2012-09-01,0.0
+Crying on Eddie Nash's Grave,2012-10-01,0.0
+Crying on Eddie Nash's Grave,2012-11-01,0.0
+Crying on Eddie Nash's Grave,2012-12-01,0.0
+Crying on Eddie Nash's Grave,2013-01-01,0.0
+Crying on Eddie Nash's Grave,2013-02-01,0.0
+Crying on Eddie Nash's Grave,2013-03-01,0.0
+Crying on Eddie Nash's Grave,2013-04-01,0.0
+Crying on Eddie Nash's Grave,2013-05-01,0.0
+Crying on Eddie Nash's Grave,2013-06-01,0.0
+Crying on Eddie Nash's Grave,2013-07-01,0.0
+Crying on Eddie Nash's Grave,2013-08-01,0.0
+Crying on Eddie Nash's Grave,2013-09-01,0.0
+Crying on Eddie Nash's Grave,2013-10-01,0.0
+Crying on Eddie Nash's Grave,2013-11-01,0.0
+Crying on Eddie Nash's Grave,2013-12-01,0.0
+Crying on Eddie Nash's Grave,2014-01-01,0.0
+Crying on Eddie Nash's Grave,2014-02-01,0.0
+Crying on Eddie Nash's Grave,2014-03-01,0.0
+Crying on Eddie Nash's Grave,2014-04-01,0.0
+Crying on Eddie Nash's Grave,2014-05-01,0.0
+Crying on Eddie Nash's Grave,2014-06-01,0.0
+Crying on Eddie Nash's Grave,2014-07-01,0.0
+Crying on Eddie Nash's Grave,2014-08-01,0.0
+Crying on Eddie Nash's Grave,2014-09-01,0.0
+Crying on Eddie Nash's Grave,2014-10-01,0.0
+Crying on Eddie Nash's Grave,2014-11-01,0.0
+Crying on Eddie Nash's Grave,2014-12-01,0.0
+Crying on Eddie Nash's Grave,2015-01-01,0.0
+Crying on Eddie Nash's Grave,2015-02-01,0.0
+Crying on Eddie Nash's Grave,2015-03-01,0.0
+Crying on Eddie Nash's Grave,2015-04-01,0.0
+Crying on Eddie Nash's Grave,2015-05-01,0.0
+Crying on Eddie Nash's Grave,2015-06-01,0.0
+Crying on Eddie Nash's Grave,2015-07-01,0.0
+Crying on Eddie Nash's Grave,2015-08-01,0.0
+Crying on Eddie Nash's Grave,2015-09-01,0.0
+Crying on Eddie Nash's Grave,2015-10-01,0.0
+Crying on Eddie Nash's Grave,2015-11-01,0.0
+Crying on Eddie Nash's Grave,2015-12-01,0.0
+Crying on Eddie Nash's Grave,2016-01-01,0.0
+Crying on Eddie Nash's Grave,2016-02-01,0.0
+Crying on Eddie Nash's Grave,2016-03-01,0.0
+Crying on Eddie Nash's Grave,2016-04-01,0.0
+Crying on Eddie Nash's Grave,2016-05-01,0.0
+Crying on Eddie Nash's Grave,2016-06-01,0.0
+Crying on Eddie Nash's Grave,2016-07-01,0.0
+Crying on Eddie Nash's Grave,2016-08-01,0.0
+Crying on Eddie Nash's Grave,2016-09-01,0.0
+Crying on Eddie Nash's Grave,2016-10-01,0.0
+Crying on Eddie Nash's Grave,2016-11-01,0.0
+Crying on Eddie Nash's Grave,2016-12-01,0.0
+Crying on Eddie Nash's Grave,2017-01-01,0.0
+Crying on Eddie Nash's Grave,2017-02-01,0.0
+Crying on Eddie Nash's Grave,2017-03-01,0.0
+Crying on Eddie Nash's Grave,2017-04-01,0.0
+Crying on Eddie Nash's Grave,2017-05-01,0.0
+Crying on Eddie Nash's Grave,2017-06-01,0.0
+Crying on Eddie Nash's Grave,2017-07-01,0.0
+Crying on Eddie Nash's Grave,2017-08-01,0.0
+Crying on Eddie Nash's Grave,2017-09-01,0.0
+Crying on Eddie Nash's Grave,2017-10-01,0.0
+Crying on Eddie Nash's Grave,2017-11-01,0.0
+Crying on Eddie Nash's Grave,2017-12-01,0.0
+Crying on Eddie Nash's Grave,2018-01-01,0.0
+Crying on Eddie Nash's Grave,2018-02-01,0.0
+Crying on Eddie Nash's Grave,2018-03-01,0.0
+Crying on Eddie Nash's Grave,2018-04-01,0.0
+Crying on Eddie Nash's Grave,2018-05-01,0.0
+Crying on Eddie Nash's Grave,2018-06-01,0.0
+Crying on Eddie Nash's Grave,2018-07-01,0.0
+Crying on Eddie Nash's Grave,2018-08-01,0.0
+Crying on Eddie Nash's Grave,2018-09-01,0.0
+Crying on Eddie Nash's Grave,2018-10-01,0.0
+Crying on Eddie Nash's Grave,2018-11-01,0.0
+Crying on Eddie Nash's Grave,2018-12-01,0.0
+Crying on Eddie Nash's Grave,2019-01-01,0.0
+Crying on Eddie Nash's Grave,2019-02-01,0.0
+Crying on Eddie Nash's Grave,2019-03-01,0.0
+Crying on Eddie Nash's Grave,2019-04-01,0.0
+Crying on Eddie Nash's Grave,2019-05-01,0.0
+Crying on Eddie Nash's Grave,2019-06-01,0.0
+Crying on Eddie Nash's Grave,2019-07-01,0.0
+Crying on Eddie Nash's Grave,2019-08-01,0.0
+Crying on Eddie Nash's Grave,2019-09-01,0.0
+Crying on Eddie Nash's Grave,2019-10-01,0.0
+Crying on Eddie Nash's Grave,2019-11-01,0.0
+Crying on Eddie Nash's Grave,2019-12-01,0.0
+Crying on Eddie Nash's Grave,2020-01-01,0.0
+Crying on Eddie Nash's Grave,2020-02-01,0.0
+Crying on Eddie Nash's Grave,2020-03-01,0.0
+Crying on Eddie Nash's Grave,2020-04-01,0.0
+Crying on Eddie Nash's Grave,2020-05-01,0.0
+Crying on Eddie Nash's Grave,2020-06-01,0.0
+Crying on Eddie Nash's Grave,2020-07-01,0.0
+Crying on Eddie Nash's Grave,2020-08-01,0.0
+Crying on Eddie Nash's Grave,2020-09-01,0.0
+Crying on Eddie Nash's Grave,2020-10-01,0.0
+Crying on Eddie Nash's Grave,2020-11-01,0.0
+Crying on Eddie Nash's Grave,2020-12-01,0.0
+Crying on Eddie Nash's Grave,2021-01-01,0.0
+Crying on Eddie Nash's Grave,2021-02-01,0.0
+Crying on Eddie Nash's Grave,2021-03-01,0.0
+Crying on Eddie Nash's Grave,2021-04-01,0.0
+Crying on Eddie Nash's Grave,2021-05-01,0.0
+Crying on Eddie Nash's Grave,2021-06-01,0.0
+Crying on Eddie Nash's Grave,2021-07-01,0.0
+Crying on Eddie Nash's Grave,2021-08-01,0.0
+Crying on Eddie Nash's Grave,2021-09-01,0.0
+Crying on Eddie Nash's Grave,2021-10-01,0.0
+Crying on Eddie Nash's Grave,2021-11-01,0.0
+Crying on Eddie Nash's Grave,2021-12-01,0.0
+Crying on Eddie Nash's Grave,2022-01-01,0.0
+Crying on Eddie Nash's Grave,2022-02-01,0.0
+Crying on Eddie Nash's Grave,2022-03-01,0.0
+Crying on Eddie Nash's Grave,2022-04-01,0.0
+Crying on Eddie Nash's Grave,2022-05-01,0.0
+Crying on Eddie Nash's Grave,2022-06-01,0.0
+Crying on Eddie Nash's Grave,2022-07-01,0.0
+Crying on Eddie Nash's Grave,2022-08-01,0.0
+Crying on Eddie Nash's Grave,2022-09-01,0.0
+Crying on Eddie Nash's Grave,2022-10-01,0.0
+Crying on Eddie Nash's Grave,2022-11-01,0.0
+Crying on Eddie Nash's Grave,2022-12-01,0.0
+Crying on Eddie Nash's Grave,2023-01-01,0.0
+Crying on Eddie Nash's Grave,2023-02-01,0.0
+Crying on Eddie Nash's Grave,2023-03-01,0.0
+Crying on Eddie Nash's Grave,2023-04-01,0.0
+Crying on Eddie Nash's Grave,2023-05-01,0.0
+Crying on Eddie Nash's Grave,2023-06-01,0.0
+Crying on Eddie Nash's Grave,2023-07-01,0.0
+Crying on Eddie Nash's Grave,2023-08-01,0.0
+Crying on Eddie Nash's Grave,2023-09-01,0.0
+Crying on Eddie Nash's Grave,2023-10-01,0.0
+Crying on Eddie Nash's Grave,2023-11-01,0.0
+Crying on Eddie Nash's Grave,2023-12-01,0.0
+Crying on Eddie Nash's Grave,2024-01-01,0.0
+Crying on Eddie Nash's Grave,2024-02-01,0.0
+Crying on Eddie Nash's Grave,2024-03-01,0.0
+Crying on Eddie Nash's Grave,2024-04-01,0.0
+Crying on Eddie Nash's Grave,2024-05-01,0.0
+Crying on Eddie Nash's Grave,2024-06-01,0.0
+Crying on Eddie Nash's Grave,2024-07-01,0.0
+Crying on Eddie Nash's Grave,2024-08-01,0.0
+Crying on Eddie Nash's Grave,2024-09-01,0.0
+Crying on Eddie Nash's Grave,2024-10-01,0.0
+Crying on Eddie Nash's Grave,2024-11-01,0.0
+Crying on Eddie Nash's Grave,2024-12-01,0.0
+Crying on Eddie Nash's Grave,2025-01-01,0.0
+Crying on Eddie Nash's Grave,2025-02-01,0.0
+Crying on Eddie Nash's Grave,2025-03-01,0.0
+Crying on Eddie Nash's Grave,2025-04-01,0.0
+Crying on Eddie Nash's Grave,2025-05-01,0.0
+Crying on Eddie Nash's Grave,2025-06-01,0.0
+Crying on Eddie Nash's Grave,2025-07-01,0.0
+Crying on Eddie Nash's Grave,2025-08-01,0.0
+Crying on Eddie Nash's Grave,2025-09-01,0.0
+Crying on Eddie Nash's Grave,2025-10-01,0.0
+Crying on Eddie Nash's Grave,2025-11-01,0.0
+Crying on Eddie Nash's Grave,2025-12-01,0.0
+Crying on Eddie Nash's Grave,2026-01-01,0.0
+Crying on Eddie Nash's Grave,2026-02-01,0.0
+Crying on Eddie Nash's Grave,2026-03-01,0.0
+Crying on Eddie Nash's Grave,2026-04-01,0.0
+Crying on Eddie Nash's Grave,2026-05-01,0.0
+Crying on Eddie Nash's Grave,2026-06-01,0.0
+Crying on Eddie Nash's Grave,2026-07-01,0.0
+Crying on Eddie Nash's Grave,2026-08-01,0.0
+Crying on Eddie Nash's Grave,2026-08-09,0.029411764705882353
 Cubs in Five,1993-01-01,0.0
 Cubs in Five,1993-02-01,0.0
 Cubs in Five,1993-03-01,0.0
@@ -38686,7 +39089,7 @@ Cutter,2026-05-01,0.01
 Cutter,2026-06-01,0.018518518518518517
 Cutter,2026-07-01,0.018018018018018018
 Cutter,2026-08-01,0.009523809523809525
-Cutter,2026-08-09,0.009900990099009901
+Cutter,2026-08-09,0.00980392156862745
 Damn These Vampires,1993-01-01,0.0
 Damn These Vampires,1993-02-01,0.0
 Damn These Vampires,1993-03-01,0.0
@@ -39089,7 +39492,7 @@ Damn These Vampires,2026-05-01,0.12
 Damn These Vampires,2026-06-01,0.18518518518518517
 Damn These Vampires,2026-07-01,0.18018018018018017
 Damn These Vampires,2026-08-01,0.18095238095238095
-Damn These Vampires,2026-08-09,0.18811881188118812
+Damn These Vampires,2026-08-09,0.18627450980392157
 Dance Music,1993-01-01,0.0
 Dance Music,1993-02-01,0.0
 Dance Music,1993-03-01,0.0
@@ -39492,7 +39895,7 @@ Dance Music,2026-05-01,0.29
 Dance Music,2026-06-01,0.28703703703703703
 Dance Music,2026-07-01,0.27927927927927926
 Dance Music,2026-08-01,0.2857142857142857
-Dance Music,2026-08-09,0.2871287128712871
+Dance Music,2026-08-09,0.28431372549019607
 Dark as a Dungeon,1993-01-01,0.0
 Dark as a Dungeon,1993-02-01,0.0
 Dark as a Dungeon,1993-03-01,0.0
@@ -39895,7 +40298,7 @@ Dark as a Dungeon,2026-05-01,0.01
 Dark as a Dungeon,2026-06-01,0.009259259259259259
 Dark as a Dungeon,2026-07-01,0.009009009009009009
 Dark as a Dungeon,2026-08-01,0.009523809523809525
-Dark as a Dungeon,2026-08-09,0.009900990099009901
+Dark as a Dungeon,2026-08-09,0.00980392156862745
 Dark in Here (song),1993-01-01,0.0
 Dark in Here (song),1993-02-01,0.0
 Dark in Here (song),1993-03-01,0.0
@@ -40298,7 +40701,7 @@ Dark in Here (song),2026-05-01,0.1
 Dark in Here (song),2026-06-01,0.037037037037037035
 Dark in Here (song),2026-07-01,0.036036036036036036
 Dark in Here (song),2026-08-01,0.02857142857142857
-Dark in Here (song),2026-08-09,0.009900990099009901
+Dark in Here (song),2026-08-09,0.00980392156862745
 Dawn of Revelation,1993-01-01,0.0
 Dawn of Revelation,1993-02-01,0.0
 Dawn of Revelation,1993-03-01,0.0
@@ -40701,7 +41104,7 @@ Dawn of Revelation,2026-05-01,0.09
 Dawn of Revelation,2026-06-01,0.19444444444444445
 Dawn of Revelation,2026-07-01,0.1981981981981982
 Dawn of Revelation,2026-08-01,0.20952380952380953
-Dawn of Revelation,2026-08-09,0.21782178217821782
+Dawn of Revelation,2026-08-09,0.21568627450980393
 Deianara Crush,1993-01-01,0.0
 Deianara Crush,1993-02-01,0.0
 Deianara Crush,1993-03-01,0.0
@@ -41507,7 +41910,7 @@ Design Your Own Container Garden,2026-05-01,0.01
 Design Your Own Container Garden,2026-06-01,0.009259259259259259
 Design Your Own Container Garden,2026-07-01,0.009009009009009009
 Design Your Own Container Garden,2026-08-01,0.009523809523809525
-Design Your Own Container Garden,2026-08-09,0.009900990099009901
+Design Your Own Container Garden,2026-08-09,0.00980392156862745
 Deuteronomy 2:10,1993-01-01,0.0
 Deuteronomy 2:10,1993-02-01,0.0
 Deuteronomy 2:10,1993-03-01,0.0
@@ -41910,7 +42313,7 @@ Deuteronomy 2:10,2026-05-01,0.01
 Deuteronomy 2:10,2026-06-01,0.009259259259259259
 Deuteronomy 2:10,2026-07-01,0.009009009009009009
 Deuteronomy 2:10,2026-08-01,0.009523809523809525
-Deuteronomy 2:10,2026-08-09,0.009900990099009901
+Deuteronomy 2:10,2026-08-09,0.00980392156862745
 Dilaudid,1993-01-01,0.0
 Dilaudid,1993-02-01,0.0
 Dilaudid,1993-03-01,0.0
@@ -42313,7 +42716,7 @@ Dilaudid,2026-05-01,0.01
 Dilaudid,2026-06-01,0.009259259259259259
 Dilaudid,2026-07-01,0.009009009009009009
 Dilaudid,2026-08-01,0.009523809523809525
-Dilaudid,2026-08-09,0.009900990099009901
+Dilaudid,2026-08-09,0.00980392156862745
 Dinu Lipatti's Bones,1993-01-01,0.0
 Dinu Lipatti's Bones,1993-02-01,0.0
 Dinu Lipatti's Bones,1993-03-01,0.0
@@ -43119,7 +43522,7 @@ Distant Stations,2026-05-01,0.0
 Distant Stations,2026-06-01,0.009259259259259259
 Distant Stations,2026-07-01,0.009009009009009009
 Distant Stations,2026-08-01,0.009523809523809525
-Distant Stations,2026-08-09,0.009900990099009901
+Distant Stations,2026-08-09,0.00980392156862745
 Doc Gooden,1993-01-01,0.0
 Doc Gooden,1993-02-01,0.0
 Doc Gooden,1993-03-01,0.0
@@ -43522,7 +43925,7 @@ Doc Gooden,2026-05-01,0.16
 Doc Gooden,2026-06-01,0.14814814814814814
 Doc Gooden,2026-07-01,0.14414414414414414
 Doc Gooden,2026-08-01,0.1523809523809524
-Doc Gooden,2026-08-09,0.15841584158415842
+Doc Gooden,2026-08-09,0.1568627450980392
 Doctor Wu,1993-01-01,0.0
 Doctor Wu,1993-02-01,0.0
 Doctor Wu,1993-03-01,0.0
@@ -44731,7 +45134,7 @@ Done Bleeding,2026-05-01,0.0
 Done Bleeding,2026-06-01,0.0
 Done Bleeding,2026-07-01,0.0
 Done Bleeding,2026-08-01,0.0
-Done Bleeding,2026-08-09,0.019801980198019802
+Done Bleeding,2026-08-09,0.0196078431372549
 Down Here,1993-01-01,0.0
 Down Here,1993-02-01,0.0
 Down Here,1993-03-01,0.0
@@ -45134,7 +45537,7 @@ Down Here,2026-05-01,0.0
 Down Here,2026-06-01,0.009259259259259259
 Down Here,2026-07-01,0.009009009009009009
 Down Here,2026-08-01,0.009523809523809525
-Down Here,2026-08-09,0.009900990099009901
+Down Here,2026-08-09,0.00980392156862745
 Downtown Seoul,1993-01-01,0.0
 Downtown Seoul,1993-02-01,0.0
 Downtown Seoul,1993-03-01,0.0
@@ -46343,7 +46746,7 @@ Duke Ellington,2026-05-01,0.02
 Duke Ellington,2026-06-01,0.018518518518518517
 Duke Ellington,2026-07-01,0.018018018018018018
 Duke Ellington,2026-08-01,0.01904761904761905
-Duke Ellington,2026-08-09,0.019801980198019802
+Duke Ellington,2026-08-09,0.0196078431372549
 Dutch Orchestra Blues,1993-01-01,0.0
 Dutch Orchestra Blues,1993-02-01,0.0
 Dutch Orchestra Blues,1993-03-01,0.0
@@ -46746,7 +47149,7 @@ Dutch Orchestra Blues,2026-05-01,0.11
 Dutch Orchestra Blues,2026-06-01,0.10185185185185185
 Dutch Orchestra Blues,2026-07-01,0.0990990990990991
 Dutch Orchestra Blues,2026-08-01,0.09523809523809523
-Dutch Orchestra Blues,2026-08-09,0.0594059405940594
+Dutch Orchestra Blues,2026-08-09,0.058823529411764705
 Earth Air Water Trees,1993-01-01,0.0
 Earth Air Water Trees,1993-02-01,0.0
 Earth Air Water Trees,1993-03-01,0.0
@@ -47955,7 +48358,7 @@ Elijah,2026-05-01,0.23
 Elijah,2026-06-01,0.2037037037037037
 Elijah,2026-07-01,0.1981981981981982
 Elijah,2026-08-01,0.20952380952380953
-Elijah,2026-08-09,0.21782178217821782
+Elijah,2026-08-09,0.21568627450980393
 Emerging,1993-01-01,0.0
 Emerging,1993-02-01,0.0
 Emerging,1993-03-01,0.0
@@ -51582,7 +51985,7 @@ Fall of the Star High School Running Back,2026-05-01,0.01
 Fall of the Star High School Running Back,2026-06-01,0.009259259259259259
 Fall of the Star High School Running Back,2026-07-01,0.009009009009009009
 Fall of the Star High School Running Back,2026-08-01,0.009523809523809525
-Fall of the Star High School Running Back,2026-08-09,0.009900990099009901
+Fall of the Star High School Running Back,2026-08-09,0.00980392156862745
 Family Happiness,1993-01-01,0.0
 Family Happiness,1993-02-01,0.0
 Family Happiness,1993-03-01,0.0
@@ -52388,7 +52791,7 @@ Fault Lines,2026-05-01,0.0
 Fault Lines,2026-06-01,0.009259259259259259
 Fault Lines,2026-07-01,0.009009009009009009
 Fault Lines,2026-08-01,0.009523809523809525
-Fault Lines,2026-08-09,0.009900990099009901
+Fault Lines,2026-08-09,0.00980392156862745
 Feed This End,1993-01-01,0.125
 Feed This End,1993-02-01,0.125
 Feed This End,1993-03-01,0.125
@@ -53597,7 +54000,7 @@ First Blood,2026-05-01,0.3
 First Blood,2026-06-01,0.32407407407407407
 First Blood,2026-07-01,0.32432432432432434
 First Blood,2026-08-01,0.3238095238095238
-First Blood,2026-08-09,0.33663366336633666
+First Blood,2026-08-09,0.3333333333333333
 First Few Desperate Hours,1993-01-01,0.0
 First Few Desperate Hours,1993-02-01,0.0
 First Few Desperate Hours,1993-03-01,0.0
@@ -54403,7 +54806,7 @@ Fishing Boat,2026-05-01,0.13
 Fishing Boat,2026-06-01,0.23148148148148148
 Fishing Boat,2026-07-01,0.22522522522522523
 Fishing Boat,2026-08-01,0.23809523809523808
-Fishing Boat,2026-08-09,0.24752475247524752
+Fishing Boat,2026-08-09,0.24509803921568626
 For Charles Bronson,1993-01-01,0.0
 For Charles Bronson,1993-02-01,0.0
 For Charles Bronson,1993-03-01,0.0
@@ -55209,7 +55612,7 @@ For the Krishnacore Bands,2026-05-01,0.02
 For the Krishnacore Bands,2026-06-01,0.018518518518518517
 For the Krishnacore Bands,2026-07-01,0.018018018018018018
 For the Krishnacore Bands,2026-08-01,0.01904761904761905
-For the Krishnacore Bands,2026-08-09,0.019801980198019802
+For the Krishnacore Bands,2026-08-09,0.0196078431372549
 For the Portuguese Goth Metal Bands,1993-01-01,0.0
 For the Portuguese Goth Metal Bands,1993-02-01,0.0
 For the Portuguese Goth Metal Bands,1993-03-01,0.0
@@ -55612,7 +56015,7 @@ For the Portuguese Goth Metal Bands,2026-05-01,0.0
 For the Portuguese Goth Metal Bands,2026-06-01,0.08333333333333333
 For the Portuguese Goth Metal Bands,2026-07-01,0.08108108108108109
 For the Portuguese Goth Metal Bands,2026-08-01,0.08571428571428572
-For the Portuguese Goth Metal Bands,2026-08-09,0.0891089108910891
+For the Portuguese Goth Metal Bands,2026-08-09,0.08823529411764706
 Foreign Object,1993-01-01,0.0
 Foreign Object,1993-02-01,0.0
 Foreign Object,1993-03-01,0.0
@@ -56015,7 +56418,7 @@ Foreign Object,2026-05-01,0.05
 Foreign Object,2026-06-01,0.046296296296296294
 Foreign Object,2026-07-01,0.04504504504504504
 Foreign Object,2026-08-01,0.009523809523809525
-Foreign Object,2026-08-09,0.009900990099009901
+Foreign Object,2026-08-09,0.00980392156862745
 Fortune Came Today,1993-01-01,0.0
 Fortune Came Today,1993-02-01,0.0
 Fortune Came Today,1993-03-01,0.0
@@ -57224,7 +57627,7 @@ Fresh Tattoo,2026-05-01,0.32
 Fresh Tattoo,2026-06-01,0.24074074074074073
 Fresh Tattoo,2026-07-01,0.23423423423423423
 Fresh Tattoo,2026-08-01,0.19047619047619047
-Fresh Tattoo,2026-08-09,0.13861386138613863
+Fresh Tattoo,2026-08-09,0.13725490196078433
 Friend of the Devil,1993-01-01,0.0
 Friend of the Devil,1993-02-01,0.0
 Friend of the Devil,1993-03-01,0.0
@@ -57627,7 +58030,7 @@ Friend of the Devil,2026-05-01,0.0
 Friend of the Devil,2026-06-01,0.009259259259259259
 Friend of the Devil,2026-07-01,0.009009009009009009
 Friend of the Devil,2026-08-01,0.009523809523809525
-Friend of the Devil,2026-08-09,0.009900990099009901
+Friend of the Devil,2026-08-09,0.00980392156862745
 From TG&Y,1993-01-01,0.0
 From TG&Y,1993-02-01,0.0
 From TG&Y,1993-03-01,0.0
@@ -58030,7 +58433,7 @@ From TG&Y,2026-05-01,0.01
 From TG&Y,2026-06-01,0.018518518518518517
 From TG&Y,2026-07-01,0.018018018018018018
 From TG&Y,2026-08-01,0.01904761904761905
-From TG&Y,2026-08-09,0.019801980198019802
+From TG&Y,2026-08-09,0.0196078431372549
 From the Nebraska Plant,1993-01-01,0.0
 From the Nebraska Plant,1993-02-01,0.0
 From the Nebraska Plant,1993-03-01,0.0
@@ -59642,7 +60045,7 @@ Game Shows Touch Our Lives,2026-05-01,0.0
 Game Shows Touch Our Lives,2026-06-01,0.009259259259259259
 Game Shows Touch Our Lives,2026-07-01,0.009009009009009009
 Game Shows Touch Our Lives,2026-08-01,0.009523809523809525
-Game Shows Touch Our Lives,2026-08-09,0.009900990099009901
+Game Shows Touch Our Lives,2026-08-09,0.00980392156862745
 Genesis 19:1-2,1993-01-01,0.0
 Genesis 19:1-2,1993-02-01,0.0
 Genesis 19:1-2,1993-03-01,0.0
@@ -60045,7 +60448,7 @@ Genesis 19:1-2,2026-05-01,0.01
 Genesis 19:1-2,2026-06-01,0.009259259259259259
 Genesis 19:1-2,2026-07-01,0.009009009009009009
 Genesis 19:1-2,2026-08-01,0.009523809523809525
-Genesis 19:1-2,2026-08-09,0.009900990099009901
+Genesis 19:1-2,2026-08-09,0.00980392156862745
 Genesis 30:3,1993-01-01,0.0
 Genesis 30:3,1993-02-01,0.0
 Genesis 30:3,1993-03-01,0.0
@@ -60851,7 +61254,7 @@ Genesis 3:23,2026-05-01,0.0
 Genesis 3:23,2026-06-01,0.027777777777777776
 Genesis 3:23,2026-07-01,0.036036036036036036
 Genesis 3:23,2026-08-01,0.0380952380952381
-Genesis 3:23,2026-08-09,0.039603960396039604
+Genesis 3:23,2026-08-09,0.0392156862745098
 Get Famous,1993-01-01,0.0
 Get Famous,1993-02-01,0.0
 Get Famous,1993-03-01,0.0
@@ -62060,7 +62463,7 @@ Getting Into Knives (song),2026-05-01,0.07
 Getting Into Knives (song),2026-06-01,0.06481481481481481
 Getting Into Knives (song),2026-07-01,0.06306306306306306
 Getting Into Knives (song),2026-08-01,0.06666666666666667
-Getting Into Knives (song),2026-08-09,0.06930693069306931
+Getting Into Knives (song),2026-08-09,0.06862745098039216
 Ghosts,1993-01-01,0.0
 Ghosts,1993-02-01,0.0
 Ghosts,1993-03-01,0.0
@@ -62463,7 +62866,7 @@ Ghosts,2026-05-01,0.01
 Ghosts,2026-06-01,0.009259259259259259
 Ghosts,2026-07-01,0.009009009009009009
 Ghosts,2026-08-01,0.009523809523809525
-Ghosts,2026-08-09,0.009900990099009901
+Ghosts,2026-08-09,0.00980392156862745
 Going Invisible 2,1993-01-01,0.0
 Going Invisible 2,1993-02-01,0.0
 Going Invisible 2,1993-03-01,0.0
@@ -62866,7 +63269,7 @@ Going Invisible 2,2026-05-01,0.03
 Going Invisible 2,2026-06-01,0.027777777777777776
 Going Invisible 2,2026-07-01,0.02702702702702703
 Going Invisible 2,2026-08-01,0.02857142857142857
-Going Invisible 2,2026-08-09,0.0297029702970297
+Going Invisible 2,2026-08-09,0.029411764705882353
 Going to Alaska,1993-01-01,0.0
 Going to Alaska,1993-02-01,0.0
 Going to Alaska,1993-03-01,0.0
@@ -63269,7 +63672,7 @@ Going to Alaska,2026-05-01,0.01
 Going to Alaska,2026-06-01,0.009259259259259259
 Going to Alaska,2026-07-01,0.009009009009009009
 Going to Alaska,2026-08-01,0.009523809523809525
-Going to Alaska,2026-08-09,0.009900990099009901
+Going to Alaska,2026-08-09,0.00980392156862745
 Going to Bogotá,1993-01-01,0.0
 Going to Bogotá,1993-02-01,0.0
 Going to Bogotá,1993-03-01,0.0
@@ -63672,7 +64075,7 @@ Going to Bogotá,2026-05-01,0.08
 Going to Bogotá,2026-06-01,0.07407407407407407
 Going to Bogotá,2026-07-01,0.07207207207207207
 Going to Bogotá,2026-08-01,0.0761904761904762
-Going to Bogotá,2026-08-09,0.07920792079207921
+Going to Bogotá,2026-08-09,0.0784313725490196
 Going to Bolivia,1993-01-01,0.0
 Going to Bolivia,1993-02-01,0.0
 Going to Bolivia,1993-03-01,0.0
@@ -65687,7 +66090,7 @@ Going to Cleveland,2026-05-01,0.01
 Going to Cleveland,2026-06-01,0.009259259259259259
 Going to Cleveland,2026-07-01,0.009009009009009009
 Going to Cleveland,2026-08-01,0.009523809523809525
-Going to Cleveland,2026-08-09,0.009900990099009901
+Going to Cleveland,2026-08-09,0.00980392156862745
 Going to Dade County,1993-01-01,0.0
 Going to Dade County,1993-02-01,0.0
 Going to Dade County,1993-03-01,0.0
@@ -66493,7 +66896,7 @@ Going to Georgia,2026-05-01,0.01
 Going to Georgia,2026-06-01,0.009259259259259259
 Going to Georgia,2026-07-01,0.018018018018018018
 Going to Georgia,2026-08-01,0.01904761904761905
-Going to Georgia,2026-08-09,0.019801980198019802
+Going to Georgia,2026-08-09,0.0196078431372549
 Going to Jamaica,1993-01-01,0.0
 Going to Jamaica,1993-02-01,0.0
 Going to Jamaica,1993-03-01,0.0
@@ -66896,7 +67299,7 @@ Going to Jamaica,2026-05-01,0.01
 Going to Jamaica,2026-06-01,0.009259259259259259
 Going to Jamaica,2026-07-01,0.009009009009009009
 Going to Jamaica,2026-08-01,0.009523809523809525
-Going to Jamaica,2026-08-09,0.009900990099009901
+Going to Jamaica,2026-08-09,0.00980392156862745
 Going to Kansas,1993-01-01,0.125
 Going to Kansas,1993-02-01,0.125
 Going to Kansas,1993-03-01,0.125
@@ -70523,7 +70926,7 @@ Going to Michigan,2026-05-01,0.0
 Going to Michigan,2026-06-01,0.009259259259259259
 Going to Michigan,2026-07-01,0.009009009009009009
 Going to Michigan,2026-08-01,0.009523809523809525
-Going to Michigan,2026-08-09,0.009900990099009901
+Going to Michigan,2026-08-09,0.00980392156862745
 Going to Monaco,1993-01-01,0.0
 Going to Monaco,1993-02-01,0.0
 Going to Monaco,1993-03-01,0.0
@@ -71732,7 +72135,7 @@ Going to Palestine,2026-05-01,0.07
 Going to Palestine,2026-06-01,0.06481481481481481
 Going to Palestine,2026-07-01,0.06306306306306306
 Going to Palestine,2026-08-01,0.0380952380952381
-Going to Palestine,2026-08-09,0.039603960396039604
+Going to Palestine,2026-08-09,0.0392156862745098
 Going to Port Washington,1993-01-01,0.0
 Going to Port Washington,1993-02-01,0.0
 Going to Port Washington,1993-03-01,0.0
@@ -72135,7 +72538,7 @@ Going to Port Washington,2026-05-01,0.01
 Going to Port Washington,2026-06-01,0.018518518518518517
 Going to Port Washington,2026-07-01,0.018018018018018018
 Going to Port Washington,2026-08-01,0.01904761904761905
-Going to Port Washington,2026-08-09,0.019801980198019802
+Going to Port Washington,2026-08-09,0.0196078431372549
 Going to Queens,1993-01-01,0.0
 Going to Queens,1993-02-01,0.0
 Going to Queens,1993-03-01,0.0
@@ -72538,7 +72941,7 @@ Going to Queens,2026-05-01,0.03
 Going to Queens,2026-06-01,0.027777777777777776
 Going to Queens,2026-07-01,0.02702702702702703
 Going to Queens,2026-08-01,0.01904761904761905
-Going to Queens,2026-08-09,0.019801980198019802
+Going to Queens,2026-08-09,0.0196078431372549
 Going to Reykjavik,1993-01-01,0.0
 Going to Reykjavik,1993-02-01,0.0
 Going to Reykjavik,1993-03-01,0.0
@@ -73344,7 +73747,7 @@ Going to Scotland,2026-05-01,0.01
 Going to Scotland,2026-06-01,0.009259259259259259
 Going to Scotland,2026-07-01,0.009009009009009009
 Going to Scotland,2026-08-01,0.009523809523809525
-Going to Scotland,2026-08-09,0.009900990099009901
+Going to Scotland,2026-08-09,0.00980392156862745
 Going to Utrecht,1993-01-01,0.0
 Going to Utrecht,1993-02-01,0.0
 Going to Utrecht,1993-03-01,0.0
@@ -74553,7 +74956,7 @@ Good Morning to All Vultures,2026-05-01,0.0
 Good Morning to All Vultures,2026-06-01,0.009259259259259259
 Good Morning to All Vultures,2026-07-01,0.009009009009009009
 Good Morning to All Vultures,2026-08-01,0.009523809523809525
-Good Morning to All Vultures,2026-08-09,0.009900990099009901
+Good Morning to All Vultures,2026-08-09,0.00980392156862745
 Gravedigger,1993-01-01,0.0
 Gravedigger,1993-02-01,0.0
 Gravedigger,1993-03-01,0.0
@@ -75359,7 +75762,7 @@ Great Pirates,2026-05-01,0.29
 Great Pirates,2026-06-01,0.26851851851851855
 Great Pirates,2026-07-01,0.26126126126126126
 Great Pirates,2026-08-01,0.2761904761904762
-Great Pirates,2026-08-09,0.2871287128712871
+Great Pirates,2026-08-09,0.28431372549019607
 Green Olives,1993-01-01,0.0
 Green Olives,1993-02-01,0.0
 Green Olives,1993-03-01,0.0
@@ -76165,7 +76568,7 @@ Grendel's Mother,2026-05-01,0.09
 Grendel's Mother,2026-06-01,0.08333333333333333
 Grendel's Mother,2026-07-01,0.08108108108108109
 Grendel's Mother,2026-08-01,0.0761904761904762
-Grendel's Mother,2026-08-09,0.06930693069306931
+Grendel's Mother,2026-08-09,0.06862745098039216
 Guys on Every Corner,1993-01-01,0.0
 Guys on Every Corner,1993-02-01,0.0
 Guys on Every Corner,1993-03-01,0.0
@@ -76971,7 +77374,7 @@ Hair Match,2026-05-01,0.01
 Hair Match,2026-06-01,0.009259259259259259
 Hair Match,2026-07-01,0.009009009009009009
 Hair Match,2026-08-01,0.009523809523809525
-Hair Match,2026-08-09,0.009900990099009901
+Hair Match,2026-08-09,0.00980392156862745
 Half Dead,1993-01-01,0.0
 Half Dead,1993-02-01,0.0
 Half Dead,1993-03-01,0.0
@@ -78986,7 +79389,7 @@ Harlem Roulette,2026-05-01,0.11
 Harlem Roulette,2026-06-01,0.2037037037037037
 Harlem Roulette,2026-07-01,0.22522522522522523
 Harlem Roulette,2026-08-01,0.23809523809523808
-Harlem Roulette,2026-08-09,0.24752475247524752
+Harlem Roulette,2026-08-09,0.24509803921568626
 Hast Thou Considered the Tetrapod,1993-01-01,0.0
 Hast Thou Considered the Tetrapod,1993-02-01,0.0
 Hast Thou Considered the Tetrapod,1993-03-01,0.0
@@ -79389,7 +79792,7 @@ Hast Thou Considered the Tetrapod,2026-05-01,0.19
 Hast Thou Considered the Tetrapod,2026-06-01,0.16666666666666666
 Hast Thou Considered the Tetrapod,2026-07-01,0.16216216216216217
 Hast Thou Considered the Tetrapod,2026-08-01,0.1523809523809524
-Hast Thou Considered the Tetrapod,2026-08-09,0.12871287128712872
+Hast Thou Considered the Tetrapod,2026-08-09,0.12745098039215685
 Have to Explode,1993-01-01,0.0
 Have to Explode,1993-02-01,0.0
 Have to Explode,1993-03-01,0.0
@@ -79792,7 +80195,7 @@ Have to Explode,2026-05-01,0.02
 Have to Explode,2026-06-01,0.018518518518518517
 Have to Explode,2026-07-01,0.018018018018018018
 Have to Explode,2026-08-01,0.01904761904761905
-Have to Explode,2026-08-09,0.019801980198019802
+Have to Explode,2026-08-09,0.0196078431372549
 Heartland Feeling,1993-01-01,0.0
 Heartland Feeling,1993-02-01,0.0
 Heartland Feeling,1993-03-01,0.0
@@ -80598,7 +81001,7 @@ Hebrews 11:40,2026-05-01,0.02
 Hebrews 11:40,2026-06-01,0.018518518518518517
 Hebrews 11:40,2026-07-01,0.018018018018018018
 Hebrews 11:40,2026-08-01,0.01904761904761905
-Hebrews 11:40,2026-08-09,0.019801980198019802
+Hebrews 11:40,2026-08-09,0.0196078431372549
 Heel Turn 1,1993-01-01,0.0
 Heel Turn 1,1993-02-01,0.0
 Heel Turn 1,1993-03-01,0.0
@@ -81001,7 +81404,7 @@ Heel Turn 1,2026-05-01,0.02
 Heel Turn 1,2026-06-01,0.018518518518518517
 Heel Turn 1,2026-07-01,0.018018018018018018
 Heel Turn 1,2026-08-01,0.01904761904761905
-Heel Turn 1,2026-08-09,0.019801980198019802
+Heel Turn 1,2026-08-09,0.0196078431372549
 Heel Turn 2,1993-01-01,0.0
 Heel Turn 2,1993-02-01,0.0
 Heel Turn 2,1993-03-01,0.0
@@ -81404,7 +81807,7 @@ Heel Turn 2,2026-05-01,0.16
 Heel Turn 2,2026-06-01,0.12962962962962962
 Heel Turn 2,2026-07-01,0.12612612612612611
 Heel Turn 2,2026-08-01,0.0761904761904762
-Heel Turn 2,2026-08-09,0.0594059405940594
+Heel Turn 2,2026-08-09,0.058823529411764705
 Hellhound on My Trail,1993-01-01,0.0
 Hellhound on My Trail,1993-02-01,0.0
 Hellhound on My Trail,1993-03-01,0.0
@@ -82210,7 +82613,7 @@ Hello Sarah,2026-05-01,0.01
 Hello Sarah,2026-06-01,0.018518518518518517
 Hello Sarah,2026-07-01,0.018018018018018018
 Hello Sarah,2026-08-01,0.01904761904761905
-Hello Sarah,2026-08-09,0.019801980198019802
+Hello Sarah,2026-08-09,0.0196078431372549
 "Hello, Old Rabbit",1993-01-01,0.0
 "Hello, Old Rabbit",1993-02-01,0.0
 "Hello, Old Rabbit",1993-03-01,0.0
@@ -83016,7 +83419,7 @@ Here I Am,2026-05-01,0.01
 Here I Am,2026-06-01,0.009259259259259259
 Here I Am,2026-07-01,0.009009009009009009
 Here I Am,2026-08-01,0.009523809523809525
-Here I Am,2026-08-09,0.009900990099009901
+Here I Am,2026-08-09,0.00980392156862745
 Heretic Pride (Song),1993-01-01,0.0
 Heretic Pride (Song),1993-02-01,0.0
 Heretic Pride (Song),1993-03-01,0.0
@@ -83419,7 +83822,7 @@ Heretic Pride (Song),2026-05-01,0.32
 Heretic Pride (Song),2026-06-01,0.3055555555555556
 Heretic Pride (Song),2026-07-01,0.2972972972972973
 Heretic Pride (Song),2026-08-01,0.3142857142857143
-Heretic Pride (Song),2026-08-09,0.32673267326732675
+Heretic Pride (Song),2026-08-09,0.3235294117647059
 High Hawk Season,1993-01-01,0.0
 High Hawk Season,1993-02-01,0.0
 High Hawk Season,1993-03-01,0.0
@@ -85031,7 +85434,7 @@ Horseradish Road,2026-05-01,0.02
 Horseradish Road,2026-06-01,0.027777777777777776
 Horseradish Road,2026-07-01,0.02702702702702703
 Horseradish Road,2026-08-01,0.02857142857142857
-Horseradish Road,2026-08-09,0.0297029702970297
+Horseradish Road,2026-08-09,0.029411764705882353
 Hostages,1993-01-01,0.0
 Hostages,1993-02-01,0.0
 Hostages,1993-03-01,0.0
@@ -86643,7 +87046,7 @@ How to Embrace a Swamp Creature,2026-05-01,0.04
 How to Embrace a Swamp Creature,2026-06-01,0.037037037037037035
 How to Embrace a Swamp Creature,2026-07-01,0.036036036036036036
 How to Embrace a Swamp Creature,2026-08-01,0.0380952380952381
-How to Embrace a Swamp Creature,2026-08-09,0.039603960396039604
+How to Embrace a Swamp Creature,2026-08-09,0.0392156862745098
 I Corinthians 13: 8-10,1993-01-01,0.0
 I Corinthians 13: 8-10,1993-02-01,0.0
 I Corinthians 13: 8-10,1993-03-01,0.0
@@ -89867,7 +90270,7 @@ I've Got the Sex,2026-08-09,0.0
 "Ice Cream, Cobra Man",2026-06-01,0.018518518518518517
 "Ice Cream, Cobra Man",2026-07-01,0.018018018018018018
 "Ice Cream, Cobra Man",2026-08-01,0.01904761904761905
-"Ice Cream, Cobra Man",2026-08-09,0.019801980198019802
+"Ice Cream, Cobra Man",2026-08-09,0.0196078431372549
 Idylls of the King,1993-01-01,0.0
 Idylls of the King,1993-02-01,0.0
 Idylls of the King,1993-03-01,0.0
@@ -90270,7 +90673,7 @@ Idylls of the King,2026-05-01,0.22
 Idylls of the King,2026-06-01,0.2037037037037037
 Idylls of the King,2026-07-01,0.1981981981981982
 Idylls of the King,2026-08-01,0.20952380952380953
-Idylls of the King,2026-08-09,0.21782178217821782
+Idylls of the King,2026-08-09,0.21568627450980393
 Idylls of the Kings,1993-01-01,0.0
 Idylls of the Kings,1993-02-01,0.0
 Idylls of the Kings,1993-03-01,0.0
@@ -92285,7 +92688,7 @@ In League with Dragons (song),2026-05-01,0.06
 In League with Dragons (song),2026-06-01,0.05555555555555555
 In League with Dragons (song),2026-07-01,0.05405405405405406
 In League with Dragons (song),2026-08-01,0.05714285714285714
-In League with Dragons (song),2026-08-09,0.0594059405940594
+In League with Dragons (song),2026-08-09,0.058823529411764705
 In Memory of Satan,1993-01-01,0.0
 In Memory of Satan,1993-02-01,0.0
 In Memory of Satan,1993-03-01,0.0
@@ -92688,7 +93091,7 @@ In Memory of Satan,2026-05-01,0.14
 In Memory of Satan,2026-06-01,0.12962962962962962
 In Memory of Satan,2026-07-01,0.12612612612612611
 In Memory of Satan,2026-08-01,0.13333333333333333
-In Memory of Satan,2026-08-09,0.10891089108910891
+In Memory of Satan,2026-08-09,0.10784313725490197
 In the Cane Fields,1993-01-01,0.25
 In the Cane Fields,1993-02-01,0.25
 In the Cane Fields,1993-03-01,0.25
@@ -93494,7 +93897,7 @@ In the Craters on the Moon,2026-05-01,0.01
 In the Craters on the Moon,2026-06-01,0.009259259259259259
 In the Craters on the Moon,2026-07-01,0.009009009009009009
 In the Craters on the Moon,2026-08-01,0.009523809523809525
-In the Craters on the Moon,2026-08-09,0.009900990099009901
+In the Craters on the Moon,2026-08-09,0.00980392156862745
 In the Hidden Places,1993-01-01,0.0
 In the Hidden Places,1993-02-01,0.0
 In the Hidden Places,1993-03-01,0.0
@@ -93897,7 +94300,7 @@ In the Hidden Places,2026-05-01,0.04
 In the Hidden Places,2026-06-01,0.037037037037037035
 In the Hidden Places,2026-07-01,0.036036036036036036
 In the Hidden Places,2026-08-01,0.0380952380952381
-In the Hidden Places,2026-08-09,0.039603960396039604
+In the Hidden Places,2026-08-09,0.0392156862745098
 In the Shadow of the Western Hills,1993-01-01,0.0
 In the Shadow of the Western Hills,1993-02-01,0.0
 In the Shadow of the Western Hills,1993-03-01,0.0
@@ -94703,7 +95106,7 @@ Incandescent Ruins,2026-05-01,0.15
 Incandescent Ruins,2026-06-01,0.12962962962962962
 Incandescent Ruins,2026-07-01,0.12612612612612611
 Incandescent Ruins,2026-08-01,0.13333333333333333
-Incandescent Ruins,2026-08-09,0.0891089108910891
+Incandescent Ruins,2026-08-09,0.08823529411764706
 Infidelity (Song),1993-01-01,0.0
 Infidelity (Song),1993-02-01,0.0
 Infidelity (Song),1993-03-01,0.0
@@ -95912,7 +96315,7 @@ International Small Arms Traffic Blues,2026-05-01,0.09
 International Small Arms Traffic Blues,2026-06-01,0.07407407407407407
 International Small Arms Traffic Blues,2026-07-01,0.07207207207207207
 International Small Arms Traffic Blues,2026-08-01,0.0761904761904762
-International Small Arms Traffic Blues,2026-08-09,0.07920792079207921
+International Small Arms Traffic Blues,2026-08-09,0.0784313725490196
 Isaiah 45:23,1993-01-01,0.0
 Isaiah 45:23,1993-02-01,0.0
 Isaiah 45:23,1993-03-01,0.0
@@ -96315,7 +96718,7 @@ Isaiah 45:23,2026-05-01,0.0
 Isaiah 45:23,2026-06-01,0.009259259259259259
 Isaiah 45:23,2026-07-01,0.009009009009009009
 Isaiah 45:23,2026-08-01,0.009523809523809525
-Isaiah 45:23,2026-08-09,0.009900990099009901
+Isaiah 45:23,2026-08-09,0.00980392156862745
 Island Garden Song,1993-01-01,0.0
 Island Garden Song,1993-02-01,0.0
 Island Garden Song,1993-03-01,0.0
@@ -96718,7 +97121,7 @@ Island Garden Song,2026-05-01,0.02
 Island Garden Song,2026-06-01,0.018518518518518517
 Island Garden Song,2026-07-01,0.018018018018018018
 Island Garden Song,2026-08-01,0.01904761904761905
-Island Garden Song,2026-08-09,0.019801980198019802
+Island Garden Song,2026-08-09,0.0196078431372549
 It Froze Me,1993-01-01,0.0
 It Froze Me,1993-02-01,0.0
 It Froze Me,1993-03-01,0.0
@@ -97121,7 +97524,7 @@ It Froze Me,2026-05-01,0.02
 It Froze Me,2026-06-01,0.018518518518518517
 It Froze Me,2026-07-01,0.018018018018018018
 It Froze Me,2026-08-01,0.009523809523809525
-It Froze Me,2026-08-09,0.009900990099009901
+It Froze Me,2026-08-09,0.00980392156862745
 It's All Here in Brownsville,1993-01-01,0.0
 It's All Here in Brownsville,1993-02-01,0.0
 It's All Here in Brownsville,1993-03-01,0.0
@@ -98330,7 +98733,7 @@ Jaipur,2026-05-01,0.01
 Jaipur,2026-06-01,0.009259259259259259
 Jaipur,2026-07-01,0.009009009009009009
 Jaipur,2026-08-01,0.009523809523809525
-Jaipur,2026-08-09,0.009900990099009901
+Jaipur,2026-08-09,0.00980392156862745
 Jam Eater Blues (Song),1993-01-01,0.0
 Jam Eater Blues (Song),1993-02-01,0.0
 Jam Eater Blues (Song),1993-03-01,0.0
@@ -98733,7 +99136,7 @@ Jam Eater Blues (Song),2026-05-01,0.01
 Jam Eater Blues (Song),2026-06-01,0.009259259259259259
 Jam Eater Blues (Song),2026-07-01,0.009009009009009009
 Jam Eater Blues (Song),2026-08-01,0.009523809523809525
-Jam Eater Blues (Song),2026-08-09,0.009900990099009901
+Jam Eater Blues (Song),2026-08-09,0.00980392156862745
 Jeff Davis County Blues,1993-01-01,0.0
 Jeff Davis County Blues,1993-02-01,0.0
 Jeff Davis County Blues,1993-03-01,0.0
@@ -99539,7 +99942,7 @@ Jenny,2026-05-01,0.01
 Jenny,2026-06-01,0.009259259259259259
 Jenny,2026-07-01,0.018018018018018018
 Jenny,2026-08-01,0.01904761904761905
-Jenny,2026-08-09,0.019801980198019802
+Jenny,2026-08-09,0.0196078431372549
 Jenny III,1993-01-01,0.0
 Jenny III,1993-02-01,0.0
 Jenny III,1993-03-01,0.0
@@ -101151,7 +101554,410 @@ Lakeside View Apartments Suite,2026-05-01,0.23
 Lakeside View Apartments Suite,2026-06-01,0.23148148148148148
 Lakeside View Apartments Suite,2026-07-01,0.22522522522522523
 Lakeside View Apartments Suite,2026-08-01,0.24761904761904763
-Lakeside View Apartments Suite,2026-08-09,0.25742574257425743
+Lakeside View Apartments Suite,2026-08-09,0.2549019607843137
+Last Day,1993-01-01,0.0
+Last Day,1993-02-01,0.0
+Last Day,1993-03-01,0.0
+Last Day,1993-04-01,0.0
+Last Day,1993-05-01,0.0
+Last Day,1993-06-01,0.0
+Last Day,1993-07-01,0.0
+Last Day,1993-08-01,0.0
+Last Day,1993-09-01,0.0
+Last Day,1993-10-01,0.0
+Last Day,1993-11-01,0.0
+Last Day,1993-12-01,0.0
+Last Day,1994-01-01,0.0
+Last Day,1994-02-01,0.0
+Last Day,1994-03-01,0.0
+Last Day,1994-04-01,0.0
+Last Day,1994-05-01,0.0
+Last Day,1994-06-01,0.0
+Last Day,1994-07-01,0.0
+Last Day,1994-08-01,0.0
+Last Day,1994-09-01,0.0
+Last Day,1994-10-01,0.0
+Last Day,1994-11-01,0.0
+Last Day,1994-12-01,0.0
+Last Day,1995-02-01,0.0
+Last Day,1995-03-01,0.0
+Last Day,1995-05-01,0.0
+Last Day,1995-06-01,0.0
+Last Day,1995-07-01,0.0
+Last Day,1995-08-01,0.0
+Last Day,1995-09-01,0.0
+Last Day,1995-10-01,0.0
+Last Day,1995-11-01,0.0
+Last Day,1995-12-01,0.0
+Last Day,1996-01-01,0.0
+Last Day,1996-02-01,0.0
+Last Day,1996-03-01,0.0
+Last Day,1996-04-01,0.0
+Last Day,1996-05-01,0.0
+Last Day,1996-06-01,0.0
+Last Day,1996-07-01,0.0
+Last Day,1996-08-01,0.0
+Last Day,1996-09-01,0.0
+Last Day,1996-10-01,0.0
+Last Day,1996-11-01,0.0
+Last Day,1996-12-01,0.0
+Last Day,1997-01-01,0.0
+Last Day,1997-02-01,0.0
+Last Day,1997-03-01,0.0
+Last Day,1997-04-01,0.0
+Last Day,1997-05-01,0.0
+Last Day,1997-06-01,0.0
+Last Day,1997-07-01,0.0
+Last Day,1997-08-01,0.0
+Last Day,1997-09-01,0.0
+Last Day,1997-10-01,0.0
+Last Day,1997-11-01,0.0
+Last Day,1997-12-01,0.0
+Last Day,1998-01-01,0.0
+Last Day,1998-02-01,0.0
+Last Day,1998-03-01,0.0
+Last Day,1998-04-01,0.0
+Last Day,1998-05-01,0.0
+Last Day,1998-06-01,0.0
+Last Day,1998-07-01,0.0
+Last Day,1998-08-01,0.0
+Last Day,1998-09-01,0.0
+Last Day,1998-10-01,0.0
+Last Day,1998-11-01,0.0
+Last Day,1998-12-01,0.0
+Last Day,1999-01-01,0.0
+Last Day,1999-02-01,0.0
+Last Day,1999-03-01,0.0
+Last Day,1999-04-01,0.0
+Last Day,1999-05-01,0.0
+Last Day,1999-06-01,0.0
+Last Day,1999-07-01,0.0
+Last Day,1999-08-01,0.0
+Last Day,1999-09-01,0.0
+Last Day,1999-10-01,0.0
+Last Day,1999-11-01,0.0
+Last Day,1999-12-01,0.0
+Last Day,2000-01-01,0.0
+Last Day,2000-02-01,0.0
+Last Day,2000-03-01,0.0
+Last Day,2000-04-01,0.0
+Last Day,2000-05-01,0.0
+Last Day,2000-06-01,0.0
+Last Day,2000-07-01,0.0
+Last Day,2000-08-01,0.0
+Last Day,2000-09-01,0.0
+Last Day,2000-10-01,0.0
+Last Day,2000-11-01,0.0
+Last Day,2000-12-01,0.0
+Last Day,2001-01-01,0.0
+Last Day,2001-02-01,0.0
+Last Day,2001-03-01,0.0
+Last Day,2001-04-01,0.0
+Last Day,2001-05-01,0.0
+Last Day,2001-06-01,0.0
+Last Day,2001-07-01,0.0
+Last Day,2001-08-01,0.0
+Last Day,2001-09-01,0.0
+Last Day,2001-10-01,0.0
+Last Day,2001-11-01,0.0
+Last Day,2001-12-01,0.0
+Last Day,2002-01-01,0.0
+Last Day,2002-02-01,0.0
+Last Day,2002-03-01,0.0
+Last Day,2002-04-01,0.0
+Last Day,2002-05-01,0.0
+Last Day,2002-06-01,0.0
+Last Day,2002-07-01,0.0
+Last Day,2002-08-01,0.0
+Last Day,2002-09-01,0.0
+Last Day,2002-10-01,0.0
+Last Day,2002-11-01,0.0
+Last Day,2002-12-01,0.0
+Last Day,2003-01-01,0.0
+Last Day,2003-02-01,0.0
+Last Day,2003-03-01,0.0
+Last Day,2003-04-01,0.0
+Last Day,2003-05-01,0.0
+Last Day,2003-06-01,0.0
+Last Day,2003-07-01,0.0
+Last Day,2003-08-01,0.0
+Last Day,2003-09-01,0.0
+Last Day,2003-10-01,0.0
+Last Day,2003-11-01,0.0
+Last Day,2003-12-01,0.0
+Last Day,2004-01-01,0.0
+Last Day,2004-02-01,0.0
+Last Day,2004-03-01,0.0
+Last Day,2004-04-01,0.0
+Last Day,2004-05-01,0.0
+Last Day,2004-06-01,0.0
+Last Day,2004-07-01,0.0
+Last Day,2004-08-01,0.0
+Last Day,2004-09-01,0.0
+Last Day,2004-10-01,0.0
+Last Day,2004-11-01,0.0
+Last Day,2004-12-01,0.0
+Last Day,2005-01-01,0.0
+Last Day,2005-02-01,0.0
+Last Day,2005-03-01,0.0
+Last Day,2005-04-01,0.0
+Last Day,2005-05-01,0.0
+Last Day,2005-06-01,0.0
+Last Day,2005-07-01,0.0
+Last Day,2005-08-01,0.0
+Last Day,2005-09-01,0.0
+Last Day,2005-10-01,0.0
+Last Day,2005-11-01,0.0
+Last Day,2005-12-01,0.0
+Last Day,2006-01-01,0.0
+Last Day,2006-02-01,0.0
+Last Day,2006-03-01,0.0
+Last Day,2006-04-01,0.0
+Last Day,2006-05-01,0.0
+Last Day,2006-06-01,0.0
+Last Day,2006-07-01,0.0
+Last Day,2006-08-01,0.0
+Last Day,2006-09-01,0.0
+Last Day,2006-10-01,0.0
+Last Day,2006-11-01,0.0
+Last Day,2006-12-01,0.0
+Last Day,2007-01-01,0.0
+Last Day,2007-02-01,0.0
+Last Day,2007-03-01,0.0
+Last Day,2007-04-01,0.0
+Last Day,2007-05-01,0.0
+Last Day,2007-06-01,0.0
+Last Day,2007-07-01,0.0
+Last Day,2007-08-01,0.0
+Last Day,2007-09-01,0.0
+Last Day,2007-10-01,0.0
+Last Day,2007-11-01,0.0
+Last Day,2007-12-01,0.0
+Last Day,2008-01-01,0.0
+Last Day,2008-02-01,0.0
+Last Day,2008-03-01,0.0
+Last Day,2008-04-01,0.0
+Last Day,2008-05-01,0.0
+Last Day,2008-06-01,0.0
+Last Day,2008-07-01,0.0
+Last Day,2008-08-01,0.0
+Last Day,2008-09-01,0.0
+Last Day,2008-10-01,0.0
+Last Day,2008-11-01,0.0
+Last Day,2008-12-01,0.0
+Last Day,2009-01-01,0.0
+Last Day,2009-02-01,0.0
+Last Day,2009-03-01,0.0
+Last Day,2009-04-01,0.0
+Last Day,2009-05-01,0.0
+Last Day,2009-06-01,0.0
+Last Day,2009-07-01,0.0
+Last Day,2009-08-01,0.0
+Last Day,2009-09-01,0.0
+Last Day,2009-10-01,0.0
+Last Day,2009-11-01,0.0
+Last Day,2009-12-01,0.0
+Last Day,2010-01-01,0.0
+Last Day,2010-02-01,0.0
+Last Day,2010-03-01,0.0
+Last Day,2010-04-01,0.0
+Last Day,2010-05-01,0.0
+Last Day,2010-06-01,0.0
+Last Day,2010-07-01,0.0
+Last Day,2010-08-01,0.0
+Last Day,2010-09-01,0.0
+Last Day,2010-10-01,0.0
+Last Day,2010-11-01,0.0
+Last Day,2010-12-01,0.0
+Last Day,2011-01-01,0.0
+Last Day,2011-02-01,0.0
+Last Day,2011-03-01,0.0
+Last Day,2011-04-01,0.0
+Last Day,2011-05-01,0.0
+Last Day,2011-06-01,0.0
+Last Day,2011-07-01,0.0
+Last Day,2011-08-01,0.0
+Last Day,2011-09-01,0.0
+Last Day,2011-10-01,0.0
+Last Day,2011-11-01,0.0
+Last Day,2011-12-01,0.0
+Last Day,2012-01-01,0.0
+Last Day,2012-02-01,0.0
+Last Day,2012-03-01,0.0
+Last Day,2012-04-01,0.0
+Last Day,2012-05-01,0.0
+Last Day,2012-06-01,0.0
+Last Day,2012-07-01,0.0
+Last Day,2012-08-01,0.0
+Last Day,2012-09-01,0.0
+Last Day,2012-10-01,0.0
+Last Day,2012-11-01,0.0
+Last Day,2012-12-01,0.0
+Last Day,2013-01-01,0.0
+Last Day,2013-02-01,0.0
+Last Day,2013-03-01,0.0
+Last Day,2013-04-01,0.0
+Last Day,2013-05-01,0.0
+Last Day,2013-06-01,0.0
+Last Day,2013-07-01,0.0
+Last Day,2013-08-01,0.0
+Last Day,2013-09-01,0.0
+Last Day,2013-10-01,0.0
+Last Day,2013-11-01,0.0
+Last Day,2013-12-01,0.0
+Last Day,2014-01-01,0.0
+Last Day,2014-02-01,0.0
+Last Day,2014-03-01,0.0
+Last Day,2014-04-01,0.0
+Last Day,2014-05-01,0.0
+Last Day,2014-06-01,0.0
+Last Day,2014-07-01,0.0
+Last Day,2014-08-01,0.0
+Last Day,2014-09-01,0.0
+Last Day,2014-10-01,0.0
+Last Day,2014-11-01,0.0
+Last Day,2014-12-01,0.0
+Last Day,2015-01-01,0.0
+Last Day,2015-02-01,0.0
+Last Day,2015-03-01,0.0
+Last Day,2015-04-01,0.0
+Last Day,2015-05-01,0.0
+Last Day,2015-06-01,0.0
+Last Day,2015-07-01,0.0
+Last Day,2015-08-01,0.0
+Last Day,2015-09-01,0.0
+Last Day,2015-10-01,0.0
+Last Day,2015-11-01,0.0
+Last Day,2015-12-01,0.0
+Last Day,2016-01-01,0.0
+Last Day,2016-02-01,0.0
+Last Day,2016-03-01,0.0
+Last Day,2016-04-01,0.0
+Last Day,2016-05-01,0.0
+Last Day,2016-06-01,0.0
+Last Day,2016-07-01,0.0
+Last Day,2016-08-01,0.0
+Last Day,2016-09-01,0.0
+Last Day,2016-10-01,0.0
+Last Day,2016-11-01,0.0
+Last Day,2016-12-01,0.0
+Last Day,2017-01-01,0.0
+Last Day,2017-02-01,0.0
+Last Day,2017-03-01,0.0
+Last Day,2017-04-01,0.0
+Last Day,2017-05-01,0.0
+Last Day,2017-06-01,0.0
+Last Day,2017-07-01,0.0
+Last Day,2017-08-01,0.0
+Last Day,2017-09-01,0.0
+Last Day,2017-10-01,0.0
+Last Day,2017-11-01,0.0
+Last Day,2017-12-01,0.0
+Last Day,2018-01-01,0.0
+Last Day,2018-02-01,0.0
+Last Day,2018-03-01,0.0
+Last Day,2018-04-01,0.0
+Last Day,2018-05-01,0.0
+Last Day,2018-06-01,0.0
+Last Day,2018-07-01,0.0
+Last Day,2018-08-01,0.0
+Last Day,2018-09-01,0.0
+Last Day,2018-10-01,0.0
+Last Day,2018-11-01,0.0
+Last Day,2018-12-01,0.0
+Last Day,2019-01-01,0.0
+Last Day,2019-02-01,0.0
+Last Day,2019-03-01,0.0
+Last Day,2019-04-01,0.0
+Last Day,2019-05-01,0.0
+Last Day,2019-06-01,0.0
+Last Day,2019-07-01,0.0
+Last Day,2019-08-01,0.0
+Last Day,2019-09-01,0.0
+Last Day,2019-10-01,0.0
+Last Day,2019-11-01,0.0
+Last Day,2019-12-01,0.0
+Last Day,2020-01-01,0.0
+Last Day,2020-02-01,0.0
+Last Day,2020-03-01,0.0
+Last Day,2020-04-01,0.0
+Last Day,2020-05-01,0.0
+Last Day,2020-06-01,0.0
+Last Day,2020-07-01,0.0
+Last Day,2020-08-01,0.0
+Last Day,2020-09-01,0.0
+Last Day,2020-10-01,0.0
+Last Day,2020-11-01,0.0
+Last Day,2020-12-01,0.0
+Last Day,2021-01-01,0.0
+Last Day,2021-02-01,0.0
+Last Day,2021-03-01,0.0
+Last Day,2021-04-01,0.0
+Last Day,2021-05-01,0.0
+Last Day,2021-06-01,0.0
+Last Day,2021-07-01,0.0
+Last Day,2021-08-01,0.0
+Last Day,2021-09-01,0.0
+Last Day,2021-10-01,0.0
+Last Day,2021-11-01,0.0
+Last Day,2021-12-01,0.0
+Last Day,2022-01-01,0.0
+Last Day,2022-02-01,0.0
+Last Day,2022-03-01,0.0
+Last Day,2022-04-01,0.0
+Last Day,2022-05-01,0.0
+Last Day,2022-06-01,0.0
+Last Day,2022-07-01,0.0
+Last Day,2022-08-01,0.0
+Last Day,2022-09-01,0.0
+Last Day,2022-10-01,0.0
+Last Day,2022-11-01,0.0
+Last Day,2022-12-01,0.0
+Last Day,2023-01-01,0.0
+Last Day,2023-02-01,0.0
+Last Day,2023-03-01,0.0
+Last Day,2023-04-01,0.0
+Last Day,2023-05-01,0.0
+Last Day,2023-06-01,0.0
+Last Day,2023-07-01,0.0
+Last Day,2023-08-01,0.0
+Last Day,2023-09-01,0.0
+Last Day,2023-10-01,0.0
+Last Day,2023-11-01,0.0
+Last Day,2023-12-01,0.0
+Last Day,2024-01-01,0.0
+Last Day,2024-02-01,0.0
+Last Day,2024-03-01,0.0
+Last Day,2024-04-01,0.0
+Last Day,2024-05-01,0.0
+Last Day,2024-06-01,0.0
+Last Day,2024-07-01,0.0
+Last Day,2024-08-01,0.0
+Last Day,2024-09-01,0.0
+Last Day,2024-10-01,0.0
+Last Day,2024-11-01,0.0
+Last Day,2024-12-01,0.0
+Last Day,2025-01-01,0.0
+Last Day,2025-02-01,0.0
+Last Day,2025-03-01,0.0
+Last Day,2025-04-01,0.0
+Last Day,2025-05-01,0.0
+Last Day,2025-06-01,0.0
+Last Day,2025-07-01,0.0
+Last Day,2025-08-01,0.0
+Last Day,2025-09-01,0.0
+Last Day,2025-10-01,0.0
+Last Day,2025-11-01,0.0
+Last Day,2025-12-01,0.0
+Last Day,2026-01-01,0.0
+Last Day,2026-02-01,0.0
+Last Day,2026-03-01,0.0
+Last Day,2026-04-01,0.0
+Last Day,2026-05-01,0.0
+Last Day,2026-06-01,0.0
+Last Day,2026-07-01,0.0
+Last Day,2026-08-01,0.0
+Last Day,2026-08-09,0.029411764705882353
 Last Gasp at Calama,1993-01-01,0.0
 Last Gasp at Calama,1993-02-01,0.0
 Last Gasp at Calama,1993-03-01,0.0
@@ -101957,7 +102763,7 @@ Let Me Bathe in Demonic Light,2026-05-01,0.57
 Let Me Bathe in Demonic Light,2026-06-01,0.5462962962962963
 Let Me Bathe in Demonic Light,2026-07-01,0.5315315315315315
 Let Me Bathe in Demonic Light,2026-08-01,0.5047619047619047
-Let Me Bathe in Demonic Light,2026-08-09,0.504950495049505
+Let Me Bathe in Demonic Light,2026-08-09,0.5
 Letter from Belgium,1993-01-01,0.0
 Letter from Belgium,1993-02-01,0.0
 Letter from Belgium,1993-03-01,0.0
@@ -102360,7 +103166,7 @@ Letter from Belgium,2026-05-01,0.01
 Letter from Belgium,2026-06-01,0.009259259259259259
 Letter from Belgium,2026-07-01,0.009009009009009009
 Letter from Belgium,2026-08-01,0.009523809523809525
-Letter from Belgium,2026-08-09,0.009900990099009901
+Letter from Belgium,2026-08-09,0.00980392156862745
 Letter from Belgium (Song),1993-01-01,0.0
 Letter from Belgium (Song),1993-02-01,0.0
 Letter from Belgium (Song),1993-03-01,0.0
@@ -103166,7 +103972,7 @@ Letter from a Motel,2026-05-01,0.0
 Letter from a Motel,2026-06-01,0.0
 Letter from a Motel,2026-07-01,0.009009009009009009
 Letter from a Motel,2026-08-01,0.009523809523809525
-Letter from a Motel,2026-08-09,0.009900990099009901
+Letter from a Motel,2026-08-09,0.00980392156862745
 Lido Shuffle,1993-01-01,0.0
 Lido Shuffle,1993-02-01,0.0
 Lido Shuffle,1993-03-01,0.0
@@ -103569,7 +104375,7 @@ Lido Shuffle,2026-05-01,0.06
 Lido Shuffle,2026-06-01,0.05555555555555555
 Lido Shuffle,2026-07-01,0.05405405405405406
 Lido Shuffle,2026-08-01,0.05714285714285714
-Lido Shuffle,2026-08-09,0.0594059405940594
+Lido Shuffle,2026-08-09,0.058823529411764705
 Linda Blair Was Born Innocent,1993-01-01,0.0
 Linda Blair Was Born Innocent,1993-02-01,0.0
 Linda Blair Was Born Innocent,1993-03-01,0.0
@@ -104375,7 +105181,7 @@ Lion's Teeth,2026-05-01,0.09
 Lion's Teeth,2026-06-01,0.08333333333333333
 Lion's Teeth,2026-07-01,0.08108108108108109
 Lion's Teeth,2026-08-01,0.08571428571428572
-Lion's Teeth,2026-08-09,0.0891089108910891
+Lion's Teeth,2026-08-09,0.08823529411764706
 Liza Forever Minnelli,1993-01-01,0.0
 Liza Forever Minnelli,1993-02-01,0.0
 Liza Forever Minnelli,1993-03-01,0.0
@@ -105987,7 +106793,7 @@ Love Cuts the Strings,2026-05-01,0.01
 Love Cuts the Strings,2026-06-01,0.009259259259259259
 Love Cuts the Strings,2026-07-01,0.009009009009009009
 Love Cuts the Strings,2026-08-01,0.009523809523809525
-Love Cuts the Strings,2026-08-09,0.009900990099009901
+Love Cuts the Strings,2026-08-09,0.00980392156862745
 Love Hymn to Aphrodite,1993-01-01,0.0
 Love Hymn to Aphrodite,1993-02-01,0.0
 Love Hymn to Aphrodite,1993-03-01,0.0
@@ -106390,7 +107196,7 @@ Love Hymn to Aphrodite,2026-05-01,0.01
 Love Hymn to Aphrodite,2026-06-01,0.009259259259259259
 Love Hymn to Aphrodite,2026-07-01,0.009009009009009009
 Love Hymn to Aphrodite,2026-08-01,0.009523809523809525
-Love Hymn to Aphrodite,2026-08-09,0.009900990099009901
+Love Hymn to Aphrodite,2026-08-09,0.00980392156862745
 Love Love Love,1993-01-01,0.0
 Love Love Love,1993-02-01,0.0
 Love Love Love,1993-03-01,0.0
@@ -106793,7 +107599,7 @@ Love Love Love,2026-05-01,0.02
 Love Love Love,2026-06-01,0.027777777777777776
 Love Love Love,2026-07-01,0.02702702702702703
 Love Love Love,2026-08-01,0.02857142857142857
-Love Love Love,2026-08-09,0.0297029702970297
+Love Love Love,2026-08-09,0.029411764705882353
 Lovecraft in Brooklyn,1993-01-01,0.0
 Lovecraft in Brooklyn,1993-02-01,0.0
 Lovecraft in Brooklyn,1993-03-01,0.0
@@ -107196,7 +108002,7 @@ Lovecraft in Brooklyn,2026-05-01,0.1
 Lovecraft in Brooklyn,2026-06-01,0.037037037037037035
 Lovecraft in Brooklyn,2026-07-01,0.036036036036036036
 Lovecraft in Brooklyn,2026-08-01,0.009523809523809525
-Lovecraft in Brooklyn,2026-08-09,0.009900990099009901
+Lovecraft in Brooklyn,2026-08-09,0.00980392156862745
 Luna,1993-01-01,0.0
 Luna,1993-02-01,0.0
 Luna,1993-03-01,0.0
@@ -107599,7 +108405,7 @@ Luna,2026-05-01,0.09
 Luna,2026-06-01,0.08333333333333333
 Luna,2026-07-01,0.08108108108108109
 Luna,2026-08-01,0.08571428571428572
-Luna,2026-08-09,0.0891089108910891
+Luna,2026-08-09,0.08823529411764706
 Magpie,1993-01-01,0.0
 Magpie,1993-02-01,0.0
 Magpie,1993-03-01,0.0
@@ -110823,7 +111629,7 @@ Maybe Sprout Wings,2026-05-01,0.04
 Maybe Sprout Wings,2026-06-01,0.037037037037037035
 Maybe Sprout Wings,2026-07-01,0.036036036036036036
 Maybe Sprout Wings,2026-08-01,0.0380952380952381
-Maybe Sprout Wings,2026-08-09,0.039603960396039604
+Maybe Sprout Wings,2026-08-09,0.0392156862745098
 Memories,1993-01-01,0.0
 Memories,1993-02-01,0.0
 Memories,1993-03-01,0.0
@@ -111629,7 +112435,7 @@ Michael Myers Resplendent,2026-05-01,0.03
 Michael Myers Resplendent,2026-06-01,0.037037037037037035
 Michael Myers Resplendent,2026-07-01,0.036036036036036036
 Michael Myers Resplendent,2026-08-01,0.0380952380952381
-Michael Myers Resplendent,2026-08-09,0.039603960396039604
+Michael Myers Resplendent,2026-08-09,0.0392156862745098
 Milk Song,1993-01-01,0.0
 Milk Song,1993-02-01,0.0
 Milk Song,1993-03-01,0.0
@@ -112435,7 +113241,7 @@ Minnesota,2026-05-01,0.01
 Minnesota,2026-06-01,0.009259259259259259
 Minnesota,2026-07-01,0.009009009009009009
 Minnesota,2026-08-01,0.009523809523809525
-Minnesota,2026-08-09,0.009900990099009901
+Minnesota,2026-08-09,0.00980392156862745
 Mobile,1993-01-01,0.0
 Mobile,1993-02-01,0.0
 Mobile,1993-03-01,0.0
@@ -112838,7 +113644,7 @@ Mobile,2026-05-01,0.06
 Mobile,2026-06-01,0.05555555555555555
 Mobile,2026-07-01,0.05405405405405406
 Mobile,2026-08-01,0.047619047619047616
-Mobile,2026-08-09,0.04950495049504951
+Mobile,2026-08-09,0.049019607843137254
 Mole,1993-01-01,0.0
 Mole,1993-02-01,0.0
 Mole,1993-03-01,0.0
@@ -113644,7 +114450,7 @@ Moon Over Goldsboro,2026-05-01,0.39
 Moon Over Goldsboro,2026-06-01,0.37037037037037035
 Moon Over Goldsboro,2026-07-01,0.36036036036036034
 Moon Over Goldsboro,2026-08-01,0.3904761904761905
-Moon Over Goldsboro,2026-08-09,0.40594059405940597
+Moon Over Goldsboro,2026-08-09,0.4019607843137255
 Mosquito Repellent,1993-01-01,0.0
 Mosquito Repellent,1993-02-01,0.0
 Mosquito Repellent,1993-03-01,0.0
@@ -115256,7 +116062,7 @@ My Favorite Things,2026-05-01,0.01
 My Favorite Things,2026-06-01,0.009259259259259259
 My Favorite Things,2026-07-01,0.009009009009009009
 My Favorite Things,2026-08-01,0.009523809523809525
-My Favorite Things,2026-08-09,0.009900990099009901
+My Favorite Things,2026-08-09,0.00980392156862745
 Narakaloka,1993-01-01,0.0
 Narakaloka,1993-02-01,0.0
 Narakaloka,1993-03-01,0.0
@@ -115659,7 +116465,7 @@ Narakaloka,2026-05-01,0.02
 Narakaloka,2026-06-01,0.018518518518518517
 Narakaloka,2026-07-01,0.018018018018018018
 Narakaloka,2026-08-01,0.01904761904761905
-Narakaloka,2026-08-09,0.019801980198019802
+Narakaloka,2026-08-09,0.0196078431372549
 Need More Bandages,1993-01-01,0.0
 Need More Bandages,1993-02-01,0.0
 Need More Bandages,1993-03-01,0.0
@@ -116062,7 +116868,7 @@ Need More Bandages,2026-05-01,0.0
 Need More Bandages,2026-06-01,0.10185185185185185
 Need More Bandages,2026-07-01,0.10810810810810811
 Need More Bandages,2026-08-01,0.11428571428571428
-Need More Bandages,2026-08-09,0.1188118811881188
+Need More Bandages,2026-08-09,0.11764705882352941
 Neon Orange Glimmer Song,1993-01-01,0.0
 Neon Orange Glimmer Song,1993-02-01,0.0
 Neon Orange Glimmer Song,1993-03-01,0.0
@@ -117271,7 +118077,7 @@ New Britain,2026-05-01,0.29
 New Britain,2026-06-01,0.26851851851851855
 New Britain,2026-07-01,0.26126126126126126
 New Britain,2026-08-01,0.2761904761904762
-New Britain,2026-08-09,0.2871287128712871
+New Britain,2026-08-09,0.28431372549019607
 New Chevrolet in Flames,1993-01-01,0.0
 New Chevrolet in Flames,1993-02-01,0.0
 New Chevrolet in Flames,1993-03-01,0.0
@@ -119286,7 +120092,7 @@ New Zion,2026-05-01,0.46
 New Zion,2026-06-01,0.4351851851851852
 New Zion,2026-07-01,0.42342342342342343
 New Zion,2026-08-01,0.45714285714285713
-New Zion,2026-08-09,0.4752475247524752
+New Zion,2026-08-09,0.47058823529411764
 Night Light,1993-01-01,0.0
 Night Light,1993-02-01,0.0
 Night Light,1993-03-01,0.0
@@ -120495,7 +121301,7 @@ Nine Black Poppies,2026-05-01,0.01
 Nine Black Poppies,2026-06-01,0.009259259259259259
 Nine Black Poppies,2026-07-01,0.009009009009009009
 Nine Black Poppies,2026-08-01,0.009523809523809525
-Nine Black Poppies,2026-08-09,0.009900990099009901
+Nine Black Poppies,2026-08-09,0.00980392156862745
 Nine Black Poppies (Song),1993-01-01,0.0
 Nine Black Poppies (Song),1993-02-01,0.0
 Nine Black Poppies (Song),1993-03-01,0.0
@@ -121301,7 +122107,7 @@ No Children,2026-05-01,0.88
 No Children,2026-06-01,0.8796296296296297
 No Children,2026-07-01,0.8738738738738738
 No Children,2026-08-01,0.8666666666666667
-No Children,2026-08-09,0.8712871287128713
+No Children,2026-08-09,0.8725490196078431
 No More Tears,1993-01-01,0.0
 No More Tears,1993-02-01,0.0
 No More Tears,1993-03-01,0.0
@@ -124122,7 +124928,7 @@ Onions,2026-05-01,0.01
 Onions,2026-06-01,0.027777777777777776
 Onions,2026-07-01,0.02702702702702703
 Onions,2026-08-01,0.02857142857142857
-Onions,2026-08-09,0.0297029702970297
+Onions,2026-08-09,0.029411764705882353
 Only Existing Footage,1993-01-01,0.0
 Only Existing Footage,1993-02-01,0.0
 Only Existing Footage,1993-03-01,0.0
@@ -125734,7 +126540,7 @@ Ontario,2026-05-01,0.01
 Ontario,2026-06-01,0.009259259259259259
 Ontario,2026-07-01,0.009009009009009009
 Ontario,2026-08-01,0.009523809523809525
-Ontario,2026-08-09,0.009900990099009901
+Ontario,2026-08-09,0.00980392156862745
 Orange,1993-01-01,0.0
 Orange,1993-02-01,0.0
 Orange,1993-03-01,0.0
@@ -126943,7 +127749,7 @@ Orange Ball of Love,2026-05-01,0.01
 Orange Ball of Love,2026-06-01,0.009259259259259259
 Orange Ball of Love,2026-07-01,0.009009009009009009
 Orange Ball of Love,2026-08-01,0.009523809523809525
-Orange Ball of Love,2026-08-09,0.009900990099009901
+Orange Ball of Love,2026-08-09,0.00980392156862745
 Orange Ball of Pain,1993-01-01,0.0
 Orange Ball of Pain,1993-02-01,0.0
 Orange Ball of Pain,1993-03-01,0.0
@@ -127346,7 +128152,7 @@ Orange Ball of Pain,2026-05-01,0.04
 Orange Ball of Pain,2026-06-01,0.037037037037037035
 Orange Ball of Pain,2026-07-01,0.036036036036036036
 Orange Ball of Pain,2026-08-01,0.0380952380952381
-Orange Ball of Pain,2026-08-09,0.039603960396039604
+Orange Ball of Pain,2026-08-09,0.0392156862745098
 Orange Ball of Peace,1993-01-01,0.0
 Orange Ball of Peace,1993-02-01,0.0
 Orange Ball of Peace,1993-03-01,0.0
@@ -128152,7 +128958,7 @@ Outer Scorpion Squadron,2026-05-01,0.04
 Outer Scorpion Squadron,2026-06-01,0.037037037037037035
 Outer Scorpion Squadron,2026-07-01,0.036036036036036036
 Outer Scorpion Squadron,2026-08-01,0.0380952380952381
-Outer Scorpion Squadron,2026-08-09,0.039603960396039604
+Outer Scorpion Squadron,2026-08-09,0.0392156862745098
 Ox Baker Triumphant,1993-01-01,0.0
 Ox Baker Triumphant,1993-02-01,0.0
 Ox Baker Triumphant,1993-03-01,0.0
@@ -128555,7 +129361,7 @@ Ox Baker Triumphant,2026-05-01,0.01
 Ox Baker Triumphant,2026-06-01,0.009259259259259259
 Ox Baker Triumphant,2026-07-01,0.009009009009009009
 Ox Baker Triumphant,2026-08-01,0.009523809523809525
-Ox Baker Triumphant,2026-08-09,0.009900990099009901
+Ox Baker Triumphant,2026-08-09,0.00980392156862745
 Paid in Cocaine,1993-01-01,0.0
 Paid in Cocaine,1993-02-01,0.0
 Paid in Cocaine,1993-03-01,0.0
@@ -129764,7 +130570,7 @@ Palmcorder Yajna,2026-05-01,0.12
 Palmcorder Yajna,2026-06-01,0.10185185185185185
 Palmcorder Yajna,2026-07-01,0.0990990990990991
 Palmcorder Yajna,2026-08-01,0.09523809523809523
-Palmcorder Yajna,2026-08-09,0.0891089108910891
+Palmcorder Yajna,2026-08-09,0.08823529411764706
 Palmcorder Yajna (Song),1993-01-01,0.0
 Palmcorder Yajna (Song),1993-02-01,0.0
 Palmcorder Yajna (Song),1993-03-01,0.0
@@ -130973,7 +131779,7 @@ Parisian Enclave,2026-08-09,0.0
 "Passaic, 1975",2026-06-01,0.009259259259259259
 "Passaic, 1975",2026-07-01,0.009009009009009009
 "Passaic, 1975",2026-08-01,0.009523809523809525
-"Passaic, 1975",2026-08-09,0.009900990099009901
+"Passaic, 1975",2026-08-09,0.00980392156862745
 Peacocks,1993-01-01,0.0
 Peacocks,1993-02-01,0.0
 Peacocks,1993-03-01,0.0
@@ -131779,7 +132585,7 @@ Peru,2026-05-01,0.14
 Peru,2026-06-01,0.2222222222222222
 Peru,2026-07-01,0.22522522522522523
 Peru,2026-08-01,0.23809523809523808
-Peru,2026-08-09,0.24752475247524752
+Peru,2026-08-09,0.24509803921568626
 Pet Politics,1993-01-01,0.0
 Pet Politics,1993-02-01,0.0
 Pet Politics,1993-03-01,0.0
@@ -132988,7 +133794,7 @@ Picture of My Dress,2026-05-01,0.01
 Picture of My Dress,2026-06-01,0.009259259259259259
 Picture of My Dress,2026-07-01,0.009009009009009009
 Picture of My Dress,2026-08-01,0.009523809523809525
-Picture of My Dress,2026-08-09,0.009900990099009901
+Picture of My Dress,2026-08-09,0.00980392156862745
 "Pigs That Ran Straightaway into the Water, Triumph Of",1993-01-01,0.0
 "Pigs That Ran Straightaway into the Water, Triumph Of",1993-02-01,0.0
 "Pigs That Ran Straightaway into the Water, Triumph Of",1993-03-01,0.0
@@ -135003,7 +135809,7 @@ Possum By Night,2026-05-01,0.2
 Possum By Night,2026-06-01,0.21296296296296297
 Possum By Night,2026-07-01,0.2072072072072072
 Possum By Night,2026-08-01,0.22857142857142856
-Possum By Night,2026-08-09,0.2376237623762376
+Possum By Night,2026-08-09,0.23529411764705882
 Prana Ferox,1993-01-01,0.0
 Prana Ferox,1993-02-01,0.0
 Prana Ferox,1993-03-01,0.0
@@ -135406,7 +136212,7 @@ Prana Ferox,2026-05-01,0.03
 Prana Ferox,2026-06-01,0.027777777777777776
 Prana Ferox,2026-07-01,0.02702702702702703
 Prana Ferox,2026-08-01,0.01904761904761905
-Prana Ferox,2026-08-09,0.019801980198019802
+Prana Ferox,2026-08-09,0.0196078431372549
 Process of Elimination,1993-01-01,0.125
 Process of Elimination,1993-02-01,0.125
 Process of Elimination,1993-03-01,0.125
@@ -136212,7 +137018,7 @@ Programmed Cell Death,2026-05-01,0.01
 Programmed Cell Death,2026-06-01,0.009259259259259259
 Programmed Cell Death,2026-07-01,0.009009009009009009
 Programmed Cell Death,2026-08-01,0.009523809523809525
-Programmed Cell Death,2026-08-09,0.009900990099009901
+Programmed Cell Death,2026-08-09,0.00980392156862745
 Proverbs 6:27,1993-01-01,0.0
 Proverbs 6:27,1993-02-01,0.0
 Proverbs 6:27,1993-03-01,0.0
@@ -137421,7 +138227,7 @@ Psalms 40:2,2026-05-01,0.04
 Psalms 40:2,2026-06-01,0.037037037037037035
 Psalms 40:2,2026-07-01,0.036036036036036036
 Psalms 40:2,2026-08-01,0.0380952380952381
-Psalms 40:2,2026-08-09,0.039603960396039604
+Psalms 40:2,2026-08-09,0.0392156862745098
 Pseudothyrum Song,1993-01-01,0.0
 Pseudothyrum Song,1993-02-01,0.0
 Pseudothyrum Song,1993-03-01,0.0
@@ -137824,7 +138630,7 @@ Pseudothyrum Song,2026-05-01,0.01
 Pseudothyrum Song,2026-06-01,0.009259259259259259
 Pseudothyrum Song,2026-07-01,0.009009009009009009
 Pseudothyrum Song,2026-08-01,0.009523809523809525
-Pseudothyrum Song,2026-08-09,0.009900990099009901
+Pseudothyrum Song,2026-08-09,0.00980392156862745
 Pure Gold,1993-01-01,0.0
 Pure Gold,1993-02-01,0.0
 Pure Gold,1993-03-01,0.0
@@ -139033,7 +139839,7 @@ Pure Milk,2026-05-01,0.02
 Pure Milk,2026-06-01,0.018518518518518517
 Pure Milk,2026-07-01,0.018018018018018018
 Pure Milk,2026-08-01,0.01904761904761905
-Pure Milk,2026-08-09,0.019801980198019802
+Pure Milk,2026-08-09,0.0196078431372549
 Pure Money,1993-01-01,0.0
 Pure Money,1993-02-01,0.0
 Pure Money,1993-03-01,0.0
@@ -141854,7 +142660,7 @@ Raid on Entebbe,2026-05-01,0.02
 Raid on Entebbe,2026-06-01,0.018518518518518517
 Raid on Entebbe,2026-07-01,0.018018018018018018
 Raid on Entebbe,2026-08-01,0.01904761904761905
-Raid on Entebbe,2026-08-09,0.019801980198019802
+Raid on Entebbe,2026-08-09,0.0196078431372549
 Rain in Soho,1993-01-01,0.0
 Rain in Soho,1993-02-01,0.0
 Rain in Soho,1993-03-01,0.0
@@ -143063,7 +143869,7 @@ Raja Vocative,2026-05-01,0.03
 Raja Vocative,2026-06-01,0.027777777777777776
 Raja Vocative,2026-07-01,0.02702702702702703
 Raja Vocative,2026-08-01,0.01904761904761905
-Raja Vocative,2026-08-09,0.019801980198019802
+Raja Vocative,2026-08-09,0.0196078431372549
 Rat Queen,1993-01-01,0.0
 Rat Queen,1993-02-01,0.0
 Rat Queen,1993-03-01,0.0
@@ -144272,7 +145078,7 @@ Rescue Breathing,2026-05-01,0.01
 Rescue Breathing,2026-06-01,0.009259259259259259
 Rescue Breathing,2026-07-01,0.009009009009009009
 Rescue Breathing,2026-08-01,0.009523809523809525
-Rescue Breathing,2026-08-09,0.009900990099009901
+Rescue Breathing,2026-08-09,0.00980392156862745
 Riches and Wonders,1993-01-01,0.0
 Riches and Wonders,1993-02-01,0.0
 Riches and Wonders,1993-03-01,0.0
@@ -144675,7 +145481,7 @@ Riches and Wonders,2026-05-01,0.02
 Riches and Wonders,2026-06-01,0.027777777777777776
 Riches and Wonders,2026-07-01,0.036036036036036036
 Riches and Wonders,2026-08-01,0.0380952380952381
-Riches and Wonders,2026-08-09,0.0297029702970297
+Riches and Wonders,2026-08-09,0.029411764705882353
 Ripple,1993-01-01,0.0
 Ripple,1993-02-01,0.0
 Ripple,1993-03-01,0.0
@@ -145078,7 +145884,7 @@ Ripple,2026-05-01,0.01
 Ripple,2026-06-01,0.009259259259259259
 Ripple,2026-07-01,0.009009009009009009
 Ripple,2026-08-01,0.009523809523809525
-Ripple,2026-08-09,0.009900990099009901
+Ripple,2026-08-09,0.00980392156862745
 Rockin' Rockin' Pet Store,1993-01-01,0.25
 Rockin' Rockin' Pet Store,1993-02-01,0.25
 Rockin' Rockin' Pet Store,1993-03-01,0.25
@@ -146287,7 +147093,7 @@ Rocks in My Pockets,2026-05-01,0.22
 Rocks in My Pockets,2026-06-01,0.21296296296296297
 Rocks in My Pockets,2026-07-01,0.2072072072072072
 Rocks in My Pockets,2026-08-01,0.22857142857142856
-Rocks in My Pockets,2026-08-09,0.2376237623762376
+Rocks in My Pockets,2026-08-09,0.23529411764705882
 Romans 10:9,1993-01-01,0.0
 Romans 10:9,1993-02-01,0.0
 Romans 10:9,1993-03-01,0.0
@@ -146690,7 +147496,7 @@ Romans 10:9,2026-05-01,0.2
 Romans 10:9,2026-06-01,0.2037037037037037
 Romans 10:9,2026-07-01,0.1981981981981982
 Romans 10:9,2026-08-01,0.20952380952380953
-Romans 10:9,2026-08-09,0.21782178217821782
+Romans 10:9,2026-08-09,0.21568627450980393
 Rotten Stinking Mouthpiece,1993-01-01,0.0
 Rotten Stinking Mouthpiece,1993-02-01,0.0
 Rotten Stinking Mouthpiece,1993-03-01,0.0
@@ -147093,7 +147899,7 @@ Rotten Stinking Mouthpiece,2026-05-01,0.02
 Rotten Stinking Mouthpiece,2026-06-01,0.018518518518518517
 Rotten Stinking Mouthpiece,2026-07-01,0.018018018018018018
 Rotten Stinking Mouthpiece,2026-08-01,0.009523809523809525
-Rotten Stinking Mouthpiece,2026-08-09,0.009900990099009901
+Rotten Stinking Mouthpiece,2026-08-09,0.00980392156862745
 Running Away with What Freud Said,1993-01-01,0.0
 Running Away with What Freud Said,1993-02-01,0.0
 Running Away with What Freud Said,1993-03-01,0.0
@@ -147496,7 +148302,7 @@ Running Away with What Freud Said,2026-05-01,0.03
 Running Away with What Freud Said,2026-06-01,0.027777777777777776
 Running Away with What Freud Said,2026-07-01,0.02702702702702703
 Running Away with What Freud Said,2026-08-01,0.009523809523809525
-Running Away with What Freud Said,2026-08-09,0.009900990099009901
+Running Away with What Freud Said,2026-08-09,0.00980392156862745
 Sail On,1993-01-01,0.125
 Sail On,1993-02-01,0.125
 Sail On,1993-03-01,0.125
@@ -149511,7 +150317,7 @@ Sax Rohmer Number 1,2026-05-01,0.49
 Sax Rohmer Number 1,2026-06-01,0.49074074074074076
 Sax Rohmer Number 1,2026-07-01,0.4774774774774775
 Sax Rohmer Number 1,2026-08-01,0.5142857142857142
-Sax Rohmer Number 1,2026-08-09,0.5346534653465347
+Sax Rohmer Number 1,2026-08-09,0.5294117647058824
 Scavenger Babies,1993-01-01,0.0
 Scavenger Babies,1993-02-01,0.0
 Scavenger Babies,1993-03-01,0.0
@@ -150317,7 +151123,7 @@ See America Right,2026-05-01,0.15
 See America Right,2026-06-01,0.12037037037037036
 See America Right,2026-07-01,0.12612612612612611
 See America Right,2026-08-01,0.13333333333333333
-See America Right,2026-08-09,0.12871287128712872
+See America Right,2026-08-09,0.12745098039215685
 See America Right (Song),1993-01-01,0.0
 See America Right (Song),1993-02-01,0.0
 See America Right (Song),1993-03-01,0.0
@@ -151123,7 +151929,7 @@ Seed Song,2026-05-01,0.02
 Seed Song,2026-06-01,0.018518518518518517
 Seed Song,2026-07-01,0.018018018018018018
 Seed Song,2026-08-01,0.01904761904761905
-Seed Song,2026-08-09,0.019801980198019802
+Seed Song,2026-08-09,0.0196078431372549
 Seeing Daylight,1993-01-01,0.0
 Seeing Daylight,1993-02-01,0.0
 Seeing Daylight,1993-03-01,0.0
@@ -152332,7 +153138,7 @@ Sept 19th Triple X Love! Love!,2026-05-01,0.01
 Sept 19th Triple X Love! Love!,2026-06-01,0.018518518518518517
 Sept 19th Triple X Love! Love!,2026-07-01,0.018018018018018018
 Sept 19th Triple X Love! Love!,2026-08-01,0.01904761904761905
-Sept 19th Triple X Love! Love!,2026-08-09,0.019801980198019802
+Sept 19th Triple X Love! Love!,2026-08-09,0.0196078431372549
 Sept. 15 1983,1993-01-01,0.0
 Sept. 15 1983,1993-02-01,0.0
 Sept. 15 1983,1993-03-01,0.0
@@ -153138,7 +153944,7 @@ Shadow Song,2026-05-01,0.04
 Shadow Song,2026-06-01,0.046296296296296294
 Shadow Song,2026-07-01,0.04504504504504504
 Shadow Song,2026-08-01,0.047619047619047616
-Shadow Song,2026-08-09,0.04950495049504951
+Shadow Song,2026-08-09,0.049019607843137254
 Shallow Grave,1993-01-01,0.0
 Shallow Grave,1993-02-01,0.0
 Shallow Grave,1993-03-01,0.0
@@ -153541,7 +154347,7 @@ Shallow Grave,2026-05-01,0.04
 Shallow Grave,2026-06-01,0.12962962962962962
 Shallow Grave,2026-07-01,0.15315315315315314
 Shallow Grave,2026-08-01,0.17142857142857143
-Shallow Grave,2026-08-09,0.19801980198019803
+Shallow Grave,2026-08-09,0.20588235294117646
 Shave My Eyebrows,1993-01-01,0.0
 Shave My Eyebrows,1993-02-01,0.0
 Shave My Eyebrows,1993-03-01,0.0
@@ -153944,7 +154750,7 @@ Shave My Eyebrows,2026-05-01,0.02
 Shave My Eyebrows,2026-06-01,0.018518518518518517
 Shave My Eyebrows,2026-07-01,0.018018018018018018
 Shave My Eyebrows,2026-08-01,0.01904761904761905
-Shave My Eyebrows,2026-08-09,0.019801980198019802
+Shave My Eyebrows,2026-08-09,0.0196078431372549
 Shelved,1993-01-01,0.0
 Shelved,1993-02-01,0.0
 Shelved,1993-03-01,0.0
@@ -156362,7 +157168,7 @@ Sicilian Crest,2026-05-01,0.06
 Sicilian Crest,2026-06-01,0.05555555555555555
 Sicilian Crest,2026-07-01,0.05405405405405406
 Sicilian Crest,2026-08-01,0.047619047619047616
-Sicilian Crest,2026-08-09,0.0297029702970297
+Sicilian Crest,2026-08-09,0.029411764705882353
 Sign of the Crow 2,1993-01-01,0.0
 Sign of the Crow 2,1993-02-01,0.0
 Sign of the Crow 2,1993-03-01,0.0
@@ -156765,7 +157571,7 @@ Sign of the Crow 2,2026-05-01,0.0
 Sign of the Crow 2,2026-06-01,0.009259259259259259
 Sign of the Crow 2,2026-07-01,0.009009009009009009
 Sign of the Crow 2,2026-08-01,0.009523809523809525
-Sign of the Crow 2,2026-08-09,0.009900990099009901
+Sign of the Crow 2,2026-08-09,0.00980392156862745
 Sinaloan Milk Snake Song,1993-01-01,0.125
 Sinaloan Milk Snake Song,1993-02-01,0.125
 Sinaloan Milk Snake Song,1993-03-01,0.125
@@ -157168,7 +157974,7 @@ Sinaloan Milk Snake Song,2026-05-01,0.02
 Sinaloan Milk Snake Song,2026-06-01,0.009259259259259259
 Sinaloan Milk Snake Song,2026-07-01,0.009009009009009009
 Sinaloan Milk Snake Song,2026-08-01,0.009523809523809525
-Sinaloan Milk Snake Song,2026-08-09,0.009900990099009901
+Sinaloan Milk Snake Song,2026-08-09,0.00980392156862745
 Slow West Vultures,1993-01-01,0.0
 Slow West Vultures,1993-02-01,0.0
 Slow West Vultures,1993-03-01,0.0
@@ -157571,7 +158377,7 @@ Slow West Vultures,2026-05-01,0.0
 Slow West Vultures,2026-06-01,0.009259259259259259
 Slow West Vultures,2026-07-01,0.009009009009009009
 Slow West Vultures,2026-08-01,0.009523809523809525
-Slow West Vultures,2026-08-09,0.009900990099009901
+Slow West Vultures,2026-08-09,0.00980392156862745
 Snow Crush Killing Song,1993-01-01,0.0
 Snow Crush Killing Song,1993-02-01,0.0
 Snow Crush Killing Song,1993-03-01,0.0
@@ -159183,7 +159989,7 @@ Soft Targets,2026-05-01,0.01
 Soft Targets,2026-06-01,0.009259259259259259
 Soft Targets,2026-07-01,0.009009009009009009
 Soft Targets,2026-08-01,0.009523809523809525
-Soft Targets,2026-08-09,0.009900990099009901
+Soft Targets,2026-08-09,0.00980392156862745
 Solidarity Forever,1993-01-01,0.0
 Solidarity Forever,1993-02-01,0.0
 Solidarity Forever,1993-03-01,0.0
@@ -159586,7 +160392,7 @@ Solidarity Forever,2026-05-01,0.02
 Solidarity Forever,2026-06-01,0.009259259259259259
 Solidarity Forever,2026-07-01,0.009009009009009009
 Solidarity Forever,2026-08-01,0.009523809523809525
-Solidarity Forever,2026-08-09,0.009900990099009901
+Solidarity Forever,2026-08-09,0.00980392156862745
 Solomon Revisited,1993-01-01,0.25
 Solomon Revisited,1993-02-01,0.25
 Solomon Revisited,1993-03-01,0.25
@@ -162004,7 +162810,7 @@ Song for Black Sabbath's Second North American Tour,2026-05-01,0.04
 Song for Black Sabbath's Second North American Tour,2026-06-01,0.037037037037037035
 Song for Black Sabbath's Second North American Tour,2026-07-01,0.036036036036036036
 Song for Black Sabbath's Second North American Tour,2026-08-01,0.0380952380952381
-Song for Black Sabbath's Second North American Tour,2026-08-09,0.039603960396039604
+Song for Black Sabbath's Second North American Tour,2026-08-09,0.0392156862745098
 Song for Cleomenes,1993-01-01,0.0
 Song for Cleomenes,1993-02-01,0.0
 Song for Cleomenes,1993-03-01,0.0
@@ -163213,7 +164019,410 @@ Song for Dennis Brown,2026-05-01,0.12
 Song for Dennis Brown,2026-06-01,0.12037037037037036
 Song for Dennis Brown,2026-07-01,0.11711711711711711
 Song for Dennis Brown,2026-08-01,0.12380952380952381
-Song for Dennis Brown,2026-08-09,0.12871287128712872
+Song for Dennis Brown,2026-08-09,0.12745098039215685
+Song for Layne Staley,1993-01-01,0.0
+Song for Layne Staley,1993-02-01,0.0
+Song for Layne Staley,1993-03-01,0.0
+Song for Layne Staley,1993-04-01,0.0
+Song for Layne Staley,1993-05-01,0.0
+Song for Layne Staley,1993-06-01,0.0
+Song for Layne Staley,1993-07-01,0.0
+Song for Layne Staley,1993-08-01,0.0
+Song for Layne Staley,1993-09-01,0.0
+Song for Layne Staley,1993-10-01,0.0
+Song for Layne Staley,1993-11-01,0.0
+Song for Layne Staley,1993-12-01,0.0
+Song for Layne Staley,1994-01-01,0.0
+Song for Layne Staley,1994-02-01,0.0
+Song for Layne Staley,1994-03-01,0.0
+Song for Layne Staley,1994-04-01,0.0
+Song for Layne Staley,1994-05-01,0.0
+Song for Layne Staley,1994-06-01,0.0
+Song for Layne Staley,1994-07-01,0.0
+Song for Layne Staley,1994-08-01,0.0
+Song for Layne Staley,1994-09-01,0.0
+Song for Layne Staley,1994-10-01,0.0
+Song for Layne Staley,1994-11-01,0.0
+Song for Layne Staley,1994-12-01,0.0
+Song for Layne Staley,1995-02-01,0.0
+Song for Layne Staley,1995-03-01,0.0
+Song for Layne Staley,1995-05-01,0.0
+Song for Layne Staley,1995-06-01,0.0
+Song for Layne Staley,1995-07-01,0.0
+Song for Layne Staley,1995-08-01,0.0
+Song for Layne Staley,1995-09-01,0.0
+Song for Layne Staley,1995-10-01,0.0
+Song for Layne Staley,1995-11-01,0.0
+Song for Layne Staley,1995-12-01,0.0
+Song for Layne Staley,1996-01-01,0.0
+Song for Layne Staley,1996-02-01,0.0
+Song for Layne Staley,1996-03-01,0.0
+Song for Layne Staley,1996-04-01,0.0
+Song for Layne Staley,1996-05-01,0.0
+Song for Layne Staley,1996-06-01,0.0
+Song for Layne Staley,1996-07-01,0.0
+Song for Layne Staley,1996-08-01,0.0
+Song for Layne Staley,1996-09-01,0.0
+Song for Layne Staley,1996-10-01,0.0
+Song for Layne Staley,1996-11-01,0.0
+Song for Layne Staley,1996-12-01,0.0
+Song for Layne Staley,1997-01-01,0.0
+Song for Layne Staley,1997-02-01,0.0
+Song for Layne Staley,1997-03-01,0.0
+Song for Layne Staley,1997-04-01,0.0
+Song for Layne Staley,1997-05-01,0.0
+Song for Layne Staley,1997-06-01,0.0
+Song for Layne Staley,1997-07-01,0.0
+Song for Layne Staley,1997-08-01,0.0
+Song for Layne Staley,1997-09-01,0.0
+Song for Layne Staley,1997-10-01,0.0
+Song for Layne Staley,1997-11-01,0.0
+Song for Layne Staley,1997-12-01,0.0
+Song for Layne Staley,1998-01-01,0.0
+Song for Layne Staley,1998-02-01,0.0
+Song for Layne Staley,1998-03-01,0.0
+Song for Layne Staley,1998-04-01,0.0
+Song for Layne Staley,1998-05-01,0.0
+Song for Layne Staley,1998-06-01,0.0
+Song for Layne Staley,1998-07-01,0.0
+Song for Layne Staley,1998-08-01,0.0
+Song for Layne Staley,1998-09-01,0.0
+Song for Layne Staley,1998-10-01,0.0
+Song for Layne Staley,1998-11-01,0.0
+Song for Layne Staley,1998-12-01,0.0
+Song for Layne Staley,1999-01-01,0.0
+Song for Layne Staley,1999-02-01,0.0
+Song for Layne Staley,1999-03-01,0.0
+Song for Layne Staley,1999-04-01,0.0
+Song for Layne Staley,1999-05-01,0.0
+Song for Layne Staley,1999-06-01,0.0
+Song for Layne Staley,1999-07-01,0.0
+Song for Layne Staley,1999-08-01,0.0
+Song for Layne Staley,1999-09-01,0.0
+Song for Layne Staley,1999-10-01,0.0
+Song for Layne Staley,1999-11-01,0.0
+Song for Layne Staley,1999-12-01,0.0
+Song for Layne Staley,2000-01-01,0.0
+Song for Layne Staley,2000-02-01,0.0
+Song for Layne Staley,2000-03-01,0.0
+Song for Layne Staley,2000-04-01,0.0
+Song for Layne Staley,2000-05-01,0.0
+Song for Layne Staley,2000-06-01,0.0
+Song for Layne Staley,2000-07-01,0.0
+Song for Layne Staley,2000-08-01,0.0
+Song for Layne Staley,2000-09-01,0.0
+Song for Layne Staley,2000-10-01,0.0
+Song for Layne Staley,2000-11-01,0.0
+Song for Layne Staley,2000-12-01,0.0
+Song for Layne Staley,2001-01-01,0.0
+Song for Layne Staley,2001-02-01,0.0
+Song for Layne Staley,2001-03-01,0.0
+Song for Layne Staley,2001-04-01,0.0
+Song for Layne Staley,2001-05-01,0.0
+Song for Layne Staley,2001-06-01,0.0
+Song for Layne Staley,2001-07-01,0.0
+Song for Layne Staley,2001-08-01,0.0
+Song for Layne Staley,2001-09-01,0.0
+Song for Layne Staley,2001-10-01,0.0
+Song for Layne Staley,2001-11-01,0.0
+Song for Layne Staley,2001-12-01,0.0
+Song for Layne Staley,2002-01-01,0.0
+Song for Layne Staley,2002-02-01,0.0
+Song for Layne Staley,2002-03-01,0.0
+Song for Layne Staley,2002-04-01,0.0
+Song for Layne Staley,2002-05-01,0.0
+Song for Layne Staley,2002-06-01,0.0
+Song for Layne Staley,2002-07-01,0.0
+Song for Layne Staley,2002-08-01,0.0
+Song for Layne Staley,2002-09-01,0.0
+Song for Layne Staley,2002-10-01,0.0
+Song for Layne Staley,2002-11-01,0.0
+Song for Layne Staley,2002-12-01,0.0
+Song for Layne Staley,2003-01-01,0.0
+Song for Layne Staley,2003-02-01,0.0
+Song for Layne Staley,2003-03-01,0.0
+Song for Layne Staley,2003-04-01,0.0
+Song for Layne Staley,2003-05-01,0.0
+Song for Layne Staley,2003-06-01,0.0
+Song for Layne Staley,2003-07-01,0.0
+Song for Layne Staley,2003-08-01,0.0
+Song for Layne Staley,2003-09-01,0.0
+Song for Layne Staley,2003-10-01,0.0
+Song for Layne Staley,2003-11-01,0.0
+Song for Layne Staley,2003-12-01,0.0
+Song for Layne Staley,2004-01-01,0.0
+Song for Layne Staley,2004-02-01,0.0
+Song for Layne Staley,2004-03-01,0.0
+Song for Layne Staley,2004-04-01,0.0
+Song for Layne Staley,2004-05-01,0.0
+Song for Layne Staley,2004-06-01,0.0
+Song for Layne Staley,2004-07-01,0.0
+Song for Layne Staley,2004-08-01,0.0
+Song for Layne Staley,2004-09-01,0.0
+Song for Layne Staley,2004-10-01,0.0
+Song for Layne Staley,2004-11-01,0.0
+Song for Layne Staley,2004-12-01,0.0
+Song for Layne Staley,2005-01-01,0.0
+Song for Layne Staley,2005-02-01,0.0
+Song for Layne Staley,2005-03-01,0.0
+Song for Layne Staley,2005-04-01,0.0
+Song for Layne Staley,2005-05-01,0.0
+Song for Layne Staley,2005-06-01,0.0
+Song for Layne Staley,2005-07-01,0.0
+Song for Layne Staley,2005-08-01,0.0
+Song for Layne Staley,2005-09-01,0.0
+Song for Layne Staley,2005-10-01,0.0
+Song for Layne Staley,2005-11-01,0.0
+Song for Layne Staley,2005-12-01,0.0
+Song for Layne Staley,2006-01-01,0.0
+Song for Layne Staley,2006-02-01,0.0
+Song for Layne Staley,2006-03-01,0.0
+Song for Layne Staley,2006-04-01,0.0
+Song for Layne Staley,2006-05-01,0.0
+Song for Layne Staley,2006-06-01,0.0
+Song for Layne Staley,2006-07-01,0.0
+Song for Layne Staley,2006-08-01,0.0
+Song for Layne Staley,2006-09-01,0.0
+Song for Layne Staley,2006-10-01,0.0
+Song for Layne Staley,2006-11-01,0.0
+Song for Layne Staley,2006-12-01,0.0
+Song for Layne Staley,2007-01-01,0.0
+Song for Layne Staley,2007-02-01,0.0
+Song for Layne Staley,2007-03-01,0.0
+Song for Layne Staley,2007-04-01,0.0
+Song for Layne Staley,2007-05-01,0.0
+Song for Layne Staley,2007-06-01,0.0
+Song for Layne Staley,2007-07-01,0.0
+Song for Layne Staley,2007-08-01,0.0
+Song for Layne Staley,2007-09-01,0.0
+Song for Layne Staley,2007-10-01,0.0
+Song for Layne Staley,2007-11-01,0.0
+Song for Layne Staley,2007-12-01,0.0
+Song for Layne Staley,2008-01-01,0.0
+Song for Layne Staley,2008-02-01,0.0
+Song for Layne Staley,2008-03-01,0.0
+Song for Layne Staley,2008-04-01,0.0
+Song for Layne Staley,2008-05-01,0.0
+Song for Layne Staley,2008-06-01,0.0
+Song for Layne Staley,2008-07-01,0.0
+Song for Layne Staley,2008-08-01,0.0
+Song for Layne Staley,2008-09-01,0.0
+Song for Layne Staley,2008-10-01,0.0
+Song for Layne Staley,2008-11-01,0.0
+Song for Layne Staley,2008-12-01,0.0
+Song for Layne Staley,2009-01-01,0.0
+Song for Layne Staley,2009-02-01,0.0
+Song for Layne Staley,2009-03-01,0.0
+Song for Layne Staley,2009-04-01,0.0
+Song for Layne Staley,2009-05-01,0.0
+Song for Layne Staley,2009-06-01,0.0
+Song for Layne Staley,2009-07-01,0.0
+Song for Layne Staley,2009-08-01,0.0
+Song for Layne Staley,2009-09-01,0.0
+Song for Layne Staley,2009-10-01,0.0
+Song for Layne Staley,2009-11-01,0.0
+Song for Layne Staley,2009-12-01,0.0
+Song for Layne Staley,2010-01-01,0.0
+Song for Layne Staley,2010-02-01,0.0
+Song for Layne Staley,2010-03-01,0.0
+Song for Layne Staley,2010-04-01,0.0
+Song for Layne Staley,2010-05-01,0.0
+Song for Layne Staley,2010-06-01,0.0
+Song for Layne Staley,2010-07-01,0.0
+Song for Layne Staley,2010-08-01,0.0
+Song for Layne Staley,2010-09-01,0.0
+Song for Layne Staley,2010-10-01,0.0
+Song for Layne Staley,2010-11-01,0.0
+Song for Layne Staley,2010-12-01,0.0
+Song for Layne Staley,2011-01-01,0.0
+Song for Layne Staley,2011-02-01,0.0
+Song for Layne Staley,2011-03-01,0.0
+Song for Layne Staley,2011-04-01,0.0
+Song for Layne Staley,2011-05-01,0.0
+Song for Layne Staley,2011-06-01,0.0
+Song for Layne Staley,2011-07-01,0.0
+Song for Layne Staley,2011-08-01,0.0
+Song for Layne Staley,2011-09-01,0.0
+Song for Layne Staley,2011-10-01,0.0
+Song for Layne Staley,2011-11-01,0.0
+Song for Layne Staley,2011-12-01,0.0
+Song for Layne Staley,2012-01-01,0.0
+Song for Layne Staley,2012-02-01,0.0
+Song for Layne Staley,2012-03-01,0.0
+Song for Layne Staley,2012-04-01,0.0
+Song for Layne Staley,2012-05-01,0.0
+Song for Layne Staley,2012-06-01,0.0
+Song for Layne Staley,2012-07-01,0.0
+Song for Layne Staley,2012-08-01,0.0
+Song for Layne Staley,2012-09-01,0.0
+Song for Layne Staley,2012-10-01,0.0
+Song for Layne Staley,2012-11-01,0.0
+Song for Layne Staley,2012-12-01,0.0
+Song for Layne Staley,2013-01-01,0.0
+Song for Layne Staley,2013-02-01,0.0
+Song for Layne Staley,2013-03-01,0.0
+Song for Layne Staley,2013-04-01,0.0
+Song for Layne Staley,2013-05-01,0.0
+Song for Layne Staley,2013-06-01,0.0
+Song for Layne Staley,2013-07-01,0.0
+Song for Layne Staley,2013-08-01,0.0
+Song for Layne Staley,2013-09-01,0.0
+Song for Layne Staley,2013-10-01,0.0
+Song for Layne Staley,2013-11-01,0.0
+Song for Layne Staley,2013-12-01,0.0
+Song for Layne Staley,2014-01-01,0.0
+Song for Layne Staley,2014-02-01,0.0
+Song for Layne Staley,2014-03-01,0.0
+Song for Layne Staley,2014-04-01,0.0
+Song for Layne Staley,2014-05-01,0.0
+Song for Layne Staley,2014-06-01,0.0
+Song for Layne Staley,2014-07-01,0.0
+Song for Layne Staley,2014-08-01,0.0
+Song for Layne Staley,2014-09-01,0.0
+Song for Layne Staley,2014-10-01,0.0
+Song for Layne Staley,2014-11-01,0.0
+Song for Layne Staley,2014-12-01,0.0
+Song for Layne Staley,2015-01-01,0.0
+Song for Layne Staley,2015-02-01,0.0
+Song for Layne Staley,2015-03-01,0.0
+Song for Layne Staley,2015-04-01,0.0
+Song for Layne Staley,2015-05-01,0.0
+Song for Layne Staley,2015-06-01,0.0
+Song for Layne Staley,2015-07-01,0.0
+Song for Layne Staley,2015-08-01,0.0
+Song for Layne Staley,2015-09-01,0.0
+Song for Layne Staley,2015-10-01,0.0
+Song for Layne Staley,2015-11-01,0.0
+Song for Layne Staley,2015-12-01,0.0
+Song for Layne Staley,2016-01-01,0.0
+Song for Layne Staley,2016-02-01,0.0
+Song for Layne Staley,2016-03-01,0.0
+Song for Layne Staley,2016-04-01,0.0
+Song for Layne Staley,2016-05-01,0.0
+Song for Layne Staley,2016-06-01,0.0
+Song for Layne Staley,2016-07-01,0.0
+Song for Layne Staley,2016-08-01,0.0
+Song for Layne Staley,2016-09-01,0.0
+Song for Layne Staley,2016-10-01,0.0
+Song for Layne Staley,2016-11-01,0.0
+Song for Layne Staley,2016-12-01,0.0
+Song for Layne Staley,2017-01-01,0.0
+Song for Layne Staley,2017-02-01,0.0
+Song for Layne Staley,2017-03-01,0.0
+Song for Layne Staley,2017-04-01,0.0
+Song for Layne Staley,2017-05-01,0.0
+Song for Layne Staley,2017-06-01,0.0
+Song for Layne Staley,2017-07-01,0.0
+Song for Layne Staley,2017-08-01,0.0
+Song for Layne Staley,2017-09-01,0.0
+Song for Layne Staley,2017-10-01,0.0
+Song for Layne Staley,2017-11-01,0.0
+Song for Layne Staley,2017-12-01,0.0
+Song for Layne Staley,2018-01-01,0.0
+Song for Layne Staley,2018-02-01,0.0
+Song for Layne Staley,2018-03-01,0.0
+Song for Layne Staley,2018-04-01,0.0
+Song for Layne Staley,2018-05-01,0.0
+Song for Layne Staley,2018-06-01,0.0
+Song for Layne Staley,2018-07-01,0.0
+Song for Layne Staley,2018-08-01,0.0
+Song for Layne Staley,2018-09-01,0.0
+Song for Layne Staley,2018-10-01,0.0
+Song for Layne Staley,2018-11-01,0.0
+Song for Layne Staley,2018-12-01,0.0
+Song for Layne Staley,2019-01-01,0.0
+Song for Layne Staley,2019-02-01,0.0
+Song for Layne Staley,2019-03-01,0.0
+Song for Layne Staley,2019-04-01,0.0
+Song for Layne Staley,2019-05-01,0.0
+Song for Layne Staley,2019-06-01,0.0
+Song for Layne Staley,2019-07-01,0.0
+Song for Layne Staley,2019-08-01,0.0
+Song for Layne Staley,2019-09-01,0.0
+Song for Layne Staley,2019-10-01,0.0
+Song for Layne Staley,2019-11-01,0.0
+Song for Layne Staley,2019-12-01,0.0
+Song for Layne Staley,2020-01-01,0.0
+Song for Layne Staley,2020-02-01,0.0
+Song for Layne Staley,2020-03-01,0.0
+Song for Layne Staley,2020-04-01,0.0
+Song for Layne Staley,2020-05-01,0.0
+Song for Layne Staley,2020-06-01,0.0
+Song for Layne Staley,2020-07-01,0.0
+Song for Layne Staley,2020-08-01,0.0
+Song for Layne Staley,2020-09-01,0.0
+Song for Layne Staley,2020-10-01,0.0
+Song for Layne Staley,2020-11-01,0.0
+Song for Layne Staley,2020-12-01,0.0
+Song for Layne Staley,2021-01-01,0.0
+Song for Layne Staley,2021-02-01,0.0
+Song for Layne Staley,2021-03-01,0.0
+Song for Layne Staley,2021-04-01,0.0
+Song for Layne Staley,2021-05-01,0.0
+Song for Layne Staley,2021-06-01,0.0
+Song for Layne Staley,2021-07-01,0.0
+Song for Layne Staley,2021-08-01,0.0
+Song for Layne Staley,2021-09-01,0.0
+Song for Layne Staley,2021-10-01,0.0
+Song for Layne Staley,2021-11-01,0.0
+Song for Layne Staley,2021-12-01,0.0
+Song for Layne Staley,2022-01-01,0.0
+Song for Layne Staley,2022-02-01,0.0
+Song for Layne Staley,2022-03-01,0.0
+Song for Layne Staley,2022-04-01,0.0
+Song for Layne Staley,2022-05-01,0.0
+Song for Layne Staley,2022-06-01,0.0
+Song for Layne Staley,2022-07-01,0.0
+Song for Layne Staley,2022-08-01,0.0
+Song for Layne Staley,2022-09-01,0.0
+Song for Layne Staley,2022-10-01,0.0
+Song for Layne Staley,2022-11-01,0.0
+Song for Layne Staley,2022-12-01,0.0
+Song for Layne Staley,2023-01-01,0.0
+Song for Layne Staley,2023-02-01,0.0
+Song for Layne Staley,2023-03-01,0.0
+Song for Layne Staley,2023-04-01,0.0
+Song for Layne Staley,2023-05-01,0.0
+Song for Layne Staley,2023-06-01,0.0
+Song for Layne Staley,2023-07-01,0.0
+Song for Layne Staley,2023-08-01,0.0
+Song for Layne Staley,2023-09-01,0.0
+Song for Layne Staley,2023-10-01,0.0
+Song for Layne Staley,2023-11-01,0.0
+Song for Layne Staley,2023-12-01,0.0
+Song for Layne Staley,2024-01-01,0.0
+Song for Layne Staley,2024-02-01,0.0
+Song for Layne Staley,2024-03-01,0.0
+Song for Layne Staley,2024-04-01,0.0
+Song for Layne Staley,2024-05-01,0.0
+Song for Layne Staley,2024-06-01,0.0
+Song for Layne Staley,2024-07-01,0.0
+Song for Layne Staley,2024-08-01,0.0
+Song for Layne Staley,2024-09-01,0.0
+Song for Layne Staley,2024-10-01,0.0
+Song for Layne Staley,2024-11-01,0.0
+Song for Layne Staley,2024-12-01,0.0
+Song for Layne Staley,2025-01-01,0.0
+Song for Layne Staley,2025-02-01,0.0
+Song for Layne Staley,2025-03-01,0.0
+Song for Layne Staley,2025-04-01,0.0
+Song for Layne Staley,2025-05-01,0.0
+Song for Layne Staley,2025-06-01,0.0
+Song for Layne Staley,2025-07-01,0.0
+Song for Layne Staley,2025-08-01,0.0
+Song for Layne Staley,2025-09-01,0.0
+Song for Layne Staley,2025-10-01,0.0
+Song for Layne Staley,2025-11-01,0.0
+Song for Layne Staley,2025-12-01,0.0
+Song for Layne Staley,2026-01-01,0.0
+Song for Layne Staley,2026-02-01,0.0
+Song for Layne Staley,2026-03-01,0.0
+Song for Layne Staley,2026-04-01,0.0
+Song for Layne Staley,2026-05-01,0.0
+Song for Layne Staley,2026-06-01,0.0
+Song for Layne Staley,2026-07-01,0.0
+Song for Layne Staley,2026-08-01,0.0
+Song for Layne Staley,2026-08-09,0.029411764705882353
 Song for Lonely Giants,1993-01-01,0.0
 Song for Lonely Giants,1993-02-01,0.0
 Song for Lonely Giants,1993-03-01,0.0
@@ -163616,7 +164825,7 @@ Song for Lonely Giants,2026-05-01,0.01
 Song for Lonely Giants,2026-06-01,0.009259259259259259
 Song for Lonely Giants,2026-07-01,0.009009009009009009
 Song for Lonely Giants,2026-08-01,0.009523809523809525
-Song for Lonely Giants,2026-08-09,0.009900990099009901
+Song for Lonely Giants,2026-08-09,0.00980392156862745
 Song for Mark and Joel,1993-01-01,0.0
 Song for Mark and Joel,1993-02-01,0.0
 Song for Mark and Joel,1993-03-01,0.0
@@ -164422,7 +165631,7 @@ Song for My Stepfather,2026-05-01,0.06
 Song for My Stepfather,2026-06-01,0.05555555555555555
 Song for My Stepfather,2026-07-01,0.05405405405405406
 Song for My Stepfather,2026-08-01,0.05714285714285714
-Song for My Stepfather,2026-08-09,0.0594059405940594
+Song for My Stepfather,2026-08-09,0.058823529411764705
 Song for Roger Maris,1993-01-01,0.0
 Song for Roger Maris,1993-02-01,0.0
 Song for Roger Maris,1993-03-01,0.0
@@ -164825,7 +166034,7 @@ Song for Roger Maris,2026-05-01,0.01
 Song for Roger Maris,2026-06-01,0.009259259259259259
 Song for Roger Maris,2026-07-01,0.009009009009009009
 Song for Roger Maris,2026-08-01,0.009523809523809525
-Song for Roger Maris,2026-08-09,0.009900990099009901
+Song for Roger Maris,2026-08-09,0.00980392156862745
 Song for Sasha Banks,1993-01-01,0.0
 Song for Sasha Banks,1993-02-01,0.0
 Song for Sasha Banks,1993-03-01,0.0
@@ -166034,7 +167243,7 @@ Song for an Old Friend,2026-05-01,0.03
 Song for an Old Friend,2026-06-01,0.037037037037037035
 Song for an Old Friend,2026-07-01,0.036036036036036036
 Song for an Old Friend,2026-08-01,0.0380952380952381
-Song for an Old Friend,2026-08-09,0.039603960396039604
+Song for an Old Friend,2026-08-09,0.0392156862745098
 Song for the Julian Calendar,1993-01-01,0.0
 Song for the Julian Calendar,1993-02-01,0.0
 Song for the Julian Calendar,1993-03-01,0.0
@@ -166437,7 +167646,7 @@ Song for the Julian Calendar,2026-05-01,0.0
 Song for the Julian Calendar,2026-06-01,0.009259259259259259
 Song for the Julian Calendar,2026-07-01,0.009009009009009009
 Song for the Julian Calendar,2026-08-01,0.009523809523809525
-Song for the Julian Calendar,2026-08-09,0.009900990099009901
+Song for the Julian Calendar,2026-08-09,0.00980392156862745
 Source Decay,1993-01-01,0.0
 Source Decay,1993-02-01,0.0
 Source Decay,1993-03-01,0.0
@@ -166840,7 +168049,7 @@ Source Decay,2026-05-01,0.01
 Source Decay,2026-06-01,0.027777777777777776
 Source Decay,2026-07-01,0.036036036036036036
 Source Decay,2026-08-01,0.0380952380952381
-Source Decay,2026-08-09,0.039603960396039604
+Source Decay,2026-08-09,0.0392156862745098
 Southwestern Territory,1993-01-01,0.0
 Southwestern Territory,1993-02-01,0.0
 Southwestern Territory,1993-03-01,0.0
@@ -167243,7 +168452,7 @@ Southwestern Territory,2026-05-01,0.06
 Southwestern Territory,2026-06-01,0.05555555555555555
 Southwestern Territory,2026-07-01,0.05405405405405406
 Southwestern Territory,2026-08-01,0.047619047619047616
-Southwestern Territory,2026-08-09,0.0297029702970297
+Southwestern Territory,2026-08-09,0.029411764705882353
 Southwood Plantation Road,1993-01-01,0.0
 Southwood Plantation Road,1993-02-01,0.0
 Southwood Plantation Road,1993-03-01,0.0
@@ -167646,7 +168855,7 @@ Southwood Plantation Road,2026-05-01,0.01
 Southwood Plantation Road,2026-06-01,0.009259259259259259
 Southwood Plantation Road,2026-07-01,0.009009009009009009
 Southwood Plantation Road,2026-08-01,0.009523809523809525
-Southwood Plantation Road,2026-08-09,0.009900990099009901
+Southwood Plantation Road,2026-08-09,0.00980392156862745
 Spent Gladiator 2,1993-01-01,0.0
 Spent Gladiator 2,1993-02-01,0.0
 Spent Gladiator 2,1993-03-01,0.0
@@ -168452,7 +169661,7 @@ Spilling Toward Alpha,2026-05-01,0.01
 Spilling Toward Alpha,2026-06-01,0.009259259259259259
 Spilling Toward Alpha,2026-07-01,0.009009009009009009
 Spilling Toward Alpha,2026-08-01,0.009523809523809525
-Spilling Toward Alpha,2026-08-09,0.009900990099009901
+Spilling Toward Alpha,2026-08-09,0.00980392156862745
 Stabbed to Death Outside San Juan,1993-01-01,0.0
 Stabbed to Death Outside San Juan,1993-02-01,0.0
 Stabbed to Death Outside San Juan,1993-03-01,0.0
@@ -169258,7 +170467,7 @@ Standard Bitter Love Song Number 1,2026-05-01,0.01
 Standard Bitter Love Song Number 1,2026-06-01,0.009259259259259259
 Standard Bitter Love Song Number 1,2026-07-01,0.009009009009009009
 Standard Bitter Love Song Number 1,2026-08-01,0.009523809523809525
-Standard Bitter Love Song Number 1,2026-08-09,0.009900990099009901
+Standard Bitter Love Song Number 1,2026-08-09,0.00980392156862745
 Standard Bitter Love Song Number 4,1993-01-01,0.125
 Standard Bitter Love Song Number 4,1993-02-01,0.125
 Standard Bitter Love Song Number 4,1993-03-01,0.125
@@ -170064,7 +171273,7 @@ Standing in Need of Prayer,2026-05-01,0.01
 Standing in Need of Prayer,2026-06-01,0.009259259259259259
 Standing in Need of Prayer,2026-07-01,0.009009009009009009
 Standing in Need of Prayer,2026-08-01,0.009523809523809525
-Standing in Need of Prayer,2026-08-09,0.009900990099009901
+Standing in Need of Prayer,2026-08-09,0.00980392156862745
 Star Dusting,1993-01-01,0.125
 Star Dusting,1993-02-01,0.125
 Star Dusting,1993-03-01,0.125
@@ -171676,7 +172885,7 @@ Steal Smoked Fish,2026-05-01,0.06
 Steal Smoked Fish,2026-06-01,0.05555555555555555
 Steal Smoked Fish,2026-07-01,0.05405405405405406
 Steal Smoked Fish,2026-08-01,0.05714285714285714
-Steal Smoked Fish,2026-08-09,0.0594059405940594
+Steal Smoked Fish,2026-08-09,0.058823529411764705
 Steal Smoked Fish (Song),1993-01-01,0.0
 Steal Smoked Fish (Song),1993-02-01,0.0
 Steal Smoked Fish (Song),1993-03-01,0.0
@@ -172885,7 +174094,7 @@ Store,2026-05-01,0.01
 Store,2026-06-01,0.009259259259259259
 Store,2026-07-01,0.009009009009009009
 Store,2026-08-01,0.009523809523809525
-Store,2026-08-09,0.009900990099009901
+Store,2026-08-09,0.00980392156862745
 Suedehead,1993-01-01,0.0
 Suedehead,1993-02-01,0.0
 Suedehead,1993-03-01,0.0
@@ -174497,7 +175706,7 @@ Surrounded,2026-05-01,0.01
 Surrounded,2026-06-01,0.009259259259259259
 Surrounded,2026-07-01,0.009009009009009009
 Surrounded,2026-08-01,0.009523809523809525
-Surrounded,2026-08-09,0.009900990099009901
+Surrounded,2026-08-09,0.00980392156862745
 Sweet Jane,1993-01-01,0.0
 Sweet Jane,1993-02-01,0.0
 Sweet Jane,1993-03-01,0.0
@@ -174900,7 +176109,7 @@ Sweet Jane,2026-05-01,0.03
 Sweet Jane,2026-06-01,0.027777777777777776
 Sweet Jane,2026-07-01,0.02702702702702703
 Sweet Jane,2026-08-01,0.02857142857142857
-Sweet Jane,2026-08-09,0.0297029702970297
+Sweet Jane,2026-08-09,0.029411764705882353
 Tall Tall Trees,1993-01-01,0.0
 Tall Tall Trees,1993-02-01,0.0
 Tall Tall Trees,1993-03-01,0.0
@@ -175706,7 +176915,7 @@ Tallahassee (Song),2026-05-01,0.08
 Tallahassee (Song),2026-06-01,0.09259259259259259
 Tallahassee (Song),2026-07-01,0.09009009009009009
 Tallahassee (Song),2026-08-01,0.09523809523809523
-Tallahassee (Song),2026-08-09,0.09900990099009901
+Tallahassee (Song),2026-08-09,0.09803921568627451
 Tampa,1993-01-01,0.0
 Tampa,1993-02-01,0.0
 Tampa,1993-03-01,0.0
@@ -177318,7 +178527,7 @@ Thank You Mario But Our Princess Is in Another Castle,2026-05-01,0.02
 Thank You Mario But Our Princess Is in Another Castle,2026-06-01,0.018518518518518517
 Thank You Mario But Our Princess Is in Another Castle,2026-07-01,0.018018018018018018
 Thank You Mario But Our Princess Is in Another Castle,2026-08-01,0.01904761904761905
-Thank You Mario But Our Princess Is in Another Castle,2026-08-09,0.009900990099009901
+Thank You Mario But Our Princess Is in Another Castle,2026-08-09,0.00980392156862745
 That Hippolytine Feeling,1993-01-01,0.125
 That Hippolytine Feeling,1993-02-01,0.125
 That Hippolytine Feeling,1993-03-01,0.125
@@ -178124,7 +179333,7 @@ The Alphonse Mambo,2026-05-01,0.02
 The Alphonse Mambo,2026-06-01,0.009259259259259259
 The Alphonse Mambo,2026-07-01,0.009009009009009009
 The Alphonse Mambo,2026-08-01,0.009523809523809525
-The Alphonse Mambo,2026-08-09,0.009900990099009901
+The Alphonse Mambo,2026-08-09,0.00980392156862745
 The Anglo-Saxons,1993-01-01,0.0
 The Anglo-Saxons,1993-02-01,0.0
 The Anglo-Saxons,1993-03-01,0.0
@@ -179736,7 +180945,7 @@ The Best Ever Death Metal Band in Denton,2026-05-01,0.1
 The Best Ever Death Metal Band in Denton,2026-06-01,0.09259259259259259
 The Best Ever Death Metal Band in Denton,2026-07-01,0.09009009009009009
 The Best Ever Death Metal Band in Denton,2026-08-01,0.08571428571428572
-The Best Ever Death Metal Band in Denton,2026-08-09,0.0891089108910891
+The Best Ever Death Metal Band in Denton,2026-08-09,0.08823529411764706
 The Black Ice Cream Song,1993-01-01,0.0
 The Black Ice Cream Song,1993-02-01,0.0
 The Black Ice Cream Song,1993-03-01,0.0
@@ -181751,7 +182960,7 @@ The Coroner's Gambit (Song),2026-05-01,0.0
 The Coroner's Gambit (Song),2026-06-01,0.027777777777777776
 The Coroner's Gambit (Song),2026-07-01,0.02702702702702703
 The Coroner's Gambit (Song),2026-08-01,0.02857142857142857
-The Coroner's Gambit (Song),2026-08-09,0.0297029702970297
+The Coroner's Gambit (Song),2026-08-09,0.029411764705882353
 The Cow Song,1993-01-01,0.125
 The Cow Song,1993-02-01,0.125
 The Cow Song,1993-03-01,0.125
@@ -182557,7 +183766,7 @@ The Day the Aliens Came (Hawaiian Feeling),2026-05-01,0.01
 The Day the Aliens Came (Hawaiian Feeling),2026-06-01,0.009259259259259259
 The Day the Aliens Came (Hawaiian Feeling),2026-07-01,0.009009009009009009
 The Day the Aliens Came (Hawaiian Feeling),2026-08-01,0.009523809523809525
-The Day the Aliens Came (Hawaiian Feeling),2026-08-09,0.009900990099009901
+The Day the Aliens Came (Hawaiian Feeling),2026-08-09,0.00980392156862745
 The Destruction of the Kola Superdeep Borehole Tower,1993-01-01,0.0
 The Destruction of the Kola Superdeep Borehole Tower,1993-02-01,0.0
 The Destruction of the Kola Superdeep Borehole Tower,1993-03-01,0.0
@@ -183363,7 +184572,7 @@ The Diaz Brothers,2026-05-01,0.28
 The Diaz Brothers,2026-06-01,0.2962962962962963
 The Diaz Brothers,2026-07-01,0.3063063063063063
 The Diaz Brothers,2026-08-01,0.3047619047619048
-The Diaz Brothers,2026-08-09,0.3069306930693069
+The Diaz Brothers,2026-08-09,0.30392156862745096
 The Grey King and the Silver Flame Attunement,1993-01-01,0.0
 The Grey King and the Silver Flame Attunement,1993-02-01,0.0
 The Grey King and the Silver Flame Attunement,1993-03-01,0.0
@@ -183766,7 +184975,7 @@ The Grey King and the Silver Flame Attunement,2026-05-01,0.01
 The Grey King and the Silver Flame Attunement,2026-06-01,0.009259259259259259
 The Grey King and the Silver Flame Attunement,2026-07-01,0.009009009009009009
 The Grey King and the Silver Flame Attunement,2026-08-01,0.009523809523809525
-The Grey King and the Silver Flame Attunement,2026-08-09,0.009900990099009901
+The Grey King and the Silver Flame Attunement,2026-08-09,0.00980392156862745
 The Hot Garden Stomp,1993-01-01,0.125
 The Hot Garden Stomp,1993-02-01,0.125
 The Hot Garden Stomp,1993-03-01,0.125
@@ -185378,7 +186587,7 @@ The Lady from Shanghai,2026-05-01,0.07
 The Lady from Shanghai,2026-06-01,0.06481481481481481
 The Lady from Shanghai,2026-07-01,0.06306306306306306
 The Lady from Shanghai,2026-08-01,0.06666666666666667
-The Lady from Shanghai,2026-08-09,0.06930693069306931
+The Lady from Shanghai,2026-08-09,0.06862745098039216
 The Lady from Shanghai 2,1993-01-01,0.0
 The Lady from Shanghai 2,1993-02-01,0.0
 The Lady from Shanghai 2,1993-03-01,0.0
@@ -185781,7 +186990,7 @@ The Lady from Shanghai 2,2026-05-01,0.07
 The Lady from Shanghai 2,2026-06-01,0.06481481481481481
 The Lady from Shanghai 2,2026-07-01,0.06306306306306306
 The Lady from Shanghai 2,2026-08-01,0.06666666666666667
-The Lady from Shanghai 2,2026-08-09,0.06930693069306931
+The Lady from Shanghai 2,2026-08-09,0.06862745098039216
 The Last Day of Jimi Hendrix's Life,1993-01-01,0.0
 The Last Day of Jimi Hendrix's Life,1993-02-01,0.0
 The Last Day of Jimi Hendrix's Life,1993-03-01,0.0
@@ -186184,7 +187393,7 @@ The Last Day of Jimi Hendrix's Life,2026-05-01,0.01
 The Last Day of Jimi Hendrix's Life,2026-06-01,0.009259259259259259
 The Last Day of Jimi Hendrix's Life,2026-07-01,0.009009009009009009
 The Last Day of Jimi Hendrix's Life,2026-08-01,0.009523809523809525
-The Last Day of Jimi Hendrix's Life,2026-08-09,0.009900990099009901
+The Last Day of Jimi Hendrix's Life,2026-08-09,0.00980392156862745
 The Last Limit of Bhakti,1993-01-01,0.0
 The Last Limit of Bhakti,1993-02-01,0.0
 The Last Limit of Bhakti,1993-03-01,0.0
@@ -186587,7 +187796,7 @@ The Last Limit of Bhakti,2026-05-01,0.02
 The Last Limit of Bhakti,2026-06-01,0.027777777777777776
 The Last Limit of Bhakti,2026-07-01,0.02702702702702703
 The Last Limit of Bhakti,2026-08-01,0.02857142857142857
-The Last Limit of Bhakti,2026-08-09,0.0297029702970297
+The Last Limit of Bhakti,2026-08-09,0.029411764705882353
 The Legend of Chavo Guerrero,1993-01-01,0.0
 The Legend of Chavo Guerrero,1993-02-01,0.0
 The Legend of Chavo Guerrero,1993-03-01,0.0
@@ -187393,7 +188602,7 @@ The Mess Inside,2026-05-01,0.05
 The Mess Inside,2026-06-01,0.046296296296296294
 The Mess Inside,2026-07-01,0.04504504504504504
 The Mess Inside,2026-08-01,0.047619047619047616
-The Mess Inside,2026-08-09,0.0297029702970297
+The Mess Inside,2026-08-09,0.029411764705882353
 The Monkey Song,1993-01-01,0.0
 The Monkey Song,1993-02-01,0.0
 The Monkey Song,1993-03-01,0.0
@@ -189005,7 +190214,7 @@ The Only Thing I Know,2026-05-01,0.01
 The Only Thing I Know,2026-06-01,0.009259259259259259
 The Only Thing I Know,2026-07-01,0.009009009009009009
 The Only Thing I Know,2026-08-01,0.009523809523809525
-The Only Thing I Know,2026-08-09,0.009900990099009901
+The Only Thing I Know,2026-08-09,0.00980392156862745
 The Pig Song,1993-01-01,0.0
 The Pig Song,1993-02-01,0.0
 The Pig Song,1993-03-01,0.0
@@ -189408,7 +190617,7 @@ The Pig Song,2026-05-01,0.01
 The Pig Song,2026-06-01,0.009259259259259259
 The Pig Song,2026-07-01,0.009009009009009009
 The Pig Song,2026-08-01,0.009523809523809525
-The Pig Song,2026-08-09,0.009900990099009901
+The Pig Song,2026-08-09,0.00980392156862745
 The Plague,1993-01-01,0.0
 The Plague,1993-02-01,0.0
 The Plague,1993-03-01,0.0
@@ -190214,7 +191423,7 @@ The Recognition Scene,2026-05-01,0.03
 The Recognition Scene,2026-06-01,0.027777777777777776
 The Recognition Scene,2026-07-01,0.02702702702702703
 The Recognition Scene,2026-08-01,0.02857142857142857
-The Recognition Scene,2026-08-09,0.0297029702970297
+The Recognition Scene,2026-08-09,0.029411764705882353
 The River Song,1993-01-01,0.125
 The River Song,1993-02-01,0.125
 The River Song,1993-03-01,0.125
@@ -191826,7 +193035,7 @@ The Water Song,2026-05-01,0.01
 The Water Song,2026-06-01,0.009259259259259259
 The Water Song,2026-07-01,0.009009009009009009
 The Water Song,2026-08-01,0.009523809523809525
-The Water Song,2026-08-09,0.009900990099009901
+The Water Song,2026-08-09,0.00980392156862745
 The Window Song,1993-01-01,0.0
 The Window Song,1993-02-01,0.0
 The Window Song,1993-03-01,0.0
@@ -192632,7 +193841,7 @@ The Young Thousands,2026-05-01,0.42
 The Young Thousands,2026-06-01,0.39814814814814814
 The Young Thousands,2026-07-01,0.38738738738738737
 The Young Thousands,2026-08-01,0.41904761904761906
-The Young Thousands,2026-08-09,0.43564356435643564
+The Young Thousands,2026-08-09,0.43137254901960786
 Then the Letting Go,1993-01-01,0.0
 Then the Letting Go,1993-02-01,0.0
 Then the Letting Go,1993-03-01,0.0
@@ -193438,7 +194647,7 @@ There Is Power in a Union,2026-05-01,0.01
 There Is Power in a Union,2026-06-01,0.009259259259259259
 There Is Power in a Union,2026-07-01,0.009009009009009009
 There Is Power in a Union,2026-08-01,0.009523809523809525
-There Is Power in a Union,2026-08-09,0.009900990099009901
+There Is Power in a Union,2026-08-09,0.00980392156862745
 There Will Be No Divorce,1993-01-01,0.0
 There Will Be No Divorce,1993-02-01,0.0
 There Will Be No Divorce,1993-03-01,0.0
@@ -193841,7 +195050,7 @@ There Will Be No Divorce,2026-05-01,0.02
 There Will Be No Divorce,2026-06-01,0.018518518518518517
 There Will Be No Divorce,2026-07-01,0.018018018018018018
 There Will Be No Divorce,2026-08-01,0.01904761904761905
-There Will Be No Divorce,2026-08-09,0.019801980198019802
+There Will Be No Divorce,2026-08-09,0.0196078431372549
 Third Snow Song,1993-01-01,0.0
 Third Snow Song,1993-02-01,0.0
 Third Snow Song,1993-03-01,0.0
@@ -194244,7 +195453,7 @@ Third Snow Song,2026-05-01,0.02
 Third Snow Song,2026-06-01,0.018518518518518517
 Third Snow Song,2026-07-01,0.018018018018018018
 Third Snow Song,2026-08-01,0.01904761904761905
-Third Snow Song,2026-08-09,0.009900990099009901
+Third Snow Song,2026-08-09,0.00980392156862745
 This Magic Moment,1993-01-01,0.0
 This Magic Moment,1993-02-01,0.0
 This Magic Moment,1993-03-01,0.0
@@ -195050,7 +196259,7 @@ This Year,2026-05-01,0.97
 This Year,2026-06-01,0.9722222222222222
 This Year,2026-07-01,0.963963963963964
 This Year,2026-08-01,0.9619047619047619
-This Year,2026-08-09,0.9603960396039604
+This Year,2026-08-09,0.9509803921568627
 Tianchi Lake,1993-01-01,0.0
 Tianchi Lake,1993-02-01,0.0
 Tianchi Lake,1993-03-01,0.0
@@ -197468,7 +198677,7 @@ Transcendental Youth (Song),2026-05-01,0.14
 Transcendental Youth (Song),2026-06-01,0.12962962962962962
 Transcendental Youth (Song),2026-07-01,0.12612612612612611
 Transcendental Youth (Song),2026-08-01,0.13333333333333333
-Transcendental Youth (Song),2026-08-09,0.13861386138613863
+Transcendental Youth (Song),2026-08-09,0.13725490196078433
 Transjordanian Blues,1993-01-01,0.0
 Transjordanian Blues,1993-02-01,0.0
 Transjordanian Blues,1993-03-01,0.0
@@ -197871,7 +199080,7 @@ Transjordanian Blues,2026-05-01,0.02
 Transjordanian Blues,2026-06-01,0.018518518518518517
 Transjordanian Blues,2026-07-01,0.018018018018018018
 Transjordanian Blues,2026-08-01,0.01904761904761905
-Transjordanian Blues,2026-08-09,0.019801980198019802
+Transjordanian Blues,2026-08-09,0.0196078431372549
 Trash,1993-01-01,0.0
 Trash,1993-02-01,0.0
 Trash,1993-03-01,0.0
@@ -199886,7 +201095,7 @@ Twin Human Highway Flares,2026-05-01,0.02
 Twin Human Highway Flares,2026-06-01,0.018518518518518517
 Twin Human Highway Flares,2026-07-01,0.018018018018018018
 Twin Human Highway Flares,2026-08-01,0.01904761904761905
-Twin Human Highway Flares,2026-08-09,0.019801980198019802
+Twin Human Highway Flares,2026-08-09,0.0196078431372549
 Tyler Lambert's Grave,1993-01-01,0.0
 Tyler Lambert's Grave,1993-02-01,0.0
 Tyler Lambert's Grave,1993-03-01,0.0
@@ -201498,7 +202707,7 @@ Un Rêve Plus Long Que la Nuit,2026-05-01,0.01
 Un Rêve Plus Long Que la Nuit,2026-06-01,0.009259259259259259
 Un Rêve Plus Long Que la Nuit,2026-07-01,0.009009009009009009
 Un Rêve Plus Long Que la Nuit,2026-08-01,0.009523809523809525
-Un Rêve Plus Long Que la Nuit,2026-08-09,0.009900990099009901
+Un Rêve Plus Long Que la Nuit,2026-08-09,0.00980392156862745
 Unicorn Tolerance,1993-01-01,0.0
 Unicorn Tolerance,1993-02-01,0.0
 Unicorn Tolerance,1993-03-01,0.0
@@ -202707,7 +203916,7 @@ Until I Am Whole,2026-05-01,0.02
 Until I Am Whole,2026-06-01,0.046296296296296294
 Until I Am Whole,2026-07-01,0.04504504504504504
 Until I Am Whole,2026-08-01,0.047619047619047616
-Until I Am Whole,2026-08-09,0.04950495049504951
+Until I Am Whole,2026-08-09,0.049019607843137254
 Up the Wolves,1993-01-01,0.0
 Up the Wolves,1993-02-01,0.0
 Up the Wolves,1993-03-01,0.0
@@ -203110,7 +204319,7 @@ Up the Wolves,2026-05-01,0.39
 Up the Wolves,2026-06-01,0.42592592592592593
 Up the Wolves,2026-07-01,0.43243243243243246
 Up the Wolves,2026-08-01,0.42857142857142855
-Up the Wolves,2026-08-09,0.40594059405940597
+Up the Wolves,2026-08-09,0.4019607843137255
 Used to Haunt,1993-01-01,0.0
 Used to Haunt,1993-02-01,0.0
 Used to Haunt,1993-03-01,0.0
@@ -204722,7 +205931,7 @@ Water Tower,2026-05-01,0.6
 Water Tower,2026-06-01,0.5
 Water Tower,2026-07-01,0.4864864864864865
 Water Tower,2026-08-01,0.4857142857142857
-Water Tower,2026-08-09,0.46534653465346537
+Water Tower,2026-08-09,0.46078431372549017
 Waving at You,1993-01-01,0.0
 Waving at You,1993-02-01,0.0
 Waving at You,1993-03-01,0.0
@@ -205125,7 +206334,7 @@ Waving at You,2026-05-01,0.01
 Waving at You,2026-06-01,0.009259259259259259
 Waving at You,2026-07-01,0.009009009009009009
 Waving at You,2026-08-01,0.009523809523809525
-Waving at You,2026-08-09,0.009900990099009901
+Waving at You,2026-08-09,0.00980392156862745
 Waylon Jennings Live!,1993-01-01,0.0
 Waylon Jennings Live!,1993-02-01,0.0
 Waylon Jennings Live!,1993-03-01,0.0
@@ -205528,7 +206737,7 @@ Waylon Jennings Live!,2026-05-01,0.14
 Waylon Jennings Live!,2026-06-01,0.12962962962962962
 Waylon Jennings Live!,2026-07-01,0.12612612612612611
 Waylon Jennings Live!,2026-08-01,0.13333333333333333
-Waylon Jennings Live!,2026-08-09,0.1188118811881188
+Waylon Jennings Live!,2026-08-09,0.11764705882352941
 We Do It Different on the West Coast,1993-01-01,0.0
 We Do It Different on the West Coast,1993-02-01,0.0
 We Do It Different on the West Coast,1993-03-01,0.0
@@ -207140,7 +208349,7 @@ We Were Patriots,2026-05-01,0.09
 We Were Patriots,2026-06-01,0.08333333333333333
 We Were Patriots,2026-07-01,0.08108108108108109
 We Were Patriots,2026-08-01,0.08571428571428572
-We Were Patriots,2026-08-09,0.0891089108910891
+We Were Patriots,2026-08-09,0.08823529411764706
 Wear Black,1993-01-01,0.0
 Wear Black,1993-02-01,0.0
 Wear Black,1993-03-01,0.0
@@ -207946,7 +209155,7 @@ Weekend in Western Illinois,2026-05-01,0.02
 Weekend in Western Illinois,2026-06-01,0.018518518518518517
 Weekend in Western Illinois,2026-07-01,0.018018018018018018
 Weekend in Western Illinois,2026-08-01,0.01904761904761905
-Weekend in Western Illinois,2026-08-09,0.009900990099009901
+Weekend in Western Illinois,2026-08-09,0.00980392156862745
 Werewolf Gimmick,1993-01-01,0.0
 Werewolf Gimmick,1993-02-01,0.0
 Werewolf Gimmick,1993-03-01,0.0
@@ -208349,7 +209558,7 @@ Werewolf Gimmick,2026-05-01,0.13
 Werewolf Gimmick,2026-06-01,0.12037037037037036
 Werewolf Gimmick,2026-07-01,0.11711711711711711
 Werewolf Gimmick,2026-08-01,0.12380952380952381
-Werewolf Gimmick,2026-08-09,0.12871287128712872
+Werewolf Gimmick,2026-08-09,0.12745098039215685
 West Country Dream,1993-01-01,0.0
 West Country Dream,1993-02-01,0.0
 West Country Dream,1993-03-01,0.0
@@ -209961,7 +211170,7 @@ White Cedar,2026-05-01,0.03
 White Cedar,2026-06-01,0.05555555555555555
 White Cedar,2026-07-01,0.07207207207207207
 White Cedar,2026-08-01,0.0761904761904762
-White Cedar,2026-08-09,0.07920792079207921
+White Cedar,2026-08-09,0.0784313725490196
 Whole Wide World,1993-01-01,0.0
 Whole Wide World,1993-02-01,0.0
 Whole Wide World,1993-03-01,0.0
@@ -210364,7 +211573,7 @@ Whole Wide World,2026-05-01,0.03
 Whole Wide World,2026-06-01,0.027777777777777776
 Whole Wide World,2026-07-01,0.02702702702702703
 Whole Wide World,2026-08-01,0.02857142857142857
-Whole Wide World,2026-08-09,0.0297029702970297
+Whole Wide World,2026-08-09,0.029411764705882353
 Wild Sage,1993-01-01,0.0
 Wild Sage,1993-02-01,0.0
 Wild Sage,1993-03-01,0.0
@@ -210767,7 +211976,7 @@ Wild Sage,2026-05-01,0.01
 Wild Sage,2026-06-01,0.009259259259259259
 Wild Sage,2026-07-01,0.009009009009009009
 Wild Sage,2026-08-01,0.009523809523809525
-Wild Sage,2026-08-09,0.009900990099009901
+Wild Sage,2026-08-09,0.00980392156862745
 Willin',1993-01-01,0.0
 Willin',1993-02-01,0.0
 Willin',1993-03-01,0.0
@@ -211976,7 +213185,7 @@ Woke Up New,2026-05-01,0.07
 Woke Up New,2026-06-01,0.07407407407407407
 Woke Up New,2026-07-01,0.07207207207207207
 Woke Up New,2026-08-01,0.0761904761904762
-Woke Up New,2026-08-09,0.0594059405940594
+Woke Up New,2026-08-09,0.058823529411764705
 Wolf Count,1993-01-01,0.0
 Wolf Count,1993-02-01,0.0
 Wolf Count,1993-03-01,0.0
@@ -213185,7 +214394,7 @@ Yoga,2026-05-01,0.05
 Yoga,2026-06-01,0.046296296296296294
 Yoga,2026-07-01,0.04504504504504504
 Yoga,2026-08-01,0.047619047619047616
-Yoga,2026-08-09,0.04950495049504951
+Yoga,2026-08-09,0.049019607843137254
 You Were Cool,1993-01-01,0.0
 You Were Cool,1993-02-01,0.0
 You Were Cool,1993-03-01,0.0
@@ -213588,7 +214797,7 @@ You Were Cool,2026-05-01,0.13
 You Were Cool,2026-06-01,0.12962962962962962
 You Were Cool,2026-07-01,0.14414414414414414
 You Were Cool,2026-08-01,0.14285714285714285
-You Were Cool,2026-08-09,0.15841584158415842
+You Were Cool,2026-08-09,0.16666666666666666
 You or Your Memory,1993-01-01,0.0
 You or Your Memory,1993-02-01,0.0
 You or Your Memory,1993-03-01,0.0
@@ -213991,7 +215200,7 @@ You or Your Memory,2026-05-01,0.34
 You or Your Memory,2026-06-01,0.3055555555555556
 You or Your Memory,2026-07-01,0.3153153153153153
 You or Your Memory,2026-08-01,0.3238095238095238
-You or Your Memory,2026-08-09,0.32673267326732675
+You or Your Memory,2026-08-09,0.3235294117647059
 You're in Maya,1993-01-01,0.0
 You're in Maya,1993-02-01,0.0
 You're in Maya,1993-03-01,0.0
@@ -215200,7 +216409,7 @@ Young Caesar 2000,2026-05-01,0.01
 Young Caesar 2000,2026-06-01,0.009259259259259259
 Young Caesar 2000,2026-07-01,0.009009009009009009
 Young Caesar 2000,2026-08-01,0.009523809523809525
-Young Caesar 2000,2026-08-09,0.009900990099009901
+Young Caesar 2000,2026-08-09,0.00980392156862745
 Younger,1993-01-01,0.0
 Younger,1993-02-01,0.0
 Younger,1993-03-01,0.0
@@ -215603,7 +216812,7 @@ Younger,2026-05-01,0.16
 Younger,2026-06-01,0.2037037037037037
 Younger,2026-07-01,0.1981981981981982
 Younger,2026-08-01,0.2
-Younger,2026-08-09,0.2079207920792079
+Younger,2026-08-09,0.20588235294117646
 Your Bandage,1993-01-01,0.0
 Your Bandage,1993-02-01,0.0
 Your Bandage,1993-03-01,0.0
@@ -216006,7 +217215,7 @@ Your Bandage,2026-05-01,0.13
 Your Bandage,2026-06-01,0.2222222222222222
 Your Bandage,2026-07-01,0.21621621621621623
 Your Bandage,2026-08-01,0.22857142857142856
-Your Bandage,2026-08-09,0.2376237623762376
+Your Bandage,2026-08-09,0.23529411764705882
 Your Belgian Things,1993-01-01,0.0
 Your Belgian Things,1993-02-01,0.0
 Your Belgian Things,1993-03-01,0.0
@@ -216409,4 +217618,4 @@ Your Belgian Things,2026-05-01,0.06
 Your Belgian Things,2026-06-01,0.05555555555555555
 Your Belgian Things,2026-07-01,0.05405405405405406
 Your Belgian Things,2026-08-01,0.05714285714285714
-Your Belgian Things,2026-08-09,0.04950495049504951
+Your Belgian Things,2026-08-09,0.049019607843137254

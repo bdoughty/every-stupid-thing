@@ -842,17 +842,17 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-09-06_-_The_Orange_Peel_-_Asheville,_NC",2017-09-06,U.S. Fall Tour 2017,552.0,20.0,2.3542296105522245,0.1181533463239101
 "2017-09-08_-_Bijou_Theatre_-_Knoxville,_TN",2017-09-08,U.S. Fall Tour 2017,553.0,23.0,2.610520699834319,0.13725597061095202
 "2017-09-09_-_Headliners_-_Louisville,_KY",2017-09-09,U.S. Fall Tour 2017,553.0,21.0,1.8277774503893671,0.10083943095522586
-"2017-09-10_-_The_Vogue_-_Indianapolis,_IN",2017-09-10,U.S. Fall Tour 2017,554.0,22.0,2.880657582769091,0.1342550019186217
 "2017-09-10_-_Almost_Live_-_Indianapolis,_IN",2017-09-10,,553.0,0.0,,0.01843102746124793
-"2017-09-11_-_KDHX_Session_-_St._Louis,_MO",2017-09-11,,554.0,3.0,5.7243484180031965,0.047604417248898204
+"2017-09-10_-_The_Vogue_-_Indianapolis,_IN",2017-09-10,U.S. Fall Tour 2017,554.0,22.0,2.880657582769091,0.1342550019186217
 "2017-09-11_-_Sheldon_Concert_Hall_-_St._Louis,_MO",2017-09-11,U.S. Fall Tour 2017,554.0,18.0,2.977255929386733,0.11823936884842066
+"2017-09-11_-_KDHX_Session_-_St._Louis,_MO",2017-09-11,,554.0,3.0,5.7243484180031965,0.047604417248898204
 "2017-09-13_-_Englert_Theatre_-_Iowa_City,_IA",2017-09-13,U.S. Fall Tour 2017,554.0,21.0,2.2667743935062834,0.11328381427162677
 "2017-09-14_-_Madrid_Theatre_-_Kansas_City,_MO",2017-09-14,U.S. Fall Tour 2017,554.0,20.0,2.0631808577726867,0.10608218323913259
 "2017-09-15_-_The_Waiting_Room_-_Omaha,_NE",2017-09-15,U.S. Fall Tour 2017,554.0,21.0,1.9226218778117148,0.09831465661309281
 "2017-09-16_-_Gothic_Theatre_-_Englewood,_CO",2017-09-16,U.S. Fall Tour 2017,554.0,20.0,1.7140777476803304,0.08801566877713521
 "2017-10-05_-_Brudenell_Social_Club_-_Leeds,_England",2017-10-05,European Tour 2017,554.0,21.0,4.0553592106130845,0.17509543261798602
-"2017-10-06_-_Jumbo_Records_-_Leeds,_England",2017-10-06,European Tour 2017,554.0,6.0,3.1182983380975693,0.10211711251756865
 "2017-10-06_-_Brudenell_Social_Club_-_Leeds,_England",2017-10-06,European Tour 2017,554.0,21.0,1.7327079251613942,0.10737536755787087
+"2017-10-06_-_Jumbo_Records_-_Leeds,_England",2017-10-06,European Tour 2017,554.0,6.0,3.1182983380975693,0.10211711251756865
 "2017-10-08_-_Button_Factory_-_Dublin,_Ireland",2017-10-08,European Tour 2017,554.0,21.0,2.4512797765363494,0.12278412831403936
 "2017-10-09_-_Glasgow_Art_School_-_Glasgow,_Scotland",2017-10-09,European Tour 2017,555.0,21.0,2.02791392341129,0.10265751580579227
 "2017-10-11_-_O2_Shepherd's_Bush_Empire_-_London,_England",2017-10-11,European Tour 2017,555.0,24.0,1.6312297222419414,0.09182109662772063
@@ -1143,8 +1143,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2023-07-14_-_Liberty_Hall_-_Lawrence,_KS",2023-07-14,Spectral Tide Tour 2023,648.0,23.0,1.8800405969298724,0.09561919071119
 "2023-08-04_-_The_Rooftop_at_Pier_17_-_New_York,_NY",2023-08-04,Spectral Tide Tour 2023,648.0,22.0,1.831889877590155,0.09042023471896365
 "2023-08-05_-_Citizens_House_of_Blues_-_Boston,_MA",2023-08-05,Spectral Tide Tour 2023,649.0,25.0,2.2640301349354814,0.11790082947485431
-"2023-08-08_-_KEXP_Session_-_Seattle,_WA",2023-08-08,,649.0,4.0,2.517684740142605,0.031872414679210405
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,Spectral Tide Tour 2023,649.0,18.0,1.924396569962521,0.0725147651444751
+"2023-08-08_-_KEXP_Session_-_Seattle,_WA",2023-08-08,,649.0,4.0,2.517684740142605,0.031872414679210405
 "2023-08-09_-_Pioneer_Courthouse_Square_-_Portland,_OR",2023-08-09,Spectral Tide Tour 2023,649.0,23.0,2.3587346074378646,0.11396269089938312
 "2023-09-19_-_Brooklyn_Made_-_New_York,_NY",2023-09-19,,649.0,26.0,5.850697436474844,0.2661733833822372
 "2023-10-02_-_Belly_Up_Tavern_-_Solana_Beach,_CA",2023-10-02,Spectral Tide Tour 2023,651.0,18.0,4.146286015468402,0.14507240980668007
@@ -1286,10 +1286,10 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2025-12-13_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-13,Winter Tour 2025,682.0,23.0,1.3387353605259895,0.06636807249925315
 "2025-12-14_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-14,Winter Tour 2025,682.0,20.0,1.9539733867956504,0.08485281748123727
 "2025-12-16_-_The_Late_Show_with_Stephen_Colbert_-_New_York,_NY",2025-12-16,,682.0,1.0,1.5450650174274134,0.020250193275675687
-"2026-04-05_-_Blue_Note_Tokyo,_Late_Show_-_Tokyo,_Japan",2026-04-05,Heralds of Triton Tour 2026,682.0,17.0,3.2399869096623384,0.12545377784566786
 "2026-04-05_-_Blue_Note_Tokyo,_Early_Show_-_Tokyo,_Japan",2026-04-05,Heralds of Triton Tour 2026,682.0,16.0,3.620064426737498,0.11286008845581848
-"2026-04-06_-_Blue_Note_Tokyo,_Early_Show_-_Tokyo,_Japan",2026-04-06,Heralds of Triton Tour 2026,682.0,20.0,4.01112381963362,0.15211929982410496
+"2026-04-05_-_Blue_Note_Tokyo,_Late_Show_-_Tokyo,_Japan",2026-04-05,Heralds of Triton Tour 2026,682.0,17.0,3.2399869096623384,0.12545377784566786
 "2026-04-06_-_Blue_Note_Tokyo,_Late_Show_-_Tokyo,_Japan",2026-04-06,Heralds of Triton Tour 2026,682.0,15.0,2.505873045551843,0.08940025429212574
+"2026-04-06_-_Blue_Note_Tokyo,_Early_Show_-_Tokyo,_Japan",2026-04-06,Heralds of Triton Tour 2026,682.0,20.0,4.01112381963362,0.15211929982410496
 "2026-04-10_-_Powerstation_-_Auckland,_NZ",2026-04-10,Heralds of Triton Tour 2026,682.0,20.0,2.174701039187128,0.08930064003288307
 "2026-04-11_-_Meow_Nui_-_Wellington,_NZ",2026-04-11,Heralds of Triton Tour 2026,682.0,20.0,2.0545616879287403,0.08575386675884633
 "2026-04-13_-_Metro_Theatre_-_Sydney,_AU",2026-04-13,Heralds of Triton Tour 2026,682.0,22.0,2.4265036436387244,0.10296362137882317
@@ -1297,8 +1297,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2026-04-16_-_The_Governor_Hindmarsh_Hotel_-_Adelaide,_AU",2026-04-16,Heralds of Triton Tour 2026,683.0,22.0,2.5572315067534537,0.10826208009057284
 "2026-04-17_-_Forum_Theatre_-_Melbourne,_AU",2026-04-17,Heralds of Triton Tour 2026,683.0,24.0,2.4704051223862153,0.11195290145218642
 "2026-04-19_-_Freo.Social_-_Fremantle,_AU",2026-04-19,Heralds of Triton Tour 2026,683.0,21.0,2.034284995400413,0.08792961975527443
-"2026-04-21_-_Blue_Note_Hawaii,_Late_Show_-_Honolulu,_HI",2026-04-21,Heralds of Triton Tour 2026,683.0,18.0,1.9951076891976274,0.08233929879891623
 "2026-04-21_-_Blue_Note_Hawaii,_Early_Show_-_Honolulu,_HI",2026-04-21,Heralds of Triton Tour 2026,683.0,17.0,1.8014493860760277,0.06902073799070786
+"2026-04-21_-_Blue_Note_Hawaii,_Late_Show_-_Honolulu,_HI",2026-04-21,Heralds of Triton Tour 2026,683.0,18.0,1.9951076891976274,0.08233929879891623
 "2026-05-03_-_Sing_Us_Home_Festival_-_Philadelphia,_PA",2026-05-03,,683.0,22.0,4.053479922305094,0.13959120351456467
 "2026-05-15_-_The_Fillmore_Silver_Spring_-_Silver_Spring,_MD",2026-05-15,Hypnotic Waves Tour 2026,683.0,17.0,3.9282779586846495,0.1215110330284824
 "2026-05-16_-_Bearsville_Theater_-_Woodstock,_NY",2026-05-16,Hypnotic Waves Tour 2026,686.0,20.0,2.0304269990378514,0.09552101775934617
@@ -1317,5 +1317,6 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2026-06-25_-_Summerfest_-_Milwaukee,_WI",2026-06-25,,687.0,21.0,2.8226180086305726,0.10400488496849224
 "2026-06-26_-_FitzGerald's_-_Berwyn,_IL",2026-06-26,,687.0,22.0,2.9829933909708375,0.11283658636343027
 "2026-07-10_-_Red_Rocks_Amphitheatre_-_Morrison,_CO",2026-07-10,,687.0,11.0,3.652026438950166,0.08458340469638308
-"2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,,687.0,10.0,3.1755292420283174,0.06883700484460477
-"2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,,693.0,16.0,1.6881769399301942,0.05893350430655817
+"2026-08-07_-_Music_Millennium_-_Portland,_OR",2026-08-07,Do you know how short the days are? 2026 Tour,687.0,7.0,2.687366465699609,0.051748304823630076
+"2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,Do you know how short the days are? 2026 Tour,690.0,13.0,1.5101493248594966,0.0503262265771074
+"2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Do you know how short the days are? 2026 Tour,693.0,16.0,0.656802245303681,0.03337732953518809

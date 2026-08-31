@@ -225,7 +225,6 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2012-07-01_-_McCabe's_Guitar_Shop_-_Santa_Monica,_CA",2012-07-01,Survivors Choice West Coast Tour 2012,474.0,23.0,3.1891218392459755,0.2033570246706238
 "2010-04-09_-_San_Francisco_Bath_House_-_Wellington,_New_Zealand",2010-04-09,Australia and New Zealand Tour 2010,423.0,20.0,3.1867205139050347,0.17850915025418765
 "2004-05-26_-_Bottom_of_the_Hill_-_San_Francisco,_CA",2004-05-26,West Coast Tour 2004,299.0,17.0,3.1755860848131454,0.21896700340527142
-"2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,,687.0,10.0,3.1755292420283174,0.06883700484460477
 "1996-11-10_-_Kikker_-_Utrecht,_Netherlands",1996-11-10,Second European Tour 1996,161.0,15.0,3.1692217937346063,0.42865733835601055
 "1996-03-14_-_Broadway_Kino_-_Essen,_Belgium",1996-03-14,First European Tour 1996,126.0,14.0,3.1626866118475574,0.4818071299316698
 "2012-05-01_-_The_Bakery_-_Perth,_Australia",2012-05-01,Australian Tour 2012,471.0,21.0,3.162103406904252,0.1669901832288778
@@ -891,7 +890,6 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2019-09-09_-_Crystal_Ballroom_-_Portland,_OR",2019-09-09,Chamber of the Wyvern Tour 2019,582.0,24.0,1.6897239079118591,0.09709712942219768
 "2012-10-27_-_The_Vic_Theatre_-_Chicago,_IL",2012-10-27,Nameless Dark Tour 2012,478.0,21.0,1.6893543757361709,0.10531217410426734
 "2024-01-26_-_Lowbrow_Palace_-_El_Paso,_TX",2024-01-26,Sworn to the Effort Tour 2024,661.0,20.0,1.6892207253830531,0.0748190106870822
-"2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,,693.0,16.0,1.6881769399301942,0.05893350430655817
 "2015-04-19_-_First_Avenue_-_Minneapolis,_MN",2015-04-19,Regional Heat Tour 2015,517.0,22.0,1.6877039703698182,0.09719623245806645
 "2017-07-05_-_Sumtur_Ampitheatre_-_Papillion,_NE",2017-07-05,Summer Tour 2017,552.0,12.0,1.6869876770226735,0.05587299219415188
 "2005-06-23_-_Bottom_of_the_Hill_-_San_Francisco,_CA",2005-06-23,West Coast Tour 2005,319.0,14.0,1.685212013841586,0.12407666075324943
@@ -974,6 +972,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2012-10-20_-_Phoenix_Concert_Theatre_-_Toronto,_Ontario",2012-10-20,Nameless Dark Tour 2012,478.0,22.0,1.5159747544193458,0.10152669228372353
 "2019-09-14_-_Belasco_Theater_-_Los_Angeles,_CA",2019-09-14,Chamber of the Wyvern Tour 2019,582.0,25.0,1.5128204608815023,0.09045237401066539
 "2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Spectral Tide Tour 2023,656.0,22.0,1.5104019343953654,0.0793520343371821
+"2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,Do you know how short the days are? 2026 Tour,690.0,13.0,1.5101493248594966,0.0503262265771074
 "2022-11-18_-_Vicar_Street_-_Dublin,_Ireland",2022-11-18,European Tour 2022,645.0,18.0,1.5093855241644318,0.07391970218814284
 "2016-09-28_-_Majestic_Theater_-_Madison,_WI",2016-09-28,We Who Walk Behind the Rows Fall Tour 2016,536.0,23.0,1.5048381632050767,0.09495841210494375
 "2011-04-08_-_Cat's_Cradle_-_Carrboro,_NC",2011-04-08,Full Fish Moon Tour 2011,453.0,21.0,1.5039416401010615,0.09880877194241657
@@ -1078,4 +1077,5 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2019-07-24_-_Merge_30_-_Carolina_Theatre_-_Durham,_NC",2019-07-24,Protector's Wrath Tour 2019,580.0,12.0,0.7299373618148817,0.054470607374839254
 "2017-07-11_-_The_Washington_Pavilion_-_Sioux_Falls,_SD",2017-07-11,Summer Tour 2017,552.0,12.0,0.6992866783995141,0.04643009246498351
 "2017-06-30_-_Merriweather_Post_Pavilion_-_Columbia,_MD",2017-06-30,Summer Tour 2017,551.0,12.0,0.6753968088029376,0.03932207319805255
+"2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Do you know how short the days are? 2026 Tour,693.0,16.0,0.656802245303681,0.03337732953518809
 "2025-08-04_-_The_Rooftop_at_Pier_17_-_New_York,_NY",2025-08-04,Summer Tour 2025,667.0,13.0,0.6130783911239956,0.02838138882307428
