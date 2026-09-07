@@ -411,8 +411,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2009-11-28_-_Theater_of_Living_Arts_-_Philadelphia,_PA",2009-11-28,American Autumn Tour 2009,422.0,19.0,1.672007844352634,0.1175189531654916
 "2009-11-29_-_Wilbur_Theatre_-_Boston,_MA",2009-11-29,American Autumn Tour 2009,422.0,21.0,1.6303507302475508,0.11788553046451909
 "2009-12-01_-_Webster_Hall_-_New_York,_NY",2009-12-01,American Autumn Tour 2009,422.0,23.0,1.4208353742247541,0.10981584942867413
-"2009-12-02_-_Bell_House_-_Brooklyn,_NY",2009-12-02,American Autumn Tour 2009,422.0,22.0,2.238339126994489,0.16247357482119282
 "2009-12-02_-_Seven_Second_Delay_-_UCB_Theater_-_New_York,_NY",2009-12-02,,422.0,2.0,3.8145894216372427,0.0673930109478639
+"2009-12-02_-_Bell_House_-_Brooklyn,_NY",2009-12-02,American Autumn Tour 2009,422.0,22.0,2.238339126994489,0.16247357482119282
 "2009-12-07_-_KEXP_Session_-_Seattle,_WA",2009-12-07,,422.0,3.0,2.0610445193546654,0.0597367951366574
 "2009-12-16_-_Second_City_-_Chicago,_IL",2009-12-16,,422.0,9.0,5.91332853146957,0.16635566168708601
 "2009-12-19_-_Live_Wire_Radio_-_Portland,_OR",2009-12-19,,423.0,3.0,3.7955797612773776,0.06725860585197849
@@ -471,8 +471,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2011-03-28_-_Bowery_Ballroom_-_New_York,_NY",2011-03-28,Full Fish Moon Tour 2011,449.0,22.0,2.163884504333284,0.1454522709020432
 "2011-03-29_-_Bowery_Ballroom_-_New_York,_NY",2011-03-29,Full Fish Moon Tour 2011,450.0,20.0,2.0024468959438617,0.13689726963100213
 "2011-03-29_-_KEXP_Session_-_Seattle,_WA",2011-03-29,,452.0,4.0,3.927342176494022,0.060623797688680245
-"2011-03-30_-_Soundcheck_-_WNYC_Session_-_New_York,_NY",2011-03-30,,452.0,3.0,2.6603330747117853,0.03704475629081237
 "2011-03-30_-_Bowery_Ballroom_-_New_York,_NY",2011-03-30,Full Fish Moon Tour 2011,452.0,20.0,2.5861040660766696,0.14332206378610549
+"2011-03-30_-_Soundcheck_-_WNYC_Session_-_New_York,_NY",2011-03-30,,452.0,3.0,2.6603330747117853,0.03704475629081237
 "2011-04-01_-_Paradise_Rock_Club_-_Boston,_MA",2011-04-01,Full Fish Moon Tour 2011,452.0,21.0,2.9774372855831426,0.16266387635962465
 "2011-04-02_-_Castaways_-_Ithaca,_NY",2011-04-02,Full Fish Moon Tour 2011,453.0,10.0,1.4177795983851207,0.1057932349457157
 "2011-04-03_-_The_Opera_House_-_Toronto,_Ontario",2011-04-03,Full Fish Moon Tour 2011,453.0,25.0,2.061768804297498,0.1439813135635255
@@ -480,8 +480,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2011-04-05_-_The_Vic_Theatre_-_Chicago,_IL",2011-04-05,Full Fish Moon Tour 2011,453.0,19.0,2.7180550216400197,0.13883794256569384
 "2011-04-06_-_Mercy_Lounge_-_Nashville,_TN",2011-04-06,Full Fish Moon Tour 2011,453.0,20.0,1.6033093945291554,0.10427421475428926
 "2011-04-07_-_Variety_Playhouse_-_Atlanta,_GA",2011-04-07,Full Fish Moon Tour 2011,453.0,21.0,1.7179626396362777,0.11559961278573874
-"2011-04-08_-_WUNC_Session_-_Chapel_Hill,_NC",2011-04-08,,455.0,3.0,5.218426612386378,0.058652085967970335
 "2011-04-08_-_Cat's_Cradle_-_Carrboro,_NC",2011-04-08,Full Fish Moon Tour 2011,453.0,21.0,1.5039416401010615,0.09880877194241657
+"2011-04-08_-_WUNC_Session_-_Chapel_Hill,_NC",2011-04-08,,455.0,3.0,5.218426612386378,0.058652085967970335
 "2011-04-10_-_The_Grey_Eagle_-_Asheville,_NC",2011-04-10,Full Fish Moon Tour 2011,455.0,22.0,2.3699863857371537,0.13627253164404862
 "2011-04-11_-_Wexner_Center_-_Columbus,_OH",2011-04-11,Full Fish Moon Tour 2011,455.0,19.0,1.6779831174975393,0.1141787470420033
 "2011-04-12_-_Mr._Smalls_-_Millvale,_PA",2011-04-12,Full Fish Moon Tour 2011,455.0,17.0,1.8700388393476772,0.11737301367401934
@@ -575,8 +575,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2012-10-14_-_Music_Hall_of_Williamsburg_-_Brooklyn,_NY",2012-10-14,Nameless Dark Tour 2012,478.0,21.0,2.2272305618164823,0.1329270370696162
 "2012-10-15_-_Bowery_Ballroom_-_New_York,_NY",2012-10-15,Nameless Dark Tour 2012,478.0,20.0,1.7168477715862802,0.10265087593664023
 "2012-10-16_-_Bowery_Ballroom_-_New_York,_NY",2012-10-16,Nameless Dark Tour 2012,478.0,23.0,2.3101749284295052,0.1450764037907997
-"2012-10-18_-_House_of_Blues_-_Boston,_MA",2012-10-18,Nameless Dark Tour 2012,478.0,22.0,2.4750501054927745,0.13492586209012725
 "2012-10-18_-_Daytrotter_Session_-_Echo_Mountain_Recording_Studio_-_Asheville,_NC",2012-10-18,,478.0,4.0,1.874610192040354,0.05099884058861155
+"2012-10-18_-_House_of_Blues_-_Boston,_MA",2012-10-18,Nameless Dark Tour 2012,478.0,22.0,2.4750501054927745,0.13492586209012725
 "2012-10-19_-_The_Haunt_-_Ithaca,_NY",2012-10-19,Nameless Dark Tour 2012,478.0,22.0,1.566391259833137,0.10885482687151295
 "2012-10-20_-_Phoenix_Concert_Theatre_-_Toronto,_Ontario",2012-10-20,Nameless Dark Tour 2012,478.0,22.0,1.5159747544193458,0.10152669228372353
 "2012-10-22_-_Fine_Arts_Center_-_Calvin_College_-_Grand_Rapids,_MI",2012-10-22,Nameless Dark Tour 2012,478.0,19.0,1.7689441694864818,0.11200661640283903
@@ -595,8 +595,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2012-12-09_-_Club_Congress_-_Tucson,_AZ",2012-12-09,Nameless Dark Tour 2012,478.0,18.0,1.7041551093017298,0.09657808405381493
 "2012-12-10_-_The_Irenic_-_San_Diego,_CA",2012-12-10,Nameless Dark Tour 2012,478.0,20.0,2.0170446766604497,0.12110154937757962
 "2012-12-12_-_Masonic_Lodge_-_Hollywood_Forever_Cemetery_-_Los_Angeles,_CA",2012-12-12,Nameless Dark Tour 2012,478.0,20.0,2.8095779196535875,0.15684259980403067
-"2012-12-13_-_Troubadour_-_West_Hollywood,_CA",2012-12-13,Nameless Dark Tour 2012,478.0,22.0,1.6463765212055679,0.10054069889341262
 "2012-12-13_-_Origami_Vinyl_-_Los_Angeles,_CA",2012-12-13,Nameless Dark Tour 2012,478.0,11.0,4.513099996230323,0.18660298973387615
+"2012-12-13_-_Troubadour_-_West_Hollywood,_CA",2012-12-13,Nameless Dark Tour 2012,478.0,22.0,1.6463765212055679,0.10054069889341262
 "2012-12-14_-_The_Fillmore_-_San_Francisco,_CA",2012-12-14,Nameless Dark Tour 2012,478.0,19.0,1.041291612794668,0.06572088779787508
 "2012-12-16_-_Aladdin_Theater_-_Portland,_OR",2012-12-16,Nameless Dark Tour 2012,478.0,21.0,1.4037488005328616,0.0842863707419095
 "2012-12-16_-_Oregon_Public_Broadcasting_Session_-_Aladdin_Theater_-_Portland,_OR",2012-12-16,Nameless Dark Tour 2012,478.0,3.0,0.2683137496154055,0.06994751769329607
@@ -701,8 +701,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2015-05-08_-_Shaky_Knees_Festival_-_Atlanta,_GA",2015-05-08,Regional Heat Tour 2015,517.0,17.0,4.049209609749958,0.14737089142608623
 "2015-05-26_-_Gothic_Theatre_-_Denver,_CO",2015-05-26,Regional Heat Tour 2015,517.0,19.0,2.2120588025106627,0.1219532150553438
 "2015-05-27_-_Urban_Lounge_-_Salt_Lake_City,_UT",2015-05-27,Regional Heat Tour 2015,518.0,17.0,0.9652891854351441,0.06568530559539756
-"2015-05-29_-_KEXP_Session_-_Alaska_Junction_-_Seattle,_WA",2015-05-29,,519.0,11.0,4.8431166499226865,0.12113265579216063
 "2015-05-29_-_The_Showbox_-_Seattle,_WA",2015-05-29,Regional Heat Tour 2015,519.0,21.0,2.2873103723035877,0.11066063780961467
+"2015-05-29_-_KEXP_Session_-_Alaska_Junction_-_Seattle,_WA",2015-05-29,,519.0,11.0,4.8431166499226865,0.12113265579216063
 "2015-05-30_-_Wonder_Ballroom_-_Portland,_OR",2015-05-30,Regional Heat Tour 2015,520.0,22.0,1.7733162399913203,0.11105836523168439
 "2015-05-31_-_Amoeba_Records_-_San_Francisco,_CA",2015-05-31,,520.0,10.0,4.9802341700715385,0.13324978713669317
 "2015-06-01_-_The_Fillmore_-_San_Francisco,_CA",2015-06-01,Regional Heat Tour 2015,520.0,22.0,2.17976977664,0.11110197368413305
@@ -729,8 +729,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2015-11-05_-_Big_Arts_Schein_Performance_Hall_-_Sanibel_Island_Writer's_Conference_-_Sanibel,_FL",2015-11-05,,523.0,18.0,5.392452257896652,0.2174165082664154
 "2015-11-12_-_Brudenell_Social_Club_-_Leeds,_England",2015-11-12,European Tour 2015,523.0,19.0,2.7426821730330633,0.12207150138209139
 "2015-11-13_-_Art_School_-_Glasgow,_Scotland",2015-11-13,European Tour 2015,523.0,20.0,1.4301229678088014,0.08755380459247906
-"2015-11-14_-_Whelan's_-_Dublin,_Ireland",2015-11-14,European Tour 2015,523.0,18.0,1.7349235809989336,0.09027785089851177
 "2015-11-14_-_The_Green_Room_-_Newstalk_-_Dublin,_Ireland",2015-11-14,European Tour 2015,523.0,2.0,2.948055540164498,0.09834267322452293
+"2015-11-14_-_Whelan's_-_Dublin,_Ireland",2015-11-14,European Tour 2015,523.0,18.0,1.7349235809989336,0.09027785089851177
 "2015-11-15_-_Gorilla_-_Manchester,_England",2015-11-15,European Tour 2015,523.0,19.0,1.6999022735852618,0.08965693412901903
 "2015-11-17_-_Trinity_-_Bristol,_England",2015-11-17,European Tour 2015,523.0,21.0,1.7119142482341165,0.09492175022457065
 "2015-11-18_-_Komedia_-_Brighton,_England",2015-11-18,European Tour 2015,523.0,19.0,1.3058860382594586,0.07084503181662258
@@ -802,8 +802,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-04-11_-_The_Toff_in_Town_-_Melbourne,_Australia",2017-04-11,Australian Tour 2017,543.0,22.0,2.9742236194559264,0.1436519362515942
 "2017-04-12_-_The_Corner_Hotel_-_Melbourne,_Australia",2017-04-12,Australian Tour 2017,543.0,23.0,2.031368904583212,0.12375247171593368
 "2017-05-19_-_Facebook_Live_Stream_-_Durham,_NC",2017-05-19,,545.0,1.0,0.9285878980036584,0.039384132835438734
-"2017-05-22_-_X-Posure_-_Radio_X_Session_-_London,_England",2017-05-22,,549.0,4.0,3.117549638398539,0.04203419258661366
 "2017-05-22_-_Terminal_West_-_Atlanta,_GA",2017-05-22,Grey King Ascendant Tour 2017,548.0,18.0,3.1507058377128305,0.133032608115925
+"2017-05-22_-_X-Posure_-_Radio_X_Session_-_London,_England",2017-05-22,,549.0,4.0,3.117549638398539,0.04203419258661366
 "2017-05-23_-_Cannery_Ballroom_-_Nashville,_TN",2017-05-23,Grey King Ascendant Tour 2017,549.0,19.0,2.9974434542101003,0.12677584257910884
 "2017-05-25_-_Saturn_-_Birmingham,_AL",2017-05-25,Grey King Ascendant Tour 2017,551.0,20.0,1.695297215601975,0.09467097931498379
 "2017-05-26_-_The_Republic_-_New_Orleans,_LA",2017-05-26,Grey King Ascendant Tour 2017,551.0,18.0,1.7142261631287605,0.09451953562067132
@@ -814,8 +814,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-06-02_-_The_Fillmore_-_San_Francisco,_CA",2017-06-02,Grey King Ascendant Tour 2017,551.0,27.0,1.950729488800258,0.12224606120469718
 "2017-06-04_-_Crystal_Ballroom_-_Portland,_OR",2017-06-04,Grey King Ascendant Tour 2017,551.0,23.0,1.9618011903756116,0.1129467597871341
 "2017-06-05_-_The_Showbox_-_Seattle,_WA",2017-06-05,Grey King Ascendant Tour 2017,551.0,23.0,1.2776552653909634,0.078645041484883
-"2017-06-06_-_KEXP_Session_-_Seattle,_WA",2017-06-06,,551.0,4.0,3.3740136716955016,0.04473489968389448
 "2017-06-06_-_Tractor_Tavern_-_Seattle,_WA",2017-06-06,Grey King Ascendant Tour 2017,551.0,19.0,1.9943689864245395,0.08945297038297195
+"2017-06-06_-_KEXP_Session_-_Seattle,_WA",2017-06-06,,551.0,4.0,3.3740136716955016,0.04473489968389448
 "2017-06-21_-_Welcome_to_Night_Vale_Birthday_Party_-_The_Bell_House_-_New_York,_NY",2017-06-21,,551.0,7.0,5.938288978854724,0.1112704747301064
 "2017-06-22_-_WFUV_Session_-_New_York,_NY",2017-06-22,,551.0,4.0,3.7701955151018502,0.04439764581565635
 "2017-06-23_-_Beacon_Theatre_-_New_York,_NY",2017-06-23,Summer Tour 2017,551.0,11.0,2.282290165484378,0.0687292944623261
@@ -894,8 +894,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2018-05-28_-_Old_Town_School_of_Folk_Music_-_Chicago,_IL",2018-05-28,,565.0,21.0,4.026462798634804,0.18035474612882396
 "2018-05-29_-_Old_Town_School_of_Folk_Music_-_Chicago,_IL",2018-05-29,,565.0,23.0,4.040043031634709,0.1942794358361094
 "2018-05-30_-_Thalia_Hall_-_Chicago,_IL",2018-05-30,,565.0,8.0,2.518880416242862,0.06813131196373762
-"2018-08-10_-_Outside_Lands_-_Golden_Gate_Park_-_San_Francisco,_CA",2018-08-10,,566.0,13.0,3.432180653588616,0.10618984271454467
 "2018-08-10_-_Facebook_Live_Stream_-_San_Francisco,_CA",2018-08-10,,565.0,3.0,6.161506101590805,0.06694287234973748
+"2018-08-10_-_Outside_Lands_-_Golden_Gate_Park_-_San_Francisco,_CA",2018-08-10,,566.0,13.0,3.432180653588616,0.10618984271454467
 "2018-08-30_-_The_Georgia_Theatre_-_Athens,_GA",2018-08-30,No Shield Except the Skin Tour 2018,566.0,17.0,5.097649627603832,0.1825662439763968
 "2018-08-31_-_The_Wilbury_-_Tallahassee,_FL",2018-08-31,No Shield Except the Skin Tour 2018,567.0,21.0,2.6250880506636127,0.13380370269697214
 "2018-09-01_-_The_Orpheum_-_Tampa,_FL",2018-09-01,No Shield Except the Skin Tour 2018,567.0,20.0,2.087806133817914,0.1083808528929994
@@ -1143,8 +1143,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2023-07-14_-_Liberty_Hall_-_Lawrence,_KS",2023-07-14,Spectral Tide Tour 2023,648.0,23.0,1.8800405969298724,0.09561919071119
 "2023-08-04_-_The_Rooftop_at_Pier_17_-_New_York,_NY",2023-08-04,Spectral Tide Tour 2023,648.0,22.0,1.831889877590155,0.09042023471896365
 "2023-08-05_-_Citizens_House_of_Blues_-_Boston,_MA",2023-08-05,Spectral Tide Tour 2023,649.0,25.0,2.2640301349354814,0.11790082947485431
-"2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,Spectral Tide Tour 2023,649.0,18.0,1.924396569962521,0.0725147651444751
 "2023-08-08_-_KEXP_Session_-_Seattle,_WA",2023-08-08,,649.0,4.0,2.517684740142605,0.031872414679210405
+"2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,Spectral Tide Tour 2023,649.0,18.0,1.924396569962521,0.0725147651444751
 "2023-08-09_-_Pioneer_Courthouse_Square_-_Portland,_OR",2023-08-09,Spectral Tide Tour 2023,649.0,23.0,2.3587346074378646,0.11396269089938312
 "2023-09-19_-_Brooklyn_Made_-_New_York,_NY",2023-09-19,,649.0,26.0,5.850697436474844,0.2661733833822372
 "2023-10-02_-_Belly_Up_Tavern_-_Solana_Beach,_CA",2023-10-02,Spectral Tide Tour 2023,651.0,18.0,4.146286015468402,0.14507240980668007
@@ -1266,8 +1266,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2025-09-29_-_The_Majestic_Theatre_-_Detroit,_MI",2025-09-29,Presentiments of Doom With a Terrific View of the Sunset Tour 2025,672.0,21.0,1.7283739149498552,0.07764540761298852
 "2025-10-01_-_The_Loud_-_Huntington,_WV",2025-10-01,Presentiments of Doom With a Terrific View of the Sunset Tour 2025,672.0,20.0,1.9466186301399766,0.08691585415764805
 "2025-10-02_-_Water_Street_Music_Hall_-_Rochester,_NY",2025-10-02,Presentiments of Doom With a Terrific View of the Sunset Tour 2025,672.0,21.0,1.822265090606501,0.07854358228697708
-"2025-10-03_-_World_Cafe_Live_-_Philadelphia,_PA",2025-10-03,Presentiments of Doom With a Terrific View of the Sunset Tour 2025,673.0,8.0,1.126864030732731,0.03951492814606936
 "2025-10-03_-_Ardmore_Music_Hall_-_Ardmore,_PA",2025-10-03,Presentiments of Doom With a Terrific View of the Sunset Tour 2025,672.0,22.0,1.7925575642721006,0.07875725457718935
+"2025-10-03_-_World_Cafe_Live_-_Philadelphia,_PA",2025-10-03,Presentiments of Doom With a Terrific View of the Sunset Tour 2025,673.0,8.0,1.126864030732731,0.03951492814606936
 "2025-10-04_-_White_Eagle_Hall_-_Jersey_City,_NJ",2025-10-04,Presentiments of Doom With a Terrific View of the Sunset Tour 2025,674.0,20.0,1.3336961592334355,0.06157740083672987
 "2025-11-06_-_Storm_Relief_for_Jamaica_-_Motorco_-_Durham,_NC",2025-11-06,,675.0,13.0,7.075121293942773,0.17294304178247438
 "2025-11-11_-_Sony_Hall_-_WFUV_Radio_Fundraiser_-_New_York,_NY",2025-11-11,,675.0,16.0,4.322501597789083,0.12738505541494413
@@ -1288,8 +1288,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2025-12-16_-_The_Late_Show_with_Stephen_Colbert_-_New_York,_NY",2025-12-16,,682.0,1.0,1.5450650174274134,0.020250193275675687
 "2026-04-05_-_Blue_Note_Tokyo,_Early_Show_-_Tokyo,_Japan",2026-04-05,Heralds of Triton Tour 2026,682.0,16.0,3.620064426737498,0.11286008845581848
 "2026-04-05_-_Blue_Note_Tokyo,_Late_Show_-_Tokyo,_Japan",2026-04-05,Heralds of Triton Tour 2026,682.0,17.0,3.2399869096623384,0.12545377784566786
-"2026-04-06_-_Blue_Note_Tokyo,_Late_Show_-_Tokyo,_Japan",2026-04-06,Heralds of Triton Tour 2026,682.0,15.0,2.505873045551843,0.08940025429212574
 "2026-04-06_-_Blue_Note_Tokyo,_Early_Show_-_Tokyo,_Japan",2026-04-06,Heralds of Triton Tour 2026,682.0,20.0,4.01112381963362,0.15211929982410496
+"2026-04-06_-_Blue_Note_Tokyo,_Late_Show_-_Tokyo,_Japan",2026-04-06,Heralds of Triton Tour 2026,682.0,15.0,2.505873045551843,0.08940025429212574
 "2026-04-10_-_Powerstation_-_Auckland,_NZ",2026-04-10,Heralds of Triton Tour 2026,682.0,20.0,2.174701039187128,0.08930064003288307
 "2026-04-11_-_Meow_Nui_-_Wellington,_NZ",2026-04-11,Heralds of Triton Tour 2026,682.0,20.0,2.0545616879287403,0.08575386675884633
 "2026-04-13_-_Metro_Theatre_-_Sydney,_AU",2026-04-13,Heralds of Triton Tour 2026,682.0,22.0,2.4265036436387244,0.10296362137882317
@@ -1320,3 +1320,6 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2026-08-07_-_Music_Millennium_-_Portland,_OR",2026-08-07,Do you know how short the days are? 2026 Tour,687.0,7.0,2.687366465699609,0.051748304823630076
 "2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,Do you know how short the days are? 2026 Tour,690.0,13.0,1.5101493248594966,0.0503262265771074
 "2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Do you know how short the days are? 2026 Tour,693.0,16.0,0.656802245303681,0.03337732953518809
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Do you know how short the days are? 2026 Tour,693.0,11.0,0.9126170929775234,0.047970982584386944
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Do you know how short the days are? 2026 Tour,693.0,11.0,0.7040186608076034,0.037605013006706385
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Do you know how short the days are? 2026 Tour,693.0,23.0,2.027706309167736,0.081166429683107

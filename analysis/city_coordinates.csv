@@ -74,7 +74,7 @@ Chattanooga,TN,2,35.04563,-85.30968,Chattanooga,us_state
 Chautauqua,NY,1,42.2098,-79.4668,Chautauqua,manual_override
 Cherry Hill,NJ,1,39.93484,-75.03073,Cherry Hill,us_state
 Chicago,IL,53,41.85003,-87.65005,Chicago,us_state
-Cincinnati,OH,8,39.12711,-84.51439,Cincinnati,us_state
+Cincinnati,OH,9,39.12711,-84.51439,Cincinnati,us_state
 Claremont,CA,5,34.09668,-117.71978,Claremont,us_state
 Cleveland,OH,6,41.4995,-81.69541,Cleveland,us_state
 Clifton Park,NY,1,42.86563,-73.77095,Clifton Park,us_state
@@ -179,7 +179,7 @@ Little Rock,AR,2,34.74648,-92.28959,Little Rock,us_state
 Livermore,CA,2,37.68187,-121.76801,Livermore,us_state
 London,England,25,51.50853,-0.12574,London,country
 Lorne,Australia,1,-38.5369,143.9738,Lorne,manual_override
-Los Angeles,CA,23,34.05223,-118.24368,Los Angeles,us_state
+Los Angeles,CA,24,34.05223,-118.24368,Los Angeles,us_state
 Louisville,KY,6,38.25424,-85.75941,Louisville,us_state
 Lubbock,TX,1,33.57786,-101.85517,Lubbock,us_state
 Lyons,CO,1,40.2247,-105.2714,Lyons,manual_override
@@ -278,7 +278,7 @@ Sarasota,FL,1,27.33643,-82.53065,Sarasota,us_state
 Savannah,GA,2,32.08354,-81.09983,Savannah,us_state
 Saxapahaw,NC,3,35.9474,-79.322,Saxapahaw,manual_override
 Seaside,FL,1,30.3217,-86.1429,Seaside,manual_override
-Seattle,WA,37,47.60621,-122.33207,Seattle,us_state
+Seattle,WA,38,47.60621,-122.33207,Seattle,us_state
 Shelburne,VT,1,44.3807,-73.2276,Shelburne,manual_override
 Ships and Dip V,,2,,,,unrecognized_region
 Silver Spring,MD,2,38.99067,-77.02609,Silver Spring,us_state

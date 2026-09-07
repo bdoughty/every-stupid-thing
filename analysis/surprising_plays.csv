@@ -241,6 +241,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-04-17_-_Gothic_Theatre_-_Denver,_CO",2024-04-17,Romans 10:9,0.0067771766864819765,4.994194681678866
 "2024-03-01_-_Noise_Pop_2024_-_Grace_Cathedral_-_San_Francisco,_CA",2024-03-01,Riches and Wonders,0.006805364811285532,4.990044035015777
 "2023-02-15_-_Mickey's_Black_Box_-_Lititz,_PA",2023-02-15,Nine Black Poppies,0.006830221449015678,4.986398182935933
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,There Will Be No Divorce,0.006884137110257343,4.978535483594504
 "2026-04-06_-_Blue_Note_Tokyo,_Early_Show_-_Tokyo,_Japan",2026-04-06,The Mess Inside,0.006906899135006434,4.975234492281998
 "2023-04-23_-_Cat's_Cradle_-_Carrboro,_NC",2023-04-23,Going to Bristol,0.006943184264666818,4.969994781930906
 "2023-04-14_-_Badger_State_-_Green_Bay,_WI",2023-04-14,Fall of the Star High School Running Back,0.0069520560164458125,4.968717833449982
@@ -438,6 +439,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-07-08_-_Summerfest_-_Milwaukee,_WI",2023-07-08,Going to Georgia,0.014009693891809049,4.268005768136085
 "2023-10-09_-_Martin_Woldson_Theater_at_The_Fox_-_Spokane,_WA",2023-10-09,Animal Mask,0.014050830069686592,4.265073805254523
 "2026-04-17_-_Forum_Theatre_-_Melbourne,_AU",2026-04-17,Sicilian Crest,0.014061837042438668,4.2642907437776
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,The Recognition Scene,0.01407303307450711,4.263494860760342
 "2024-01-21_-_Revolution_Music_Room_-_Little_Rock,_AR",2024-01-21,Dutch Orchestra Blues,0.014078087966440446,4.263135735311638
 "2026-04-16_-_The_Governor_Hindmarsh_Hotel_-_Adelaide,_AU",2026-04-16,Billy the Kid's Dream of the Magic Shoes,0.014090193061116382,4.262276251169935
 "2025-11-22_-_The_Pinhook_-_Durham,_NC",2025-11-22,Carmen Cicero,0.014112667842602226,4.260682456390032
@@ -671,6 +673,7 @@ show_id,date,song_key,p_model,surprisal
 "2026-06-25_-_Summerfest_-_Milwaukee,_WI",2026-06-25,Riches and Wonders,0.02826130267826838,3.5662618066003113
 "2023-04-04_-_Chelsea's_Live_-_Baton_Rouge,_LA",2023-04-04,Sinaloan Milk Snake Song,0.028319461801595135,3.5642060145181627
 "2023-10-02_-_Belly_Up_Tavern_-_Solana_Beach,_CA",2023-10-02,Dark in Here (song),0.028345099447962867,3.563301122728593
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Sept 19th Triple X Love! Love!,0.02842274428165836,3.5605655993402503
 "2024-08-09_-_The_Mill_&_Mine_-_Knoxville,_TN",2024-08-09,Grendel's Mother,0.02842686126507904,3.5604207616271903
 "2024-08-06_-_The_Jefferson_Theater_-_Charlottesville,_VA",2024-08-06,Woke Up New,0.028482496691230767,3.5584655315605076
 "2024-01-18_-_Neighborhood_Theatre_-_Charlotte,_NC",2024-01-18,The Best Ever Death Metal Band in Denton,0.028621780972369813,3.553587278545002
@@ -800,6 +803,7 @@ show_id,date,song_key,p_model,surprisal
 "2026-04-05_-_Blue_Note_Tokyo,_Early_Show_-_Tokyo,_Japan",2026-04-05,New Zion,0.04148884454279832,3.1823306940779768
 "2024-12-10_-_Antone's_Nightclub_-_Austin,_TX",2024-12-10,We Were Patriots,0.04173760114977125,3.1763528502406975
 "2024-04-19_-_The_Stiefel_Theatre_-_Salina,_KS",2024-04-19,Hair Match,0.04188718790650455,3.1727752767013553
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Michael Myers Resplendent,0.04196643628661392,3.1708851162111866
 "2025-12-10_-_The_Fillmore_-_San_Francisco,_CA",2025-12-10,The Diaz Brothers,0.04200541034192013,3.1699568513302867
 "2023-02-16_-_Water_Street_Music_Hall_-_Rochester,_NY",2023-02-16,Elijah,0.04201927181018182,3.169626913316065
 "2026-06-25_-_Summerfest_-_Milwaukee,_WI",2026-06-25,You or Your Memory,0.04216538391257079,3.166155680991153
@@ -902,6 +906,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-04-20_-_Union_Transfer_-_Philadelphia,_PA",2023-04-20,Make You Suffer,0.05793757438916781,2.848389151701456
 "2025-12-04_-_Neptune_Theatre_-_Seattle,_WA",2025-12-04,Palmcorder Yajna,0.05794028160899849,2.84834242629723
 "2023-07-13_-_The_Vanguard_-_Tulsa,_OK",2023-07-13,The Monkey Song,0.057957782558660596,2.8480404203936662
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,See America Right,0.057975048378105715,2.8477425613759357
 "2023-04-20_-_Union_Transfer_-_Philadelphia,_PA",2023-04-20,From TG&Y,0.058100662310404026,2.845578215698642
 "2024-02-29_-_Teragram_Ballroom_-_Los_Angeles,_CA",2024-02-29,The Diaz Brothers,0.058449584073857336,2.8395907070199624
 "2026-04-16_-_The_Governor_Hindmarsh_Hotel_-_Adelaide,_AU",2026-04-16,Woke Up New,0.05847663354459555,2.8391280311244844
@@ -1062,6 +1067,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-11-11_-_Sony_Hall_-_WFUV_Radio_Fundraiser_-_New_York,_NY",2025-11-11,Lakeside View Apartments Suite,0.08999834891815617,2.4079639541739706
 "2023-08-09_-_Pioneer_Courthouse_Square_-_Portland,_OR",2023-08-09,Amy AKA Spent Gladiator 1,0.09042943953988745,2.4031854059721938
 "2024-08-07_-_Elevation_27_-_Virginia_Beach,_VA",2024-08-07,The Mess Inside,0.09060986128547865,2.4011922276457236
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Amy AKA Spent Gladiator 1,0.09113396286322088,2.3954247355947076
 "2023-04-17_-_Phoenix_Concert_Theatre_-_Toronto,_ON",2023-04-17,Abandoned Flesh,0.09118803119727986,2.3948316273860946
 "2023-04-21_-_XL_Live_-_Harrisburg,_PA",2023-04-21,Heel Turn 2,0.0912455694618489,2.394200841541064
 "2024-01-24_-_Tower_Theatre_-_Oklahoma_City,_OK",2024-01-24,Dance Music,0.09146669895349409,2.391780318808483
@@ -1105,6 +1111,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-02-12_-_Skully's_-_Columbus,_OH",2023-02-12,Some Swedish Trees,0.09928074439673129,2.3098036401613236
 "2023-02-09_-_Elevation_27_-_Virginia_Beach,_VA",2023-02-09,Cotton,0.09989379072509669,2.3036477501632624
 "2023-08-05_-_Citizens_House_of_Blues_-_Boston,_MA",2023-08-05,Southwood Plantation Road,0.10052187956788153,2.297379868034668
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,The Diaz Brothers,0.1007149979828607,2.2954605530799412
 "2023-07-04_-_Codfish_Hollow_Barnstormers_-_Maquoketa,_IA",2023-07-04,Heel Turn 2,0.10093026536441092,2.293325442542207
 "2023-02-11_-_The_Loud_-_Huntington,_WV",2023-02-11,Woke Up New,0.10113950954063584,2.2912544326535484
 "2026-04-17_-_Forum_Theatre_-_Melbourne,_AU",2026-04-17,Your Belgian Things,0.10120174769058966,2.2906392526080324
@@ -1253,6 +1260,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-04-10_-_Turner_Hall_Ballroom_-_Milwaukee,_WI",2024-04-10,Maybe Sprout Wings,0.132297937462111,2.022698797838298
 "2026-04-16_-_The_Governor_Hindmarsh_Hotel_-_Adelaide,_AU",2026-04-16,Possum By Night,0.1326204948734698,2.020263651533751
 "2023-04-11_-_The_Slowdown_-_Omaha,_NE",2023-04-11,New Zion,0.13270070304372344,2.019659039664615
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Up the Wolves,0.13270830645523157,2.019601743858986
 "2023-12-02_-_The_Queen_-_Wilmington,_DE",2023-12-02,Jeff Davis County Blues,0.13274791838062927,2.0193032997315883
 "2024-12-11_-_Antone's_Nightclub_-_Austin,_TX",2024-12-11,Luna,0.13278462472658745,2.0190268263037936
 "2024-07-26_-_Agora_Theatre_-_Cleveland,_OH",2024-07-26,Lovecraft in Brooklyn,0.1329189828955672,2.01801548752948
@@ -1303,6 +1311,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-04-12_-_Palace_Theatre_-_Saint_Paul,_MN",2024-04-12,Palmcorder Yajna,0.14037985876888315,1.9634032537433173
 "2023-06-30_-_The_Salt_Shed_-_Chicago,_IL",2023-06-30,Cadaver Sniffing Dog,0.14070191691662218,1.961111690813719
 "2026-06-26_-_FitzGerald's_-_Berwyn,_IL",2026-06-26,You or Your Memory,0.14124914043202683,1.9572299944110814
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Michael Myers Resplendent,0.14141213175650005,1.9560767317707746
 "2023-04-17_-_Phoenix_Concert_Theatre_-_Toronto,_ON",2023-04-17,Minnesota,0.141888365357566,1.952714690020037
 "2024-07-31_-_The_Rooftop_at_Pier_17_-_New_York,_NY",2024-07-31,The Legend of Chavo Guerrero,0.14261536062209876,1.9476040585555985
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,White Cedar,0.1426931749319899,1.947058583730112
@@ -1540,6 +1549,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-08-09_-_The_Mill_&_Mine_-_Knoxville,_TN",2024-08-09,In Memory of Satan,0.1914217061091679,1.6532763993444324
 "2024-08-09_-_The_Mill_&_Mine_-_Knoxville,_TN",2024-08-09,Hast Thou Considered the Tetrapod,0.19180800073171841,1.6512604034730909
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,Abandoned Flesh,0.19194076938216653,1.6505684473492641
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Done Bleeding,0.19231387039892478,1.6486265000290041
 "2023-03-31_-_Walker_Theatre_-_Chattanooga,_TN",2023-03-31,Dance Music,0.1923797856448735,1.6482838104859965
 "2024-12-04_-_Victory_North_-_Savannah,_GA",2024-12-04,Baboon,0.19258976074392858,1.6471929443546514
 "2024-04-05_-_Haw_River_Ballroom_-_Saxapahaw,_NC",2024-04-05,Jenny III,0.19298478483363954,1.6451439282437605
@@ -1758,6 +1768,7 @@ show_id,date,song_key,p_model,surprisal
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,Broom People,0.25267301638314726,1.3756590515196356
 "2023-07-14_-_Liberty_Hall_-_Lawrence,_KS",2023-07-14,First Blood,0.2526820071518226,1.3756234695297174
 "2024-04-17_-_Gothic_Theatre_-_Denver,_CO",2024-04-17,Bell Swamp Connection,0.25282167621835344,1.3750708758506611
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Against Pollution,0.25296056963198604,1.374521653657658
 "2023-12-12_-_Georgia_Theatre_-_Athens,_GA",2023-12-12,Hast Thou Considered the Tetrapod,0.2530491602300761,1.374171499920419
 "2026-05-15_-_The_Fillmore_Silver_Spring_-_Silver_Spring,_MD",2026-05-15,Before I Got There,0.25337100100181814,1.3729004572577879
 "2024-08-01_-_Citizens_House_of_Blues_-_Boston,_MA",2024-08-01,Guys on Every Corner,0.253374984605434,1.3728847349680053
@@ -1777,6 +1788,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-05-24_-_Barrowland,_Glasgow,_Scotland",2024-05-24,Stabbed to Death Outside San Juan,0.2560346049315055,1.3624426681242678
 "2023-04-14_-_Badger_State_-_Green_Bay,_WI",2023-04-14,Dance Music,0.25627004513537,1.3615235266704115
 "2023-10-07_-_Ace_Of_Spades_-_Sacramento,_CA",2023-10-07,Dance Music,0.2564229821375556,1.3609269240306783
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Clemency for the Wizard King,0.25660411097588504,1.3602208059784868
 "2026-04-11_-_Meow_Nui_-_Wellington,_NZ",2026-04-11,Lakeside View Apartments Suite,0.2571281177415565,1.3581808056899893
 "2026-04-10_-_Powerstation_-_Auckland,_NZ",2026-04-10,First Blood,0.2576716845617508,1.356069044886015
 "2024-04-19_-_The_Stiefel_Theatre_-_Salina,_KS",2024-04-19,The Slow Parts on Death Metal Albums,0.25791483647968044,1.355125839716629
@@ -1966,6 +1978,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-06-29_-_Mercury_Ballroom_-_Louisville,_KY",2023-06-29,The Diaz Brothers,0.3141753409515086,1.1578040382535122
 "2023-04-02_-_Soul_Kitchen_-_Mobile,_AL",2023-04-02,Psalms 40:2,0.3144362582806426,1.156973899756429
 "2023-04-22_-_Cat's_Cradle_-_Carrboro,_NC",2023-04-22,Abandoned Flesh,0.3146522190680134,1.156287316537596
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Cry for Judas,0.31491666319338324,1.155447236449863
 "2025-12-06_-_Treefort_Music_Hall_-_Boise,_ID",2025-12-06,First Blood,0.31528566588816115,1.1542761752845192
 "2025-09-19_-_The_Windjammer_-_Isle_of_Palms,_SC",2025-09-19,You or Your Memory,0.3153819978019287,1.153970683438138
 "2026-05-19_-_Citizens_House_of_Blues_-_Boston,_MA",2026-05-19,Up the Wolves,0.31542159083564447,1.1538451513882864
@@ -2012,6 +2025,9 @@ show_id,date,song_key,p_model,surprisal
 "2024-10-12_-_Mr._Smalls_Theatre_-_Pittsburgh,_PA",2024-10-12,You or Your Memory,0.32902067495199927,1.1116346883918384
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,The Slow Parts on Death Metal Albums,0.3297052431788685,1.1095562261529257
 "2024-03-03_-_Aladdin_Theater_-_Portland,_OR",2024-03-03,In the Hidden Places,0.3299137075486182,1.1089241509935923
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Through This Fire,0.33076073259706784,1.1063600272404683
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Candlebox,0.33076073259706784,1.1063600272404683
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Days (song),0.33076073259706784,1.1063600272404683
 "2024-08-02_-_Phantom_Power_-_Millersville,_PA",2024-08-02,Guys on Every Corner,0.33111689543428147,1.1052838075391014
 "2024-08-07_-_Elevation_27_-_Virginia_Beach,_VA",2024-08-07,Incandescent Ruins,0.3312357814287072,1.1049248265917744
 "2023-07-04_-_Codfish_Hollow_Barnstormers_-_Maquoketa,_IA",2023-07-04,See America Right,0.33213517717219415,1.1022132327756413
@@ -2147,6 +2163,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-07-13_-_The_Vanguard_-_Tulsa,_OK",2023-07-13,Broom People,0.3795954391835443,0.9686492271142635
 "2025-09-19_-_The_Windjammer_-_Isle_of_Palms,_SC",2025-09-19,Dance Music,0.38014646740359587,0.9671986599890482
 "2023-10-07_-_Ace_Of_Spades_-_Sacramento,_CA",2023-10-07,The Diaz Brothers,0.38020607839693626,0.9670418616885973
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Clemency for the Wizard King,0.381049818913097,0.9648251541014657
 "2023-04-17_-_Phoenix_Concert_Theatre_-_Toronto,_ON",2023-04-17,Dance Music,0.38115918544257316,0.9645381815529871
 "2023-12-01_-_Hangar_1819_-_Greensboro,_NC",2023-12-01,Incandescent Ruins,0.3812972056599501,0.9641761406008876
 "2023-06-29_-_Mercury_Ballroom_-_Louisville,_KY",2023-06-29,Abandoned Flesh,0.3825915954676976,0.9607871891077526
@@ -2671,6 +2688,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-08-01_-_Stone_Pony_Summer_Stage_-_Asbury_Park,_NJ",2025-08-01,Sax Rohmer Number 1,0.5405678611476568,0.615135097244329
 "2024-04-17_-_Gothic_Theatre_-_Denver,_CO",2024-04-17,From the Nebraska Plant,0.5411152914405418,0.6141229148167621
 "2024-12-11_-_Antone's_Nightclub_-_Austin,_TX",2024-12-11,Romans 10:9,0.5412144726634612,0.6139396412406554
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Cadaver Sniffing Dog,0.5417979133153963,0.6128622007313307
 "2023-07-04_-_Codfish_Hollow_Barnstormers_-_Maquoketa,_IA",2023-07-04,Rain in Soho,0.5424172155928407,0.6117198031973267
 "2026-06-25_-_Summerfest_-_Milwaukee,_WI",2026-06-25,Charlie Sheen Reaches Out to the Feds,0.5427566621424595,0.6110941955087258
 "2023-07-11_-_Ryman_Auditorium_-_Nashville,_TN",2023-07-11,Abandoned Flesh,0.5427602237929078,0.6110876333805924
@@ -2693,8 +2711,8 @@ show_id,date,song_key,p_model,surprisal
 "2026-04-13_-_Metro_Theatre_-_Sydney,_AU",2026-04-13,Moon Over Goldsboro,0.5480403897662499,0.6014062907971136
 "2024-01-21_-_Revolution_Music_Room_-_Little_Rock,_AR",2024-01-21,Woke Up New,0.548253463280256,0.6010175747314402
 "2024-10-13_-_Taft_Theatre_-_Cincinnati,_OH",2024-10-13,Idylls of the King,0.5483085231106619,0.6009171520811286
-"2023-12-01_-_Hangar_1819_-_Greensboro,_NC",2023-12-01,Fresh Tattoo,0.5486719092550835,0.6002546313159592
 "2023-12-01_-_Hangar_1819_-_Greensboro,_NC",2023-12-01,Murder at the 18th St. Garage,0.5486719092550835,0.6002546313159592
+"2023-12-01_-_Hangar_1819_-_Greensboro,_NC",2023-12-01,Fresh Tattoo,0.5486719092550835,0.6002546313159592
 "2026-04-14_-_The_Princess_Theatre_-_Brisbane,_AU",2026-04-14,Let Me Bathe in Demonic Light,0.5487639562670479,0.6000868820832759
 "2026-05-24_-_Delmar_Hall_-_St._Louis,_MO",2026-05-24,Shallow Grave,0.5488456288804774,0.5999380630228642
 "2023-12-12_-_Georgia_Theatre_-_Athens,_GA",2023-12-12,The Slow Parts on Death Metal Albums,0.5495140496579449,0.5987209373889858
@@ -2786,6 +2804,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-10-16_-_Barrymore_Theatre_-_Madison,_WI",2024-10-16,Transcendental Youth (Song),0.5699959349352585,0.5621260498715008
 "2024-08-09_-_The_Mill_&_Mine_-_Knoxville,_TN",2024-08-09,Water Tower,0.5704607711630487,0.5613108742474804
 "2025-12-08_-_Revolution_Hall_-_Portland,_OR",2025-12-08,The Lady from Shanghai 2,0.5706905965901242,0.5609080785506477
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Cadaver Sniffing Dog,0.5716071061376499,0.5593034009924176
 "2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,Armies of the Lord,0.5723459041626129,0.5580117428193507
 "2023-07-08_-_Summerfest_-_Milwaukee,_WI",2023-07-08,Tidal Wave,0.5724731078786766,0.5577895177946975
 "2025-12-06_-_Treefort_Music_Hall_-_Boise,_ID",2025-12-06,The Lady from Shanghai,0.5725511020588707,0.5576532862990875
@@ -2904,12 +2923,13 @@ show_id,date,song_key,p_model,surprisal
 "2023-02-15_-_Mickey's_Black_Box_-_Lititz,_PA",2023-02-15,Transcendental Youth (Song),0.6033778270490175,0.5052116996194297
 "2026-05-29_-_Neighborhood_Theatre_-_Charlotte,_NC",2026-05-29,Shallow Grave,0.6034065233971282,0.5051641412497749
 "2026-04-21_-_Blue_Note_Hawaii,_Early_Show_-_Honolulu,_HI",2026-04-21,Broken To Begin With,0.6035020238377279,0.5050058849493819
-"2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,Fishing Boat,0.6035301330721156,0.5049593091655773
 "2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,Your Bandage,0.6035301330721156,0.5049593091655773
+"2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,Fishing Boat,0.6035301330721156,0.5049593091655773
 "2024-08-10_-_The_Senate_-_Columbia,_SC",2024-08-10,Water Tower,0.6035846533895975,0.5048689775448723
 "2024-01-26_-_Lowbrow_Palace_-_El_Paso,_TX",2024-01-26,Up the Wolves,0.6037412639737827,0.5046095437286819
 "2025-08-04_-_The_Rooftop_at_Pier_17_-_New_York,_NY",2025-08-04,Sax Rohmer Number 1,0.6040654656884534,0.5040727000193449
 "2023-12-02_-_The_Queen_-_Wilmington,_DE",2023-12-02,Night Light,0.6053087317590793,0.5020166506820506
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Cadaver Sniffing Dog,0.6058343442138586,0.5011486896653807
 "2026-05-19_-_Citizens_House_of_Blues_-_Boston,_MA",2026-05-19,Damn These Vampires,0.605943029322359,0.500969308351345
 "2026-04-14_-_The_Princess_Theatre_-_Brisbane,_AU",2026-04-14,New Zion,0.6060019066744028,0.5008721465903749
 "2023-08-09_-_Pioneer_Courthouse_Square_-_Portland,_OR",2023-08-09,Cry for Judas,0.6068839306700169,0.4994177242136947
@@ -2949,6 +2969,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-09-20_-_Pisgah_Brewing_Company_-_Black_Mountain,_NC",2025-09-20,In Memory of Satan,0.6182091930987537,0.4809283786429044
 "2023-07-02_-_SPACE_-_Evanston,_IL",2023-07-02,Up the Wolves,0.6182236361582133,0.48090501617772463
 "2024-10-08_-_The_Birchmere_-_Alexandria,_VA",2024-10-08,Hast Thou Considered the Tetrapod,0.6189169800204334,0.47978413480701454
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,You Were Cool,0.6191211872385567,0.47945424639908707
 "2026-05-21_-_Newport_Music_Hall_-_Columbus,_OH",2026-05-21,Dawn of Revelation,0.619228709708292,0.4792805919735154
 "2025-09-22_-_Mercury_Ballroom_-_Louisville,_KY",2025-09-22,Corsican Mastiff Stride,0.6194521151517663,0.47891987686206294
 "2024-10-17_-_Cahn_Auditorium_-_Evanston,_IL",2024-10-17,The Young Thousands,0.6202294465926966,0.4776657942544073
@@ -2973,8 +2994,8 @@ show_id,date,song_key,p_model,surprisal
 "2023-02-19_-_The_Radio_Room_-_Greenville,_SC",2023-02-19,Going to Bogotá,0.6267871458457372,0.46714827629553035
 "2024-01-24_-_Tower_Theatre_-_Oklahoma_City,_OK",2024-01-24,Hair Match,0.6272318016123913,0.46643910712995923
 "2026-05-21_-_Newport_Music_Hall_-_Columbus,_OH",2026-05-21,Cry for Judas,0.6274331374888128,0.4661181674561466
-"2026-05-19_-_Citizens_House_of_Blues_-_Boston,_MA",2026-05-19,Your Bandage,0.6275581233804605,0.4659189853646724
 "2026-05-19_-_Citizens_House_of_Blues_-_Boston,_MA",2026-05-19,Fishing Boat,0.6275581233804605,0.4659189853646724
+"2026-05-19_-_Citizens_House_of_Blues_-_Boston,_MA",2026-05-19,Your Bandage,0.6275581233804605,0.4659189853646724
 "2026-04-11_-_Meow_Nui_-_Wellington,_NZ",2026-04-11,Younger,0.6275594107348276,0.46591693399604417
 "2024-04-09_-_Kalamazoo_State_Theatre_-_Kalamazoo,_MI",2024-04-09,Murder at the 18th St. Garage,0.6275791268786483,0.46588551731456807
 "2026-04-19_-_Freo.Social_-_Fremantle,_AU",2026-04-19,Let Me Bathe in Demonic Light,0.6278756536906742,0.4654131357965248
@@ -3030,6 +3051,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-07-27_-_Bearsville_Theater_-_Woodstock,_NY",2024-07-27,Stabbed to Death Outside San Juan,0.644001044372111,0.4400549311832738
 "2025-12-04_-_Neptune_Theatre_-_Seattle,_WA",2025-12-04,Corsican Mastiff Stride,0.6453822598371575,0.4379124868242379
 "2025-08-08_-_Infinity_Hall_-_Hartford,_CT",2025-08-08,No Children,0.6456878805181031,0.43743904905025277
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,You Were Cool,0.6458585367375783,0.43717478255825787
 "2024-10-20_-_McCarter_Theatre_Center_-_Princeton,_NJ",2024-10-20,Elijah,0.6459996543817657,0.436956310212425
 "2024-01-26_-_Lowbrow_Palace_-_El_Paso,_TX",2024-01-26,Transcendental Youth (Song),0.6460026437074519,0.4369516827815131
 "2023-12-12_-_Georgia_Theatre_-_Athens,_GA",2023-12-12,Night Light,0.646786559398916,0.43573893164519445
@@ -3111,6 +3133,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-03-31_-_Walker_Theatre_-_Chattanooga,_TN",2023-03-31,You or Your Memory,0.6661766696698255,0.4062003738450409
 "2024-03-02_-_The_Neptune_-_Seattle,_WA",2024-03-02,Up the Wolves,0.6665361362513059,0.4056609229016709
 "2024-08-01_-_Citizens_House_of_Blues_-_Boston,_MA",2024-08-01,Let Me Bathe in Demonic Light,0.6667029176919396,0.40541073304860537
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,You Were Cool,0.6668465710977947,0.40519528786622805
 "2026-04-21_-_Blue_Note_Hawaii,_Late_Show_-_Honolulu,_HI",2026-04-21,Let Me Bathe in Demonic Light,0.6676830237051624,0.4039417334749901
 "2025-09-28_-_Crusens_-_Peoria,_IL",2025-09-28,Moon Over Goldsboro,0.6686348691005584,0.4025171539471765
 "2024-01-27_-_The_Liberty_-_Roswell,_NM",2024-01-27,Transcendental Youth (Song),0.6689435879082546,0.40205554541638655
@@ -3213,6 +3236,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-05-22_-_Roundhouse_-_London,_England",2024-05-22,Make You Suffer,0.6933120635238621,0.36627507303526485
 "2026-04-21_-_Blue_Note_Hawaii,_Early_Show_-_Honolulu,_HI",2026-04-21,Moon Over Goldsboro,0.6937679627884913,0.3656177219489576
 "2025-07-29_-_Archer_Music_Hall_-_Allentown,_PA",2025-07-29,Up the Wolves,0.6937796113190904,0.3656009318499127
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Andrew Eldritch Is Moving Back to Leeds,0.6940601562969934,0.3651966416886557
 "2025-08-05_-_Nevermore_Hall_-_Baltimore,_MD",2025-08-05,Bones Don't Rust,0.6947724914268419,0.36417083747317963
 "2025-10-03_-_Ardmore_Music_Hall_-_Ardmore,_PA",2025-10-03,Bones Don't Rust,0.695086544149357,0.3637189172138998
 "2024-04-09_-_Kalamazoo_State_Theatre_-_Kalamazoo,_MI",2024-04-09,Up the Wolves,0.6951150487964203,0.36367790928064475
@@ -3275,6 +3299,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-02-01_-_Orpheum_Theater_-_Flagstaff,_AZ",2024-02-01,Song for Lonely Giants,0.7094755920238489,0.34322918463150853
 "2025-12-12_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-12,Broken To Begin With,0.709966715105396,0.3425371901789288
 "2024-08-01_-_Citizens_House_of_Blues_-_Boston,_MA",2024-08-01,Heel Turn 2,0.7100144082104453,0.342470015898533
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Andrew Eldritch Is Moving Back to Leeds,0.7100826924279305,0.3423738475203183
 "2024-12-04_-_Victory_North_-_Savannah,_GA",2024-12-04,Elijah,0.7101206383561296,0.3423204102027376
 "2024-04-20_-_Delmar_Hall_-_Saint_Louis,_MO",2024-04-20,Night Light,0.7105794539234636,0.34167450951507206
 "2024-03-01_-_Noise_Pop_2024_-_Grace_Cathedral_-_San_Francisco,_CA",2024-03-01,Dance Music,0.7107050631896084,0.3414977549455831
@@ -3318,6 +3343,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-10-02_-_Water_Street_Music_Hall_-_Rochester,_NY",2025-10-02,Moon Over Goldsboro,0.722331959244538,0.32527046840752266
 "2024-12-04_-_Victory_North_-_Savannah,_GA",2024-12-04,Idylls of the King,0.7224505431861373,0.3251063136760442
 "2024-10-16_-_Barrymore_Theatre_-_Madison,_WI",2024-10-16,Hast Thou Considered the Tetrapod,0.7224941985346262,0.3250458887376481
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Last Day,0.7225659889725808,0.3249465289481606
 "2023-02-18_-_Manchester_Music_Hall_-_Lexington,_KY",2023-02-18,Clemency for the Wizard King,0.7228214511682172,0.32459304282921175
 "2023-10-10_-_The_Knitting_Factory_-_Boise,_ID",2023-10-10,Only One Way,0.7231053084733513,0.3242004125567752
 "2025-09-19_-_The_Windjammer_-_Isle_of_Palms,_SC",2025-09-19,Let Me Bathe in Demonic Light,0.7236985239821545,0.3233803766559314
@@ -3361,6 +3387,7 @@ show_id,date,song_key,p_model,surprisal
 "2026-04-16_-_The_Governor_Hindmarsh_Hotel_-_Adelaide,_AU",2026-04-16,Rocks in My Pockets,0.7347345480686294,0.30824600409325176
 "2024-01-31_-_Rialto_Theatre_-_Tucson,_AZ",2024-01-31,Hair Match,0.7347918699118803,0.3081679900574663
 "2023-08-09_-_Pioneer_Courthouse_Square_-_Portland,_OR",2023-08-09,Lizard Suit,0.7355189426169346,0.3071789845245909
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Andrew Eldritch Is Moving Back to Leeds,0.7359703812220161,0.3065654039678977
 "2025-08-04_-_The_Rooftop_at_Pier_17_-_New_York,_NY",2025-08-04,Heretic Pride (Song),0.7361649406464362,0.30630108122166266
 "2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Only One Way,0.7367319313411466,0.3055311824819744
 "2025-08-12_-_Criterion_Theatre_-_Bar_Harbor,_ME",2025-08-12,No Children,0.7368918394873235,0.3053141553818826
@@ -3370,8 +3397,8 @@ show_id,date,song_key,p_model,surprisal
 "2024-12-10_-_Antone's_Nightclub_-_Austin,_TX",2024-12-10,Elijah,0.7376345477015955,0.30430676984638483
 "2024-02-01_-_Orpheum_Theater_-_Flagstaff,_AZ",2024-02-01,Heretic Pride (Song),0.7383040457013292,0.3033995531794518
 "2025-08-08_-_Infinity_Hall_-_Hartford,_CT",2025-08-08,Bones Don't Rust,0.7383135140403683,0.30338672881748113
-"2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Days (song),0.739349693440023,0.3019842717971717
 "2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Candlebox,0.739349693440023,0.3019842717971717
+"2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Days (song),0.739349693440023,0.3019842717971717
 "2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Through This Fire,0.739349693440023,0.3019842717971717
 "2024-01-31_-_Rialto_Theatre_-_Tucson,_AZ",2024-01-31,Clemency for the Wizard King,0.7394358719650492,0.3018677186915154
 "2023-12-02_-_The_Queen_-_Wilmington,_DE",2023-12-02,Dark in Here (song),0.7402124682756541,0.3008180147033528
@@ -3438,6 +3465,7 @@ show_id,date,song_key,p_model,surprisal
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,Armies of the Lord,0.759661411866112,0.2748824556736223
 "2024-04-19_-_The_Stiefel_Theatre_-_Salina,_KS",2024-04-19,Extraction Point,0.7597700502288455,0.27473945697229385
 "2024-04-20_-_Delmar_Hall_-_Saint_Louis,_MO",2024-04-20,Bell Swamp Connection,0.7599332829826994,0.27452463510421693
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Last Day,0.7600847277962494,0.2743253679731998
 "2023-04-14_-_Badger_State_-_Green_Bay,_WI",2023-04-14,Incandescent Ruins,0.7602738296442904,0.27407660843145787
 "2024-12-11_-_Antone's_Nightclub_-_Austin,_TX",2024-12-11,Idylls of the King,0.761082090989547,0.2730140544158725
 "2024-02-01_-_Orpheum_Theater_-_Flagstaff,_AZ",2024-02-01,Clemency for the Wizard King,0.7611234401790893,0.27295972641783844
@@ -3463,6 +3491,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-10-07_-_Ace_Of_Spades_-_Sacramento,_CA",2023-10-07,Clean Slate,0.7700133217036436,0.2613474633702438
 "2024-03-01_-_Noise_Pop_2024_-_Grace_Cathedral_-_San_Francisco,_CA",2024-03-01,Jenny,0.7700755236514589,0.26126668627996513
 "2024-04-22_-_Salvage_Station_-_Asheville,_NC",2024-04-22,Bell Swamp Connection,0.7704738387407858,0.26074957841191976
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,This Year,0.7705137143983242,0.2606978250314774
 "2025-12-09_-_Revolution_Hall_-_Portland,_OR",2025-12-09,Great Pirates,0.770518843240683,0.26069116866028863
 "2024-12-01_-_The_Walker_Theatre_-_Chattanooga,_TN",2024-12-01,Before I Got There,0.7705660011966102,0.2606299676743569
 "2026-04-21_-_Blue_Note_Hawaii,_Late_Show_-_Honolulu,_HI",2026-04-21,Younger,0.7717837448512826,0.2590508914488408
@@ -3475,6 +3504,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-04-20_-_Delmar_Hall_-_Saint_Louis,_MO",2024-04-20,Extraction Point,0.7741453409746789,0.25599564398363367
 "2025-12-05_-_Knitting_Factory_-_Spokane,_WA",2025-12-05,Broken To Begin With,0.7749535856952979,0.25495214084765533
 "2024-08-02_-_Phantom_Power_-_Millersville,_PA",2024-08-02,Abandoned Flesh,0.7751299844245875,0.2547245418543477
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Song for Layne Staley,0.7760317835847058,0.2535618014099699
 "2025-08-02_-_Concerts_at_Point_of_the_Bluff_-_Hammondsport,_NY",2025-08-02,The Young Thousands,0.7761901014985073,0.2533578126428073
 "2024-04-06_-_The_Eastern_-_Atlanta,_GA",2024-04-06,Jenny III,0.7769279613688168,0.25240764672372723
 "2023-04-17_-_Phoenix_Concert_Theatre_-_Toronto,_ON",2023-04-17,Incandescent Ruins,0.7770014708827989,0.25231303558822615
@@ -3584,6 +3614,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-12-12_-_Georgia_Theatre_-_Athens,_GA",2023-12-12,Up the Wolves,0.8096596489914737,0.2111413060489868
 "2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Incandescent Ruins,0.8098328404190553,0.21092742246585894
 "2023-12-10_-_Thunderbird_Music_Hall_-_Pittsburgh,_PA",2023-12-10,Dark in Here (song),0.8101285965931777,0.21056228269073704
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,This Year,0.8106030700805738,0.20997677737766496
 "2025-09-26_-_Agora_Theatre_-_Cleveland,_OH",2025-09-26,New Zion,0.8109453933466715,0.20955455962851469
 "2023-12-08_-_Homer_Center_for_the_Arts_-_Homer,_NY",2023-12-08,Dark in Here (song),0.8110640401653616,0.2094082635386765
 "2023-04-22_-_Cat's_Cradle_-_Carrboro,_NC",2023-04-22,Incandescent Ruins,0.8114632863419192,0.20891613477376397
@@ -3637,6 +3668,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-04-12_-_Palace_Theatre_-_Saint_Paul,_MN",2024-04-12,Jenny III,0.8272795522388517,0.18961260935054536
 "2024-05-24_-_Barrowland,_Glasgow,_Scotland",2024-05-24,Fresh Tattoo,0.8273532213118632,0.18952356352208394
 "2024-10-12_-_Mr._Smalls_Theatre_-_Pittsburgh,_PA",2024-10-12,Water Tower,0.8275311530062966,0.18930852530203618
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,This Year,0.8280303336680197,0.18870549040315954
 "2025-10-03_-_Ardmore_Music_Hall_-_Ardmore,_PA",2025-10-03,New Britain,0.8286960014573823,0.18790189621735912
 "2025-10-02_-_Water_Street_Music_Hall_-_Rochester,_NY",2025-10-02,Sax Rohmer Number 1,0.8287693451349001,0.1878133952086153
 "2025-12-10_-_The_Fillmore_-_San_Francisco,_CA",2025-12-10,Let Me Bathe in Demonic Light,0.8292592944230127,0.18722239298985485
@@ -3660,6 +3692,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-10-02_-_Water_Street_Music_Hall_-_Rochester,_NY",2025-10-02,New Zion,0.8361324296384902,0.17896826978428101
 "2025-09-28_-_Crusens_-_Peoria,_IL",2025-09-28,Great Pirates,0.8364326167240522,0.17860931562648838
 "2024-10-15_-_Bluebird_Nightclub_-_Bloomington,_IN",2024-10-15,Water Tower,0.8368370349782522,0.17812592878962874
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Shallow Grave,0.8369962219851957,0.17793572226008206
 "2026-04-17_-_Forum_Theatre_-_Melbourne,_AU",2026-04-17,No Children,0.8376747454758096,0.17712538573317416
 "2025-12-12_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-12,Let Me Bathe in Demonic Light,0.8381143025945819,0.17660078852404568
 "2025-10-04_-_White_Eagle_Hall_-_Jersey_City,_NJ",2025-10-04,Broken To Begin With,0.8385030446943976,0.17613706660513492
@@ -3673,6 +3706,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-12-03_-_Neptune_Theatre_-_Seattle,_WA",2025-12-03,No Children,0.8420156367777923,0.17195669391724633
 "2025-08-04_-_The_Rooftop_at_Pier_17_-_New_York,_NY",2025-08-04,Water Tower,0.8420408728262663,0.1719267233689519
 "2025-07-26_-_MASS_MoCA_-_North_Adams,_MA",2025-07-26,Water Tower,0.8424604762816839,0.17142853028134356
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Shallow Grave,0.8425269852491728,0.1713495872992242
 "2025-10-04_-_White_Eagle_Hall_-_Jersey_City,_NJ",2025-10-04,New Zion,0.8425642553689856,0.17130535216355855
 "2025-10-04_-_White_Eagle_Hall_-_Jersey_City,_NJ",2025-10-04,Sax Rohmer Number 1,0.8430979117047112,0.17067218098136278
 "2023-12-05_-_Higher_Ground_Ballroom_-_South_Burlington,_VT",2023-12-05,Only One Way,0.8436781809543409,0.1699841592871433
@@ -3693,6 +3727,7 @@ show_id,date,song_key,p_model,surprisal
 "2026-05-28_-_Manchester_Music_Hall_-_Lexington,_KY",2026-05-28,For the Portuguese Goth Metal Bands,0.8471181719291853,0.16591507584556844
 "2025-07-27_-_Arrowood_Farms_-_Accord,_NY",2025-07-27,Water Tower,0.8472659335905368,0.16574066242744823
 "2023-08-09_-_Pioneer_Courthouse_Square_-_Portland,_OR",2023-08-09,Up the Wolves,0.8474762007272186,0.16549252185962623
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,No Children,0.8476642381615516,0.16527066716158428
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,Need More Bandages,0.8478214224921135,0.1650852520505516
 "2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Clean Slate,0.8478486127860551,0.1650531817852544
 "2025-12-05_-_Knitting_Factory_-_Spokane,_WA",2025-12-05,Rocks in My Pockets,0.8481296300947055,0.1647217891952823
@@ -3705,6 +3740,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-11-30_-_The_ELM_-_Bozeman,_MT",2025-11-30,Broken To Begin With,0.851324842621727,0.16096150453538235
 "2024-08-10_-_The_Senate_-_Columbia,_SC",2024-08-10,No Children,0.8514258294421759,0.1608428884370608
 "2025-07-29_-_Archer_Music_Hall_-_Allentown,_PA",2025-07-29,Water Tower,0.851622585872977,0.16061182462242451
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Shallow Grave,0.8526448244321227,0.15941220222096797
 "2025-08-01_-_Stone_Pony_Summer_Stage_-_Asbury_Park,_NJ",2025-08-01,Water Tower,0.8528366214201623,0.15918728392670625
 "2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Up the Wolves,0.8530791673147443,0.15890292534603295
 "2023-07-10_-_The_Lyric_-_Oxford,_MS",2023-07-10,This Year,0.8537499148057234,0.15811696788546037
@@ -3714,6 +3750,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-08-05_-_Nevermore_Hall_-_Baltimore,_MD",2025-08-05,Water Tower,0.8551666789104856,0.15645888295076224
 "2023-10-06_-_August_Hall_-_San_Francisco,_CA",2023-10-06,Up the Wolves,0.8557741670843824,0.1557487611474899
 "2023-12-07_-_Town_Ballroom_-_Buffalo,_NY",2023-12-07,Only One Way,0.8559176107209662,0.15558115663039218
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,No Children,0.8563038067284809,0.15513005140518227
 "2023-12-03_-_Aura_-_Portland,_ME",2023-12-03,Clean Slate,0.8564814431743907,0.15492262733195802
 "2025-08-04_-_The_Rooftop_at_Pier_17_-_New_York,_NY",2025-08-04,This Year,0.8571717711754049,0.15411694735823206
 "2023-12-06_-_Infinity_Hall_-_Hartford,_CT",2023-12-06,Only One Way,0.8572368016941406,0.1540410838566187
@@ -3738,6 +3775,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-08-07_-_Elevation_27_-_Virginia_Beach,_VA",2024-08-07,No Children,0.8632377010525867,0.1470651900737814
 "2024-08-04_-_Filene_Center_at_Wolf_Trap_-_Vienna,_VA",2024-08-04,Fresh Tattoo,0.8633164604755597,0.14697395699834995
 "2023-12-03_-_Aura_-_Portland,_ME",2023-12-03,Cleaning Crew,0.8633652209540735,0.14691747817072207
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,No Children,0.8636984933549524,0.14653153710525424
 "2025-12-09_-_Revolution_Hall_-_Portland,_OR",2025-12-09,No Children,0.8637902525737968,0.14642530287461514
 "2023-12-10_-_Thunderbird_Music_Hall_-_Pittsburgh,_PA",2023-12-10,Only One Way,0.8637928568399115,0.14642228795035425
 "2025-12-06_-_Treefort_Music_Hall_-_Boise,_ID",2025-12-06,No Children,0.8638363392761784,0.14637195025477248
@@ -3771,6 +3809,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-12-02_-_The_Queen_-_Wilmington,_DE",2023-12-02,Cleaning Crew,0.871413231438229,0.13763898129859312
 "2025-12-14_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-14,No Children,0.8715370331482165,0.13749692135263697
 "2024-05-24_-_Barrowland,_Glasgow,_Scotland",2024-05-24,Water Tower,0.871600310067949,0.13742432016603906
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Charlie Sheen Reaches Out to the Feds,0.8718238738586769,0.13716785499363365
 "2024-04-10_-_Turner_Hall_Ballroom_-_Milwaukee,_WI",2024-04-10,No Children,0.871927023932017,0.13704954672656275
 "2023-10-07_-_Ace_Of_Spades_-_Sacramento,_CA",2023-10-07,Up the Wolves,0.872007926185139,0.13695676545261148
 "2024-04-08_-_Victory_Theatre_-_Evansville,_IN",2024-04-08,No Children,0.8721784910572534,0.13676118444020138
@@ -3782,6 +3821,7 @@ show_id,date,song_key,p_model,surprisal
 "2025-09-26_-_Agora_Theatre_-_Cleveland,_OH",2025-09-26,No Children,0.8741146975580724,0.1345436790329129
 "2025-09-29_-_The_Majestic_Theatre_-_Detroit,_MI",2025-09-29,No Children,0.8744098031098728,0.1342061309408047
 "2024-05-25_-_Albert_Hall_-_Manchester,_England",2024-05-25,Water Tower,0.8746416169192001,0.13394105718936433
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Charlie Sheen Reaches Out to the Feds,0.874816951205366,0.13374061313204563
 "2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,No Children,0.8750337029648275,0.1334928756922206
 "2025-08-10_-_Fete_Music_Hall_-_Providence,_RI",2025-08-10,This Year,0.8751346709566331,0.13337749480267638
 "2023-07-01_-_The_Salt_Shed_-_Chicago,_IL",2023-07-01,No Children,0.8758141151505209,0.13260140787953864
@@ -3824,6 +3864,7 @@ show_id,date,song_key,p_model,surprisal
 "2026-05-21_-_Newport_Music_Hall_-_Columbus,_OH",2026-05-21,No Children,0.8816439463562095,0.12596699341819897
 "2024-10-09_-_United_Theatre_-_Westerly,_RI",2024-10-09,No Children,0.881662140258205,0.12594635729366646
 "2024-04-15_-_Washington's_-_Fort_Collins,_CO",2024-04-15,No Children,0.8820330399948599,0.1255257633653331
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Charlie Sheen Reaches Out to the Feds,0.8820527461970089,0.125503421819016
 "2024-10-17_-_Cahn_Auditorium_-_Evanston,_IL",2024-10-17,No Children,0.8823929361765059,0.12511781631456692
 "2023-12-05_-_Higher_Ground_Ballroom_-_South_Burlington,_VT",2023-12-05,Jenny III,0.8825284613014113,0.12496423992825831
 "2024-08-01_-_Citizens_House_of_Blues_-_Boston,_MA",2024-08-01,No Children,0.8825519420937967,0.12493763401008974
@@ -3911,25 +3952,25 @@ show_id,date,song_key,p_model,surprisal
 "2023-04-22_-_Cat's_Cradle_-_Carrboro,_NC",2023-04-22,No Children,0.8898822217605118,0.11666616011356208
 "2025-11-30_-_The_ELM_-_Bozeman,_MT",2025-11-30,This Year,0.8900018320053421,0.11653175782510145
 "2025-12-10_-_The_Fillmore_-_San_Francisco,_CA",2025-12-10,Peru,0.8900260594383276,0.11650453641682641
-"2025-12-10_-_The_Fillmore_-_San_Francisco,_CA",2025-12-10,Your Bandage,0.8900549154692506,0.11647211538505049
-"2025-12-10_-_The_Fillmore_-_San_Francisco,_CA",2025-12-10,Fishing Boat,0.8900549154692506,0.11647211538505049
 "2025-12-10_-_The_Fillmore_-_San_Francisco,_CA",2025-12-10,Cold at Night,0.8900549154692506,0.11647211538505049
+"2025-12-10_-_The_Fillmore_-_San_Francisco,_CA",2025-12-10,Fishing Boat,0.8900549154692506,0.11647211538505049
+"2025-12-10_-_The_Fillmore_-_San_Francisco,_CA",2025-12-10,Your Bandage,0.8900549154692506,0.11647211538505049
 "2026-05-29_-_Neighborhood_Theatre_-_Charlotte,_NC",2026-05-29,No Children,0.8901109777821755,0.1164091298923434
 "2023-07-10_-_The_Lyric_-_Oxford,_MS",2023-07-10,No Children,0.8901674556162743,0.11634568157655391
 "2023-02-18_-_Manchester_Music_Hall_-_Lexington,_KY",2023-02-18,Up the Wolves,0.8901867755424944,0.11632397811340854
 "2023-04-15_-_Majestic_Theatre_-_Detroit,_MI",2023-04-15,Up the Wolves,0.8902234161569228,0.11628281836875597
-"2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Jenny III,0.8902257424560748,0.11628020520887918
 "2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Cleaning Crew,0.8902257424560748,0.11628020520887918
-"2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Murder at the 18th St. Garage,0.8902257424560748,0.11628020520887918
 "2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Fresh Tattoo,0.8902257424560748,0.11628020520887918
+"2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Murder at the 18th St. Garage,0.8902257424560748,0.11628020520887918
+"2023-10-05_-_August_Hall_-_San_Francisco,_CA",2023-10-05,Jenny III,0.8902257424560748,0.11628020520887918
 "2023-10-07_-_Ace_Of_Spades_-_Sacramento,_CA",2023-10-07,This Year,0.8903895068749592,0.11609626382186959
 "2023-04-02_-_Soul_Kitchen_-_Mobile,_AL",2023-04-02,Up the Wolves,0.8903900352308691,0.11609567042341973
 "2023-08-05_-_Citizens_House_of_Blues_-_Boston,_MA",2023-08-05,No Children,0.8904202235596733,0.11606176638602095
 "2023-03-31_-_Walker_Theatre_-_Chattanooga,_TN",2023-03-31,No Children,0.8904698399367249,0.11600604551017192
 "2023-04-23_-_Cat's_Cradle_-_Carrboro,_NC",2023-04-23,No Children,0.8904974471355459,0.11597504303300842
-"2023-10-06_-_August_Hall_-_San_Francisco,_CA",2023-10-06,Murder at the 18th St. Garage,0.8905410770945148,0.1159260491921857
 "2023-10-06_-_August_Hall_-_San_Francisco,_CA",2023-10-06,Fresh Tattoo,0.8905410770945148,0.1159260491921857
 "2023-10-06_-_August_Hall_-_San_Francisco,_CA",2023-10-06,Cleaning Crew,0.8905410770945148,0.1159260491921857
+"2023-10-06_-_August_Hall_-_San_Francisco,_CA",2023-10-06,Murder at the 18th St. Garage,0.8905410770945148,0.1159260491921857
 "2023-12-07_-_Town_Ballroom_-_Buffalo,_NY",2023-12-07,No Children,0.8905744837590545,0.11588853712359475
 "2024-05-24_-_Barrowland,_Glasgow,_Scotland",2024-05-24,No Children,0.8906178702932347,0.11583982084195328
 "2023-06-03_-_Stubb's_Waller_Creek_Amphitheater_-_Austin,_TX",2023-06-03,No Children,0.8906638219602534,0.11578822690571206
@@ -3945,27 +3986,29 @@ show_id,date,song_key,p_model,surprisal
 "2025-12-01_-_The_Wilma_-_Missoula,_MT",2025-12-01,This Year,0.8914176459891374,0.11494222285101281
 "2023-04-12_-_The_District_-_Sioux_Falls,_SD",2023-04-12,No Children,0.8914718879061903,0.11488137565208283
 "2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Last Day,0.8915419500203041,0.11480278723884717
-"2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Song for Layne Staley,0.8915419500203041,0.11480278723884717
 "2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Crying on Eddie Nash's Grave,0.8915419500203041,0.11480278723884717
+"2026-08-09_-_ZooTunes_at_Woodland_Park_Zoo_-_Seattle,_WA",2026-08-09,Song for Layne Staley,0.8915419500203041,0.11480278723884717
 "2025-12-08_-_Revolution_Hall_-_Portland,_OR",2025-12-08,Peru,0.8916925940156799,0.11463383134211673
 "2025-12-03_-_Neptune_Theatre_-_Seattle,_WA",2025-12-03,Peru,0.8917129317926538,0.11461102354357577
-"2025-12-08_-_Revolution_Hall_-_Portland,_OR",2025-12-08,Cold at Night,0.8917210659639375,0.11460190162339925
-"2025-12-08_-_Revolution_Hall_-_Portland,_OR",2025-12-08,Your Bandage,0.8917210659639375,0.11460190162339925
 "2025-12-08_-_Revolution_Hall_-_Portland,_OR",2025-12-08,Fishing Boat,0.8917210659639375,0.11460190162339925
+"2025-12-08_-_Revolution_Hall_-_Portland,_OR",2025-12-08,Your Bandage,0.8917210659639375,0.11460190162339925
+"2025-12-08_-_Revolution_Hall_-_Portland,_OR",2025-12-08,Cold at Night,0.8917210659639375,0.11460190162339925
 "2024-01-19_-_Saturn_-_Birmingham,_AL",2024-01-19,Jenny III,0.8917406068913956,0.11457998814159447
-"2025-12-03_-_Neptune_Theatre_-_Seattle,_WA",2025-12-03,Your Bandage,0.8917413990435954,0.11457909982066138
 "2025-12-03_-_Neptune_Theatre_-_Seattle,_WA",2025-12-03,Fishing Boat,0.8917413990435954,0.11457909982066138
+"2025-12-03_-_Neptune_Theatre_-_Seattle,_WA",2025-12-03,Your Bandage,0.8917413990435954,0.11457909982066138
 "2025-12-03_-_Neptune_Theatre_-_Seattle,_WA",2025-12-03,Cold at Night,0.8917413990435954,0.11457909982066138
 "2023-10-09_-_Martin_Woldson_Theater_at_The_Fox_-_Spokane,_WA",2023-10-09,This Year,0.8917615089914458,0.11455654875246782
 "2023-03-31_-_Walker_Theatre_-_Chattanooga,_TN",2023-03-31,Up the Wolves,0.8918101121843404,0.1145020477811252
 "2024-12-02_-_Radio_Room_-_Greenville,_SC",2024-12-02,No Children,0.8918193203013691,0.11449172263526124
 "2023-07-13_-_The_Vanguard_-_Tulsa,_OK",2023-07-13,No Children,0.8918340567413049,0.11447519875217299
-"2023-12-03_-_Aura_-_Portland,_ME",2023-12-03,Fresh Tattoo,0.8918575687508644,0.11444883544001201
 "2023-12-03_-_Aura_-_Portland,_ME",2023-12-03,Murder at the 18th St. Garage,0.8918575687508644,0.11444883544001201
+"2023-12-03_-_Aura_-_Portland,_ME",2023-12-03,Fresh Tattoo,0.8918575687508644,0.11444883544001201
 "2023-12-02_-_The_Queen_-_Wilmington,_DE",2023-12-02,No Children,0.8918899051861572,0.11441257869877616
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Crying on Eddie Nash's Grave,0.8919606454043703,0.1143332668772486
+"2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Song for Layne Staley,0.8919606454043703,0.1143332668772486
 "2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,Crying on Eddie Nash's Grave,0.8919687632225114,0.1143241658241442
-"2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,Song for Layne Staley,0.8919687632225114,0.1143241658241442
 "2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,Last Day,0.8919687632225114,0.1143241658241442
+"2026-08-08_-_Pioneer_Courthouse_Square_-_Portland,_OR",2026-08-08,Song for Layne Staley,0.8919687632225114,0.1143241658241442
 "2023-10-13_-_Fox_Theater_-_Boulder,_CO",2023-10-13,This Year,0.8920294694674551,0.11425610942828601
 "2025-12-08_-_Revolution_Hall_-_Portland,_OR",2025-12-08,This Year,0.8920311901640131,0.11425418046185909
 "2025-12-09_-_Revolution_Hall_-_Portland,_OR",2025-12-09,Peru,0.8921259262696223,0.1141479834180835
@@ -3975,8 +4018,8 @@ show_id,date,song_key,p_model,surprisal
 "2025-12-09_-_Revolution_Hall_-_Portland,_OR",2025-12-09,Cold at Night,0.892154298080522,0.11411618145052822
 "2025-12-09_-_Revolution_Hall_-_Portland,_OR",2025-12-09,Fishing Boat,0.892154298080522,0.11411618145052822
 "2025-12-04_-_Neptune_Theatre_-_Seattle,_WA",2025-12-04,Fishing Boat,0.8921745596432191,0.11409347088054529
-"2025-12-04_-_Neptune_Theatre_-_Seattle,_WA",2025-12-04,Cold at Night,0.8921745596432191,0.11409347088054529
 "2025-12-04_-_Neptune_Theatre_-_Seattle,_WA",2025-12-04,Your Bandage,0.8921745596432191,0.11409347088054529
+"2025-12-04_-_Neptune_Theatre_-_Seattle,_WA",2025-12-04,Cold at Night,0.8921745596432191,0.11409347088054529
 "2023-08-09_-_Pioneer_Courthouse_Square_-_Portland,_OR",2023-08-09,Clean Slate,0.8922185184458675,0.11404420056763379
 "2023-12-03_-_Aura_-_Portland,_ME",2023-12-03,This Year,0.8923315797167768,0.11391748933528795
 "2023-04-01_-_Mars_Music_Hall_-_Huntsville,_AL",2023-04-01,Up the Wolves,0.8923534023135958,0.11389303393050798
@@ -3987,6 +4030,7 @@ show_id,date,song_key,p_model,surprisal
 "2023-04-04_-_Chelsea's_Live_-_Baton_Rouge,_LA",2023-04-04,No Children,0.8927933587571636,0.11340012605080912
 "2025-12-09_-_Revolution_Hall_-_Portland,_OR",2025-12-09,This Year,0.8928169673667333,0.11337368286863694
 "2024-01-23_-_The_Blue_Note_-_Columbia,_MO",2024-01-23,No Children,0.8928541990592401,0.11333198236608953
+"2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Crying on Eddie Nash's Grave,0.8931715844707754,0.11297657269865588
 "2023-12-08_-_Homer_Center_for_the_Arts_-_Homer,_NY",2023-12-08,Jenny III,0.8935597175073422,0.11254211112937308
 "2023-12-06_-_Infinity_Hall_-_Hartford,_CT",2023-12-06,No Children,0.8935611308198271,0.11254052946522737
 "2026-04-16_-_The_Governor_Hindmarsh_Hotel_-_Adelaide,_AU",2026-04-16,This Year,0.8935791619478446,0.11252035071586892
@@ -3996,8 +4040,8 @@ show_id,date,song_key,p_model,surprisal
 "2025-12-12_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-12,Peru,0.893730579153161,0.11235091482885205
 "2024-04-22_-_Salvage_Station_-_Asheville,_NC",2024-04-22,This Year,0.8937535771326075,0.1123251825957949
 "2025-12-12_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-12,Fishing Boat,0.8937585791860978,0.1123195859306504
-"2025-12-12_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-12,Your Bandage,0.8937585791860978,0.1123195859306504
 "2025-12-12_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-12,Cold at Night,0.8937585791860978,0.1123195859306504
+"2025-12-12_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-12,Your Bandage,0.8937585791860978,0.1123195859306504
 "2023-06-29_-_Mercury_Ballroom_-_Louisville,_KY",2023-06-29,No Children,0.893837501801463,0.1122312856526895
 "2024-05-28_-_Primavera_a_la_Ciutat_-_Barcelona,_Spain",2024-05-28,No Children,0.8938873581406758,0.11217550935249611
 "2024-05-26_-_Vicar_Street_-_Dublin,_Ireland",2024-05-26,This Year,0.8940975911301875,0.11194034742838002
@@ -4007,13 +4051,13 @@ show_id,date,song_key,p_model,surprisal
 "2023-04-17_-_Phoenix_Concert_Theatre_-_Toronto,_ON",2023-04-17,No Children,0.8942511722925521,0.11176858992125009
 "2024-12-09_-_Paper_Tiger_-_San_Antonio,_TX",2024-12-09,No Children,0.8942721244129495,0.111745160402119
 "2025-12-13_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-13,Peru,0.8942791501501488,0.11173730405793775
+"2023-10-03_-_The_Belasco_-_Los_Angeles,_CA",2023-10-03,Murder at the 18th St. Garage,0.8942994226022111,0.11171463527237589
 "2023-10-03_-_The_Belasco_-_Los_Angeles,_CA",2023-10-03,Cleaning Crew,0.8942994226022111,0.11171463527237589
 "2023-10-03_-_The_Belasco_-_Los_Angeles,_CA",2023-10-03,Fresh Tattoo,0.8942994226022111,0.11171463527237589
 "2023-10-03_-_The_Belasco_-_Los_Angeles,_CA",2023-10-03,Jenny III,0.8942994226022111,0.11171463527237589
-"2023-10-03_-_The_Belasco_-_Los_Angeles,_CA",2023-10-03,Murder at the 18th St. Garage,0.8942994226022111,0.11171463527237589
-"2025-12-13_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-13,Cold at Night,0.8943070227379115,0.11170613688446021
 "2025-12-13_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-13,Fishing Boat,0.8943070227379115,0.11170613688446021
 "2025-12-13_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-13,Your Bandage,0.8943070227379115,0.11170613688446021
+"2025-12-13_-_Teragram_Ballroom_-_Los_Angeles,_CA",2025-12-13,Cold at Night,0.8943070227379115,0.11170613688446021
 "2025-09-24_-_Red_Hat_Amphitheater_-_Raleigh,_NC",2025-09-24,This Year,0.8943846933424806,0.11161929061137732
 "2023-04-14_-_Badger_State_-_Green_Bay,_WI",2023-04-14,No Children,0.8944548656398263,0.11154083494772725
 "2023-04-14_-_Badger_State_-_Green_Bay,_WI",2023-04-14,Up the Wolves,0.894534275409599,0.11145205881376125
@@ -4063,8 +4107,8 @@ show_id,date,song_key,p_model,surprisal
 "2024-01-21_-_Revolution_Music_Room_-_Little_Rock,_AR",2024-01-21,No Children,0.8976038477243182,0.10802645754250279
 "2025-09-18_-_Ponte_Vedra_Concert_Hall_-_Ponte_Vedra_Beach,_FL",2025-09-18,This Year,0.8976077686283187,0.10802208936221165
 "2023-12-06_-_Infinity_Hall_-_Hartford,_CT",2023-12-06,This Year,0.8976447097514519,0.10798093512504074
-"2025-08-05_-_Nevermore_Hall_-_Baltimore,_MD",2025-08-05,Broken To Begin With,0.8978512217403809,0.10775090175518731
 "2026-05-26_-_Brooklyn_Bowl_Nashville_-_Nashville,_TN",2026-05-26,Charlie Sheen Reaches Out to the Feds,0.8978512217403809,0.10775090175518731
+"2025-08-05_-_Nevermore_Hall_-_Baltimore,_MD",2025-08-05,Broken To Begin With,0.8978512217403809,0.10775090175518731
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,This Year,0.897904279625574,0.10769180920593088
 "2026-05-22_-_Bell's_Beer_Garden_-_Kalamazoo,_MI",2026-05-22,This Year,0.8979671524359043,0.10762178992812114
 "2026-05-16_-_Bearsville_Theater_-_Woodstock,_NY",2026-05-16,This Year,0.8981212693360795,0.10745017599343369
@@ -4077,6 +4121,7 @@ show_id,date,song_key,p_model,surprisal
 "2024-01-31_-_Rialto_Theatre_-_Tucson,_AZ",2024-01-31,Jenny III,0.8984022402180122,0.10713738199688501
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,Charlie Sheen Reaches Out to the Feds,0.8984727048095925,0.10705895184033856
 "2024-04-16_-_Gothic_Theatre_-_Denver,_CO",2024-04-16,From the Nebraska Plant,0.8984880727096254,0.10704184751594206
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Crying on Eddie Nash's Grave,0.8985034385462429,0.10702474578060088
 "2024-01-27_-_The_Liberty_-_Roswell,_NM",2024-01-27,No Children,0.898556358800838,0.10696584929347402
 "2026-05-26_-_Brooklyn_Bowl_Nashville_-_Nashville,_TN",2026-05-26,This Year,0.8985744130383998,0.10694575700208893
 "2025-09-26_-_Agora_Theatre_-_Cleveland,_OH",2025-09-26,This Year,0.8986360486167718,0.10687716672876121
@@ -4085,18 +4130,18 @@ show_id,date,song_key,p_model,surprisal
 "2024-08-03_-_Union_Transfer_-_Philadelphia,_PA",2024-08-03,This Year,0.8988032118140457,0.10669116523047892
 "2023-12-08_-_Homer_Center_for_the_Arts_-_Homer,_NY",2023-12-08,This Year,0.8989088958102804,0.10657358912259345
 "2024-01-21_-_Revolution_Music_Room_-_Little_Rock,_AR",2024-01-21,Jenny III,0.898948296263198,0.1065297586636475
-"2023-12-12_-_Georgia_Theatre_-_Athens,_GA",2023-12-12,Murder at the 18th St. Garage,0.8989762895561604,0.10649861910063649
 "2023-12-12_-_Georgia_Theatre_-_Athens,_GA",2023-12-12,Fresh Tattoo,0.8989762895561604,0.10649861910063649
+"2023-12-12_-_Georgia_Theatre_-_Athens,_GA",2023-12-12,Murder at the 18th St. Garage,0.8989762895561604,0.10649861910063649
 "2024-01-30_-_24_Oxford_-_Las_Vegas,_NV",2024-01-30,No Children,0.8989881377744736,0.10648543950916815
 "2024-07-26_-_Agora_Theatre_-_Cleveland,_OH",2024-07-26,This Year,0.8990655352248809,0.10639934925322385
 "2025-08-06_-_The_Broadberry_-_Richmond,_VA",2025-08-06,Broken To Begin With,0.8992017596456766,0.1062478429432944
-"2026-05-21_-_Newport_Music_Hall_-_Columbus,_OH",2026-05-21,Charlie Sheen Reaches Out to the Feds,0.8992246637610141,0.10622237165901989
 "2026-05-21_-_Newport_Music_Hall_-_Columbus,_OH",2026-05-21,Need More Bandages,0.8992246637610141,0.10622237165901989
+"2026-05-21_-_Newport_Music_Hall_-_Columbus,_OH",2026-05-21,Charlie Sheen Reaches Out to the Feds,0.8992246637610141,0.10622237165901989
 "2024-08-01_-_Citizens_House_of_Blues_-_Boston,_MA",2024-08-01,This Year,0.899249105617087,0.10619519099451352
 "2024-02-01_-_Orpheum_Theater_-_Flagstaff,_AZ",2024-02-01,No Children,0.8993183074683666,0.10611823880377523
 "2025-10-02_-_Water_Street_Music_Hall_-_Rochester,_NY",2025-10-02,This Year,0.8997567390072432,0.1056308421847017
-"2023-12-10_-_Thunderbird_Music_Hall_-_Pittsburgh,_PA",2023-12-10,Murder at the 18th St. Garage,0.8998000195746652,0.1055827408206031
 "2023-12-10_-_Thunderbird_Music_Hall_-_Pittsburgh,_PA",2023-12-10,Fresh Tattoo,0.8998000195746652,0.1055827408206031
+"2023-12-10_-_Thunderbird_Music_Hall_-_Pittsburgh,_PA",2023-12-10,Murder at the 18th St. Garage,0.8998000195746652,0.1055827408206031
 "2026-05-23_-_The_Vogue_-_Indianapolis,_IN",2026-05-23,Charlie Sheen Reaches Out to the Feds,0.9000314355450842,0.10532558788438114
 "2024-04-10_-_Turner_Hall_Ballroom_-_Milwaukee,_WI",2024-04-10,From the Nebraska Plant,0.9000428043921339,0.10531295635308362
 "2024-10-15_-_Bluebird_Nightclub_-_Bloomington,_IN",2024-10-15,This Year,0.90007269489711,0.10527974681181743
@@ -4112,9 +4157,9 @@ show_id,date,song_key,p_model,surprisal
 "2026-05-29_-_Neighborhood_Theatre_-_Charlotte,_NC",2026-05-29,Charlie Sheen Reaches Out to the Feds,0.9009413084567857,0.10431516394304892
 "2025-09-22_-_Mercury_Ballroom_-_Louisville,_KY",2025-09-22,Great Pirates,0.9009751353081646,0.10427761852688935
 "2024-01-23_-_The_Blue_Note_-_Columbia,_MO",2024-01-23,Shirtless in Hamburg,0.9009751353081646,0.10427761852688935
-"2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,For the Portuguese Goth Metal Bands,0.90098640864027,0.1042651062375529
-"2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,Charlie Sheen Reaches Out to the Feds,0.90098640864027,0.1042651062375529
 "2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,Need More Bandages,0.90098640864027,0.1042651062375529
+"2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,Charlie Sheen Reaches Out to the Feds,0.90098640864027,0.1042651062375529
+"2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,For the Portuguese Goth Metal Bands,0.90098640864027,0.1042651062375529
 "2024-01-19_-_Saturn_-_Birmingham,_AL",2024-01-19,Shirtless in Hamburg,0.900990166163774,0.10426093579099266
 "2023-12-15_-_The_Bier_Hall_at_Intuition_Ale_Works_-_Jacksonville,_FL",2023-12-15,This Year,0.9010002500960175,0.10424974379779163
 "2024-12-10_-_Antone's_Nightclub_-_Austin,_TX",2024-12-10,This Year,0.9010105824707026,0.10423827619227166
@@ -4125,8 +4170,8 @@ show_id,date,song_key,p_model,surprisal
 "2024-07-29_-_District_Music_Hall_-_Norwalk,_CT",2024-07-29,This Year,0.9014552431594258,0.10374488464895269
 "2024-01-30_-_24_Oxford_-_Las_Vegas,_NV",2024-01-30,Jenny III,0.9014962179553021,0.10369943162731893
 "2025-10-01_-_The_Loud_-_Huntington,_WV",2025-10-01,This Year,0.9015789463612803,0.10360766794749737
-"2023-12-07_-_Town_Ballroom_-_Buffalo,_NY",2023-12-07,Murder at the 18th St. Garage,0.9018258184103284,0.10333388354211857
 "2023-12-07_-_Town_Ballroom_-_Buffalo,_NY",2023-12-07,Fresh Tattoo,0.9018258184103284,0.10333388354211857
+"2023-12-07_-_Town_Ballroom_-_Buffalo,_NY",2023-12-07,Murder at the 18th St. Garage,0.9018258184103284,0.10333388354211857
 "2025-09-24_-_Red_Hat_Amphitheater_-_Raleigh,_NC",2025-09-24,Broken To Begin With,0.9018444628439041,0.10331320965979084
 "2024-10-12_-_Mr._Smalls_Theatre_-_Pittsburgh,_PA",2024-10-12,This Year,0.9019495844648012,0.10319665353613247
 "2023-06-03_-_Stubb's_Waller_Creek_Amphitheater_-_Austin,_TX",2023-06-03,This Year,0.9019813046063352,0.10316148573482765
@@ -4146,26 +4191,26 @@ show_id,date,song_key,p_model,surprisal
 "2024-01-24_-_Tower_Theatre_-_Oklahoma_City,_OK",2024-01-24,This Year,0.9030607218078688,0.10196548329897702
 "2024-08-04_-_Filene_Center_at_Wolf_Trap_-_Vienna,_VA",2024-08-04,This Year,0.9030856865358864,0.10193783910811423
 "2024-01-27_-_The_Liberty_-_Roswell,_NM",2024-01-27,Jenny III,0.903096151791805,0.1019262508441901
-"2023-12-02_-_The_Queen_-_Wilmington,_DE",2023-12-02,Fresh Tattoo,0.9031072804581787,0.10191392812773958
 "2023-12-02_-_The_Queen_-_Wilmington,_DE",2023-12-02,Murder at the 18th St. Garage,0.9031072804581787,0.10191392812773958
+"2023-12-02_-_The_Queen_-_Wilmington,_DE",2023-12-02,Fresh Tattoo,0.9031072804581787,0.10191392812773958
 "2024-12-04_-_Victory_North_-_Savannah,_GA",2024-12-04,This Year,0.9031807838586233,0.10183254199455596
 "2024-01-26_-_Lowbrow_Palace_-_El_Paso,_TX",2024-01-26,This Year,0.9032308888064852,0.10177706743287894
-"2026-05-31_-_Spoleto_Festival_-_Charleston,_SC",2026-05-31,Charlie Sheen Reaches Out to the Feds,0.9032730127589038,0.10173043154973495
 "2025-08-10_-_Fete_Music_Hall_-_Providence,_RI",2025-08-10,Broken To Begin With,0.9032730127589038,0.10173043154973495
+"2026-05-31_-_Spoleto_Festival_-_Charleston,_SC",2026-05-31,Charlie Sheen Reaches Out to the Feds,0.9032730127589038,0.10173043154973495
 "2025-12-06_-_Treefort_Music_Hall_-_Boise,_ID",2025-12-06,Peru,0.9032803727607908,0.10172228343526904
 "2024-01-31_-_Rialto_Theatre_-_Tucson,_AZ",2024-01-31,Shirtless in Hamburg,0.9032840525742084,0.10171820961053736
 "2023-10-13_-_Fox_Theater_-_Boulder,_CO",2023-10-13,Murder at the 18th St. Garage,0.9032914118260075,0.10171006242605034
 "2023-10-13_-_Fox_Theater_-_Boulder,_CO",2023-10-13,Fresh Tattoo,0.9032914118260075,0.10171006242605034
 "2024-04-15_-_Washington's_-_Fort_Collins,_CO",2024-04-15,From the Nebraska Plant,0.9032950912643953,0.1017059890662842
-"2026-05-22_-_Bell's_Beer_Garden_-_Kalamazoo,_MI",2026-05-22,Charlie Sheen Reaches Out to the Feds,0.9033061288295482,0.10169376991683358
 "2025-12-06_-_Treefort_Music_Hall_-_Boise,_ID",2025-12-06,Your Bandage,0.9033061288295482,0.10169376991683358
+"2026-05-22_-_Bell's_Beer_Garden_-_Kalamazoo,_MI",2026-05-22,Charlie Sheen Reaches Out to the Feds,0.9033061288295482,0.10169376991683358
+"2025-12-06_-_Treefort_Music_Hall_-_Boise,_ID",2025-12-06,Fishing Boat,0.9033061288295482,0.10169376991683358
 "2025-12-06_-_Treefort_Music_Hall_-_Boise,_ID",2025-12-06,Cold at Night,0.9033061288295482,0.10169376991683358
 "2026-05-22_-_Bell's_Beer_Garden_-_Kalamazoo,_MI",2026-05-22,Need More Bandages,0.9033061288295482,0.10169376991683358
-"2025-12-06_-_Treefort_Music_Hall_-_Boise,_ID",2025-12-06,Fishing Boat,0.9033061288295482,0.10169376991683358
 "2024-01-24_-_Tower_Theatre_-_Oklahoma_City,_OK",2024-01-24,Shirtless in Hamburg,0.9033098077679393,0.10168969717694833
-"2026-05-16_-_Bearsville_Theater_-_Woodstock,_NY",2026-05-16,For the Portuguese Goth Metal Bands,0.9033282005850879,0.10166933580177062
-"2026-05-16_-_Bearsville_Theater_-_Woodstock,_NY",2026-05-16,Charlie Sheen Reaches Out to the Feds,0.9033282005850879,0.10166933580177062
 "2026-05-16_-_Bearsville_Theater_-_Woodstock,_NY",2026-05-16,Need More Bandages,0.9033282005850879,0.10166933580177062
+"2026-05-16_-_Bearsville_Theater_-_Woodstock,_NY",2026-05-16,Charlie Sheen Reaches Out to the Feds,0.9033282005850879,0.10166933580177062
+"2026-05-16_-_Bearsville_Theater_-_Woodstock,_NY",2026-05-16,For the Portuguese Goth Metal Bands,0.9033282005850879,0.10166933580177062
 "2023-04-11_-_The_Slowdown_-_Omaha,_NE",2023-04-11,This Year,0.9034523005370215,0.101531964436459
 "2024-01-28_-_El_Rey_Theater_-_Albuquerque,_NM",2024-01-28,Jenny III,0.9034529482114568,0.10153124754835902
 "2024-01-27_-_The_Liberty_-_Roswell,_NM",2024-01-27,This Year,0.9034906237564471,0.10148954669440854
@@ -4182,21 +4227,21 @@ show_id,date,song_key,p_model,surprisal
 "2023-04-12_-_The_District_-_Sioux_Falls,_SD",2023-04-12,This Year,0.9043717727548287,0.10051475008394034
 "2023-02-12_-_Skully's_-_Columbus,_OH",2023-02-12,This Year,0.9044018369464267,0.10048150745872785
 "2024-10-11_-_The_Egg_-_Albany,_NY",2024-10-11,This Year,0.9044911097393898,0.10038280311782237
-"2023-12-05_-_Higher_Ground_Ballroom_-_South_Burlington,_VT",2023-12-05,Murder at the 18th St. Garage,0.9045925959904049,0.10027060681557272
 "2023-12-05_-_Higher_Ground_Ballroom_-_South_Burlington,_VT",2023-12-05,Fresh Tattoo,0.9045925959904049,0.10027060681557272
+"2023-12-05_-_Higher_Ground_Ballroom_-_South_Burlington,_VT",2023-12-05,Murder at the 18th St. Garage,0.9045925959904049,0.10027060681557272
 "2025-12-05_-_Knitting_Factory_-_Spokane,_WA",2025-12-05,Peru,0.9047778313152361,0.10006585567928467
 "2026-05-28_-_Manchester_Music_Hall_-_Lexington,_KY",2026-05-28,Charlie Sheen Reaches Out to the Feds,0.9047778313152361,0.10006585567928467
 "2025-12-01_-_The_Wilma_-_Missoula,_MT",2025-12-01,Peru,0.9047923459589782,0.10004981358937336
-"2023-10-10_-_The_Knitting_Factory_-_Boise,_ID",2023-10-10,Fresh Tattoo,0.9047959743105808,0.10004580344898731
 "2023-10-10_-_The_Knitting_Factory_-_Boise,_ID",2023-10-10,Murder at the 18th St. Garage,0.9047959743105808,0.10004580344898731
-"2025-12-05_-_Knitting_Factory_-_Spokane,_WA",2025-12-05,Cold at Night,0.9048032306426086,0.10003778362668855
-"2025-12-05_-_Knitting_Factory_-_Spokane,_WA",2025-12-05,Fishing Boat,0.9048032306426086,0.10003778362668855
+"2023-10-10_-_The_Knitting_Factory_-_Boise,_ID",2023-10-10,Fresh Tattoo,0.9047959743105808,0.10004580344898731
 "2025-12-05_-_Knitting_Factory_-_Spokane,_WA",2025-12-05,Your Bandage,0.9048032306426086,0.10003778362668855
+"2025-12-05_-_Knitting_Factory_-_Spokane,_WA",2025-12-05,Fishing Boat,0.9048032306426086,0.10003778362668855
+"2025-12-05_-_Knitting_Factory_-_Spokane,_WA",2025-12-05,Cold at Night,0.9048032306426086,0.10003778362668855
 "2024-04-09_-_Kalamazoo_State_Theatre_-_Kalamazoo,_MI",2024-04-09,From the Nebraska Plant,0.9048104864797537,0.10002976441565307
-"2025-12-01_-_The_Wilma_-_Missoula,_MT",2025-12-01,Fishing Boat,0.904817741822041,0.10002174581583918
-"2024-01-20_-_Chelsea's_Live_-_Baton_Rouge,_LA",2024-01-20,Shirtless in Hamburg,0.904817741822041,0.10002174581583918
 "2025-12-01_-_The_Wilma_-_Missoula,_MT",2025-12-01,Cold at Night,0.904817741822041,0.10002174581583918
 "2025-12-01_-_The_Wilma_-_Missoula,_MT",2025-12-01,Your Bandage,0.904817741822041,0.10002174581583918
+"2024-01-20_-_Chelsea's_Live_-_Baton_Rouge,_LA",2024-01-20,Shirtless in Hamburg,0.904817741822041,0.10002174581583918
+"2025-12-01_-_The_Wilma_-_Missoula,_MT",2025-12-01,Fishing Boat,0.904817741822041,0.10002174581583918
 "2023-06-29_-_Mercury_Ballroom_-_Louisville,_KY",2023-06-29,This Year,0.9049883230814829,0.09983323803784569
 "2025-07-26_-_MASS_MoCA_-_North_Adams,_MA",2025-07-26,This Year,0.905143930197039,0.09966130903579898
 "2025-07-27_-_Arrowood_Farms_-_Accord,_NY",2025-07-27,This Year,0.9051928171067407,0.09960730039924401
@@ -4217,28 +4262,28 @@ show_id,date,song_key,p_model,surprisal
 "2023-02-18_-_Manchester_Music_Hall_-_Lexington,_KY",2023-02-18,This Year,0.9062099627230449,0.09848425285340245
 "2023-02-19_-_The_Radio_Room_-_Greenville,_SC",2023-02-19,This Year,0.9062860730098866,0.09840026890487405
 "2023-03-31_-_Walker_Theatre_-_Chattanooga,_TN",2023-03-31,This Year,0.9063114397208705,0.09837227955720326
-"2023-12-15_-_The_Bier_Hall_at_Intuition_Ale_Works_-_Jacksonville,_FL",2023-12-15,Fresh Tattoo,0.9063576591791687,0.09832128353334402
 "2023-12-15_-_The_Bier_Hall_at_Intuition_Ale_Works_-_Jacksonville,_FL",2023-12-15,Murder at the 18th St. Garage,0.9063576591791687,0.09832128353334402
+"2023-12-15_-_The_Bier_Hall_at_Intuition_Ale_Works_-_Jacksonville,_FL",2023-12-15,Fresh Tattoo,0.9063576591791687,0.09832128353334402
 "2023-04-01_-_Mars_Music_Hall_-_Huntsville,_AL",2023-04-01,This Year,0.9063851808051331,0.09829091891089513
 "2023-04-04_-_Chelsea's_Live_-_Baton_Rouge,_LA",2023-04-04,This Year,0.9065246816591657,0.0981370217346524
 "2025-08-08_-_Infinity_Hall_-_Hartford,_CT",2025-08-08,Broken To Begin With,0.9065719349675407,0.09808489731066701
 "2024-01-30_-_24_Oxford_-_Las_Vegas,_NV",2024-01-30,Shirtless in Hamburg,0.9065790699142505,0.09807702709280802
 "2024-04-13_-_The_City_Center_-_Champaign,_IL",2024-04-13,From the Nebraska Plant,0.9065933383414786,0.0980612884601624
 "2025-08-01_-_Stone_Pony_Summer_Stage_-_Asbury_Park,_NJ",2025-08-01,Broken To Begin With,0.9065969051428471,0.09805735417761119
-"2023-10-09_-_Martin_Woldson_Theater_at_The_Fox_-_Spokane,_WA",2023-10-09,Fresh Tattoo,0.9065969051428471,0.09805735417761119
 "2023-10-09_-_Martin_Woldson_Theater_at_The_Fox_-_Spokane,_WA",2023-10-09,Murder at the 18th St. Garage,0.9065969051428471,0.09805735417761119
+"2023-10-09_-_Martin_Woldson_Theater_at_The_Fox_-_Spokane,_WA",2023-10-09,Fresh Tattoo,0.9065969051428471,0.09805735417761119
 "2024-01-21_-_Revolution_Music_Room_-_Little_Rock,_AR",2024-01-21,Shirtless in Hamburg,0.906611171126661,0.09804161854969187
 "2023-04-14_-_Badger_State_-_Green_Bay,_WI",2023-04-14,This Year,0.9066674726097479,0.09797951945278864
 "2023-04-18_-_Empire_Live_-_Albany,_NY",2023-04-18,This Year,0.9068127606499814,0.09781928827091003
 "2023-04-21_-_XL_Live_-_Harrisburg,_PA",2023-04-21,This Year,0.906896031513552,0.09772746441915509
 "2024-03-02_-_The_Neptune_-_Seattle,_WA",2024-03-02,No Children,0.9071760904640676,0.09741870166452418
 "2024-03-01_-_Noise_Pop_2024_-_Grace_Cathedral_-_San_Francisco,_CA",2024-03-01,No Children,0.9079968972719251,0.09651431748808612
-"2023-12-13_-_Vinyl_Music_Hall_-_Penascola,_FL",2023-12-13,Murder at the 18th St. Garage,0.908573522846221,0.09587946668651351
 "2023-12-13_-_Vinyl_Music_Hall_-_Penascola,_FL",2023-12-13,Fresh Tattoo,0.908573522846221,0.09587946668651351
+"2023-12-13_-_Vinyl_Music_Hall_-_Penascola,_FL",2023-12-13,Murder at the 18th St. Garage,0.908573522846221,0.09587946668651351
 "2023-12-08_-_Homer_Center_for_the_Arts_-_Homer,_NY",2023-12-08,Murder at the 18th St. Garage,0.908591015700775,0.09586021377442594
 "2023-12-08_-_Homer_Center_for_the_Arts_-_Homer,_NY",2023-12-08,Fresh Tattoo,0.908591015700775,0.09586021377442594
-"2023-12-06_-_Infinity_Hall_-_Hartford,_CT",2023-12-06,Fresh Tattoo,0.9085980119996939,0.09585251364107465
 "2023-12-06_-_Infinity_Hall_-_Hartford,_CT",2023-12-06,Murder at the 18th St. Garage,0.9085980119996939,0.09585251364107465
+"2023-12-06_-_Infinity_Hall_-_Hartford,_CT",2023-12-06,Fresh Tattoo,0.9085980119996939,0.09585251364107465
 "2025-09-20_-_Pisgah_Brewing_Company_-_Black_Mountain,_NC",2025-09-20,Broken To Begin With,0.9086259923794069,0.09582171900084564
 "2025-09-19_-_The_Windjammer_-_Isle_of_Palms,_SC",2025-09-19,Broken To Begin With,0.9086294893851266,0.09581787033371572
 "2025-09-18_-_Ponte_Vedra_Concert_Hall_-_Ponte_Vedra_Beach,_FL",2025-09-18,Broken To Begin With,0.9086329862704687,0.09581402181387995
@@ -4249,23 +4294,23 @@ show_id,date,song_key,p_model,surprisal
 "2024-01-28_-_El_Rey_Theater_-_Albuquerque,_NM",2024-01-28,Shirtless in Hamburg,0.9087902215708675,0.09564099078829087
 "2024-01-27_-_The_Liberty_-_Roswell,_NM",2024-01-27,Shirtless in Hamburg,0.9087937129222206,0.0956371490384968
 "2025-08-03_-_Canoe_Place_Inn_-_Hampton_Bays,_NY",2025-08-03,Broken To Begin With,0.9087937129222206,0.0956371490384968
-"2025-11-30_-_The_ELM_-_Bozeman,_MT",2025-11-30,Peru,0.9087972041533424,0.09563330743575871
-"2024-01-26_-_Lowbrow_Palace_-_El_Paso,_TX",2024-01-26,Shirtless in Hamburg,0.9087972041533424,0.09563330743575871
 "2025-08-02_-_Concerts_at_Point_of_the_Bluff_-_Hammondsport,_NY",2025-08-02,Broken To Begin With,0.9087972041533424,0.09563330743575871
+"2024-01-26_-_Lowbrow_Palace_-_El_Paso,_TX",2024-01-26,Shirtless in Hamburg,0.9087972041533424,0.09563330743575871
+"2025-11-30_-_The_ELM_-_Bozeman,_MT",2025-11-30,Peru,0.9087972041533424,0.09563330743575871
 "2024-04-12_-_Palace_Theatre_-_Saint_Paul,_MN",2024-04-12,From the Nebraska Plant,0.9088006952642366,0.09562946598007122
 "2023-10-07_-_Ace_Of_Spades_-_Sacramento,_CA",2023-10-07,Murder at the 18th St. Garage,0.9088076771253537,0.0956217835098282
 "2023-10-07_-_Ace_Of_Spades_-_Sacramento,_CA",2023-10-07,Fresh Tattoo,0.9088076771253537,0.0956217835098282
 "2025-07-29_-_Archer_Music_Hall_-_Allentown,_PA",2025-07-29,Broken To Begin With,0.9088111678755829,0.09561794249526255
-"2024-04-08_-_Victory_Theatre_-_Evansville,_IN",2024-04-08,From the Nebraska Plant,0.9088146585055968,0.09561410162772727
 "2025-09-20_-_Pisgah_Brewing_Company_-_Black_Mountain,_NC",2025-09-20,Great Pirates,0.9088146585055968,0.09561410162772727
-"2025-07-27_-_Arrowood_Farms_-_Accord,_NY",2025-07-27,Broken To Begin With,0.9088181490153986,0.09561026090721725
+"2024-04-08_-_Victory_Theatre_-_Evansville,_IN",2024-04-08,From the Nebraska Plant,0.9088146585055968,0.09561410162772727
 "2025-09-19_-_The_Windjammer_-_Isle_of_Palms,_SC",2025-09-19,Great Pirates,0.9088181490153986,0.09561026090721725
-"2025-09-18_-_Ponte_Vedra_Concert_Hall_-_Ponte_Vedra_Beach,_FL",2025-09-18,Going to Bogota,0.908821639404991,0.09560642033372771
-"2025-07-26_-_MASS_MoCA_-_North_Adams,_MA",2025-07-26,Broken To Begin With,0.908821639404991,0.09560642033372771
-"2025-09-18_-_Ponte_Vedra_Concert_Hall_-_Ponte_Vedra_Beach,_FL",2025-09-18,Great Pirates,0.908821639404991,0.09560642033372771
-"2025-11-30_-_The_ELM_-_Bozeman,_MT",2025-11-30,Your Bandage,0.908821639404991,0.09560642033372771
+"2025-07-27_-_Arrowood_Farms_-_Accord,_NY",2025-07-27,Broken To Begin With,0.9088181490153986,0.09561026090721725
 "2025-11-30_-_The_ELM_-_Bozeman,_MT",2025-11-30,Fishing Boat,0.908821639404991,0.09560642033372771
 "2025-11-30_-_The_ELM_-_Bozeman,_MT",2025-11-30,Cold at Night,0.908821639404991,0.09560642033372771
+"2025-09-18_-_Ponte_Vedra_Concert_Hall_-_Ponte_Vedra_Beach,_FL",2025-09-18,Great Pirates,0.908821639404991,0.09560642033372771
+"2025-09-18_-_Ponte_Vedra_Concert_Hall_-_Ponte_Vedra_Beach,_FL",2025-09-18,Going to Bogota,0.908821639404991,0.09560642033372771
+"2025-07-26_-_MASS_MoCA_-_North_Adams,_MA",2025-07-26,Broken To Begin With,0.908821639404991,0.09560642033372771
+"2025-11-30_-_The_ELM_-_Bozeman,_MT",2025-11-30,Your Bandage,0.908821639404991,0.09560642033372771
 "2024-03-01_-_Noise_Pop_2024_-_Grace_Cathedral_-_San_Francisco,_CA",2024-03-01,This Year,0.9112520947870251,0.09293569685584822
 "2024-03-03_-_Aladdin_Theater_-_Portland,_OR",2024-03-03,No Children,0.9115410104419218,0.09261869361890662
 "2024-03-02_-_The_Neptune_-_Seattle,_WA",2024-03-02,This Year,0.9143202231332505,0.08957441534998326
