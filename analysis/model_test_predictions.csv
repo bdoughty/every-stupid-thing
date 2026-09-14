@@ -147075,4 +147075,699 @@ show_id,date,song_key,played,p_baseline,p_model
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Younger,False,0.28307608827717573,0.07447765856036889
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Your Bandage,False,0.3124471060394328,0.06323400551062383
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Your Belgian Things,False,0.03829096452834495,0.01656522380319094
-"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Your Daddy Loves You,False,4.1777653701411876e-12,0.0025939565611500922
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Your Daddy Loves You,False,4.1777653701411876e-12,0.00259395656115009
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,02-75,False,3.715349059004034e-28,0.0008576445378112894
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,1 John 4:16,False,0.015267428185971287,0.01699920922218306
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,1 Samuel 15:23,False,0.0019578395938142173,0.010038727874591187
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,15-2,False,1.1476209597278474e-41,0.0005862373633523797
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,25,False,1.6229811257107495e-41,0.0005918852504224746
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Abandoned Flesh,False,0.0003979130680921462,0.006696559495748868
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Abandoning My Father Talking Blues,False,3.78141294291382e-10,0.002600623083496103
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Absolute Lithops Effect,False,7.638166749717844e-10,0.002513430664509264
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Adultery,False,0.0006441098308428232,0.006273869791508908
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Against Agamemnon,False,6.639933531603335e-06,0.004468030949670139
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Against Pollution,True,0.39483485929172235,0.34073608482600554
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Age of Kings,False,9.085873973860943e-26,0.0011450046782773221
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Agemo's Hoops,False,2.6365406171989937e-41,0.0006139255319459187
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Aisles,False,2.9379096569032894e-39,0.0007022544294720139
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alabama Nova,False,9.311467734392153e-37,0.0006754258792371221
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alibi,False,4.1423339027267767e-16,0.001629649434024931
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,All Devils Here Now,False,3.370799920195697e-07,0.003326025677714457
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,All Frosting,False,6.909210574876348e-38,0.0007301881991657584
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,All for the Best,False,4.7670626249380976e-07,0.0046750094361517735
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,All of You,False,3.897992921226516e-12,0.002587882498118492
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Aquae,False,1.9853867756215334e-39,0.000615552053087952
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Chum Gatherer,False,6.492231033125746e-22,0.0013446962320730932
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Desperation March,False,3.3708044663907035e-07,0.0028581563831956906
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Double Negative: Going to Catalina,False,1.0205037451626689e-34,0.0007024321296801926
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Gelida,False,0.001883591044736267,0.007433450844143058
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Incipiens,False,0.013618660923032449,0.015306340495961275
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Negative,False,0.0016998402346121045,0.007377609895268364
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Omega,False,0.05550471191821778,0.03576147815829017
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Rats Nest,False,0.020666915916682897,0.020453767815032435
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha Sun Hat,False,1.9338216849240054e-08,0.002479289800407355
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alpha in Tauris,False,8.65701207547634e-09,0.00237533574755885
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Alphabetizing,False,3.1358550844425824e-06,0.0035861206355493327
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ambivalent Landscape Z,False,1.06815118434418e-27,0.0010784532237831032
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ambivalent Seascape Y,False,4.359411037822488e-39,0.000643754540643459
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Amy AKA Spent Gladiator 1,True,0.33710481714130186,0.21150193612467005
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,An Antidote for Strychnine,False,7.048529002250283e-07,0.004271267698013507
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Andrew Eldritch Is Moving Back to Leeds,True,0.5707769652595099,0.7461936352006708
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Animal Mask,False,0.008405495443665017,0.01621708410246588
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Any Available Surface,False,2.3964521647349498e-30,0.0009745599895437164
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Are Friends Electric?,False,4.5904838389113897e-41,0.0006251759241972623
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Are You Cleaning Off the Stone?,False,6.491924502842998e-41,0.0006277564174606392
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Armies of the Lord,False,0.3899346488743806,0.09277371764958685
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,As Many Candles As Possible,False,1.1080639230766272e-09,0.0031157711457371344
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Attention All Pickpockets,False,0.0007458298699982165,0.007475938626393848
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Aulon Raid,False,4.2112995744216815e-08,0.003870358402109423
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Autoclave,False,1.0807090847689165e-05,0.004328803500777424
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Azo Tle Nelli in Tlalticpac?,False,0.00011960954540902571,0.003947484441622547
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Baboon,False,0.0008355561927683477,0.005528600686902598
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Back for Good,False,1.3899368817730968e-08,0.0037671148912822093
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Bad Priestess,False,3.013944590003487e-27,0.00110982775682102
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Badger Song,False,5.3279670474109875e-28,0.0008896621215417851
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Balance,False,8.229491992665412e-11,0.0021927226223768907
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Baltimore,False,2.8689150678883275e-27,0.0009210138931583465
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Beach House,False,4.37411428845261e-30,0.0008195013156532413
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Beat the Devil,False,0.0006441403878297774,0.009427624058961824
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Beautiful Gas Mask,False,2.3009516576200363e-09,0.0028796544943204107
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Before I Got There,False,0.1511397492033877,0.07641675879006293
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Bell Swamp Connection,False,0.0003850686071501994,0.006784658866390775
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Billy the Kid's Dream of the Magic Shoes,False,0.011338563985944594,0.012712841181855894
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Birth of Serpents,False,3.4530743866626564e-06,0.0043799864767740705
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Birthday Song (This Time Has Gone),False,4.5904838389113897e-41,0.0006251759241972623
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Birthday Song: This Time Has Gone,False,2.3895903439032804e-05,0.00422167139116235
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Black Diamond,False,1.7226857671708444e-13,0.002326781714254068
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Black Molly,False,6.391943707760719e-08,0.002754632400383325
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Black Pear Tree,False,0.041720396362693035,0.04162112611425483
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Bleed Out (song),False,0.015103175215173825,0.01753931378205601
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Blood Capsules,False,0.013606571883463984,0.019718084532329684
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Blood Royal,False,0.0007929922198229942,0.006573500751799518
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Blueberry Frost,False,4.9704424096666826e-06,0.0035717732146246595
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Bluejays and Cardinals,False,4.206179088625561e-12,0.0020673690800453006
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Blues in Dallas,False,2.5282799699312792e-20,0.0012141193039443168
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Bones Don't Rust,False,0.019720521762943432,0.01335535273390762
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Born Ready,False,0.000106961048930859,0.0051165282012415195
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Bride,False,0.029149083469944343,0.02961543447671954
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Bring Our Curses Home,False,3.170862455484505e-30,0.0009619234217736383
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Brisbane Hotel Sutra,False,7.746613291652819e-22,0.0013890833962387306
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Broken To Begin With,False,0.20269653236731883,0.07047527975804521
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Broom People,False,0.18764825031785995,0.051776010007297146
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Butter Teeth,False,7.410735962892921e-37,0.0007612106330649083
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cadaver Sniffing Dog,True,0.3402479443906161,0.6302445312551208
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Calcutta,False,1.2114359479437405e-40,0.0006373696841707905
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,California Jam,False,5.265662439877727e-14,0.002140476960692788
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,California Song,False,3.0976258817866615e-06,0.003576983035595345
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Candlebox,True,0.587629253862997,0.489087259436315
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cao Dai Blowout,False,1.8963450093940585e-33,0.0008815176510919133
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Carmen Cicero,False,0.015727385290557526,0.01532084478715465
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cars Song in C,False,9.293539335763026e-19,0.0016525329186275325
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Casetino's Nursery,False,1.2618225895023615e-29,0.0008062385919803539
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Catherine Antrim’s Kid,False,1.745863194797649e-23,0.0012942870510912548
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Chanson du Bon Chose,False,0.001936025691446001,0.007266947202011856
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Charlie Sheen Reaches Out to the Feds,True,0.9445605434213337,0.8850252544441191
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Chason du Bon Chose,False,0.0014077602116863263,0.007387486224794472
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cheshire County,False,5.764904735289746e-05,0.004471031782340629
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Chilean Fire Barrel,False,1.4128871332064707e-41,0.00058909283966134
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Chinese House Flowers,False,1.3458482555989932e-15,0.00143703958226747
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Chino Love Song 1979,False,8.477447193762747e-22,0.0013721843934523523
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Choked Out,False,6.317704307375696e-08,0.0033235610125975893
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Clean Slate,False,0.00012927936752149018,0.006837675615351955
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cleaning Crew,False,4.8321425824259046e-05,0.006958361134816375
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Clemency for the Wizard King,False,0.3690440062328369,0.42359697833737114
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cobra Tattoo,False,1.7125177578316784e-34,0.0008454257605778961
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cobscook Bay,False,2.9341053799190736e-09,0.002793479178378853
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cold Milk Bottle,False,1.5403110378754917e-33,0.0007544643658515769
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cold at Night,False,0.06423675571961966,0.019513279410856708
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Collapsing Stars,False,0.02915017940084174,0.0267070087128396
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Color in Your Cheeks,False,0.038976975859967865,0.020713793516329484
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Columns Pillars Steps,False,2.4028061841976853e-29,0.0009914455032684851
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Commandante,False,0.00018144808225972438,0.005450783847704525
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Con Todo Y Mi Tristeza,False,1.1441689033425873e-18,0.0016673375643905574
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Corsican Mastiff Stride,False,0.07934994252384356,0.04931164782365733
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cotton,False,0.01601269192313834,0.013886390441532242
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Counterfeit Florida Plates,False,3.92412806613749e-17,0.001686661161640268
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Counting Song for Bitter Children,False,3.4476826242495923e-06,0.004835803835194385
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Crane,False,7.534861475008717e-28,0.0010843113351659923
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Crows,False,0.0007399038693055733,0.007606638176864726
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cruiserweights,False,2.2568941389148834e-27,0.001081649894708729
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cry for Judas,True,0.4190806782725752,0.40838130345568197
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Crying on Eddie Nash's Grave,True,1.0,0.9000314355450842
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cubs in Five,False,1.6507560115586752e-18,0.001254622535714531
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cut Off Their Thumbs Number 1,False,1.0766786152294333e-14,0.001706654574674212
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Cutter,False,0.022117845111171694,0.01922823814890986
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Damn These Vampires,False,0.2069424834843543,0.052747375491066804
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Dance Music,False,0.09351524780168044,0.038964203473111365
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Dark in Here (song),False,0.000286694860427876,0.007291389927052753
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Dawn of Revelation,False,0.34725498880783556,0.08273775302855593
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Days (song),True,0.587629253862997,0.489087259436315
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Deianara Crush,False,7.1641888898557e-11,0.0019408532054213513
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Design Your Own Container Garden,False,0.004498301851626858,0.011205238202131595
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Deuteronomy 2:10,False,0.0018254918952233848,0.009745649866570264
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Dilaudid,False,0.00012203599265825752,0.00578865255520309
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Dinu Lipatti's Bones,False,9.295529715694631e-10,0.002430923223543795
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Distant Stations,False,0.016741836385966748,0.018945683852028453
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Doc Gooden,False,0.003402905908893779,0.009133002034056075
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Dogs of Clinic 17,False,2.8689150678436947e-27,0.0010822702051122035
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Don't Take the Dogs Away,False,9.727118001082012e-22,0.0014125460653266477
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Done Bleeding,True,0.17211262363511734,0.2733776834580277
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Down Here,False,0.027197056550518465,0.022353937668303667
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Down Here Where the Bullet Bills Are,False,0.043790585540902344,0.024148082191795525
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Down to the Ark,False,1.4154819656806666e-32,0.000909918509106983
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Downtown Seoul,False,1.7762841760731385e-08,0.0024826519117737912
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Dragon Squeeze,False,8.745752290732319e-15,0.0020726397315265124
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Duane Allman Slept Here,False,2.8920142805110698e-12,0.0024636396248081485
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Duke Ellington,False,0.0011895079864435972,0.0063827738376529535
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Dutch Orchestra Blues,False,0.01622273306497454,0.012703475578942185
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Early Spring,False,1.5063465500070516e-21,0.0014113182375274538
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Earth Air Water Trees,False,1.0814233433263447e-06,0.003935966686270219
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Edvard Munch,False,3.9874036515333745e-39,0.0006569697466732903
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Elijah,False,0.009364735542815368,0.011383796899230017
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Emerging,False,8.624554995998826e-30,0.0009842866283734449
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Enoch 18:14,False,4.917086672812971e-07,0.0038634762669815035
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Estate Sale Sign,False,2.936472853282484e-08,0.0032415372548382725
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ethiopians,False,7.871017989273562e-12,0.00214064901356542
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Etruscans,False,5.4294398970892096e-11,0.0029085024576842233
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Evening in Stalingrad,False,4.51219562860845e-29,0.0008573917898438437
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Exegetic Chains,False,1.543029748735314e-11,0.002691252759834697
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Exit Portland Oregon,False,3.869533444432133e-32,0.0009147716528720178
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Extraction Point,False,0.00025546611874061596,0.006933573696702269
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Extreme South Number 1,False,0.0010618396862846766,0.007001310556047857
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ezekiel 7 and the Permanent Efficacy of Grace,False,2.1739555495005787e-14,0.0020196624281853502
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Fall of the Star High School Running Back,False,8.676145172549371e-05,0.005182818147846886
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Family Happiness,False,2.0128432213838224e-05,0.004246333603978556
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Fault Lines,False,0.01674226987620446,0.017313708338024484
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Feed This End,False,4.77245330704067e-09,0.0021978609929278856
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Fire Editorial,False,9.825336876964076e-05,0.005922353823304082
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,First Blood,False,0.2845390847196305,0.09413967039305425
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,First Few Desperate Hours,False,3.563386282098738e-08,0.0027884106471435014
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Fishing Boat,False,0.3152825446245847,0.060567279937365756
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Fit Alpha Vi,False,4.3246216758078064e-39,0.0006891480510120959
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Flashing Lights,False,6.131449336309192e-19,0.0016367921267854187
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Folsom Prison Blues,False,6.865502287932445e-31,0.0009638947895433661
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,For Charles Bronson,False,1.1456594609717065e-22,0.0013416065457011706
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,For the Krishnacore Bands,False,0.005296731614424217,0.013583322360420636
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,For the Portuguese Goth Metal Bands,False,0.23228907237622434,0.04338931292900647
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,For the Snakes,False,3.839193768425941e-11,0.0028702318736554765
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Foreign Object,False,0.00018327119413451777,0.007196369583767367
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Freebird,False,6.3091129475011044e-30,0.0010024636119816007
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Fresh Berries for You,False,1.3899368817730909e-08,0.0025058591079036006
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Fresh Tattoo,False,0.0023055131816525722,0.009962414114818758
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,From TG&Y,False,0.03053025842117381,0.028453746548662024
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,From the Lake Trials,False,4.178003284505017e-12,0.002499847294613777
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,From the Nebraska Plant,False,0.00011334363881694818,0.006820219642388681
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Full Flower,False,2.878634846086718e-10,0.002106521378502806
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Game Shows Touch Our Lives,False,0.01457985411572698,0.01864292172704169
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Garbage Eaters,False,5.318184552728984e-37,0.0007751415070153758
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Genesis 19:1-2,False,0.0006903398788725276,0.00725464933638354
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Genesis 30:3,False,1.9069467229271406e-06,0.004270144114113304
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Genesis 3:23,False,0.12422876048754464,0.04612551631718069
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Get Famous,False,2.1077776338195282e-10,0.003011068056120469
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Get Lonely (Song),False,3.576538775449828e-12,0.0021897993357192762
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Getting Into Knives (song),False,0.016929162171662477,0.018904987683943598
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ghosts,False,0.0013914045246387929,0.007388479577365346
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Goblin Wizard in the Crawlspace of My Heart,False,1.8184779980879502e-12,0.0025139966871723005
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going Invisible 2,False,0.006288215625182024,0.011918046503253042
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going Through Pomona,False,1.2405104106943903e-37,0.000758997885445889
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going Underground,False,1.9489964605603332e-12,0.0025197163883583862
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going the Ways,False,6.62873030124611e-15,0.002032309326784222
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Alaska,False,0.0009762880872624173,0.007011670177345247
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Bogota,False,0.0012555989723970797,0.006480061608295809
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Bogotá,False,0.012796990934040285,0.010908639169994122
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Bolivia,False,1.3900655298049352e-08,0.002513198380095623
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Brazil,False,1.009458071601388e-28,0.0008509188563327458
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Bridlington,False,1.4716526350184184e-30,0.0008084000965330043
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Bristol,False,1.0387457021286805e-06,0.0031664236008203035
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Buffalo,False,3.478936201468122e-41,0.0006195359622359135
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to California,False,1.229989689686739e-41,0.0005882182139511807
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Chino,False,4.477634118306698e-12,0.0017047152090632041
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Cleveland,False,0.0016998160383053845,0.007207051858969507
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Dade County,False,6.524187969538059e-23,0.0009972294162506105
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Federal Prison,False,8.87928709981396e-16,0.0019689915515370814
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Fennario,False,1.0,0.6045521551835675
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to France,False,1.0707682172052155e-41,0.0005841404789828251
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Georgia,False,0.03853822169056243,0.03212845937062444
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Jamaica,False,0.0017092132966193593,0.007427604197864558
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Japan,False,3.370815751040498e-07,0.004568020710998943
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Kansas,False,6.312841696395887e-06,0.003201242068499845
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Kirby Sigston,False,1.266461636429572e-11,0.0018856689766006006
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Lebanon,False,2.4973463632585156e-10,0.0019884577460178737
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Maine,False,1.8063669572712147e-07,0.0028796859836714706
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Malibu,False,6.949688446626773e-09,0.003282622872356362
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Marrakesh,False,1.5591579074217783e-05,0.004342969386364518
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Maryland,False,9.170161779015295e-09,0.0024121652608105246
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Mexico,False,1.5773304262626891e-30,0.0007589191179016655
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Michigan,False,0.02061151806544882,0.019163465188046052
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Monaco,False,1.407380962088394e-21,0.0011555918251962413
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Morocco,False,1.2679687190756981e-27,0.0008215684400215892
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Niles,False,1.6569335610907383e-15,0.0020005456546459493
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Norwalk,False,1.2641399849629985e-20,0.0014996761228149855
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Palestine,False,0.0242235264774824,0.014920676638028221
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Port Washington,False,0.016908826723016485,0.015552555479724008
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Queens,False,0.0011668675252592816,0.006419128485011768
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Reykjavik,False,1.78976938489754e-29,0.0008407260332307641
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to San Diego,False,3.035868258917219e-41,0.0005900186020787192
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Santiago,False,9.07572200758108e-22,0.0014108083150090047
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Scotland,False,0.00961689738593574,0.012230684055947108
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Some Damned English City,False,3.9962482917660646e-41,0.0006233977645989991
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Spain,False,6.591351542997483e-41,0.000596047352633369
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Spirit Lake,False,5.273081234397987e-41,0.000626432707685936
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Tennessee,False,1.1323855725445333e-31,0.0009416059005565874
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Utrecht,False,3.50456377014223e-05,0.004716105962716642
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Going to Wisconsin,False,8.629247795700985e-05,0.004514612979001468
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Golden Boy,False,6.887737476736943e-05,0.005229268058422448
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Good Morning to All Vultures,False,0.031241214120349275,0.032361266159568025
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Gravedigger,False,1.1887429545795268e-27,0.0008579136733585633
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Great Pirates,False,0.09126920213674873,0.01936000791532401
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Green Olives,False,2.0362284180994816e-08,0.0025689882427469943
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Grendel's Mother,False,0.04569549963083555,0.020122345390013823
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Guys on Every Corner,False,0.00020126260217737433,0.006956904171643482
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hail St. Sebastian,False,1.9289245376022316e-25,0.0011936001058008492
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hair Match,False,0.0018567138529198067,0.011640887778591215
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Half Dead,False,1.2666078774295773e-30,0.0009403418713595585
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hand of Death,False,5.192596392635333e-12,0.0025329249790392652
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Handball,False,1.1667386026960917e-28,0.0008577865336172455
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Harlem Roulette,False,0.3977114875620831,0.0996400063767134
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hast Thou Considered the Tetrapod,False,0.012990334206388945,0.016393213863458853
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hatha Hill,False,0.0009226182155688492,0.006940779518080905
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Have to Explode,False,0.018587366583574672,0.01601017087053659
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,He Will Arise,False,1.0584935068862269e-22,0.001345393924332894
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hebrews 11:40,False,0.0032539802735417813,0.011014681806388643
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Heel Turn 1,False,0.00011005181098738436,0.006024458791880012
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Heel Turn 2,False,0.011417815759696219,0.016322605940182713
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Heights,False,1.9161254132899853e-20,0.0014454427580646433
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hello Sarah,False,0.02554833599024556,0.025291890752666434
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"Hello, Old Rabbit",False,1.3433837971361645e-24,0.0009624840049132624
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Heretic Pride (Song),False,0.060607746819040555,0.03637818256378488
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,High Hawk Season,False,2.4994978281473188e-12,0.00228030257318572
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Historiography,False,1.5953833107547895e-21,0.0014115026740443865
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,History of the Church (Part 1),False,1.229989689686739e-41,0.0005882182139511807
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Home Again Garden Grove,False,2.605486518510138e-26,0.0011355073513728685
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hommel West (Onward to Tasmania),False,3.112677760346244e-20,0.001531397027054202
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hopeful Assassins of Zeno,False,1.7374208078120006e-09,0.0033972675216245225
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Horse and Master,False,7.534861475008717e-28,0.0010843113351659923
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Horseradish Road,False,0.021080598382838475,0.018764552774112146
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hospital Reaction Shot,False,3.582094446715611e-11,0.002862829942877212
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Hostages,False,2.8004461085035898e-06,0.004726139651623003
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,How I Left the Ministry,False,2.868917268700354e-27,0.0009547004991671772
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,How to Embrace a Swamp Creature,False,0.0019970079089486046,0.007626795348375662
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,I Corinthians 13: 8-10,False,2.464498199099078e-32,0.0007650507130439923
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,I Hear the Planets,False,1.6009463487769808e-27,0.0008560325578582504
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,I Know You've Come to Take My Toys Away,False,3.313867122181403e-15,0.0014838072902298933
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"I Love You, Let's Light Ourselves on Fire",False,1.8118169160712533e-30,0.0009792328487175856
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,I Might Compare,False,7.534861475009171e-28,0.0008638909914242999
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,I Will Grab You by the Ears,False,9.433219064786913e-06,0.005777706668263101
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,I've Got the Sex,True,3.0033202003542916e-05,0.004240692062230185
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"Ice Cream, Cobra Man",False,0.001511884580785306,0.0083097192094899
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Idylls of the King,False,0.002660492158134084,0.006488651531802567
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Idylls of the Kings,False,2.836163127369089e-23,0.0011139932564339344
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"If England Were What England Seems, Then We Would Only Have Our Dreams",False,1.3196825059127843e-38,0.0006536789808622045
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,If You See Light,False,9.36548884888434e-08,0.003016696452303664
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Improv Song,False,3.1069716633912255e-29,0.0010251828904170477
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In Corolla,False,2.2157524467358017e-25,0.001100223858274545
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In League With Dragons,False,2.2730974975595448e-13,0.002346360685892027
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In League with Dragons (song),False,0.021565781906653238,0.015162169285941536
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In Memory of Satan,False,0.024460202473546747,0.018647686266049318
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In the Cane Fields,False,5.998740259956784e-13,0.0015961546381447493
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In the Craters of the Moon,False,2.9938717462447225e-22,0.0013782818937405565
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In the Craters on the Moon,False,0.006344525884215657,0.013820286528696754
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In the Hidden Places,False,0.0027388870850439256,0.00777885260737822
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,In the Shadow of the Western Hills,False,5.301272855902373e-24,0.0012370453353362264
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Incandescent Ruins,False,0.04248239426171863,0.025536606474384806
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Infidelity (Song),False,2.8689187865697738e-27,0.000861522109936526
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Insurance Fraud Number 2,False,6.425337021891145e-13,0.0019124403717111303
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,International Small Arms Traffic Blues,False,0.007052700351663229,0.011782504571145923
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Isaiah 45:23,False,0.031241234167542348,0.031252254878292904
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Island Garden Song,False,0.0004833920026277998,0.006328348484257398
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,It Froze Me,False,0.00899835692113486,0.012687287643571214
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,It's All Here in Brownsville,False,3.371090876900762e-07,0.0032828232580771307
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Italian Guns,False,3.2087522878622847e-22,0.001379998896437236
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Itzcuintli-Totzli Days,False,5.0944236123086706e-05,0.004484764399785568
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Jailbreak,False,1.8553005220569634e-27,0.0011023163381623478
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Jaipur,False,6.059310106566661e-05,0.005032097034002945
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Jam Eater Blues,False,3.439055549983413e-22,0.0013842799944362206
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Jam Eater Blues (Song),False,0.00296641559162479,0.009090976882743702
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Jeff Davis County Blues,False,1.786129078751872e-05,0.004634729082215544
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Jenny,False,0.05645242380132342,0.03768537319922403
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Jenny III,False,0.00015728899584258434,0.006782377260851231
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,John 4:35,False,1.6229811257107495e-41,0.0005918852504224746
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Keeping House,False,7.680405715282006e-06,0.0041189622701288545
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Kittens in Mittens,False,1.229989689686739e-41,0.0005882182139511807
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Know the Way,False,2.9379096569032894e-39,0.0007022544294720139
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Korean Bird Paintings,False,9.597984417214348e-12,0.002715778570987161
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,La Tracionera,False,3.9962482917660646e-41,0.0006233977645989991
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Lakeside View Apartments Suite,False,0.1447956389855668,0.06287753744698153
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Last Day,True,0.8286587960012792,0.794704133965465
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Last Gasp at Calama,False,3.618320201802378e-10,0.00298105766149208
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Last Man on Earth,False,1.283482702186571e-30,0.0009532216709151961
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Leaving Home,False,1.8963450093940585e-33,0.0008815176510919133
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Let Me Bathe in Demonic Light,True,0.21917221279860574,0.05946970538174169
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Let Me Go,False,7.534861475008717e-28,0.0010843113351659923
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Let the Dogs Come Out,False,1.4128871332064707e-41,0.00058909283966134
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Letter from Belgium,False,6.539951697098405e-05,0.005288028886908311
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Letter from Belgium (Song),False,8.737588540869825e-29,0.0009479911493685432
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Letter from a Motel,True,0.04122302917446289,0.0349592047790824
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"Lie Down, Keep Still, Play Dead",False,3.0977595529442076e-06,0.005374655116028359
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Light of the World,False,1.4451226570278747e-06,0.0050676395965809995
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Linda Blair Was Born Innocent,False,0.00011603662837468571,0.005109671853205598
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Lion's Teeth,False,0.003370341206121845,0.008732447179851485
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Liza Forever Minnelli,False,5.78555859064734e-05,0.0060133511880696815
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Lizard Suit,False,0.00028881810445855973,0.007156047667250845
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Loch Lomond,False,1.113259584469799e-39,0.0006726762636262145
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Love Cuts the Strings,False,0.0018248422046028584,0.007562431784313916
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Love Hymn to Aphrodite,False,0.0016998167906637038,0.007811471871656653
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Love Love Love,True,0.042116534657857245,0.034234666451997284
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Lovecraft in Brooklyn,False,0.006517505125973225,0.01319635848238717
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Luna,False,0.0057068005567276125,0.010751311853701755
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Magpie,False,3.371062996918292e-07,0.0034421025958565198
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Maize Stalk Drinking Blood,False,2.4682998379745486e-12,0.0018433006937236998
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Make You Suffer,False,0.00017129453431406774,0.006938107642820263
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Malevolent Cityscape X,False,3.478936201468122e-41,0.0006195359622359135
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Malevolent Seascape Y,False,6.970652903032054e-32,0.0008560731062981751
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Malted Milk,False,1.0707682172052155e-41,0.0005841404789828251
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Marduk T-Shirt Men's Room Incident,False,3.463986123965214e-22,0.0012687962105258554
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Mark On You,False,1.0827021009453048e-07,0.004001881534539513
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Masher,False,1.7151806429297673e-09,0.0022855749730745552
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Matthew 11:14-19,False,3.5582735509850115e-06,0.005229749422455912
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Matthew 25:21,False,7.105064074763875e-10,0.002690740952211318
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Maybe Sprout Wings,False,0.012806221890762347,0.015300092460401407
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Michael Myers Resplendent,False,0.16480076081657152,0.20010492195255353
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Milk Song,False,6.060695101696776e-12,0.0022585905966993115
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Minnesota,False,0.00020345199262544934,0.005652793230505871
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Minor Joan Crawford Vehicle,False,9.059084580356266e-31,0.0009692083682121579
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Mobile,False,0.0007293787503157035,0.007794440132667108
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Mole,False,3.3338526214751e-06,0.004023399820582589
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Moon Over Goldsboro,False,0.18165704997831272,0.06376268518179343
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Mosquito Repellent,False,4.612851454043889e-30,0.0009651299639929152
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Moth and Worm,False,6.9369430467295765e-18,0.0017387041831341131
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Mountain Goats Busking Song,False,5.257588337281032e-18,0.0016599888266595581
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Mountain Goats Shirt Song,False,4.254547642183187e-36,0.0008026078475967081
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Move (Chicago 196X),False,9.727118001082012e-22,0.0014125460653266477
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Murder at the 18th St. Garage,False,0.00020198761844168926,0.007281594828937529
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,My Dinner Plate Has a Cat On It,False,1.6062907733373848e-18,0.0016568191187168737
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,My Favorite Things,False,0.0001613856052022268,0.005183226487819903
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,My Little Panda,False,1.0385870503330142e-11,0.0026281763597573913
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,My Mask,False,0.0016218219809135278,0.007599274472125949
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Narakaloka,False,0.0006740785528049227,0.006228045418876908
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Need More Bandages,False,0.3511256264239571,0.08111182854486129
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Neon Orange Glimmer Song,False,6.9496830664854425e-09,0.0024030131136050206
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Never Quite Free,False,1.0847526918675604e-10,0.0025747265101291406
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Never Say Never,False,1.9957724310551325e-09,0.0034193065469129056
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,New Britain,False,0.019242911626506227,0.009697840605425974
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,New Chevrolet in Flames,False,1.8652560460602874e-14,0.0021008683502655072
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,New London,False,8.29997896145892e-07,0.004864498013787367
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,New Matha,False,8.43692997503678e-40,0.0006678692873715672
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,New Monster Avenue,False,2.8648010809941996e-06,0.003885328077827298
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,New Star Song,False,5.212859745005318e-08,0.0026658917057946077
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,New World Emerging Blues,False,2.4904839049221553e-36,0.0007791027562623206
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,New Zion,False,0.15247927612838214,0.05919966123747988
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Night Light,False,8.830683781543368e-05,0.005207885891644312
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Night of the Mules,False,1.998096632308467e-05,0.004034930293248314
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Nikki Oh Nikki,False,1.3705833180226759e-39,0.0006789246301591452
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Nine Black Poppies,False,0.0005232811841518678,0.006263038730087098
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Nine Black Poppies (Song),False,2.4640456323107742e-18,0.0012653712671884172
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,No Children,True,0.8689483809621809,0.8657942160926123
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,No More Tears,False,2.2004071409422256e-11,0.0025482891825800457
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"No, I Can't",False,1.4233168090734187e-05,0.0038223743855488376
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Noche del Guajolote,False,5.502488879973461e-21,0.0014746462886251997
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Noctifer Birmingham,False,6.267094312231025e-25,0.0009469938955420695
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Oceanographer's Choice,False,1.7803474724148744e-06,0.0038860310619993426
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Old College Try,False,3.9274754593588015e-07,0.003435949674077468
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Omega Blaster,False,5.399635184023539e-38,0.0007435460161030826
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,On a Wall,False,9.32157874647587e-42,0.0005821714308375942
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,One Morning in Northern Italy,False,1.3182703085994968e-41,0.0005887171849555948
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,One Winter at Point Alpha Privative,False,9.727118001082012e-22,0.0014125460653266477
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Onions,False,0.0689102422136075,0.03066044027528998
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Only Existing Footage,False,2.2568941389148834e-27,0.001081649894708729
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Only One Way,False,9.52562114992829e-05,0.0065818266189211746
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ontario,False,0.011046390631956587,0.013214376060638865
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Orange Ball of Hate,False,1.8380820891946418e-13,0.001645758759340435
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Orange Ball of Love,False,0.0002803816060750501,0.005528286451372371
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Orange Ball of Pain,False,0.0004412621298702028,0.0049851911009550975
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Orange Ball of Peace,False,8.47514716586492e-22,0.0010477103044078324
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Original Air-Blue Gown,False,2.9095647980464873e-11,0.00283968434722769
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Oslo 1888,False,1.1659903968137783e-39,0.000643858240395713
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Outer Scorpion Squadron,False,0.0010022819568939834,0.007133871781158466
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ox Baker Triumphant,False,0.006343937758581447,0.013011732819897323
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Paid in Cocaine,False,1.1634968248205288e-14,0.0020177396291370664
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pale Green Things,False,3.106967299800414e-10,0.0023522502123820292
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Palmcorder Yajna,False,0.035594884058328176,0.015733903814584366
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Palmcorder Yajna (Song),False,1.2485414433214846e-23,0.0011066932425732306
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Parisian Enclave,False,2.9810724041928175e-10,0.002999270432151344
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Passaic 1975,False,1.0788181059182029e-05,0.0059731489299197
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"Passaic, 1975",False,0.003905220227325429,0.01265184839051905
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Peacocks,False,5.81598878164995e-19,0.0013295259718254914
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pennsylvania Dutch Treat,False,5.1935396022743984e-40,0.0006596978520982679
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Peru,False,0.31193573167355115,0.07834004686138098
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pez Dorado,False,3.562531985953354e-08,0.0038737085404231615
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Philippians 3:20-21,False,3.776091432519947e-29,0.0010227608835892382
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Picture of My Dress,False,0.0253923721411397,0.030262905105171545
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"Pigs That Ran Straightaway into the Water, Triumph Of",False,3.3094498458366584e-07,0.003178087798075378
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pink and Blue,False,1.4012392478227641e-08,0.0032901677949189493
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pinklon,False,1.6508642161317912e-33,0.0008800509584381447
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Please Come Home to Hamngatan,False,7.871934013995129e-40,0.000665461161781226
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Poker Face,False,7.650261611610138e-29,0.0010420562375762202
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Poltergeist,False,1.6618834567571018e-08,0.0025436806329679025
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Possum By Night,False,0.1582820037373442,0.07167126160629486
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Prana Ferox,False,0.001389540038040391,0.006989358992839598
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pretty In Pink,False,6.297547211196103e-39,0.0007168019814607994
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Process of Elimination,False,8.907822564152262e-40,0.000610941141246693
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Programmed Cell Death,False,0.000106238502150462,0.005818008479238372
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Prominent Metaphysicians of South Pomona,False,8.87928709981396e-16,0.0019689915515370814
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Proverbs 6:27,False,7.108334839320132e-15,0.0018186758943677908
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Prowl Great Cain,False,2.0190667926845673e-05,0.005348498253029472
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Psalms 40:2,False,0.0308459745696276,0.017219811183621016
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pseudothyrum Song,False,0.0005635681825852216,0.006505993172697821
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pure Gold,False,2.2097012241074143e-21,0.001037506945560313
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pure Heat,False,1.0689649041190346e-05,0.0036866999556225944
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pure Honey,False,8.889387002290542e-18,0.0017239391711123969
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pure Love,False,3.7174157343052105e-18,0.0012296670864477023
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pure Milk,False,0.0006710713347572707,0.006732191182433571
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pure Money,False,2.502242913361756e-33,0.0007588237724798181
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Pure Sun,False,5.947865174888337e-17,0.0012938320791228732
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Quetzalcoatl Comes Through,False,2.979394351991813e-08,0.0026258365506921905
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Quetzalcoatl Eats Plums,False,1.2947355329436157e-06,0.003305436093827596
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Quetzalcoatl is Born,False,2.571735868345773e-12,0.0017712758146465446
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Quito,False,1.4690767385417068e-21,0.0012401231886253077
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Radical Evil Song,False,4.0526772594580057e-10,0.003177831415446645
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Raid on Entebbe,False,0.003816078733807133,0.0089069729862844
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rain in Soho,False,1.6234858831314033e-06,0.00450865245850938
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Raja Vocative,False,0.0026957441846950357,0.008195166609759311
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rat Queen,False,4.2836330767618037e-11,0.0027976921987335223
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Real Good Girlfriend,False,2.1624802077095755e-40,0.0006309919876772447
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rescue Breathing,False,0.0048078058035291955,0.014042529788344877
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ribdate,False,9.32157874647587e-42,0.0005821714308375942
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Riches and Wonders,False,0.061586506919411164,0.03596718883306227
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rivers of Babylon,False,9.119822515976593e-36,0.0008126192523074278
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rock and Roll All Night,False,1.932467096602744e-16,0.0018935487300184518
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rockin' Rockin' Pet Store,False,6.548065382531956e-37,0.000650435900328271
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rockin' Rockin' Twilight of the Gods,False,1.6019172774189329e-27,0.000820389253331341
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rocks in My Pockets,False,0.2023411466405224,0.06534897343935296
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Romans 10:9,False,0.05549487989846161,0.02564054706252835
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Rotten Stinking Mouthpiece,False,0.00482937891893435,0.012429528158471592
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Running Away with What Freud Said,False,0.0016292424200320121,0.008314275022808421
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sacrifice,False,1.2595094422392206e-38,0.0007283994784811649
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Saigon Shrunken Panorama,False,4.726601957217937e-11,0.001992911269652693
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Same as Cash,False,0.00019854975374867346,0.006811001397932973
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,San Bernardino,False,3.349116261207033e-06,0.004176634229838579
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sarcofago Live,False,1.959358761339662e-29,0.000989225500891302
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Satanic Messiah (Song),False,6.627734244363411e-15,0.0020893970035654246
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sax Rohmer Number 1,False,0.24328827834199815,0.07405643372439007
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Scavenger Babies,False,1.1465500735054215e-09,0.0024849324757287095
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,See America Right,True,0.2102371852084244,0.14763762190623317
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,See America Right (Song),False,2.646931982415986e-25,0.0010377309198660594
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Seed Song,False,0.0008661066073180128,0.006726092856264099
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Seeing Daylight,False,2.075221926911197e-16,0.0013599468420213848
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Send Me an Angel,False,7.56232348429635e-28,0.0008717969875918877
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sept 19th Triple X Love! Love!,False,0.10215034469666122,0.09691078363456296
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sept. 15 1983,False,1.9752203302724694e-22,0.0012702038494052466
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Shadow Song,False,0.03500332651075285,0.024550836113355075
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Shallow Grave,True,0.8806739839288715,0.8578008536764052
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Shave My Eyebrows,False,0.004045337378498607,0.011982107256580844
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Shelved,False,1.4239376144209923e-05,0.005979022596039232
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Shield My Eyes Against the Glare,False,7.534861475008717e-28,0.0010843113351659923
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Shirtless in Hamburg,False,2.4373057833179647e-05,0.005524188317689536
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Short Song About the 10 Freeway,False,8.956776407146446e-12,0.0018049752254492653
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Short Song for Justin Bieber and His Paparazzi,False,6.131449336309192e-19,0.0016367921267854187
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"Shot, Repeatedly, At Close Range, In the Chest, By Your Love",False,4.114745998691604e-11,0.002877676630834887
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Shower,False,1.5564885564737034e-15,0.001475772045223581
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sicilian Crest,False,0.011384525911068078,0.019727930309207435
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sign of the Crow 2,False,0.022090875297024356,0.022778928584305677
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sinaloan Milk Snake Song,False,0.0017179393705480039,0.007211225092195084
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sixty Percent Wolf,True,1.9195974870821383e-11,0.002602835270510693
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Skeleton's Tooth,False,2.6510936977460992e-14,0.0021820785575934905
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Slip Away from Me,False,7.534861475008717e-28,0.0010843113351659923
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Slow West Vultures,False,0.020612540381268314,0.02089187360294177
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Smothered/Register/Political Man,False,9.32157874647587e-42,0.0005821714308375942
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Snake Dance Song,False,6.278604120380662e-16,0.0019503797172592762
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Snow Crush Killing Song,False,4.823371226558501e-07,0.0029761425336228514
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Snow Owl,False,3.6747370217783475e-11,0.0026799360570611075
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,So Desperate,False,2.811143730239898e-05,0.004887357530368665
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Soft Targets,False,8.458972462016552e-05,0.005375793107400531
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Solomon Revisited,False,7.983089505709172e-09,0.0023026910342648058
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Some Other Way,False,1.6858584207132993e-27,0.0010810299394555499
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Some Swedish Trees,False,3.8179634808720076e-08,0.0025848952367406616
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Somebody Else's Parking Lot in Santa Cruz,False,3.407252345161627e-39,0.0006835727663081393
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Somebody Else's Parking Lot in Sebastopol,False,1.5599742874915454e-37,0.0007124654450706704
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Something Inside Me Has Died,False,3.2519236110107025e-32,0.0009196576482355424
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sometimes We Mosh,False,3.630288803032432e-21,0.0014634273924612228
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Black Sabbath's Second North American Tour,False,0.014928070997104243,0.01539795943662496
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Cleomenes,False,3.486446567419065e-39,0.000635380097019547
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Dana Plato,False,5.751348422332562e-22,0.001300647186805344
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Dennis Brown,False,0.06454889440713615,0.02316463978975214
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Greg Valentine,False,5.4558224837426535e-25,0.0012167273577626458
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Layne Staley,True,0.8163610445151536,0.7899061335137101
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Lonely Giants,False,0.0018471437235311797,0.009086512295228293
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Mark and Joel,False,9.448559102045346e-22,0.0013628373769154162
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for My Stepfather,False,0.029538086449778907,0.015823431297583297
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Prince Edward III,False,1.1303097065651766e-40,0.0006369273251969155
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Roger Maris,False,7.51219652936933e-05,0.004877802624743171
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Sasha Banks,False,1.5158962861240679e-13,0.0021916015495668426
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Ted Sallis,False,4.1777653701411876e-12,0.0025939565611502713
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for Tura Satana,False,2.1677947021238047e-19,0.0013666437875542625
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for an Old Friend,False,0.02572724611177784,0.015729989774837326
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song for the Julian Calendar,False,0.027197063034801842,0.02247659188525984
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Song from the Shoreline,False,4.293366065338726e-41,0.0006073837440067132
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Source Decay,False,0.09802744701773135,0.04201255298513109
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Southwestern Territory,False,0.013866868190212479,0.020090991633282266
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Southwood Plantation Road,False,0.006344678758008823,0.0127363531669386
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Spent Gladiator 2,False,6.6114543721349e-05,0.006443439249723771
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Spilling Toward Alpha,False,0.0016998160344593235,0.007148716399640671
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Stabbed to Death Outside San Juan,False,0.00015066340214025606,0.00610308452419908
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Stable Boy Song,False,0.00019879715972019653,0.008250364133860722
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Stack Em Up,False,2.557301289813023e-11,0.0027722975819200846
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Standard Bitter Love Song Number 1,False,0.00011386759884922117,0.00471919420630847
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Standard Bitter Love Song Number 4,False,7.923991597822613e-35,0.0006771198706905094
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Standard Bitter Love Song Number 5,False,1.0707682172052155e-41,0.0005841404789828251
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Standard Bitter Love Song Number 6,False,1.229989689686739e-41,0.0005882182139511807
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Standard Bitter Love Song Number 8,False,8.467948055089815e-22,0.0014090752306613959
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Star Dusting,False,2.8236481089788376e-09,0.002204309399615036
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Stars Around Her,False,9.594114730768729e-06,0.0036350356995583
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Stars Fell on Alabama,False,1.4676731503731849e-06,0.003313387134858282
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Steal Smoked Fish,False,0.004901012429461376,0.011426187173155687
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Steal Smoked Fish (Song),False,2.5727855113482152e-18,0.0016167112352623782
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Stench of the Unburied,False,1.2496653256793954e-14,0.002086540190445045
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Store,False,5.6931803652760964e-05,0.005045862695581897
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Straight Six,False,1.7877639114727927e-20,0.0015095121147662316
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Stuck in Time,False,7.534861475008717e-28,0.0010843113351659923
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sudden Oak Death,False,4.662117942260389e-30,0.0009868009203289594
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Sun Song,False,9.516584279821339e-16,0.0014435093049685467
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Supergenesis,False,4.198358333370123e-17,0.001558522866121129
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,"Sure Do Love You Baby, But I Can't Do 60 No More",False,1.8463288895382566e-13,0.0017289726681101731
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Surrounded,False,0.0007488740692333166,0.007878524069137891
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tallahasee,False,1.3573599735022016e-11,0.002761868435479141
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tallahassee (Song),False,0.07547334564423909,0.024093540589323253
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tampa,False,2.309097079550805e-39,0.0006651719150807872
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Teenage World,False,9.07572200758108e-22,0.0014108083150090047
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Terminal Grain,False,1.9730868787246654e-39,0.0006422932029626017
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Thank You Mario But Our Princess Is in Another Castle,False,0.00011707192708533492,0.005872210499569565
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,That Hippolytine Feeling,False,1.2664619832767247e-11,0.0017704668094032225
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Alphonse Mambo,False,0.000159195005779248,0.005432977998361854
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Anglo-Saxons,False,8.687263300421517e-10,0.0021992689531514053
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Autopsy Garland,False,9.453203926886578e-11,0.0029734959320635054
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Bad Doctor,False,4.470830689424351e-20,0.0010901960875440626
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Ballad of Bull Ramos,False,1.559241272161421e-11,0.0025397452601970726
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Best Ever Death Metal Band in Denton,False,0.00896823020222835,0.009013869270551636
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Black Ice Cream Song,False,8.496587066888717e-39,0.0006400536595562223
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Car Song,False,3.2864920247639967e-40,0.0006054659536823743
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Coroner's Gambit (Song),False,0.06086793796347227,0.025835807478840213
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Coroner’s Gambit,False,6.013156594758194e-13,0.002375524246256134
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Cow Song,False,8.510661538076441e-35,0.0006821655053303804
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Day the Aliens Came,False,1.1737999039967238e-06,0.004985060985470806
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Day the Aliens Came (Hawaiian Feeling),False,0.00014328046025589034,0.005906579895419428
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Destruction of the Kola Superdeep Borehole Tower,False,5.064934475355076e-10,0.0030421509177218885
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Diaz Brothers,False,0.3532356958608661,0.23956729567658366
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Doll Song,False,8.578218688357425e-40,0.0006108913398950688
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Garden Song,False,4.314623897850492e-05,0.0052141174538125196
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Great Gold Sheep,False,5.143432495784382e-12,0.0026246914078670107
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Great and Terrible George Jones Car Accident of 1999,False,1.309490640245904e-36,0.0007902346842238291
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Grey King and the Silver Flame Attunement,False,0.00038830340956864923,0.008360013363040616
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Hot Garden Stomp,False,3.2421417892597052e-09,0.00222565961413928
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The House That Dripped Blood,False,8.349764469742413e-06,0.0038366699539200523
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Jungle,False,6.3091129475011044e-30,0.0010024636119816007
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Lady from Shanghai,False,0.018208861717924723,0.010567930758156962
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Lady from Shanghai 2,False,0.028875606956258456,0.011300533939652486
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Last Day of Jimi Hendrix's Life,False,0.00011386360730447178,0.005953447707716899
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Last Limit of Bhakti,False,0.02567022729753132,0.021350451813429278
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Last Place I Saw You Alive,False,9.597984417214348e-12,0.002715778570987161
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Legend of Chavo Guerrero,False,0.00032048597613178523,0.006099023857037013
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Mess Inside,False,0.016790012285160416,0.014139825634388366
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Monkey Song,False,2.4341645956035704e-05,0.004153838156576993
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Moon,False,8.784823595183593e-40,0.0006374821091329329
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Moon Song,False,4.706370907345727e-41,0.0005890346816781664
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Mummy's Hand,False,3.0084194886689684e-36,0.0007996090992741203
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The New Hydra Collection,False,1.3693525781200608e-08,0.003537432051074868
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The New Potatoes,False,2.109232493759195e-40,0.0006444474965116696
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Only Thing I Know,False,9.912402975410488e-05,0.004896924810450495
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Pieman,False,7.04318576636603e-19,0.0011474220274268535
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Pig Song,False,0.0005240117365676557,0.008084864186624297
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Plague,False,1.0794133839511422e-09,0.0023374297583427907
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Recognition Scene,False,0.08057074462647937,0.0936788830569131
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The River Song,False,1.7436582534523487e-07,0.0027260239169207023
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Slow Parts on Death Metal Albums,False,0.00010094321375999253,0.006706286824882021
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,False,4.180457066409363e-12,0.00251025271387987
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Water Song,False,0.00017301480626655353,0.005091034237999328
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Window Song,False,9.979208071884926e-09,0.002433637032326553
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The World's Greatest,False,9.423175758235386e-29,0.001012491300611901
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,The Young Thousands,False,0.10501809920534565,0.0511379389241165
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Then the Letting Go,False,4.2440949033755364e-40,0.000626155486200474
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,There Will Be No Divorce,False,0.0681587688173439,0.09475165120465527
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Third Snow Song,False,0.002129231373846485,0.007877196696769525
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,This Year,True,0.9094547327706454,0.841469428316397
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Through This Fire,True,0.587629253862997,0.489087259436315
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tianchi Lake,False,1.416319708324504e-11,0.0023312768402008834
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tidal Wave,False,1.4205274629850003e-05,0.006385324982981684
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tollund Man,False,1.0510389054622896e-10,0.0019520374612445818
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tomb of the Assassin,False,3.668066586213404e-08,0.003982666986528463
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Torch Song,False,3.425685165963793e-07,0.0029349616708768136
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Training Montage,False,2.1590092635791713e-06,0.004849577805488427
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Transcendental Youth (Song),False,0.0030935618995120637,0.010492763344526325
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Transjordanian Blues,False,0.0022655688021740064,0.00783830769683439
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Treetop Song,False,5.4294398929820104e-11,0.002401265258776201
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tribe of the Horned Heart,False,1.5563788431198038e-20,0.0014353345829155077
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Trying to Remember the Video with Lita Ford,False,2.7933811116762386e-22,0.0013744864741235898
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tug on the Line,False,6.559477901427103e-28,0.0010799757020493665
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tulsa Imperative,False,5.9524802486598136e-05,0.004425838561804423
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Twelve Hands High,False,1.6858584207132993e-27,0.0010810299394555499
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Twin Human Highway Flares,False,0.006896667536776726,0.010754127854621988
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Tyler Lambert's Grave,False,8.384504392594363e-26,0.0011415245829052654
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,US Mill,False,1.982476140662924e-06,0.0031660269916448805
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Ultraviolet,False,7.16497046554938e-38,0.0007153825261400738
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Un Rêve Plus Long Que la Nuit,False,0.0011214631745780023,0.006836429020276048
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Unicorn Tolerance,False,1.212461736244877e-13,0.002286108983148949
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Unknown cover song,False,1.5170760075152468e-32,0.000911271834565485
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Unmasked!,False,2.6235969862033656e-20,0.001511822763560309
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Until I Am Whole,False,0.09412313062371444,0.041317512834683906
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Until Olympius Returns,False,1.0481890415021334e-10,0.002955231072373217
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Untitled Song for the Singer from Viking,False,1.0,0.6045521551835675
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Up the Wolves,False,0.47965377163077644,0.2837791939139577
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Used to Haunt,False,2.5717163389081653e-12,0.0022736645735772876
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Venus,False,1.82731429824507e-26,0.0011420842691355266
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Waco,False,5.960913994240357e-08,0.002919975498131996
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wage Wars Get Rich Die Handsome,False,1.1210599085366686e-06,0.004540124851478221
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wait for You,False,9.153351226740699e-18,0.0017572907594956611
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Warm Lonely Planet,False,4.405075119667193e-12,0.0025736759105605632
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Water Song II,False,7.548699596104455e-19,0.0016438994605004662
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Water Tower,False,0.07683224254382963,0.030954449145304083
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Waving at You,False,0.0006903582148928385,0.006426116490254742
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Waylon Jennings Live!,False,0.0618467028540214,0.02458881211282547
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,We Do It Different on the West Coast,False,8.059272649483209e-09,0.00322102874531168
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,We Have Seen the Enemy,False,3.559750243983023e-06,0.003794517238297838
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,We Shall All Be Healed (Song),False,1.8192148248509765e-12,0.0021860965796659444
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,We Were Patriots,False,0.015533391170070944,0.011932660534675775
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wear Black,False,5.095571423100199e-05,0.007107113572595963
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Weekend in Western Illinois,False,0.0011612954360369604,0.007096505230592031
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Werewolf Gimmick,False,0.013730781791578748,0.011355740449082581
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Werewolves of London,False,6.225355520692488e-20,0.001553424667706527
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,West Country Dream,False,5.586762237083532e-22,0.0010881252793106559
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,What Have You Done to the Magician?,False,4.4100755666565206e-11,0.0028850434305954984
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,When Dinosaurs Roamed,False,8.154073312249987e-19,0.001634985472604662
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,When a Powerful Animal Comes,False,4.3063680806965987e-10,0.0030204434924028284
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,White Cedar,False,0.17439066939258807,0.05952483057654973
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Whole Wide World,False,0.009576551776516918,0.0105793450272954
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Whon,False,3.6236338321425066e-30,0.000990738548332977
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wild Palm City,False,6.539753162705073e-05,0.006854331927037473
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wild Sage,False,0.00634759318085053,0.013428164331140602
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wind Beneath My Wings,False,1.2944793446021105e-17,0.0017708358122019495
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wishing the House Would Crash,False,5.222206712372517e-13,0.0016568409436657876
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wizard Buys a Hat,False,3.1450675334122225e-07,0.0035994321348355794
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wizard Level,False,3.065724668154596e-19,0.001613734032188939
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Woke Up New,False,0.04005513689265955,0.020518829943970397
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wolf Count,False,4.2360152580196036e-06,0.005164428619786022
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Wrong!,False,8.467948055089815e-22,0.0014090752306613959
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Xolo,False,2.7747798649255966e-17,0.0015562319402657931
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Yellow Coat,False,1.7693524571008333e-33,0.0008808207533008821
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Yellow Precious Letter,False,2.94330526367528e-30,0.0009853129952245758
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Yoga,False,0.0003227589982156048,0.004958902925692848
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,You Take the High Road,False,9.042477652521412e-40,0.0006712464168179076
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,You Were Cool,True,0.4895972030540281,0.6844068048382105
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,You or Your Memory,False,0.18950609392346598,0.061889944842479276
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,You're in Maya,False,3.898527364554384e-12,0.0019140753147879898
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,You've Got to Have a Mouse in Your Life,False,0.0008018515110882296,0.006658389298350217
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Young Caesar 2000,False,0.0016998171806803055,0.007707755769541006
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Young and Endangered,False,7.498425324953808e-14,0.0022650018728309585
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Younger,False,0.2641193294777899,0.0667217192114735
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Your Bandage,False,0.290895058952256,0.056833135529657686
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Your Belgian Things,False,0.03572673318271146,0.01601833510611425
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Your Daddy Loves You,False,3.897992921226516e-12,0.002587882498118492

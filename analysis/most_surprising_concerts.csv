@@ -683,6 +683,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2014-04-17_-_Club_Helsinki_-_Hudson,_NY",2014-04-17,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,496.0,18.0,2.01808606432058,0.13663538865234415
 "2021-10-19_-_The_Fillmore_Philadelphia_-_Philadelphia,_PA",2021-10-19,Cave Angel Ascendancy Tour 2021,629.0,23.0,2.017160119593182,0.1097520713429144
 "2012-12-10_-_The_Irenic_-_San_Diego,_CA",2012-12-10,Nameless Dark Tour 2012,478.0,20.0,2.0170446766604497,0.12110154937757962
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Do you know how short the days are? 2026 Tour,695.0,23.0,2.016174486317984,0.08509174214421891
 "2015-10-03_-_Neighborhood_Theatre_-_Charlotte,_NC",2015-10-03,"By, For, and About the Trees Southeastern Fall Tour 2015",522.0,22.0,2.015367931580009,0.12601294009411107
 "2007-03-08_-_The_Independent_-_San_Francisco,_CA",2007-03-08,West Coast Tour 2007,342.0,17.0,2.0150471154309653,0.13151500050383874
 "2013-06-19_-_The_Record_Bar_-_Kansas_City,_MO",2013-06-19,Tuttlingen Warriors Tour 2013,482.0,17.0,2.0086874956699394,0.11204942194568018

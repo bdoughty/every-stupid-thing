@@ -598,8 +598,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2012-12-13_-_Origami_Vinyl_-_Los_Angeles,_CA",2012-12-13,Nameless Dark Tour 2012,478.0,11.0,4.513099996230323,0.18660298973387615
 "2012-12-13_-_Troubadour_-_West_Hollywood,_CA",2012-12-13,Nameless Dark Tour 2012,478.0,22.0,1.6463765212055679,0.10054069889341262
 "2012-12-14_-_The_Fillmore_-_San_Francisco,_CA",2012-12-14,Nameless Dark Tour 2012,478.0,19.0,1.041291612794668,0.06572088779787508
-"2012-12-16_-_Aladdin_Theater_-_Portland,_OR",2012-12-16,Nameless Dark Tour 2012,478.0,21.0,1.4037488005328616,0.0842863707419095
 "2012-12-16_-_Oregon_Public_Broadcasting_Session_-_Aladdin_Theater_-_Portland,_OR",2012-12-16,Nameless Dark Tour 2012,478.0,3.0,0.2683137496154055,0.06994751769329607
+"2012-12-16_-_Aladdin_Theater_-_Portland,_OR",2012-12-16,Nameless Dark Tour 2012,478.0,21.0,1.4037488005328616,0.0842863707419095
 "2012-12-17_-_KEXP_Session_-_Seattle,_WA",2012-12-17,Nameless Dark Tour 2012,478.0,4.0,0.4349925737389102,0.06663511465090101
 "2012-12-17_-_The_Showbox_-_Seattle,_WA",2012-12-17,Nameless Dark Tour 2012,478.0,22.0,1.789179632057586,0.10050549633215257
 "2013-01-15_-_An_Evening_of_Awesome_-_Isaac_Stern_Auditorium_at_Carnegie_Hall_-_New_York,_NY",2013-01-15,,478.0,7.0,3.9690800906801718,0.08868965452074902
@@ -753,8 +753,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2016-04-07_-_Beachland_Ballroom_-_Cleveland,_OH",2016-04-07,Brine Crypt Exodus Tour 2016,528.0,21.0,1.5710472627366374,0.08915943459021451
 "2016-04-08_-_The_Blind_Pig_-_Ann_Arbor,_MI",2016-04-08,Brine Crypt Exodus Tour 2016,529.0,18.0,1.4205359756470624,0.08250477625333076
 "2016-04-09_-_The_Vogue_-_Indianapolis,_IN",2016-04-09,Brine Crypt Exodus Tour 2016,529.0,21.0,1.729561067924644,0.0985799212838844
-"2016-04-11_-_City_Winery_-_Chicago,_IL",2016-04-11,Brine Crypt Exodus Tour 2016,529.0,21.0,1.983345571197714,0.11043949464927649
 "2016-04-11_-_Yak-Zies_-_Chicago,_IL",2016-04-11,,529.0,2.0,3.877527512406226,0.048985879837989514
+"2016-04-11_-_City_Winery_-_Chicago,_IL",2016-04-11,Brine Crypt Exodus Tour 2016,529.0,21.0,1.983345571197714,0.11043949464927649
 "2016-04-12_-_City_Winery_-_Chicago,_IL",2016-04-12,Brine Crypt Exodus Tour 2016,529.0,20.0,2.967355555191392,0.13538852265171933
 "2016-04-13_-_City_Winery_-_Chicago,_IL",2016-04-13,Brine Crypt Exodus Tour 2016,529.0,21.0,2.2205905674405066,0.12557764695013973
 "2016-04-14_-_Covenant_Fine_Arts_Center_-_Calvin_College_-_Grand_Rapids,_MI",2016-04-14,Brine Crypt Exodus Tour 2016,531.0,18.0,1.6136979216686818,0.1024648276889394
@@ -814,8 +814,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-06-02_-_The_Fillmore_-_San_Francisco,_CA",2017-06-02,Grey King Ascendant Tour 2017,551.0,27.0,1.950729488800258,0.12224606120469718
 "2017-06-04_-_Crystal_Ballroom_-_Portland,_OR",2017-06-04,Grey King Ascendant Tour 2017,551.0,23.0,1.9618011903756116,0.1129467597871341
 "2017-06-05_-_The_Showbox_-_Seattle,_WA",2017-06-05,Grey King Ascendant Tour 2017,551.0,23.0,1.2776552653909634,0.078645041484883
-"2017-06-06_-_Tractor_Tavern_-_Seattle,_WA",2017-06-06,Grey King Ascendant Tour 2017,551.0,19.0,1.9943689864245395,0.08945297038297195
 "2017-06-06_-_KEXP_Session_-_Seattle,_WA",2017-06-06,,551.0,4.0,3.3740136716955016,0.04473489968389448
+"2017-06-06_-_Tractor_Tavern_-_Seattle,_WA",2017-06-06,Grey King Ascendant Tour 2017,551.0,19.0,1.9943689864245395,0.08945297038297195
 "2017-06-21_-_Welcome_to_Night_Vale_Birthday_Party_-_The_Bell_House_-_New_York,_NY",2017-06-21,,551.0,7.0,5.938288978854724,0.1112704747301064
 "2017-06-22_-_WFUV_Session_-_New_York,_NY",2017-06-22,,551.0,4.0,3.7701955151018502,0.04439764581565635
 "2017-06-23_-_Beacon_Theatre_-_New_York,_NY",2017-06-23,Summer Tour 2017,551.0,11.0,2.282290165484378,0.0687292944623261
@@ -826,8 +826,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-06-30_-_Merriweather_Post_Pavilion_-_Columbia,_MD",2017-06-30,Summer Tour 2017,551.0,12.0,0.6753968088029376,0.03932207319805255
 "2017-07-01_-_PNC_Pavilion_at_Riverbend_Music_-_Cincinnati,_OH",2017-07-01,Summer Tour 2017,551.0,12.0,0.8795274763852935,0.04785482134967442
 "2017-07-02_-_Rose_Music_Center_-_Huber_Heights,_OH",2017-07-02,Summer Tour 2017,551.0,12.0,0.8013911483890785,0.04203871487380117
-"2017-07-03_-_The_Empty_Bottle_-_Chicago,_IL",2017-07-03,Summer Tour 2017,551.0,21.0,2.2266047047930604,0.10574883830888675
 "2017-07-03_-_WGN_TV_Session_-_Chicago,_IL",2017-07-03,,552.0,1.0,1.2370093595019847,0.03384621446811531
+"2017-07-03_-_The_Empty_Bottle_-_Chicago,_IL",2017-07-03,Summer Tour 2017,551.0,21.0,2.2266047047930604,0.10574883830888675
 "2017-07-05_-_Sumtur_Ampitheatre_-_Papillion,_NE",2017-07-05,Summer Tour 2017,552.0,12.0,1.6869876770226735,0.05587299219415188
 "2017-07-06_-_Wooly's_-_Des_Moines,_IA",2017-07-06,Summer Tour 2017,552.0,21.0,2.4687395117732374,0.11345233069178708
 "2017-07-07_-_The_Current_-_Minnesota_Public_Radio_Session_-_St._Paul,_MN",2017-07-07,,552.0,3.0,4.352924346273431,0.03875575077367619
@@ -844,8 +844,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-09-09_-_Headliners_-_Louisville,_KY",2017-09-09,U.S. Fall Tour 2017,553.0,21.0,1.8277774503893671,0.10083943095522586
 "2017-09-10_-_Almost_Live_-_Indianapolis,_IN",2017-09-10,,553.0,0.0,,0.01843102746124793
 "2017-09-10_-_The_Vogue_-_Indianapolis,_IN",2017-09-10,U.S. Fall Tour 2017,554.0,22.0,2.880657582769091,0.1342550019186217
-"2017-09-11_-_Sheldon_Concert_Hall_-_St._Louis,_MO",2017-09-11,U.S. Fall Tour 2017,554.0,18.0,2.977255929386733,0.11823936884842066
 "2017-09-11_-_KDHX_Session_-_St._Louis,_MO",2017-09-11,,554.0,3.0,5.7243484180031965,0.047604417248898204
+"2017-09-11_-_Sheldon_Concert_Hall_-_St._Louis,_MO",2017-09-11,U.S. Fall Tour 2017,554.0,18.0,2.977255929386733,0.11823936884842066
 "2017-09-13_-_Englert_Theatre_-_Iowa_City,_IA",2017-09-13,U.S. Fall Tour 2017,554.0,21.0,2.2667743935062834,0.11328381427162677
 "2017-09-14_-_Madrid_Theatre_-_Kansas_City,_MO",2017-09-14,U.S. Fall Tour 2017,554.0,20.0,2.0631808577726867,0.10608218323913259
 "2017-09-15_-_The_Waiting_Room_-_Omaha,_NE",2017-09-15,U.S. Fall Tour 2017,554.0,21.0,1.9226218778117148,0.09831465661309281
@@ -1313,8 +1313,8 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2026-05-29_-_Neighborhood_Theatre_-_Charlotte,_NC",2026-05-29,Hypnotic Waves Tour 2026,687.0,24.0,1.9359169692948968,0.0924525607492858
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,Hypnotic Waves Tour 2026,687.0,25.0,1.9886862313754832,0.09665023945423963
 "2026-05-31_-_Spoleto_Festival_-_Charleston,_SC",2026-05-31,Hypnotic Waves Tour 2026,687.0,16.0,3.1354849081195426,0.12532012941980497
-"2026-06-25_-_Radio_Milwaukee_Session_-_Milwaukee,_WI",2026-06-25,,687.0,3.0,2.121111538280576,0.024694732868641208
 "2026-06-25_-_Summerfest_-_Milwaukee,_WI",2026-06-25,,687.0,21.0,2.8226180086305726,0.10400488496849224
+"2026-06-25_-_Radio_Milwaukee_Session_-_Milwaukee,_WI",2026-06-25,,687.0,3.0,2.121111538280576,0.024694732868641208
 "2026-06-26_-_FitzGerald's_-_Berwyn,_IL",2026-06-26,,687.0,22.0,2.9829933909708375,0.11283658636343027
 "2026-07-10_-_Red_Rocks_Amphitheatre_-_Morrison,_CO",2026-07-10,,687.0,11.0,3.652026438950166,0.08458340469638308
 "2026-08-07_-_Music_Millennium_-_Portland,_OR",2026-08-07,Do you know how short the days are? 2026 Tour,687.0,7.0,2.687366465699609,0.051748304823630076
@@ -1323,3 +1323,4 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2026-08-10_-_Easy_Street_-_Seattle,_WA",2026-08-10,Do you know how short the days are? 2026 Tour,693.0,11.0,0.9126170929775234,0.047970982584386944
 "2026-08-11_-_Amoeba_Hollywood_-_Los_Angeles,_CA",2026-08-11,Do you know how short the days are? 2026 Tour,693.0,11.0,0.7040186608076034,0.037605013006706385
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,Do you know how short the days are? 2026 Tour,693.0,23.0,2.027706309167736,0.081166429683107
+"2026-08-15_-_Rock_&_Roll_Hall_of_Fame_-_Cleveland,_OH",2026-08-15,Do you know how short the days are? 2026 Tour,695.0,23.0,2.016174486317984,0.08509174214421891
