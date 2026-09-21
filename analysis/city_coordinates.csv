@@ -58,7 +58,7 @@ Brisbane,Australia,4,-27.46794,153.02809,Brisbane,country
 Bristol,England,4,51.45523,-2.59665,Bristol,country
 Brooklyn,NY,16,40.6501,-73.94958,Brooklyn,us_state
 Brussels,Belgium,2,50.85045,4.34878,Brussels,country
-Buffalo,NY,5,42.88645,-78.87837,Buffalo,us_state
+Buffalo,NY,6,42.88645,-78.87837,Buffalo,us_state
 Byron Bay,Australia,1,-28.6422,153.6108,Byron Bay,manual_override
 Calgary,Alberta,1,51.05011,-114.08529,Calgary,canada
 Cambridge,MA,6,42.3751,-71.10561,Cambridge,us_state
@@ -174,7 +174,7 @@ Lexington,KY,3,37.98869,-84.47772,Lexington,us_state
 Lincoln,NE,1,40.8,-96.66696,Lincoln,us_state
 Linköping,Sweden,1,58.41086,15.62157,Linköping,country
 Lisbon,Portugal,1,38.72509,-9.1498,Lisbon,country
-Lititz,PA,1,40.1573,-76.3069,Lititz,manual_override
+Lititz,PA,2,40.1573,-76.3069,Lititz,manual_override
 Little Rock,AR,2,34.74648,-92.28959,Little Rock,us_state
 Livermore,CA,2,37.68187,-121.76801,Livermore,us_state
 London,England,25,51.50853,-0.12574,London,country
@@ -238,11 +238,11 @@ Pelham,TN,1,35.3101,-85.8811,Pelham,manual_override
 Penascola,FL,1,30.4077,-87.219,Penascola,manual_override
 Peoria,IL,1,40.69365,-89.58899,Peoria,us_state
 Perth,Australia,6,-31.95224,115.8614,Perth,country
-Philadelphia,PA,20,39.95238,-75.16362,Philadelphia,us_state
+Philadelphia,PA,21,39.95238,-75.16362,Philadelphia,us_state
 Phoenix,AZ,4,33.44838,-112.07404,Phoenix,us_state
 Pioneertown,CA,1,34.1564,-116.4986,Pioneertown,manual_override
 Pittsboro,NC,5,35.7201,-79.1772,Pittsboro,manual_override
-Pittsburgh,PA,8,40.44062,-79.99589,Pittsburgh,us_state
+Pittsburgh,PA,9,40.44062,-79.99589,Pittsburgh,us_state
 Pomona,CA,8,34.05529,-117.75228,Pomona,us_state
 Ponte Vedra Beach,FL,1,30.23969,-81.38564,Ponte Vedra Beach,us_state
 Portland,ME,5,43.65737,-70.2589,Portland,us_state
@@ -286,7 +286,7 @@ Sioux Falls,SD,2,43.54369,-96.72796,Sioux Falls,us_state
 Sligo,Ireland,1,54.26969,-8.46943,Sligo,country
 Solana Beach,CA,2,32.9912,-117.2711,Solana Beach,manual_override
 Somerville,MA,2,42.3876,-71.0995,Somerville,us_state
-South Burlington,VT,3,44.46699,-73.17096,South Burlington,us_state
+South Burlington,VT,4,44.46699,-73.17096,South Burlington,us_state
 Spokane,WA,3,47.65966,-117.42908,Spokane,us_state
 Springfield,IL,1,39.80172,-89.64371,Springfield,us_state
 Springfield,MO,2,37.21533,-93.29824,Springfield,us_state
