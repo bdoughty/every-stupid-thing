@@ -72,6 +72,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2014-04-15_-_Pearl_Street_Ballroom_-_Northampton,_MA",2014-04-15,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,493.0,19.0,4.473089657031724,0.21691638977542377
 "2013-07-06_-_Festival_for_the_Eno_-_Durham,_NC",2013-07-06,,482.0,15.0,4.454033289334154,0.15315626573959007
 "2010-12-17_-_Brome_for_the_Holidays_-_King's_Barcade_-_Raleigh,_NC",2010-12-17,,442.0,19.0,4.4412716208487515,0.2435774170086048
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,,695.0,15.0,4.438554441156403,0.12614122549747908
 "2014-05-02_-_Kresge_Recital_Hall_-_Knox_College_-_Galesburg,_IL",2014-05-02,,496.0,18.0,4.416854333701935,0.1929990255452577
 "2011-07-13_-_1982_Bar_-_Gainesville,_FL",2011-07-13,,456.0,20.0,4.410486198921806,0.22744130412389954
 "2011-03-24_-_The_National_-_Richmond,_VA",2011-03-24,Full Fish Moon Tour 2011,443.0,13.0,4.407242928850886,0.1611192577719764
@@ -636,6 +637,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-10-12_-_The_Haunt_-_Brighton,_England",2017-10-12,European Tour 2017,555.0,19.0,2.091880768675255,0.1030888974663898
 "2009-04-01_-_Portage_Theater_-_Chicago,_IL",2009-04-01,Gone Primitive Tour,401.0,18.0,2.0907903079602113,0.13673509132898523
 "2023-04-12_-_The_District_-_Sioux_Falls,_SD",2023-04-12,Spectral Tide Tour 2023,648.0,20.0,2.090457264106611,0.09431320738056252
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,,695.0,22.0,2.0874954803578762,0.0793910644395386
 "2018-09-01_-_The_Orpheum_-_Tampa,_FL",2018-09-01,No Shield Except the Skin Tour 2018,567.0,20.0,2.0867730985055983,0.10838312522278289
 "2008-11-07_-_Theater_of_the_Living_Arts_-_Philadelphia,_PA",2008-11-07,Last Happy Night of Your Life Tour 2008,388.0,18.0,2.0863847772476807,0.1359527961733623
 "2019-08-09_-_College_Street_Music_Hall_-_New_Haven,_CT",2019-08-09,Protector's Wrath Tour 2019,581.0,24.0,2.0836097694539943,0.11290328567078564
@@ -745,6 +747,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2022-09-03_-_The_Met_-_Pawtucket,_RI",2022-09-03,Fall Tour 2022,645.0,22.0,1.93075342431596,0.1087356749026917
 "2004-10-19_-_Village_Tavern_-_Mt._Pleasant,_SC",2004-10-19,Fall Tour 2004,307.0,18.0,1.930211580612121,0.17621053727965766
 "1995-04-12_-_Simplon_-_Groningen,_The_Netherlands",1995-04-12,European Tour 1995,81.0,11.0,1.9269062572894784,0.5097984920656676
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,Do you know how short the days are? 2026 Tour,695.0,23.0,1.9264254658297408,0.08806272343942174
 "2015-11-19_-_O2_Shepherd's_Bush_Empire_-_London,_England",2015-11-19,European Tour 2015,523.0,21.0,1.925354201521473,0.1018952127148283
 "2015-10-04_-_Saturn_-_Birmingham,_AL",2015-10-04,"By, For, and About the Trees Southeastern Fall Tour 2015",522.0,21.0,1.9253307202244883,0.11997240507652232
 "2019-05-07_-_Mr._Smalls_-_Millvale,_PA",2019-05-07,Grotto of the Basilisk Tour 2019,576.0,22.0,1.9249743527487437,0.11340154269517269
@@ -882,6 +885,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2015-11-17_-_Trinity_-_Bristol,_England",2015-11-17,European Tour 2015,523.0,21.0,1.7112739518538114,0.09491387110626655
 "2008-03-15_-_Middle_East_-_Cambridge,_MA",2008-03-15,Revelation Time Tour 2008,375.0,17.0,1.7086240162339066,0.11977947539062588
 "2019-04-27_-_Dogfish_Head_Brewery_-_Milton,_DE",2019-04-27,Grotto of the Basilisk Tour 2019,575.0,19.0,1.7066263854194599,0.1033939357212638
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,Do you know how short the days are? 2026 Tour,695.0,24.0,1.705940011751941,0.07568734877243105
 "2012-12-09_-_Club_Congress_-_Tucson,_AZ",2012-12-09,Nameless Dark Tour 2012,478.0,18.0,1.7039669455973032,0.09657950357926502
 "2008-12-09_-_The_Rosemount_-_Perth,_Australia",2008-12-09,Australia and New Zealand Tour 2008,389.0,19.0,1.7025208237992122,0.12246170606179205
 "2024-12-13_-_Tipitina's_-_New_Orleans,_LA",2024-12-13,Arval Brethren Revival Tour 2024,665.0,20.0,1.702238991919471,0.07276863662394638
@@ -1048,6 +1052,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2025-08-01_-_Stone_Pony_Summer_Stage_-_Asbury_Park,_NJ",2025-08-01,Summer Tour 2025,667.0,14.0,1.2466496899615402,0.04547977383166645
 "2019-05-09_-_Woodward_Theater_-_Cincinnati,_OH",2019-05-09,Grotto of the Basilisk Tour 2019,576.0,22.0,1.2427991724793575,0.0786480224084159
 "2011-06-23_-_El_Rey_Theater_-_Los_Angeles,_CA",2011-06-23,Blue Kachina Prophecy Tour 2011,456.0,22.0,1.238926521747642,0.08828329665371949
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,,695.0,12.0,1.236717215814831,0.04087114084701052
 "2015-10-08_-_The_Beacham_Theatre_-_Orlando,_FL",2015-10-08,"By, For, and About the Trees Southeastern Fall Tour 2015",522.0,20.0,1.2325453844922385,0.07926200364463325
 "2025-07-29_-_Archer_Music_Hall_-_Allentown,_PA",2025-07-29,Summer Tour 2025,667.0,14.0,1.217643000455293,0.04714407062980028
 "2010-10-06_-_Academy_of_Contemporary_Music_@_UCO_-_Oklahoma_City,_OK",2010-10-06,Great Plains Mini-Tour 2010,428.0,17.0,1.2175318497580563,0.08301929990300971

@@ -64,7 +64,7 @@ Calgary,Alberta,1,51.05011,-114.08529,Calgary,canada
 Cambridge,MA,6,42.3751,-71.10561,Cambridge,us_state
 Carrboro,NC,22,35.91014,-79.07529,Carrboro,us_state
 Cary,NC,1,35.79154,-78.78112,Cary,us_state
-Champaign,IL,2,40.11642,-88.24338,Champaign,us_state
+Champaign,IL,3,40.11642,-88.24338,Champaign,us_state
 Chapel Hill,NC,2,35.9132,-79.05584,Chapel Hill,us_state
 Charleston,SC,3,32.77632,-79.93275,Charleston,us_state
 Charleston,WV,1,38.34982,-81.63262,Charleston,us_state
@@ -73,7 +73,7 @@ Charlottesville,VA,6,38.02931,-78.47668,Charlottesville,us_state
 Chattanooga,TN,2,35.04563,-85.30968,Chattanooga,us_state
 Chautauqua,NY,1,42.2098,-79.4668,Chautauqua,manual_override
 Cherry Hill,NJ,1,39.93484,-75.03073,Cherry Hill,us_state
-Chicago,IL,53,41.85003,-87.65005,Chicago,us_state
+Chicago,IL,54,41.85003,-87.65005,Chicago,us_state
 Cincinnati,OH,9,39.12711,-84.51439,Cincinnati,us_state
 Claremont,CA,5,34.09668,-117.71978,Claremont,us_state
 Cleveland,OH,7,41.4995,-81.69541,Cleveland,us_state
@@ -95,7 +95,7 @@ Detroit,MI,8,42.33143,-83.04575,Detroit,us_state
 Dordrecht,Netherlands,1,51.81,4.67361,Dordrecht,country
 Dorset,England,1,50.7391,-2.3382,Dorset,manual_override
 Dublin,Ireland,10,53.33306,-6.24889,Dublin,country
-Durham,NC,31,35.99403,-78.89862,Durham,us_state
+Durham,NC,32,35.99403,-78.89862,Durham,us_state
 Durham,NH,1,43.134,-70.9264,Durham,manual_override
 Eau Claire,WI,1,44.81135,-91.49849,Eau Claire,us_state
 Edmonton,Alberta,1,53.55014,-113.46871,Edmonton,canada
@@ -214,7 +214,7 @@ Newcastle,Australia,1,-32.92953,151.7801,Newcastle,country
 Newcastle,England,1,54.9783,-1.6178,Newcastle,manual_override
 Newport,RI,1,41.4901,-71.31283,Newport,us_state
 Nijmegen,The Netherlands,1,51.8425,5.85278,Nijmegen,country
-Norfolk,VA,1,36.84681,-76.28522,Norfolk,us_state
+Norfolk,VA,2,36.84681,-76.28522,Norfolk,us_state
 Norman,OK,2,35.22257,-97.43948,Norman,us_state
 North Adams,MA,1,42.7009,-73.1087,North Adams,manual_override
 Northampton,MA,8,42.32509,-72.6412,Northampton,us_state
@@ -290,6 +290,7 @@ South Burlington,VT,4,44.46699,-73.17096,South Burlington,us_state
 Spokane,WA,3,47.65966,-117.42908,Spokane,us_state
 Springfield,IL,1,39.80172,-89.64371,Springfield,us_state
 Springfield,MO,2,37.21533,-93.29824,Springfield,us_state
+St Louis,MO,1,38.62727,-90.19789,St. Louis,us_state
 St. Augustine,FL,7,29.8922,-81.3139,St. Augustine,manual_override
 St. Louis,MO,11,38.62727,-90.19789,St. Louis,us_state
 St. Paul,MN,4,44.94441,-93.09327,Saint Paul,us_state

@@ -16813,7 +16813,7 @@ show_id,date,year,seq,order_raw,encore,song_title,song_slug,album,note,video_url
 "2021-10-16_-_The_Vogue_-_Indianapolis,_IN",2021-10-16,2021.0,10,10.0,0,The Day the Aliens Came (Hawaiian Feeling),The_Day_the_Aliens_Came_(Hawaiian_Feeling),"Come, Come to the Sunset Tree",,,""" The Day the Aliens Came (Hawaiian Feeling) """,True,The Day the Aliens Came (Hawaiian Feeling),The Day the Aliens Came (Hawaiian Feeling),False
 "2021-10-16_-_The_Vogue_-_Indianapolis,_IN",2021-10-16,2021.0,11,11.0,0,White Cedar,White_Cedar,Transcendental Youth,,,""" White Cedar """,False,White Cedar,White Cedar,False
 "2021-10-16_-_The_Vogue_-_Indianapolis,_IN",2021-10-16,2021.0,12,12.0,0,When a Powerful Animal Comes,When_a_Powerful_Animal_Comes,Dark in Here,,,""" When a Powerful Animal Comes """,False,When a Powerful Animal Comes,When a Powerful Animal Comes,False
-"2021-10-16_-_The_Vogue_-_Indianapolis,_IN",2021-10-16,2021.0,13,13.0,0,Corsican Mastiff Stride,Corsican_Mastiff_Stride,Getting Into Knives,,,""" Corsican Mastiff Stride """,False,Corsican Mastiff Stride,Corsican Mastiff Stride,False
+"2021-10-16_-_The_Vogue_-_Indianapolis,_IN",2021-10-16,2021.0,13,13.0,0,Corsican Mastiff Stride,Corsican_Mastiff_Stride,Getting Into Knives,,https://www.youtube.com/watch?v=1kxqvxDHHPw,""" Corsican Mastiff Stride "" ( )",False,Corsican Mastiff Stride,Corsican Mastiff Stride,False
 "2021-10-16_-_The_Vogue_-_Indianapolis,_IN",2021-10-16,2021.0,14,14.0,0,Cry for Judas,Cry_for_Judas,Transcendental Youth,,,""" Cry for Judas """,False,Cry for Judas,Cry for Judas,False
 "2021-10-16_-_The_Vogue_-_Indianapolis,_IN",2021-10-16,2021.0,15,15.0,0,Woke Up New,Woke_Up_New,Get Lonely,,,""" Woke Up New """,False,Woke Up New,Woke Up New,False
 "2021-10-16_-_The_Vogue_-_Indianapolis,_IN",2021-10-16,2021.0,16,16.0,0,Lion's Teeth,Lion's_Teeth,The Sunset Tree,,,""" Lion's Teeth """,False,Lion's Teeth,Lion's Teeth,False
@@ -19353,7 +19353,7 @@ show_id,date,year,seq,order_raw,encore,song_title,song_slug,album,note,video_url
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,2023.0,10,10.0,0,Abandoned Flesh,Abandoned_Flesh,Goths,,,""" Abandoned Flesh """,False,Abandoned Flesh,Abandoned Flesh,False
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,2023.0,11,11.0,0,The Diaz Brothers,The_Diaz_Brothers,Transcendental Youth,,,""" The Diaz Brothers """,False,The Diaz Brothers,The Diaz Brothers,False
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,2023.0,12,12.0,0,Lizard Suit,Lizard_Suit,Dark in Here,,,""" Lizard Suit """,False,Lizard Suit,Lizard Suit,False
-"2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,2023.0,13,13.0,0,Corsican Mastiff Stride,Corsican_Mastiff_Stride,Getting Into Knives,,,""" Corsican Mastiff Stride """,False,Corsican Mastiff Stride,Corsican Mastiff Stride,False
+"2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,2023.0,13,13.0,0,Corsican Mastiff Stride,Corsican_Mastiff_Stride,Getting Into Knives,,https://www.youtube.com/watch?v=2wkmekEEujM,""" Corsican Mastiff Stride "" ( )",False,Corsican Mastiff Stride,Corsican Mastiff Stride,False
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,2023.0,14,14.0,0,Incandescent Ruins,Incandescent_Ruins,Bleed Out,,,""" Incandescent Ruins """,False,Incandescent Ruins,Incandescent Ruins,False
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,2023.0,15,15.0,0,Up the Wolves,Up_the_Wolves,The Sunset Tree,,,""" Up the Wolves """,False,Up the Wolves,Up the Wolves,False
 "2023-08-08_-_Woodland_Park_Zoo_-_Seattle,_WA",2023-08-08,2023.0,16,16.0,0,No Children,No_Children,Tallahassee,,,""" No Children """,False,No Children,No Children,False
@@ -22884,7 +22884,7 @@ show_id,date,year,seq,order_raw,encore,song_title,song_slug,album,note,video_url
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,2026.0,5,5.0,0,Shallow Grave,Shallow_Grave,Days,,,""" Shallow Grave ”",False,Shallow Grave,Shallow Grave,False
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,2026.0,6,6.0,0,Charlie Sheen Reaches Out to the Feds,Charlie_Sheen_Reaches_Out_to_the_Feds,Days,,,""" Charlie Sheen Reaches Out to the Feds ”",False,Charlie Sheen Reaches Out to the Feds,Charlie Sheen Reaches Out to the Feds,False
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,2026.0,7,7.0,0,You Were Cool,You_Were_Cool,Unreleased,,,""" You Were Cool """,False,You Were Cool,You Were Cool,False
-"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,2026.0,8,8.0,0,Untitled Song for the Singer from Viking,Untitled_Song_for_the_Singer_from_Viking,Unreleased,,,""" Untitled Song for the Singer from Viking """,True,Untitled Song for the Singer from Viking,Untitled Song for the Singer from Viking,False
+"2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,2026.0,8,8.0,0,Untitled Song for the Singer from Viking,Untitled_Song_for_the_Singer_from_Viking,Unreleased,,https://www.youtube.com/watch?v=QL3Gpk63frM,""" Untitled Song for the Singer from Viking "" ( )",True,Untitled Song for the Singer from Viking,Untitled Song for the Singer from Viking,False
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,2026.0,9,9.0,0,There Will Be No Divorce,There_Will_Be_No_Divorce,The Coroner's Gambit,,,""" There Will Be No Divorce ”",True,There Will Be No Divorce,There Will Be No Divorce,False
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,2026.0,10,10.0,0,The Recognition Scene,The_Recognition_Scene,Sweden,,,""" The Recognition Scene ”",True,The Recognition Scene,The Recognition Scene,False
 "2026-08-14_-_Taft_Theatre_-_Cincinnati,_OH",2026-08-14,2026.0,11,11.0,0,Sept 19th Triple X Love! Love!,Sept_19th_Triple_X_Love!_Love!,Sweden,,,""" Sept 19th Triple X Love! Love! ”",True,Sept 19th Triple X Love! Love!,Sept 19th Triple X Love! Love!,False
@@ -23019,6 +23019,103 @@ show_id,date,year,seq,order_raw,encore,song_title,song_slug,album,note,video_url
 "2026-08-20_-_Mickey's_Black_Box_-_Lititz,_PA",2026-08-20,2026.0,22,22.0,1,The Diaz Brothers,The_Diaz_Brothers,Transcendental Youth,,,""" The Diaz Brothers """,False,The Diaz Brothers,The Diaz Brothers,False
 "2026-08-20_-_Mickey's_Black_Box_-_Lititz,_PA",2026-08-20,2026.0,23,23.0,1,Amy AKA Spent Gladiator 1,Amy_AKA_Spent_Gladiator_1,Transcendental Youth,,,""" Amy AKA Spent Gladiator 1 """,False,Amy AKA Spent Gladiator 1,Amy AKA Spent Gladiator 1,False
 "2026-08-20_-_Mickey's_Black_Box_-_Lititz,_PA",2026-08-20,2026.0,24,24.0,1,No Children,No_Children,Tallahassee,,,""" No Children """,False,No Children,No Children,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,1,1.0,0,Armies of the Lord,Armies_of_the_Lord,Through This Fire Across From Peter Balkan,,,""" Armies of the Lord ”",False,Armies of the Lord,Armies of the Lord,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,2,2.0,0,Song for Layne Staley,Song_for_Layne_Staley,Days,,,""" Song for Layne Staley ”",False,Song for Layne Staley,Song for Layne Staley,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,3,3.0,0,Cadaver Sniffing Dog,Cadaver_Sniffing_Dog,In League with Dragons,,,""" Cadaver Sniffing Dog ”",False,Cadaver Sniffing Dog,Cadaver Sniffing Dog,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,4,4.0,0,Crying on Eddie Nash's Grave,Crying_on_Eddie_Nash's_Grave,Days,,,""" Crying on Eddie Nash's Grave ”",False,Crying on Eddie Nash's Grave,Crying on Eddie Nash's Grave,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,5,5.0,0,Andrew Eldritch Is Moving Back to Leeds,Andrew_Eldritch_Is_Moving_Back_to_Leeds,Goths,,,""" Andrew Eldritch Is Moving Back to Leeds ”",False,Andrew Eldritch Is Moving Back to Leeds,Andrew Eldritch Is Moving Back to Leeds,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,6,6.0,0,Shallow Grave,Shallow_Grave,Days,,,""" Shallow Grave ”",False,Shallow Grave,Shallow Grave,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,7,7.0,0,Charlie Sheen Reaches Out to the Feds,Charlie_Sheen_Reaches_Out_to_the_Feds,Days,,,""" Charlie Sheen Reaches Out to the Feds ”",False,Charlie Sheen Reaches Out to the Feds,Charlie Sheen Reaches Out to the Feds,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,8,8.0,0,You Were Cool,You_Were_Cool,Unreleased,,,""" You Were Cool """,False,You Were Cool,You Were Cool,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,9,9.0,0,Alpha Incipiens,Alpha_Incipiens,Zopilote Machine,,,""" Alpha Incipiens """,True,Alpha Incipiens,Alpha Incipiens,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,10,10.0,0,Going to Queens,Going_to_Queens,Sweden,,,""" Going to Queens """,True,Going to Queens,Going to Queens,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,11,11.0,0,Soft Targets,Soft_Targets,Bedside Recordings Vol. 1.2,,,""" Soft Targets """,True,Soft Targets,Soft Targets,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,12,12.0,0,Younger,Younger,In League with Dragons,,,""" Younger """,True,Younger,Younger,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,13,13.0,0,Days (song),Days_(song),Days,,,""" Days ”",False,Days (song),Days (song),False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,14,14.0,0,Your Bandage,Your_Bandage,Through This Fire Across From Peter Balkan,,,""" Your Bandage ”",False,Your Bandage,Your Bandage,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,15,15.0,0,Candlebox,Candlebox,Days,,,""" Candlebox ”",False,Candlebox,Candlebox,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,16,16.0,0,Done Bleeding,Done_Bleeding,In League with Dragons,,,""" Done Bleeding ”",False,Done Bleeding,Done Bleeding,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,17,17.0,0,Cry for Judas,Cry_for_Judas,Transcendental Youth,,,""" Cry for Judas ”",False,Cry for Judas,Cry for Judas,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,18,18.0,0,Against Pollution,Against_Pollution,We Shall All Be Healed,,,""" Against Pollution ”",False,Against Pollution,Against Pollution,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,19,19.0,0,Last Day,Last_Day,Days,,,""" Last Day """,False,Last Day,Last Day,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,20,20.0,0,This Year,This_Year,The Sunset Tree,,,""" This Year """,False,This Year,This Year,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,21,21.0,0,No Children,No_Children,Tallahassee,,,""" No Children """,False,No Children,No Children,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,22,22.0,1,Love Love Love,Love_Love_Love,The Sunset Tree,,,""" Love Love Love """,False,Love Love Love,Love Love Love,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,23,23.0,1,See America Right,See_America_Right,Tallahassee,,,""" See America Right """,False,See America Right,See America Right,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,24,24.0,1,Up the Wolves,Up_the_Wolves,The Sunset Tree,,,""" Up the Wolves """,False,Up the Wolves,Up the Wolves,False
+"2026-08-21_-_The_NorVa_-_Norfolk,_VA",2026-08-21,2026.0,25,25.0,1,Sweet Jane,Sweet_Jane,Unreleased,(The Velvet Underground),,""" Sweet Jane "" (The Velvet Underground)",False,Sweet Jane,Sweet Jane,True
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,1,1.0,0,Armies of the Lord,Armies_of_the_Lord,Through This Fire Across From Peter Balkan,,,""" Armies of the Lord ”",False,Armies of the Lord,Armies of the Lord,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,2,2.0,0,Cold at Night,Cold_at_Night,Through This Fire Across From Peter Balkan,,,""" Cold at Night ”",False,Cold at Night,Cold at Night,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,3,3.0,0,Doc Gooden,Doc_Gooden,In League with Dragons,,,""" Doc Gooden ”",False,Doc Gooden,Doc Gooden,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,4,4.0,0,Fishing Boat,Fishing_Boat,Through This Fire Across From Peter Balkan,,,""" Fishing Boat """,False,Fishing Boat,Fishing Boat,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,5,5.0,0,Crying on Eddie Nash's Grave,Crying_on_Eddie_Nash's_Grave,Days,,,""" Crying on Eddie Nash's Grave ”",False,Crying on Eddie Nash's Grave,Crying on Eddie Nash's Grave,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,6,6.0,0,Charlie Sheen Reaches Out to the Feds,Charlie_Sheen_Reaches_Out_to_the_Feds,Days,,,""" Charlie Sheen Reaches Out to the Feds ”",False,Charlie Sheen Reaches Out to the Feds,Charlie Sheen Reaches Out to the Feds,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,7,7.0,0,Shallow Grave,Shallow_Grave,Days,,,""" Shallow Grave ”",False,Shallow Grave,Shallow Grave,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,8,8.0,0,You Were Cool,You_Were_Cool,Unreleased,,,""" You Were Cool """,False,You Were Cool,You Were Cool,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,9,9.0,0,Running Away with What Freud Said,Running_Away_with_What_Freud_Said,Taboo VI: The Homecoming,,,""" Running Away with What Freud Said """,True,Running Away with What Freud Said,Running Away with What Freud Said,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,10,10.0,0,Untitled Song for the Singer from Viking,Untitled_Song_for_the_Singer_from_Viking,Unreleased,,,""" Untitled Song for the Singer from Viking """,True,Untitled Song for the Singer from Viking,Untitled Song for the Singer from Viking,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,11,11.0,0,Steal Smoked Fish,Steal_Smoked_Fish,Steal Smoked Fish EP,,,""" Steal Smoked Fish """,True,Steal Smoked Fish,Steal Smoked Fish,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,12,12.0,0,Younger,Younger,In League with Dragons,,,""" Younger """,True,Younger,Younger,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,13,13.0,0,Days (song),Days_(song),Days,,,""" Days ”",False,Days (song),Days (song),False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,14,14.0,0,Candlebox,Candlebox,Days,,,""" Candlebox ”",False,Candlebox,Candlebox,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,15,15.0,0,Through This Fire,Through_This_Fire,Through This Fire Across From Peter Balkan,,,""" Through This Fire ”",False,Through This Fire,Through This Fire,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,16,16.0,0,Done Bleeding,Done_Bleeding,In League with Dragons,,,""" Done Bleeding ”",False,Done Bleeding,Done Bleeding,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,17,17.0,0,Cadaver Sniffing Dog,Cadaver_Sniffing_Dog,In League with Dragons,,,""" Cadaver Sniffing Dog ”",False,Cadaver Sniffing Dog,Cadaver Sniffing Dog,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,18,18.0,0,No Children,No_Children,Tallahassee,,,""" No Children ”",False,No Children,No Children,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,19,19.0,0,This Year,This_Year,The Sunset Tree,,,""" This Year """,False,This Year,This Year,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,20,20.0,1,Song for Layne Staley,Song_for_Layne_Staley,Days,,,""" Song for Layne Staley ”",False,Song for Layne Staley,Song for Layne Staley,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,21,21.0,1,Amy AKA Spent Gladiator 1,Amy_AKA_Spent_Gladiator_1,Transcendental Youth,,,""" Amy AKA Spent Gladiator 1 """,False,Amy AKA Spent Gladiator 1,Amy AKA Spent Gladiator 1,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,22,22.0,1,Up the Wolves,Up_the_Wolves,The Sunset Tree,,,""" Up the Wolves """,False,Up the Wolves,Up the Wolves,False
+"2026-08-22_-_Durham_Performing_Arts_Center_-_Durham,_NC",2026-08-22,2026.0,23,23.0,1,See America Right,See_America_Right,Tallahassee,,,""" See America Right """,False,See America Right,See America Right,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,1,1.0,0,Going to Fennario,Going_to_Fennario,Days,,,""" Going to Fennario ”",True,Going to Fennario,Going to Fennario,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,2,2.0,0,Fault Lines,Fault_Lines,All Hail West Texas,,,""" Fault Lines ”",True,Fault Lines,Fault Lines,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,3,3.0,0,Source Decay,Source_Decay,All Hail West Texas,,,""" Source Decay """,True,Source Decay,Source Decay,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,4,4.0,0,Song for Layne Staley,Song_for_Layne_Staley,Days,,,""" Song for Layne Staley ”",True,Song for Layne Staley,Song for Layne Staley,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,5,5.0,0,Shallow Grave,Shallow_Grave,Days,,,""" Shallow Grave ”",True,Shallow Grave,Shallow Grave,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,6,6.0,0,Choked Out,Choked_Out,Beat the Champ,,,""" Choked Out """,True,Choked Out,Choked Out,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,7,7.0,0,Going to Bolivia,Going_to_Bolivia,Sweden,,,""" Going to Bolivia """,True,Going to Bolivia,Going to Bolivia,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,8,8.0,0,Deianara Crush,Deianara_Crush,Sweden,,,""" Deianara Crush ”",True,Deianara Crush,Deianara Crush,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,9,9.0,0,Some Swedish Trees,Some_Swedish_Trees,Sweden,,,""" Some Swedish Trees ”",True,Some Swedish Trees,Some Swedish Trees,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,10,10.0,0,Last Day,Last_Day,Days,,,""" Last Day ”",True,Last Day,Last Day,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,11,11.0,0,Going to Maine,Going_to_Maine,Ghana,,,""" Going to Maine ”",True,Going to Maine,Going to Maine,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,12,12.0,0,Andrew Eldritch Is Moving Back to Leeds,Andrew_Eldritch_Is_Moving_Back_to_Leeds,Goths,,,""" Andrew Eldritch Is Moving Back to Leeds ”",True,Andrew Eldritch Is Moving Back to Leeds,Andrew Eldritch Is Moving Back to Leeds,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,13,13.0,0,Raid on Entebbe,Raid_on_Entebbe,Jack and Faye,,,""" Raid on Entebbe ”",True,Raid on Entebbe,Raid on Entebbe,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,14,14.0,0,Younger,Younger,In League with Dragons,,,""" Younger ”",True,Younger,Younger,False
+"2026-09-16_-_Reckless_Records_-_Chicago,_IL",2026-09-16,2026.0,15,15.0,1,This Year,This_Year,The Sunset Tree,,,""" This Year ”",True,This Year,This Year,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,1,1.0,0,Song for Layne Staley,Song_for_Layne_Staley,Days,,,""" Song for Layne Staley ”",False,Song for Layne Staley,Song for Layne Staley,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,2,2.0,0,Crying on Eddie Nash's Grave,Crying_on_Eddie_Nash's_Grave,Days,,,""" Crying on Eddie Nash's Grave ”",False,Crying on Eddie Nash's Grave,Crying on Eddie Nash's Grave,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,3,3.0,0,Cry for Judas,Cry_for_Judas,Transcendental Youth,,,""" Cry for Judas ”",False,Cry for Judas,Cry for Judas,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,4,4.0,0,Shallow Grave,Shallow_Grave,Days,,,""" Shallow Grave ”",False,Shallow Grave,Shallow Grave,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,5,5.0,0,Charlie Sheen Reaches Out to the Feds,Charlie_Sheen_Reaches_Out_to_the_Feds,Days,,,""" Charlie Sheen Reaches Out to the Feds ”",False,Charlie Sheen Reaches Out to the Feds,Charlie Sheen Reaches Out to the Feds,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,6,6.0,0,You Were Cool,You_Were_Cool,Unreleased,,,""" You Were Cool """,False,You Were Cool,You Were Cool,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,7,7.0,0,Days (song),Days_(song),Days,,,""" Days ”",False,Days (song),Days (song),False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,8,8.0,0,Candlebox,Candlebox,Days,,,""" Candlebox ”",False,Candlebox,Candlebox,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,9,9.0,0,Younger,Younger,In League with Dragons,,,""" Younger ”",False,Younger,Younger,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,10,10.0,0,Last Day,Last_Day,Days,,,""" Last Day ”",False,Last Day,Last Day,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,11,11.0,0,No Children,No_Children,Tallahassee,,,""" No Children ”",False,No Children,No Children,False
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",2026-09-17,2026.0,12,12.0,0,This Year,This_Year,The Sunset Tree,,,""" This Year ”",False,This Year,This Year,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,1,1.0,0,Song for Layne Staley,Song_for_Layne_Staley,Days,,,""" Song for Layne Staley ”",False,Song for Layne Staley,Song for Layne Staley,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,2,2.0,0,Cadaver Sniffing Dog,Cadaver_Sniffing_Dog,In League with Dragons,,,""" Cadaver Sniffing Dog ”",False,Cadaver Sniffing Dog,Cadaver Sniffing Dog,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,3,3.0,0,Crying on Eddie Nash's Grave,Crying_on_Eddie_Nash's_Grave,Days,,,""" Crying on Eddie Nash's Grave ”",False,Crying on Eddie Nash's Grave,Crying on Eddie Nash's Grave,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,4,4.0,0,Andrew Eldritch Is Moving Back to Leeds,Andrew_Eldritch_Is_Moving_Back_to_Leeds,Goths,,,""" Andrew Eldritch Is Moving Back to Leeds ”",False,Andrew Eldritch Is Moving Back to Leeds,Andrew Eldritch Is Moving Back to Leeds,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,5,5.0,0,Shallow Grave,Shallow_Grave,Days,,,""" Shallow Grave ”",False,Shallow Grave,Shallow Grave,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,6,6.0,0,Charlie Sheen Reaches Out to the Feds,Charlie_Sheen_Reaches_Out_to_the_Feds,Days,,,""" Charlie Sheen Reaches Out to the Feds ”",False,Charlie Sheen Reaches Out to the Feds,Charlie Sheen Reaches Out to the Feds,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,7,7.0,0,You Were Cool,You_Were_Cool,Unreleased,,,""" You Were Cool """,False,You Were Cool,You Were Cool,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,8,8.0,0,Source Decay,Source_Decay,All Hail West Texas,,,""" Source Decay """,True,Source Decay,Source Decay,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,9,9.0,0,Letter from a Motel,Letter_from_a_Motel,Unreleased,,,""" Letter from a Motel ”",True,Letter from a Motel,Letter from a Motel,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,10,10.0,0,Young Caesar 2000,Young_Caesar_2000,Zopilote Machine,,,""" Young Caesar 2000 ”",True,Young Caesar 2000,Young Caesar 2000,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,11,11.0,0,Younger,Younger,In League with Dragons,,,""" Younger ”",True,Younger,Younger,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,12,12.0,0,Days (song),Days_(song),Days,,,""" Days """,False,Days (song),Days (song),False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,13,13.0,0,Through This Fire,Through_This_Fire,Through This Fire Across From Peter Balkan,,,""" Through This Fire ”",False,Through This Fire,Through This Fire,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,14,14.0,0,Candlebox,Candlebox,Days,,,""" Candlebox ”",False,Candlebox,Candlebox,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,15,15.0,0,Done Bleeding,Done_Bleeding,In League with Dragons,,,""" Done Bleeding ”",False,Done Bleeding,Done Bleeding,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,16,16.0,0,Cry for Judas,Cry_for_Judas,Transcendental Youth,,,""" Cry for Judas ”",False,Cry for Judas,Cry for Judas,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,17,17.0,0,Against Pollution,Against_Pollution,We Shall All Be Healed,,,""" Against Pollution ”",False,Against Pollution,Against Pollution,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,18,18.0,0,Last Day,Last_Day,Days,,,""" Last Day ”",False,Last Day,Last Day,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,19,19.0,0,This Year,This_Year,The Sunset Tree,,,""" This Year """,False,This Year,This Year,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,20,20.0,1,Amy AKA Spent Gladiator 1,Amy_AKA_Spent_Gladiator_1,Transcendental Youth,,,""" Amy AKA Spent Gladiator 1 ”",False,Amy AKA Spent Gladiator 1,Amy AKA Spent Gladiator 1,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,21,21.0,1,Up the Wolves,Up_the_Wolves,The Sunset Tree,,,""" Up the Wolves ”",False,Up the Wolves,Up the Wolves,False
+"2026-09-18_-_The_City_Center_-_Champaign,_IL",2026-09-18,2026.0,22,22.0,1,No Children,No_Children,Tallahassee,,,""" No Children """,False,No Children,No Children,False
 "1992-xx-xx_-_Munchie's_-_Pomona,_CA",,1992.0,1,,0,Going to Chino,Going_to_Chino,The Hound Chronicles,,,""" Going to Chino """,False,Going to Chino,Going to Chino,False
 "1994-xx-xx_-_Stache's_-_Columbus,_OH",,1994.0,1,1.0,0,Song from the Shoreline,Song_from_the_Shoreline,Unreleased,,,""" Song from the Shoreline """,False,Song from the Shoreline,Song from the Shoreline,False
 "1994-xx-xx_-_Stache's_-_Columbus,_OH",,1994.0,2,2.0,0,Going to Palestine,Going_to_Palestine,Unreleased,,,""" Going to Palestine """,False,Going to Palestine,Going to Palestine,False
