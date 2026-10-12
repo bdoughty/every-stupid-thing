@@ -18,10 +18,10 @@ Dance Music,Dance Music,73,14,False,87,0.16091954022988506,0.16545032877684102,T
 Corsican Mastiff Stride,Corsican Mastiff Stride,79,7,False,86,0.08139534883720931,0.09274235355106274,True
 Moon Over Goldsboro,Moon Over Goldsboro,84,0,False,84,0.0,0.018671535149998874,True
 Broom People,Broom People,58,25,False,83,0.30120481927710846,0.29360199158021866,True
-Amy AKA Spent Gladiator 1,Amy AKA Spent Gladiator 1,26,57,False,83,0.6867469879518072,0.6452503432285703,True
 Heel Turn 2,Heel Turn 2,45,38,False,83,0.4578313253012048,0.4364591344373615,True
-The Slow Parts on Death Metal Albums,The Slow Parts on Death Metal Albums,9,73,False,82,0.8902439024390244,0.8301975692644433,True
+Amy AKA Spent Gladiator 1,Amy AKA Spent Gladiator 1,26,57,False,83,0.6867469879518072,0.6452503432285703,True
 Andrew Eldritch Is Moving Back to Leeds,Andrew Eldritch Is Moving Back to Leeds,82,0,False,82,0.0,0.01908645815333218,True
+The Slow Parts on Death Metal Albums,The Slow Parts on Death Metal Albums,9,73,False,82,0.8902439024390244,0.8301975692644433,True
 Game Shows Touch Our Lives,Game Shows Touch Our Lives,30,50,False,80,0.625,0.5877020594749989,True
 First Blood,First Blood,64,13,False,77,0.16883116883116883,0.1731503674564694,True
 Palmcorder Yajna,Palmcorder Yajna,26,50,False,76,0.6578947368421053,0.6156878718309512,True
@@ -49,9 +49,9 @@ Getting Into Knives (song),Getting Into Knives (song),42,15,False,57,0.263157894
 In the Craters on the Moon,In the Craters on the Moon,56,0,False,56,0.0,0.02684033177812338,True
 Cadaver Sniffing Dog,Cadaver Sniffing Dog,52,3,False,55,0.05454545454545454,0.07488541640952216,True
 New Zion,New Zion,52,2,False,54,0.037037037037037035,0.05996421344838542,True
-You Were Cool,You Were Cool,49,5,False,54,0.09259259259259259,0.10835131022257898,True
-Southwood Plantation Road,Southwood Plantation Road,46,8,False,54,0.14814814814814814,0.15673840699677252,True
 Foreign Object,Foreign Object,27,27,False,54,0.5,0.46319001989999836,True
+Southwood Plantation Road,Southwood Plantation Road,46,8,False,54,0.14814814814814814,0.15673840699677252,True
+You Were Cool,You Were Cool,49,5,False,54,0.09259259259259259,0.10835131022257898,True
 Jenny,Jenny,49,4,False,53,0.07547169811320754,0.09373411858688355,True
 Abandoned Flesh,Abandoned Flesh,49,3,False,52,0.057692307692307696,0.07862968722999827,True
 San Bernardino,San Bernardino,44,7,False,51,0.13725490196078433,0.14775900396271013,True
@@ -60,462 +60,462 @@ Transcendental Youth (Song),Transcendental Youth (Song),49,0,False,49,0.0,0.0301
 Unicorn Tolerance,Unicorn Tolerance,48,0,False,48,0.0,0.030674664889283863,True
 The Grey King and the Silver Flame Attunement,The Grey King and the Silver Flame Attunement,45,1,False,46,0.021739130434782608,0.05032928210740549,True
 Make You Suffer,Make You Suffer,46,0,False,46,0.0,0.031810763588886966,True
-Night Light,Night Light,44,0,False,44,0.0,0.033034254496151855,True
-Against Pollution,Against Pollution,39,5,False,44,0.11363636363636363,0.129188100649998,True
-Jenny III,Jenny III,44,0,False,44,0.0,0.033034254496151855,True
 The Best Ever Death Metal Band in Denton,The Best Ever Death Metal Band in Denton,15,29,False,44,0.6590909090909091,0.5907265621884595,True
 Bones Don't Rust,Bones Don't Rust,44,0,False,44,0.0,0.033034254496151855,True
+Against Pollution,Against Pollution,39,5,False,44,0.11363636363636363,0.129188100649998,True
+Night Light,Night Light,44,0,False,44,0.0,0.033034254496151855,True
+Jenny III,Jenny III,44,0,False,44,0.0,0.033034254496151855,True
 Southwestern Territory,Southwestern Territory,33,11,False,44,0.25,0.24457271603461342,True
-International Small Arms Traffic Blues,International Small Arms Traffic Blues,15,28,False,43,0.6511627906976745,0.5827015928196059,True
-Grendel's Mother,Grendel's Mother,39,4,False,43,0.09302325581395349,0.11211335752548816,True
-Tallahassee (Song),Tallahassee (Song),40,3,False,43,0.06976744186046512,0.09250551438823326,True
 Broken To Begin With,Broken To Begin With,40,3,False,43,0.06976744186046512,0.09250551438823326,True
+Tallahassee (Song),Tallahassee (Song),40,3,False,43,0.06976744186046512,0.09250551438823326,True
+Grendel's Mother,Grendel's Mother,39,4,False,43,0.09302325581395349,0.11211335752548816,True
+International Small Arms Traffic Blues,International Small Arms Traffic Blues,15,28,False,43,0.6511627906976745,0.5827015928196059,True
 Song for Dennis Brown,Song for Dennis Brown,9,33,False,42,0.7857142857142857,0.694355624675998,True
-Your Belgian Things,Your Belgian Things,40,1,False,41,0.024390243902439025,0.055464923138773395,True
 Minnesota,Minnesota,38,3,False,41,0.07317073170731707,0.09628124966938564,True
+Your Belgian Things,Your Belgian Things,40,1,False,41,0.024390243902439025,0.055464923138773395,True
 Lizard Suit,Lizard Suit,40,0,False,40,0.0,0.03578710903749784,True
 Pez Dorado,Pez Dorado,40,0,False,40,0.0,0.03578710903749784,True
 Until I Am Whole,Until I Am Whole,38,1,False,39,0.02564102564102564,0.05782513263404035,True
 Color in Your Cheeks,Color in Your Cheeks,32,7,False,39,0.1794871794871795,0.18548470710212547,True
 Soft Targets,Soft Targets,39,0,False,39,0.0,0.036548536889359495,True
-Love Love Love,Love Love Love,18,19,False,37,0.5135135135135135,0.4603951385288866,True
 Steal Smoked Fish,Steal Smoked Fish,35,2,False,37,0.05405405405405406,0.0826173607511088,True
-We Do It Different on the West Coast,We Do It Different on the West Coast,20,16,False,36,0.4444444444444444,0.4026768462227249,True
+Love Love Love,Love Love Love,18,19,False,37,0.5135135135135135,0.4603951385288866,True
 Aulon Raid,Aulon Raid,34,2,False,36,0.05555555555555555,0.08449502804090674,True
+We Do It Different on the West Coast,We Do It Different on the West Coast,20,16,False,36,0.4444444444444444,0.4026768462227249,True
 Lion's Teeth,Lion's Teeth,30,6,False,36,0.16666666666666666,0.17540411894999763,True
-Magpie,Magpie,33,1,False,34,0.029411764705882353,0.06470907699523562,True
 "Passaic, 1975","Passaic, 1975",32,2,False,34,0.058823529411764705,0.08851860080475944,True
+Magpie,Magpie,33,1,False,34,0.029411764705882353,0.06470907699523562,True
 The Mess Inside,The Mess Inside,22,11,False,33,0.3333333333333333,0.3101897861902414,True
-Murder at the 18th St. Garage,Murder at the 18th St. Garage,32,0,False,32,0.0,0.04294453084499741,True
 1 Samuel 15:23,1 Samuel 15:23,29,3,False,32,0.09375,0.11794453084499741,True
+Murder at the 18th St. Garage,Murder at the 18th St. Garage,32,0,False,32,0.0,0.04294453084499741,True
 Dutch Orchestra Blues,Dutch Orchestra Blues,31,0,False,31,0.0,0.044045672661535806,True
-Guys on Every Corner,Guys on Every Corner,26,4,False,30,0.13333333333333333,0.15046792720526042,True
-Going Invisible 2,Going Invisible 2,7,23,False,30,0.7666666666666667,0.6504679272052605,True
 Romans 10:9,Romans 10:9,30,0,False,30,0.0,0.045204769310523585,True
 Maybe Sprout Wings,Maybe Sprout Wings,28,2,False,30,0.06666666666666667,0.097836348257892,True
-Extraction Point,Extraction Point,29,0,False,29,0.0,0.04642651983242963,True
-Great Pirates,Great Pirates,29,0,False,29,0.0,0.04642651983242963,True
+Going Invisible 2,Going Invisible 2,7,23,False,30,0.7666666666666667,0.6504679272052605,True
+Guys on Every Corner,Guys on Every Corner,26,4,False,30,0.13333333333333333,0.15046792720526042,True
 Doc Gooden,Doc Gooden,28,1,False,29,0.034482758620689655,0.07345354685945665,True
+Great Pirates,Great Pirates,29,0,False,29,0.0,0.04642651983242963,True
+Extraction Point,Extraction Point,29,0,False,29,0.0,0.04642651983242963,True
 Hostages,Hostages,28,0,False,28,0.0,0.04771614538333045,True
-Elijah,Elijah,28,0,False,28,0.0,0.04771614538333045,True
 Wolf Count,Wolf Count,28,0,False,28,0.0,0.04771614538333045,True
+Elijah,Elijah,28,0,False,28,0.0,0.04771614538333045,True
+Armies of the Lord,Armies of the Lord,25,2,False,27,0.07407407407407407,0.10622232096571133,True
 Training Montage,Training Montage,17,10,False,27,0.37037037037037035,0.3347937495371399,True
 Black Pear Tree,Black Pear Tree,26,1,False,27,0.037037037037037035,0.07765089239428276,True
-Armies of the Lord,Armies of the Lord,25,2,False,27,0.07407407407407407,0.10622232096571133,True
+Hebrews 11:40,Hebrews 11:40,26,0,False,26,0.0,0.050522977464702835,True
 Source Decay,Source Decay,25,1,False,26,0.038461538461538464,0.07993474217058519,True
 Stabbed to Death Outside San Juan,Stabbed to Death Outside San Juan,25,1,False,26,0.038461538461538464,0.07993474217058519,True
-Hebrews 11:40,Hebrews 11:40,26,0,False,26,0.0,0.050522977464702835,True
+Done Bleeding,Done Bleeding,25,0,False,25,0.0,0.05205397678181504,True
+New Britain,New Britain,25,0,False,25,0.0,0.05205397678181504,True
 Fishing Boat,Fishing Boat,25,0,False,25,0.0,0.05205397678181504,True
 Lovecraft in Brooklyn,Lovecraft in Brooklyn,25,0,False,25,0.0,0.05205397678181504,True
-New Britain,New Britain,25,0,False,25,0.0,0.05205397678181504,True
-Done Bleeding,Done Bleeding,25,0,False,25,0.0,0.05205397678181504,True
+Shallow Grave,Shallow Grave,21,3,False,24,0.125,0.14743066355624676,True
 Peru,Peru,24,0,False,24,0.0,0.05368066355624676,True
 Your Bandage,Your Bandage,24,0,False,24,0.0,0.05368066355624676,True
-Shallow Grave,Shallow Grave,21,3,False,24,0.125,0.14743066355624676,True
-Hair Match,Hair Match,23,0,False,23,0.0,0.05541229786451279,True
-Bell Swamp Connection,Bell Swamp Connection,23,0,False,23,0.0,0.05541229786451279,True
-Letter from Belgium,Letter from Belgium,22,1,False,23,0.043478260869565216,0.08767036238064181,True
 Prowl Great Cain,Prowl Great Cain,22,1,False,23,0.043478260869565216,0.08767036238064181,True
-Choked Out,Choked Out,22,0,False,22,0.0,0.05725937445999654,True
+Letter from Belgium,Letter from Belgium,22,1,False,23,0.043478260869565216,0.08767036238064181,True
+Bell Swamp Connection,Bell Swamp Connection,23,0,False,23,0.0,0.05541229786451279,True
+Hair Match,Hair Match,23,0,False,23,0.0,0.05541229786451279,True
 Only One Way,Only One Way,22,0,False,22,0.0,0.05725937445999654,True
 Charlie Sheen Reaches Out to the Feds,Charlie Sheen Reaches Out to the Feds,22,0,False,22,0.0,0.05725937445999654,True
+Choked Out,Choked Out,22,0,False,22,0.0,0.05725937445999654,True
 Idylls of the King,Idylls of the King,21,0,False,21,0.0,0.05923383564827229,True
 White Cedar,White Cedar,21,0,False,21,0.0,0.05923383564827229,True
 Dawn of Revelation,Dawn of Revelation,21,0,False,21,0.0,0.05923383564827229,True
 The Coroner's Gambit (Song),The Coroner's Gambit (Song),20,0,False,20,0.0,0.061349329778567725,True
-Luna,Luna,19,1,False,20,0.05,0.09706361549285344,True
-Michael Myers Resplendent,Michael Myers Resplendent,19,1,False,20,0.05,0.09706361549285344,True
-Jeff Davis County Blues,Jeff Davis County Blues,19,1,False,20,0.05,0.09706361549285344,True
-Estate Sale Sign,Estate Sale Sign,20,0,False,20,0.0,0.061349329778567725,True
 Deuteronomy 2:10,Deuteronomy 2:10,16,4,False,20,0.2,0.2042064726357106,True
+Jeff Davis County Blues,Jeff Davis County Blues,19,1,False,20,0.05,0.09706361549285344,True
+Luna,Luna,19,1,False,20,0.05,0.09706361549285344,True
+Estate Sale Sign,Estate Sale Sign,20,0,False,20,0.0,0.061349329778567725,True
+Michael Myers Resplendent,Michael Myers Resplendent,19,1,False,20,0.05,0.09706361549285344,True
 Clean Slate,Clean Slate,18,2,False,20,0.1,0.13277790120713914,True
+An Antidote for Strychnine,An Antidote for Strychnine,18,1,False,19,0.05263157894736842,0.10065856421481098,True
 Wage Wars Get Rich Die Handsome,Wage Wars Get Rich Die Handsome,18,1,False,19,0.05263157894736842,0.10065856421481098,True
 Rocks in My Pockets,Rocks in My Pockets,19,0,False,19,0.0,0.06362152717777393,True
-An Antidote for Strychnine,An Antidote for Strychnine,18,1,False,19,0.05263157894736842,0.10065856421481098,True
-Cleaning Crew,Cleaning Crew,18,0,False,18,0.0,0.06606850899230371,True
+Alpha Omega,Alpha Omega,18,0,False,18,0.0,0.06606850899230371,True
 Werewolf Gimmick,Werewolf Gimmick,16,2,False,18,0.1111111111111111,0.14299158591538064,True
-Birth of Serpents,Birth of Serpents,16,2,False,18,0.1111111111111111,0.14299158591538064,True
-Going to Bogotá,Going to Bogotá,18,0,False,18,0.0,0.06606850899230371,True
 Island Garden Song,Island Garden Song,18,0,False,18,0.0,0.06606850899230371,True
 High Hawk Season,High Hawk Season,18,0,False,18,0.0,0.06606850899230371,True
-Alpha Omega,Alpha Omega,18,0,False,18,0.0,0.06606850899230371,True
-Get Lonely (Song),Get Lonely (Song),17,0,False,17,0.0,0.06871124935199585,True
-Prana Ferox,Prana Ferox,17,0,False,17,0.0,0.06871124935199585,True
+Cleaning Crew,Cleaning Crew,18,0,False,18,0.0,0.06606850899230371,True
+Birth of Serpents,Birth of Serpents,16,2,False,18,0.1111111111111111,0.14299158591538064,True
+Going to Bogotá,Going to Bogotá,18,0,False,18,0.0,0.06606850899230371,True
 Transjordanian Blues,Transjordanian Blues,17,0,False,17,0.0,0.06871124935199585,True
+Prana Ferox,Prana Ferox,17,0,False,17,0.0,0.06871124935199585,True
+Get Lonely (Song),Get Lonely (Song),17,0,False,17,0.0,0.06871124935199585,True
 Whole Wide World,Whole Wide World,15,2,False,17,0.11764705882352941,0.14871124935199587,True
+As Many Candles As Possible,As Many Candles As Possible,15,1,False,16,0.0625,0.11324088474166234,True
 Shadow Song,Shadow Song,15,1,False,16,0.0625,0.11324088474166234,True
 Baboon,Baboon,16,0,False,16,0.0,0.07157421807499569,True
-As Many Candles As Possible,As Many Candles As Possible,15,1,False,16,0.0625,0.11324088474166234,True
-Animal Mask,Animal Mask,15,1,False,16,0.0625,0.11324088474166234,True
 Azo Tle Nelli in Tlalticpac?,Azo Tle Nelli in Tlalticpac?,16,0,False,16,0.0,0.07157421807499569,True
-Psalms 40:2,Psalms 40:2,13,2,False,15,0.13333333333333333,0.16164266233912591,True
-From TG&Y,From TG&Y,15,0,False,15,0.0,0.0746861405999955,True
+Animal Mask,Animal Mask,15,1,False,16,0.0625,0.11324088474166234,True
 Mark On You,Mark On You,15,0,False,15,0.0,0.0746861405999955,True
-Cold at Night,Cold at Night,15,0,False,15,0.0,0.0746861405999955,True
-Stench of the Unburied,Stench of the Unburied,14,1,False,15,0.06666666666666667,0.11816440146956071,True
+From TG&Y,From TG&Y,15,0,False,15,0.0,0.0746861405999955,True
 Autoclave,Autoclave,15,0,False,15,0.0,0.0746861405999955,True
-Oceanographer's Choice,Oceanographer's Choice,15,0,False,15,0.0,0.0746861405999955,True
+Stench of the Unburied,Stench of the Unburied,14,1,False,15,0.06666666666666667,0.11816440146956071,True
+Cold at Night,Cold at Night,15,0,False,15,0.0,0.0746861405999955,True
+Psalms 40:2,Psalms 40:2,13,2,False,15,0.13333333333333333,0.16164266233912591,True
 No More Tears,No More Tears,15,0,False,15,0.0,0.0746861405999955,True
 Song for Lonely Giants,Song for Lonely Giants,15,0,False,15,0.0,0.0746861405999955,True
 Picture of My Dress,Picture of My Dress,14,1,False,15,0.06666666666666667,0.11816440146956071,True
+Oceanographer's Choice,Oceanographer's Choice,15,0,False,15,0.0,0.0746861405999955,True
 Jaipur,Jaipur,15,0,False,15,0.0,0.0746861405999955,True
-Beautiful Gas Mask,Beautiful Gas Mask,14,0,False,14,0.0,0.07808096517272256,True
+There Will Be No Divorce,There Will Be No Divorce,14,0,False,14,0.0,0.07808096517272256,True
 It Froze Me,It Froze Me,13,1,False,14,0.07142857142857142,0.12353551062726802,True
+Beautiful Gas Mask,Beautiful Gas Mask,14,0,False,14,0.0,0.07808096517272256,True
 Solidarity Forever,Solidarity Forever,11,3,True,14,0.21428571428571427,0.21444460153635891,True
+Song for My Stepfather,Song for My Stepfather,14,0,False,14,0.0,0.07808096517272256,True
 Isaiah 45:23,Isaiah 45:23,14,0,False,14,0.0,0.07808096517272256,True
 Mobile,Mobile,14,0,False,14,0.0,0.07808096517272256,True
-Only Takes a Few,Only Takes a Few,14,0,True,14,0.0,0.07808096517272256,True
-There Will Be No Divorce,There Will Be No Divorce,14,0,False,14,0.0,0.07808096517272256,True
-Song for My Stepfather,Song for My Stepfather,14,0,False,14,0.0,0.07808096517272256,True
 Paid in Cocaine,Paid in Cocaine,13,1,False,14,0.07142857142857142,0.12353551062726802,True
+Only Takes a Few,Only Takes a Few,14,0,True,14,0.0,0.07808096517272256,True
 The Recognition Scene,The Recognition Scene,11,2,False,13,0.15384615384615385,0.17703720160951888,True
 Matthew 25:21,Matthew 25:21,13,0,False,13,0.0,0.08179910637142364,True
 From the Nebraska Plant,From the Nebraska Plant,13,0,False,13,0.0,0.08179910637142364,True
 Going to Queens,Going to Queens,13,0,False,13,0.0,0.08179910637142364,True
-Shirtless in Hamburg,Shirtless in Hamburg,12,0,False,12,0.0,0.08588906168999481,True
-First Few Desperate Hours,First Few Desperate Hours,11,1,False,12,0.08333333333333333,0.13588906168999482,True
-Alpha Incipiens,Alpha Incipiens,10,2,False,12,0.16666666666666666,0.1858890616899948,True
-How to Embrace a Swamp Creature,How to Embrace a Swamp Creature,12,0,False,12,0.0,0.08588906168999481,True
-Raja Vocative,Raja Vocative,12,0,False,12,0.0,0.08588906168999481,True
-Attention All Pickpockets,Attention All Pickpockets,10,2,False,12,0.16666666666666666,0.1858890616899948,True
-Blood Capsules,Blood Capsules,5,7,False,12,0.5833333333333334,0.43588906168999486,True
-Alpha in Tauris,Alpha in Tauris,12,0,False,12,0.0,0.08588906168999481,True
-New Chevrolet in Flames,New Chevrolet in Flames,10,2,False,12,0.16666666666666666,0.1858890616899948,True
 Love Cuts the Strings,Love Cuts the Strings,9,3,False,12,0.25,0.23588906168999482,True
+How to Embrace a Swamp Creature,How to Embrace a Swamp Creature,12,0,False,12,0.0,0.08588906168999481,True
 I've Got the Sex,I've Got the Sex,11,1,False,12,0.08333333333333333,0.13588906168999482,True
 Linda Blair Was Born Innocent,Linda Blair Was Born Innocent,11,1,False,12,0.08333333333333333,0.13588906168999482,True
-Going to Kansas,Going to Kansas,12,0,False,12,0.0,0.08588906168999481,True
-Pseudothyrum Song,Pseudothyrum Song,12,0,False,12,0.0,0.08588906168999481,True
+Blood Capsules,Blood Capsules,5,7,False,12,0.5833333333333334,0.43588906168999486,True
+Alpha Incipiens,Alpha Incipiens,10,2,False,12,0.16666666666666666,0.1858890616899948,True
+Raja Vocative,Raja Vocative,12,0,False,12,0.0,0.08588906168999481,True
 Onions,Onions,11,1,False,12,0.08333333333333333,0.13588906168999482,True
-The Destruction of the Kola Superdeep Borehole Tower,The Destruction of the Kola Superdeep Borehole Tower,11,0,False,11,0.0,0.09040953862104717,True
-Narakaloka,Narakaloka,11,0,False,11,0.0,0.09040953862104717,True
-Snow Crush Killing Song,Snow Crush Killing Song,11,0,False,11,0.0,0.09040953862104717,True
-Old College Try,Old College Try,11,0,False,11,0.0,0.09040953862104717,True
-Dinu Lipatti's Bones,Dinu Lipatti's Bones,11,0,False,11,0.0,0.09040953862104717,True
-Need More Bandages,Need More Bandages,11,0,False,11,0.0,0.09040953862104717,True
+Attention All Pickpockets,Attention All Pickpockets,10,2,False,12,0.16666666666666666,0.1858890616899948,True
+Alpha in Tauris,Alpha in Tauris,12,0,False,12,0.0,0.08588906168999481,True
+First Few Desperate Hours,First Few Desperate Hours,11,1,False,12,0.08333333333333333,0.13588906168999482,True
+Pseudothyrum Song,Pseudothyrum Song,12,0,False,12,0.0,0.08588906168999481,True
+Shirtless in Hamburg,Shirtless in Hamburg,12,0,False,12,0.0,0.08588906168999481,True
+Going to Kansas,Going to Kansas,12,0,False,12,0.0,0.08588906168999481,True
+New Chevrolet in Flames,New Chevrolet in Flames,10,2,False,12,0.16666666666666666,0.1858890616899948,True
 Going to Palestine,Going to Palestine,11,0,False,11,0.0,0.09040953862104717,True
-Wild Sage,Wild Sage,8,2,False,10,0.2,0.206543401877772,True
+Need More Bandages,Need More Bandages,11,0,False,11,0.0,0.09040953862104717,True
+Narakaloka,Narakaloka,11,0,False,11,0.0,0.09040953862104717,True
+Dinu Lipatti's Bones,Dinu Lipatti's Bones,11,0,False,11,0.0,0.09040953862104717,True
+Old College Try,Old College Try,11,0,False,11,0.0,0.09040953862104717,True
+The Destruction of the Kola Superdeep Borehole Tower,The Destruction of the Kola Superdeep Borehole Tower,11,0,False,11,0.0,0.09040953862104717,True
+Snow Crush Killing Song,Snow Crush Killing Song,11,0,False,11,0.0,0.09040953862104717,True
+Carmen Cicero,Carmen Cicero,3,7,False,10,0.7,0.4843211796555498,True
 Song for Layne Staley,Song for Layne Staley,9,1,False,10,0.1,0.15098784632221646,True
-Genesis 3:23,Genesis 3:23,10,0,False,10,0.0,0.0954322907666609,True
 Riches and Wonders,Riches and Wonders,10,0,False,10,0.0,0.0954322907666609,True
-Fall of the Star High School Running Back,Fall of the Star High School Running Back,9,1,False,10,0.1,0.15098784632221646,True
-In the Hidden Places,In the Hidden Places,10,0,False,10,0.0,0.0954322907666609,True
 Dark as a Dungeon,Dark as a Dungeon,10,0,True,10,0.0,0.0954322907666609,True
-The Legend of Chavo Guerrero,The Legend of Chavo Guerrero,9,1,False,10,0.1,0.15098784632221646,True
 Song for Sasha Banks,Song for Sasha Banks,10,0,False,10,0.0,0.0954322907666609,True
 Design Your Own Container Garden,Design Your Own Container Garden,10,0,False,10,0.0,0.0954322907666609,True
+In the Hidden Places,In the Hidden Places,10,0,False,10,0.0,0.0954322907666609,True
+The Legend of Chavo Guerrero,The Legend of Chavo Guerrero,9,1,False,10,0.1,0.15098784632221646,True
+Genesis 3:23,Genesis 3:23,10,0,False,10,0.0,0.0954322907666609,True
+Fall of the Star High School Running Back,Fall of the Star High School Running Back,9,1,False,10,0.1,0.15098784632221646,True
+Wild Sage,Wild Sage,8,2,False,10,0.2,0.206543401877772,True
 We Were Patriots,We Were Patriots,10,0,False,10,0.0,0.0954322907666609,True
-Carmen Cicero,Carmen Cicero,3,7,False,10,0.7,0.4843211796555498,True
-Alpha Rats Nest,Alpha Rats Nest,9,0,False,9,0.0,0.10104595492940567,False
-Commandante,Commandante,9,0,False,9,0.0,0.10104595492940567,False
-Song for an Old Friend,Song for an Old Friend,7,2,False,9,0.2222222222222222,0.21869301375293507,False
-Thank You Mario But Our Princess Is in Another Castle,Thank You Mario But Our Princess Is in Another Castle,8,1,False,9,0.1111111111111111,0.15986948434117038,False
-Days (song),Days (song),9,0,False,9,0.0,0.10104595492940567,False
-Crying on Eddie Nash's Grave,Crying on Eddie Nash's Grave,9,0,False,9,0.0,0.10104595492940567,False
 The Alphonse Mambo,The Alphonse Mambo,8,1,False,9,0.1111111111111111,0.15986948434117038,False
-Candlebox,Candlebox,9,0,False,9,0.0,0.10104595492940567,False
-The New Hydra Collection,The New Hydra Collection,9,0,False,9,0.0,0.10104595492940567,False
-For the Krishnacore Bands,For the Krishnacore Bands,9,0,False,9,0.0,0.10104595492940567,False
-New Star Song,New Star Song,9,0,False,9,0.0,0.10104595492940567,False
-"Pigs That Ran Straightaway into the Water, Triumph Of","Pigs That Ran Straightaway into the Water, Triumph Of",9,0,False,9,0.0,0.10104595492940567,False
-Going to Georgia,Going to Georgia,5,4,False,9,0.4444444444444444,0.3363400725764645,False
-Same as Cash,Same as Cash,9,0,False,9,0.0,0.10104595492940567,False
-Masher,Masher,7,2,False,9,0.2222222222222222,0.21869301375293507,False
-Insurance Fraud Number 2,Insurance Fraud Number 2,9,0,False,9,0.0,0.10104595492940567,False
+Days (song),Days (song),9,0,False,9,0.0,0.10104595492940567,False
+Commandante,Commandante,9,0,False,9,0.0,0.10104595492940567,False
 Last Day,Last Day,9,0,False,9,0.0,0.10104595492940567,False
+The New Hydra Collection,The New Hydra Collection,9,0,False,9,0.0,0.10104595492940567,False
+Insurance Fraud Number 2,Insurance Fraud Number 2,9,0,False,9,0.0,0.10104595492940567,False
+Going to Georgia,Going to Georgia,5,4,False,9,0.4444444444444444,0.3363400725764645,False
+Masher,Masher,7,2,False,9,0.2222222222222222,0.21869301375293507,False
+"Pigs That Ran Straightaway into the Water, Triumph Of","Pigs That Ran Straightaway into the Water, Triumph Of",9,0,False,9,0.0,0.10104595492940567,False
+Candlebox,Candlebox,9,0,False,9,0.0,0.10104595492940567,False
+For the Krishnacore Bands,For the Krishnacore Bands,9,0,False,9,0.0,0.10104595492940567,False
+Same as Cash,Same as Cash,9,0,False,9,0.0,0.10104595492940567,False
+Alpha Rats Nest,Alpha Rats Nest,9,0,False,9,0.0,0.10104595492940567,False
+New Star Song,New Star Song,9,0,False,9,0.0,0.10104595492940567,False
+Thank You Mario But Our Princess Is in Another Castle,Thank You Mario But Our Princess Is in Another Castle,8,1,False,9,0.1111111111111111,0.15986948434117038,False
 Alpha Gelida,Alpha Gelida,9,0,False,9,0.0,0.10104595492940567,False
-Through This Fire,Through This Fire,8,0,False,8,0.0,0.10736132711249352,False
-Jam Eater Blues (Song),Jam Eater Blues (Song),8,0,False,8,0.0,0.10736132711249352,False
-Running Away with What Freud Said,Running Away with What Freud Said,8,0,False,8,0.0,0.10736132711249352,False
-For the Portuguese Goth Metal Bands,For the Portuguese Goth Metal Bands,8,0,False,8,0.0,0.10736132711249352,False
-So Desperate,So Desperate,8,0,False,8,0.0,0.10736132711249352,False
+Song for an Old Friend,Song for an Old Friend,7,2,False,9,0.2222222222222222,0.21869301375293507,False
+Crying on Eddie Nash's Grave,Crying on Eddie Nash's Grave,9,0,False,9,0.0,0.10104595492940567,False
 Slow West Vultures,Slow West Vultures,8,0,False,8,0.0,0.10736132711249352,False
 Mole,Mole,8,0,False,8,0.0,0.10736132711249352,False
+Running Away with What Freud Said,Running Away with What Freud Said,8,0,False,8,0.0,0.10736132711249352,False
+Through This Fire,Through This Fire,8,0,False,8,0.0,0.10736132711249352,False
+So Desperate,So Desperate,8,0,False,8,0.0,0.10736132711249352,False
+Jam Eater Blues (Song),Jam Eater Blues (Song),8,0,False,8,0.0,0.10736132711249352,False
 Itzcuintli-Totzli Days,Itzcuintli-Totzli Days,8,0,False,8,0.0,0.10736132711249352,False
 Blueberry Frost,Blueberry Frost,8,0,False,8,0.0,0.10736132711249352,False
-The Lady from Shanghai,The Lady from Shanghai,7,0,False,7,0.0,0.11451874891999309,False
-Ripple,Ripple,4,3,True,7,0.42857142857142855,0.3145187489199931,False
-Nine Black Poppies,Nine Black Poppies,7,0,False,7,0.0,0.11451874891999309,False
-Pure Heat,Pure Heat,7,0,False,7,0.0,0.11451874891999309,False
-Genesis 30:3,Genesis 30:3,7,0,False,7,0.0,0.11451874891999309,False
+For the Portuguese Goth Metal Bands,For the Portuguese Goth Metal Bands,8,0,False,8,0.0,0.10736132711249352,False
+Song for Black Sabbath's Second North American Tour,Song for Black Sabbath's Second North American Tour,7,0,False,7,0.0,0.11451874891999309,False
 Alphabetizing,Alphabetizing,7,0,False,7,0.0,0.11451874891999309,False
 Sinaloan Milk Snake Song,Sinaloan Milk Snake Song,6,1,False,7,0.14285714285714285,0.18118541558665976,False
-Song for Black Sabbath's Second North American Tour,Song for Black Sabbath's Second North American Tour,7,0,False,7,0.0,0.11451874891999309,False
 Collapsing Stars,Collapsing Stars,7,0,False,7,0.0,0.11451874891999309,False
-Tollund Man,Tollund Man,7,0,False,7,0.0,0.11451874891999309,False
-The Water Song,The Water Song,7,0,False,7,0.0,0.11451874891999309,False
+Bleed Out (song),Bleed Out (song),5,2,False,7,0.2857142857142857,0.24785208225332642,False
+Nine Black Poppies,Nine Black Poppies,7,0,False,7,0.0,0.11451874891999309,False
+The Lady from Shanghai,The Lady from Shanghai,7,0,False,7,0.0,0.11451874891999309,False
+Ghosts,Ghosts,7,0,False,7,0.0,0.11451874891999309,False
+Genesis 30:3,Genesis 30:3,7,0,False,7,0.0,0.11451874891999309,False
 The Plague,The Plague,7,0,False,7,0.0,0.11451874891999309,False
 Tianchi Lake,Tianchi Lake,7,0,False,7,0.0,0.11451874891999309,False
+Ripple,Ripple,4,3,True,7,0.42857142857142855,0.3145187489199931,False
+Pure Heat,Pure Heat,7,0,False,7,0.0,0.11451874891999309,False
+The Water Song,The Water Song,7,0,False,7,0.0,0.11451874891999309,False
+Tollund Man,Tollund Man,7,0,False,7,0.0,0.11451874891999309,False
 The Lady from Shanghai 2,The Lady from Shanghai 2,7,0,False,7,0.0,0.11451874891999309,False
-Ghosts,Ghosts,7,0,False,7,0.0,0.11451874891999309,False
-Bleed Out (song),Bleed Out (song),5,2,False,7,0.2857142857142857,0.24785208225332642,False
-Never Quite Free,Never Quite Free,6,0,False,6,0.0,0.12269865955713545,False
-Going to Jamaica,Going to Jamaica,6,0,False,6,0.0,0.12269865955713545,False
-Enoch 18:14,Enoch 18:14,6,0,False,6,0.0,0.12269865955713545,False
-Going to Port Washington,Going to Port Washington,6,0,False,6,0.0,0.12269865955713545,False
-Golden Boy,Golden Boy,2,4,False,6,0.6666666666666666,0.4084129452714212,False
-Pale Green Things,Pale Green Things,6,0,False,6,0.0,0.12269865955713545,False
-Orange Ball of Pain,Orange Ball of Pain,6,0,False,6,0.0,0.12269865955713545,False
-Seed Song,Seed Song,6,0,False,6,0.0,0.12269865955713545,False
-Surrounded,Surrounded,6,0,False,6,0.0,0.12269865955713545,False
-Cheshire County,Cheshire County,6,0,False,6,0.0,0.12269865955713545,False
-Twin Human Highway Flares,Twin Human Highway Flares,6,0,False,6,0.0,0.12269865955713545,False
 Lido Shuffle,Lido Shuffle,0,6,True,6,1.0,0.551270088128564,False
-Waco,Waco,6,0,False,6,0.0,0.12269865955713545,False
-The Monkey Song,The Monkey Song,5,1,False,6,0.16666666666666666,0.1941272309857069,False
-The Last Limit of Bhakti,The Last Limit of Bhakti,6,0,False,6,0.0,0.12269865955713545,False
-1 John 4:16,1 John 4:16,6,0,False,6,0.0,0.12269865955713545,False
+Twin Human Highway Flares,Twin Human Highway Flares,6,0,False,6,0.0,0.12269865955713545,False
 Heel Turn 1,Heel Turn 1,6,0,False,6,0.0,0.12269865955713545,False
-Fault Lines,Fault Lines,6,0,False,6,0.0,0.12269865955713545,False
-Some Swedish Trees,Some Swedish Trees,6,0,False,6,0.0,0.12269865955713545,False
+Going to Port Washington,Going to Port Washington,6,0,False,6,0.0,0.12269865955713545,False
+Orange Ball of Pain,Orange Ball of Pain,6,0,False,6,0.0,0.12269865955713545,False
+Enoch 18:14,Enoch 18:14,6,0,False,6,0.0,0.12269865955713545,False
+Cheshire County,Cheshire County,6,0,False,6,0.0,0.12269865955713545,False
+Never Quite Free,Never Quite Free,6,0,False,6,0.0,0.12269865955713545,False
 Cobscook Bay,Cobscook Bay,6,0,False,6,0.0,0.12269865955713545,False
-Horseradish Road,Horseradish Road,6,0,False,6,0.0,0.12269865955713545,False
+Fault Lines,Fault Lines,6,0,False,6,0.0,0.12269865955713545,False
+Surrounded,Surrounded,6,0,False,6,0.0,0.12269865955713545,False
+The Last Limit of Bhakti,The Last Limit of Bhakti,6,0,False,6,0.0,0.12269865955713545,False
+Waco,Waco,6,0,False,6,0.0,0.12269865955713545,False
 Distant Stations,Distant Stations,6,0,False,6,0.0,0.12269865955713545,False
-Weekend in Western Illinois,Weekend in Western Illinois,5,0,False,5,0.0,0.13213701798460742,False
-Chanson du Bon Chose,Chanson du Bon Chose,5,0,False,5,0.0,0.13213701798460742,False
-US Mill,US Mill,5,0,False,5,0.0,0.13213701798460742,False
+Golden Boy,Golden Boy,2,4,False,6,0.6666666666666666,0.4084129452714212,False
+Horseradish Road,Horseradish Road,6,0,False,6,0.0,0.12269865955713545,False
+Going to Jamaica,Going to Jamaica,6,0,False,6,0.0,0.12269865955713545,False
+Seed Song,Seed Song,6,0,False,6,0.0,0.12269865955713545,False
+Some Swedish Trees,Some Swedish Trees,6,0,False,6,0.0,0.12269865955713545,False
+Pale Green Things,Pale Green Things,6,0,False,6,0.0,0.12269865955713545,False
+The Monkey Song,The Monkey Song,5,1,False,6,0.16666666666666666,0.1941272309857069,False
+1 John 4:16,1 John 4:16,6,0,False,6,0.0,0.12269865955713545,False
 Waving at You,Waving at You,5,0,False,5,0.0,0.13213701798460742,False
-Poltergeist,Poltergeist,5,0,False,5,0.0,0.13213701798460742,False
+Weekend in Western Illinois,Weekend in Western Illinois,5,0,False,5,0.0,0.13213701798460742,False
 Yoga,Yoga,5,0,False,5,0.0,0.13213701798460742,False
-Quetzalcoatl Eats Plums,Quetzalcoatl Eats Plums,5,0,False,5,0.0,0.13213701798460742,False
-Torch Song,Torch Song,5,0,False,5,0.0,0.13213701798460742,False
-The Only Thing I Know,The Only Thing I Know,5,0,False,5,0.0,0.13213701798460742,False
-Going to Alaska,Going to Alaska,4,1,False,5,0.2,0.20906009490768435,False
-Going to Scotland,Going to Scotland,5,0,False,5,0.0,0.13213701798460742,False
-The House That Dripped Blood,The House That Dripped Blood,5,0,False,5,0.0,0.13213701798460742,False
-Cutter,Cutter,5,0,False,5,0.0,0.13213701798460742,False
-Ezekiel 7 and the Permanent Efficacy of Grace,Ezekiel 7 and the Permanent Efficacy of Grace,3,2,False,5,0.4,0.2859831718307613,False
-Maize Stalk Drinking Blood,Maize Stalk Drinking Blood,5,0,False,5,0.0,0.13213701798460742,False
-Going to Bolivia,Going to Bolivia,5,0,False,5,0.0,0.13213701798460742,False
-Sept 19th Triple X Love! Love!,Sept 19th Triple X Love! Love!,5,0,False,5,0.0,0.13213701798460742,False
-Downtown Seoul,Downtown Seoul,5,0,False,5,0.0,0.13213701798460742,False
 Stars Around Her,Stars Around Her,5,0,False,5,0.0,0.13213701798460742,False
+The Only Thing I Know,The Only Thing I Know,5,0,False,5,0.0,0.13213701798460742,False
+Torch Song,Torch Song,5,0,False,5,0.0,0.13213701798460742,False
+Chanson du Bon Chose,Chanson du Bon Chose,5,0,False,5,0.0,0.13213701798460742,False
+Quetzalcoatl Eats Plums,Quetzalcoatl Eats Plums,5,0,False,5,0.0,0.13213701798460742,False
+Sept 19th Triple X Love! Love!,Sept 19th Triple X Love! Love!,5,0,False,5,0.0,0.13213701798460742,False
 Sign of the Crow 2,Sign of the Crow 2,5,0,False,5,0.0,0.13213701798460742,False
+Going to Alaska,Going to Alaska,4,1,False,5,0.2,0.20906009490768435,False
 Raid on Entebbe,Raid on Entebbe,5,0,False,5,0.0,0.13213701798460742,False
-When a Powerful Animal Comes,When a Powerful Animal Comes,4,0,False,4,0.0,0.14314843614999137,False
+Ezekiel 7 and the Permanent Efficacy of Grace,Ezekiel 7 and the Permanent Efficacy of Grace,3,2,False,5,0.4,0.2859831718307613,False
+Poltergeist,Poltergeist,5,0,False,5,0.0,0.13213701798460742,False
+Cutter,Cutter,5,0,False,5,0.0,0.13213701798460742,False
+US Mill,US Mill,5,0,False,5,0.0,0.13213701798460742,False
+The House That Dripped Blood,The House That Dripped Blood,5,0,False,5,0.0,0.13213701798460742,False
+Maize Stalk Drinking Blood,Maize Stalk Drinking Blood,5,0,False,5,0.0,0.13213701798460742,False
+Going to Scotland,Going to Scotland,5,0,False,5,0.0,0.13213701798460742,False
+Downtown Seoul,Downtown Seoul,5,0,False,5,0.0,0.13213701798460742,False
+Going to Bolivia,Going to Bolivia,5,0,False,5,0.0,0.13213701798460742,False
 Calling Out Your Name,Calling Out Your Name,4,0,True,4,0.0,0.14314843614999137,False
-If You See Light,If You See Light,4,0,False,4,0.0,0.14314843614999137,False
-Letter from a Motel,Letter from a Motel,4,0,False,4,0.0,0.14314843614999137,False
-The River Song,The River Song,3,1,False,4,0.25,0.22648176948332469,False
-Keeping House,Keeping House,4,0,False,4,0.0,0.14314843614999137,False
-Shave My Eyebrows,Shave My Eyebrows,4,0,False,4,0.0,0.14314843614999137,False
-Duke Ellington,Duke Ellington,4,0,False,4,0.0,0.14314843614999137,False
-The Day the Aliens Came (Hawaiian Feeling),The Day the Aliens Came (Hawaiian Feeling),4,0,False,4,0.0,0.14314843614999137,False
-I Will Grab You by the Ears,I Will Grab You by the Ears,4,0,False,4,0.0,0.14314843614999137,False
-Sweet Jane,Sweet Jane,0,4,True,4,1.0,0.4764817694833247,False
-Standing in Need of Prayer,Standing in Need of Prayer,4,0,True,4,0.0,0.14314843614999137,False
-Pure Milk,Pure Milk,4,0,False,4,0.0,0.14314843614999137,False
-Genesis 19:1-2,Genesis 19:1-2,4,0,False,4,0.0,0.14314843614999137,False
-Going to Maine,Going to Maine,4,0,False,4,0.0,0.14314843614999137,False
-Rotten Stinking Mouthpiece,Rotten Stinking Mouthpiece,4,0,False,4,0.0,0.14314843614999137,False
+When a Powerful Animal Comes,When a Powerful Animal Comes,4,0,False,4,0.0,0.14314843614999137,False
 Going to Lebanon,Going to Lebanon,4,0,False,4,0.0,0.14314843614999137,False
+Shave My Eyebrows,Shave My Eyebrows,4,0,False,4,0.0,0.14314843614999137,False
 Ontario,Ontario,4,0,False,4,0.0,0.14314843614999137,False
 Going to Bristol,Going to Bristol,4,0,False,4,0.0,0.14314843614999137,False
+Duke Ellington,Duke Ellington,4,0,False,4,0.0,0.14314843614999137,False
+Going to Maine,Going to Maine,4,0,False,4,0.0,0.14314843614999137,False
+Standing in Need of Prayer,Standing in Need of Prayer,4,0,True,4,0.0,0.14314843614999137,False
+Rotten Stinking Mouthpiece,Rotten Stinking Mouthpiece,4,0,False,4,0.0,0.14314843614999137,False
+Pure Milk,Pure Milk,4,0,False,4,0.0,0.14314843614999137,False
+Letter from a Motel,Letter from a Motel,4,0,False,4,0.0,0.14314843614999137,False
+The Day the Aliens Came (Hawaiian Feeling),The Day the Aliens Came (Hawaiian Feeling),4,0,False,4,0.0,0.14314843614999137,False
+Genesis 19:1-2,Genesis 19:1-2,4,0,False,4,0.0,0.14314843614999137,False
+Keeping House,Keeping House,4,0,False,4,0.0,0.14314843614999137,False
+Sweet Jane,Sweet Jane,0,4,True,4,1.0,0.4764817694833247,False
 Alpha Desperation March,Alpha Desperation March,4,0,False,4,0.0,0.14314843614999137,False
-Billy the Kid's Dream of the Magic Shoes,Billy the Kid's Dream of the Magic Shoes,3,0,False,3,0.0,0.15616193034544512,False
-My Favorite Things,My Favorite Things,3,0,False,3,0.0,0.15616193034544512,False
-Rescue Breathing,Rescue Breathing,3,0,False,3,0.0,0.15616193034544512,False
-Night of the Mules,Night of the Mules,3,0,False,3,0.0,0.15616193034544512,False
-Outer Scorpion Squadron,Outer Scorpion Squadron,3,0,False,3,0.0,0.15616193034544512,False
-Orange Ball of Love,Orange Ball of Love,2,1,False,3,0.3333333333333333,0.24707102125453603,False
-"No, I Can't","No, I Can't",3,0,False,3,0.0,0.15616193034544512,False
-Going to Utrecht,Going to Utrecht,3,0,False,3,0.0,0.15616193034544512,False
-We Shall All Be Healed (Song),We Shall All Be Healed (Song),3,0,False,3,0.0,0.15616193034544512,False
-Parisian Enclave,Parisian Enclave,3,0,False,3,0.0,0.15616193034544512,False
-Pink and Blue,Pink and Blue,3,0,False,3,0.0,0.15616193034544512,False
-We Have Seen the Enemy,We Have Seen the Enemy,3,0,False,3,0.0,0.15616193034544512,False
-Alpha Sun Hat,Alpha Sun Hat,3,0,False,3,0.0,0.15616193034544512,False
-Black Molly,Black Molly,2,1,False,3,0.3333333333333333,0.24707102125453603,False
-Birthday Song: This Time Has Gone,Birthday Song: This Time Has Gone,3,0,False,3,0.0,0.15616193034544512,False
-New Monster Avenue,New Monster Avenue,3,0,False,3,0.0,0.15616193034544512,False
+I Will Grab You by the Ears,I Will Grab You by the Ears,4,0,False,4,0.0,0.14314843614999137,False
+The River Song,The River Song,3,1,False,4,0.25,0.22648176948332469,False
+If You See Light,If You See Light,4,0,False,4,0.0,0.14314843614999137,False
+It's All Here in Brownsville,It's All Here in Brownsville,3,0,False,3,0.0,0.15616193034544512,False
+Absolute Lithops Effect,Absolute Lithops Effect,3,0,False,3,0.0,0.15616193034544512,False
+Untitled Song for the Singer from Viking,Untitled Song for the Singer from Viking,3,0,False,3,0.0,0.15616193034544512,False
+The Anglo-Saxons,The Anglo-Saxons,3,0,False,3,0.0,0.15616193034544512,False
+California Song,California Song,0,3,False,3,1.0,0.42888920307271783,False
 Third Snow Song,Third Snow Song,3,0,False,3,0.0,0.15616193034544512,False
 The Window Song,The Window Song,3,0,False,3,0.0,0.15616193034544512,False
-Abandoning My Father Talking Blues,Abandoning My Father Talking Blues,3,0,False,3,0.0,0.15616193034544512,False
-Young Caesar 2000,Young Caesar 2000,3,0,False,3,0.0,0.15616193034544512,False
-California Jam,California Jam,3,0,False,3,0.0,0.15616193034544512,False
-You're in Maya,You're in Maya,2,1,False,3,0.3333333333333333,0.24707102125453603,False
-Beat the Devil,Beat the Devil,3,0,False,3,0.0,0.15616193034544512,False
-Untitled Song for the Singer from Viking,Untitled Song for the Singer from Viking,3,0,False,3,0.0,0.15616193034544512,False
-Absolute Lithops Effect,Absolute Lithops Effect,3,0,False,3,0.0,0.15616193034544512,False
-The Anglo-Saxons,The Anglo-Saxons,3,0,False,3,0.0,0.15616193034544512,False
-Stars Fell on Alabama,Stars Fell on Alabama,3,0,False,3,0.0,0.15616193034544512,False
-Happy Birthday,Happy Birthday,1,2,True,3,0.6666666666666666,0.33798011216362694,False
-Hello Sarah,Hello Sarah,3,0,False,3,0.0,0.15616193034544512,False
-Last Gasp at Calama,Last Gasp at Calama,3,0,False,3,0.0,0.15616193034544512,False
-California Song,California Song,0,3,False,3,1.0,0.42888920307271783,False
-It's All Here in Brownsville,It's All Here in Brownsville,3,0,False,3,0.0,0.15616193034544512,False
-Fire Editorial,Fire Editorial,3,0,False,3,0.0,0.15616193034544512,False
+Orange Ball of Love,Orange Ball of Love,2,1,False,3,0.3333333333333333,0.24707102125453603,False
+Pink and Blue,Pink and Blue,3,0,False,3,0.0,0.15616193034544512,False
 Duane Allman Slept Here,Duane Allman Slept Here,3,0,False,3,0.0,0.15616193034544512,False
-Rat Queen,Rat Queen,2,0,False,2,0.0,0.17177812337998963,False
-Going to Malibu,Going to Malibu,2,0,False,2,0.0,0.17177812337998963,False
-Going to Marrakesh,Going to Marrakesh,1,1,False,2,0.5,0.27177812337998963,False
-Quetzalcoatl is Born,Quetzalcoatl is Born,2,0,False,2,0.0,0.17177812337998963,False
-Full Flower,Full Flower,2,0,False,2,0.0,0.17177812337998963,False
-Going to Bogota,Going to Bogota,2,0,False,2,0.0,0.17177812337998963,False
-Orange Ball of Hate,Orange Ball of Hate,2,0,False,2,0.0,0.17177812337998963,False
-Blood Royal,Blood Royal,2,0,False,2,0.0,0.17177812337998963,False
-Going to Fennario,Going to Fennario,1,1,False,2,0.5,0.27177812337998963,False
-Against Agamemnon,Against Agamemnon,2,0,False,2,0.0,0.17177812337998963,False
-Alpha Negative,Alpha Negative,2,0,False,2,0.0,0.17177812337998963,False
-Get Famous,Get Famous,2,0,False,2,0.0,0.17177812337998963,False
-Going to Michigan,Going to Michigan,2,0,False,2,0.0,0.17177812337998963,False
-Feed This End,Feed This End,2,0,False,2,0.0,0.17177812337998963,False
-Snow Owl,Snow Owl,2,0,False,2,0.0,0.17177812337998963,False
-Friend of the Devil,Friend of the Devil,2,0,True,2,0.0,0.17177812337998963,False
-Fresh Berries for You,Fresh Berries for You,2,0,False,2,0.0,0.17177812337998963,False
-Song for the Julian Calendar,Song for the Julian Calendar,2,0,False,2,0.0,0.17177812337998963,False
-Spilling Toward Alpha,Spilling Toward Alpha,2,0,False,2,0.0,0.17177812337998963,False
-Ethiopians,Ethiopians,1,1,False,2,0.5,0.27177812337998963,False
-Earth Air Water Trees,Earth Air Water Trees,2,0,False,2,0.0,0.17177812337998963,False
-Scavenger Babies,Scavenger Babies,2,0,False,2,0.0,0.17177812337998963,False
-Sixty Percent Wolf,Sixty Percent Wolf,2,0,False,2,0.0,0.17177812337998963,False
-Matthew 11:14-19,Matthew 11:14-19,2,0,False,2,0.0,0.17177812337998963,False
-Standard Bitter Love Song Number 1,Standard Bitter Love Song Number 1,2,0,False,2,0.0,0.17177812337998963,False
-Store,Store,2,0,False,2,0.0,0.17177812337998963,False
-Dilaudid,Dilaudid,2,0,False,2,0.0,0.17177812337998963,False
-My Little Panda,My Little Panda,2,0,False,2,0.0,0.17177812337998963,False
-Good Morning to All Vultures,Good Morning to All Vultures,2,0,False,2,0.0,0.17177812337998963,False
-The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,2,0,False,2,0.0,0.17177812337998963,False
-Born Ready,Born Ready,2,0,False,2,0.0,0.17177812337998963,False
-Tulsa Imperative,Tulsa Imperative,2,0,False,2,0.0,0.17177812337998963,False
+Parisian Enclave,Parisian Enclave,3,0,False,3,0.0,0.15616193034544512,False
+My Favorite Things,My Favorite Things,3,0,False,3,0.0,0.15616193034544512,False
+New Monster Avenue,New Monster Avenue,3,0,False,3,0.0,0.15616193034544512,False
+Outer Scorpion Squadron,Outer Scorpion Squadron,3,0,False,3,0.0,0.15616193034544512,False
+Rescue Breathing,Rescue Breathing,3,0,False,3,0.0,0.15616193034544512,False
+Fire Editorial,Fire Editorial,3,0,False,3,0.0,0.15616193034544512,False
+Beat the Devil,Beat the Devil,3,0,False,3,0.0,0.15616193034544512,False
+You're in Maya,You're in Maya,2,1,False,3,0.3333333333333333,0.24707102125453603,False
+Stars Fell on Alabama,Stars Fell on Alabama,3,0,False,3,0.0,0.15616193034544512,False
+Last Gasp at Calama,Last Gasp at Calama,3,0,False,3,0.0,0.15616193034544512,False
+Hello Sarah,Hello Sarah,3,0,False,3,0.0,0.15616193034544512,False
+Happy Birthday,Happy Birthday,1,2,True,3,0.6666666666666666,0.33798011216362694,False
+Going to Utrecht,Going to Utrecht,3,0,False,3,0.0,0.15616193034544512,False
+We Have Seen the Enemy,We Have Seen the Enemy,3,0,False,3,0.0,0.15616193034544512,False
+Alpha Sun Hat,Alpha Sun Hat,3,0,False,3,0.0,0.15616193034544512,False
+Young Caesar 2000,Young Caesar 2000,3,0,False,3,0.0,0.15616193034544512,False
+Abandoning My Father Talking Blues,Abandoning My Father Talking Blues,3,0,False,3,0.0,0.15616193034544512,False
+Billy the Kid's Dream of the Magic Shoes,Billy the Kid's Dream of the Magic Shoes,3,0,False,3,0.0,0.15616193034544512,False
+California Jam,California Jam,3,0,False,3,0.0,0.15616193034544512,False
+"No, I Can't","No, I Can't",3,0,False,3,0.0,0.15616193034544512,False
+Night of the Mules,Night of the Mules,3,0,False,3,0.0,0.15616193034544512,False
+Black Molly,Black Molly,2,1,False,3,0.3333333333333333,0.24707102125453603,False
+Birthday Song: This Time Has Gone,Birthday Song: This Time Has Gone,3,0,False,3,0.0,0.15616193034544512,False
+We Shall All Be Healed (Song),We Shall All Be Healed (Song),3,0,False,3,0.0,0.15616193034544512,False
 Just a Closer Walk with Thee,Just a Closer Walk with Thee,2,0,True,2,0.0,0.17177812337998963,False
-Un Rêve Plus Long Que la Nuit,Un Rêve Plus Long Que la Nuit,2,0,False,2,0.0,0.17177812337998963,False
-Wild Palm City,Wild Palm City,1,1,False,2,0.5,0.27177812337998963,False
-If I Should Fall From Grace With God,If I Should Fall From Grace With God,2,0,True,2,0.0,0.17177812337998963,False
+Store,Store,2,0,False,2,0.0,0.17177812337998963,False
+Star Dusting,Star Dusting,2,0,False,2,0.0,0.17177812337998963,False
+Spilling Toward Alpha,Spilling Toward Alpha,2,0,False,2,0.0,0.17177812337998963,False
+Stack Em Up,Stack Em Up,2,0,False,2,0.0,0.17177812337998963,False
+Going to Michigan,Going to Michigan,2,0,False,2,0.0,0.17177812337998963,False
+Good Morning to All Vultures,Good Morning to All Vultures,2,0,False,2,0.0,0.17177812337998963,False
+Green Olives,Green Olives,1,1,False,2,0.5,0.27177812337998963,False
+"Ice Cream, Cobra Man","Ice Cream, Cobra Man",2,0,False,2,0.0,0.17177812337998963,False
 The Pig Song,The Pig Song,2,0,False,2,0.0,0.17177812337998963,False
 The Sign,The Sign,0,2,True,2,1.0,0.3717781233799896,False
-Crows,Crows,2,0,False,2,0.0,0.17177812337998963,False
-There Is Power in a Union,There Is Power in a Union,2,0,True,2,0.0,0.17177812337998963,False
-Deianara Crush,Deianara Crush,2,0,False,2,0.0,0.17177812337998963,False
-Counting Song for Bitter Children,Counting Song for Bitter Children,1,1,False,2,0.5,0.27177812337998963,False
-"Ice Cream, Cobra Man","Ice Cream, Cobra Man",2,0,False,2,0.0,0.17177812337998963,False
 The Coroner’s Gambit,The Coroner’s Gambit,2,0,False,2,0.0,0.17177812337998963,False
 The Ballad of Bull Ramos,The Ballad of Bull Ramos,2,0,False,2,0.0,0.17177812337998963,False
-Stack Em Up,Stack Em Up,2,0,False,2,0.0,0.17177812337998963,False
-Lucretia My Reflection,Lucretia My Reflection,2,0,True,2,0.0,0.17177812337998963,False
+Un Rêve Plus Long Que la Nuit,Un Rêve Plus Long Que la Nuit,2,0,False,2,0.0,0.17177812337998963,False
+Against Agamemnon,Against Agamemnon,2,0,False,2,0.0,0.17177812337998963,False
+Tulsa Imperative,Tulsa Imperative,2,0,False,2,0.0,0.17177812337998963,False
 Hand of Death,Hand of Death,2,0,False,2,0.0,0.17177812337998963,False
-Green Olives,Green Olives,1,1,False,2,0.5,0.27177812337998963,False
+If I Should Fall From Grace With God,If I Should Fall From Grace With God,2,0,True,2,0.0,0.17177812337998963,False
+Get Famous,Get Famous,2,0,False,2,0.0,0.17177812337998963,False
+Full Flower,Full Flower,2,0,False,2,0.0,0.17177812337998963,False
+Lucretia My Reflection,Lucretia My Reflection,2,0,True,2,0.0,0.17177812337998963,False
+Counting Song for Bitter Children,Counting Song for Bitter Children,1,1,False,2,0.5,0.27177812337998963,False
+Crows,Crows,2,0,False,2,0.0,0.17177812337998963,False
+Deianara Crush,Deianara Crush,2,0,False,2,0.0,0.17177812337998963,False
+Dilaudid,Dilaudid,2,0,False,2,0.0,0.17177812337998963,False
+Standard Bitter Love Song Number 1,Standard Bitter Love Song Number 1,2,0,False,2,0.0,0.17177812337998963,False
+Song for the Julian Calendar,Song for the Julian Calendar,2,0,False,2,0.0,0.17177812337998963,False
+Earth Air Water Trees,Earth Air Water Trees,2,0,False,2,0.0,0.17177812337998963,False
 Down Here,Down Here,2,0,False,2,0.0,0.17177812337998963,False
+Going to Bogota,Going to Bogota,2,0,False,2,0.0,0.17177812337998963,False
+My Little Panda,My Little Panda,2,0,False,2,0.0,0.17177812337998963,False
+Going to Fennario,Going to Fennario,1,1,False,2,0.5,0.27177812337998963,False
 Memories,Memories,2,0,True,2,0.0,0.17177812337998963,False
+Ethiopians,Ethiopians,1,1,False,2,0.5,0.27177812337998963,False
+Orange Ball of Hate,Orange Ball of Hate,2,0,False,2,0.0,0.17177812337998963,False
 Milk Song,Milk Song,2,0,False,2,0.0,0.17177812337998963,False
-Star Dusting,Star Dusting,2,0,False,2,0.0,0.17177812337998963,False
-Quetzalcoatl Comes Through,Quetzalcoatl Comes Through,1,0,False,1,0.0,0.1908645815333218,False
-Puffin',Puffin',1,0,True,1,0.0,0.1908645815333218,False
-Proverbs 6:27,Proverbs 6:27,1,0,False,1,0.0,0.1908645815333218,False
-Prominent Metaphysicians of South Pomona,Prominent Metaphysicians of South Pomona,1,0,False,1,0.0,0.1908645815333218,False
-From the Lake Trials,From the Lake Trials,1,0,False,1,0.0,0.1908645815333218,False
-Radical Evil Song,Radical Evil Song,1,0,False,1,0.0,0.1908645815333218,False
-Furniture Store,Furniture Store,0,1,True,1,1.0,0.3019756926444329,False
-Goblin Wizard in the Crawlspace of My Heart,Goblin Wizard in the Crawlspace of My Heart,1,0,False,1,0.0,0.1908645815333218,False
-Going to Maryland,Going to Maryland,1,0,False,1,0.0,0.1908645815333218,False
-Neon Orange Glimmer Song,Neon Orange Glimmer Song,1,0,False,1,0.0,0.1908645815333218,False
-New London,New London,1,0,False,1,0.0,0.1908645815333218,False
-Going Underground,Going Underground,1,0,False,1,0.0,0.1908645815333218,False
-Saigon Shrunken Panorama,Saigon Shrunken Panorama,1,0,False,1,0.0,0.1908645815333218,False
-Rock and Roll All Night,Rock and Roll All Night,1,0,False,1,0.0,0.1908645815333218,False
-Sally MacLennane,Sally MacLennane,1,0,True,1,0.0,0.1908645815333218,False
-My Mask,My Mask,1,0,False,1,0.0,0.1908645815333218,False
-Going to Wisconsin,Going to Wisconsin,1,0,False,1,0.0,0.1908645815333218,False
-Going to Cleveland,Going to Cleveland,1,0,False,1,0.0,0.1908645815333218,False
-Going to Chino,Going to Chino,1,0,False,1,0.0,0.1908645815333218,False
-Going to Bridlington,Going to Bridlington,0,1,False,1,1.0,0.3019756926444329,False
-Programmed Cell Death,Programmed Cell Death,1,0,False,1,0.0,0.1908645815333218,False
-One Fine Day,One Fine Day,1,0,True,1,0.0,0.1908645815333218,False
-Orange,Orange,0,1,True,1,1.0,0.3019756926444329,False
-Original Air-Blue Gown,Original Air-Blue Gown,1,0,False,1,0.0,0.1908645815333218,False
+Matthew 11:14-19,Matthew 11:14-19,2,0,False,2,0.0,0.17177812337998963,False
+Rat Queen,Rat Queen,2,0,False,2,0.0,0.17177812337998963,False
+Scavenger Babies,Scavenger Babies,2,0,False,2,0.0,0.17177812337998963,False
+Snow Owl,Snow Owl,2,0,False,2,0.0,0.17177812337998963,False
+Sixty Percent Wolf,Sixty Percent Wolf,2,0,False,2,0.0,0.17177812337998963,False
+Quetzalcoatl is Born,Quetzalcoatl is Born,2,0,False,2,0.0,0.17177812337998963,False
+Fresh Berries for You,Fresh Berries for You,2,0,False,2,0.0,0.17177812337998963,False
+Friend of the Devil,Friend of the Devil,2,0,True,2,0.0,0.17177812337998963,False
+Feed This End,Feed This End,2,0,False,2,0.0,0.17177812337998963,False
+The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,The Ultimate Jedi Who Wastes All the Other Jedi and Eats Their Bones,2,0,False,2,0.0,0.17177812337998963,False
+There Is Power in a Union,There Is Power in a Union,2,0,True,2,0.0,0.17177812337998963,False
+Born Ready,Born Ready,2,0,False,2,0.0,0.17177812337998963,False
+Blood Royal,Blood Royal,2,0,False,2,0.0,0.17177812337998963,False
+Going to Marrakesh,Going to Marrakesh,1,1,False,2,0.5,0.27177812337998963,False
+Going to Malibu,Going to Malibu,2,0,False,2,0.0,0.17177812337998963,False
+Alpha Negative,Alpha Negative,2,0,False,2,0.0,0.17177812337998963,False
+Wild Palm City,Wild Palm City,1,1,False,2,0.5,0.27177812337998963,False
+Back for Good,Back for Good,0,1,False,1,1.0,0.3019756926444329,False
+Wait for You,Wait for You,1,0,False,1,0.0,0.1908645815333218,False
 Warm Lonely Planet,Warm Lonely Planet,1,0,False,1,0.0,0.1908645815333218,False
-Passaic 1975,Passaic 1975,1,0,False,1,0.0,0.1908645815333218,False
-Peacocks,Peacocks,1,0,False,1,0.0,0.1908645815333218,False
-Pet Politics,Pet Politics,1,0,True,1,0.0,0.1908645815333218,False
-Alibi,Alibi,1,0,False,1,0.0,0.1908645815333218,False
-All Devils Here Now,All Devils Here Now,1,0,False,1,0.0,0.1908645815333218,False
-Adultery,Adultery,1,0,False,1,0.0,0.1908645815333218,False
-Ain't Misbehavin',Ain't Misbehavin',1,0,True,1,0.0,0.1908645815333218,False
-All of You,All of You,0,1,False,1,1.0,0.3019756926444329,False
-All for the Best,All for the Best,1,0,False,1,0.0,0.1908645815333218,False
 Wishing the House Would Crash,Wishing the House Would Crash,1,0,False,1,0.0,0.1908645815333218,False
-Alpha Double Negative: Going to Catalina,Alpha Double Negative: Going to Catalina,1,0,False,1,0.0,0.1908645815333218,False
 With Their Flesh He Will Create,With Their Flesh He Will Create,1,0,True,1,0.0,0.1908645815333218,False
 Wizard Buys a Hat,Wizard Buys a Hat,1,0,False,1,0.0,0.1908645815333218,False
 Xolo,Xolo,1,0,False,1,0.0,0.1908645815333218,False
 You're So Vain,You're So Vain,0,1,True,1,1.0,0.3019756926444329,False
-Going to Kirby Sigston,Going to Kirby Sigston,1,0,False,1,0.0,0.1908645815333218,False
-Going to Japan,Going to Japan,1,0,False,1,0.0,0.1908645815333218,False
-Going to Federal Prison,Going to Federal Prison,1,0,False,1,0.0,0.1908645815333218,False
-Palisades Park,Palisades Park,1,0,True,1,0.0,0.1908645815333218,False
+You've Got to Have a Mouse in Your Life,You've Got to Have a Mouse in Your Life,1,0,False,1,0.0,0.1908645815333218,False
+Young and Endangered,Young and Endangered,1,0,False,1,0.0,0.1908645815333218,False
+Balance,Balance,1,0,False,1,0.0,0.1908645815333218,False
+Barracuda,Barracuda,1,0,True,1,0.0,0.1908645815333218,False
 Black Diamond,Black Diamond,0,1,False,1,1.0,0.3019756926444329,False
-Back for Good,Back for Good,0,1,False,1,1.0,0.3019756926444329,False
-Wait for You,Wait for You,1,0,False,1,0.0,0.1908645815333218,False
-Going the Ways,Going the Ways,1,0,False,1,0.0,0.1908645815333218,False
-Stable Boy Song,Stable Boy Song,1,0,False,1,0.0,0.1908645815333218,False
-St. Stephen,St. Stephen,1,0,True,1,0.0,0.1908645815333218,False
-Extreme South Number 1,Extreme South Number 1,1,0,False,1,0.0,0.1908645815333218,False
-Song for Ted Sallis,Song for Ted Sallis,1,0,False,1,0.0,0.1908645815333218,False
+Bluejays and Cardinals,Bluejays and Cardinals,1,0,False,1,0.0,0.1908645815333218,False
+Bride,Bride,1,0,False,1,0.0,0.1908645815333218,False
+Chason du Bon Chose,Chason du Bon Chose,1,0,False,1,0.0,0.1908645815333218,False
+This Is Heaven,This Is Heaven,1,0,True,1,0.0,0.1908645815333218,False
+This Magic Moment,This Magic Moment,0,1,True,1,1.0,0.3019756926444329,False
 Etruscans,Etruscans,1,0,False,1,0.0,0.1908645815333218,False
-Sixteen Tons,Sixteen Tons,1,0,True,1,0.0,0.1908645815333218,False
-Satanic Messiah (Song),Satanic Messiah (Song),1,0,False,1,0.0,0.1908645815333218,False
-Going to Niles,Going to Niles,0,1,False,1,1.0,0.3019756926444329,False
-The Autopsy Garland,The Autopsy Garland,1,0,False,1,0.0,0.1908645815333218,False
-That Hippolytine Feeling,That Hippolytine Feeling,1,0,False,1,0.0,0.1908645815333218,False
-Dirty Old Town,Dirty Old Town,0,1,True,1,1.0,0.3019756926444329,False
-Terror Song,Terror Song,0,1,True,1,1.0,0.3019756926444329,False
-Cut Off Their Thumbs Number 1,Cut Off Their Thumbs Number 1,1,0,False,1,0.0,0.1908645815333218,False
-Tall Tall Trees,Tall Tall Trees,1,0,True,1,0.0,0.1908645815333218,False
-Tallahasee,Tallahasee,1,0,False,1,0.0,0.1908645815333218,False
-Tell Me on a Sunday,Tell Me on a Sunday,1,0,True,1,0.0,0.1908645815333218,False
-Sun Song,Sun Song,1,0,False,1,0.0,0.1908645815333218,False
-"Sugar, We're Going Down","Sugar, We're Going Down",1,0,True,1,0.0,0.1908645815333218,False
-"Sure Do Love You Baby, But I Can't Do 60 No More","Sure Do Love You Baby, But I Can't Do 60 No More",1,0,False,1,0.0,0.1908645815333218,False
-Hatha Hill,Hatha Hill,1,0,False,1,0.0,0.1908645815333218,False
-Hellhound on My Trail,Hellhound on My Trail,1,0,True,1,0.0,0.1908645815333218,False
-Here I Am,Here I Am,1,0,True,1,0.0,0.1908645815333218,False
-Mourn Not the Dead,Mourn Not the Dead,1,0,True,1,0.0,0.1908645815333218,False
-My Dinner Plate Has a Cat On It,My Dinner Plate Has a Cat On It,0,1,False,1,1.0,0.3019756926444329,False
-Snake Dance Song,Snake Dance Song,1,0,False,1,0.0,0.1908645815333218,False
-Fortune Came Today,Fortune Came Today,1,0,True,1,0.0,0.1908645815333218,False
+Extreme South Number 1,Extreme South Number 1,1,0,False,1,0.0,0.1908645815333218,False
 For the Snakes,For the Snakes,1,0,False,1,0.0,0.1908645815333218,False
+Fortune Came Today,Fortune Came Today,1,0,True,1,0.0,0.1908645815333218,False
+Prominent Metaphysicians of South Pomona,Prominent Metaphysicians of South Pomona,1,0,False,1,0.0,0.1908645815333218,False
+Proverbs 6:27,Proverbs 6:27,1,0,False,1,0.0,0.1908645815333218,False
+Puffin',Puffin',1,0,True,1,0.0,0.1908645815333218,False
+Quetzalcoatl Comes Through,Quetzalcoatl Comes Through,1,0,False,1,0.0,0.1908645815333218,False
+Radical Evil Song,Radical Evil Song,1,0,False,1,0.0,0.1908645815333218,False
+Rock and Roll All Night,Rock and Roll All Night,1,0,False,1,0.0,0.1908645815333218,False
+Saigon Shrunken Panorama,Saigon Shrunken Panorama,1,0,False,1,0.0,0.1908645815333218,False
+Sally MacLennane,Sally MacLennane,1,0,True,1,0.0,0.1908645815333218,False
+Satanic Messiah (Song),Satanic Messiah (Song),1,0,False,1,0.0,0.1908645815333218,False
 Seeing Daylight,Seeing Daylight,1,0,False,1,0.0,0.1908645815333218,False
 Short Song About the 10 Freeway,Short Song About the 10 Freeway,1,0,False,1,0.0,0.1908645815333218,False
 "Shot, Repeatedly, At Close Range, In the Chest, By Your Love","Shot, Repeatedly, At Close Range, In the Chest, By Your Love",1,0,False,1,0.0,0.1908645815333218,False
 Shower,Shower,1,0,False,1,0.0,0.1908645815333218,False
-Song for Roger Maris,Song for Roger Maris,1,0,False,1,0.0,0.1908645815333218,False
-Down Here Where the Bullet Bills Are,Down Here Where the Bullet Bills Are,1,0,False,1,0.0,0.1908645815333218,False
+Sixteen Tons,Sixteen Tons,1,0,True,1,0.0,0.1908645815333218,False
+Snake Dance Song,Snake Dance Song,1,0,False,1,0.0,0.1908645815333218,False
 Solomon Revisited,Solomon Revisited,1,0,False,1,0.0,0.1908645815333218,False
 Song for My Sons,Song for My Sons,0,1,True,1,1.0,0.3019756926444329,False
-I Wonder Where Our Love Has Gone,I Wonder Where Our Love Has Gone,1,0,True,1,0.0,0.1908645815333218,False
-The Garden Song,The Garden Song,1,0,False,1,0.0,0.1908645815333218,False
-The Hot Garden Stomp,The Hot Garden Stomp,1,0,False,1,0.0,0.1908645815333218,False
+Song for Roger Maris,Song for Roger Maris,1,0,False,1,0.0,0.1908645815333218,False
 Chinese House Flowers,Chinese House Flowers,1,0,False,1,0.0,0.1908645815333218,False
-The Boys Are Back in Town,The Boys Are Back in Town,0,1,True,1,1.0,0.3019756926444329,False
-This Magic Moment,This Magic Moment,0,1,True,1,1.0,0.3019756926444329,False
-This Is Heaven,This Is Heaven,1,0,True,1,0.0,0.1908645815333218,False
+One Fine Day,One Fine Day,1,0,True,1,0.0,0.1908645815333218,False
+Orange,Orange,0,1,True,1,1.0,0.3019756926444329,False
+Original Air-Blue Gown,Original Air-Blue Gown,1,0,False,1,0.0,0.1908645815333218,False
+Palisades Park,Palisades Park,1,0,True,1,0.0,0.1908645815333218,False
+Passaic 1975,Passaic 1975,1,0,False,1,0.0,0.1908645815333218,False
+Peacocks,Peacocks,1,0,False,1,0.0,0.1908645815333218,False
+Pet Politics,Pet Politics,1,0,True,1,0.0,0.1908645815333218,False
+Programmed Cell Death,Programmed Cell Death,1,0,False,1,0.0,0.1908645815333218,False
+Down Here Where the Bullet Bills Are,Down Here Where the Bullet Bills Are,1,0,False,1,0.0,0.1908645815333218,False
+Going the Ways,Going the Ways,1,0,False,1,0.0,0.1908645815333218,False
+Going to Bridlington,Going to Bridlington,0,1,False,1,1.0,0.3019756926444329,False
+Going to Chino,Going to Chino,1,0,False,1,0.0,0.1908645815333218,False
+Going to Cleveland,Going to Cleveland,1,0,False,1,0.0,0.1908645815333218,False
+Going to Federal Prison,Going to Federal Prison,1,0,False,1,0.0,0.1908645815333218,False
+Going to Japan,Going to Japan,1,0,False,1,0.0,0.1908645815333218,False
+Going to Kirby Sigston,Going to Kirby Sigston,1,0,False,1,0.0,0.1908645815333218,False
+Mourn Not the Dead,Mourn Not the Dead,1,0,True,1,0.0,0.1908645815333218,False
+My Dinner Plate Has a Cat On It,My Dinner Plate Has a Cat On It,0,1,False,1,1.0,0.3019756926444329,False
+My Mask,My Mask,1,0,False,1,0.0,0.1908645815333218,False
+Neon Orange Glimmer Song,Neon Orange Glimmer Song,1,0,False,1,0.0,0.1908645815333218,False
+New London,New London,1,0,False,1,0.0,0.1908645815333218,False
 Crazy On You,Crazy On You,1,0,True,1,0.0,0.1908645815333218,False
-Lonesome Surprise,Lonesome Surprise,0,1,True,1,1.0,0.3019756926444329,False
-Love and Marriage,Love and Marriage,0,1,True,1,1.0,0.3019756926444329,False
-Love Hymn to Aphrodite,Love Hymn to Aphrodite,1,0,False,1,0.0,0.1908645815333218,False
-The Last Day of Jimi Hendrix's Life,The Last Day of Jimi Hendrix's Life,1,0,False,1,0.0,0.1908645815333218,False
-The Day the Aliens Came,The Day the Aliens Came,1,0,False,1,0.0,0.1908645815333218,False
+Cut Off Their Thumbs Number 1,Cut Off Their Thumbs Number 1,1,0,False,1,0.0,0.1908645815333218,False
+Dirty Old Town,Dirty Old Town,0,1,True,1,1.0,0.3019756926444329,False
+Song for Ted Sallis,Song for Ted Sallis,1,0,False,1,0.0,0.1908645815333218,False
+St. Stephen,St. Stephen,1,0,True,1,0.0,0.1908645815333218,False
+Stable Boy Song,Stable Boy Song,1,0,False,1,0.0,0.1908645815333218,False
+"Sugar, We're Going Down","Sugar, We're Going Down",1,0,True,1,0.0,0.1908645815333218,False
+Sun Song,Sun Song,1,0,False,1,0.0,0.1908645815333218,False
+"Sure Do Love You Baby, But I Can't Do 60 No More","Sure Do Love You Baby, But I Can't Do 60 No More",1,0,False,1,0.0,0.1908645815333218,False
 In the Cane Fields,In the Cane Fields,1,0,False,1,0.0,0.1908645815333218,False
+Keep It on Your Mind,Keep It on Your Mind,1,0,True,1,0.0,0.1908645815333218,False
+"Lie Down, Keep Still, Play Dead","Lie Down, Keep Still, Play Dead",1,0,False,1,0.0,0.1908645815333218,False
+Light of the World,Light of the World,1,0,False,1,0.0,0.1908645815333218,False
+Lonesome Surprise,Lonesome Surprise,0,1,True,1,1.0,0.3019756926444329,False
+Love Hymn to Aphrodite,Love Hymn to Aphrodite,1,0,False,1,0.0,0.1908645815333218,False
+Love and Marriage,Love and Marriage,0,1,True,1,1.0,0.3019756926444329,False
+From the Lake Trials,From the Lake Trials,1,0,False,1,0.0,0.1908645815333218,False
+Furniture Store,Furniture Store,0,1,True,1,1.0,0.3019756926444329,False
+Goblin Wizard in the Crawlspace of My Heart,Goblin Wizard in the Crawlspace of My Heart,1,0,False,1,0.0,0.1908645815333218,False
+Going Underground,Going Underground,1,0,False,1,0.0,0.1908645815333218,False
+Going to Maryland,Going to Maryland,1,0,False,1,0.0,0.1908645815333218,False
+Going to Niles,Going to Niles,0,1,False,1,1.0,0.3019756926444329,False
+Going to Wisconsin,Going to Wisconsin,1,0,False,1,0.0,0.1908645815333218,False
+Hatha Hill,Hatha Hill,1,0,False,1,0.0,0.1908645815333218,False
+Hellhound on My Trail,Hellhound on My Trail,1,0,True,1,0.0,0.1908645815333218,False
+Here I Am,Here I Am,1,0,True,1,0.0,0.1908645815333218,False
 "Here I Am, Lord","Here I Am, Lord",1,0,True,1,0.0,0.1908645815333218,False
 Holidays in the Sun,Holidays in the Sun,1,0,True,1,0.0,0.1908645815333218,False
 Hopeful Assassins of Zeno,Hopeful Assassins of Zeno,1,0,False,1,0.0,0.1908645815333218,False
 Hospital Reaction Shot,Hospital Reaction Shot,1,0,False,1,0.0,0.1908645815333218,False
 I Don't Want to Get Adjusted,I Don't Want to Get Adjusted,1,0,True,1,0.0,0.1908645815333218,False
 I Know You've Come to Take My Toys Away,I Know You've Come to Take My Toys Away,1,0,False,1,0.0,0.1908645815333218,False
-You've Got to Have a Mouse in Your Life,You've Got to Have a Mouse in Your Life,1,0,False,1,0.0,0.1908645815333218,False
-Light of the World,Light of the World,1,0,False,1,0.0,0.1908645815333218,False
-"Lie Down, Keep Still, Play Dead","Lie Down, Keep Still, Play Dead",1,0,False,1,0.0,0.1908645815333218,False
-Keep It on Your Mind,Keep It on Your Mind,1,0,True,1,0.0,0.1908645815333218,False
-Young and Endangered,Young and Endangered,1,0,False,1,0.0,0.1908645815333218,False
-Bride,Bride,1,0,False,1,0.0,0.1908645815333218,False
-Bluejays and Cardinals,Bluejays and Cardinals,1,0,False,1,0.0,0.1908645815333218,False
+I Wonder Where Our Love Has Gone,I Wonder Where Our Love Has Gone,1,0,True,1,0.0,0.1908645815333218,False
+Tall Tall Trees,Tall Tall Trees,1,0,True,1,0.0,0.1908645815333218,False
+Tallahasee,Tallahasee,1,0,False,1,0.0,0.1908645815333218,False
+Tell Me on a Sunday,Tell Me on a Sunday,1,0,True,1,0.0,0.1908645815333218,False
+Terror Song,Terror Song,0,1,True,1,1.0,0.3019756926444329,False
+That Hippolytine Feeling,That Hippolytine Feeling,1,0,False,1,0.0,0.1908645815333218,False
+The Autopsy Garland,The Autopsy Garland,1,0,False,1,0.0,0.1908645815333218,False
+The Boys Are Back in Town,The Boys Are Back in Town,0,1,True,1,1.0,0.3019756926444329,False
+The Day the Aliens Came,The Day the Aliens Came,1,0,False,1,0.0,0.1908645815333218,False
+The Garden Song,The Garden Song,1,0,False,1,0.0,0.1908645815333218,False
+The Hot Garden Stomp,The Hot Garden Stomp,1,0,False,1,0.0,0.1908645815333218,False
+The Last Day of Jimi Hendrix's Life,The Last Day of Jimi Hendrix's Life,1,0,False,1,0.0,0.1908645815333218,False
 Tomb of the Assassin,Tomb of the Assassin,1,0,False,1,0.0,0.1908645815333218,False
+Alpha Double Negative: Going to Catalina,Alpha Double Negative: Going to Catalina,1,0,False,1,0.0,0.1908645815333218,False
 Treetop Song,Treetop Song,1,0,False,1,0.0,0.1908645815333218,False
-Used to Haunt,Used to Haunt,1,0,False,1,0.0,0.1908645815333218,False
+All of You,All of You,0,1,False,1,1.0,0.3019756926444329,False
+All for the Best,All for the Best,1,0,False,1,0.0,0.1908645815333218,False
+All Devils Here Now,All Devils Here Now,1,0,False,1,0.0,0.1908645815333218,False
+Alibi,Alibi,1,0,False,1,0.0,0.1908645815333218,False
 Until Olympius Returns,Until Olympius Returns,1,0,False,1,0.0,0.1908645815333218,False
-Chason du Bon Chose,Chason du Bon Chose,1,0,False,1,0.0,0.1908645815333218,False
-Barracuda,Barracuda,1,0,True,1,0.0,0.1908645815333218,False
-Balance,Balance,1,0,False,1,0.0,0.1908645815333218,False
+Ain't Misbehavin',Ain't Misbehavin',1,0,True,1,0.0,0.1908645815333218,False
+Used to Haunt,Used to Haunt,1,0,False,1,0.0,0.1908645815333218,False
+Adultery,Adultery,1,0,False,1,0.0,0.1908645815333218,False
 Abide with Me,Abide with Me,1,0,True,1,0.0,0.1908645815333218,False
 02-75,02-75,1,0,False,1,0.0,0.1908645815333218,False
 Your Daddy Loves You,Your Daddy Loves You,1,0,False,1,0.0,0.1908645815333218,False
