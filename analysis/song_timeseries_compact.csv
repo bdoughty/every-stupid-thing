@@ -251,7 +251,7 @@ song_key,date,play_rate
 1 John 4:16,2022-04-01,0.0
 1 John 4:16,2022-07-01,0.027
 1 John 4:16,2022-10-01,0.019
-1 John 4:16,2023-01-01,0.027
+1 John 4:16,2023-01-01,0.028
 1 John 4:16,2023-04-01,0.025
 1 John 4:16,2023-07-01,0.022
 1 John 4:16,2023-10-01,0.025
@@ -384,13 +384,13 @@ song_key,date,play_rate
 1 Samuel 15:23,2022-01-01,0.15
 1 Samuel 15:23,2022-04-01,0.158
 1 Samuel 15:23,2022-07-01,0.16
-1 Samuel 15:23,2022-10-01,0.132
-1 Samuel 15:23,2023-01-01,0.118
-1 Samuel 15:23,2023-04-01,0.108
-1 Samuel 15:23,2023-07-01,0.096
-1 Samuel 15:23,2023-10-01,0.108
-1 Samuel 15:23,2024-01-01,0.048
-1 Samuel 15:23,2024-04-01,0.056
+1 Samuel 15:23,2022-10-01,0.133
+1 Samuel 15:23,2023-01-01,0.119
+1 Samuel 15:23,2023-04-01,0.109
+1 Samuel 15:23,2023-07-01,0.097
+1 Samuel 15:23,2023-10-01,0.109
+1 Samuel 15:23,2024-01-01,0.049
+1 Samuel 15:23,2024-04-01,0.057
 1 Samuel 15:23,2024-07-01,0.035
 1 Samuel 15:23,2024-10-01,0.024
 1 Samuel 15:23,2025-01-01,0.022
@@ -518,14 +518,14 @@ Abandoned Flesh,2021-10-01,0.0
 Abandoned Flesh,2022-01-01,0.017
 Abandoned Flesh,2022-04-01,0.018
 Abandoned Flesh,2022-07-01,0.067
-Abandoned Flesh,2022-10-01,0.104
-Abandoned Flesh,2023-01-01,0.136
-Abandoned Flesh,2023-04-01,0.142
-Abandoned Flesh,2023-07-01,0.178
-Abandoned Flesh,2023-10-01,0.267
-Abandoned Flesh,2024-01-01,0.25
-Abandoned Flesh,2024-04-01,0.218
-Abandoned Flesh,2024-07-01,0.252
+Abandoned Flesh,2022-10-01,0.105
+Abandoned Flesh,2023-01-01,0.138
+Abandoned Flesh,2023-04-01,0.143
+Abandoned Flesh,2023-07-01,0.179
+Abandoned Flesh,2023-10-01,0.269
+Abandoned Flesh,2024-01-01,0.252
+Abandoned Flesh,2024-04-01,0.22
+Abandoned Flesh,2024-07-01,0.254
 Abandoned Flesh,2024-10-01,0.31
 Abandoned Flesh,2025-01-01,0.255
 Abandoned Flesh,2025-04-01,0.268
@@ -652,7 +652,7 @@ Abandoning My Father Talking Blues,2021-10-01,0.0
 Abandoning My Father Talking Blues,2022-01-01,0.0
 Abandoning My Father Talking Blues,2022-04-01,0.0
 Abandoning My Father Talking Blues,2022-07-01,0.013
-Abandoning My Father Talking Blues,2022-10-01,0.009
+Abandoning My Father Talking Blues,2022-10-01,0.01
 Abandoning My Father Talking Blues,2023-01-01,0.009
 Abandoning My Father Talking Blues,2023-04-01,0.008
 Abandoning My Father Talking Blues,2023-07-01,0.007
@@ -920,8 +920,8 @@ Absolute Lithops Effect,2021-10-01,0.033
 Absolute Lithops Effect,2022-01-01,0.033
 Absolute Lithops Effect,2022-04-01,0.035
 Absolute Lithops Effect,2022-07-01,0.04
-Absolute Lithops Effect,2022-10-01,0.028
-Absolute Lithops Effect,2023-01-01,0.027
+Absolute Lithops Effect,2022-10-01,0.029
+Absolute Lithops Effect,2023-01-01,0.028
 Absolute Lithops Effect,2023-04-01,0.025
 Absolute Lithops Effect,2023-07-01,0.022
 Absolute Lithops Effect,2023-10-01,0.008
@@ -1188,7 +1188,7 @@ Against Agamemnon,2021-10-01,0.017
 Against Agamemnon,2022-01-01,0.017
 Against Agamemnon,2022-04-01,0.018
 Against Agamemnon,2022-07-01,0.013
-Against Agamemnon,2022-10-01,0.009
+Against Agamemnon,2022-10-01,0.01
 Against Agamemnon,2023-01-01,0.009
 Against Agamemnon,2023-04-01,0.008
 Against Agamemnon,2023-07-01,0.007
@@ -1322,10 +1322,10 @@ Against Pollution,2021-10-01,0.183
 Against Pollution,2022-01-01,0.183
 Against Pollution,2022-04-01,0.193
 Against Pollution,2022-07-01,0.147
-Against Pollution,2022-10-01,0.104
-Against Pollution,2023-01-01,0.109
-Against Pollution,2023-04-01,0.1
-Against Pollution,2023-07-01,0.081
+Against Pollution,2022-10-01,0.105
+Against Pollution,2023-01-01,0.11
+Against Pollution,2023-04-01,0.101
+Against Pollution,2023-07-01,0.082
 Against Pollution,2023-10-01,0.008
 Against Pollution,2024-01-01,0.008
 Against Pollution,2024-04-01,0.007
@@ -2662,12 +2662,12 @@ Alpha Gelida,2021-10-01,0.033
 Alpha Gelida,2022-01-01,0.033
 Alpha Gelida,2022-04-01,0.018
 Alpha Gelida,2022-07-01,0.013
-Alpha Gelida,2022-10-01,0.009
+Alpha Gelida,2022-10-01,0.01
 Alpha Gelida,2023-01-01,0.018
-Alpha Gelida,2023-04-01,0.033
+Alpha Gelida,2023-04-01,0.034
 Alpha Gelida,2023-07-01,0.037
-Alpha Gelida,2023-10-01,0.033
-Alpha Gelida,2024-01-01,0.032
+Alpha Gelida,2023-10-01,0.034
+Alpha Gelida,2024-01-01,0.033
 Alpha Gelida,2024-04-01,0.028
 Alpha Gelida,2024-07-01,0.028
 Alpha Gelida,2024-10-01,0.048
@@ -2799,7 +2799,7 @@ Alpha Incipiens,2022-07-01,0.053
 Alpha Incipiens,2022-10-01,0.057
 Alpha Incipiens,2023-01-01,0.055
 Alpha Incipiens,2023-04-01,0.05
-Alpha Incipiens,2023-07-01,0.044
+Alpha Incipiens,2023-07-01,0.045
 Alpha Incipiens,2023-10-01,0.017
 Alpha Incipiens,2024-01-01,0.016
 Alpha Incipiens,2024-04-01,0.014
@@ -3069,7 +3069,7 @@ Alpha Omega,2023-01-01,0.018
 Alpha Omega,2023-04-01,0.017
 Alpha Omega,2023-07-01,0.015
 Alpha Omega,2023-10-01,0.017
-Alpha Omega,2024-01-01,0.032
+Alpha Omega,2024-01-01,0.033
 Alpha Omega,2024-04-01,0.028
 Alpha Omega,2024-07-01,0.042
 Alpha Omega,2024-10-01,0.04
@@ -3198,7 +3198,7 @@ Alpha Rats Nest,2021-10-01,0.033
 Alpha Rats Nest,2022-01-01,0.017
 Alpha Rats Nest,2022-04-01,0.018
 Alpha Rats Nest,2022-07-01,0.013
-Alpha Rats Nest,2022-10-01,0.009
+Alpha Rats Nest,2022-10-01,0.01
 Alpha Rats Nest,2023-01-01,0.009
 Alpha Rats Nest,2023-04-01,0.025
 Alpha Rats Nest,2023-07-01,0.022
@@ -3332,7 +3332,7 @@ Alpha Sun Hat,2021-10-01,0.0
 Alpha Sun Hat,2022-01-01,0.0
 Alpha Sun Hat,2022-04-01,0.0
 Alpha Sun Hat,2022-07-01,0.0
-Alpha Sun Hat,2022-10-01,0.009
+Alpha Sun Hat,2022-10-01,0.01
 Alpha Sun Hat,2023-01-01,0.009
 Alpha Sun Hat,2023-04-01,0.017
 Alpha Sun Hat,2023-07-01,0.015
@@ -3469,9 +3469,9 @@ Alpha in Tauris,2022-07-01,0.027
 Alpha in Tauris,2022-10-01,0.057
 Alpha in Tauris,2023-01-01,0.055
 Alpha in Tauris,2023-04-01,0.05
-Alpha in Tauris,2023-07-01,0.044
+Alpha in Tauris,2023-07-01,0.045
 Alpha in Tauris,2023-10-01,0.042
-Alpha in Tauris,2024-01-01,0.032
+Alpha in Tauris,2024-01-01,0.033
 Alpha in Tauris,2024-04-01,0.028
 Alpha in Tauris,2024-07-01,0.028
 Alpha in Tauris,2024-10-01,0.0
@@ -3601,8 +3601,8 @@ Alphabetizing,2022-01-01,0.033
 Alphabetizing,2022-04-01,0.035
 Alphabetizing,2022-07-01,0.027
 Alphabetizing,2022-10-01,0.019
-Alphabetizing,2023-01-01,0.027
-Alphabetizing,2023-04-01,0.033
+Alphabetizing,2023-01-01,0.028
+Alphabetizing,2023-04-01,0.034
 Alphabetizing,2023-07-01,0.03
 Alphabetizing,2023-10-01,0.025
 Alphabetizing,2024-01-01,0.016
@@ -3868,14 +3868,14 @@ Amy AKA Spent Gladiator 1,2021-10-01,0.25
 Amy AKA Spent Gladiator 1,2022-01-01,0.267
 Amy AKA Spent Gladiator 1,2022-04-01,0.281
 Amy AKA Spent Gladiator 1,2022-07-01,0.293
-Amy AKA Spent Gladiator 1,2022-10-01,0.226
-Amy AKA Spent Gladiator 1,2023-01-01,0.227
-Amy AKA Spent Gladiator 1,2023-04-01,0.208
-Amy AKA Spent Gladiator 1,2023-07-01,0.207
-Amy AKA Spent Gladiator 1,2023-10-01,0.167
-Amy AKA Spent Gladiator 1,2024-01-01,0.137
-Amy AKA Spent Gladiator 1,2024-04-01,0.12
-Amy AKA Spent Gladiator 1,2024-07-01,0.091
+Amy AKA Spent Gladiator 1,2022-10-01,0.229
+Amy AKA Spent Gladiator 1,2023-01-01,0.229
+Amy AKA Spent Gladiator 1,2023-04-01,0.21
+Amy AKA Spent Gladiator 1,2023-07-01,0.209
+Amy AKA Spent Gladiator 1,2023-10-01,0.168
+Amy AKA Spent Gladiator 1,2024-01-01,0.138
+Amy AKA Spent Gladiator 1,2024-04-01,0.121
+Amy AKA Spent Gladiator 1,2024-07-01,0.092
 Amy AKA Spent Gladiator 1,2024-10-01,0.103
 Amy AKA Spent Gladiator 1,2025-01-01,0.08
 Amy AKA Spent Gladiator 1,2025-04-01,0.089
@@ -4007,8 +4007,8 @@ An Antidote for Strychnine,2023-01-01,0.009
 An Antidote for Strychnine,2023-04-01,0.008
 An Antidote for Strychnine,2023-07-01,0.022
 An Antidote for Strychnine,2023-10-01,0.05
-An Antidote for Strychnine,2024-01-01,0.048
-An Antidote for Strychnine,2024-04-01,0.042
+An Antidote for Strychnine,2024-01-01,0.049
+An Antidote for Strychnine,2024-04-01,0.043
 An Antidote for Strychnine,2024-07-01,0.042
 An Antidote for Strychnine,2024-10-01,0.048
 An Antidote for Strychnine,2025-01-01,0.036
@@ -4136,14 +4136,14 @@ Andrew Eldritch Is Moving Back to Leeds,2021-10-01,0.083
 Andrew Eldritch Is Moving Back to Leeds,2022-01-01,0.033
 Andrew Eldritch Is Moving Back to Leeds,2022-04-01,0.018
 Andrew Eldritch Is Moving Back to Leeds,2022-07-01,0.013
-Andrew Eldritch Is Moving Back to Leeds,2022-10-01,0.009
+Andrew Eldritch Is Moving Back to Leeds,2022-10-01,0.01
 Andrew Eldritch Is Moving Back to Leeds,2023-01-01,0.009
-Andrew Eldritch Is Moving Back to Leeds,2023-04-01,0.033
-Andrew Eldritch Is Moving Back to Leeds,2023-07-01,0.096
-Andrew Eldritch Is Moving Back to Leeds,2023-10-01,0.117
-Andrew Eldritch Is Moving Back to Leeds,2024-01-01,0.113
+Andrew Eldritch Is Moving Back to Leeds,2023-04-01,0.034
+Andrew Eldritch Is Moving Back to Leeds,2023-07-01,0.097
+Andrew Eldritch Is Moving Back to Leeds,2023-10-01,0.118
+Andrew Eldritch Is Moving Back to Leeds,2024-01-01,0.114
 Andrew Eldritch Is Moving Back to Leeds,2024-04-01,0.106
-Andrew Eldritch Is Moving Back to Leeds,2024-07-01,0.105
+Andrew Eldritch Is Moving Back to Leeds,2024-07-01,0.106
 Andrew Eldritch Is Moving Back to Leeds,2024-10-01,0.135
 Andrew Eldritch Is Moving Back to Leeds,2025-01-01,0.131
 Andrew Eldritch Is Moving Back to Leeds,2025-04-01,0.114
@@ -4275,8 +4275,8 @@ Animal Mask,2023-01-01,0.018
 Animal Mask,2023-04-01,0.025
 Animal Mask,2023-07-01,0.022
 Animal Mask,2023-10-01,0.017
-Animal Mask,2024-01-01,0.048
-Animal Mask,2024-04-01,0.042
+Animal Mask,2024-01-01,0.049
+Animal Mask,2024-04-01,0.043
 Animal Mask,2024-07-01,0.049
 Animal Mask,2024-10-01,0.063
 Animal Mask,2025-01-01,0.058
@@ -4538,9 +4538,9 @@ As Many Candles As Possible,2021-10-01,0.167
 As Many Candles As Possible,2022-01-01,0.267
 As Many Candles As Possible,2022-04-01,0.281
 As Many Candles As Possible,2022-07-01,0.213
-As Many Candles As Possible,2022-10-01,0.151
-As Many Candles As Possible,2023-01-01,0.145
-As Many Candles As Possible,2023-04-01,0.133
+As Many Candles As Possible,2022-10-01,0.152
+As Many Candles As Possible,2023-01-01,0.147
+As Many Candles As Possible,2023-04-01,0.134
 As Many Candles As Possible,2023-07-01,0.119
 As Many Candles As Possible,2023-10-01,0.05
 As Many Candles As Possible,2024-01-01,0.0
@@ -4672,7 +4672,7 @@ Attention All Pickpockets,2021-10-01,0.033
 Attention All Pickpockets,2022-01-01,0.033
 Attention All Pickpockets,2022-04-01,0.018
 Attention All Pickpockets,2022-07-01,0.013
-Attention All Pickpockets,2022-10-01,0.009
+Attention All Pickpockets,2022-10-01,0.01
 Attention All Pickpockets,2023-01-01,0.009
 Attention All Pickpockets,2023-04-01,0.008
 Attention All Pickpockets,2023-07-01,0.007
@@ -4806,14 +4806,14 @@ Aulon Raid,2021-10-01,0.167
 Aulon Raid,2022-01-01,0.283
 Aulon Raid,2022-04-01,0.298
 Aulon Raid,2022-07-01,0.333
-Aulon Raid,2022-10-01,0.34
-Aulon Raid,2023-01-01,0.318
-Aulon Raid,2023-04-01,0.3
-Aulon Raid,2023-07-01,0.267
-Aulon Raid,2023-10-01,0.225
-Aulon Raid,2024-01-01,0.161
-Aulon Raid,2024-04-01,0.141
-Aulon Raid,2024-07-01,0.084
+Aulon Raid,2022-10-01,0.343
+Aulon Raid,2023-01-01,0.321
+Aulon Raid,2023-04-01,0.303
+Aulon Raid,2023-07-01,0.269
+Aulon Raid,2023-10-01,0.227
+Aulon Raid,2024-01-01,0.163
+Aulon Raid,2024-04-01,0.142
+Aulon Raid,2024-07-01,0.085
 Aulon Raid,2024-10-01,0.008
 Aulon Raid,2025-01-01,0.007
 Aulon Raid,2025-04-01,0.0
@@ -5074,14 +5074,14 @@ Azo Tle Nelli in Tlalticpac?,2021-10-01,0.0
 Azo Tle Nelli in Tlalticpac?,2022-01-01,0.0
 Azo Tle Nelli in Tlalticpac?,2022-04-01,0.0
 Azo Tle Nelli in Tlalticpac?,2022-07-01,0.0
-Azo Tle Nelli in Tlalticpac?,2022-10-01,0.009
+Azo Tle Nelli in Tlalticpac?,2022-10-01,0.01
 Azo Tle Nelli in Tlalticpac?,2023-01-01,0.009
 Azo Tle Nelli in Tlalticpac?,2023-04-01,0.008
 Azo Tle Nelli in Tlalticpac?,2023-07-01,0.007
 Azo Tle Nelli in Tlalticpac?,2023-10-01,0.008
 Azo Tle Nelli in Tlalticpac?,2024-01-01,0.008
 Azo Tle Nelli in Tlalticpac?,2024-04-01,0.007
-Azo Tle Nelli in Tlalticpac?,2024-07-01,0.112
+Azo Tle Nelli in Tlalticpac?,2024-07-01,0.113
 Azo Tle Nelli in Tlalticpac?,2024-10-01,0.119
 Azo Tle Nelli in Tlalticpac?,2025-01-01,0.109
 Azo Tle Nelli in Tlalticpac?,2025-04-01,0.122
@@ -5208,7 +5208,7 @@ Baboon,2021-10-01,0.033
 Baboon,2022-01-01,0.017
 Baboon,2022-04-01,0.018
 Baboon,2022-07-01,0.013
-Baboon,2022-10-01,0.009
+Baboon,2022-10-01,0.01
 Baboon,2023-01-01,0.018
 Baboon,2023-04-01,0.017
 Baboon,2023-07-01,0.015
@@ -5610,7 +5610,7 @@ Balance,2021-10-01,0.017
 Balance,2022-01-01,0.017
 Balance,2022-04-01,0.018
 Balance,2022-07-01,0.013
-Balance,2022-10-01,0.009
+Balance,2022-10-01,0.01
 Balance,2023-01-01,0.009
 Balance,2023-04-01,0.008
 Balance,2023-07-01,0.007
@@ -6012,7 +6012,7 @@ Beat the Devil,2021-10-01,0.0
 Beat the Devil,2022-01-01,0.0
 Beat the Devil,2022-04-01,0.0
 Beat the Devil,2022-07-01,0.013
-Beat the Devil,2022-10-01,0.009
+Beat the Devil,2022-10-01,0.01
 Beat the Devil,2023-01-01,0.009
 Beat the Devil,2023-04-01,0.017
 Beat the Devil,2023-07-01,0.015
@@ -6146,11 +6146,11 @@ Beautiful Gas Mask,2021-10-01,0.05
 Beautiful Gas Mask,2022-01-01,0.1
 Beautiful Gas Mask,2022-04-01,0.105
 Beautiful Gas Mask,2022-07-01,0.08
-Beautiful Gas Mask,2022-10-01,0.066
+Beautiful Gas Mask,2022-10-01,0.067
 Beautiful Gas Mask,2023-01-01,0.064
-Beautiful Gas Mask,2023-04-01,0.058
+Beautiful Gas Mask,2023-04-01,0.059
 Beautiful Gas Mask,2023-07-01,0.052
-Beautiful Gas Mask,2023-10-01,0.033
+Beautiful Gas Mask,2023-10-01,0.034
 Beautiful Gas Mask,2024-01-01,0.008
 Beautiful Gas Mask,2024-04-01,0.007
 Beautiful Gas Mask,2024-07-01,0.007
@@ -6280,14 +6280,14 @@ Before I Got There,2021-10-01,0.033
 Before I Got There,2022-01-01,0.033
 Before I Got There,2022-04-01,0.035
 Before I Got There,2022-07-01,0.027
-Before I Got There,2022-10-01,0.123
-Before I Got There,2023-01-01,0.118
-Before I Got There,2023-04-01,0.108
-Before I Got There,2023-07-01,0.096
-Before I Got There,2023-10-01,0.092
-Before I Got There,2024-01-01,0.226
-Before I Got There,2024-04-01,0.197
-Before I Got There,2024-07-01,0.196
+Before I Got There,2022-10-01,0.114
+Before I Got There,2023-01-01,0.11
+Before I Got There,2023-04-01,0.101
+Before I Got There,2023-07-01,0.09
+Before I Got There,2023-10-01,0.084
+Before I Got There,2024-01-01,0.22
+Before I Got There,2024-04-01,0.191
+Before I Got There,2024-07-01,0.19
 Before I Got There,2024-10-01,0.159
 Before I Got There,2025-01-01,0.285
 Before I Got There,2025-04-01,0.317
@@ -6421,7 +6421,7 @@ Bell Swamp Connection,2023-07-01,0.007
 Bell Swamp Connection,2023-10-01,0.0
 Bell Swamp Connection,2024-01-01,0.0
 Bell Swamp Connection,2024-04-01,0.0
-Bell Swamp Connection,2024-07-01,0.105
+Bell Swamp Connection,2024-07-01,0.106
 Bell Swamp Connection,2024-10-01,0.175
 Bell Swamp Connection,2025-01-01,0.161
 Bell Swamp Connection,2025-04-01,0.179
@@ -6689,7 +6689,7 @@ Birth of Serpents,2023-07-01,0.015
 Birth of Serpents,2023-10-01,0.092
 Birth of Serpents,2024-01-01,0.089
 Birth of Serpents,2024-04-01,0.085
-Birth of Serpents,2024-07-01,0.084
+Birth of Serpents,2024-07-01,0.085
 Birth of Serpents,2024-10-01,0.095
 Birth of Serpents,2025-01-01,0.088
 Birth of Serpents,2025-04-01,0.098
@@ -7084,8 +7084,8 @@ Black Pear Tree,2021-10-01,0.083
 Black Pear Tree,2022-01-01,0.05
 Black Pear Tree,2022-04-01,0.053
 Black Pear Tree,2022-07-01,0.04
-Black Pear Tree,2022-10-01,0.028
-Black Pear Tree,2023-01-01,0.045
+Black Pear Tree,2022-10-01,0.029
+Black Pear Tree,2023-01-01,0.046
 Black Pear Tree,2023-04-01,0.042
 Black Pear Tree,2023-07-01,0.03
 Black Pear Tree,2023-10-01,0.017
@@ -7219,12 +7219,12 @@ Bleed Out (song),2022-01-01,0.0
 Bleed Out (song),2022-04-01,0.0
 Bleed Out (song),2022-07-01,0.0
 Bleed Out (song),2022-10-01,0.038
-Bleed Out (song),2023-01-01,0.036
-Bleed Out (song),2023-04-01,0.033
+Bleed Out (song),2023-01-01,0.037
+Bleed Out (song),2023-04-01,0.034
 Bleed Out (song),2023-07-01,0.03
-Bleed Out (song),2023-10-01,0.033
-Bleed Out (song),2024-01-01,0.032
-Bleed Out (song),2024-04-01,0.042
+Bleed Out (song),2023-10-01,0.034
+Bleed Out (song),2024-01-01,0.033
+Bleed Out (song),2024-04-01,0.043
 Bleed Out (song),2024-07-01,0.042
 Bleed Out (song),2024-10-01,0.016
 Bleed Out (song),2025-01-01,0.015
@@ -7625,8 +7625,8 @@ Blueberry Frost,2023-01-01,0.0
 Blueberry Frost,2023-04-01,0.008
 Blueberry Frost,2023-07-01,0.007
 Blueberry Frost,2023-10-01,0.025
-Blueberry Frost,2024-01-01,0.04
-Blueberry Frost,2024-04-01,0.042
+Blueberry Frost,2024-01-01,0.041
+Blueberry Frost,2024-04-01,0.043
 Blueberry Frost,2024-07-01,0.042
 Blueberry Frost,2024-10-01,0.048
 Blueberry Frost,2025-01-01,0.044
@@ -8022,14 +8022,14 @@ Bones Don't Rust,2021-10-01,0.0
 Bones Don't Rust,2022-01-01,0.0
 Bones Don't Rust,2022-04-01,0.0
 Bones Don't Rust,2022-07-01,0.0
-Bones Don't Rust,2022-10-01,0.123
-Bones Don't Rust,2023-01-01,0.164
-Bones Don't Rust,2023-04-01,0.183
-Bones Don't Rust,2023-07-01,0.163
-Bones Don't Rust,2023-10-01,0.183
-Bones Don't Rust,2024-01-01,0.177
-Bones Don't Rust,2024-04-01,0.155
-Bones Don't Rust,2024-07-01,0.154
+Bones Don't Rust,2022-10-01,0.114
+Bones Don't Rust,2023-01-01,0.156
+Bones Don't Rust,2023-04-01,0.176
+Bones Don't Rust,2023-07-01,0.157
+Bones Don't Rust,2023-10-01,0.176
+Bones Don't Rust,2024-01-01,0.171
+Bones Don't Rust,2024-04-01,0.149
+Bones Don't Rust,2024-07-01,0.148
 Bones Don't Rust,2024-10-01,0.071
 Bones Don't Rust,2025-01-01,0.029
 Bones Don't Rust,2025-04-01,0.0
@@ -8826,14 +8826,14 @@ Broom People,2021-10-01,0.267
 Broom People,2022-01-01,0.233
 Broom People,2022-04-01,0.228
 Broom People,2022-07-01,0.213
-Broom People,2022-10-01,0.189
-Broom People,2023-01-01,0.209
-Broom People,2023-04-01,0.217
-Broom People,2023-07-01,0.207
-Broom People,2023-10-01,0.183
-Broom People,2024-01-01,0.177
-Broom People,2024-04-01,0.162
-Broom People,2024-07-01,0.14
+Broom People,2022-10-01,0.19
+Broom People,2023-01-01,0.211
+Broom People,2023-04-01,0.218
+Broom People,2023-07-01,0.209
+Broom People,2023-10-01,0.185
+Broom People,2024-01-01,0.179
+Broom People,2024-04-01,0.163
+Broom People,2024-07-01,0.141
 Broom People,2024-10-01,0.127
 Broom People,2025-01-01,0.095
 Broom People,2025-04-01,0.081
@@ -9100,7 +9100,7 @@ Cadaver Sniffing Dog,2023-04-01,0.0
 Cadaver Sniffing Dog,2023-07-01,0.03
 Cadaver Sniffing Dog,2023-10-01,0.092
 Cadaver Sniffing Dog,2024-01-01,0.089
-Cadaver Sniffing Dog,2024-04-01,0.077
+Cadaver Sniffing Dog,2024-04-01,0.078
 Cadaver Sniffing Dog,2024-07-01,0.077
 Cadaver Sniffing Dog,2024-10-01,0.087
 Cadaver Sniffing Dog,2025-01-01,0.08
@@ -9496,7 +9496,7 @@ Calling Out Your Name,2021-10-01,0.017
 Calling Out Your Name,2022-01-01,0.017
 Calling Out Your Name,2022-04-01,0.018
 Calling Out Your Name,2022-07-01,0.013
-Calling Out Your Name,2022-10-01,0.009
+Calling Out Your Name,2022-10-01,0.01
 Calling Out Your Name,2023-01-01,0.009
 Calling Out Your Name,2023-04-01,0.008
 Calling Out Your Name,2023-07-01,0.015
@@ -9765,11 +9765,11 @@ Carmen Cicero,2022-01-01,0.033
 Carmen Cicero,2022-04-01,0.018
 Carmen Cicero,2022-07-01,0.013
 Carmen Cicero,2022-10-01,0.019
-Carmen Cicero,2023-01-01,0.027
-Carmen Cicero,2023-04-01,0.033
+Carmen Cicero,2023-01-01,0.028
+Carmen Cicero,2023-04-01,0.034
 Carmen Cicero,2023-07-01,0.03
-Carmen Cicero,2023-10-01,0.033
-Carmen Cicero,2024-01-01,0.032
+Carmen Cicero,2023-10-01,0.034
+Carmen Cicero,2024-01-01,0.033
 Carmen Cicero,2024-04-01,0.035
 Carmen Cicero,2024-07-01,0.035
 Carmen Cicero,2024-10-01,0.032
@@ -10300,14 +10300,14 @@ Choked Out,2021-10-01,0.0
 Choked Out,2022-01-01,0.0
 Choked Out,2022-04-01,0.0
 Choked Out,2022-07-01,0.133
-Choked Out,2022-10-01,0.189
-Choked Out,2023-01-01,0.191
-Choked Out,2023-04-01,0.175
-Choked Out,2023-07-01,0.156
-Choked Out,2023-10-01,0.175
-Choked Out,2024-01-01,0.169
-Choked Out,2024-04-01,0.148
-Choked Out,2024-07-01,0.077
+Choked Out,2022-10-01,0.181
+Choked Out,2023-01-01,0.183
+Choked Out,2023-04-01,0.168
+Choked Out,2023-07-01,0.149
+Choked Out,2023-10-01,0.168
+Choked Out,2024-01-01,0.163
+Choked Out,2024-04-01,0.142
+Choked Out,2024-07-01,0.07
 Choked Out,2024-10-01,0.008
 Choked Out,2025-01-01,0.0
 Choked Out,2025-04-01,0.0
@@ -10573,9 +10573,9 @@ Clean Slate,2023-01-01,0.0
 Clean Slate,2023-04-01,0.0
 Clean Slate,2023-07-01,0.0
 Clean Slate,2023-10-01,0.042
-Clean Slate,2024-01-01,0.129
+Clean Slate,2024-01-01,0.13
 Clean Slate,2024-04-01,0.113
-Clean Slate,2024-07-01,0.147
+Clean Slate,2024-07-01,0.148
 Clean Slate,2024-10-01,0.183
 Clean Slate,2025-01-01,0.168
 Clean Slate,2025-04-01,0.187
@@ -10707,9 +10707,9 @@ Cleaning Crew,2023-01-01,0.0
 Cleaning Crew,2023-04-01,0.0
 Cleaning Crew,2023-07-01,0.0
 Cleaning Crew,2023-10-01,0.0
-Cleaning Crew,2024-01-01,0.145
-Cleaning Crew,2024-04-01,0.127
-Cleaning Crew,2024-07-01,0.126
+Cleaning Crew,2024-01-01,0.146
+Cleaning Crew,2024-04-01,0.128
+Cleaning Crew,2024-07-01,0.127
 Cleaning Crew,2024-10-01,0.151
 Cleaning Crew,2025-01-01,0.139
 Cleaning Crew,2025-04-01,0.154
@@ -10836,14 +10836,14 @@ Clemency for the Wizard King,2021-10-01,0.083
 Clemency for the Wizard King,2022-01-01,0.0
 Clemency for the Wizard King,2022-04-01,0.0
 Clemency for the Wizard King,2022-07-01,0.0
-Clemency for the Wizard King,2022-10-01,0.075
+Clemency for the Wizard King,2022-10-01,0.076
 Clemency for the Wizard King,2023-01-01,0.073
-Clemency for the Wizard King,2023-04-01,0.15
-Clemency for the Wizard King,2023-07-01,0.133
-Clemency for the Wizard King,2023-10-01,0.15
-Clemency for the Wizard King,2024-01-01,0.145
-Clemency for the Wizard King,2024-04-01,0.211
-Clemency for the Wizard King,2024-07-01,0.21
+Clemency for the Wizard King,2023-04-01,0.151
+Clemency for the Wizard King,2023-07-01,0.134
+Clemency for the Wizard King,2023-10-01,0.151
+Clemency for the Wizard King,2024-01-01,0.146
+Clemency for the Wizard King,2024-04-01,0.213
+Clemency for the Wizard King,2024-07-01,0.211
 Clemency for the Wizard King,2024-10-01,0.198
 Clemency for the Wizard King,2025-01-01,0.182
 Clemency for the Wizard King,2025-04-01,0.122
@@ -10970,8 +10970,8 @@ Cobscook Bay,2021-10-01,0.05
 Cobscook Bay,2022-01-01,0.067
 Cobscook Bay,2022-04-01,0.053
 Cobscook Bay,2022-07-01,0.053
-Cobscook Bay,2022-10-01,0.047
-Cobscook Bay,2023-01-01,0.045
+Cobscook Bay,2022-10-01,0.048
+Cobscook Bay,2023-01-01,0.046
 Cobscook Bay,2023-04-01,0.042
 Cobscook Bay,2023-07-01,0.037
 Cobscook Bay,2023-10-01,0.025
@@ -11239,8 +11239,8 @@ Collapsing Stars,2022-01-01,0.05
 Collapsing Stars,2022-04-01,0.053
 Collapsing Stars,2022-07-01,0.053
 Collapsing Stars,2022-10-01,0.038
-Collapsing Stars,2023-01-01,0.036
-Collapsing Stars,2023-04-01,0.033
+Collapsing Stars,2023-01-01,0.037
+Collapsing Stars,2023-04-01,0.034
 Collapsing Stars,2023-07-01,0.03
 Collapsing Stars,2023-10-01,0.017
 Collapsing Stars,2024-01-01,0.016
@@ -11372,14 +11372,14 @@ Color in Your Cheeks,2021-10-01,0.067
 Color in Your Cheeks,2022-01-01,0.083
 Color in Your Cheeks,2022-04-01,0.088
 Color in Your Cheeks,2022-07-01,0.08
-Color in Your Cheeks,2022-10-01,0.132
-Color in Your Cheeks,2023-01-01,0.127
-Color in Your Cheeks,2023-04-01,0.133
-Color in Your Cheeks,2023-07-01,0.133
-Color in Your Cheeks,2023-10-01,0.117
-Color in Your Cheeks,2024-01-01,0.105
+Color in Your Cheeks,2022-10-01,0.133
+Color in Your Cheeks,2023-01-01,0.128
+Color in Your Cheeks,2023-04-01,0.134
+Color in Your Cheeks,2023-07-01,0.134
+Color in Your Cheeks,2023-10-01,0.118
+Color in Your Cheeks,2024-01-01,0.106
 Color in Your Cheeks,2024-04-01,0.099
-Color in Your Cheeks,2024-07-01,0.091
+Color in Your Cheeks,2024-07-01,0.092
 Color in Your Cheeks,2024-10-01,0.048
 Color in Your Cheeks,2025-01-01,0.051
 Color in Your Cheeks,2025-04-01,0.041
@@ -11641,11 +11641,11 @@ Commandante,2022-01-01,0.033
 Commandante,2022-04-01,0.018
 Commandante,2022-07-01,0.013
 Commandante,2022-10-01,0.019
-Commandante,2023-01-01,0.027
+Commandante,2023-01-01,0.028
 Commandante,2023-04-01,0.025
 Commandante,2023-07-01,0.03
-Commandante,2023-10-01,0.033
-Commandante,2024-01-01,0.032
+Commandante,2023-10-01,0.034
+Commandante,2024-01-01,0.033
 Commandante,2024-04-01,0.028
 Commandante,2024-07-01,0.028
 Commandante,2024-10-01,0.032
@@ -11774,14 +11774,14 @@ Corsican Mastiff Stride,2021-10-01,0.167
 Corsican Mastiff Stride,2022-01-01,0.333
 Corsican Mastiff Stride,2022-04-01,0.351
 Corsican Mastiff Stride,2022-07-01,0.44
-Corsican Mastiff Stride,2022-10-01,0.491
-Corsican Mastiff Stride,2023-01-01,0.518
-Corsican Mastiff Stride,2023-04-01,0.475
-Corsican Mastiff Stride,2023-07-01,0.452
-Corsican Mastiff Stride,2023-10-01,0.483
-Corsican Mastiff Stride,2024-01-01,0.387
-Corsican Mastiff Stride,2024-04-01,0.345
-Corsican Mastiff Stride,2024-07-01,0.273
+Corsican Mastiff Stride,2022-10-01,0.486
+Corsican Mastiff Stride,2023-01-01,0.514
+Corsican Mastiff Stride,2023-04-01,0.471
+Corsican Mastiff Stride,2023-07-01,0.448
+Corsican Mastiff Stride,2023-10-01,0.479
+Corsican Mastiff Stride,2024-01-01,0.382
+Corsican Mastiff Stride,2024-04-01,0.34
+Corsican Mastiff Stride,2024-07-01,0.268
 Corsican Mastiff Stride,2024-10-01,0.159
 Corsican Mastiff Stride,2025-01-01,0.124
 Corsican Mastiff Stride,2025-04-01,0.13
@@ -11908,14 +11908,14 @@ Cotton,2021-10-01,0.133
 Cotton,2022-01-01,0.167
 Cotton,2022-04-01,0.175
 Cotton,2022-07-01,0.173
-Cotton,2022-10-01,0.17
-Cotton,2023-01-01,0.164
-Cotton,2023-04-01,0.192
-Cotton,2023-07-01,0.17
-Cotton,2023-10-01,0.167
-Cotton,2024-01-01,0.153
-Cotton,2024-04-01,0.134
-Cotton,2024-07-01,0.182
+Cotton,2022-10-01,0.171
+Cotton,2023-01-01,0.165
+Cotton,2023-04-01,0.193
+Cotton,2023-07-01,0.172
+Cotton,2023-10-01,0.168
+Cotton,2024-01-01,0.154
+Cotton,2024-04-01,0.135
+Cotton,2024-07-01,0.183
 Cotton,2024-10-01,0.19
 Cotton,2025-01-01,0.197
 Cotton,2025-04-01,0.179
@@ -12578,14 +12578,14 @@ Cry for Judas,2021-10-01,0.2
 Cry for Judas,2022-01-01,0.283
 Cry for Judas,2022-04-01,0.298
 Cry for Judas,2022-07-01,0.227
-Cry for Judas,2022-10-01,0.226
-Cry for Judas,2023-01-01,0.227
-Cry for Judas,2023-04-01,0.217
-Cry for Judas,2023-07-01,0.193
-Cry for Judas,2023-10-01,0.217
-Cry for Judas,2024-01-01,0.129
-Cry for Judas,2024-04-01,0.12
-Cry for Judas,2024-07-01,0.14
+Cry for Judas,2022-10-01,0.219
+Cry for Judas,2023-01-01,0.22
+Cry for Judas,2023-04-01,0.21
+Cry for Judas,2023-07-01,0.187
+Cry for Judas,2023-10-01,0.21
+Cry for Judas,2024-01-01,0.122
+Cry for Judas,2024-04-01,0.113
+Cry for Judas,2024-07-01,0.134
 Cry for Judas,2024-10-01,0.127
 Cry for Judas,2025-01-01,0.131
 Cry for Judas,2025-04-01,0.138
@@ -13114,14 +13114,14 @@ Cutter,2021-10-01,0.017
 Cutter,2022-01-01,0.017
 Cutter,2022-04-01,0.018
 Cutter,2022-07-01,0.013
-Cutter,2022-10-01,0.019
-Cutter,2023-01-01,0.018
-Cutter,2023-04-01,0.017
-Cutter,2023-07-01,0.015
-Cutter,2023-10-01,0.008
-Cutter,2024-01-01,0.008
-Cutter,2024-04-01,0.007
-Cutter,2024-07-01,0.014
+Cutter,2022-10-01,0.01
+Cutter,2023-01-01,0.009
+Cutter,2023-04-01,0.008
+Cutter,2023-07-01,0.007
+Cutter,2023-10-01,0.0
+Cutter,2024-01-01,0.0
+Cutter,2024-04-01,0.0
+Cutter,2024-07-01,0.007
 Cutter,2024-10-01,0.016
 Cutter,2025-01-01,0.015
 Cutter,2025-04-01,0.016
@@ -13248,14 +13248,14 @@ Damn These Vampires,2021-10-01,0.033
 Damn These Vampires,2022-01-01,0.017
 Damn These Vampires,2022-04-01,0.018
 Damn These Vampires,2022-07-01,0.133
-Damn These Vampires,2022-10-01,0.226
-Damn These Vampires,2023-01-01,0.245
-Damn These Vampires,2023-04-01,0.225
-Damn These Vampires,2023-07-01,0.2
-Damn These Vampires,2023-10-01,0.233
-Damn These Vampires,2024-01-01,0.226
-Damn These Vampires,2024-04-01,0.197
-Damn These Vampires,2024-07-01,0.133
+Damn These Vampires,2022-10-01,0.219
+Damn These Vampires,2023-01-01,0.239
+Damn These Vampires,2023-04-01,0.218
+Damn These Vampires,2023-07-01,0.194
+Damn These Vampires,2023-10-01,0.227
+Damn These Vampires,2024-01-01,0.22
+Damn These Vampires,2024-04-01,0.191
+Damn These Vampires,2024-07-01,0.127
 Damn These Vampires,2024-10-01,0.048
 Damn These Vampires,2025-01-01,0.015
 Damn These Vampires,2025-04-01,0.016
@@ -13382,14 +13382,14 @@ Dance Music,2021-10-01,0.2
 Dance Music,2022-01-01,0.217
 Dance Music,2022-04-01,0.211
 Dance Music,2022-07-01,0.173
-Dance Music,2022-10-01,0.179
-Dance Music,2023-01-01,0.182
-Dance Music,2023-04-01,0.225
-Dance Music,2023-07-01,0.274
-Dance Music,2023-10-01,0.275
-Dance Music,2024-01-01,0.306
-Dance Music,2024-04-01,0.317
-Dance Music,2024-07-01,0.315
+Dance Music,2022-10-01,0.181
+Dance Music,2023-01-01,0.183
+Dance Music,2023-04-01,0.227
+Dance Music,2023-07-01,0.276
+Dance Music,2023-10-01,0.277
+Dance Music,2024-01-01,0.309
+Dance Music,2024-04-01,0.319
+Dance Music,2024-07-01,0.317
 Dance Music,2024-10-01,0.333
 Dance Music,2025-01-01,0.372
 Dance Music,2025-04-01,0.358
@@ -13516,7 +13516,7 @@ Dark as a Dungeon,2021-10-01,0.0
 Dark as a Dungeon,2022-01-01,0.0
 Dark as a Dungeon,2022-04-01,0.0
 Dark as a Dungeon,2022-07-01,0.0
-Dark as a Dungeon,2022-10-01,0.009
+Dark as a Dungeon,2022-10-01,0.01
 Dark as a Dungeon,2023-01-01,0.009
 Dark as a Dungeon,2023-04-01,0.008
 Dark as a Dungeon,2023-07-01,0.007
@@ -13650,14 +13650,14 @@ Dark in Here (song),2021-10-01,0.183
 Dark in Here (song),2022-01-01,0.25
 Dark in Here (song),2022-04-01,0.263
 Dark in Here (song),2022-07-01,0.333
-Dark in Here (song),2022-10-01,0.236
-Dark in Here (song),2023-01-01,0.264
-Dark in Here (song),2023-04-01,0.267
-Dark in Here (song),2023-07-01,0.244
-Dark in Here (song),2023-10-01,0.192
-Dark in Here (song),2024-01-01,0.306
-Dark in Here (song),2024-04-01,0.268
-Dark in Here (song),2024-07-01,0.266
+Dark in Here (song),2022-10-01,0.238
+Dark in Here (song),2023-01-01,0.266
+Dark in Here (song),2023-04-01,0.269
+Dark in Here (song),2023-07-01,0.246
+Dark in Here (song),2023-10-01,0.193
+Dark in Here (song),2024-01-01,0.309
+Dark in Here (song),2024-04-01,0.27
+Dark in Here (song),2024-07-01,0.268
 Dark in Here (song),2024-10-01,0.333
 Dark in Here (song),2025-01-01,0.277
 Dark in Here (song),2025-04-01,0.285
@@ -14052,7 +14052,7 @@ Deianara Crush,2021-10-01,0.017
 Deianara Crush,2022-01-01,0.017
 Deianara Crush,2022-04-01,0.018
 Deianara Crush,2022-07-01,0.013
-Deianara Crush,2022-10-01,0.009
+Deianara Crush,2022-10-01,0.01
 Deianara Crush,2023-01-01,0.009
 Deianara Crush,2023-04-01,0.008
 Deianara Crush,2023-07-01,0.007
@@ -14192,7 +14192,7 @@ Design Your Own Container Garden,2023-04-01,0.0
 Design Your Own Container Garden,2023-07-01,0.0
 Design Your Own Container Garden,2023-10-01,0.0
 Design Your Own Container Garden,2024-01-01,0.065
-Design Your Own Container Garden,2024-04-01,0.056
+Design Your Own Container Garden,2024-04-01,0.057
 Design Your Own Container Garden,2024-07-01,0.063
 Design Your Own Container Garden,2024-10-01,0.071
 Design Your Own Container Garden,2025-01-01,0.066
@@ -14326,7 +14326,7 @@ Deuteronomy 2:10,2023-04-01,0.0
 Deuteronomy 2:10,2023-07-01,0.007
 Deuteronomy 2:10,2023-10-01,0.067
 Deuteronomy 2:10,2024-01-01,0.073
-Deuteronomy 2:10,2024-04-01,0.07
+Deuteronomy 2:10,2024-04-01,0.071
 Deuteronomy 2:10,2024-07-01,0.07
 Deuteronomy 2:10,2024-10-01,0.079
 Deuteronomy 2:10,2025-01-01,0.073
@@ -14588,11 +14588,11 @@ Dinu Lipatti's Bones,2021-10-01,0.033
 Dinu Lipatti's Bones,2022-01-01,0.133
 Dinu Lipatti's Bones,2022-04-01,0.123
 Dinu Lipatti's Bones,2022-07-01,0.093
-Dinu Lipatti's Bones,2022-10-01,0.066
+Dinu Lipatti's Bones,2022-10-01,0.067
 Dinu Lipatti's Bones,2023-01-01,0.064
-Dinu Lipatti's Bones,2023-04-01,0.058
+Dinu Lipatti's Bones,2023-04-01,0.059
 Dinu Lipatti's Bones,2023-07-01,0.052
-Dinu Lipatti's Bones,2023-10-01,0.058
+Dinu Lipatti's Bones,2023-10-01,0.059
 Dinu Lipatti's Bones,2024-01-01,0.0
 Dinu Lipatti's Bones,2024-04-01,0.0
 Dinu Lipatti's Bones,2024-07-01,0.0
@@ -15527,7 +15527,7 @@ Downtown Seoul,2022-01-01,0.05
 Downtown Seoul,2022-04-01,0.053
 Downtown Seoul,2022-07-01,0.053
 Downtown Seoul,2022-10-01,0.038
-Downtown Seoul,2023-01-01,0.036
+Downtown Seoul,2023-01-01,0.037
 Downtown Seoul,2023-04-01,0.042
 Downtown Seoul,2023-07-01,0.037
 Downtown Seoul,2023-10-01,0.025
@@ -15933,9 +15933,9 @@ Dutch Orchestra Blues,2023-01-01,0.0
 Dutch Orchestra Blues,2023-04-01,0.042
 Dutch Orchestra Blues,2023-07-01,0.037
 Dutch Orchestra Blues,2023-10-01,0.05
-Dutch Orchestra Blues,2024-01-01,0.048
+Dutch Orchestra Blues,2024-01-01,0.049
 Dutch Orchestra Blues,2024-04-01,0.085
-Dutch Orchestra Blues,2024-07-01,0.084
+Dutch Orchestra Blues,2024-07-01,0.085
 Dutch Orchestra Blues,2024-10-01,0.135
 Dutch Orchestra Blues,2025-01-01,0.124
 Dutch Orchestra Blues,2025-04-01,0.098
@@ -16599,7 +16599,7 @@ Enoch 18:14,2022-01-01,0.033
 Enoch 18:14,2022-04-01,0.035
 Enoch 18:14,2022-07-01,0.027
 Enoch 18:14,2022-10-01,0.019
-Enoch 18:14,2023-01-01,0.027
+Enoch 18:14,2023-01-01,0.028
 Enoch 18:14,2023-04-01,0.025
 Enoch 18:14,2023-07-01,0.022
 Enoch 18:14,2023-10-01,0.008
@@ -16732,13 +16732,13 @@ Estate Sale Sign,2021-10-01,0.2
 Estate Sale Sign,2022-01-01,0.017
 Estate Sale Sign,2022-04-01,0.018
 Estate Sale Sign,2022-07-01,0.013
-Estate Sale Sign,2022-10-01,0.085
+Estate Sale Sign,2022-10-01,0.086
 Estate Sale Sign,2023-01-01,0.073
-Estate Sale Sign,2023-04-01,0.075
+Estate Sale Sign,2023-04-01,0.076
 Estate Sale Sign,2023-07-01,0.067
-Estate Sale Sign,2023-10-01,0.075
+Estate Sale Sign,2023-10-01,0.076
 Estate Sale Sign,2024-01-01,0.073
-Estate Sale Sign,2024-04-01,0.063
+Estate Sale Sign,2024-04-01,0.064
 Estate Sale Sign,2024-07-01,0.063
 Estate Sale Sign,2024-10-01,0.008
 Estate Sale Sign,2025-01-01,0.007
@@ -17134,14 +17134,14 @@ Extraction Point,2021-10-01,0.0
 Extraction Point,2022-01-01,0.0
 Extraction Point,2022-04-01,0.0
 Extraction Point,2022-07-01,0.0
-Extraction Point,2022-10-01,0.104
-Extraction Point,2023-01-01,0.1
-Extraction Point,2023-04-01,0.092
-Extraction Point,2023-07-01,0.081
-Extraction Point,2023-10-01,0.092
-Extraction Point,2024-01-01,0.089
-Extraction Point,2024-04-01,0.077
-Extraction Point,2024-07-01,0.182
+Extraction Point,2022-10-01,0.095
+Extraction Point,2023-01-01,0.092
+Extraction Point,2023-04-01,0.084
+Extraction Point,2023-07-01,0.075
+Extraction Point,2023-10-01,0.084
+Extraction Point,2024-01-01,0.081
+Extraction Point,2024-04-01,0.071
+Extraction Point,2024-07-01,0.176
 Extraction Point,2024-10-01,0.151
 Extraction Point,2025-01-01,0.139
 Extraction Point,2025-04-01,0.154
@@ -17536,10 +17536,10 @@ Fall of the Star High School Running Back,2021-10-01,0.067
 Fall of the Star High School Running Back,2022-01-01,0.067
 Fall of the Star High School Running Back,2022-04-01,0.07
 Fall of the Star High School Running Back,2022-07-01,0.067
-Fall of the Star High School Running Back,2022-10-01,0.047
-Fall of the Star High School Running Back,2023-01-01,0.045
+Fall of the Star High School Running Back,2022-10-01,0.048
+Fall of the Star High School Running Back,2023-01-01,0.046
 Fall of the Star High School Running Back,2023-04-01,0.042
-Fall of the Star High School Running Back,2023-07-01,0.044
+Fall of the Star High School Running Back,2023-07-01,0.045
 Fall of the Star High School Running Back,2023-10-01,0.025
 Fall of the Star High School Running Back,2024-01-01,0.016
 Fall of the Star High School Running Back,2024-04-01,0.014
@@ -17804,7 +17804,7 @@ Fault Lines,2021-10-01,0.033
 Fault Lines,2022-01-01,0.017
 Fault Lines,2022-04-01,0.018
 Fault Lines,2022-07-01,0.013
-Fault Lines,2022-10-01,0.009
+Fault Lines,2022-10-01,0.01
 Fault Lines,2023-01-01,0.009
 Fault Lines,2023-04-01,0.008
 Fault Lines,2023-07-01,0.007
@@ -18206,14 +18206,14 @@ First Blood,2021-10-01,0.0
 First Blood,2022-01-01,0.0
 First Blood,2022-04-01,0.0
 First Blood,2022-07-01,0.0
-First Blood,2022-10-01,0.132
-First Blood,2023-01-01,0.145
-First Blood,2023-04-01,0.192
-First Blood,2023-07-01,0.178
-First Blood,2023-10-01,0.267
-First Blood,2024-01-01,0.306
-First Blood,2024-04-01,0.275
-First Blood,2024-07-01,0.336
+First Blood,2022-10-01,0.133
+First Blood,2023-01-01,0.147
+First Blood,2023-04-01,0.193
+First Blood,2023-07-01,0.179
+First Blood,2023-10-01,0.269
+First Blood,2024-01-01,0.309
+First Blood,2024-04-01,0.277
+First Blood,2024-07-01,0.338
 First Blood,2024-10-01,0.286
 First Blood,2025-01-01,0.292
 First Blood,2025-04-01,0.268
@@ -18340,13 +18340,13 @@ First Few Desperate Hours,2021-10-01,0.017
 First Few Desperate Hours,2022-01-01,0.033
 First Few Desperate Hours,2022-04-01,0.035
 First Few Desperate Hours,2022-07-01,0.027
-First Few Desperate Hours,2022-10-01,0.085
-First Few Desperate Hours,2023-01-01,0.091
-First Few Desperate Hours,2023-04-01,0.083
-First Few Desperate Hours,2023-07-01,0.074
-First Few Desperate Hours,2023-10-01,0.075
+First Few Desperate Hours,2022-10-01,0.086
+First Few Desperate Hours,2023-01-01,0.092
+First Few Desperate Hours,2023-04-01,0.084
+First Few Desperate Hours,2023-07-01,0.075
+First Few Desperate Hours,2023-10-01,0.076
 First Few Desperate Hours,2024-01-01,0.065
-First Few Desperate Hours,2024-04-01,0.056
+First Few Desperate Hours,2024-04-01,0.057
 First Few Desperate Hours,2024-07-01,0.056
 First Few Desperate Hours,2024-10-01,0.008
 First Few Desperate Hours,2025-01-01,0.0
@@ -19011,7 +19011,7 @@ Foreign Object,2022-01-01,0.067
 Foreign Object,2022-04-01,0.07
 Foreign Object,2022-07-01,0.08
 Foreign Object,2022-10-01,0.057
-Foreign Object,2023-01-01,0.045
+Foreign Object,2023-01-01,0.046
 Foreign Object,2023-04-01,0.042
 Foreign Object,2023-07-01,0.037
 Foreign Object,2023-10-01,0.042
@@ -19417,9 +19417,9 @@ Fresh Tattoo,2023-01-01,0.0
 Fresh Tattoo,2023-04-01,0.0
 Fresh Tattoo,2023-07-01,0.0
 Fresh Tattoo,2023-10-01,0.0
-Fresh Tattoo,2024-01-01,0.153
-Fresh Tattoo,2024-04-01,0.148
-Fresh Tattoo,2024-07-01,0.294
+Fresh Tattoo,2024-01-01,0.154
+Fresh Tattoo,2024-04-01,0.149
+Fresh Tattoo,2024-07-01,0.296
 Fresh Tattoo,2024-10-01,0.437
 Fresh Tattoo,2025-01-01,0.496
 Fresh Tattoo,2025-04-01,0.553
@@ -19546,7 +19546,7 @@ Friend of the Devil,2021-10-01,0.0
 Friend of the Devil,2022-01-01,0.0
 Friend of the Devil,2022-04-01,0.0
 Friend of the Devil,2022-07-01,0.013
-Friend of the Devil,2022-10-01,0.009
+Friend of the Devil,2022-10-01,0.01
 Friend of the Devil,2023-01-01,0.009
 Friend of the Devil,2023-04-01,0.008
 Friend of the Devil,2023-07-01,0.007
@@ -19680,13 +19680,13 @@ From TG&Y,2021-10-01,0.0
 From TG&Y,2022-01-01,0.017
 From TG&Y,2022-04-01,0.018
 From TG&Y,2022-07-01,0.013
-From TG&Y,2022-10-01,0.028
-From TG&Y,2023-01-01,0.027
+From TG&Y,2022-10-01,0.029
+From TG&Y,2023-01-01,0.028
 From TG&Y,2023-04-01,0.025
 From TG&Y,2023-07-01,0.052
 From TG&Y,2023-10-01,0.067
-From TG&Y,2024-01-01,0.056
-From TG&Y,2024-04-01,0.049
+From TG&Y,2024-01-01,0.057
+From TG&Y,2024-04-01,0.05
 From TG&Y,2024-07-01,0.049
 From TG&Y,2024-10-01,0.04
 From TG&Y,2025-01-01,0.036
@@ -19821,7 +19821,7 @@ From the Nebraska Plant,2023-07-01,0.0
 From the Nebraska Plant,2023-10-01,0.0
 From the Nebraska Plant,2024-01-01,0.0
 From the Nebraska Plant,2024-04-01,0.0
-From the Nebraska Plant,2024-07-01,0.084
+From the Nebraska Plant,2024-07-01,0.085
 From the Nebraska Plant,2024-10-01,0.103
 From the Nebraska Plant,2025-01-01,0.095
 From the Nebraska Plant,2025-04-01,0.106
@@ -20216,14 +20216,14 @@ Game Shows Touch Our Lives,2021-10-01,0.117
 Game Shows Touch Our Lives,2022-01-01,0.217
 Game Shows Touch Our Lives,2022-04-01,0.228
 Game Shows Touch Our Lives,2022-07-01,0.253
-Game Shows Touch Our Lives,2022-10-01,0.226
-Game Shows Touch Our Lives,2023-01-01,0.236
-Game Shows Touch Our Lives,2023-04-01,0.233
-Game Shows Touch Our Lives,2023-07-01,0.23
-Game Shows Touch Our Lives,2023-10-01,0.208
-Game Shows Touch Our Lives,2024-01-01,0.161
-Game Shows Touch Our Lives,2024-04-01,0.155
-Game Shows Touch Our Lives,2024-07-01,0.112
+Game Shows Touch Our Lives,2022-10-01,0.229
+Game Shows Touch Our Lives,2023-01-01,0.239
+Game Shows Touch Our Lives,2023-04-01,0.235
+Game Shows Touch Our Lives,2023-07-01,0.231
+Game Shows Touch Our Lives,2023-10-01,0.21
+Game Shows Touch Our Lives,2024-01-01,0.163
+Game Shows Touch Our Lives,2024-04-01,0.156
+Game Shows Touch Our Lives,2024-07-01,0.113
 Game Shows Touch Our Lives,2024-10-01,0.087
 Game Shows Touch Our Lives,2025-01-01,0.066
 Game Shows Touch Our Lives,2025-04-01,0.057
@@ -20350,7 +20350,7 @@ Genesis 19:1-2,2021-10-01,0.033
 Genesis 19:1-2,2022-01-01,0.033
 Genesis 19:1-2,2022-04-01,0.018
 Genesis 19:1-2,2022-07-01,0.013
-Genesis 19:1-2,2022-10-01,0.009
+Genesis 19:1-2,2022-10-01,0.01
 Genesis 19:1-2,2023-01-01,0.009
 Genesis 19:1-2,2023-04-01,0.008
 Genesis 19:1-2,2023-07-01,0.007
@@ -20485,7 +20485,7 @@ Genesis 30:3,2022-01-01,0.067
 Genesis 30:3,2022-04-01,0.07
 Genesis 30:3,2022-07-01,0.053
 Genesis 30:3,2022-10-01,0.038
-Genesis 30:3,2023-01-01,0.027
+Genesis 30:3,2023-01-01,0.028
 Genesis 30:3,2023-04-01,0.025
 Genesis 30:3,2023-07-01,0.022
 Genesis 30:3,2023-10-01,0.0
@@ -20618,12 +20618,12 @@ Genesis 3:23,2021-10-01,0.017
 Genesis 3:23,2022-01-01,0.017
 Genesis 3:23,2022-04-01,0.018
 Genesis 3:23,2022-07-01,0.04
-Genesis 3:23,2022-10-01,0.028
-Genesis 3:23,2023-01-01,0.027
-Genesis 3:23,2023-04-01,0.033
+Genesis 3:23,2022-10-01,0.029
+Genesis 3:23,2023-01-01,0.028
+Genesis 3:23,2023-04-01,0.034
 Genesis 3:23,2023-07-01,0.037
 Genesis 3:23,2023-10-01,0.042
-Genesis 3:23,2024-01-01,0.04
+Genesis 3:23,2024-01-01,0.041
 Genesis 3:23,2024-04-01,0.035
 Genesis 3:23,2024-07-01,0.021
 Genesis 3:23,2024-10-01,0.024
@@ -20752,8 +20752,8 @@ Get Famous,2021-10-01,0.033
 Get Famous,2022-01-01,0.05
 Get Famous,2022-04-01,0.053
 Get Famous,2022-07-01,0.04
-Get Famous,2022-10-01,0.028
-Get Famous,2023-01-01,0.027
+Get Famous,2022-10-01,0.029
+Get Famous,2023-01-01,0.028
 Get Famous,2023-04-01,0.017
 Get Famous,2023-07-01,0.015
 Get Famous,2023-10-01,0.008
@@ -21020,14 +21020,14 @@ Getting Into Knives (song),2021-10-01,0.267
 Getting Into Knives (song),2022-01-01,0.317
 Getting Into Knives (song),2022-04-01,0.333
 Getting Into Knives (song),2022-07-01,0.427
-Getting Into Knives (song),2022-10-01,0.396
-Getting Into Knives (song),2023-01-01,0.373
-Getting Into Knives (song),2023-04-01,0.358
-Getting Into Knives (song),2023-07-01,0.333
-Getting Into Knives (song),2023-10-01,0.3
-Getting Into Knives (song),2024-01-01,0.274
-Getting Into Knives (song),2024-04-01,0.246
-Getting Into Knives (song),2024-07-01,0.161
+Getting Into Knives (song),2022-10-01,0.4
+Getting Into Knives (song),2023-01-01,0.376
+Getting Into Knives (song),2023-04-01,0.361
+Getting Into Knives (song),2023-07-01,0.336
+Getting Into Knives (song),2023-10-01,0.303
+Getting Into Knives (song),2024-01-01,0.276
+Getting Into Knives (song),2024-04-01,0.248
+Getting Into Knives (song),2024-07-01,0.162
 Getting Into Knives (song),2024-10-01,0.111
 Getting Into Knives (song),2025-01-01,0.102
 Getting Into Knives (song),2025-04-01,0.089
@@ -21288,7 +21288,7 @@ Going Invisible 2,2021-10-01,0.033
 Going Invisible 2,2022-01-01,0.017
 Going Invisible 2,2022-04-01,0.018
 Going Invisible 2,2022-07-01,0.013
-Going Invisible 2,2022-10-01,0.009
+Going Invisible 2,2022-10-01,0.01
 Going Invisible 2,2023-01-01,0.009
 Going Invisible 2,2023-04-01,0.008
 Going Invisible 2,2023-07-01,0.0
@@ -21558,11 +21558,11 @@ Going to Bogotá,2022-04-01,0.0
 Going to Bogotá,2022-07-01,0.0
 Going to Bogotá,2022-10-01,0.0
 Going to Bogotá,2023-01-01,0.0
-Going to Bogotá,2023-04-01,0.083
-Going to Bogotá,2023-07-01,0.074
-Going to Bogotá,2023-10-01,0.083
+Going to Bogotá,2023-04-01,0.084
+Going to Bogotá,2023-07-01,0.075
+Going to Bogotá,2023-10-01,0.084
 Going to Bogotá,2024-01-01,0.081
-Going to Bogotá,2024-04-01,0.077
+Going to Bogotá,2024-04-01,0.078
 Going to Bogotá,2024-07-01,0.077
 Going to Bogotá,2024-10-01,0.087
 Going to Bogotá,2025-01-01,0.08
@@ -21958,7 +21958,7 @@ Going to Bristol,2021-10-01,0.0
 Going to Bristol,2022-01-01,0.0
 Going to Bristol,2022-04-01,0.0
 Going to Bristol,2022-07-01,0.0
-Going to Bristol,2022-10-01,0.009
+Going to Bristol,2022-10-01,0.01
 Going to Bristol,2023-01-01,0.009
 Going to Bristol,2023-04-01,0.008
 Going to Bristol,2023-07-01,0.015
@@ -22494,12 +22494,12 @@ Going to Georgia,2021-10-01,0.033
 Going to Georgia,2022-01-01,0.017
 Going to Georgia,2022-04-01,0.018
 Going to Georgia,2022-07-01,0.013
-Going to Georgia,2022-10-01,0.009
+Going to Georgia,2022-10-01,0.01
 Going to Georgia,2023-01-01,0.009
 Going to Georgia,2023-04-01,0.017
 Going to Georgia,2023-07-01,0.015
-Going to Georgia,2023-10-01,0.033
-Going to Georgia,2024-01-01,0.032
+Going to Georgia,2023-10-01,0.034
+Going to Georgia,2024-01-01,0.033
 Going to Georgia,2024-04-01,0.028
 Going to Georgia,2024-07-01,0.028
 Going to Georgia,2024-10-01,0.032
@@ -22762,13 +22762,13 @@ Going to Kansas,2021-10-01,0.017
 Going to Kansas,2022-01-01,0.017
 Going to Kansas,2022-04-01,0.0
 Going to Kansas,2022-07-01,0.0
-Going to Kansas,2022-10-01,0.009
+Going to Kansas,2022-10-01,0.01
 Going to Kansas,2023-01-01,0.009
 Going to Kansas,2023-04-01,0.017
 Going to Kansas,2023-07-01,0.022
 Going to Kansas,2023-10-01,0.025
 Going to Kansas,2024-01-01,0.024
-Going to Kansas,2024-04-01,0.049
+Going to Kansas,2024-04-01,0.05
 Going to Kansas,2024-07-01,0.049
 Going to Kansas,2024-10-01,0.048
 Going to Kansas,2025-01-01,0.044
@@ -22896,7 +22896,7 @@ Going to Kirby Sigston,2021-10-01,0.017
 Going to Kirby Sigston,2022-01-01,0.017
 Going to Kirby Sigston,2022-04-01,0.018
 Going to Kirby Sigston,2022-07-01,0.013
-Going to Kirby Sigston,2022-10-01,0.009
+Going to Kirby Sigston,2022-10-01,0.01
 Going to Kirby Sigston,2023-01-01,0.009
 Going to Kirby Sigston,2023-04-01,0.008
 Going to Kirby Sigston,2023-07-01,0.007
@@ -23030,7 +23030,7 @@ Going to Lebanon,2021-10-01,0.0
 Going to Lebanon,2022-01-01,0.0
 Going to Lebanon,2022-04-01,0.0
 Going to Lebanon,2022-07-01,0.013
-Going to Lebanon,2022-10-01,0.009
+Going to Lebanon,2022-10-01,0.01
 Going to Lebanon,2023-01-01,0.009
 Going to Lebanon,2023-04-01,0.008
 Going to Lebanon,2023-07-01,0.007
@@ -23298,7 +23298,7 @@ Going to Malibu,2021-10-01,0.0
 Going to Malibu,2022-01-01,0.0
 Going to Malibu,2022-04-01,0.0
 Going to Malibu,2022-07-01,0.0
-Going to Malibu,2022-10-01,0.009
+Going to Malibu,2022-10-01,0.01
 Going to Malibu,2023-01-01,0.009
 Going to Malibu,2023-04-01,0.008
 Going to Malibu,2023-07-01,0.007
@@ -23834,7 +23834,7 @@ Going to Michigan,2021-10-01,0.017
 Going to Michigan,2022-01-01,0.0
 Going to Michigan,2022-04-01,0.0
 Going to Michigan,2022-07-01,0.0
-Going to Michigan,2022-10-01,0.009
+Going to Michigan,2022-10-01,0.01
 Going to Michigan,2023-01-01,0.009
 Going to Michigan,2023-04-01,0.008
 Going to Michigan,2023-07-01,0.007
@@ -24505,12 +24505,12 @@ Going to Queens,2022-01-01,0.0
 Going to Queens,2022-04-01,0.0
 Going to Queens,2022-07-01,0.027
 Going to Queens,2022-10-01,0.038
-Going to Queens,2023-01-01,0.045
+Going to Queens,2023-01-01,0.046
 Going to Queens,2023-04-01,0.042
 Going to Queens,2023-07-01,0.037
 Going to Queens,2023-10-01,0.05
-Going to Queens,2024-01-01,0.048
-Going to Queens,2024-04-01,0.042
+Going to Queens,2024-01-01,0.049
+Going to Queens,2024-04-01,0.043
 Going to Queens,2024-07-01,0.042
 Going to Queens,2024-10-01,0.04
 Going to Queens,2025-01-01,0.029
@@ -25040,7 +25040,7 @@ Golden Boy,2021-10-01,0.033
 Golden Boy,2022-01-01,0.033
 Golden Boy,2022-04-01,0.018
 Golden Boy,2022-07-01,0.013
-Golden Boy,2022-10-01,0.009
+Golden Boy,2022-10-01,0.01
 Golden Boy,2023-01-01,0.0
 Golden Boy,2023-04-01,0.0
 Golden Boy,2023-07-01,0.0
@@ -25576,7 +25576,7 @@ Green Olives,2021-10-01,0.0
 Green Olives,2022-01-01,0.0
 Green Olives,2022-04-01,0.0
 Green Olives,2022-07-01,0.013
-Green Olives,2022-10-01,0.009
+Green Olives,2022-10-01,0.01
 Green Olives,2023-01-01,0.009
 Green Olives,2023-04-01,0.017
 Green Olives,2023-07-01,0.015
@@ -25710,14 +25710,14 @@ Grendel's Mother,2021-10-01,0.1
 Grendel's Mother,2022-01-01,0.117
 Grendel's Mother,2022-04-01,0.123
 Grendel's Mother,2022-07-01,0.12
-Grendel's Mother,2022-10-01,0.113
-Grendel's Mother,2023-01-01,0.145
-Grendel's Mother,2023-04-01,0.133
-Grendel's Mother,2023-07-01,0.141
-Grendel's Mother,2023-10-01,0.117
-Grendel's Mother,2024-01-01,0.113
+Grendel's Mother,2022-10-01,0.114
+Grendel's Mother,2023-01-01,0.147
+Grendel's Mother,2023-04-01,0.134
+Grendel's Mother,2023-07-01,0.142
+Grendel's Mother,2023-10-01,0.118
+Grendel's Mother,2024-01-01,0.114
 Grendel's Mother,2024-04-01,0.106
-Grendel's Mother,2024-07-01,0.098
+Grendel's Mother,2024-07-01,0.099
 Grendel's Mother,2024-10-01,0.103
 Grendel's Mother,2025-01-01,0.08
 Grendel's Mother,2025-04-01,0.081
@@ -25844,14 +25844,14 @@ Guys on Every Corner,2021-10-01,0.0
 Guys on Every Corner,2022-01-01,0.0
 Guys on Every Corner,2022-04-01,0.0
 Guys on Every Corner,2022-07-01,0.0
-Guys on Every Corner,2022-10-01,0.094
-Guys on Every Corner,2023-01-01,0.091
-Guys on Every Corner,2023-04-01,0.083
-Guys on Every Corner,2023-07-01,0.074
-Guys on Every Corner,2023-10-01,0.083
-Guys on Every Corner,2024-01-01,0.21
-Guys on Every Corner,2024-04-01,0.183
-Guys on Every Corner,2024-07-01,0.182
+Guys on Every Corner,2022-10-01,0.095
+Guys on Every Corner,2023-01-01,0.092
+Guys on Every Corner,2023-04-01,0.084
+Guys on Every Corner,2023-07-01,0.075
+Guys on Every Corner,2023-10-01,0.084
+Guys on Every Corner,2024-01-01,0.211
+Guys on Every Corner,2024-04-01,0.184
+Guys on Every Corner,2024-07-01,0.183
 Guys on Every Corner,2024-10-01,0.175
 Guys on Every Corner,2025-01-01,0.161
 Guys on Every Corner,2025-04-01,0.179
@@ -25978,14 +25978,14 @@ Hair Match,2021-10-01,0.067
 Hair Match,2022-01-01,0.067
 Hair Match,2022-04-01,0.07
 Hair Match,2022-07-01,0.053
-Hair Match,2022-10-01,0.047
-Hair Match,2023-01-01,0.045
+Hair Match,2022-10-01,0.048
+Hair Match,2023-01-01,0.046
 Hair Match,2023-04-01,0.092
-Hair Match,2023-07-01,0.074
+Hair Match,2023-07-01,0.075
 Hair Match,2023-10-01,0.067
 Hair Match,2024-01-01,0.065
-Hair Match,2024-04-01,0.141
-Hair Match,2024-07-01,0.147
+Hair Match,2024-04-01,0.142
+Hair Match,2024-07-01,0.148
 Hair Match,2024-10-01,0.159
 Hair Match,2025-01-01,0.146
 Hair Match,2025-04-01,0.114
@@ -26514,7 +26514,7 @@ Happy Birthday,2021-10-01,0.0
 Happy Birthday,2022-01-01,0.0
 Happy Birthday,2022-04-01,0.0
 Happy Birthday,2022-07-01,0.0
-Happy Birthday,2022-10-01,0.009
+Happy Birthday,2022-10-01,0.01
 Happy Birthday,2023-01-01,0.009
 Happy Birthday,2023-04-01,0.008
 Happy Birthday,2023-07-01,0.015
@@ -26653,7 +26653,7 @@ Harlem Roulette,2023-01-01,0.0
 Harlem Roulette,2023-04-01,0.008
 Harlem Roulette,2023-07-01,0.007
 Harlem Roulette,2023-10-01,0.008
-Harlem Roulette,2024-01-01,0.032
+Harlem Roulette,2024-01-01,0.033
 Harlem Roulette,2024-04-01,0.035
 Harlem Roulette,2024-07-01,0.035
 Harlem Roulette,2024-10-01,0.04
@@ -26782,14 +26782,14 @@ Hast Thou Considered the Tetrapod,2021-10-01,0.167
 Hast Thou Considered the Tetrapod,2022-01-01,0.2
 Hast Thou Considered the Tetrapod,2022-04-01,0.211
 Hast Thou Considered the Tetrapod,2022-07-01,0.253
-Hast Thou Considered the Tetrapod,2022-10-01,0.236
-Hast Thou Considered the Tetrapod,2023-01-01,0.227
-Hast Thou Considered the Tetrapod,2023-04-01,0.208
-Hast Thou Considered the Tetrapod,2023-07-01,0.2
-Hast Thou Considered the Tetrapod,2023-10-01,0.175
-Hast Thou Considered the Tetrapod,2024-01-01,0.202
-Hast Thou Considered the Tetrapod,2024-04-01,0.183
-Hast Thou Considered the Tetrapod,2024-07-01,0.14
+Hast Thou Considered the Tetrapod,2022-10-01,0.229
+Hast Thou Considered the Tetrapod,2023-01-01,0.22
+Hast Thou Considered the Tetrapod,2023-04-01,0.202
+Hast Thou Considered the Tetrapod,2023-07-01,0.194
+Hast Thou Considered the Tetrapod,2023-10-01,0.168
+Hast Thou Considered the Tetrapod,2024-01-01,0.195
+Hast Thou Considered the Tetrapod,2024-04-01,0.177
+Hast Thou Considered the Tetrapod,2024-07-01,0.134
 Hast Thou Considered the Tetrapod,2024-10-01,0.159
 Hast Thou Considered the Tetrapod,2025-01-01,0.226
 Hast Thou Considered the Tetrapod,2025-04-01,0.252
@@ -26916,12 +26916,12 @@ Have to Explode,2021-10-01,0.083
 Have to Explode,2022-01-01,0.05
 Have to Explode,2022-04-01,0.053
 Have to Explode,2022-07-01,0.133
-Have to Explode,2022-10-01,0.132
-Have to Explode,2023-01-01,0.127
-Have to Explode,2023-04-01,0.142
+Have to Explode,2022-10-01,0.133
+Have to Explode,2023-01-01,0.128
+Have to Explode,2023-04-01,0.143
 Have to Explode,2023-07-01,0.119
-Have to Explode,2023-10-01,0.117
-Have to Explode,2024-01-01,0.113
+Have to Explode,2023-10-01,0.118
+Have to Explode,2024-01-01,0.114
 Have to Explode,2024-04-01,0.099
 Have to Explode,2024-07-01,0.049
 Have to Explode,2024-10-01,0.024
@@ -27187,11 +27187,11 @@ Hebrews 11:40,2022-07-01,0.0
 Hebrews 11:40,2022-10-01,0.0
 Hebrews 11:40,2023-01-01,0.0
 Hebrews 11:40,2023-04-01,0.017
-Hebrews 11:40,2023-07-01,0.074
-Hebrews 11:40,2023-10-01,0.083
-Hebrews 11:40,2024-01-01,0.097
+Hebrews 11:40,2023-07-01,0.075
+Hebrews 11:40,2023-10-01,0.084
+Hebrews 11:40,2024-01-01,0.098
 Hebrews 11:40,2024-04-01,0.085
-Hebrews 11:40,2024-07-01,0.084
+Hebrews 11:40,2024-07-01,0.085
 Hebrews 11:40,2024-10-01,0.095
 Hebrews 11:40,2025-01-01,0.095
 Hebrews 11:40,2025-04-01,0.089
@@ -27318,7 +27318,7 @@ Heel Turn 1,2021-10-01,0.0
 Heel Turn 1,2022-01-01,0.0
 Heel Turn 1,2022-04-01,0.0
 Heel Turn 1,2022-07-01,0.013
-Heel Turn 1,2022-10-01,0.009
+Heel Turn 1,2022-10-01,0.01
 Heel Turn 1,2023-01-01,0.009
 Heel Turn 1,2023-04-01,0.008
 Heel Turn 1,2023-07-01,0.007
@@ -27452,14 +27452,14 @@ Heel Turn 2,2021-10-01,0.267
 Heel Turn 2,2022-01-01,0.383
 Heel Turn 2,2022-04-01,0.404
 Heel Turn 2,2022-07-01,0.347
-Heel Turn 2,2022-10-01,0.264
-Heel Turn 2,2023-01-01,0.245
-Heel Turn 2,2023-04-01,0.233
-Heel Turn 2,2023-07-01,0.237
-Heel Turn 2,2023-10-01,0.175
-Heel Turn 2,2024-01-01,0.113
+Heel Turn 2,2022-10-01,0.267
+Heel Turn 2,2023-01-01,0.248
+Heel Turn 2,2023-04-01,0.235
+Heel Turn 2,2023-07-01,0.239
+Heel Turn 2,2023-10-01,0.176
+Heel Turn 2,2024-01-01,0.114
 Heel Turn 2,2024-04-01,0.106
-Heel Turn 2,2024-07-01,0.133
+Heel Turn 2,2024-07-01,0.134
 Heel Turn 2,2024-10-01,0.198
 Heel Turn 2,2025-01-01,0.212
 Heel Turn 2,2025-04-01,0.228
@@ -28122,14 +28122,14 @@ Heretic Pride (Song),2021-10-01,0.233
 Heretic Pride (Song),2022-01-01,0.2
 Heretic Pride (Song),2022-04-01,0.211
 Heretic Pride (Song),2022-07-01,0.213
-Heretic Pride (Song),2022-10-01,0.226
-Heretic Pride (Song),2023-01-01,0.236
-Heretic Pride (Song),2023-04-01,0.267
-Heretic Pride (Song),2023-07-01,0.289
-Heretic Pride (Song),2023-10-01,0.308
-Heretic Pride (Song),2024-01-01,0.266
-Heretic Pride (Song),2024-04-01,0.317
-Heretic Pride (Song),2024-07-01,0.294
+Heretic Pride (Song),2022-10-01,0.229
+Heretic Pride (Song),2023-01-01,0.239
+Heretic Pride (Song),2023-04-01,0.269
+Heretic Pride (Song),2023-07-01,0.291
+Heretic Pride (Song),2023-10-01,0.311
+Heretic Pride (Song),2024-01-01,0.268
+Heretic Pride (Song),2024-04-01,0.319
+Heretic Pride (Song),2024-07-01,0.296
 Heretic Pride (Song),2024-10-01,0.278
 Heretic Pride (Song),2025-01-01,0.314
 Heretic Pride (Song),2025-04-01,0.301
@@ -28658,7 +28658,7 @@ Horseradish Road,2021-10-01,0.017
 Horseradish Road,2022-01-01,0.017
 Horseradish Road,2022-04-01,0.018
 Horseradish Road,2022-07-01,0.013
-Horseradish Road,2022-10-01,0.009
+Horseradish Road,2022-10-01,0.01
 Horseradish Road,2023-01-01,0.018
 Horseradish Road,2023-04-01,0.017
 Horseradish Road,2023-07-01,0.015
@@ -28792,14 +28792,14 @@ Hostages,2021-10-01,0.0
 Hostages,2022-01-01,0.0
 Hostages,2022-04-01,0.0
 Hostages,2022-07-01,0.0
-Hostages,2022-10-01,0.066
+Hostages,2022-10-01,0.067
 Hostages,2023-01-01,0.064
-Hostages,2023-04-01,0.075
-Hostages,2023-07-01,0.185
-Hostages,2023-10-01,0.275
-Hostages,2024-01-01,0.266
-Hostages,2024-04-01,0.232
-Hostages,2024-07-01,0.231
+Hostages,2023-04-01,0.076
+Hostages,2023-07-01,0.187
+Hostages,2023-10-01,0.277
+Hostages,2024-01-01,0.268
+Hostages,2024-04-01,0.234
+Hostages,2024-07-01,0.232
 Hostages,2024-10-01,0.206
 Hostages,2025-01-01,0.19
 Hostages,2025-04-01,0.187
@@ -29730,7 +29730,7 @@ I Will Grab You by the Ears,2021-10-01,0.0
 I Will Grab You by the Ears,2022-01-01,0.0
 I Will Grab You by the Ears,2022-04-01,0.0
 I Will Grab You by the Ears,2022-07-01,0.0
-I Will Grab You by the Ears,2022-10-01,0.009
+I Will Grab You by the Ears,2022-10-01,0.01
 I Will Grab You by the Ears,2023-01-01,0.018
 I Will Grab You by the Ears,2023-04-01,0.025
 I Will Grab You by the Ears,2023-07-01,0.022
@@ -30266,13 +30266,13 @@ I've Got the Sex,2021-10-01,0.033
 I've Got the Sex,2022-01-01,0.033
 I've Got the Sex,2022-04-01,0.035
 I've Got the Sex,2022-07-01,0.027
-I've Got the Sex,2022-10-01,0.028
-I've Got the Sex,2023-01-01,0.036
+I've Got the Sex,2022-10-01,0.029
+I've Got the Sex,2023-01-01,0.037
 I've Got the Sex,2023-04-01,0.042
-I've Got the Sex,2023-07-01,0.044
+I've Got the Sex,2023-07-01,0.045
 I've Got the Sex,2023-10-01,0.042
-I've Got the Sex,2024-01-01,0.048
-I've Got the Sex,2024-04-01,0.042
+I've Got the Sex,2024-01-01,0.049
+I've Got the Sex,2024-04-01,0.043
 I've Got the Sex,2024-07-01,0.042
 I've Got the Sex,2024-10-01,0.048
 I've Got the Sex,2025-01-01,0.036
@@ -30941,7 +30941,7 @@ If You See Light,2023-01-01,0.0
 If You See Light,2023-04-01,0.042
 If You See Light,2023-07-01,0.037
 If You See Light,2023-10-01,0.042
-If You See Light,2024-01-01,0.04
+If You See Light,2024-01-01,0.041
 If You See Light,2024-04-01,0.035
 If You See Light,2024-07-01,0.035
 If You See Light,2024-10-01,0.04
@@ -31204,7 +31204,7 @@ In League with Dragons (song),2021-10-01,0.133
 In League with Dragons (song),2022-01-01,0.033
 In League with Dragons (song),2022-04-01,0.035
 In League with Dragons (song),2022-07-01,0.04
-In League with Dragons (song),2022-10-01,0.028
+In League with Dragons (song),2022-10-01,0.029
 In League with Dragons (song),2023-01-01,0.018
 In League with Dragons (song),2023-04-01,0.017
 In League with Dragons (song),2023-07-01,0.015
@@ -31338,14 +31338,14 @@ In Memory of Satan,2021-10-01,0.167
 In Memory of Satan,2022-01-01,0.15
 In Memory of Satan,2022-04-01,0.158
 In Memory of Satan,2022-07-01,0.16
-In Memory of Satan,2022-10-01,0.151
-In Memory of Satan,2023-01-01,0.164
-In Memory of Satan,2023-04-01,0.15
-In Memory of Satan,2023-07-01,0.126
-In Memory of Satan,2023-10-01,0.083
+In Memory of Satan,2022-10-01,0.152
+In Memory of Satan,2023-01-01,0.165
+In Memory of Satan,2023-04-01,0.151
+In Memory of Satan,2023-07-01,0.127
+In Memory of Satan,2023-10-01,0.084
 In Memory of Satan,2024-01-01,0.073
-In Memory of Satan,2024-04-01,0.063
-In Memory of Satan,2024-07-01,0.119
+In Memory of Satan,2024-04-01,0.064
+In Memory of Satan,2024-07-01,0.12
 In Memory of Satan,2024-10-01,0.127
 In Memory of Satan,2025-01-01,0.102
 In Memory of Satan,2025-04-01,0.114
@@ -31606,13 +31606,13 @@ In the Craters on the Moon,2021-10-01,0.033
 In the Craters on the Moon,2022-01-01,0.033
 In the Craters on the Moon,2022-04-01,0.035
 In the Craters on the Moon,2022-07-01,0.04
-In the Craters on the Moon,2022-10-01,0.028
-In the Craters on the Moon,2023-01-01,0.027
-In the Craters on the Moon,2023-04-01,0.033
-In the Craters on the Moon,2023-07-01,0.081
-In the Craters on the Moon,2023-10-01,0.083
+In the Craters on the Moon,2022-10-01,0.029
+In the Craters on the Moon,2023-01-01,0.028
+In the Craters on the Moon,2023-04-01,0.034
+In the Craters on the Moon,2023-07-01,0.082
+In the Craters on the Moon,2023-10-01,0.084
 In the Craters on the Moon,2024-01-01,0.081
-In the Craters on the Moon,2024-04-01,0.07
+In the Craters on the Moon,2024-04-01,0.071
 In the Craters on the Moon,2024-07-01,0.063
 In the Craters on the Moon,2024-10-01,0.071
 In the Craters on the Moon,2025-01-01,0.066
@@ -32008,14 +32008,14 @@ Incandescent Ruins,2021-10-01,0.033
 Incandescent Ruins,2022-01-01,0.05
 Incandescent Ruins,2022-04-01,0.053
 Incandescent Ruins,2022-07-01,0.053
-Incandescent Ruins,2022-10-01,0.075
-Incandescent Ruins,2023-01-01,0.136
-Incandescent Ruins,2023-04-01,0.15
-Incandescent Ruins,2023-07-01,0.237
-Incandescent Ruins,2023-10-01,0.333
-Incandescent Ruins,2024-01-01,0.411
-Incandescent Ruins,2024-04-01,0.366
-Incandescent Ruins,2024-07-01,0.434
+Incandescent Ruins,2022-10-01,0.076
+Incandescent Ruins,2023-01-01,0.138
+Incandescent Ruins,2023-04-01,0.151
+Incandescent Ruins,2023-07-01,0.239
+Incandescent Ruins,2023-10-01,0.336
+Incandescent Ruins,2024-01-01,0.415
+Incandescent Ruins,2024-04-01,0.369
+Incandescent Ruins,2024-07-01,0.437
 Incandescent Ruins,2024-10-01,0.508
 Incandescent Ruins,2025-01-01,0.438
 Incandescent Ruins,2025-04-01,0.455
@@ -32413,11 +32413,11 @@ International Small Arms Traffic Blues,2022-07-01,0.067
 International Small Arms Traffic Blues,2022-10-01,0.057
 International Small Arms Traffic Blues,2023-01-01,0.055
 International Small Arms Traffic Blues,2023-04-01,0.05
-International Small Arms Traffic Blues,2023-07-01,0.059
+International Small Arms Traffic Blues,2023-07-01,0.06
 International Small Arms Traffic Blues,2023-10-01,0.05
 International Small Arms Traffic Blues,2024-01-01,0.081
-International Small Arms Traffic Blues,2024-04-01,0.077
-International Small Arms Traffic Blues,2024-07-01,0.126
+International Small Arms Traffic Blues,2024-04-01,0.078
+International Small Arms Traffic Blues,2024-07-01,0.127
 International Small Arms Traffic Blues,2024-10-01,0.135
 International Small Arms Traffic Blues,2025-01-01,0.139
 International Small Arms Traffic Blues,2025-04-01,0.154
@@ -32544,10 +32544,10 @@ Isaiah 45:23,2021-10-01,0.05
 Isaiah 45:23,2022-01-01,0.133
 Isaiah 45:23,2022-04-01,0.14
 Isaiah 45:23,2022-07-01,0.12
-Isaiah 45:23,2022-10-01,0.094
-Isaiah 45:23,2023-01-01,0.091
+Isaiah 45:23,2022-10-01,0.095
+Isaiah 45:23,2023-01-01,0.092
 Isaiah 45:23,2023-04-01,0.092
-Isaiah 45:23,2023-07-01,0.081
+Isaiah 45:23,2023-07-01,0.082
 Isaiah 45:23,2023-10-01,0.067
 Isaiah 45:23,2024-01-01,0.024
 Isaiah 45:23,2024-04-01,0.021
@@ -32678,13 +32678,13 @@ Island Garden Song,2021-10-01,0.067
 Island Garden Song,2022-01-01,0.083
 Island Garden Song,2022-04-01,0.088
 Island Garden Song,2022-07-01,0.093
-Island Garden Song,2022-10-01,0.085
-Island Garden Song,2023-01-01,0.091
-Island Garden Song,2023-04-01,0.083
-Island Garden Song,2023-07-01,0.074
+Island Garden Song,2022-10-01,0.086
+Island Garden Song,2023-01-01,0.092
+Island Garden Song,2023-04-01,0.084
+Island Garden Song,2023-07-01,0.075
 Island Garden Song,2023-10-01,0.05
-Island Garden Song,2024-01-01,0.04
-Island Garden Song,2024-04-01,0.042
+Island Garden Song,2024-01-01,0.041
+Island Garden Song,2024-04-01,0.043
 Island Garden Song,2024-07-01,0.049
 Island Garden Song,2024-10-01,0.04
 Island Garden Song,2025-01-01,0.036
@@ -32812,12 +32812,12 @@ It Froze Me,2021-10-01,0.0
 It Froze Me,2022-01-01,0.0
 It Froze Me,2022-04-01,0.0
 It Froze Me,2022-07-01,0.013
-It Froze Me,2022-10-01,0.009
+It Froze Me,2022-10-01,0.01
 It Froze Me,2023-01-01,0.018
-It Froze Me,2023-04-01,0.033
+It Froze Me,2023-04-01,0.034
 It Froze Me,2023-07-01,0.037
 It Froze Me,2023-10-01,0.042
-It Froze Me,2024-01-01,0.04
+It Froze Me,2024-01-01,0.041
 It Froze Me,2024-04-01,0.035
 It Froze Me,2024-07-01,0.028
 It Froze Me,2024-10-01,0.04
@@ -32946,7 +32946,7 @@ It's All Here in Brownsville,2021-10-01,0.017
 It's All Here in Brownsville,2022-01-01,0.017
 It's All Here in Brownsville,2022-04-01,0.018
 It's All Here in Brownsville,2022-07-01,0.013
-It's All Here in Brownsville,2022-10-01,0.009
+It's All Here in Brownsville,2022-10-01,0.01
 It's All Here in Brownsville,2023-01-01,0.009
 It's All Here in Brownsville,2023-04-01,0.008
 It's All Here in Brownsville,2023-07-01,0.007
@@ -33080,12 +33080,12 @@ Itzcuintli-Totzli Days,2021-10-01,0.017
 Itzcuintli-Totzli Days,2022-01-01,0.017
 Itzcuintli-Totzli Days,2022-04-01,0.018
 Itzcuintli-Totzli Days,2022-07-01,0.027
-Itzcuintli-Totzli Days,2022-10-01,0.028
-Itzcuintli-Totzli Days,2023-01-01,0.027
-Itzcuintli-Totzli Days,2023-04-01,0.033
+Itzcuintli-Totzli Days,2022-10-01,0.029
+Itzcuintli-Totzli Days,2023-01-01,0.028
+Itzcuintli-Totzli Days,2023-04-01,0.034
 Itzcuintli-Totzli Days,2023-07-01,0.037
-Itzcuintli-Totzli Days,2023-10-01,0.033
-Itzcuintli-Totzli Days,2024-01-01,0.032
+Itzcuintli-Totzli Days,2023-10-01,0.034
+Itzcuintli-Totzli Days,2024-01-01,0.033
 Itzcuintli-Totzli Days,2024-04-01,0.028
 Itzcuintli-Totzli Days,2024-07-01,0.028
 Itzcuintli-Totzli Days,2024-10-01,0.032
@@ -33214,12 +33214,12 @@ Jaipur,2021-10-01,0.017
 Jaipur,2022-01-01,0.017
 Jaipur,2022-04-01,0.018
 Jaipur,2022-07-01,0.013
-Jaipur,2022-10-01,0.009
-Jaipur,2023-01-01,0.036
-Jaipur,2023-04-01,0.033
+Jaipur,2022-10-01,0.01
+Jaipur,2023-01-01,0.037
+Jaipur,2023-04-01,0.034
 Jaipur,2023-07-01,0.037
-Jaipur,2023-10-01,0.033
-Jaipur,2024-01-01,0.032
+Jaipur,2023-10-01,0.034
+Jaipur,2024-01-01,0.033
 Jaipur,2024-04-01,0.035
 Jaipur,2024-07-01,0.035
 Jaipur,2024-10-01,0.04
@@ -33348,7 +33348,7 @@ Jam Eater Blues (Song),2021-10-01,0.017
 Jam Eater Blues (Song),2022-01-01,0.017
 Jam Eater Blues (Song),2022-04-01,0.0
 Jam Eater Blues (Song),2022-07-01,0.013
-Jam Eater Blues (Song),2022-10-01,0.009
+Jam Eater Blues (Song),2022-10-01,0.01
 Jam Eater Blues (Song),2023-01-01,0.009
 Jam Eater Blues (Song),2023-04-01,0.008
 Jam Eater Blues (Song),2023-07-01,0.007
@@ -33482,14 +33482,14 @@ Jeff Davis County Blues,2021-10-01,0.017
 Jeff Davis County Blues,2022-01-01,0.017
 Jeff Davis County Blues,2022-04-01,0.018
 Jeff Davis County Blues,2022-07-01,0.053
-Jeff Davis County Blues,2022-10-01,0.047
+Jeff Davis County Blues,2022-10-01,0.048
 Jeff Davis County Blues,2023-01-01,0.055
-Jeff Davis County Blues,2023-04-01,0.058
+Jeff Davis County Blues,2023-04-01,0.059
 Jeff Davis County Blues,2023-07-01,0.052
 Jeff Davis County Blues,2023-10-01,0.05
-Jeff Davis County Blues,2024-01-01,0.113
+Jeff Davis County Blues,2024-01-01,0.114
 Jeff Davis County Blues,2024-04-01,0.099
-Jeff Davis County Blues,2024-07-01,0.091
+Jeff Davis County Blues,2024-07-01,0.092
 Jeff Davis County Blues,2024-10-01,0.095
 Jeff Davis County Blues,2025-01-01,0.08
 Jeff Davis County Blues,2025-04-01,0.081
@@ -33616,14 +33616,14 @@ Jenny,2021-10-01,0.15
 Jenny,2022-01-01,0.117
 Jenny,2022-04-01,0.105
 Jenny,2022-07-01,0.093
-Jenny,2022-10-01,0.142
-Jenny,2023-01-01,0.155
-Jenny,2023-04-01,0.183
-Jenny,2023-07-01,0.185
-Jenny,2023-10-01,0.2
-Jenny,2024-01-01,0.202
-Jenny,2024-04-01,0.275
-Jenny,2024-07-01,0.273
+Jenny,2022-10-01,0.143
+Jenny,2023-01-01,0.156
+Jenny,2023-04-01,0.185
+Jenny,2023-07-01,0.187
+Jenny,2023-10-01,0.202
+Jenny,2024-01-01,0.203
+Jenny,2024-04-01,0.277
+Jenny,2024-07-01,0.275
 Jenny,2024-10-01,0.246
 Jenny,2025-01-01,0.212
 Jenny,2025-04-01,0.195
@@ -33755,9 +33755,9 @@ Jenny III,2023-01-01,0.0
 Jenny III,2023-04-01,0.0
 Jenny III,2023-07-01,0.0
 Jenny III,2023-10-01,0.0
-Jenny III,2024-01-01,0.145
-Jenny III,2024-04-01,0.211
-Jenny III,2024-07-01,0.315
+Jenny III,2024-01-01,0.146
+Jenny III,2024-04-01,0.213
+Jenny III,2024-07-01,0.317
 Jenny III,2024-10-01,0.357
 Jenny III,2025-01-01,0.328
 Jenny III,2025-04-01,0.366
@@ -34152,12 +34152,12 @@ Lakeside View Apartments Suite,2021-10-01,0.183
 Lakeside View Apartments Suite,2022-01-01,0.233
 Lakeside View Apartments Suite,2022-04-01,0.246
 Lakeside View Apartments Suite,2022-07-01,0.227
-Lakeside View Apartments Suite,2022-10-01,0.179
-Lakeside View Apartments Suite,2023-01-01,0.173
-Lakeside View Apartments Suite,2023-04-01,0.208
-Lakeside View Apartments Suite,2023-07-01,0.185
-Lakeside View Apartments Suite,2023-10-01,0.133
-Lakeside View Apartments Suite,2024-01-01,0.105
+Lakeside View Apartments Suite,2022-10-01,0.181
+Lakeside View Apartments Suite,2023-01-01,0.174
+Lakeside View Apartments Suite,2023-04-01,0.21
+Lakeside View Apartments Suite,2023-07-01,0.187
+Lakeside View Apartments Suite,2023-10-01,0.134
+Lakeside View Apartments Suite,2024-01-01,0.106
 Lakeside View Apartments Suite,2024-04-01,0.092
 Lakeside View Apartments Suite,2024-07-01,0.07
 Lakeside View Apartments Suite,2024-10-01,0.063
@@ -34420,8 +34420,8 @@ Last Gasp at Calama,2021-10-01,0.017
 Last Gasp at Calama,2022-01-01,0.067
 Last Gasp at Calama,2022-04-01,0.07
 Last Gasp at Calama,2022-07-01,0.04
-Last Gasp at Calama,2022-10-01,0.028
-Last Gasp at Calama,2023-01-01,0.027
+Last Gasp at Calama,2022-10-01,0.029
+Last Gasp at Calama,2023-01-01,0.028
 Last Gasp at Calama,2023-04-01,0.025
 Last Gasp at Calama,2023-07-01,0.022
 Last Gasp at Calama,2023-10-01,0.025
@@ -34554,14 +34554,14 @@ Let Me Bathe in Demonic Light,2021-10-01,0.0
 Let Me Bathe in Demonic Light,2022-01-01,0.033
 Let Me Bathe in Demonic Light,2022-04-01,0.035
 Let Me Bathe in Demonic Light,2022-07-01,0.173
-Let Me Bathe in Demonic Light,2022-10-01,0.264
-Let Me Bathe in Demonic Light,2023-01-01,0.255
-Let Me Bathe in Demonic Light,2023-04-01,0.233
-Let Me Bathe in Demonic Light,2023-07-01,0.207
-Let Me Bathe in Demonic Light,2023-10-01,0.233
-Let Me Bathe in Demonic Light,2024-01-01,0.21
-Let Me Bathe in Demonic Light,2024-04-01,0.183
-Let Me Bathe in Demonic Light,2024-07-01,0.119
+Let Me Bathe in Demonic Light,2022-10-01,0.267
+Let Me Bathe in Demonic Light,2023-01-01,0.257
+Let Me Bathe in Demonic Light,2023-04-01,0.235
+Let Me Bathe in Demonic Light,2023-07-01,0.209
+Let Me Bathe in Demonic Light,2023-10-01,0.235
+Let Me Bathe in Demonic Light,2024-01-01,0.211
+Let Me Bathe in Demonic Light,2024-04-01,0.184
+Let Me Bathe in Demonic Light,2024-07-01,0.12
 Let Me Bathe in Demonic Light,2024-10-01,0.087
 Let Me Bathe in Demonic Light,2025-01-01,0.131
 Let Me Bathe in Demonic Light,2025-04-01,0.146
@@ -34688,11 +34688,11 @@ Letter from Belgium,2021-10-01,0.05
 Letter from Belgium,2022-01-01,0.183
 Letter from Belgium,2022-04-01,0.193
 Letter from Belgium,2022-07-01,0.16
-Letter from Belgium,2022-10-01,0.113
-Letter from Belgium,2023-01-01,0.109
-Letter from Belgium,2023-04-01,0.1
-Letter from Belgium,2023-07-01,0.081
-Letter from Belgium,2023-10-01,0.075
+Letter from Belgium,2022-10-01,0.114
+Letter from Belgium,2023-01-01,0.11
+Letter from Belgium,2023-04-01,0.101
+Letter from Belgium,2023-07-01,0.082
+Letter from Belgium,2023-10-01,0.076
 Letter from Belgium,2024-01-01,0.008
 Letter from Belgium,2024-04-01,0.007
 Letter from Belgium,2024-07-01,0.0
@@ -35224,9 +35224,9 @@ Linda Blair Was Born Innocent,2021-10-01,0.05
 Linda Blair Was Born Innocent,2022-01-01,0.05
 Linda Blair Was Born Innocent,2022-04-01,0.053
 Linda Blair Was Born Innocent,2022-07-01,0.04
-Linda Blair Was Born Innocent,2022-10-01,0.028
-Linda Blair Was Born Innocent,2023-01-01,0.036
-Linda Blair Was Born Innocent,2023-04-01,0.033
+Linda Blair Was Born Innocent,2022-10-01,0.029
+Linda Blair Was Born Innocent,2023-01-01,0.037
+Linda Blair Was Born Innocent,2023-04-01,0.034
 Linda Blair Was Born Innocent,2023-07-01,0.03
 Linda Blair Was Born Innocent,2023-10-01,0.017
 Linda Blair Was Born Innocent,2024-01-01,0.016
@@ -35358,12 +35358,12 @@ Lion's Teeth,2021-10-01,0.017
 Lion's Teeth,2022-01-01,0.117
 Lion's Teeth,2022-04-01,0.123
 Lion's Teeth,2022-07-01,0.213
-Lion's Teeth,2022-10-01,0.17
-Lion's Teeth,2023-01-01,0.164
-Lion's Teeth,2023-04-01,0.15
-Lion's Teeth,2023-07-01,0.133
-Lion's Teeth,2023-10-01,0.167
-Lion's Teeth,2024-01-01,0.113
+Lion's Teeth,2022-10-01,0.171
+Lion's Teeth,2023-01-01,0.165
+Lion's Teeth,2023-04-01,0.151
+Lion's Teeth,2023-07-01,0.134
+Lion's Teeth,2023-10-01,0.168
+Lion's Teeth,2024-01-01,0.114
 Lion's Teeth,2024-04-01,0.099
 Lion's Teeth,2024-07-01,0.035
 Lion's Teeth,2024-10-01,0.024
@@ -35492,14 +35492,14 @@ Liza Forever Minnelli,2021-10-01,0.033
 Liza Forever Minnelli,2022-01-01,0.0
 Liza Forever Minnelli,2022-04-01,0.0
 Liza Forever Minnelli,2022-07-01,0.0
-Liza Forever Minnelli,2022-10-01,0.075
+Liza Forever Minnelli,2022-10-01,0.076
 Liza Forever Minnelli,2023-01-01,0.073
-Liza Forever Minnelli,2023-04-01,0.075
-Liza Forever Minnelli,2023-07-01,0.089
-Liza Forever Minnelli,2023-10-01,0.133
-Liza Forever Minnelli,2024-01-01,0.129
-Liza Forever Minnelli,2024-04-01,0.155
-Liza Forever Minnelli,2024-07-01,0.154
+Liza Forever Minnelli,2023-04-01,0.076
+Liza Forever Minnelli,2023-07-01,0.09
+Liza Forever Minnelli,2023-10-01,0.134
+Liza Forever Minnelli,2024-01-01,0.13
+Liza Forever Minnelli,2024-04-01,0.156
+Liza Forever Minnelli,2024-07-01,0.155
 Liza Forever Minnelli,2024-10-01,0.119
 Liza Forever Minnelli,2025-01-01,0.109
 Liza Forever Minnelli,2025-04-01,0.114
@@ -35626,14 +35626,14 @@ Lizard Suit,2021-10-01,0.133
 Lizard Suit,2022-01-01,0.133
 Lizard Suit,2022-04-01,0.14
 Lizard Suit,2022-07-01,0.133
-Lizard Suit,2022-10-01,0.094
-Lizard Suit,2023-01-01,0.091
-Lizard Suit,2023-04-01,0.1
-Lizard Suit,2023-07-01,0.2
-Lizard Suit,2023-10-01,0.217
-Lizard Suit,2024-01-01,0.21
-Lizard Suit,2024-04-01,0.19
-Lizard Suit,2024-07-01,0.196
+Lizard Suit,2022-10-01,0.095
+Lizard Suit,2023-01-01,0.092
+Lizard Suit,2023-04-01,0.101
+Lizard Suit,2023-07-01,0.201
+Lizard Suit,2023-10-01,0.218
+Lizard Suit,2024-01-01,0.211
+Lizard Suit,2024-04-01,0.191
+Lizard Suit,2024-07-01,0.197
 Lizard Suit,2024-10-01,0.278
 Lizard Suit,2025-01-01,0.255
 Lizard Suit,2025-04-01,0.26
@@ -35894,12 +35894,12 @@ Love Cuts the Strings,2021-10-01,0.1
 Love Cuts the Strings,2022-01-01,0.1
 Love Cuts the Strings,2022-04-01,0.105
 Love Cuts the Strings,2022-07-01,0.067
-Love Cuts the Strings,2022-10-01,0.047
-Love Cuts the Strings,2023-01-01,0.036
-Love Cuts the Strings,2023-04-01,0.058
-Love Cuts the Strings,2023-07-01,0.059
-Love Cuts the Strings,2023-10-01,0.033
-Love Cuts the Strings,2024-01-01,0.032
+Love Cuts the Strings,2022-10-01,0.048
+Love Cuts the Strings,2023-01-01,0.037
+Love Cuts the Strings,2023-04-01,0.059
+Love Cuts the Strings,2023-07-01,0.06
+Love Cuts the Strings,2023-10-01,0.034
+Love Cuts the Strings,2024-01-01,0.033
 Love Cuts the Strings,2024-04-01,0.035
 Love Cuts the Strings,2024-07-01,0.035
 Love Cuts the Strings,2024-10-01,0.04
@@ -36028,7 +36028,7 @@ Love Hymn to Aphrodite,2021-10-01,0.0
 Love Hymn to Aphrodite,2022-01-01,0.0
 Love Hymn to Aphrodite,2022-04-01,0.0
 Love Hymn to Aphrodite,2022-07-01,0.013
-Love Hymn to Aphrodite,2022-10-01,0.009
+Love Hymn to Aphrodite,2022-10-01,0.01
 Love Hymn to Aphrodite,2023-01-01,0.009
 Love Hymn to Aphrodite,2023-04-01,0.008
 Love Hymn to Aphrodite,2023-07-01,0.007
@@ -36162,13 +36162,13 @@ Love Love Love,2021-10-01,0.033
 Love Love Love,2022-01-01,0.033
 Love Love Love,2022-04-01,0.035
 Love Love Love,2022-07-01,0.107
-Love Love Love,2022-10-01,0.085
-Love Love Love,2023-01-01,0.091
-Love Love Love,2023-04-01,0.083
-Love Love Love,2023-07-01,0.089
+Love Love Love,2022-10-01,0.086
+Love Love Love,2023-01-01,0.092
+Love Love Love,2023-04-01,0.084
+Love Love Love,2023-07-01,0.09
 Love Love Love,2023-10-01,0.092
 Love Love Love,2024-01-01,0.089
-Love Love Love,2024-04-01,0.077
+Love Love Love,2024-04-01,0.078
 Love Love Love,2024-07-01,0.035
 Love Love Love,2024-10-01,0.032
 Love Love Love,2025-01-01,0.022
@@ -36296,7 +36296,7 @@ Lovecraft in Brooklyn,2021-10-01,0.017
 Lovecraft in Brooklyn,2022-01-01,0.05
 Lovecraft in Brooklyn,2022-04-01,0.053
 Lovecraft in Brooklyn,2022-07-01,0.04
-Lovecraft in Brooklyn,2022-10-01,0.028
+Lovecraft in Brooklyn,2022-10-01,0.029
 Lovecraft in Brooklyn,2023-01-01,0.018
 Lovecraft in Brooklyn,2023-04-01,0.017
 Lovecraft in Brooklyn,2023-07-01,0.015
@@ -36832,14 +36832,14 @@ Make You Suffer,2021-10-01,0.0
 Make You Suffer,2022-01-01,0.0
 Make You Suffer,2022-04-01,0.0
 Make You Suffer,2022-07-01,0.0
-Make You Suffer,2022-10-01,0.217
-Make You Suffer,2023-01-01,0.273
-Make You Suffer,2023-04-01,0.258
-Make You Suffer,2023-07-01,0.252
-Make You Suffer,2023-10-01,0.333
-Make You Suffer,2024-01-01,0.323
-Make You Suffer,2024-04-01,0.282
-Make You Suffer,2024-07-01,0.35
+Make You Suffer,2022-10-01,0.21
+Make You Suffer,2023-01-01,0.266
+Make You Suffer,2023-04-01,0.252
+Make You Suffer,2023-07-01,0.246
+Make You Suffer,2023-10-01,0.328
+Make You Suffer,2024-01-01,0.317
+Make You Suffer,2024-04-01,0.277
+Make You Suffer,2024-07-01,0.345
 Make You Suffer,2024-10-01,0.23
 Make You Suffer,2025-01-01,0.161
 Make You Suffer,2025-04-01,0.171
@@ -37100,14 +37100,14 @@ Mark On You,2021-10-01,0.0
 Mark On You,2022-01-01,0.0
 Mark On You,2022-04-01,0.0
 Mark On You,2022-07-01,0.0
-Mark On You,2022-10-01,0.132
-Mark On You,2023-01-01,0.127
-Mark On You,2023-04-01,0.133
+Mark On You,2022-10-01,0.133
+Mark On You,2023-01-01,0.128
+Mark On You,2023-04-01,0.134
 Mark On You,2023-07-01,0.119
-Mark On You,2023-10-01,0.133
-Mark On You,2024-01-01,0.129
+Mark On You,2023-10-01,0.134
+Mark On You,2024-01-01,0.13
 Mark On You,2024-04-01,0.113
-Mark On You,2024-07-01,0.112
+Mark On You,2024-07-01,0.113
 Mark On You,2024-10-01,0.016
 Mark On You,2025-01-01,0.015
 Mark On You,2025-04-01,0.0
@@ -37234,8 +37234,8 @@ Masher,2021-10-01,0.033
 Masher,2022-01-01,0.05
 Masher,2022-04-01,0.035
 Masher,2022-07-01,0.027
-Masher,2022-10-01,0.028
-Masher,2023-01-01,0.027
+Masher,2022-10-01,0.029
+Masher,2023-01-01,0.028
 Masher,2023-04-01,0.025
 Masher,2023-07-01,0.022
 Masher,2023-10-01,0.017
@@ -37368,8 +37368,8 @@ Matthew 25:21,2021-10-01,0.117
 Matthew 25:21,2022-01-01,0.067
 Matthew 25:21,2022-04-01,0.07
 Matthew 25:21,2022-07-01,0.067
-Matthew 25:21,2022-10-01,0.047
-Matthew 25:21,2023-01-01,0.045
+Matthew 25:21,2022-10-01,0.048
+Matthew 25:21,2023-01-01,0.046
 Matthew 25:21,2023-04-01,0.042
 Matthew 25:21,2023-07-01,0.037
 Matthew 25:21,2023-10-01,0.017
@@ -37503,9 +37503,9 @@ Maybe Sprout Wings,2022-01-01,0.067
 Maybe Sprout Wings,2022-04-01,0.07
 Maybe Sprout Wings,2022-07-01,0.053
 Maybe Sprout Wings,2022-10-01,0.038
-Maybe Sprout Wings,2023-01-01,0.036
-Maybe Sprout Wings,2023-04-01,0.033
-Maybe Sprout Wings,2023-07-01,0.044
+Maybe Sprout Wings,2023-01-01,0.037
+Maybe Sprout Wings,2023-04-01,0.034
+Maybe Sprout Wings,2023-07-01,0.045
 Maybe Sprout Wings,2023-10-01,0.025
 Maybe Sprout Wings,2024-01-01,0.024
 Maybe Sprout Wings,2024-04-01,0.028
@@ -37770,11 +37770,11 @@ Michael Myers Resplendent,2021-10-01,0.0
 Michael Myers Resplendent,2022-01-01,0.05
 Michael Myers Resplendent,2022-04-01,0.053
 Michael Myers Resplendent,2022-07-01,0.04
-Michael Myers Resplendent,2022-10-01,0.028
-Michael Myers Resplendent,2023-01-01,0.027
+Michael Myers Resplendent,2022-10-01,0.029
+Michael Myers Resplendent,2023-01-01,0.028
 Michael Myers Resplendent,2023-04-01,0.025
 Michael Myers Resplendent,2023-07-01,0.022
-Michael Myers Resplendent,2023-10-01,0.033
+Michael Myers Resplendent,2023-10-01,0.034
 Michael Myers Resplendent,2024-01-01,0.008
 Michael Myers Resplendent,2024-04-01,0.028
 Michael Myers Resplendent,2024-07-01,0.028
@@ -38038,14 +38038,14 @@ Minnesota,2021-10-01,0.017
 Minnesota,2022-01-01,0.017
 Minnesota,2022-04-01,0.018
 Minnesota,2022-07-01,0.12
-Minnesota,2022-10-01,0.292
-Minnesota,2023-01-01,0.291
-Minnesota,2023-04-01,0.275
-Minnesota,2023-07-01,0.274
-Minnesota,2023-10-01,0.308
-Minnesota,2024-01-01,0.298
-Minnesota,2024-04-01,0.261
-Minnesota,2024-07-01,0.21
+Minnesota,2022-10-01,0.286
+Minnesota,2023-01-01,0.284
+Minnesota,2023-04-01,0.269
+Minnesota,2023-07-01,0.269
+Minnesota,2023-10-01,0.303
+Minnesota,2024-01-01,0.293
+Minnesota,2024-04-01,0.255
+Minnesota,2024-07-01,0.204
 Minnesota,2024-10-01,0.063
 Minnesota,2025-01-01,0.058
 Minnesota,2025-04-01,0.049
@@ -38173,11 +38173,11 @@ Mobile,2022-01-01,0.067
 Mobile,2022-04-01,0.07
 Mobile,2022-07-01,0.053
 Mobile,2022-10-01,0.038
-Mobile,2023-01-01,0.036
-Mobile,2023-04-01,0.033
-Mobile,2023-07-01,0.059
-Mobile,2023-10-01,0.058
-Mobile,2024-01-01,0.04
+Mobile,2023-01-01,0.037
+Mobile,2023-04-01,0.034
+Mobile,2023-07-01,0.06
+Mobile,2023-10-01,0.059
+Mobile,2024-01-01,0.041
 Mobile,2024-04-01,0.035
 Mobile,2024-07-01,0.035
 Mobile,2024-10-01,0.048
@@ -38441,11 +38441,11 @@ Moon Over Goldsboro,2022-01-01,0.0
 Moon Over Goldsboro,2022-04-01,0.0
 Moon Over Goldsboro,2022-07-01,0.053
 Moon Over Goldsboro,2022-10-01,0.038
-Moon Over Goldsboro,2023-01-01,0.036
-Moon Over Goldsboro,2023-04-01,0.033
+Moon Over Goldsboro,2023-01-01,0.037
+Moon Over Goldsboro,2023-04-01,0.034
 Moon Over Goldsboro,2023-07-01,0.03
-Moon Over Goldsboro,2023-10-01,0.033
-Moon Over Goldsboro,2024-01-01,0.032
+Moon Over Goldsboro,2023-10-01,0.034
+Moon Over Goldsboro,2024-01-01,0.033
 Moon Over Goldsboro,2024-04-01,0.028
 Moon Over Goldsboro,2024-07-01,0.0
 Moon Over Goldsboro,2024-10-01,0.0
@@ -38713,9 +38713,9 @@ Murder at the 18th St. Garage,2023-01-01,0.0
 Murder at the 18th St. Garage,2023-04-01,0.0
 Murder at the 18th St. Garage,2023-07-01,0.0
 Murder at the 18th St. Garage,2023-10-01,0.0
-Murder at the 18th St. Garage,2024-01-01,0.153
-Murder at the 18th St. Garage,2024-04-01,0.134
-Murder at the 18th St. Garage,2024-07-01,0.217
+Murder at the 18th St. Garage,2024-01-01,0.154
+Murder at the 18th St. Garage,2024-04-01,0.135
+Murder at the 18th St. Garage,2024-07-01,0.218
 Murder at the 18th St. Garage,2024-10-01,0.27
 Murder at the 18th St. Garage,2025-01-01,0.248
 Murder at the 18th St. Garage,2025-04-01,0.276
@@ -39378,7 +39378,7 @@ Neon Orange Glimmer Song,2021-10-01,0.0
 Neon Orange Glimmer Song,2022-01-01,0.0
 Neon Orange Glimmer Song,2022-04-01,0.0
 Neon Orange Glimmer Song,2022-07-01,0.0
-Neon Orange Glimmer Song,2022-10-01,0.009
+Neon Orange Glimmer Song,2022-10-01,0.01
 Neon Orange Glimmer Song,2023-01-01,0.009
 Neon Orange Glimmer Song,2023-04-01,0.008
 Neon Orange Glimmer Song,2023-07-01,0.007
@@ -39512,10 +39512,10 @@ Never Quite Free,2021-10-01,0.117
 Never Quite Free,2022-01-01,0.117
 Never Quite Free,2022-04-01,0.123
 Never Quite Free,2022-07-01,0.093
-Never Quite Free,2022-10-01,0.066
+Never Quite Free,2022-10-01,0.067
 Never Quite Free,2023-01-01,0.064
-Never Quite Free,2023-04-01,0.058
-Never Quite Free,2023-07-01,0.044
+Never Quite Free,2023-04-01,0.059
+Never Quite Free,2023-07-01,0.045
 Never Quite Free,2023-10-01,0.0
 Never Quite Free,2024-01-01,0.0
 Never Quite Free,2024-04-01,0.0
@@ -40048,7 +40048,7 @@ New Star Song,2021-10-01,0.017
 New Star Song,2022-01-01,0.017
 New Star Song,2022-04-01,0.0
 New Star Song,2022-07-01,0.0
-New Star Song,2022-10-01,0.009
+New Star Song,2022-10-01,0.01
 New Star Song,2023-01-01,0.009
 New Star Song,2023-04-01,0.008
 New Star Song,2023-07-01,0.015
@@ -40322,7 +40322,7 @@ New Zion,2023-04-01,0.0
 New Zion,2023-07-01,0.037
 New Zion,2023-10-01,0.092
 New Zion,2024-01-01,0.089
-New Zion,2024-04-01,0.077
+New Zion,2024-04-01,0.078
 New Zion,2024-07-01,0.077
 New Zion,2024-10-01,0.087
 New Zion,2025-01-01,0.161
@@ -40450,14 +40450,14 @@ Night Light,2021-10-01,0.017
 Night Light,2022-01-01,0.0
 Night Light,2022-04-01,0.0
 Night Light,2022-07-01,0.027
-Night Light,2022-10-01,0.038
-Night Light,2023-01-01,0.036
-Night Light,2023-04-01,0.033
-Night Light,2023-07-01,0.03
-Night Light,2023-10-01,0.042
-Night Light,2024-01-01,0.161
-Night Light,2024-04-01,0.148
-Night Light,2024-07-01,0.196
+Night Light,2022-10-01,0.029
+Night Light,2023-01-01,0.028
+Night Light,2023-04-01,0.025
+Night Light,2023-07-01,0.022
+Night Light,2023-10-01,0.034
+Night Light,2024-01-01,0.154
+Night Light,2024-04-01,0.142
+Night Light,2024-07-01,0.19
 Night Light,2024-10-01,0.206
 Night Light,2025-01-01,0.19
 Night Light,2025-04-01,0.211
@@ -40986,13 +40986,13 @@ No Children,2021-10-01,0.6
 No Children,2022-01-01,0.667
 No Children,2022-04-01,0.667
 No Children,2022-07-01,0.76
-No Children,2022-10-01,0.821
-No Children,2023-01-01,0.845
-No Children,2023-04-01,0.883
+No Children,2022-10-01,0.819
+No Children,2023-01-01,0.844
+No Children,2023-04-01,0.882
 No Children,2023-07-01,0.896
 No Children,2023-10-01,0.95
-No Children,2024-01-01,0.952
-No Children,2024-04-01,0.944
+No Children,2024-01-01,0.951
+No Children,2024-04-01,0.943
 No Children,2024-07-01,0.951
 No Children,2024-10-01,0.937
 No Children,2025-01-01,0.956
@@ -41254,7 +41254,7 @@ No More Tears,2026-09-18,0.0
 "No, I Can't",2022-01-01,0.017
 "No, I Can't",2022-04-01,0.018
 "No, I Can't",2022-07-01,0.013
-"No, I Can't",2022-10-01,0.009
+"No, I Can't",2022-10-01,0.01
 "No, I Can't",2023-01-01,0.009
 "No, I Can't",2023-04-01,0.008
 "No, I Can't",2023-07-01,0.007
@@ -41522,7 +41522,7 @@ Oceanographer's Choice,2021-10-01,0.0
 Oceanographer's Choice,2022-01-01,0.0
 Oceanographer's Choice,2022-04-01,0.0
 Oceanographer's Choice,2022-07-01,0.0
-Oceanographer's Choice,2022-10-01,0.009
+Oceanographer's Choice,2022-10-01,0.01
 Oceanographer's Choice,2023-01-01,0.009
 Oceanographer's Choice,2023-04-01,0.008
 Oceanographer's Choice,2023-07-01,0.007
@@ -41656,7 +41656,7 @@ Old College Try,2021-10-01,0.017
 Old College Try,2022-01-01,0.017
 Old College Try,2022-04-01,0.018
 Old College Try,2022-07-01,0.013
-Old College Try,2022-10-01,0.009
+Old College Try,2022-10-01,0.01
 Old College Try,2023-01-01,0.009
 Old College Try,2023-04-01,0.008
 Old College Try,2023-07-01,0.015
@@ -41924,12 +41924,12 @@ Onions,2021-10-01,0.05
 Onions,2022-01-01,0.05
 Onions,2022-04-01,0.035
 Onions,2022-07-01,0.04
-Onions,2022-10-01,0.028
-Onions,2023-01-01,0.045
+Onions,2022-10-01,0.029
+Onions,2023-01-01,0.046
 Onions,2023-04-01,0.05
 Onions,2023-07-01,0.052
 Onions,2023-10-01,0.042
-Onions,2024-01-01,0.04
+Onions,2024-01-01,0.041
 Onions,2024-04-01,0.035
 Onions,2024-07-01,0.028
 Onions,2024-10-01,0.032
@@ -42197,9 +42197,9 @@ Only One Way,2023-01-01,0.0
 Only One Way,2023-04-01,0.0
 Only One Way,2023-07-01,0.0
 Only One Way,2023-10-01,0.0
-Only One Way,2024-01-01,0.129
+Only One Way,2024-01-01,0.13
 Only One Way,2024-04-01,0.113
-Only One Way,2024-07-01,0.161
+Only One Way,2024-07-01,0.162
 Only One Way,2024-10-01,0.183
 Only One Way,2025-01-01,0.168
 Only One Way,2025-04-01,0.187
@@ -42333,7 +42333,7 @@ Only Takes a Few,2023-07-01,0.0
 Only Takes a Few,2023-10-01,0.0
 Only Takes a Few,2024-01-01,0.0
 Only Takes a Few,2024-04-01,0.0
-Only Takes a Few,2024-07-01,0.098
+Only Takes a Few,2024-07-01,0.099
 Only Takes a Few,2024-10-01,0.111
 Only Takes a Few,2025-01-01,0.102
 Only Takes a Few,2025-04-01,0.114
@@ -42460,7 +42460,7 @@ Ontario,2021-10-01,0.017
 Ontario,2022-01-01,0.017
 Ontario,2022-04-01,0.018
 Ontario,2022-07-01,0.013
-Ontario,2022-10-01,0.009
+Ontario,2022-10-01,0.01
 Ontario,2023-01-01,0.009
 Ontario,2023-04-01,0.008
 Ontario,2023-07-01,0.007
@@ -42862,7 +42862,7 @@ Orange Ball of Love,2021-10-01,0.0
 Orange Ball of Love,2022-01-01,0.0
 Orange Ball of Love,2022-04-01,0.0
 Orange Ball of Love,2022-07-01,0.0
-Orange Ball of Love,2022-10-01,0.009
+Orange Ball of Love,2022-10-01,0.01
 Orange Ball of Love,2023-01-01,0.018
 Orange Ball of Love,2023-04-01,0.017
 Orange Ball of Love,2023-07-01,0.015
@@ -43666,8 +43666,8 @@ Pale Green Things,2021-10-01,0.083
 Pale Green Things,2022-01-01,0.1
 Pale Green Things,2022-04-01,0.088
 Pale Green Things,2022-07-01,0.067
-Pale Green Things,2022-10-01,0.047
-Pale Green Things,2023-01-01,0.045
+Pale Green Things,2022-10-01,0.048
+Pale Green Things,2023-01-01,0.046
 Pale Green Things,2023-04-01,0.042
 Pale Green Things,2023-07-01,0.037
 Pale Green Things,2023-10-01,0.008
@@ -43800,14 +43800,14 @@ Palmcorder Yajna,2021-10-01,0.1
 Palmcorder Yajna,2022-01-01,0.167
 Palmcorder Yajna,2022-04-01,0.175
 Palmcorder Yajna,2022-07-01,0.213
-Palmcorder Yajna,2022-10-01,0.217
-Palmcorder Yajna,2023-01-01,0.209
-Palmcorder Yajna,2023-04-01,0.2
-Palmcorder Yajna,2023-07-01,0.244
-Palmcorder Yajna,2023-10-01,0.275
-Palmcorder Yajna,2024-01-01,0.234
-Palmcorder Yajna,2024-04-01,0.232
-Palmcorder Yajna,2024-07-01,0.217
+Palmcorder Yajna,2022-10-01,0.219
+Palmcorder Yajna,2023-01-01,0.211
+Palmcorder Yajna,2023-04-01,0.202
+Palmcorder Yajna,2023-07-01,0.246
+Palmcorder Yajna,2023-10-01,0.277
+Palmcorder Yajna,2024-01-01,0.236
+Palmcorder Yajna,2024-04-01,0.234
+Palmcorder Yajna,2024-07-01,0.218
 Palmcorder Yajna,2024-10-01,0.214
 Palmcorder Yajna,2025-01-01,0.212
 Palmcorder Yajna,2025-04-01,0.22
@@ -44068,8 +44068,8 @@ Parisian Enclave,2021-10-01,0.0
 Parisian Enclave,2022-01-01,0.05
 Parisian Enclave,2022-04-01,0.053
 Parisian Enclave,2022-07-01,0.04
-Parisian Enclave,2022-10-01,0.028
-Parisian Enclave,2023-01-01,0.027
+Parisian Enclave,2022-10-01,0.029
+Parisian Enclave,2023-01-01,0.028
 Parisian Enclave,2023-04-01,0.025
 Parisian Enclave,2023-07-01,0.022
 Parisian Enclave,2023-10-01,0.025
@@ -44738,12 +44738,12 @@ Pez Dorado,2021-10-01,0.2
 Pez Dorado,2022-01-01,0.45
 Pez Dorado,2022-04-01,0.474
 Pez Dorado,2022-07-01,0.48
-Pez Dorado,2022-10-01,0.368
-Pez Dorado,2023-01-01,0.373
-Pez Dorado,2023-04-01,0.342
-Pez Dorado,2023-07-01,0.296
-Pez Dorado,2023-10-01,0.242
-Pez Dorado,2024-01-01,0.113
+Pez Dorado,2022-10-01,0.371
+Pez Dorado,2023-01-01,0.376
+Pez Dorado,2023-04-01,0.345
+Pez Dorado,2023-07-01,0.299
+Pez Dorado,2023-10-01,0.244
+Pez Dorado,2024-01-01,0.114
 Pez Dorado,2024-04-01,0.099
 Pez Dorado,2024-07-01,0.035
 Pez Dorado,2024-10-01,0.016
@@ -44872,12 +44872,12 @@ Picture of My Dress,2021-10-01,0.183
 Picture of My Dress,2022-01-01,0.183
 Picture of My Dress,2022-04-01,0.193
 Picture of My Dress,2022-07-01,0.16
-Picture of My Dress,2022-10-01,0.123
-Picture of My Dress,2023-01-01,0.127
-Picture of My Dress,2023-04-01,0.1
-Picture of My Dress,2023-07-01,0.081
-Picture of My Dress,2023-10-01,0.033
-Picture of My Dress,2024-01-01,0.032
+Picture of My Dress,2022-10-01,0.124
+Picture of My Dress,2023-01-01,0.128
+Picture of My Dress,2023-04-01,0.101
+Picture of My Dress,2023-07-01,0.082
+Picture of My Dress,2023-10-01,0.034
+Picture of My Dress,2024-01-01,0.033
 Picture of My Dress,2024-04-01,0.028
 Picture of My Dress,2024-07-01,0.028
 Picture of My Dress,2024-10-01,0.024
@@ -45009,10 +45009,10 @@ Picture of My Dress,2026-09-18,0.009
 "Pigs That Ran Straightaway into the Water, Triumph Of",2022-10-01,0.019
 "Pigs That Ran Straightaway into the Water, Triumph Of",2023-01-01,0.009
 "Pigs That Ran Straightaway into the Water, Triumph Of",2023-04-01,0.025
-"Pigs That Ran Straightaway into the Water, Triumph Of",2023-07-01,0.059
+"Pigs That Ran Straightaway into the Water, Triumph Of",2023-07-01,0.06
 "Pigs That Ran Straightaway into the Water, Triumph Of",2023-10-01,0.067
 "Pigs That Ran Straightaway into the Water, Triumph Of",2024-01-01,0.065
-"Pigs That Ran Straightaway into the Water, Triumph Of",2024-04-01,0.056
+"Pigs That Ran Straightaway into the Water, Triumph Of",2024-04-01,0.057
 "Pigs That Ran Straightaway into the Water, Triumph Of",2024-07-01,0.049
 "Pigs That Ran Straightaway into the Water, Triumph Of",2024-10-01,0.056
 "Pigs That Ran Straightaway into the Water, Triumph Of",2025-01-01,0.051
@@ -45141,7 +45141,7 @@ Pink and Blue,2022-01-01,0.033
 Pink and Blue,2022-04-01,0.035
 Pink and Blue,2022-07-01,0.027
 Pink and Blue,2022-10-01,0.019
-Pink and Blue,2023-01-01,0.027
+Pink and Blue,2023-01-01,0.028
 Pink and Blue,2023-04-01,0.025
 Pink and Blue,2023-07-01,0.022
 Pink and Blue,2023-10-01,0.008
@@ -45408,7 +45408,7 @@ Poltergeist,2021-10-01,0.0
 Poltergeist,2022-01-01,0.0
 Poltergeist,2022-04-01,0.0
 Poltergeist,2022-07-01,0.0
-Poltergeist,2022-10-01,0.009
+Poltergeist,2022-10-01,0.01
 Poltergeist,2023-01-01,0.018
 Poltergeist,2023-04-01,0.017
 Poltergeist,2023-07-01,0.015
@@ -45676,11 +45676,11 @@ Prana Ferox,2021-10-01,0.05
 Prana Ferox,2022-01-01,0.2
 Prana Ferox,2022-04-01,0.211
 Prana Ferox,2022-07-01,0.16
-Prana Ferox,2022-10-01,0.113
-Prana Ferox,2023-01-01,0.109
-Prana Ferox,2023-04-01,0.1
-Prana Ferox,2023-07-01,0.089
-Prana Ferox,2023-10-01,0.083
+Prana Ferox,2022-10-01,0.114
+Prana Ferox,2023-01-01,0.11
+Prana Ferox,2023-04-01,0.101
+Prana Ferox,2023-07-01,0.09
+Prana Ferox,2023-10-01,0.084
 Prana Ferox,2024-01-01,0.0
 Prana Ferox,2024-04-01,0.0
 Prana Ferox,2024-07-01,0.0
@@ -46212,14 +46212,14 @@ Prowl Great Cain,2021-10-01,0.0
 Prowl Great Cain,2022-01-01,0.0
 Prowl Great Cain,2022-04-01,0.0
 Prowl Great Cain,2022-07-01,0.16
-Prowl Great Cain,2022-10-01,0.198
-Prowl Great Cain,2023-01-01,0.209
-Prowl Great Cain,2023-04-01,0.192
-Prowl Great Cain,2023-07-01,0.17
-Prowl Great Cain,2023-10-01,0.192
-Prowl Great Cain,2024-01-01,0.185
-Prowl Great Cain,2024-04-01,0.162
-Prowl Great Cain,2024-07-01,0.077
+Prowl Great Cain,2022-10-01,0.19
+Prowl Great Cain,2023-01-01,0.202
+Prowl Great Cain,2023-04-01,0.185
+Prowl Great Cain,2023-07-01,0.164
+Prowl Great Cain,2023-10-01,0.185
+Prowl Great Cain,2024-01-01,0.179
+Prowl Great Cain,2024-04-01,0.156
+Prowl Great Cain,2024-07-01,0.07
 Prowl Great Cain,2024-10-01,0.024
 Prowl Great Cain,2025-01-01,0.007
 Prowl Great Cain,2025-04-01,0.008
@@ -46346,13 +46346,13 @@ Psalms 40:2,2021-10-01,0.017
 Psalms 40:2,2022-01-01,0.0
 Psalms 40:2,2022-04-01,0.0
 Psalms 40:2,2022-07-01,0.04
-Psalms 40:2,2022-10-01,0.028
-Psalms 40:2,2023-01-01,0.027
+Psalms 40:2,2022-10-01,0.029
+Psalms 40:2,2023-01-01,0.028
 Psalms 40:2,2023-04-01,0.042
 Psalms 40:2,2023-07-01,0.052
 Psalms 40:2,2023-10-01,0.067
 Psalms 40:2,2024-01-01,0.065
-Psalms 40:2,2024-04-01,0.056
+Psalms 40:2,2024-04-01,0.057
 Psalms 40:2,2024-07-01,0.035
 Psalms 40:2,2024-10-01,0.04
 Psalms 40:2,2025-01-01,0.036
@@ -46481,11 +46481,11 @@ Pseudothyrum Song,2022-01-01,0.067
 Pseudothyrum Song,2022-04-01,0.07
 Pseudothyrum Song,2022-07-01,0.053
 Pseudothyrum Song,2022-10-01,0.038
-Pseudothyrum Song,2023-01-01,0.036
+Pseudothyrum Song,2023-01-01,0.037
 Pseudothyrum Song,2023-04-01,0.042
 Pseudothyrum Song,2023-07-01,0.037
 Pseudothyrum Song,2023-10-01,0.017
-Pseudothyrum Song,2024-01-01,0.04
+Pseudothyrum Song,2024-01-01,0.041
 Pseudothyrum Song,2024-04-01,0.035
 Pseudothyrum Song,2024-07-01,0.035
 Pseudothyrum Song,2024-10-01,0.04
@@ -46748,7 +46748,7 @@ Pure Heat,2021-10-01,0.05
 Pure Heat,2022-01-01,0.017
 Pure Heat,2022-04-01,0.018
 Pure Heat,2022-07-01,0.013
-Pure Heat,2022-10-01,0.009
+Pure Heat,2022-10-01,0.01
 Pure Heat,2023-01-01,0.018
 Pure Heat,2023-04-01,0.017
 Pure Heat,2023-07-01,0.015
@@ -46882,14 +46882,14 @@ Pure Milk,2021-10-01,0.017
 Pure Milk,2022-01-01,0.017
 Pure Milk,2022-04-01,0.018
 Pure Milk,2022-07-01,0.013
-Pure Milk,2022-10-01,0.019
-Pure Milk,2023-01-01,0.018
-Pure Milk,2023-04-01,0.017
-Pure Milk,2023-07-01,0.015
-Pure Milk,2023-10-01,0.008
-Pure Milk,2024-01-01,0.008
-Pure Milk,2024-04-01,0.007
-Pure Milk,2024-07-01,0.007
+Pure Milk,2022-10-01,0.01
+Pure Milk,2023-01-01,0.009
+Pure Milk,2023-04-01,0.008
+Pure Milk,2023-07-01,0.007
+Pure Milk,2023-10-01,0.0
+Pure Milk,2024-01-01,0.0
+Pure Milk,2024-04-01,0.0
+Pure Milk,2024-07-01,0.0
 Pure Milk,2024-10-01,0.0
 Pure Milk,2025-01-01,0.007
 Pure Milk,2025-04-01,0.008
@@ -47820,7 +47820,7 @@ Raid on Entebbe,2021-10-01,0.033
 Raid on Entebbe,2022-01-01,0.033
 Raid on Entebbe,2022-04-01,0.018
 Raid on Entebbe,2022-07-01,0.013
-Raid on Entebbe,2022-10-01,0.009
+Raid on Entebbe,2022-10-01,0.01
 Raid on Entebbe,2023-01-01,0.009
 Raid on Entebbe,2023-04-01,0.008
 Raid on Entebbe,2023-07-01,0.007
@@ -47958,10 +47958,10 @@ Rain in Soho,2022-10-01,0.019
 Rain in Soho,2023-01-01,0.018
 Rain in Soho,2023-04-01,0.042
 Rain in Soho,2023-07-01,0.104
-Rain in Soho,2023-10-01,0.158
-Rain in Soho,2024-01-01,0.153
-Rain in Soho,2024-04-01,0.134
-Rain in Soho,2024-07-01,0.119
+Rain in Soho,2023-10-01,0.16
+Rain in Soho,2024-01-01,0.154
+Rain in Soho,2024-04-01,0.135
+Rain in Soho,2024-07-01,0.12
 Rain in Soho,2024-10-01,0.135
 Rain in Soho,2025-01-01,0.124
 Rain in Soho,2025-04-01,0.106
@@ -48224,11 +48224,11 @@ Raja Vocative,2022-04-01,0.0
 Raja Vocative,2022-07-01,0.04
 Raja Vocative,2022-10-01,0.038
 Raja Vocative,2023-01-01,0.055
-Raja Vocative,2023-04-01,0.058
+Raja Vocative,2023-04-01,0.059
 Raja Vocative,2023-07-01,0.052
-Raja Vocative,2023-10-01,0.058
-Raja Vocative,2024-01-01,0.056
-Raja Vocative,2024-04-01,0.049
+Raja Vocative,2023-10-01,0.059
+Raja Vocative,2024-01-01,0.057
+Raja Vocative,2024-04-01,0.05
 Raja Vocative,2024-07-01,0.028
 Raja Vocative,2024-10-01,0.032
 Raja Vocative,2025-01-01,0.022
@@ -48356,8 +48356,8 @@ Rat Queen,2021-10-01,0.05
 Rat Queen,2022-01-01,0.05
 Rat Queen,2022-04-01,0.053
 Rat Queen,2022-07-01,0.04
-Rat Queen,2022-10-01,0.028
-Rat Queen,2023-01-01,0.027
+Rat Queen,2022-10-01,0.029
+Rat Queen,2023-01-01,0.028
 Rat Queen,2023-04-01,0.025
 Rat Queen,2023-07-01,0.015
 Rat Queen,2023-10-01,0.0
@@ -48624,7 +48624,7 @@ Rescue Breathing,2021-10-01,0.033
 Rescue Breathing,2022-01-01,0.033
 Rescue Breathing,2022-04-01,0.018
 Rescue Breathing,2022-07-01,0.013
-Rescue Breathing,2022-10-01,0.009
+Rescue Breathing,2022-10-01,0.01
 Rescue Breathing,2023-01-01,0.009
 Rescue Breathing,2023-04-01,0.008
 Rescue Breathing,2023-07-01,0.007
@@ -48758,11 +48758,11 @@ Riches and Wonders,2021-10-01,0.033
 Riches and Wonders,2022-01-01,0.033
 Riches and Wonders,2022-04-01,0.035
 Riches and Wonders,2022-07-01,0.053
-Riches and Wonders,2022-10-01,0.047
-Riches and Wonders,2023-01-01,0.036
-Riches and Wonders,2023-04-01,0.033
+Riches and Wonders,2022-10-01,0.048
+Riches and Wonders,2023-01-01,0.037
+Riches and Wonders,2023-04-01,0.034
 Riches and Wonders,2023-07-01,0.03
-Riches and Wonders,2023-10-01,0.033
+Riches and Wonders,2023-10-01,0.034
 Riches and Wonders,2024-01-01,0.024
 Riches and Wonders,2024-04-01,0.028
 Riches and Wonders,2024-07-01,0.014
@@ -49562,7 +49562,7 @@ Rotten Stinking Mouthpiece,2021-10-01,0.017
 Rotten Stinking Mouthpiece,2022-01-01,0.017
 Rotten Stinking Mouthpiece,2022-04-01,0.018
 Rotten Stinking Mouthpiece,2022-07-01,0.013
-Rotten Stinking Mouthpiece,2022-10-01,0.009
+Rotten Stinking Mouthpiece,2022-10-01,0.01
 Rotten Stinking Mouthpiece,2023-01-01,0.009
 Rotten Stinking Mouthpiece,2023-04-01,0.008
 Rotten Stinking Mouthpiece,2023-07-01,0.007
@@ -50099,12 +50099,12 @@ San Bernardino,2022-01-01,0.033
 San Bernardino,2022-04-01,0.035
 San Bernardino,2022-07-01,0.04
 San Bernardino,2022-10-01,0.038
-San Bernardino,2023-01-01,0.036
-San Bernardino,2023-04-01,0.058
+San Bernardino,2023-01-01,0.037
+San Bernardino,2023-04-01,0.059
 San Bernardino,2023-07-01,0.052
 San Bernardino,2023-10-01,0.05
 San Bernardino,2024-01-01,0.089
-San Bernardino,2024-04-01,0.077
+San Bernardino,2024-04-01,0.078
 San Bernardino,2024-07-01,0.07
 San Bernardino,2024-10-01,0.071
 San Bernardino,2025-01-01,0.066
@@ -50366,12 +50366,12 @@ Sax Rohmer Number 1,2021-10-01,0.233
 Sax Rohmer Number 1,2022-01-01,0.283
 Sax Rohmer Number 1,2022-04-01,0.281
 Sax Rohmer Number 1,2022-07-01,0.267
-Sax Rohmer Number 1,2022-10-01,0.189
-Sax Rohmer Number 1,2023-01-01,0.182
-Sax Rohmer Number 1,2023-04-01,0.167
-Sax Rohmer Number 1,2023-07-01,0.141
-Sax Rohmer Number 1,2023-10-01,0.075
-Sax Rohmer Number 1,2024-01-01,0.032
+Sax Rohmer Number 1,2022-10-01,0.19
+Sax Rohmer Number 1,2023-01-01,0.183
+Sax Rohmer Number 1,2023-04-01,0.168
+Sax Rohmer Number 1,2023-07-01,0.142
+Sax Rohmer Number 1,2023-10-01,0.076
+Sax Rohmer Number 1,2024-01-01,0.033
 Sax Rohmer Number 1,2024-04-01,0.028
 Sax Rohmer Number 1,2024-07-01,0.0
 Sax Rohmer Number 1,2024-10-01,0.0
@@ -50500,7 +50500,7 @@ Scavenger Babies,2021-10-01,0.0
 Scavenger Babies,2022-01-01,0.0
 Scavenger Babies,2022-04-01,0.0
 Scavenger Babies,2022-07-01,0.0
-Scavenger Babies,2022-10-01,0.009
+Scavenger Babies,2022-10-01,0.01
 Scavenger Babies,2023-01-01,0.009
 Scavenger Babies,2023-04-01,0.008
 Scavenger Babies,2023-07-01,0.007
@@ -50634,14 +50634,14 @@ See America Right,2021-10-01,0.2
 See America Right,2022-01-01,0.217
 See America Right,2022-04-01,0.228
 See America Right,2022-07-01,0.227
-See America Right,2022-10-01,0.16
-See America Right,2023-01-01,0.155
-See America Right,2023-04-01,0.15
-See America Right,2023-07-01,0.148
-See America Right,2023-10-01,0.108
-See America Right,2024-01-01,0.113
+See America Right,2022-10-01,0.162
+See America Right,2023-01-01,0.156
+See America Right,2023-04-01,0.151
+See America Right,2023-07-01,0.149
+See America Right,2023-10-01,0.109
+See America Right,2024-01-01,0.114
 See America Right,2024-04-01,0.113
-See America Right,2024-07-01,0.126
+See America Right,2024-07-01,0.127
 See America Right,2024-10-01,0.159
 See America Right,2025-01-01,0.146
 See America Right,2025-04-01,0.154
@@ -50902,14 +50902,14 @@ Seed Song,2021-10-01,0.0
 Seed Song,2022-01-01,0.0
 Seed Song,2022-04-01,0.0
 Seed Song,2022-07-01,0.0
-Seed Song,2022-10-01,0.009
-Seed Song,2023-01-01,0.009
-Seed Song,2023-04-01,0.008
-Seed Song,2023-07-01,0.007
-Seed Song,2023-10-01,0.008
-Seed Song,2024-01-01,0.016
-Seed Song,2024-04-01,0.021
-Seed Song,2024-07-01,0.021
+Seed Song,2022-10-01,0.0
+Seed Song,2023-01-01,0.0
+Seed Song,2023-04-01,0.0
+Seed Song,2023-07-01,0.0
+Seed Song,2023-10-01,0.0
+Seed Song,2024-01-01,0.008
+Seed Song,2024-04-01,0.014
+Seed Song,2024-07-01,0.014
 Seed Song,2024-10-01,0.016
 Seed Song,2025-01-01,0.022
 Seed Song,2025-04-01,0.024
@@ -51974,13 +51974,13 @@ Shelved,2021-10-01,0.017
 Shelved,2022-01-01,0.017
 Shelved,2022-04-01,0.018
 Shelved,2022-07-01,0.107
-Shelved,2022-10-01,0.085
-Shelved,2023-01-01,0.082
-Shelved,2023-04-01,0.075
-Shelved,2023-07-01,0.059
+Shelved,2022-10-01,0.086
+Shelved,2023-01-01,0.083
+Shelved,2023-04-01,0.076
+Shelved,2023-07-01,0.06
 Shelved,2023-10-01,0.067
 Shelved,2024-01-01,0.065
-Shelved,2024-04-01,0.056
+Shelved,2024-04-01,0.057
 Shelved,2024-07-01,0.014
 Shelved,2024-10-01,0.008
 Shelved,2025-01-01,0.007
@@ -52115,7 +52115,7 @@ Shirtless in Hamburg,2023-07-01,0.0
 Shirtless in Hamburg,2023-10-01,0.0
 Shirtless in Hamburg,2024-01-01,0.0
 Shirtless in Hamburg,2024-04-01,0.085
-Shirtless in Hamburg,2024-07-01,0.084
+Shirtless in Hamburg,2024-07-01,0.085
 Shirtless in Hamburg,2024-10-01,0.095
 Shirtless in Hamburg,2025-01-01,0.088
 Shirtless in Hamburg,2025-04-01,0.098
@@ -52242,7 +52242,7 @@ Short Song About the 10 Freeway,2021-10-01,0.017
 Short Song About the 10 Freeway,2022-01-01,0.017
 Short Song About the 10 Freeway,2022-04-01,0.018
 Short Song About the 10 Freeway,2022-07-01,0.013
-Short Song About the 10 Freeway,2022-10-01,0.009
+Short Song About the 10 Freeway,2022-10-01,0.01
 Short Song About the 10 Freeway,2023-01-01,0.009
 Short Song About the 10 Freeway,2023-04-01,0.0
 Short Song About the 10 Freeway,2023-07-01,0.0
@@ -52651,7 +52651,7 @@ Sicilian Crest,2023-07-01,0.0
 Sicilian Crest,2023-10-01,0.0
 Sicilian Crest,2024-01-01,0.0
 Sicilian Crest,2024-04-01,0.0
-Sicilian Crest,2024-07-01,0.105
+Sicilian Crest,2024-07-01,0.106
 Sicilian Crest,2024-10-01,0.143
 Sicilian Crest,2025-01-01,0.131
 Sicilian Crest,2025-04-01,0.146
@@ -52912,7 +52912,7 @@ Sinaloan Milk Snake Song,2021-10-01,0.017
 Sinaloan Milk Snake Song,2022-01-01,0.017
 Sinaloan Milk Snake Song,2022-04-01,0.018
 Sinaloan Milk Snake Song,2022-07-01,0.013
-Sinaloan Milk Snake Song,2022-10-01,0.009
+Sinaloan Milk Snake Song,2022-10-01,0.01
 Sinaloan Milk Snake Song,2023-01-01,0.018
 Sinaloan Milk Snake Song,2023-04-01,0.025
 Sinaloan Milk Snake Song,2023-07-01,0.03
@@ -53046,7 +53046,7 @@ Sixty Percent Wolf,2021-10-01,0.017
 Sixty Percent Wolf,2022-01-01,0.017
 Sixty Percent Wolf,2022-04-01,0.018
 Sixty Percent Wolf,2022-07-01,0.013
-Sixty Percent Wolf,2022-10-01,0.009
+Sixty Percent Wolf,2022-10-01,0.01
 Sixty Percent Wolf,2023-01-01,0.009
 Sixty Percent Wolf,2023-04-01,0.008
 Sixty Percent Wolf,2023-07-01,0.007
@@ -53181,11 +53181,11 @@ Slow West Vultures,2022-01-01,0.033
 Slow West Vultures,2022-04-01,0.018
 Slow West Vultures,2022-07-01,0.013
 Slow West Vultures,2022-10-01,0.038
-Slow West Vultures,2023-01-01,0.036
-Slow West Vultures,2023-04-01,0.033
+Slow West Vultures,2023-01-01,0.037
+Slow West Vultures,2023-04-01,0.034
 Slow West Vultures,2023-07-01,0.03
 Slow West Vultures,2023-10-01,0.025
-Slow West Vultures,2024-01-01,0.032
+Slow West Vultures,2024-01-01,0.033
 Slow West Vultures,2024-04-01,0.028
 Slow West Vultures,2024-07-01,0.028
 Slow West Vultures,2024-10-01,0.008
@@ -53314,12 +53314,12 @@ Snow Crush Killing Song,2021-10-01,0.0
 Snow Crush Killing Song,2022-01-01,0.0
 Snow Crush Killing Song,2022-04-01,0.0
 Snow Crush Killing Song,2022-07-01,0.013
-Snow Crush Killing Song,2022-10-01,0.009
+Snow Crush Killing Song,2022-10-01,0.01
 Snow Crush Killing Song,2023-01-01,0.018
 Snow Crush Killing Song,2023-04-01,0.025
 Snow Crush Killing Song,2023-07-01,0.022
 Snow Crush Killing Song,2023-10-01,0.042
-Snow Crush Killing Song,2024-01-01,0.04
+Snow Crush Killing Song,2024-01-01,0.041
 Snow Crush Killing Song,2024-04-01,0.035
 Snow Crush Killing Song,2024-07-01,0.028
 Snow Crush Killing Song,2024-10-01,0.032
@@ -53716,14 +53716,14 @@ Soft Targets,2021-10-01,0.067
 Soft Targets,2022-01-01,0.067
 Soft Targets,2022-04-01,0.053
 Soft Targets,2022-07-01,0.067
-Soft Targets,2022-10-01,0.104
-Soft Targets,2023-01-01,0.109
-Soft Targets,2023-04-01,0.183
-Soft Targets,2023-07-01,0.156
-Soft Targets,2023-10-01,0.167
-Soft Targets,2024-01-01,0.153
-Soft Targets,2024-04-01,0.148
-Soft Targets,2024-07-01,0.133
+Soft Targets,2022-10-01,0.105
+Soft Targets,2023-01-01,0.11
+Soft Targets,2023-04-01,0.185
+Soft Targets,2023-07-01,0.157
+Soft Targets,2023-10-01,0.168
+Soft Targets,2024-01-01,0.154
+Soft Targets,2024-04-01,0.149
+Soft Targets,2024-07-01,0.134
 Soft Targets,2024-10-01,0.103
 Soft Targets,2025-01-01,0.095
 Soft Targets,2025-04-01,0.024
@@ -53850,14 +53850,14 @@ Solidarity Forever,2021-10-01,0.05
 Solidarity Forever,2022-01-01,0.05
 Solidarity Forever,2022-04-01,0.053
 Solidarity Forever,2022-07-01,0.053
-Solidarity Forever,2022-10-01,0.057
-Solidarity Forever,2023-01-01,0.055
-Solidarity Forever,2023-04-01,0.058
-Solidarity Forever,2023-07-01,0.052
-Solidarity Forever,2023-10-01,0.042
-Solidarity Forever,2024-01-01,0.04
-Solidarity Forever,2024-04-01,0.049
-Solidarity Forever,2024-07-01,0.049
+Solidarity Forever,2022-10-01,0.048
+Solidarity Forever,2023-01-01,0.046
+Solidarity Forever,2023-04-01,0.05
+Solidarity Forever,2023-07-01,0.045
+Solidarity Forever,2023-10-01,0.034
+Solidarity Forever,2024-01-01,0.033
+Solidarity Forever,2024-04-01,0.043
+Solidarity Forever,2024-07-01,0.042
 Solidarity Forever,2024-10-01,0.04
 Solidarity Forever,2025-01-01,0.036
 Solidarity Forever,2025-04-01,0.024
@@ -53984,7 +53984,7 @@ Solomon Revisited,2021-10-01,0.0
 Solomon Revisited,2022-01-01,0.0
 Solomon Revisited,2022-04-01,0.0
 Solomon Revisited,2022-07-01,0.0
-Solomon Revisited,2022-10-01,0.009
+Solomon Revisited,2022-10-01,0.01
 Solomon Revisited,2023-01-01,0.009
 Solomon Revisited,2023-04-01,0.008
 Solomon Revisited,2023-07-01,0.007
@@ -55056,12 +55056,12 @@ Song for Dennis Brown,2021-10-01,0.05
 Song for Dennis Brown,2022-01-01,0.1
 Song for Dennis Brown,2022-04-01,0.105
 Song for Dennis Brown,2022-07-01,0.147
-Song for Dennis Brown,2022-10-01,0.132
-Song for Dennis Brown,2023-01-01,0.155
-Song for Dennis Brown,2023-04-01,0.15
-Song for Dennis Brown,2023-07-01,0.141
-Song for Dennis Brown,2023-10-01,0.133
-Song for Dennis Brown,2024-01-01,0.105
+Song for Dennis Brown,2022-10-01,0.133
+Song for Dennis Brown,2023-01-01,0.156
+Song for Dennis Brown,2023-04-01,0.151
+Song for Dennis Brown,2023-07-01,0.142
+Song for Dennis Brown,2023-10-01,0.134
+Song for Dennis Brown,2024-01-01,0.106
 Song for Dennis Brown,2024-04-01,0.092
 Song for Dennis Brown,2024-07-01,0.063
 Song for Dennis Brown,2024-10-01,0.048
@@ -55331,7 +55331,7 @@ Song for Lonely Giants,2023-07-01,0.0
 Song for Lonely Giants,2023-10-01,0.0
 Song for Lonely Giants,2024-01-01,0.008
 Song for Lonely Giants,2024-04-01,0.092
-Song for Lonely Giants,2024-07-01,0.091
+Song for Lonely Giants,2024-07-01,0.092
 Song for Lonely Giants,2024-10-01,0.103
 Song for Lonely Giants,2025-01-01,0.095
 Song for Lonely Giants,2025-04-01,0.106
@@ -56128,12 +56128,12 @@ Song for an Old Friend,2021-10-01,0.0
 Song for an Old Friend,2022-01-01,0.0
 Song for an Old Friend,2022-04-01,0.0
 Song for an Old Friend,2022-07-01,0.0
-Song for an Old Friend,2022-10-01,0.009
+Song for an Old Friend,2022-10-01,0.01
 Song for an Old Friend,2023-01-01,0.009
 Song for an Old Friend,2023-04-01,0.017
 Song for an Old Friend,2023-07-01,0.015
 Song for an Old Friend,2023-10-01,0.025
-Song for an Old Friend,2024-01-01,0.032
+Song for an Old Friend,2024-01-01,0.033
 Song for an Old Friend,2024-04-01,0.028
 Song for an Old Friend,2024-07-01,0.028
 Song for an Old Friend,2024-10-01,0.024
@@ -56262,7 +56262,7 @@ Song for the Julian Calendar,2021-10-01,0.0
 Song for the Julian Calendar,2022-01-01,0.0
 Song for the Julian Calendar,2022-04-01,0.0
 Song for the Julian Calendar,2022-07-01,0.0
-Song for the Julian Calendar,2022-10-01,0.009
+Song for the Julian Calendar,2022-10-01,0.01
 Song for the Julian Calendar,2023-01-01,0.009
 Song for the Julian Calendar,2023-04-01,0.008
 Song for the Julian Calendar,2023-07-01,0.007
@@ -56398,12 +56398,12 @@ Source Decay,2022-04-01,0.035
 Source Decay,2022-07-01,0.04
 Source Decay,2022-10-01,0.057
 Source Decay,2023-01-01,0.073
-Source Decay,2023-04-01,0.075
-Source Decay,2023-07-01,0.081
-Source Decay,2023-10-01,0.108
-Source Decay,2024-01-01,0.097
+Source Decay,2023-04-01,0.076
+Source Decay,2023-07-01,0.082
+Source Decay,2023-10-01,0.109
+Source Decay,2024-01-01,0.098
 Source Decay,2024-04-01,0.092
-Source Decay,2024-07-01,0.098
+Source Decay,2024-07-01,0.099
 Source Decay,2024-10-01,0.087
 Source Decay,2025-01-01,0.066
 Source Decay,2025-04-01,0.065
@@ -56530,11 +56530,11 @@ Southwestern Territory,2021-10-01,0.267
 Southwestern Territory,2022-01-01,0.233
 Southwestern Territory,2022-04-01,0.228
 Southwestern Territory,2022-07-01,0.24
-Southwestern Territory,2022-10-01,0.198
-Southwestern Territory,2023-01-01,0.182
-Southwestern Territory,2023-04-01,0.183
-Southwestern Territory,2023-07-01,0.163
-Southwestern Territory,2023-10-01,0.1
+Southwestern Territory,2022-10-01,0.2
+Southwestern Territory,2023-01-01,0.183
+Southwestern Territory,2023-04-01,0.185
+Southwestern Territory,2023-07-01,0.164
+Southwestern Territory,2023-10-01,0.101
 Southwestern Territory,2024-01-01,0.089
 Southwestern Territory,2024-04-01,0.099
 Southwestern Territory,2024-07-01,0.063
@@ -56664,14 +56664,14 @@ Southwood Plantation Road,2021-10-01,0.067
 Southwood Plantation Road,2022-01-01,0.183
 Southwood Plantation Road,2022-04-01,0.175
 Southwood Plantation Road,2022-07-01,0.267
-Southwood Plantation Road,2022-10-01,0.264
-Southwood Plantation Road,2023-01-01,0.264
-Southwood Plantation Road,2023-04-01,0.267
-Southwood Plantation Road,2023-07-01,0.237
-Southwood Plantation Road,2023-10-01,0.275
-Southwood Plantation Road,2024-01-01,0.21
-Southwood Plantation Road,2024-04-01,0.183
-Southwood Plantation Road,2024-07-01,0.112
+Southwood Plantation Road,2022-10-01,0.257
+Southwood Plantation Road,2023-01-01,0.257
+Southwood Plantation Road,2023-04-01,0.261
+Southwood Plantation Road,2023-07-01,0.231
+Southwood Plantation Road,2023-10-01,0.269
+Southwood Plantation Road,2024-01-01,0.203
+Southwood Plantation Road,2024-04-01,0.177
+Southwood Plantation Road,2024-07-01,0.106
 Southwood Plantation Road,2024-10-01,0.063
 Southwood Plantation Road,2025-01-01,0.044
 Southwood Plantation Road,2025-04-01,0.024
@@ -56798,14 +56798,14 @@ Spent Gladiator 2,2021-10-01,0.067
 Spent Gladiator 2,2022-01-01,0.117
 Spent Gladiator 2,2022-04-01,0.123
 Spent Gladiator 2,2022-07-01,0.133
-Spent Gladiator 2,2022-10-01,0.113
-Spent Gladiator 2,2023-01-01,0.118
-Spent Gladiator 2,2023-04-01,0.108
-Spent Gladiator 2,2023-07-01,0.133
-Spent Gladiator 2,2023-10-01,0.15
-Spent Gladiator 2,2024-01-01,0.137
-Spent Gladiator 2,2024-04-01,0.12
-Spent Gladiator 2,2024-07-01,0.119
+Spent Gladiator 2,2022-10-01,0.114
+Spent Gladiator 2,2023-01-01,0.119
+Spent Gladiator 2,2023-04-01,0.109
+Spent Gladiator 2,2023-07-01,0.134
+Spent Gladiator 2,2023-10-01,0.151
+Spent Gladiator 2,2024-01-01,0.138
+Spent Gladiator 2,2024-04-01,0.121
+Spent Gladiator 2,2024-07-01,0.12
 Spent Gladiator 2,2024-10-01,0.127
 Spent Gladiator 2,2025-01-01,0.102
 Spent Gladiator 2,2025-04-01,0.106
@@ -57066,7 +57066,7 @@ Stabbed to Death Outside San Juan,2021-10-01,0.017
 Stabbed to Death Outside San Juan,2022-01-01,0.017
 Stabbed to Death Outside San Juan,2022-04-01,0.018
 Stabbed to Death Outside San Juan,2022-07-01,0.04
-Stabbed to Death Outside San Juan,2022-10-01,0.028
+Stabbed to Death Outside San Juan,2022-10-01,0.029
 Stabbed to Death Outside San Juan,2023-01-01,0.018
 Stabbed to Death Outside San Juan,2023-04-01,0.017
 Stabbed to Death Outside San Juan,2023-07-01,0.015
@@ -57200,7 +57200,7 @@ Standard Bitter Love Song Number 1,2021-10-01,0.0
 Standard Bitter Love Song Number 1,2022-01-01,0.0
 Standard Bitter Love Song Number 1,2022-04-01,0.0
 Standard Bitter Love Song Number 1,2022-07-01,0.0
-Standard Bitter Love Song Number 1,2022-10-01,0.009
+Standard Bitter Love Song Number 1,2022-10-01,0.01
 Standard Bitter Love Song Number 1,2023-01-01,0.009
 Standard Bitter Love Song Number 1,2023-04-01,0.008
 Standard Bitter Love Song Number 1,2023-07-01,0.007
@@ -57602,7 +57602,7 @@ Star Dusting,2021-10-01,0.0
 Star Dusting,2022-01-01,0.0
 Star Dusting,2022-04-01,0.0
 Star Dusting,2022-07-01,0.0
-Star Dusting,2022-10-01,0.009
+Star Dusting,2022-10-01,0.01
 Star Dusting,2023-01-01,0.009
 Star Dusting,2023-04-01,0.008
 Star Dusting,2023-07-01,0.007
@@ -58007,10 +58007,10 @@ Steal Smoked Fish,2022-07-01,0.04
 Steal Smoked Fish,2022-10-01,0.057
 Steal Smoked Fish,2023-01-01,0.055
 Steal Smoked Fish,2023-04-01,0.05
-Steal Smoked Fish,2023-07-01,0.044
-Steal Smoked Fish,2023-10-01,0.033
+Steal Smoked Fish,2023-07-01,0.045
+Steal Smoked Fish,2023-10-01,0.034
 Steal Smoked Fish,2024-01-01,0.065
-Steal Smoked Fish,2024-04-01,0.063
+Steal Smoked Fish,2024-04-01,0.064
 Steal Smoked Fish,2024-07-01,0.056
 Steal Smoked Fish,2024-10-01,0.04
 Steal Smoked Fish,2025-01-01,0.058
@@ -59344,13 +59344,13 @@ Tallahassee (Song),2021-10-01,0.283
 Tallahassee (Song),2022-01-01,0.4
 Tallahassee (Song),2022-04-01,0.404
 Tallahassee (Song),2022-07-01,0.32
-Tallahassee (Song),2022-10-01,0.245
-Tallahassee (Song),2023-01-01,0.245
-Tallahassee (Song),2023-04-01,0.225
-Tallahassee (Song),2023-07-01,0.237
-Tallahassee (Song),2023-10-01,0.142
+Tallahassee (Song),2022-10-01,0.248
+Tallahassee (Song),2023-01-01,0.248
+Tallahassee (Song),2023-04-01,0.227
+Tallahassee (Song),2023-07-01,0.239
+Tallahassee (Song),2023-10-01,0.143
 Tallahassee (Song),2024-01-01,0.081
-Tallahassee (Song),2024-04-01,0.07
+Tallahassee (Song),2024-04-01,0.071
 Tallahassee (Song),2024-07-01,0.063
 Tallahassee (Song),2024-10-01,0.056
 Tallahassee (Song),2025-01-01,0.044
@@ -59880,13 +59880,13 @@ Thank You Mario But Our Princess Is in Another Castle,2021-10-01,0.017
 Thank You Mario But Our Princess Is in Another Castle,2022-01-01,0.017
 Thank You Mario But Our Princess Is in Another Castle,2022-04-01,0.018
 Thank You Mario But Our Princess Is in Another Castle,2022-07-01,0.027
-Thank You Mario But Our Princess Is in Another Castle,2022-10-01,0.028
-Thank You Mario But Our Princess Is in Another Castle,2023-01-01,0.036
-Thank You Mario But Our Princess Is in Another Castle,2023-04-01,0.033
+Thank You Mario But Our Princess Is in Another Castle,2022-10-01,0.029
+Thank You Mario But Our Princess Is in Another Castle,2023-01-01,0.037
+Thank You Mario But Our Princess Is in Another Castle,2023-04-01,0.034
 Thank You Mario But Our Princess Is in Another Castle,2023-07-01,0.037
-Thank You Mario But Our Princess Is in Another Castle,2023-10-01,0.033
-Thank You Mario But Our Princess Is in Another Castle,2024-01-01,0.048
-Thank You Mario But Our Princess Is in Another Castle,2024-04-01,0.042
+Thank You Mario But Our Princess Is in Another Castle,2023-10-01,0.034
+Thank You Mario But Our Princess Is in Another Castle,2024-01-01,0.049
+Thank You Mario But Our Princess Is in Another Castle,2024-04-01,0.043
 Thank You Mario But Our Princess Is in Another Castle,2024-07-01,0.035
 Thank You Mario But Our Princess Is in Another Castle,2024-10-01,0.04
 Thank You Mario But Our Princess Is in Another Castle,2025-01-01,0.036
@@ -60014,7 +60014,7 @@ That Hippolytine Feeling,2021-10-01,0.017
 That Hippolytine Feeling,2022-01-01,0.017
 That Hippolytine Feeling,2022-04-01,0.018
 That Hippolytine Feeling,2022-07-01,0.013
-That Hippolytine Feeling,2022-10-01,0.009
+That Hippolytine Feeling,2022-10-01,0.01
 That Hippolytine Feeling,2023-01-01,0.009
 That Hippolytine Feeling,2023-04-01,0.008
 That Hippolytine Feeling,2023-07-01,0.007
@@ -60149,7 +60149,7 @@ The Alphonse Mambo,2022-01-01,0.067
 The Alphonse Mambo,2022-04-01,0.07
 The Alphonse Mambo,2022-07-01,0.053
 The Alphonse Mambo,2022-10-01,0.038
-The Alphonse Mambo,2023-01-01,0.027
+The Alphonse Mambo,2023-01-01,0.028
 The Alphonse Mambo,2023-04-01,0.025
 The Alphonse Mambo,2023-07-01,0.022
 The Alphonse Mambo,2023-10-01,0.017
@@ -60282,7 +60282,7 @@ The Anglo-Saxons,2021-10-01,0.0
 The Anglo-Saxons,2022-01-01,0.0
 The Anglo-Saxons,2022-04-01,0.0
 The Anglo-Saxons,2022-07-01,0.013
-The Anglo-Saxons,2022-10-01,0.009
+The Anglo-Saxons,2022-10-01,0.01
 The Anglo-Saxons,2023-01-01,0.009
 The Anglo-Saxons,2023-04-01,0.008
 The Anglo-Saxons,2023-07-01,0.007
@@ -60550,7 +60550,7 @@ The Ballad of Bull Ramos,2021-10-01,0.017
 The Ballad of Bull Ramos,2022-01-01,0.017
 The Ballad of Bull Ramos,2022-04-01,0.018
 The Ballad of Bull Ramos,2022-07-01,0.013
-The Ballad of Bull Ramos,2022-10-01,0.009
+The Ballad of Bull Ramos,2022-10-01,0.01
 The Ballad of Bull Ramos,2023-01-01,0.009
 The Ballad of Bull Ramos,2023-04-01,0.008
 The Ballad of Bull Ramos,2023-07-01,0.007
@@ -60684,13 +60684,13 @@ The Best Ever Death Metal Band in Denton,2021-10-01,0.083
 The Best Ever Death Metal Band in Denton,2022-01-01,0.067
 The Best Ever Death Metal Band in Denton,2022-04-01,0.053
 The Best Ever Death Metal Band in Denton,2022-07-01,0.067
-The Best Ever Death Metal Band in Denton,2022-10-01,0.075
-The Best Ever Death Metal Band in Denton,2023-01-01,0.082
-The Best Ever Death Metal Band in Denton,2023-04-01,0.075
+The Best Ever Death Metal Band in Denton,2022-10-01,0.076
+The Best Ever Death Metal Band in Denton,2023-01-01,0.083
+The Best Ever Death Metal Band in Denton,2023-04-01,0.076
 The Best Ever Death Metal Band in Denton,2023-07-01,0.067
-The Best Ever Death Metal Band in Denton,2023-10-01,0.058
+The Best Ever Death Metal Band in Denton,2023-10-01,0.059
 The Best Ever Death Metal Band in Denton,2024-01-01,0.065
-The Best Ever Death Metal Band in Denton,2024-04-01,0.077
+The Best Ever Death Metal Band in Denton,2024-04-01,0.078
 The Best Ever Death Metal Band in Denton,2024-07-01,0.063
 The Best Ever Death Metal Band in Denton,2024-10-01,0.056
 The Best Ever Death Metal Band in Denton,2025-01-01,0.058
@@ -61354,8 +61354,8 @@ The Coroner's Gambit (Song),2021-10-01,0.033
 The Coroner's Gambit (Song),2022-01-01,0.05
 The Coroner's Gambit (Song),2022-04-01,0.053
 The Coroner's Gambit (Song),2022-07-01,0.04
-The Coroner's Gambit (Song),2022-10-01,0.028
-The Coroner's Gambit (Song),2023-01-01,0.027
+The Coroner's Gambit (Song),2022-10-01,0.029
+The Coroner's Gambit (Song),2023-01-01,0.028
 The Coroner's Gambit (Song),2023-04-01,0.025
 The Coroner's Gambit (Song),2023-07-01,0.022
 The Coroner's Gambit (Song),2023-10-01,0.008
@@ -61756,10 +61756,10 @@ The Destruction of the Kola Superdeep Borehole Tower,2021-10-01,0.133
 The Destruction of the Kola Superdeep Borehole Tower,2022-01-01,0.183
 The Destruction of the Kola Superdeep Borehole Tower,2022-04-01,0.193
 The Destruction of the Kola Superdeep Borehole Tower,2022-07-01,0.147
-The Destruction of the Kola Superdeep Borehole Tower,2022-10-01,0.104
-The Destruction of the Kola Superdeep Borehole Tower,2023-01-01,0.1
+The Destruction of the Kola Superdeep Borehole Tower,2022-10-01,0.105
+The Destruction of the Kola Superdeep Borehole Tower,2023-01-01,0.101
 The Destruction of the Kola Superdeep Borehole Tower,2023-04-01,0.092
-The Destruction of the Kola Superdeep Borehole Tower,2023-07-01,0.081
+The Destruction of the Kola Superdeep Borehole Tower,2023-07-01,0.082
 The Destruction of the Kola Superdeep Borehole Tower,2023-10-01,0.025
 The Destruction of the Kola Superdeep Borehole Tower,2024-01-01,0.0
 The Destruction of the Kola Superdeep Borehole Tower,2024-04-01,0.0
@@ -61890,14 +61890,14 @@ The Diaz Brothers,2021-10-01,0.267
 The Diaz Brothers,2022-01-01,0.383
 The Diaz Brothers,2022-04-01,0.404
 The Diaz Brothers,2022-07-01,0.4
-The Diaz Brothers,2022-10-01,0.453
-The Diaz Brothers,2023-01-01,0.491
-The Diaz Brothers,2023-04-01,0.467
-The Diaz Brothers,2023-07-01,0.452
-The Diaz Brothers,2023-10-01,0.475
-The Diaz Brothers,2024-01-01,0.444
-The Diaz Brothers,2024-04-01,0.394
-The Diaz Brothers,2024-07-01,0.399
+The Diaz Brothers,2022-10-01,0.448
+The Diaz Brothers,2023-01-01,0.486
+The Diaz Brothers,2023-04-01,0.462
+The Diaz Brothers,2023-07-01,0.448
+The Diaz Brothers,2023-10-01,0.471
+The Diaz Brothers,2024-01-01,0.439
+The Diaz Brothers,2024-04-01,0.39
+The Diaz Brothers,2024-07-01,0.394
 The Diaz Brothers,2024-10-01,0.333
 The Diaz Brothers,2025-01-01,0.277
 The Diaz Brothers,2025-04-01,0.293
@@ -62030,7 +62030,7 @@ The Grey King and the Silver Flame Attunement,2023-04-01,0.0
 The Grey King and the Silver Flame Attunement,2023-07-01,0.0
 The Grey King and the Silver Flame Attunement,2023-10-01,0.0
 The Grey King and the Silver Flame Attunement,2024-01-01,0.0
-The Grey King and the Silver Flame Attunement,2024-04-01,0.063
+The Grey King and the Silver Flame Attunement,2024-04-01,0.064
 The Grey King and the Silver Flame Attunement,2024-07-01,0.063
 The Grey King and the Silver Flame Attunement,2024-10-01,0.071
 The Grey King and the Silver Flame Attunement,2025-01-01,0.066
@@ -62158,7 +62158,7 @@ The Hot Garden Stomp,2021-10-01,0.0
 The Hot Garden Stomp,2022-01-01,0.0
 The Hot Garden Stomp,2022-04-01,0.0
 The Hot Garden Stomp,2022-07-01,0.0
-The Hot Garden Stomp,2022-10-01,0.009
+The Hot Garden Stomp,2022-10-01,0.01
 The Hot Garden Stomp,2023-01-01,0.009
 The Hot Garden Stomp,2023-04-01,0.008
 The Hot Garden Stomp,2023-07-01,0.007
@@ -63230,14 +63230,14 @@ The Mess Inside,2021-10-01,0.017
 The Mess Inside,2022-01-01,0.033
 The Mess Inside,2022-04-01,0.035
 The Mess Inside,2022-07-01,0.213
-The Mess Inside,2022-10-01,0.208
-The Mess Inside,2023-01-01,0.209
-The Mess Inside,2023-04-01,0.192
-The Mess Inside,2023-07-01,0.185
-The Mess Inside,2023-10-01,0.217
-The Mess Inside,2024-01-01,0.202
-The Mess Inside,2024-04-01,0.183
-The Mess Inside,2024-07-01,0.084
+The Mess Inside,2022-10-01,0.21
+The Mess Inside,2023-01-01,0.211
+The Mess Inside,2023-04-01,0.193
+The Mess Inside,2023-07-01,0.187
+The Mess Inside,2023-10-01,0.218
+The Mess Inside,2024-01-01,0.203
+The Mess Inside,2024-04-01,0.184
+The Mess Inside,2024-07-01,0.085
 The Mess Inside,2024-10-01,0.063
 The Mess Inside,2025-01-01,0.058
 The Mess Inside,2025-04-01,0.065
@@ -63364,13 +63364,13 @@ The Monkey Song,2021-10-01,0.0
 The Monkey Song,2022-01-01,0.0
 The Monkey Song,2022-04-01,0.0
 The Monkey Song,2022-07-01,0.0
-The Monkey Song,2022-10-01,0.009
+The Monkey Song,2022-10-01,0.01
 The Monkey Song,2023-01-01,0.018
 The Monkey Song,2023-04-01,0.025
 The Monkey Song,2023-07-01,0.022
 The Monkey Song,2023-10-01,0.042
-The Monkey Song,2024-01-01,0.04
-The Monkey Song,2024-04-01,0.042
+The Monkey Song,2024-01-01,0.041
+The Monkey Song,2024-04-01,0.043
 The Monkey Song,2024-07-01,0.042
 The Monkey Song,2024-10-01,0.048
 The Monkey Song,2025-01-01,0.036
@@ -63632,14 +63632,14 @@ The New Hydra Collection,2021-10-01,0.067
 The New Hydra Collection,2022-01-01,0.083
 The New Hydra Collection,2022-04-01,0.088
 The New Hydra Collection,2022-07-01,0.08
-The New Hydra Collection,2022-10-01,0.085
-The New Hydra Collection,2023-01-01,0.082
-The New Hydra Collection,2023-04-01,0.075
-The New Hydra Collection,2023-07-01,0.067
-The New Hydra Collection,2023-10-01,0.042
-The New Hydra Collection,2024-01-01,0.032
-The New Hydra Collection,2024-04-01,0.028
-The New Hydra Collection,2024-07-01,0.021
+The New Hydra Collection,2022-10-01,0.076
+The New Hydra Collection,2023-01-01,0.073
+The New Hydra Collection,2023-04-01,0.067
+The New Hydra Collection,2023-07-01,0.06
+The New Hydra Collection,2023-10-01,0.034
+The New Hydra Collection,2024-01-01,0.024
+The New Hydra Collection,2024-04-01,0.021
+The New Hydra Collection,2024-07-01,0.014
 The New Hydra Collection,2024-10-01,0.0
 The New Hydra Collection,2025-01-01,0.0
 The New Hydra Collection,2025-04-01,0.0
@@ -64035,7 +64035,7 @@ The Plague,2022-01-01,0.083
 The Plague,2022-04-01,0.07
 The Plague,2022-07-01,0.08
 The Plague,2022-10-01,0.057
-The Plague,2023-01-01,0.045
+The Plague,2023-01-01,0.046
 The Plague,2023-04-01,0.042
 The Plague,2023-07-01,0.037
 The Plague,2023-10-01,0.025
@@ -64170,10 +64170,10 @@ The Recognition Scene,2022-04-01,0.018
 The Recognition Scene,2022-07-01,0.013
 The Recognition Scene,2022-10-01,0.019
 The Recognition Scene,2023-01-01,0.018
-The Recognition Scene,2023-04-01,0.033
+The Recognition Scene,2023-04-01,0.034
 The Recognition Scene,2023-07-01,0.03
-The Recognition Scene,2023-10-01,0.033
-The Recognition Scene,2024-01-01,0.032
+The Recognition Scene,2023-10-01,0.034
+The Recognition Scene,2024-01-01,0.033
 The Recognition Scene,2024-04-01,0.028
 The Recognition Scene,2024-07-01,0.028
 The Recognition Scene,2024-10-01,0.024
@@ -64570,14 +64570,14 @@ The Slow Parts on Death Metal Albums,2021-10-01,0.183
 The Slow Parts on Death Metal Albums,2022-01-01,0.367
 The Slow Parts on Death Metal Albums,2022-04-01,0.386
 The Slow Parts on Death Metal Albums,2022-07-01,0.4
-The Slow Parts on Death Metal Albums,2022-10-01,0.396
-The Slow Parts on Death Metal Albums,2023-01-01,0.436
-The Slow Parts on Death Metal Albums,2023-04-01,0.4
-The Slow Parts on Death Metal Albums,2023-07-01,0.393
-The Slow Parts on Death Metal Albums,2023-10-01,0.45
-The Slow Parts on Death Metal Albums,2024-01-01,0.427
-The Slow Parts on Death Metal Albums,2024-04-01,0.373
-The Slow Parts on Death Metal Albums,2024-07-01,0.385
+The Slow Parts on Death Metal Albums,2022-10-01,0.39
+The Slow Parts on Death Metal Albums,2023-01-01,0.431
+The Slow Parts on Death Metal Albums,2023-04-01,0.395
+The Slow Parts on Death Metal Albums,2023-07-01,0.388
+The Slow Parts on Death Metal Albums,2023-10-01,0.445
+The Slow Parts on Death Metal Albums,2024-01-01,0.423
+The Slow Parts on Death Metal Albums,2024-04-01,0.369
+The Slow Parts on Death Metal Albums,2024-07-01,0.38
 The Slow Parts on Death Metal Albums,2024-10-01,0.341
 The Slow Parts on Death Metal Albums,2025-01-01,0.27
 The Slow Parts on Death Metal Albums,2025-04-01,0.301
@@ -64705,11 +64705,11 @@ The Water Song,2022-01-01,0.0
 The Water Song,2022-04-01,0.0
 The Water Song,2022-07-01,0.013
 The Water Song,2022-10-01,0.019
-The Water Song,2023-01-01,0.027
+The Water Song,2023-01-01,0.028
 The Water Song,2023-04-01,0.025
 The Water Song,2023-07-01,0.022
 The Water Song,2023-10-01,0.025
-The Water Song,2024-01-01,0.032
+The Water Song,2024-01-01,0.033
 The Water Song,2024-04-01,0.028
 The Water Song,2024-07-01,0.021
 The Water Song,2024-10-01,0.016
@@ -64972,7 +64972,7 @@ The Young Thousands,2021-10-01,0.017
 The Young Thousands,2022-01-01,0.017
 The Young Thousands,2022-04-01,0.018
 The Young Thousands,2022-07-01,0.013
-The Young Thousands,2022-10-01,0.009
+The Young Thousands,2022-10-01,0.01
 The Young Thousands,2023-01-01,0.009
 The Young Thousands,2023-04-01,0.008
 The Young Thousands,2023-07-01,0.0
@@ -65374,8 +65374,8 @@ There Will Be No Divorce,2021-10-01,0.017
 There Will Be No Divorce,2022-01-01,0.017
 There Will Be No Divorce,2022-04-01,0.018
 There Will Be No Divorce,2022-07-01,0.027
-There Will Be No Divorce,2022-10-01,0.028
-There Will Be No Divorce,2023-01-01,0.027
+There Will Be No Divorce,2022-10-01,0.029
+There Will Be No Divorce,2023-01-01,0.028
 There Will Be No Divorce,2023-04-01,0.025
 There Will Be No Divorce,2023-07-01,0.022
 There Will Be No Divorce,2023-10-01,0.017
@@ -65777,12 +65777,12 @@ This Year,2022-01-01,0.867
 This Year,2022-04-01,0.877
 This Year,2022-07-01,0.933
 This Year,2022-10-01,0.943
-This Year,2023-01-01,0.955
+This Year,2023-01-01,0.954
 This Year,2023-04-01,0.975
 This Year,2023-07-01,0.97
-This Year,2023-10-01,0.967
-This Year,2024-01-01,0.968
-This Year,2024-04-01,0.958
+This Year,2023-10-01,0.966
+This Year,2024-01-01,0.967
+This Year,2024-04-01,0.957
 This Year,2024-07-01,0.958
 This Year,2024-10-01,0.96
 This Year,2025-01-01,0.964
@@ -66178,14 +66178,14 @@ Tidal Wave,2021-10-01,0.25
 Tidal Wave,2022-01-01,0.3
 Tidal Wave,2022-04-01,0.316
 Tidal Wave,2022-07-01,0.453
-Tidal Wave,2022-10-01,0.509
-Tidal Wave,2023-01-01,0.545
-Tidal Wave,2023-04-01,0.508
-Tidal Wave,2023-07-01,0.481
-Tidal Wave,2023-10-01,0.517
-Tidal Wave,2024-01-01,0.476
-Tidal Wave,2024-04-01,0.415
-Tidal Wave,2024-07-01,0.308
+Tidal Wave,2022-10-01,0.505
+Tidal Wave,2023-01-01,0.541
+Tidal Wave,2023-04-01,0.504
+Tidal Wave,2023-07-01,0.478
+Tidal Wave,2023-10-01,0.513
+Tidal Wave,2024-01-01,0.472
+Tidal Wave,2024-04-01,0.411
+Tidal Wave,2024-07-01,0.303
 Tidal Wave,2024-10-01,0.19
 Tidal Wave,2025-01-01,0.124
 Tidal Wave,2025-04-01,0.13
@@ -66313,7 +66313,7 @@ Tollund Man,2022-01-01,0.1
 Tollund Man,2022-04-01,0.105
 Tollund Man,2022-07-01,0.08
 Tollund Man,2022-10-01,0.057
-Tollund Man,2023-01-01,0.045
+Tollund Man,2023-01-01,0.046
 Tollund Man,2023-04-01,0.042
 Tollund Man,2023-07-01,0.037
 Tollund Man,2023-10-01,0.0
@@ -66446,8 +66446,8 @@ Torch Song,2021-10-01,0.017
 Torch Song,2022-01-01,0.017
 Torch Song,2022-04-01,0.018
 Torch Song,2022-07-01,0.013
-Torch Song,2022-10-01,0.028
-Torch Song,2023-01-01,0.027
+Torch Song,2022-10-01,0.029
+Torch Song,2023-01-01,0.028
 Torch Song,2023-04-01,0.025
 Torch Song,2023-07-01,0.022
 Torch Song,2023-10-01,0.025
@@ -66580,14 +66580,14 @@ Training Montage,2021-10-01,0.0
 Training Montage,2022-01-01,0.0
 Training Montage,2022-04-01,0.0
 Training Montage,2022-07-01,0.0
-Training Montage,2022-10-01,0.113
-Training Montage,2023-01-01,0.127
-Training Montage,2023-04-01,0.125
-Training Montage,2023-07-01,0.185
-Training Montage,2023-10-01,0.217
-Training Montage,2024-01-01,0.234
-Training Montage,2024-04-01,0.204
-Training Montage,2024-07-01,0.203
+Training Montage,2022-10-01,0.105
+Training Montage,2023-01-01,0.119
+Training Montage,2023-04-01,0.118
+Training Montage,2023-07-01,0.179
+Training Montage,2023-10-01,0.21
+Training Montage,2024-01-01,0.228
+Training Montage,2024-04-01,0.199
+Training Montage,2024-07-01,0.197
 Training Montage,2024-10-01,0.135
 Training Montage,2025-01-01,0.109
 Training Montage,2025-04-01,0.106
@@ -66714,14 +66714,14 @@ Transcendental Youth (Song),2021-10-01,0.167
 Transcendental Youth (Song),2022-01-01,0.017
 Transcendental Youth (Song),2022-04-01,0.018
 Transcendental Youth (Song),2022-07-01,0.013
-Transcendental Youth (Song),2022-10-01,0.047
-Transcendental Youth (Song),2023-01-01,0.045
-Transcendental Youth (Song),2023-04-01,0.117
+Transcendental Youth (Song),2022-10-01,0.048
+Transcendental Youth (Song),2023-01-01,0.046
+Transcendental Youth (Song),2023-04-01,0.118
 Transcendental Youth (Song),2023-07-01,0.104
-Transcendental Youth (Song),2023-10-01,0.108
-Transcendental Youth (Song),2024-01-01,0.113
-Transcendental Youth (Song),2024-04-01,0.169
-Transcendental Youth (Song),2024-07-01,0.175
+Transcendental Youth (Song),2023-10-01,0.109
+Transcendental Youth (Song),2024-01-01,0.114
+Transcendental Youth (Song),2024-04-01,0.17
+Transcendental Youth (Song),2024-07-01,0.176
 Transcendental Youth (Song),2024-10-01,0.175
 Transcendental Youth (Song),2025-01-01,0.248
 Transcendental Youth (Song),2025-04-01,0.203
@@ -66849,12 +66849,12 @@ Transjordanian Blues,2022-01-01,0.033
 Transjordanian Blues,2022-04-01,0.018
 Transjordanian Blues,2022-07-01,0.027
 Transjordanian Blues,2022-10-01,0.038
-Transjordanian Blues,2023-01-01,0.045
+Transjordanian Blues,2023-01-01,0.046
 Transjordanian Blues,2023-04-01,0.042
-Transjordanian Blues,2023-07-01,0.044
+Transjordanian Blues,2023-07-01,0.045
 Transjordanian Blues,2023-10-01,0.042
-Transjordanian Blues,2024-01-01,0.056
-Transjordanian Blues,2024-04-01,0.049
+Transjordanian Blues,2024-01-01,0.057
+Transjordanian Blues,2024-04-01,0.05
 Transjordanian Blues,2024-07-01,0.042
 Transjordanian Blues,2024-10-01,0.032
 Transjordanian Blues,2025-01-01,0.022
@@ -67250,7 +67250,7 @@ Tulsa Imperative,2021-10-01,0.0
 Tulsa Imperative,2022-01-01,0.0
 Tulsa Imperative,2022-04-01,0.0
 Tulsa Imperative,2022-07-01,0.0
-Tulsa Imperative,2022-10-01,0.009
+Tulsa Imperative,2022-10-01,0.01
 Tulsa Imperative,2023-01-01,0.009
 Tulsa Imperative,2023-04-01,0.008
 Tulsa Imperative,2023-07-01,0.007
@@ -67791,7 +67791,7 @@ US Mill,2023-01-01,0.0
 US Mill,2023-04-01,0.0
 US Mill,2023-07-01,0.0
 US Mill,2023-10-01,0.008
-US Mill,2024-01-01,0.032
+US Mill,2024-01-01,0.033
 US Mill,2024-04-01,0.028
 US Mill,2024-07-01,0.028
 US Mill,2024-10-01,0.032
@@ -68054,7 +68054,7 @@ Un Rêve Plus Long Que la Nuit,2021-10-01,0.0
 Un Rêve Plus Long Que la Nuit,2022-01-01,0.0
 Un Rêve Plus Long Que la Nuit,2022-04-01,0.0
 Un Rêve Plus Long Que la Nuit,2022-07-01,0.0
-Un Rêve Plus Long Que la Nuit,2022-10-01,0.009
+Un Rêve Plus Long Que la Nuit,2022-10-01,0.01
 Un Rêve Plus Long Que la Nuit,2023-01-01,0.009
 Un Rêve Plus Long Que la Nuit,2023-04-01,0.008
 Un Rêve Plus Long Que la Nuit,2023-07-01,0.007
@@ -68456,12 +68456,12 @@ Until I Am Whole,2021-10-01,0.167
 Until I Am Whole,2022-01-01,0.217
 Until I Am Whole,2022-04-01,0.228
 Until I Am Whole,2022-07-01,0.187
-Until I Am Whole,2022-10-01,0.132
-Until I Am Whole,2023-01-01,0.136
-Until I Am Whole,2023-04-01,0.125
-Until I Am Whole,2023-07-01,0.111
+Until I Am Whole,2022-10-01,0.133
+Until I Am Whole,2023-01-01,0.138
+Until I Am Whole,2023-04-01,0.126
+Until I Am Whole,2023-07-01,0.112
 Until I Am Whole,2023-10-01,0.05
-Until I Am Whole,2024-01-01,0.04
+Until I Am Whole,2024-01-01,0.041
 Until I Am Whole,2024-04-01,0.035
 Until I Am Whole,2024-07-01,0.028
 Until I Am Whole,2024-10-01,0.032
@@ -68724,14 +68724,14 @@ Up the Wolves,2021-10-01,0.667
 Up the Wolves,2022-01-01,0.65
 Up the Wolves,2022-04-01,0.667
 Up the Wolves,2022-07-01,0.667
-Up the Wolves,2022-10-01,0.717
-Up the Wolves,2023-01-01,0.764
-Up the Wolves,2023-04-01,0.808
-Up the Wolves,2023-07-01,0.807
-Up the Wolves,2023-10-01,0.817
-Up the Wolves,2024-01-01,0.815
-Up the Wolves,2024-04-01,0.796
-Up the Wolves,2024-07-01,0.825
+Up the Wolves,2022-10-01,0.714
+Up the Wolves,2023-01-01,0.761
+Up the Wolves,2023-04-01,0.807
+Up the Wolves,2023-07-01,0.806
+Up the Wolves,2023-10-01,0.815
+Up the Wolves,2024-01-01,0.813
+Up the Wolves,2024-04-01,0.794
+Up the Wolves,2024-07-01,0.824
 Up the Wolves,2024-10-01,0.786
 Up the Wolves,2025-01-01,0.686
 Up the Wolves,2025-04-01,0.65
@@ -68992,7 +68992,7 @@ Waco,2021-10-01,0.033
 Waco,2022-01-01,0.017
 Waco,2022-04-01,0.018
 Waco,2022-07-01,0.013
-Waco,2022-10-01,0.009
+Waco,2022-10-01,0.01
 Waco,2023-01-01,0.009
 Waco,2023-04-01,0.008
 Waco,2023-07-01,0.015
@@ -69126,14 +69126,14 @@ Wage Wars Get Rich Die Handsome,2021-10-01,0.0
 Wage Wars Get Rich Die Handsome,2022-01-01,0.0
 Wage Wars Get Rich Die Handsome,2022-04-01,0.0
 Wage Wars Get Rich Die Handsome,2022-07-01,0.0
-Wage Wars Get Rich Die Handsome,2022-10-01,0.123
-Wage Wars Get Rich Die Handsome,2023-01-01,0.118
-Wage Wars Get Rich Die Handsome,2023-04-01,0.108
+Wage Wars Get Rich Die Handsome,2022-10-01,0.124
+Wage Wars Get Rich Die Handsome,2023-01-01,0.119
+Wage Wars Get Rich Die Handsome,2023-04-01,0.109
 Wage Wars Get Rich Die Handsome,2023-07-01,0.104
-Wage Wars Get Rich Die Handsome,2023-10-01,0.167
-Wage Wars Get Rich Die Handsome,2024-01-01,0.161
-Wage Wars Get Rich Die Handsome,2024-04-01,0.141
-Wage Wars Get Rich Die Handsome,2024-07-01,0.14
+Wage Wars Get Rich Die Handsome,2023-10-01,0.168
+Wage Wars Get Rich Die Handsome,2024-01-01,0.163
+Wage Wars Get Rich Die Handsome,2024-04-01,0.142
+Wage Wars Get Rich Die Handsome,2024-07-01,0.141
 Wage Wars Get Rich Die Handsome,2024-10-01,0.056
 Wage Wars Get Rich Die Handsome,2025-01-01,0.051
 Wage Wars Get Rich Die Handsome,2025-04-01,0.057
@@ -69267,7 +69267,7 @@ Water Tower,2023-07-01,0.0
 Water Tower,2023-10-01,0.0
 Water Tower,2024-01-01,0.0
 Water Tower,2024-04-01,0.0
-Water Tower,2024-07-01,0.084
+Water Tower,2024-07-01,0.085
 Water Tower,2024-10-01,0.159
 Water Tower,2025-01-01,0.27
 Water Tower,2025-04-01,0.301
@@ -69394,7 +69394,7 @@ Waving at You,2021-10-01,0.017
 Waving at You,2022-01-01,0.017
 Waving at You,2022-04-01,0.018
 Waving at You,2022-07-01,0.013
-Waving at You,2022-10-01,0.009
+Waving at You,2022-10-01,0.01
 Waving at You,2023-01-01,0.009
 Waving at You,2023-04-01,0.017
 Waving at You,2023-07-01,0.015
@@ -69528,14 +69528,14 @@ Waylon Jennings Live!,2021-10-01,0.217
 Waylon Jennings Live!,2022-01-01,0.2
 Waylon Jennings Live!,2022-04-01,0.211
 Waylon Jennings Live!,2022-07-01,0.187
-Waylon Jennings Live!,2022-10-01,0.208
-Waylon Jennings Live!,2023-01-01,0.227
-Waylon Jennings Live!,2023-04-01,0.217
-Waylon Jennings Live!,2023-07-01,0.2
-Waylon Jennings Live!,2023-10-01,0.183
-Waylon Jennings Live!,2024-01-01,0.202
-Waylon Jennings Live!,2024-04-01,0.19
-Waylon Jennings Live!,2024-07-01,0.196
+Waylon Jennings Live!,2022-10-01,0.21
+Waylon Jennings Live!,2023-01-01,0.229
+Waylon Jennings Live!,2023-04-01,0.218
+Waylon Jennings Live!,2023-07-01,0.201
+Waylon Jennings Live!,2023-10-01,0.185
+Waylon Jennings Live!,2024-01-01,0.203
+Waylon Jennings Live!,2024-04-01,0.191
+Waylon Jennings Live!,2024-07-01,0.197
 Waylon Jennings Live!,2024-10-01,0.183
 Waylon Jennings Live!,2025-01-01,0.161
 Waylon Jennings Live!,2025-04-01,0.171
@@ -69662,12 +69662,12 @@ We Do It Different on the West Coast,2021-10-01,0.0
 We Do It Different on the West Coast,2022-01-01,0.0
 We Do It Different on the West Coast,2022-04-01,0.0
 We Do It Different on the West Coast,2022-07-01,0.16
-We Do It Different on the West Coast,2022-10-01,0.123
-We Do It Different on the West Coast,2023-01-01,0.118
-We Do It Different on the West Coast,2023-04-01,0.108
-We Do It Different on the West Coast,2023-07-01,0.096
-We Do It Different on the West Coast,2023-10-01,0.108
-We Do It Different on the West Coast,2024-01-01,0.105
+We Do It Different on the West Coast,2022-10-01,0.124
+We Do It Different on the West Coast,2023-01-01,0.119
+We Do It Different on the West Coast,2023-04-01,0.109
+We Do It Different on the West Coast,2023-07-01,0.097
+We Do It Different on the West Coast,2023-10-01,0.109
+We Do It Different on the West Coast,2024-01-01,0.106
 We Do It Different on the West Coast,2024-04-01,0.092
 We Do It Different on the West Coast,2024-07-01,0.007
 We Do It Different on the West Coast,2024-10-01,0.0
@@ -69796,7 +69796,7 @@ We Have Seen the Enemy,2021-10-01,0.0
 We Have Seen the Enemy,2022-01-01,0.0
 We Have Seen the Enemy,2022-04-01,0.0
 We Have Seen the Enemy,2022-07-01,0.0
-We Have Seen the Enemy,2022-10-01,0.009
+We Have Seen the Enemy,2022-10-01,0.01
 We Have Seen the Enemy,2023-01-01,0.009
 We Have Seen the Enemy,2023-04-01,0.008
 We Have Seen the Enemy,2023-07-01,0.007
@@ -70198,14 +70198,14 @@ Wear Black,2021-10-01,0.217
 Wear Black,2022-01-01,0.017
 Wear Black,2022-04-01,0.018
 Wear Black,2022-07-01,0.013
-Wear Black,2022-10-01,0.208
-Wear Black,2023-01-01,0.264
-Wear Black,2023-04-01,0.267
-Wear Black,2023-07-01,0.289
-Wear Black,2023-10-01,0.367
-Wear Black,2024-01-01,0.363
-Wear Black,2024-04-01,0.324
-Wear Black,2024-07-01,0.322
+Wear Black,2022-10-01,0.2
+Wear Black,2023-01-01,0.257
+Wear Black,2023-04-01,0.261
+Wear Black,2023-07-01,0.284
+Wear Black,2023-10-01,0.361
+Wear Black,2024-01-01,0.358
+Wear Black,2024-04-01,0.319
+Wear Black,2024-07-01,0.317
 Wear Black,2024-10-01,0.206
 Wear Black,2025-01-01,0.139
 Wear Black,2025-04-01,0.13
@@ -70332,7 +70332,7 @@ Weekend in Western Illinois,2021-10-01,0.0
 Weekend in Western Illinois,2022-01-01,0.017
 Weekend in Western Illinois,2022-04-01,0.018
 Weekend in Western Illinois,2022-07-01,0.013
-Weekend in Western Illinois,2022-10-01,0.009
+Weekend in Western Illinois,2022-10-01,0.01
 Weekend in Western Illinois,2023-01-01,0.009
 Weekend in Western Illinois,2023-04-01,0.017
 Weekend in Western Illinois,2023-07-01,0.015
@@ -70869,10 +70869,10 @@ When a Powerful Animal Comes,2022-01-01,0.067
 When a Powerful Animal Comes,2022-04-01,0.07
 When a Powerful Animal Comes,2022-07-01,0.053
 When a Powerful Animal Comes,2022-10-01,0.038
-When a Powerful Animal Comes,2023-01-01,0.036
-When a Powerful Animal Comes,2023-04-01,0.033
+When a Powerful Animal Comes,2023-01-01,0.037
+When a Powerful Animal Comes,2023-04-01,0.034
 When a Powerful Animal Comes,2023-07-01,0.03
-When a Powerful Animal Comes,2023-10-01,0.033
+When a Powerful Animal Comes,2023-10-01,0.034
 When a Powerful Animal Comes,2024-01-01,0.0
 When a Powerful Animal Comes,2024-04-01,0.0
 When a Powerful Animal Comes,2024-07-01,0.0
@@ -71002,11 +71002,11 @@ White Cedar,2021-10-01,0.1
 White Cedar,2022-01-01,0.183
 White Cedar,2022-04-01,0.193
 White Cedar,2022-07-01,0.173
-White Cedar,2022-10-01,0.123
-White Cedar,2023-01-01,0.118
-White Cedar,2023-04-01,0.108
-White Cedar,2023-07-01,0.096
-White Cedar,2023-10-01,0.058
+White Cedar,2022-10-01,0.124
+White Cedar,2023-01-01,0.119
+White Cedar,2023-04-01,0.109
+White Cedar,2023-07-01,0.097
+White Cedar,2023-10-01,0.059
 White Cedar,2024-01-01,0.016
 White Cedar,2024-04-01,0.014
 White Cedar,2024-07-01,0.0
@@ -71136,9 +71136,9 @@ Whole Wide World,2021-10-01,0.167
 Whole Wide World,2022-01-01,0.167
 Whole Wide World,2022-04-01,0.175
 Whole Wide World,2022-07-01,0.133
-Whole Wide World,2022-10-01,0.094
-Whole Wide World,2023-01-01,0.091
-Whole Wide World,2023-04-01,0.083
+Whole Wide World,2022-10-01,0.095
+Whole Wide World,2023-01-01,0.092
+Whole Wide World,2023-04-01,0.084
 Whole Wide World,2023-07-01,0.067
 Whole Wide World,2023-10-01,0.0
 Whole Wide World,2024-01-01,0.008
@@ -71271,7 +71271,7 @@ Wild Sage,2022-01-01,0.067
 Wild Sage,2022-04-01,0.053
 Wild Sage,2022-07-01,0.053
 Wild Sage,2022-10-01,0.038
-Wild Sage,2023-01-01,0.027
+Wild Sage,2023-01-01,0.028
 Wild Sage,2023-04-01,0.025
 Wild Sage,2023-07-01,0.022
 Wild Sage,2023-10-01,0.017
@@ -71672,14 +71672,14 @@ Woke Up New,2021-10-01,0.233
 Woke Up New,2022-01-01,0.317
 Woke Up New,2022-04-01,0.316
 Woke Up New,2022-07-01,0.373
-Woke Up New,2022-10-01,0.358
-Woke Up New,2023-01-01,0.355
-Woke Up New,2023-04-01,0.358
-Woke Up New,2023-07-01,0.319
-Woke Up New,2023-10-01,0.292
-Woke Up New,2024-01-01,0.226
-Woke Up New,2024-04-01,0.289
-Woke Up New,2024-07-01,0.224
+Woke Up New,2022-10-01,0.362
+Woke Up New,2023-01-01,0.358
+Woke Up New,2023-04-01,0.361
+Woke Up New,2023-07-01,0.321
+Woke Up New,2023-10-01,0.294
+Woke Up New,2024-01-01,0.228
+Woke Up New,2024-04-01,0.291
+Woke Up New,2024-07-01,0.225
 Woke Up New,2024-10-01,0.19
 Woke Up New,2025-01-01,0.175
 Woke Up New,2025-04-01,0.163
@@ -71806,13 +71806,13 @@ Wolf Count,2021-10-01,0.2
 Wolf Count,2022-01-01,0.3
 Wolf Count,2022-04-01,0.316
 Wolf Count,2022-07-01,0.32
-Wolf Count,2022-10-01,0.226
-Wolf Count,2023-01-01,0.218
-Wolf Count,2023-04-01,0.2
-Wolf Count,2023-07-01,0.17
-Wolf Count,2023-10-01,0.125
+Wolf Count,2022-10-01,0.229
+Wolf Count,2023-01-01,0.22
+Wolf Count,2023-04-01,0.202
+Wolf Count,2023-07-01,0.172
+Wolf Count,2023-10-01,0.126
 Wolf Count,2024-01-01,0.073
-Wolf Count,2024-04-01,0.077
+Wolf Count,2024-04-01,0.078
 Wolf Count,2024-07-01,0.035
 Wolf Count,2024-10-01,0.04
 Wolf Count,2025-01-01,0.036
@@ -72208,14 +72208,14 @@ You Were Cool,2021-10-01,0.0
 You Were Cool,2022-01-01,0.017
 You Were Cool,2022-04-01,0.018
 You Were Cool,2022-07-01,0.013
-You Were Cool,2022-10-01,0.028
-You Were Cool,2023-01-01,0.045
-You Were Cool,2023-04-01,0.058
-You Were Cool,2023-07-01,0.096
-You Were Cool,2023-10-01,0.133
-You Were Cool,2024-01-01,0.153
-You Were Cool,2024-04-01,0.148
-You Were Cool,2024-07-01,0.161
+You Were Cool,2022-10-01,0.029
+You Were Cool,2023-01-01,0.046
+You Were Cool,2023-04-01,0.059
+You Were Cool,2023-07-01,0.097
+You Were Cool,2023-10-01,0.134
+You Were Cool,2024-01-01,0.154
+You Were Cool,2024-04-01,0.149
+You Were Cool,2024-07-01,0.162
 You Were Cool,2024-10-01,0.183
 You Were Cool,2025-01-01,0.168
 You Were Cool,2025-04-01,0.171
@@ -72342,14 +72342,14 @@ You or Your Memory,2021-10-01,0.55
 You or Your Memory,2022-01-01,0.5
 You or Your Memory,2022-04-01,0.474
 You or Your Memory,2022-07-01,0.467
-You or Your Memory,2022-10-01,0.5
-You or Your Memory,2023-01-01,0.509
-You or Your Memory,2023-04-01,0.5
-You or Your Memory,2023-07-01,0.481
-You or Your Memory,2023-10-01,0.392
-You or Your Memory,2024-01-01,0.411
-You or Your Memory,2024-04-01,0.387
-You or Your Memory,2024-07-01,0.385
+You or Your Memory,2022-10-01,0.495
+You or Your Memory,2023-01-01,0.505
+You or Your Memory,2023-04-01,0.496
+You or Your Memory,2023-07-01,0.478
+You or Your Memory,2023-10-01,0.387
+You or Your Memory,2024-01-01,0.407
+You or Your Memory,2024-04-01,0.383
+You or Your Memory,2024-07-01,0.38
 You or Your Memory,2024-10-01,0.31
 You or Your Memory,2025-01-01,0.321
 You or Your Memory,2025-04-01,0.317
@@ -72744,7 +72744,7 @@ Young Caesar 2000,2021-10-01,0.0
 Young Caesar 2000,2022-01-01,0.0
 Young Caesar 2000,2022-04-01,0.0
 Young Caesar 2000,2022-07-01,0.0
-Young Caesar 2000,2022-10-01,0.009
+Young Caesar 2000,2022-10-01,0.01
 Young Caesar 2000,2023-01-01,0.009
 Young Caesar 2000,2023-04-01,0.008
 Young Caesar 2000,2023-07-01,0.007
@@ -72878,14 +72878,14 @@ Younger,2021-10-01,0.3
 Younger,2022-01-01,0.283
 Younger,2022-04-01,0.298
 Younger,2022-07-01,0.347
-Younger,2022-10-01,0.245
-Younger,2023-01-01,0.282
-Younger,2023-04-01,0.258
-Younger,2023-07-01,0.296
-Younger,2023-10-01,0.375
-Younger,2024-01-01,0.258
-Younger,2024-04-01,0.225
-Younger,2024-07-01,0.161
+Younger,2022-10-01,0.248
+Younger,2023-01-01,0.284
+Younger,2023-04-01,0.261
+Younger,2023-07-01,0.299
+Younger,2023-10-01,0.378
+Younger,2024-01-01,0.26
+Younger,2024-04-01,0.227
+Younger,2024-07-01,0.162
 Younger,2024-10-01,0.19
 Younger,2025-01-01,0.131
 Younger,2025-04-01,0.138
@@ -73146,11 +73146,11 @@ Your Belgian Things,2021-10-01,0.033
 Your Belgian Things,2022-01-01,0.017
 Your Belgian Things,2022-04-01,0.018
 Your Belgian Things,2022-07-01,0.053
-Your Belgian Things,2022-10-01,0.085
-Your Belgian Things,2023-01-01,0.091
+Your Belgian Things,2022-10-01,0.086
+Your Belgian Things,2023-01-01,0.092
 Your Belgian Things,2023-04-01,0.092
-Your Belgian Things,2023-07-01,0.081
-Your Belgian Things,2023-10-01,0.083
+Your Belgian Things,2023-07-01,0.082
+Your Belgian Things,2023-10-01,0.084
 Your Belgian Things,2024-01-01,0.089
 Your Belgian Things,2024-04-01,0.085
 Your Belgian Things,2024-07-01,0.063
