@@ -171,6 +171,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "1998-06-14_-_Detroit,_MI",1998-06-14,,204.0,18.0,3.533117252669932,0.39061453471286584
 "2016-12-02_-_The_Pinhook_-_Durham,_NC",2016-12-02,,538.0,20.0,3.531733323250152,0.16177068895699515
 "2014-04-19_-_Old_Town_School_of_Folk_Music_-_Chicago,_IL",2014-04-19,Ghost Cave Incubation Chamber Solo Non-Tour Tour 2014,496.0,21.0,3.5100764069635164,0.19781842905302255
+"2026-10-05_-_Kuudes_Linja_-_Helsinki,_Finland",2026-10-05,Do you know how short the days are? 2026 Tour,695.0,23.0,3.5041621067830504,0.1358027700013482
 "2007-05-05_-_Local_506_-_Chapel_Hill,_NC",2007-05-05,,343.0,14.0,3.488539849568992,0.17042778815390358
 "2008-03-20_-_First_Unitarian_Church_-_Philadelphia,_PA",2008-03-20,Revelation Time Tour 2008,378.0,13.0,3.4878226667246226,0.1855139090702712
 "2019-11-09_-_Slaktkyrkan_-_Stockholm,_Sweden",2019-11-09,Wyvern's Ring Tour 2019,583.0,22.0,3.477431217713729,0.16180990670225834
@@ -333,6 +334,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2009-03-27_-_The_Society_for_Ethical_Culture_-_New_York,_NY",2009-03-27,Gone Primitive Tour,400.0,20.0,2.8052952969572864,0.19006119939967003
 "2008-12-05_-_Manning_Bar_-_Sydney,_Australia",2008-12-05,Australia and New Zealand Tour 2008,389.0,17.0,2.8035335534363797,0.1611352113050389
 "1999-01-24_-_Echo_Lounge_-_Atlanta,_GA",1999-01-24,Eastern United States Tour 1999,211.0,14.0,2.8033890443392404,0.37987002173600654
+"2026-10-12_-_Pop_Seasons_at_Christianskirche_-_Hamburg,_Germany",2026-10-12,Do you know how short the days are? 2026 Tour,695.0,19.0,2.7980449127502407,0.12115317651800789
 "2023-07-02_-_SPACE_-_Evanston,_IL",2023-07-02,Spectral Tide Tour 2023,648.0,21.0,2.79507135367869,0.12251565010349694
 "2003-09-26_-_Walter's_on_Washington_-_Houston,_TX",2003-09-26,Western U.S. Tour 2003,286.0,14.0,2.7949612475091383,0.18780534866103749
 "2007-04-04_-_Woody_West_@_Pusterviksbaren_-_Gothenburg,_Sweden",2007-04-04,Scandinavian Tour 2007,343.0,13.0,2.794069971902566,0.1552503708695589
@@ -436,6 +438,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2002-03-11_-_The_Maintenance_Shop_-_Ames,_IA",2002-03-11,Midwest Tour 2002,257.0,19.0,2.4992108466590883,0.268856563026322
 "2013-06-08_-_Port_City_Music_Hall_-_Portland,_ME",2013-06-08,Tuttlingen Warriors Tour 2013,482.0,22.0,2.49721004163356,0.1536369978729815
 "2002-04-13_-_Sky_Church_-_Experience_Music_Project_-_Seattle,_WA",2002-04-13,,257.0,14.0,2.4917091811059637,0.1995509732780504
+"2026-10-14_-_TivoliVredenburg_-_Utrecht,_The_Netherlands",2026-10-14,Do you know how short the days are? 2026 Tour,695.0,24.0,2.488499128227959,0.11526383580433273
 "2005-10-28_-_Fuel_Rocket_Club_-_Dartmouth_College_-_Hanover,_NH",2005-10-28,Fall Tour 2005,321.0,13.0,2.4876445045018842,0.13979130966143147
 "2024-10-13_-_Taft_Theatre_-_Cincinnati,_OH",2024-10-13,Rule of Three Tour 2024,665.0,20.0,2.4867751512816954,0.10057948806091543
 "2012-06-25_-_Mission_Theater_-_Portland,_OR",2012-06-25,Survivors Choice West Coast Tour 2012,473.0,21.0,2.484719017432263,0.1636362629003247
@@ -528,6 +531,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-06-23_-_Beacon_Theatre_-_New_York,_NY",2017-06-23,Summer Tour 2017,551.0,11.0,2.280878151709681,0.06873252759352873
 "2026-05-22_-_Bell's_Beer_Garden_-_Kalamazoo,_MI",2026-05-22,Hypnotic Waves Tour 2026,686.0,22.0,2.279765006162631,0.09877245600633683
 "2017-12-02_-_Mr._Small's_-_Millvale,_PA",2017-12-02,U.S. Fall Tour 2017,559.0,22.0,2.275918710610915,0.12581884597622625
+"2026-10-16_-_Albert_Hall_-_Manchester,_England",2026-10-16,Do you know how short the days are? 2026 Tour,695.0,22.0,2.2740886377306535,0.10128270933395842
 "2022-09-09_-_Bogart's_-_Cincinnati,_OH",2022-09-09,Fall Tour 2022,645.0,26.0,2.2727111315208295,0.1247150412004553
 "2026-05-17_-_College_Street_Music_Hall_-_New_Haven,_CT",2026-05-17,Hypnotic Waves Tour 2026,686.0,21.0,2.2718848820468787,0.09739755593828378
 "2012-05-06_-_The_Metro_-_Sydney,_Australia",2012-05-06,Australian Tour 2012,471.0,21.0,2.271602810162292,0.1315510484252868
@@ -643,6 +647,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2019-08-09_-_College_Street_Music_Hall_-_New_Haven,_CT",2019-08-09,Protector's Wrath Tour 2019,581.0,24.0,2.0836097694539912,0.11290328567078564
 "2012-01-24_-_The_Social_-_Orlando,_FL",2012-01-24,New Hymns for the Advent of the Serpent God Tour 2012,464.0,18.0,2.0827534368116813,0.11218036597019655
 "2022-06-25_-_That_Music_Fest_-_Durham,_NC",2022-06-25,,632.0,15.0,2.0806274110883867,0.07515249413903101
+"2026-10-18_-_Vicar_Street_-_Dublin,_Ireland",2026-10-18,Do you know how short the days are? 2026 Tour,695.0,22.0,2.07917365035929,0.09513301502224299
 "2026-05-23_-_The_Vogue_-_Indianapolis,_IN",2026-05-23,Hypnotic Waves Tour 2026,686.0,22.0,2.078393327559888,0.09551022207263661
 "2007-09-30_-_Middle_East_Downstairs_-_Cambridge,_MA",2007-09-30,Northeast Tour 2007,360.0,16.0,2.0783399051303615,0.13350342871248347
 "2016-12-05_-_Cat's_Cradle_-_Carrboro,_NC",2016-12-05,,539.0,19.0,2.07522608731335,0.10014666929381984
@@ -672,6 +677,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2014-06-07_-_Kilby_Court_-_Salt_Lake_City,_UT",2014-06-07,Twin Inhuman Highway Fiends Tour 2014,497.0,19.0,2.041518301253533,0.13056320706115473
 "2023-12-08_-_Homer_Center_for_the_Arts_-_Homer,_NY",2023-12-08,Reinforced Safety Visor Tour 2023,658.0,21.0,2.0409615667150853,0.09566528715308302
 "2008-12-10_-_Billboard_-_Melbourne,_Australia",2008-12-10,Australia and New Zealand Tour 2008,389.0,19.0,2.038144481277183,0.14438478233372343
+"2026-10-13_-_De_Centrale_-_Ghent,_BE",2026-10-13,Do you know how short the days are? 2026 Tour,695.0,22.0,2.0354431262815487,0.09077052567848615
 "2026-04-19_-_Freo.Social_-_Fremantle,_AU",2026-04-19,Heralds of Triton Tour 2026,683.0,21.0,2.0332369800510532,0.08790742009901117
 "2017-04-12_-_The_Corner_Hotel_-_Melbourne,_Australia",2017-04-12,Australian Tour 2017,543.0,23.0,2.0303879306085046,0.12376246594182344
 "2013-06-14_-_Taft_Ballroom_-_Cincinnati,_OH",2013-06-14,Tuttlingen Warriors Tour 2013,482.0,20.0,2.0299362160533727,0.11891459137380021
@@ -702,6 +708,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2017-06-06_-_Tractor_Tavern_-_Seattle,_WA",2017-06-06,Grey King Ascendant Tour 2017,551.0,19.0,1.9935433370999107,0.08944685861328558
 "2025-12-03_-_Neptune_Theatre_-_Seattle,_WA",2025-12-03,Winter Tour 2025,681.0,21.0,1.9933275881686192,0.0919015486091694
 "2021-10-22_-_College_Street_Music_Hall_-_New_Haven,_CT",2021-10-22,Cave Angel Ascendancy Tour 2021,629.0,26.0,1.9925739916966447,0.11458543768547205
+"2026-10-11_-_Metropol_-_Berlin,_Germany",2026-10-11,Do you know how short the days are? 2026 Tour,695.0,22.0,1.9908197168936708,0.09056890088912206
 "2022-11-17_-_Albert_Hall_-_Manchester,_England",2022-11-17,European Tour 2022,645.0,24.0,1.9898525687944304,0.10811719095920898
 "2026-05-30_-_40_Watt_Club_-_Athens,_GA",2026-05-30,Hypnotic Waves Tour 2026,687.0,25.0,1.987411192247424,0.0966123317926976
 "2014-06-18_-_Crescent_Ballroom_-_Phoenix,_AZ",2014-06-18,Twin Inhuman Highway Fiends Tour 2014,506.0,19.0,1.9864236643265334,0.11861358546649226
@@ -791,6 +798,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2012-05-10_-_The_Corner_Hotel_-_Melbourne,_Australia",2012-05-10,Australian Tour 2012,471.0,26.0,1.8579530455949604,0.12876249592706018
 "2015-11-22_-_Paradiso_Noord,_Tolhuistuin_-_Amsterdam,_Netherlands",2015-11-22,European Tour 2015,523.0,20.0,1.8550015095095174,0.0964667603164324
 "2024-05-26_-_Vicar_Street_-_Dublin,_Ireland",2024-05-26,European Tour 2024,665.0,20.0,1.8531156055062952,0.08347913165797181
+"2026-10-10_-_Pumpehuset_-_Copenhagen,_Denmark",2026-10-10,Do you know how short the days are? 2026 Tour,695.0,24.0,1.8477301825049224,0.08562193474481498
 "2023-12-07_-_Town_Ballroom_-_Buffalo,_NY",2023-12-07,Reinforced Safety Visor Tour 2023,658.0,22.0,1.8477114264125831,0.0874670822843031
 "2012-01-30_-_40_Watt_Club_-_Athens,_GA",2012-01-30,New Hymns for the Advent of the Serpent God Tour 2012,464.0,21.0,1.8462014572688739,0.10637728262278348
 "2023-12-13_-_Vinyl_Music_Hall_-_Penascola,_FL",2023-12-13,Reinforced Safety Visor Tour 2023,658.0,22.0,1.8433232186673267,0.08732470182796176
@@ -874,6 +882,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2003-09-27_-_Mercury_-_Austin,_TX",2003-09-27,Western U.S. Tour 2003,288.0,16.0,1.725449034357299,0.16571285266187172
 "2004-03-31_-_ICA_-_London,_England",2004-03-31,European Tour 2004,293.0,16.0,1.7243699833422796,0.13469360346220532
 "2022-09-16_-_Paramount_Theatre_-_Austin,_TX",2022-09-16,Fall Tour 2022,645.0,25.0,1.7207262874645743,0.09379199243466256
+"2026-10-07_-_Nalen_-_Stockholm,_Sweden",2026-10-07,Do you know how short the days are? 2026 Tour,695.0,19.0,1.7204923479945544,0.07883146602324044
 "2011-04-07_-_Variety_Playhouse_-_Atlanta,_GA",2011-04-07,Full Fish Moon Tour 2011,453.0,21.0,1.7169809862024519,0.11558020266195823
 "2015-06-07_-_Houston_Free_Press_Festival_-_Houston,_TX",2015-06-07,Regional Heat Tour 2015,521.0,14.0,1.7164830246419311,0.103341002098838
 "2012-10-15_-_Bowery_Ballroom_-_New_York,_NY",2012-10-15,Nameless Dark Tour 2012,478.0,20.0,1.7155964847154124,0.10263715683402633
@@ -923,6 +932,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2016-09-23_-_Castle_Theatre_-_Bloomington,_IL",2016-09-23,We Who Walk Behind the Rows Fall Tour 2016,536.0,23.0,1.634544769143962,0.10748354855946579
 "2019-08-29_-_Pink_Garter_Theatre_-_Jackson,_WY",2019-08-29,Chamber of the Wyvern Tour 2019,581.0,20.0,1.6335443025837073,0.09626880646863199
 "2004-10-11_-_The_Black_Cat_-_Washington,_D.C.",2004-10-11,Fall Tour 2004,306.0,16.0,1.631487063172231,0.14160514873935834
+"2026-10-08_-_Vulkan_Arena_-_Oslo,_Norway",2026-10-08,Do you know how short the days are? 2026 Tour,695.0,23.0,1.6312997389273414,0.07814165361021833
 "2009-11-29_-_Wilbur_Theatre_-_Boston,_MA",2009-11-29,American Autumn Tour 2009,422.0,21.0,1.6300027184874162,0.11788272641909421
 "2017-10-11_-_O2_Shepherd's_Bush_Empire_-_London,_England",2017-10-11,European Tour 2017,555.0,24.0,1.6296213400685755,0.0917668435690093
 "2011-06-20_-_The_Fillmore_-_San_Francisco,_CA",2011-06-20,Blue Kachina Prophecy Tour 2011,456.0,23.0,1.627196775238203,0.11002882448981005

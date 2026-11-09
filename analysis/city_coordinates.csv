@@ -36,7 +36,7 @@ Bar Harbor,ME,1,44.3876,-68.2043,Bar Harbor,manual_override
 Barcelona,Spain,3,41.38879,2.15899,Barcelona,country
 Baton Rouge,LA,3,30.44332,-91.18747,Baton Rouge,us_state
 Bend,OR,1,44.05817,-121.31531,Bend,us_state
-Berlin,Germany,3,52.52437,13.41053,Berlin,country
+Berlin,Germany,4,52.52437,13.41053,Berlin,country
 Berwyn,IL,1,41.85059,-87.79367,Berwyn,us_state
 Bethlehem,PA,1,40.62593,-75.37046,Bethlehem,us_state
 Białystok,Poland,1,53.13333,23.16433,Białystok,country
@@ -84,7 +84,7 @@ Columbia,MD,1,39.24038,-76.83942,Columbia,us_state
 Columbia,MO,4,38.95171,-92.33407,Columbia,us_state
 Columbia,SC,2,34.00071,-81.03481,Columbia,us_state
 Columbus,OH,9,39.96118,-82.99879,Columbus,us_state
-Copenhagen,Denmark,2,55.67594,12.56553,Copenhagen,country
+Copenhagen,Denmark,3,55.67594,12.56553,Copenhagen,country
 Costa Mesa,CA,1,33.64113,-117.91867,Costa Mesa,us_state
 Covington,KY,1,39.08367,-84.50855,Covington,us_state
 Dallas,TX,8,32.78306,-96.80667,Dallas,us_state
@@ -94,7 +94,7 @@ Des Moines,IA,3,41.60054,-93.60911,Des Moines,us_state
 Detroit,MI,8,42.33143,-83.04575,Detroit,us_state
 Dordrecht,Netherlands,1,51.81,4.67361,Dordrecht,country
 Dorset,England,1,50.7391,-2.3382,Dorset,manual_override
-Dublin,Ireland,10,53.33306,-6.24889,Dublin,country
+Dublin,Ireland,11,53.33306,-6.24889,Dublin,country
 Durham,NC,32,35.99403,-78.89862,Durham,us_state
 Durham,NH,1,43.134,-70.9264,Durham,manual_override
 Eau Claire,WI,1,44.81135,-91.49849,Eau Claire,us_state
@@ -119,6 +119,7 @@ Gainesville,FL,3,29.65163,-82.32483,Gainesville,us_state
 Galesburg,IL,1,40.94782,-90.37124,Galesburg,us_state
 Gambier,OH,1,40.3759,-82.3972,Gambier,manual_override
 George,WA,1,47.079,-119.8559,George,manual_override
+Ghent,BE,1,,,,unrecognized_region
 Ghent,Belgium,1,51.05,3.7304,Ghent,manual_override
 Gilford,NH,1,43.5775,-71.4006,Gilford,manual_override
 Glasgow,Scotland,7,55.86515,-4.25763,Glasgow,country
@@ -131,6 +132,7 @@ Greensboro,NC,5,36.07264,-79.79198,Greensboro,us_state
 Greenville,SC,2,34.85262,-82.39401,Greenville,us_state
 Grinnell,IA,2,41.7434,-92.7232,Grinnell,manual_override
 Groningen,The Netherlands,1,53.21917,6.56667,Groningen,country
+Hamburg,Germany,1,53.55073,9.99302,Hamburg,country
 Hamilton,NY,1,42.827,-75.5446,Hamilton,manual_override
 Hammondsport,NY,1,42.408,-77.2238,Hammondsport,manual_override
 Hampton Bays,NY,1,40.869,-72.5176,Hampton Bays,manual_override
@@ -139,6 +141,7 @@ Harrisburg,PA,1,40.2737,-76.88442,Harrisburg,us_state
 Harrisonburg,VA,1,38.44957,-78.86892,Harrisonburg,us_state
 Hartford,CT,2,41.76371,-72.68509,Hartford,us_state
 Haverford,PA,1,40.009,-75.3048,Haverford,manual_override
+Helsinki,Finland,1,60.16952,24.93545,Helsinki,country
 Hickory,NC,1,35.73319,-81.3412,Hickory,us_state
 Hobart,Australia,1,-42.87936,147.32941,Hobart,country
 Hoboken,NJ,1,40.74399,-74.03236,Hoboken,us_state
@@ -185,7 +188,7 @@ Lubbock,TX,1,33.57786,-101.85517,Lubbock,us_state
 Lyons,CO,1,40.2247,-105.2714,Lyons,manual_override
 Madison,WI,7,43.07305,-89.40123,Madison,us_state
 Madrid,Spain,2,40.4165,-3.70256,Madrid,country
-Manchester,England,8,53.48095,-2.23743,Manchester,country
+Manchester,England,9,53.48095,-2.23743,Manchester,country
 Maquoketa,IA,2,42.0689,-90.6657,Maquoketa,manual_override
 Marquee Live at Home,,1,,,,unrecognized_region
 Melbourne,AU,1,-37.814,144.96332,Melbourne,country
@@ -227,7 +230,7 @@ Olympia,WA,3,47.04491,-122.90169,Olympia,us_state
 Omaha,NE,6,41.25626,-95.94043,Omaha,us_state
 Orange,CA,1,33.78779,-117.85311,Orange,us_state
 Orlando,FL,8,28.53834,-81.37924,Orlando,us_state
-Oslo,Norway,3,59.91273,10.74609,Oslo,country
+Oslo,Norway,4,59.91273,10.74609,Oslo,country
 Ottawa,ON,1,45.41117,-75.69812,Ottawa,canada
 Ourense,Spain,1,42.33669,-7.86407,Ourense,country
 Oxford,MS,2,34.3665,-89.51925,Oxford,us_state
@@ -295,7 +298,7 @@ St. Augustine,FL,7,29.8922,-81.3139,St. Augustine,manual_override
 St. Louis,MO,11,38.62727,-90.19789,St. Louis,us_state
 St. Paul,MN,4,44.94441,-93.09327,Saint Paul,us_state
 St. Petersburg,FL,3,27.77086,-82.67927,St. Petersburg,us_state
-Stockholm,Sweden,4,59.32938,18.06871,Stockholm,country
+Stockholm,Sweden,5,59.32938,18.06871,Stockholm,country
 Swarthmore,PA,2,39.9021,-75.3499,Swarthmore,manual_override
 Sweden,,1,,,,unrecognized_region
 Sydney,AU,1,-33.86785,151.20732,Sydney,country
@@ -312,7 +315,7 @@ Tulsa,OK,3,36.15398,-95.99277,Tulsa,us_state
 Umea,Sweden,1,63.82842,20.25972,Umeå,country
 Urbana,IL,3,40.11059,-88.20727,Urbana,us_state
 Utrecht,Netherlands,1,52.09083,5.12222,Utrecht,country
-Utrecht,The Netherlands,2,52.09083,5.12222,Utrecht,country
+Utrecht,The Netherlands,3,52.09083,5.12222,Utrecht,country
 Vancouver,BC,1,49.24966,-123.11934,Vancouver,canada
 Vancouver,British Columbia,5,49.24966,-123.11934,Vancouver,canada
 Ventura,CA,1,34.27834,-119.29317,Ventura,us_state
