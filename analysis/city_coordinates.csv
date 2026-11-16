@@ -55,7 +55,7 @@ Bremen,Germany,1,53.07582,8.80717,Bremen,country
 Brighton,England,5,50.82838,-0.13947,Brighton,country
 Brisbane,AU,1,-27.46794,153.02809,Brisbane,country
 Brisbane,Australia,4,-27.46794,153.02809,Brisbane,country
-Bristol,England,4,51.45523,-2.59665,Bristol,country
+Bristol,England,5,51.45523,-2.59665,Bristol,country
 Brooklyn,NY,16,40.6501,-73.94958,Brooklyn,us_state
 Brussels,Belgium,2,50.85045,4.34878,Brussels,country
 Buffalo,NY,6,42.88645,-78.87837,Buffalo,us_state
@@ -122,7 +122,7 @@ George,WA,1,47.079,-119.8559,George,manual_override
 Ghent,BE,1,,,,unrecognized_region
 Ghent,Belgium,1,51.05,3.7304,Ghent,manual_override
 Gilford,NH,1,43.5775,-71.4006,Gilford,manual_override
-Glasgow,Scotland,7,55.86515,-4.25763,Glasgow,country
+Glasgow,Scotland,8,55.86515,-4.25763,Glasgow,country
 Gothenberg,Sweden,1,57.70716,11.96679,Gothenburg,country
 Gothenburg,Sweden,3,57.70716,11.96679,Gothenburg,country
 Graham,NC,4,36.068,-79.4004,Graham,manual_override
@@ -180,7 +180,7 @@ Lisbon,Portugal,1,38.72509,-9.1498,Lisbon,country
 Lititz,PA,2,40.1573,-76.3069,Lititz,manual_override
 Little Rock,AR,2,34.74648,-92.28959,Little Rock,us_state
 Livermore,CA,2,37.68187,-121.76801,Livermore,us_state
-London,England,25,51.50853,-0.12574,London,country
+London,England,28,51.50853,-0.12574,London,country
 Lorne,Australia,1,-38.5369,143.9738,Lorne,manual_override
 Los Angeles,CA,24,34.05223,-118.24368,Los Angeles,us_state
 Louisville,KY,6,38.25424,-85.75941,Louisville,us_state
@@ -269,7 +269,7 @@ Salisbury,England,1,51.06931,-1.79569,Salisbury,country
 Salt Lake City,UT,7,40.76078,-111.89105,Salt Lake City,us_state
 San Antonio,TX,4,29.42412,-98.49363,San Antonio,us_state
 San Diego,CA,3,32.71571,-117.16472,San Diego,us_state
-San Francisco,CA,58,37.77493,-122.41942,San Francisco,us_state
+San Francisco,CA,59,37.77493,-122.41942,San Francisco,us_state
 San Luis Obispo,CA,2,35.28275,-120.65962,San Luis Obispo,us_state
 San Sebastian,Spain,1,43.3182,-1.9817,San Sebastian,manual_override
 Sanibel,FL,1,26.449,-82.0223,Sanibel,manual_override
