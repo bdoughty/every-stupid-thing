@@ -4,12 +4,14 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2007-05-11_-_Sound_Fix_-_Brooklyn,_NY",2007-05-11,,344.0,17.0,6.787166693980988,0.37410153166800375
 "2007-06-17_-_Zoop_-_Farm_Sanctuary_-_Watkins_Glen,_NY",2007-06-17,,350.0,14.0,6.363245523437704,0.3012990784754957
 "2012-06-10_-_Halfway_Festival_-_Białystok,_Poland",2012-06-10,,471.0,18.0,6.297921990605015,0.25896135609873366
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",2026-11-18,,695.0,21.0,6.294316951612229,0.2178653582414903
 "2009-06-14_-_Zoop_II_-_Farm_Sanctuary_-_Watkins_Glen,_NY",2009-06-14,,407.0,24.0,6.238438945911899,0.42050336677264954
 "2002-12-07_-_Amstel_Festival_-_Amsterdam,_The_Netherlands_(Extra_Glenns_set)",2002-12-07,,273.0,10.0,6.088765083305274,0.2572185565340238
 "2018-02-26_-_University_of_South_Alabama_-_Mobile,_AL",2018-02-26,,561.0,12.0,5.942515752746167,0.16748207723539096
 "2014-01-19_-_Rock_for_Roe_at_the_Pinhook_-_Durham,_NC",2014-01-19,,484.0,23.0,5.9004240956824745,0.3097684765118151
 "2017-12-14_-_Holocene_-_Portland,_OR",2017-12-14,,560.0,28.0,5.850357152041739,0.32230587387213866
 "2023-09-19_-_Brooklyn_Made_-_New_York,_NY",2023-09-19,,649.0,26.0,5.848926074189874,0.2661736081765101
+"2026-11-16_-_The_Fillmore_-_Night_Two:_Alpha_-_San_Francisco,_CA",2026-11-16,,695.0,23.0,5.831595727097554,0.2190417821892403
 "2000-03-05_-_The_Absolutely_Kosher_House_-_San_Francisco,_CA",2000-03-05,,228.0,11.0,5.7357835799898265,0.3621503409475911
 "2012-04-19_-_Benefit_to_Defeat_Amendment_One_-_Motorco_-_Durham,_NC",2012-04-19,,471.0,10.0,5.678192571102821,0.16314161141127798
 "2024-07-24_-_Merge_35_-_Cat's_Cradle_-_Carrboro,_NC",2024-07-24,,665.0,17.0,5.619850333173078,0.17657419747380998
@@ -33,6 +35,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2012-03-24_-_Merkin_Concert_Hall_-_New_York,_NY",2012-03-24,,464.0,10.0,5.187965166188586,0.14222960436033283
 "2020-02-21_-_Swedish_American_Hall_-_San_Francisco,_CA",2020-02-21,,589.0,17.0,5.170297482159441,0.19474198079966973
 "2009-06-13_-_Zoop_II_-_Farm_Sanctuary_-_Watkins_Glen,_NY",2009-06-13,,405.0,15.0,5.162579799412947,0.23839562737535627
+"2026-11-21_-_The_Fillmore_-_Night_Six:_Closers_-_San_Francisco,_CA",2026-11-21,,698.0,20.0,5.152554881535404,0.17675615336256037
 "2016-05-12_-_The_Pinhook_-_Durham,_NC",2016-05-12,,532.0,17.0,5.142574228983738,0.20399693495039367
 "2023-02-08_-_The_Ramkat_-_Winston-Salem,_NC",2023-02-08,Bufonite Smugglers Tour 2023,647.0,23.0,5.1357588174172815,0.2150181223701846
 "2008-06-06_-_Natural_History_Museum_-_Los_Angeles,_CA",2008-06-06,,380.0,18.0,5.102773665705412,0.28204254505850523
@@ -49,6 +52,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2016-12-16_-_House_Show_for_Scott_-_Cherry_Hill,_NJ",2016-12-16,,539.0,15.0,4.8426245612168,0.18121193829631468
 "2015-05-29_-_KEXP_Session_-_Alaska_Junction_-_Seattle,_WA",2015-05-29,,519.0,11.0,4.8411183549975645,0.12111335649411692
 "2003-06-27_-_Mains_D'oeuvres,_Mofo_Festival_-_Paris,_France",2003-06-27,,284.0,17.0,4.838408727376694,0.3141378027081545
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",2026-11-19,,695.0,21.0,4.825349553997665,0.17004517035789765
 "2004-04-20_-_Go!_Rehearsal_Studios,_Room_4_-_Carrboro,_NC",2004-04-20,,298.0,16.0,4.800624060723974,0.31068305245510924
 "2010-11-12_-_Chapman_University's_Memorial_Hall_-_Orange,_CA",2010-11-12,,435.0,19.0,4.793509341361996,0.24645423821016435
 "2010-07-31_-_Holidays_for_Quince_Benefit_-_The_Pinhook_-_Durham,_NC",2010-07-31,,426.0,19.0,4.752773200727363,0.24117884603570006
@@ -60,6 +64,7 @@ show_id,date,tour,n_candidates,n_played,mean_surprisal_played_bits,cross_entropy
 "2022-04-28_-_The_Regent_Theater_-_Los_Angeles,_CA",2022-04-28,Omu Cani Hypothesis Tour 2022,630.0,20.0,4.645233429300294,0.17593079052244834
 "2021-09-08_-_City_Winery_-_New_York,_NY",2021-09-08,Snake Nebula Tour 2021,618.0,21.0,4.64039683484972,0.23127064054239937
 "2004-08-20_-_Durham_Music_Festival_-_Durham_Armory_-_Durham,_NC",2004-08-20,,302.0,12.0,4.639639258741946,0.20854537608330848
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",2026-11-20,,698.0,18.0,4.618693183444628,0.14948470905771621
 "2011-02-15_-_University_of_Washington_-_Meany_Hall_-_Seattle,_WA",2011-02-15,,442.0,22.0,4.59970471737691,0.26723428040272396
 "2000-10-19_-_WFMU_Session_-_New_York,_NY",2000-10-19,,234.0,12.0,4.587226640955776,0.28003683519115
 "2025-07-25_-_Chautauqua_Amphitheater_-_Chautauqua,_NY",2025-07-25,Summer Tour 2025,666.0,13.0,4.571026794349344,0.1159911908062815

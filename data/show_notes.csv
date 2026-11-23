@@ -1517,7 +1517,7 @@ show_id,note_seq,note
 "2024-04-19_-_The_Stiefel_Theatre_-_Salina,_KS",2,The encore was songs 19 through 23.
 "2024-04-19_-_The_Stiefel_Theatre_-_Salina,_KS",3,The opener was Katy Kirby.
 "2024-04-22_-_Salvage_Station_-_Asheville,_NC",1,Songs 8-10 were performed by John Darnielle solo.
-"2024-04-22_-_Salvage_Station_-_Asheville,_NC",2,The encore was songs 20 through 23.
+"2024-04-22_-_Salvage_Station_-_Asheville,_NC",2,The encore was songs 19 through 22.
 "2024-04-22_-_Salvage_Station_-_Asheville,_NC",3,The opener was Katy Kirby.
 "2024-04-21_-_The_Caverns_-_Pelham,_TN",1,Songs 8-10 were performed by John Darnielle solo.
 "2024-04-21_-_The_Caverns_-_Pelham,_TN",2,The encore was songs 19 through 22.
@@ -1907,6 +1907,7 @@ show_id,note_seq,note
 "2026-09-16_-_Reckless_Records_-_Chicago,_IL",2,The encore was song 15.
 "2026-09-17_-_The_Pageant_-_St_Louis,_MO",1,This is the first show in which the Mountain Goats opened for Candlebox.
 "2026-09-17_-_The_Pageant_-_St_Louis,_MO",2,Rob Jost played bass.
+"2026-09-17_-_The_Pageant_-_St_Louis,_MO",3,"According to the setlist thrown into the crowd, Against Pollution was cut for time. It was meant to be played in between Younger and Last Day."
 "2026-09-18_-_The_City_Center_-_Champaign,_IL",1,Rob Jost played bass.
 "2026-09-18_-_The_City_Center_-_Champaign,_IL",2,Songs 8-11 were played solo by John Darnielle (the band joined halfway through song 11).
 "2026-09-18_-_The_City_Center_-_Champaign,_IL",3,The encore was songs 20-22.
@@ -1945,3 +1946,52 @@ show_id,note_seq,note
 "2026-11-15_-_The_Fillmore_-_Night_One:_Openers_-_San_Francisco,_CA",4,Songs 8-11 were played solo by John Darnielle.
 "2026-11-15_-_The_Fillmore_-_Night_One:_Openers_-_San_Francisco,_CA",5,The encore was songs 18-21.
 "2026-11-15_-_The_Fillmore_-_Night_One:_Openers_-_San_Francisco,_CA",6,Matt Nathanson sang on song 21.
+"2026-11-16_-_The_Fillmore_-_Night_Two:_Alpha_-_San_Francisco,_CA",1,This was the second night of a six-show residency at The Fillmore.
+"2026-11-16_-_The_Fillmore_-_Night_Two:_Alpha_-_San_Francisco,_CA",2,"The theme of the show was ""Alpha"" and except for the encore, all songs were members of the Alpha series."
+"2026-11-16_-_The_Fillmore_-_Night_Two:_Alpha_-_San_Francisco,_CA",3,Cameron Ralston played bass.
+"2026-11-16_-_The_Fillmore_-_Night_Two:_Alpha_-_San_Francisco,_CA",4,Songs 7-12 were played solo by John Darnielle.
+"2026-11-16_-_The_Fillmore_-_Night_Two:_Alpha_-_San_Francisco,_CA",5,The encore was songs 19-23.
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",1,This was the third night of a six-show residency at The Fillmore.
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",2,"The theme of the show was ""Stump the Band"". With the exception of songs 17 and 21, all songs were chosen by randomly pulling a slip from a basket. JD explained that the slips in the basket consisted of songs that were suggested via an online poll, after removing ""the ones we’ve all touched as a band together""."
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",3,"JD explained that he played ""Steal Smoked Fish"" because it was the most common request, but when selecting the next song, Jon Wurster randomly drew ""Steal Smoked Fish"", and re-drew to select ""Going to Scotland""."
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",4,"After performing song 18, JD drew "" Get Famous "" but demurred because it has ""too many chords"". He announced that the audience had successfully stumped the band. He re-drew to select ""See America Right""."
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",5,"JD announced song 13 as ""Pure Intentions"" but played ""Pure Love""."
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",6,Cameron Ralston played bass.
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",7,Song 10 was played solo by John Darnielle.
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",8,Song 17 was played by John Darnielle and Matt Douglas .
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",9,Songs 13 and 17 were performed on keyboard.
+"2026-11-18_-_The_Fillmore_-_Night_Three:_Stump_the_Band_-_San_Francisco,_CA",10,The encore was songs 17-21.
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",1,This was the fourth night of a six-show residency at The Fillmore.
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",2,"Except for the encore, the show consisted entirely of all the songs from The Sunset Tree , played in sequence, and several unreleased songs that were left off the album because they were too ""raw""."
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",3,"The original theme of the show was ""Six Long Songs"", but shortly before the show the band announced on social media that this idea had been abandoned."
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",4,This was the first time an entire Mountain Goats studio release was performed in one night.
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",5,Dinu Lipatti's Bones was erroneously played before Dance Music .
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",6,This was the first public performance of Olympic Auditorium Niacin Blast and Came Home Late . The lyrics for both songs were previously published in This Year (book) .
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",7,"JD dedicated Dilaudid to a fan named Ross who had been hit by a car after attending the previous night's show, and was nonetheless in the audience that night, thanks to the titular pain medication."
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",8,Cameron Ralston played bass.
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",9,Songs 7-11 were played solo by John Darnielle.
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",10,Song 22 was performed on keyboard.
+"2026-11-19_-_The_Fillmore_-_Night_Four:_The_Sunset_Tree_-_San_Francisco,_CA",11,The encore was songs 19-24.
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",1,This was the fifth night of a six-show residency at The Fillmore.
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",2,"A string quartet and three brass players (members of the Magik Magik Orchestra), as well as two backup singers, performed along with the Mountain Goats: Violin 1: Evan Price Violin 2: Steph Bibbo Viola: Jory Fankuchen Cello: Erin Wang Saxophone and clarinet: David Steinberg Trumpet: Ari Micich Trombone: Kensey Chellis Backing vocals on songs 2-4, 7, 10-13, and 16-18: Briana Marela and Beth Garber"
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",3,Violin 1: Evan Price
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",4,Violin 2: Steph Bibbo
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",5,Viola: Jory Fankuchen
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",6,Cello: Erin Wang
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",7,Saxophone and clarinet: David Steinberg
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",8,Trumpet: Ari Micich
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",9,Trombone: Kensey Chellis
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",10,"Backing vocals on songs 2-4, 7, 10-13, and 16-18: Briana Marela and Beth Garber"
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",11,Minna Choi conducted the orchestra.
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",12,Matt Douglas arranged the songs for orchestra.
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",13,Cameron Ralston played bass.
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",14,Songs 8-10 were performed on keyboard by John Darnielle.
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",15,David Steinberg played clarinet on song 13 and saxophone on all others.
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",16,"This was the first performance of ""The Last Place I Saw You Alive"" for a live in-person audience."
+"2026-11-20_-_The_Fillmore_-_Night_Five:_Cast_of_Thousands_-_San_Francisco,_CA",17,The encore was songs 16-18.
+"2026-11-21_-_The_Fillmore_-_Night_Six:_Closers_-_San_Francisco,_CA",1,This was the last night of a six-show residency at The Fillmore.
+"2026-11-21_-_The_Fillmore_-_Night_Six:_Closers_-_San_Francisco,_CA",2,"The theme of the show was ""closers"" and except for songs 16-20, all songs were opening tracks from full-length albums."
+"2026-11-21_-_The_Fillmore_-_Night_Six:_Closers_-_San_Francisco,_CA",3,Cameron Ralston played bass.
+"2026-11-21_-_The_Fillmore_-_Night_Six:_Closers_-_San_Francisco,_CA",4,Songs 7-9 were performed on keyboard by John Darnielle.
+"2026-11-21_-_The_Fillmore_-_Night_Six:_Closers_-_San_Francisco,_CA",5,"JD described songs 6, 10, and 17 as ""the best Mountain Goats song""."
+"2026-11-21_-_The_Fillmore_-_Night_Six:_Closers_-_San_Francisco,_CA",6,The encore was songs 15-20.
